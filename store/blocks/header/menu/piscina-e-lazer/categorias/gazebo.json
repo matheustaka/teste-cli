@@ -1,0 +1,18 @@
+{
+  "menu-item#gazebo": {
+    "props": {
+      "id": "menu-item-gazebo",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/piscina-e-lazer/gazebo",
+        "noFollow": true,
+        "tagTitle": "Gazebo",
+        "text": "Gazebo"
+      },
+      "blockClass": "childSub"
+    }
+  }
+}

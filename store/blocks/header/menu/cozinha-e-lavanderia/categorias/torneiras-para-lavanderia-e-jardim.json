@@ -1,0 +1,90 @@
+{
+  "menu-item#torneiras-para-lavanderia-e-jardim": {
+    "props": {
+      "id": "menu-item-torneiras-para-lavanderia-e-jardim",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cozinha-e-lavanderia/torneiras-para-lavanderia-e-jardim",
+        "noFollow": true,
+        "tagTitle": "Torneiras para Lavanderia e Jardim",
+        "text": "Torneiras para Lavanderia e Jardim"
+      },
+      "blockClass": ["childSub", "have-children"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#torneiras-para-lavanderia-e-jardim"]
+  },
+
+  "vtex.menu@2.x:submenu#torneiras-para-lavanderia-e-jardim": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#torneiras-para-lavanderia-e-jardim"]
+  },
+
+  "vtex.menu@2.x:menu#torneiras-para-lavanderia-e-jardim": {
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-torneiras-para-lavanderia-e-jardim-ver-todos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinha-e-lavanderia/torneiras-para-lavanderia-e-jardim",
+            "noFollow": true,
+            "tagTitle": "Ver todos os produtos",
+            "text": "Ver todos os produtos"
+          },
+          "blockClass": ["ver-todos"]
+        },
+        {
+          "id": "torneira-para-jardim",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinha-e-lavanderia/torneiras-para-lavanderia-e-jardim/torneira-para-jardim",
+            "noFollow": true,
+            "tagTitle": "Torneira para Jardim",
+            "text": "Torneira para Jardim"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "torneira-para-maquina-de-lavar-e-tanque",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinha-e-lavanderia/torneiras-para-lavanderia-e-jardim/torneira-para-maquina-de-lavar-e-tanque",
+            "noFollow": true,
+            "tagTitle": "Torneira para Máquina de Lavar e Tanque",
+            "text": "Torneira para Máquina de Lavar e Tanque"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "torneira-para-tanque",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinha-e-lavanderia/torneiras-para-lavanderia-e-jardim/torneira-para-tanque",
+            "noFollow": true,
+            "tagTitle": "Torneira para Tanque",
+            "text": "Torneira para Tanque"
+          },
+          "blockClass": "child"
+        }
+      ]
+    }
+  }
+}

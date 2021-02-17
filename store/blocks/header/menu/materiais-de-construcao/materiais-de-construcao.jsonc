@@ -1,0 +1,72 @@
+{
+  "menu-item#materiais-de-construcao": {
+    "props": {
+      "id": "menu-item-materiais-de-construcao",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/materiais-de-construcao",
+        "noFollow": true,
+        "tagTitle": "Materiais de Construção",
+        "text": "Materiais de Construção"
+      },
+      "blockClass": ["department", "have-children"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#materiais-de-construcao"]
+  },
+
+  "vtex.menu@2.x:submenu#materiais-de-construcao": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#materiais-de-construcao"]
+  },
+
+  "vtex.menu@2.x:menu#materiais-de-construcao": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "drop-category"
+    },
+    "children": [
+      "rich-text#department-materiais-de-construcao",
+      "menu-item#materiais-de-construcao-ver-todos",
+      "menu-item#acos-para-construcao",
+      "menu-item#aditivos-e-adesivos",
+      "menu-item#areia-e-pedra",
+      "menu-item#argamassa-e-rejunte",
+      "menu-item#cercados-e-protecao",
+      "menu-item#chapas-e-madeira",
+      "menu-item#cimento-cal-e-gesso",
+      "menu-item#construcao-a-seco",
+      "menu-item#impermeabilizacao",
+      "menu-item#rodapes-portas-janelas-e-forros",
+      "menu-item#seguranca",
+      "menu-item#telhas-e-complementos",
+      "menu-item#tijolos-e-blocos"
+    ]
+  },
+  "rich-text#department-materiais-de-construcao": {
+    "props": {
+      "text": "Materiais de Construção",
+      "blockClass": "titulo-menu-department"
+    }
+  },
+  "menu-item#materiais-de-construcao-ver-todos": {
+    "props": {
+      "id": "menu-item-materiais-de-construcao-ver-todos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/materiais-de-construcao",
+        "noFollow": true,
+        "tagTitle": "Ver todos os produtos",
+        "text": "Ver todos os produtos"
+      },
+      "blockClass": [ "ver-todos"]
+    }
+  }
+}

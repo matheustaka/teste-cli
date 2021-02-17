@@ -1,0 +1,48 @@
+{
+  "menu-item#sistemas-de-seguranca": {
+    "props": {
+      "id": "menu-item-sistemas-de-seguranca",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/materiais-eletricos/sistemas-de-seguranca",
+        "noFollow": true,
+        "tagTitle": "Sistemas de Segurança",
+        "text": "Sistemas de Segurança"
+      },
+      "blockClass": ["childSub", "have-children"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#sistemas-de-seguranca"]
+  },
+
+  "vtex.menu@2.x:submenu#sistemas-de-seguranca": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#sistemas-de-seguranca"]
+  },
+
+  "vtex.menu@2.x:menu#sistemas-de-seguranca": {
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-casa-inteligente",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-eletricos/sistemas-de-seguranca/casa-inteligente",
+            "noFollow": true,
+            "tagTitle": "Casa Inteligente",
+            "text": "Casa Inteligente"
+          },
+          "blockClass": "child"
+        }
+      ]
+    }
+  }
+}

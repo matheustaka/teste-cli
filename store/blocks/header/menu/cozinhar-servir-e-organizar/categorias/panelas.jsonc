@@ -1,0 +1,174 @@
+{
+  "menu-item#panelas": {
+    "props": {
+      "id": "menu-item-panelas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cozinhar-servir-e-organizar/panelas",
+        "noFollow": true,
+        "tagTitle": "Panelas",
+        "text": "Panelas"
+      },
+      "blockClass": ["childSub", "have-children"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#panelas"]
+  },
+
+  "vtex.menu@2.x:submenu#panelas": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#panelas"]
+  },
+
+  "vtex.menu@2.x:menu#panelas": {
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-panelas-ver-todos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinhar-servir-e-organizar/panelas",
+            "noFollow": true,
+            "tagTitle": "Ver todos os produtos",
+            "text": "Ver todos os produtos"
+          },
+          "blockClass": ["ver-todos"]
+        },
+        {
+          "id": "menu-item-bistequeira",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinhar-servir-e-organizar/panelas/bistequeira",
+            "noFollow": true,
+            "tagTitle": "Bistequeira",
+            "text": "Bistequeira"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-chaleira",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinhar-servir-e-organizar/panelas/chaleira",
+            "noFollow": true,
+            "tagTitle": "Chaleira",
+            "text": "Chaleira"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-espagueteira",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinhar-servir-e-organizar/panelas/espagueteira",
+            "noFollow": true,
+            "tagTitle": "Espagueteira",
+            "text": "Espagueteira"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-frigideira",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinhar-servir-e-organizar/panelas/frigideira",
+            "noFollow": true,
+            "tagTitle": "Frigideira",
+            "text": "Frigideira"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-jogo-de-fondue",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinhar-servir-e-organizar/panelas/jogo-de-fondue",
+            "noFollow": true,
+            "tagTitle": "Jogo de Fondue",
+            "text": "Jogo de Fondue"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-jogo-de-panelas",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinhar-servir-e-organizar/panelas/jogo-de-panelas",
+            "noFollow": true,
+            "tagTitle": "Jogo de Panelas",
+            "text": "Jogo de Panelas"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-panela-de-pressao",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinhar-servir-e-organizar/panelas/panela-de-pressao",
+            "noFollow": true,
+            "tagTitle": "Panela de Pressão",
+            "text": "Panela de Pressão"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-panquequeira",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinhar-servir-e-organizar/panelas/panquequeira",
+            "noFollow": true,
+            "tagTitle": "Panquequeira",
+            "text": "Panquequeira"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-pipoqueira",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinhar-servir-e-organizar/panelas/pipoqueira",
+            "noFollow": true,
+            "tagTitle": "Pipoqueira",
+            "text": "Pipoqueira"
+          },
+          "blockClass": "child"
+        }
+      ]
+    }
+  }
+}

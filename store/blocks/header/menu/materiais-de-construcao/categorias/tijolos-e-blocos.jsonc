@@ -1,0 +1,160 @@
+{
+  "menu-item#tijolos-e-blocos": {
+    "props": {
+      "id": "menu-item-tijolos-e-blocos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/materiais-de-construcao/tijolos-e-blocos",
+        "noFollow": true,
+        "tagTitle": "Tijolos e Blocos",
+        "text": "Tijolos e Blocos"
+      },
+      "blockClass": ["childSub", "have-children"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#tijolos-e-blocos"]
+  },
+
+  "vtex.menu@2.x:submenu#tijolos-e-blocos": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#tijolos-e-blocos"]
+  },
+
+  "vtex.menu@2.x:menu#tijolos-e-blocos": {
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-tijolos-e-blocos-ver-todos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-de-construcao/tijolos-e-blocos",
+            "noFollow": true,
+            "tagTitle": "Ver todos os produtos",
+            "text": "Ver todos os produtos"
+          },
+          "blockClass": ["ver-todos"]
+        },
+        {
+          "id": "menu-item-bloco-de-concreto",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-de-construcao/tijolos-e-blocos/bloco-de-concreto",
+            "noFollow": true,
+            "tagTitle": "Bloco de Concreto",
+            "text": "Bloco de Concreto"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-espacador-para-tijolo-de-vidro",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-de-construcao/tijolos-e-blocos/espacador-para-tijolo-de-vidro",
+            "noFollow": true,
+            "tagTitle": "Espaçador para Tijolo de Vidro",
+            "text": "Espaçador para Tijolo de Vidro"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-pedra-gres",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-de-construcao/tijolos-e-blocos/pedra-gres",
+            "noFollow": true,
+            "tagTitle": "Pedra Gres",
+            "text": "Pedra Gres"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-pingadeira",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-de-construcao/tijolos-e-blocos/pingadeira",
+            "noFollow": true,
+            "tagTitle": "Pingadeira",
+            "text": "Pingadeira"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-tijolo-ceramico",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-de-construcao/tijolos-e-blocos/tijolo-ceramico",
+            "noFollow": true,
+            "tagTitle": "Tijolo Cerâmico",
+            "text": "Tijolo Cerâmico"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-tijolo-de-louca",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-de-construcao/tijolos-e-blocos/tijolo-de-louca",
+            "noFollow": true,
+            "tagTitle": "Tijolo de Louça",
+            "text": "Tijolo de Louça"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-tijolo-de-vidro",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-de-construcao/tijolos-e-blocos/tijolo-de-vidro",
+            "noFollow": true,
+            "tagTitle": "Tijolo de Vidro",
+            "text": "Tijolo de Vidro"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-tijolo-refratario",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-de-construcao/tijolos-e-blocos/tijolo-refratario",
+            "noFollow": true,
+            "tagTitle": "Tijolo Refratário",
+            "text": "Tijolo Refratário"
+          },
+          "blockClass": "child"
+        }
+      ]
+    }
+  }
+}

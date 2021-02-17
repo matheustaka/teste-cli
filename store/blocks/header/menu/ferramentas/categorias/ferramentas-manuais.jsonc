@@ -1,0 +1,762 @@
+{
+  "menu-item#ferramentas-manuais": {
+    "props": {
+      "id": "menu-item-ferramentas-manuais",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/ferramentas/ferramentas-manuais",
+        "noFollow": true,
+        "tagTitle": "Ferramentas Manuais",
+        "text": "Ferramentas Manuais"
+      },
+      "blockClass": ["childSub", "have-children"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#ferramentas-manuais"]
+  },
+
+  "vtex.menu@2.x:submenu#ferramentas-manuais": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#ferramentas-manuais"]
+  },
+
+  "vtex.menu@2.x:menu#ferramentas-manuais": {
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-ferramentas-manuais-ver-todos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/ferramentas-manuais",
+            "noFollow": true,
+            "tagTitle": "Ver todos os produtos",
+            "text": "Ver todos os produtos"
+          },
+          "blockClass": ["ver-todos"]
+        },
+        {
+          "id": "menu-item-alicate",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/ferramentas-manuais/alicate",
+            "noFollow": true,
+            "tagTitle": "Alicate",
+            "text": "Alicate"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-aplicador-de-silicone",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/ferramentas-manuais/aplicador-de-silicone",
+            "noFollow": true,
+            "tagTitle": "Aplicador de Silicone",
+            "text": "Aplicador de Silicone"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-aplicador-de-textura",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/ferramentas-manuais/aplicador-de-textura",
+            "noFollow": true,
+            "tagTitle": "Aplicador de Textura",
+            "text": "Aplicador de Textura"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-arco-de-serra",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/ferramentas-manuais/arco-de-serra",
+            "noFollow": true,
+            "tagTitle": "Arco de Serra",
+            "text": "Arco de Serra"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-caixa-meia-esquadria",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/ferramentas-manuais/caixa-meia-esquadria",
+            "noFollow": true,
+            "tagTitle": "Caixa Meia Esquadria",
+            "text": "Caixa Meia Esquadria"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-canivete",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/ferramentas-manuais/canivete",
+            "noFollow": true,
+            "tagTitle": "Canivete",
+            "text": "Canivete"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-chaves",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/ferramentas-manuais/chaves",
+            "noFollow": true,
+            "tagTitle": "Chaves",
+            "text": "Chaves"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-colher-de-pedreiro",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/ferramentas-manuais/colher-de-pedreiro",
+            "noFollow": true,
+            "tagTitle": "Colher de Pedreiro",
+            "text": "Colher de Pedreiro"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-cortador-de-ceramica",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/ferramentas-manuais/cortador-de-ceramica",
+            "noFollow": true,
+            "tagTitle": "Cortador de Cerâmica",
+            "text": "Cortador de Cerâmica"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-cortadores",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/ferramentas-manuais/cortadores",
+            "noFollow": true,
+            "tagTitle": "Cortadores",
+            "text": "Cortadores"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-cunha",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/ferramentas-manuais/cunha",
+            "noFollow": true,
+            "tagTitle": "Cunha",
+            "text": "Cunha"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-desempenadeira",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/ferramentas-manuais/desempenadeira",
+            "noFollow": true,
+            "tagTitle": "Desempenadeira",
+            "text": "Desempenadeira"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-escova-manual",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/ferramentas-manuais/escova-manual",
+            "noFollow": true,
+            "tagTitle": "Escova Manual",
+            "text": "Escova Manual"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-espacador",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/ferramentas-manuais/espacador",
+            "noFollow": true,
+            "tagTitle": "Espaçador",
+            "text": "Espaçador"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-espatula",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/ferramentas-manuais/espatula",
+            "noFollow": true,
+            "tagTitle": "Espátula",
+            "text": "Espátula"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-esquadro",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/ferramentas-manuais/esquadro",
+            "noFollow": true,
+            "tagTitle": "Esquadro",
+            "text": "Esquadro"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-estilete",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/ferramentas-manuais/estilete",
+            "noFollow": true,
+            "tagTitle": "Estilete",
+            "text": "Estilete"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-facao",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/ferramentas-manuais/facao",
+            "noFollow": true,
+            "tagTitle": "Facão",
+            "text": "Facão"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-formao",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/ferramentas-manuais/formao",
+            "noFollow": true,
+            "tagTitle": "Formão",
+            "text": "Formão"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-grampeador",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/ferramentas-manuais/grampeador",
+            "noFollow": true,
+            "tagTitle": "Grampeador",
+            "text": "Grampeador"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-jogo-de-formoes",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/ferramentas-manuais/jogo-de-formoes",
+            "noFollow": true,
+            "tagTitle": "Jogo de Formões",
+            "text": "Jogo de Formões"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-kit-de-ferramentas",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/ferramentas-manuais/kit-de-ferramentas",
+            "noFollow": true,
+            "tagTitle": "Kit de Ferramentas",
+            "text": "Kit de Ferramentas"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-kit-giz-de-linha",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/ferramentas-manuais/kit-giz-de-linha",
+            "noFollow": true,
+            "tagTitle": "Kit Giz de Linha",
+            "text": "Kit Giz de Linha"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-lamina-para-estlete",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/ferramentas-manuais/lamina-para-estlete",
+            "noFollow": true,
+            "tagTitle": "Lâmina para Estilete",
+            "text": "Lâmina para Estilete"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-lanterna",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/ferramentas-manuais/lanterna",
+            "noFollow": true,
+            "tagTitle": "Lanterna",
+            "text": "Lanterna"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-lapis-de-carpinteiro",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/ferramentas-manuais/lapis-de-carpinteiro",
+            "noFollow": true,
+            "tagTitle": "Lápis de Carpinteiro",
+            "text": "Lápis de Carpinteiro"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-lima",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/ferramentas-manuais/lima",
+            "noFollow": true,
+            "tagTitle": "Lima",
+            "text": "Lima"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-linha-para-pedreiro",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/ferramentas-manuais/linha-para-pedreiro",
+            "noFollow": true,
+            "tagTitle": "Linha para Pedreiro",
+            "text": "Linha para Pedreiro"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-marreta",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/ferramentas-manuais/marreta",
+            "noFollow": true,
+            "tagTitle": "Marreta",
+            "text": "Marreta"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-martelo",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/ferramentas-manuais/martelo",
+            "noFollow": true,
+            "tagTitle": "Martelo",
+            "text": "Martelo"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-multimetro",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/ferramentas-manuais/multimetro",
+            "noFollow": true,
+            "tagTitle": "Multímetro",
+            "text": "Multímetro"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-multiteste",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/ferramentas-manuais/multiteste",
+            "noFollow": true,
+            "tagTitle": "Multiteste",
+            "text": "Multiteste"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-nivel",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/ferramentas-manuais/nivel",
+            "noFollow": true,
+            "tagTitle": "Nível",
+            "text": "Nível"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-paquimetro",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/ferramentas-manuais/paquimetro",
+            "noFollow": true,
+            "tagTitle": "Paquímetro",
+            "text": "Paquímetro"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-pedra-de-amolar",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/ferramentas-manuais/pedra-de-amolar",
+            "noFollow": true,
+            "tagTitle": "Pedra de Amolar",
+            "text": "Pedra de Amolar"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-pistola-cola-quente",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/ferramentas-manuais/pistola-cola-quente",
+            "noFollow": true,
+            "tagTitle": "Pistola Cola Quente",
+            "text": "Pistola Cola Quente"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-plaina-manual",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/ferramentas-manuais/plaina-manual",
+            "noFollow": true,
+            "tagTitle": "Plaina Manual",
+            "text": "Plaina Manual"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-ponteiro",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/ferramentas-manuais/ponteiro",
+            "noFollow": true,
+            "tagTitle": "Ponteiro",
+            "text": "Ponteiro"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-prumo",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/ferramentas-manuais/prumo",
+            "noFollow": true,
+            "tagTitle": "Prumo",
+            "text": "Prumo"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-raspador-para-rejunte",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/ferramentas-manuais/raspador-para-rejunte",
+            "noFollow": true,
+            "tagTitle": "Raspador para Rejunte",
+            "text": "Raspador para Rejunte"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-rebitador-manual",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/ferramentas-manuais/rebitador-manual",
+            "noFollow": true,
+            "tagTitle": "Rebitador Manual",
+            "text": "Rebitador Manual"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-riscador-para-azulejo",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/ferramentas-manuais/riscador-para-azulejo",
+            "noFollow": true,
+            "tagTitle": "Riscador para Azulejo",
+            "text": "Riscador para Azulejo"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-rodel",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/ferramentas-manuais/rodel",
+            "noFollow": true,
+            "tagTitle": "Rodel",
+            "text": "Rodel"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-serra-meia-esquadria",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/ferramentas-manuais/serra-meia-esquadria",
+            "noFollow": true,
+            "tagTitle": "Serra Meia Esquadria",
+            "text": "Serra Meia Esquadria"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-serra-para-arco",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/ferramentas-manuais/serra-para-arco",
+            "noFollow": true,
+            "tagTitle": "Serra para Arco",
+            "text": "Serra para Arco"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-serrote",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/ferramentas-manuais/serrote",
+            "noFollow": true,
+            "tagTitle": "Serrote",
+            "text": "Serrote"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-talhadeira",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/ferramentas-manuais/talhadeira",
+            "noFollow": true,
+            "tagTitle": "Talhadeira",
+            "text": "Talhadeira"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-tesoura",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/ferramentas-manuais/tesoura",
+            "noFollow": true,
+            "tagTitle": "Tesoura",
+            "text": "Tesoura"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-torques",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/ferramentas-manuais/torques",
+            "noFollow": true,
+            "tagTitle": "Torques",
+            "text": "Torques"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-trena",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/ferramentas-manuais/trena",
+            "noFollow": true,
+            "tagTitle": "Trena",
+            "text": "Trena"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-ventosa",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/ferramentas-manuais/ventosa",
+            "noFollow": true,
+            "tagTitle": "Ventosa",
+            "text": "Ventosa"
+          },
+          "blockClass": "child"
+        }
+      ]
+    }
+  }
+}

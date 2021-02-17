@@ -1,0 +1,174 @@
+{
+  "menu-item#ar-condicionado": {
+    "props": {
+      "id": "menu-item-ar-condicionado",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/climatizacao-e-ventilacao/ar-condicionado",
+        "noFollow": true,
+        "tagTitle": "Ar Condicionado",
+        "text": "Ar Condicionado"
+      },
+      "blockClass": ["childSub", "have-children"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#ar-condicionado"]
+  },
+
+  "vtex.menu@2.x:submenu#ar-condicionado": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#ar-condicionado"]
+  },
+
+  "vtex.menu@2.x:menu#ar-condicionado": {
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-ar-condicionado-ver-todos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/climatizacao-e-ventilacao/ar-condicionado",
+            "noFollow": true,
+            "tagTitle": "Ver todos os produtos",
+            "text": "Ver todos os produtos"
+          },
+          "blockClass": ["ver-todos"]
+        },
+        {
+          "id": "menu-item-acessorios-para-instalacao-de-ar",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/climatizacao-e-ventilacao/ar-condicionado/aquecedor-a-Gas",
+            "noFollow": true,
+            "tagTitle": "Acessóracessorios-para-instalacao-de-ar",
+            "text": "Acessórios para Instalação de Ar"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-cassete",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/climatizacao-e-ventilacao/ar-condicionado/cassete",
+            "noFollow": true,
+            "tagTitle": "Cassete",
+            "text": "Cassete"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-climatizador",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/climatizacao-e-ventilacao/ar-condicionado/climatizador",
+            "noFollow": true,
+            "tagTitle": "Climatizador",
+            "text": "Climatizador"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-janela",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/climatizacao-e-ventilacao/ar-condicionado/janela",
+            "noFollow": true,
+            "tagTitle": "Janela",
+            "text": "Janela"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-multi-split",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/climatizacao-e-ventilacao/ar-condicionado/multi-split",
+            "noFollow": true,
+            "tagTitle": "Multi Split",
+            "text": "Multi Split"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-piso-teto",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/climatizacao-e-ventilacao/ar-condicionado/piso-teto",
+            "noFollow": true,
+            "tagTitle": "Piso / Teto",
+            "text": "Piso / Teto"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-portatil",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/climatizacao-e-ventilacao/ar-condicionado/portatil",
+            "noFollow": true,
+            "tagTitle": "Portátil",
+            "text": "Portátil"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-split",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/climatizacao-e-ventilacao/ar-condicionado/split",
+            "noFollow": true,
+            "tagTitle": "Split",
+            "text": "Split"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-split-inverter",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/climatizacao-e-ventilacao/ar-condicionado/split-inverter",
+            "noFollow": true,
+            "tagTitle": "Split Inverter",
+            "text": "Split Inverter"
+          },
+          "blockClass": "child"
+        }
+      ]
+    }
+  }
+}

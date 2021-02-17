@@ -1,0 +1,119 @@
+{
+    "menu-item#cuidados-e-manutencao": {
+      "props": {
+        "id": "menu-item-cuidados-e-manutencao",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/jardim-e-sacada/cuidados-e-manutencao",
+          "noFollow": true,
+          "tagTitle": "Cuidados e Manutenção",
+          "text": "Cuidados e Manutenção"
+        },
+        "blockClass": ["childSub", "have-children"]
+      },
+      "blocks": ["vtex.menu@2.x:submenu#cuidados-e-manutencao"]
+    },
+  
+    "vtex.menu@2.x:submenu#cuidados-e-manutencao": {
+      "props": {
+        "width": "auto"
+      },
+      "children": ["vtex.menu@2.x:menu#cuidados-e-manutencao"]
+    },
+  
+    "vtex.menu@2.x:menu#cuidados-e-manutencao": {
+      "props": {
+        "orientation": "vertical",
+        "items": [
+          {
+            "id": "menu-item-cuidados-e-manutencao-ver-todos",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+              "type": "internal",
+              "href": "/jardim-e-sacada/cuidados-e-manutencao",
+              "noFollow": true,
+              "tagTitle": "Ver todos os produtos",
+              "text": "Ver todos os produtos"
+            },
+            "blockClass": ["ver-todos"]
+          },
+          {
+            "id": "menu-item-decoracao-para-vaso",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+              "type": "internal",
+              "href": "/jardim-e-sacada/cuidados-e-manutencao/decoracao-para-vaso",
+              "noFollow": true,
+              "tagTitle": "Decoração para Vaso",
+              "text": "Decoração para Vaso"
+            },
+            "blockClass": "child"
+          },
+          {
+            "id": "menu-item-fertilizante-para-plantas",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+              "type": "internal",
+              "href": "/jardim-e-sacada/cuidados-e-manutencao/fertilizante-para-plantas",
+              "noFollow": true,
+              "tagTitle": "Fertilizante para Plantas",
+              "text": "Fertilizante para Plantas"
+            },
+            "blockClass": "child"
+          },
+          {
+            "id": "menu-item-inseticida",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+              "type": "internal",
+              "href": "/jardim-e-sacada/cuidados-e-manutencao/inseticida",
+              "noFollow": true,
+              "tagTitle": "Inseticida",
+              "text": "Inseticida"
+            },
+            "blockClass": "child"
+          },
+          {
+            "id": "menu-item-substratos-e-nutrientes-para-plantas",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+              "type": "internal",
+              "href": "/jardim-e-sacada/cuidados-e-manutencao/substratos-e-nutrientes-para-plantas",
+              "noFollow": true,
+              "tagTitle": "Substratos e Nutrientes para Plantas",
+              "text": "Substratos e Nutrientes para Plantas"
+            },
+            "blockClass": "child"
+          },
+          {
+            "id": "menu-item-terra",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+              "type": "internal",
+              "href": "/jardim-e-sacada/cuidados-e-manutencao/terra",
+              "noFollow": true,
+              "tagTitle": "Terra",
+              "text": "Terra"
+            },
+            "blockClass": "child"
+          }
+        ]
+      }
+    }
+  }
+  

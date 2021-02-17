@@ -1,0 +1,272 @@
+{
+  "menu-item#acessorios-de-mesa-e-copa": {
+    "props": {
+      "id": "menu-item-acessorios-de-mesa-e-copa",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cozinhar-servir-e-organizar/acessorios-de-mesa-e-copa",
+        "noFollow": true,
+        "tagTitle": "Acessórios de Mesa e Copa",
+        "text": "Acessórios de Mesa e Copa"
+      },
+      "blockClass": ["childSub", "have-children"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#acessorios-de-mesa-e-copa"]
+  },
+
+  "vtex.menu@2.x:submenu#acessorios-de-mesa-e-copa": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#acessorios-de-mesa-e-copa"]
+  },
+
+  "vtex.menu@2.x:menu#acessorios-de-mesa-e-copa": {
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-acessorios-de-mesa-e-copa-ver-todos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinhar-servir-e-organizar/acessorios-de-mesa-e-copa",
+            "noFollow": true,
+            "tagTitle": "Ver todos os produtos",
+            "text": "Ver todos os produtos"
+          },
+          "blockClass": ["ver-todos"]
+        },
+        {
+          "id": "menu-item-acucareiro",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinhar-servir-e-organizar/acessorios-de-mesa-e-copa/acucareiro",
+            "noFollow": true,
+            "tagTitle": "Açucareiro",
+            "text": "Açucareiro"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-bandeja",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinhar-servir-e-organizar/acessorios-de-mesa-e-copa/bandeja",
+            "noFollow": true,
+            "tagTitle": "Bandeja",
+            "text": "Bandeja"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-bomboniere",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinhar-servir-e-organizar/acessorios-de-mesa-e-copa/bomboniere",
+            "noFollow": true,
+            "tagTitle": "Bomboniere",
+            "text": "Bomboniere"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-garrafa-termica",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinhar-servir-e-organizar/acessorios-de-mesa-e-copa/garrafa-termica",
+            "noFollow": true,
+            "tagTitle": "Garrafa Térmica",
+            "text": "Garrafa Térmica"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-jogo-de-sobremesa",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinhar-servir-e-organizar/acessorios-de-mesa-e-copa/jogo-de-sobremesa",
+            "noFollow": true,
+            "tagTitle": "Jogo de Sobremesa",
+            "text": "Jogo de Sobremesa"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-mantegueira",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinhar-servir-e-organizar/acessorios-de-mesa-e-copa/mantegueira",
+            "noFollow": true,
+            "tagTitle": "Mantegueira",
+            "text": "Mantegueira"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-moedor",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinhar-servir-e-organizar/acessorios-de-mesa-e-copa/moedor",
+            "noFollow": true,
+            "tagTitle": "Moedor",
+            "text": "Moedor"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-petisqueira",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinhar-servir-e-organizar/acessorios-de-mesa-e-copa/petisqueira",
+            "noFollow": true,
+            "tagTitle": "Petisqueira",
+            "text": "Petisqueira"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-porta-bolo",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinhar-servir-e-organizar/acessorios-de-mesa-e-copa/porta-bolo",
+            "noFollow": true,
+            "tagTitle": "Porta Bolo",
+            "text": "Porta Bolo"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-porta-cereal",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinhar-servir-e-organizar/acessorios-de-mesa-e-copa/porta-cereal",
+            "noFollow": true,
+            "tagTitle": "Porta Cereal",
+            "text": "Porta Cereal"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-porta-condimentos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinhar-servir-e-organizar/acessorios-de-mesa-e-copa/porta-condimentos",
+            "noFollow": true,
+            "tagTitle": "Porta Condimentos",
+            "text": "Porta Condimentos"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-porta-frios",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinhar-servir-e-organizar/acessorios-de-mesa-e-copa/porta-frios",
+            "noFollow": true,
+            "tagTitle": "Porta Frios",
+            "text": "Porta Frios"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-porta-guardanapo",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinhar-servir-e-organizar/acessorios-de-mesa-e-copa/porta-guardanapo",
+            "noFollow": true,
+            "tagTitle": "Porta Guardanapo",
+            "text": "Porta Guardanapo"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-porta-queijo",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinhar-servir-e-organizar/acessorios-de-mesa-e-copa/porta-queijo",
+            "noFollow": true,
+            "tagTitle": "Porta Queijo",
+            "text": "Porta Queijo"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-pote",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinhar-servir-e-organizar/acessorios-de-mesa-e-copa/pote",
+            "noFollow": true,
+            "tagTitle": "Pote",
+            "text": "Pote"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-sopeira",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinhar-servir-e-organizar/acessorios-de-mesa-e-copa/sopeira",
+            "noFollow": true,
+            "tagTitle": "Sopeira",
+            "text": "Sopeira"
+          },
+          "blockClass": "child"
+        }
+      ]
+    }
+  }
+}

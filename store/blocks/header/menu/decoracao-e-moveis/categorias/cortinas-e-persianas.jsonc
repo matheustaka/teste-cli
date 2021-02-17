@@ -1,0 +1,90 @@
+{
+  "menu-item#cortinas-e-persianas": {
+    "props": {
+      "id": "menu-item-cortinas-e-persianas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/decoracao-e-moveis/cortinas-e-persianas",
+        "noFollow": true,
+        "tagTitle": "Cortinas e Persianas",
+        "text": "Cortinas e Persianas"
+      },
+      "blockClass": ["childSub", "have-children"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#cortinas-e-persianas"]
+  },
+
+  "vtex.menu@2.x:submenu#cortinas-e-persianas": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#cortinas-e-persianas"]
+  },
+
+  "vtex.menu@2.x:menu#cortinas-e-persianas": {
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-cortinas-e-persianas-ver-todos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/decoracao-e-moveis/cortinas-e-persianas",
+            "noFollow": true,
+            "tagTitle": "Ver todos os produtos",
+            "text": "Ver todos os produtos"
+          },
+          "blockClass": ["ver-todos"]
+        },
+        {
+          "id": "menu-item-cortina",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/decoracao-e-moveis/cortinas-e-persianas/cortina",
+            "noFollow": true,
+            "tagTitle": "Cortina",
+            "text": "Cortina"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-persiana",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/decoracao-e-moveis/cortinas-e-persianas/persiana",
+            "noFollow": true,
+            "tagTitle": "Persiana",
+            "text": "Persiana"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-varao-e-acessorios",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/decoracao-e-moveis/cortinas-e-persianas/varao-e-acessorios",
+            "noFollow": true,
+            "tagTitle": "Varão e Acessórios",
+            "text": "Varão e Acessórios"
+          },
+          "blockClass": "child"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "store.custom#residential-assistance": {
+    "blocks": [
+      "responsive-layout.desktop#residential-assistance",
+      "responsive-layout.tablet#residential-assistance",
+      "responsive-layout.phone#residential-assistance"
+    ]
+  },
+
+  "responsive-layout.desktop#residential-assistance": {
+    "children": [
+      "breadcrumb",
+      "flex-layout.row#residential-assistance-desktop"
+    ]
+  },
+
+  "responsive-layout.tablet#residential-assistance": {
+    "children": [
+      "breadcrumb",
+      "flex-layout.row#residential-assistance-menu-mobile",
+      "flex-layout.row#residential-assistance-mobile"
+    ]
+  },
+
+  "responsive-layout.phone#residential-assistance": {
+    "children": [
+      "breadcrumb",
+      "flex-layout.row#residential-assistance-menu-mobile",
+      "flex-layout.row#residential-assistance-mobile"
+    ]
+  },
+
+  "flex-layout.row#residential-assistance-desktop": {
+    "children": [
+      "flex-layout.col#institutional-sidebar-desktop",
+      "flex-layout.col#content-residential-assistance"
+    ],
+    "props": {
+      "blockClass": "institutionalContainer"
+    }
+  },
+
+  "flex-layout.row#residential-assistance-menu-mobile": {
+    "children": [
+      "flex-layout.col#institutional-sidebar-mobile"
+    ],
+    "props": {
+      "blockClass": "institutionalContainer"
+    }
+  },
+
+  "flex-layout.row#residential-assistance-mobile": {
+    "children": [
+      "flex-layout.col#content-residential-assistance-mobile"
+    ],
+    "props": {
+      "blockClass": "institutionalContainer"
+    }
+  },
+
+  "flex-layout.col#content-residential-assistance-mobile": {
+    "children": [
+      "rich-text#residential-assistance"
+    ],
+    "props": {
+      "blockClass": "textColumn",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "flex-layout.col#content-residential-assistance": {
+    "children": [
+      "rich-text#residential-assistance"
+    ],
+    "props": {
+      "blockClass": "textColumn",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "rich-text#residential-assistance": {
+    "props": {
+      "text": "### **Assistência residencial** \n \n A assistência lar Cassol foi criada pensando em você, que busca tranquilidade e comodidade em diversas situações emergenciais do dia a dia \n que podem ocorrer em sua residência. \n \n A nossa assistência disponibiliza serviços emergenciais como: Chaveiro, Eletricista, Encanador, Vidraceiro, entre outros… Além de serviços \n específicos para você que se preocupa com o seu PET, como consultas veterinárias, envio de ração, assistência funeral e etc. \n \n Estes serviços são garantidos pela Axa Assistance, empresa de origem francesa, presente em 59 países. Está em todo território Brasileiro há mais \n de 30 anos. Possuí 12 milhões de clientes cadastrados e uma ampla rede com mais de 16 mil prestadores de serviços, garantindo o atendimento \n e qualidade nos serviços realizados. \n \n Tudo isso por apenas R$ 10,90 mensais, investimento de R$ 0,36 centavos por dia para segurança do seu Lar e ainda você economiza com gastos \n veterinários e seu Pet fica mais feliz!!! \n \n [***Consulte aqui condições gerais***](https://drive.google.com/file/d/1lqm-3J7AbAiHZX6mMcfWV7UCuArIZ71c/view?usp=sharing)",
+      "blockClass": "aboutContent"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "menu-item#revestimentos-para-parede": {
+    "props": {
+      "id": "menu-item-revestimentos-para-parede",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/pisos-e-revestimentos/revestimentos-para-parede",
+        "noFollow": true,
+        "tagTitle": "Revestimentos para Parede",
+        "text": "Revestimentos para Parede"
+      },
+      "blockClass": "childSub"
+    }
+  }
+}

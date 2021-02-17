@@ -1,0 +1,18 @@
+{
+  "menu-item#torneiras-eletricas": {
+    "props": {
+      "id": "menu-item-torneiras-eletricas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cozinha-e-lavanderia/torneiras-eletricas",
+        "noFollow": true,
+        "tagTitle": "Torneiras Elétricas",
+        "text": "Torneiras Elétricas"
+      },
+      "blockClass": "childSub"
+    }
+  }
+}

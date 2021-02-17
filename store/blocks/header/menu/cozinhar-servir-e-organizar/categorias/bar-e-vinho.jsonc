@@ -1,0 +1,62 @@
+{
+  "menu-item#bar-e-vinho": {
+    "props": {
+      "id": "menu-item-bar-e-vinho",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cozinhar-servir-e-organizar/bar-e-vinho",
+        "noFollow": true,
+        "tagTitle": "Bar e Vinho",
+        "text": "Bar e Vinho"
+      },
+      "blockClass": ["childSub", "have-children"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#bar-e-vinho"]
+  },
+
+  "vtex.menu@2.x:submenu#bar-e-vinho": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#bar-e-vinho"]
+  },
+
+  "vtex.menu@2.x:menu#bar-e-vinho": {
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-bar-e-vinho-ver-todos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinhar-servir-e-organizar/bar-e-vinho",
+            "noFollow": true,
+            "tagTitle": "Ver todos os produtos",
+            "text": "Ver todos os produtos"
+          },
+          "blockClass": ["ver-todos"]
+        },
+        {
+          "id": "menu-item-bar-e-vinho-acessorios",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinhar-servir-e-organizar/bar-e-vinho/acessorios",
+            "noFollow": true,
+            "tagTitle": "Acessórios",
+            "text": "Acessórios"
+          },
+          "blockClass": "child"
+        }
+      ]
+    }
+  }
+}

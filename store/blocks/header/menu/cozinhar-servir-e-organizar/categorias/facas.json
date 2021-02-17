@@ -1,0 +1,20 @@
+{
+    "menu-item#facas": {
+      "props": {
+        "id": "menu-item-facas",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/cozinhar-servir-e-organizar/facas",
+          "noFollow": true,
+          "tagTitle": "Facas",
+          "text": "Facas"
+        },
+        "blockClass": ["childSub"]
+      }
+    }
+
+  }
+  

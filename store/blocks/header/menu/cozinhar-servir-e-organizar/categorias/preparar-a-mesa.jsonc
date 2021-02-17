@@ -1,0 +1,104 @@
+{
+  "menu-item#preparar-a-mesa": {
+    "props": {
+      "id": "menu-item-preparar-a-mesa",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cozinhar-servir-e-organizar/preparar-a-mesa",
+        "noFollow": true,
+        "tagTitle": "Preparar a Mesa",
+        "text": "Preparar a Mesa"
+      },
+      "blockClass": ["childSub", "have-children"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#preparar-a-mesa"]
+  },
+
+  "vtex.menu@2.x:submenu#preparar-a-mesa": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#preparar-a-mesa"]
+  },
+
+  "vtex.menu@2.x:menu#preparar-a-mesa": {
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-preparar-a-mesa-ver-todos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinhar-servir-e-organizar/preparar-a-mesa",
+            "noFollow": true,
+            "tagTitle": "Ver todos os produtos",
+            "text": "Ver todos os produtos"
+          },
+          "blockClass": ["ver-todos"]
+        },
+        {
+          "id": "menu-item-argola-para-guardanapo",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinhar-servir-e-organizar/preparar-a-mesa/argola-para-guardanapo",
+            "noFollow": true,
+            "tagTitle": "Argola para Guardanapo",
+            "text": "Argola para Guardanapo"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-guardanapo",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinhar-servir-e-organizar/preparar-a-mesa/guardanapo",
+            "noFollow": true,
+            "tagTitle": "Guardanapo",
+            "text": "Guardanapo"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-jogo-servir",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinhar-servir-e-organizar/preparar-a-mesa/jogo-servir",
+            "noFollow": true,
+            "tagTitle": "Jogo Servir",
+            "text": "Jogo Servir"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-sousplat",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinhar-servir-e-organizar/preparar-a-mesa/sousplat",
+            "noFollow": true,
+            "tagTitle": "Sousplat",
+            "text": "Sousplat"
+          },
+          "blockClass": "child"
+        }
+      ]
+    }
+  }
+}

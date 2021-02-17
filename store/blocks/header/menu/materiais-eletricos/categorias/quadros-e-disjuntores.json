@@ -1,0 +1,78 @@
+{
+  "menu-item#quadros-e-disjuntores": {
+    "props": {
+      "id": "menu-item-quadros-e-disjuntores",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/materiais-eletricos/quadros-e-disjuntores",
+        "noFollow": true,
+        "tagTitle": "Quadros e Disjuntores",
+        "text": "Quadros e Disjuntores"
+      },
+      "blockClass": ["childSub", "have-children"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#quadros-e-disjuntores"]
+  },
+
+  "vtex.menu@2.x:submenu#quadros-e-disjuntores": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#quadros-e-disjuntores"]
+  },
+
+  "vtex.menu@2.x:menu#quadros-e-disjuntores": {
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-caixa-para-disjuntor",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-eletricos/quadros-e-disjuntores/caixa-para-disjuntor",
+            "noFollow": true,
+            "tagTitle": "Caixa para Disjuntor",
+            "text": "Caixa para Disjuntor"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-disjuntor",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-eletricos/quadros-e-disjuntores/disjuntor",
+            "noFollow": true,
+            "tagTitle": "Disjuntor",
+            "text": "Disjuntor"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-quadro-de-distribuicao",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-eletricos/quadros-e-disjuntores/quadro-de-distribuicao",
+            "noFollow": true,
+            "tagTitle": "Quadro de Distribuição",
+            "text": "Quadro de Distribuição"
+          },
+          "blockClass": "child"
+        }
+      ]
+    }
+  }
+}

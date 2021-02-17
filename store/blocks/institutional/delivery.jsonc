@@ -1,0 +1,141 @@
+{
+  "store.custom#delivery": {
+    "blocks": [
+      "responsive-layout.desktop#delivery",
+      "responsive-layout.tablet#delivery",
+      "responsive-layout.phone#delivery"
+    ]
+  },
+
+  "responsive-layout.desktop#delivery": {
+    "children": [
+      "breadcrumb",
+      "flex-layout.row#delivery-desktop"
+    ]
+  },
+
+  "responsive-layout.tablet#delivery": {
+    "children": [
+      "breadcrumb",
+      "flex-layout.row#delivery-menu-mobile",
+      "flex-layout.row#delivery-mobile"
+    ]
+  },
+
+  "responsive-layout.phone#delivery": {
+    "children": [
+      "breadcrumb",
+      "flex-layout.row#delivery-menu-mobile",
+      "flex-layout.row#delivery-mobile"
+    ]
+  },
+
+  "flex-layout.row#delivery-desktop": {
+    "children": [
+      "flex-layout.col#institutional-sidebar-desktop",
+      "flex-layout.col#content-delivery"
+    ],
+    "props": {
+      "blockClass": "institutionalContainer"
+    }
+  },
+
+  "flex-layout.row#delivery-menu-mobile": {
+    "children": [
+      "flex-layout.col#institutional-sidebar-mobile"
+    ],
+    "props": {
+      "blockClass": "institutionalContainer"
+    }
+  },
+
+  "flex-layout.row#delivery-mobile": {
+    "children": [
+      "flex-layout.col#content-delivery-mobile"
+    ],
+    "props": {
+      "blockClass": "institutionalContainer"
+    }
+  },
+
+  "flex-layout.col#content-delivery-mobile": {
+    "children": [
+      "rich-text#delivery--locais-atendidos",
+      "rich-text#delivery--prazo-entrega",
+      "rich-text#delivery--horario-entrega",
+      "rich-text#delivery--valor-frete",
+      "rich-text#delivery--condicao-entrega",
+      "rich-text#delivery--tantativa-entrega",
+      "rich-text#delivery--retirada-loja"
+    ],
+    "props": {
+      "blockClass": "textColumn",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "flex-layout.col#content-delivery": {
+    "children": [
+      "rich-text#delivery--locais-atendidos",
+      "rich-text#delivery--prazo-entrega",
+      "rich-text#delivery--horario-entrega",
+      "rich-text#delivery--valor-frete",
+      "rich-text#delivery--condicao-entrega",
+      "rich-text#delivery--tantativa-entrega",
+      "rich-text#delivery--retirada-loja"
+    ],
+    "props": {
+      "blockClass": "textColumn",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "rich-text#delivery--locais-atendidos": {
+    "props": {
+      "text": "### **Entrega** \n \n ##### **LOCAIS ATENDIDOS** \n \n Hoje a Cassol entrega em diversas regiões do sul do Brasil. O cliente Cassol pode verificar se sua região é atendida fazendo a simulação do frete \n tanto nas páginas de produtos quanto no carrinho de compras. Pode ainda consultar o Televendas ou verificar junto aos atendentes em lojas.\n \n Se sua região ainda não está sendo atendida saiba que a Cassol está trabalhando para aumentar a área de distribuição. \n \n",
+      "blockClass": "aboutContent"
+    }
+  },
+
+  "rich-text#delivery--prazo-entrega": {
+    "props": {
+      "text": "##### **PRAZOS DE ENTREGA** \n \n No processo de compra via e-Commerce, o sistema gera um prazo estimado de entrega para os produtos adquiridos. Esse prazo pode variar em \n decorrência da forma de pagamento, características do produto e data da aprovação de compra. \n \n Nas compras presenciais, Televenda ou Venda Direta, a data da entrega será negociada diretamente com o vendedor, respeitando também os \n critérios logísticos, as características dos produtos e do local a ser entregue. \n \n",
+      "blockClass": "aboutContent"
+    }
+  },
+
+  "rich-text#delivery--horario-entrega": {
+    "props": {
+      "text": "##### **HORÁRIOS DE ENTREGA E AGENDAMENTO** \n \n A Cassol disponibiliza o recurso de agendamento de entrega sem custos adicionais. As entregas podem ser agendadas diretamente com o \n vendedor. Já para as compras via e-Commerce o cliente deve entrar em contato com o SAC após a confirmação de pagamento. \n \n As entregas acontecerão: \n \n • Entre segunda-feira e sexta-feira, das 08:00 às 18:00. \n \n • Em dias úteis. Não serão agendados ou entregues pedidos aos domingos e feriados, assim como não será possível pré-determinar em qual \n turno ocorrerá a entrega. \n \n • Na presença do cliente ou responsável pelo recebimento.",
+      "blockClass": "aboutContent"
+    }
+  },
+
+  "rich-text#delivery--valor-frete": {
+    "props": {
+      "text": "##### **VALOR DO FRETE** \n \n O valor do frete é calculado automaticamente pelo sistema no ato da compra, com base no peso, volume, quantidade de produtos e distância \n entre o local de expedição e o endereço de entrega informado pelo cliente.",
+      "blockClass": "aboutContent"
+    }
+  },
+
+  "rich-text#delivery--condicao-entrega": {
+    "props": {
+      "text": "##### **CONDIÇÕES DE ENTREGA** \n \n Durante o processo de compra o cliente deve informar quaisquer condições limitantes à conclusão da entrega ao vendedor. Nos casos de \n compras via e-Commerce, as entregas não poderão ser executadas em caso de limitação de horários de recebimentos em condomínios, \n localidades de difícil acesso para caminhões ou para o descarregamento; a existência de obstáculos como muros, portas que necessitem ser \n desmontadas; a necessidade de algum equipamento para mobilidade dos entregadores como nos casos de prédios sem elevadores ou de \n produtos que precisem ser içados externamente. \n \n No recebimento da entrega, o cliente ou responsável deve observar as orientações de conferência presentes na Política de Devolução. \n \n [***Política de devolução**] (/devolucao-ou-troca) e troca quanto ao recebimento de mercadoria errada, não funcionando ou avaria. \n \n Lembrando que não realizamos venda por atacado. Sendo assim, a quantidade máxima permitida por CPF ou CNPJ é de 10 itens de cada \n produto. Pedidos acima dessa quantidade serão analisados e poderão ser cancelados.",
+      "blockClass": "aboutContent"
+    }
+  },
+
+  "rich-text#delivery--tantativa-entrega": {
+    "props": {
+      "text": "##### **TENTATIVAS DE ENTREGA** \n \n Serão realizadas até 3 tentativas de entrega. Caso as tentativas fracassem o cliente será contactado pelo SAC para melhor atendimento e \n negociação das possibilidades.",
+      "blockClass": "aboutContent"
+    }
+  },
+
+  "rich-text#delivery--retirada-loja": {
+    "props": {
+      "text": "##### **RETIRA EM LOJA** \n \n No ato da compra, o cliente poderá optar pela retirada do produto em Loja ou no Centro de Distribuição, verificando sempre os dias e horários \n de funcionamentos dos mesmos. Para entender como funciona todo o processo e os casos em que são aplicados esse procedimento, confira \n nossas Políticas de Retira em Loja",
+      "blockClass": "aboutContent"
+    }
+  }
+}

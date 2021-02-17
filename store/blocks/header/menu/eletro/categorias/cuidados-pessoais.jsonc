@@ -1,0 +1,146 @@
+{
+  "menu-item#cuidados-pessoais": {
+    "props": {
+      "id": "menu-item-cuidados-pessoais",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/eletro/cuidados-pessoais",
+        "noFollow": true,
+        "tagTitle": "Cuidados Pessoais",
+        "text": "Cuidados Pessoais"
+      },
+      "blockClass": ["childSub", "have-children"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#cuidados-pessoais"]
+  },
+
+  "vtex.menu@2.x:submenu#cuidados-pessoais": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#cuidados-pessoais"]
+  },
+
+  "vtex.menu@2.x:menu#cuidados-pessoais": {
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-cuidados-pessoais-ver-todos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/eletro/cuidados-pessoais",
+            "noFollow": true,
+            "tagTitle": "Ver todos os produtos",
+            "text": "Ver todos os produtos"
+          },
+          "blockClass": ["ver-todos"]
+        },
+        {
+          "id": "menu-item-aparador-de-pelos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/eletro/cuidados-pessoais/aparador-de-pelos",
+            "noFollow": true,
+            "tagTitle": "Aparador de Pelos",
+            "text": "Aparador de Pelos"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-barbeador",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/eletro/cuidados-pessoais/barbeador",
+            "noFollow": true,
+            "tagTitle": "Barbeador",
+            "text": "Barbeador"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-cortador-de-cabelo",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/eletro/cuidados-pessoais/cortador-de-cabelo",
+            "noFollow": true,
+            "tagTitle": "Cortador de Cabelo",
+            "text": "Cortador de Cabelo"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-depilador-feminino",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/eletro/cuidados-pessoais/depilador-feminino",
+            "noFollow": true,
+            "tagTitle": "Depilador Feminino",
+            "text": "Depilador Feminino"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-escova-secadora",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/eletro/cuidados-pessoais/escova-secadora",
+            "noFollow": true,
+            "tagTitle": "Escova Secadora",
+            "text": "Escova Secadora"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-prancha-alisadora",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/eletro/cuidados-pessoais/prancha-alisadora",
+            "noFollow": true,
+            "tagTitle": "Prancha Alisadora",
+            "text": "Prancha Alisadora"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-secador-de-cabelos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/eletro/cuidados-pessoais/secador-de-cabelos",
+            "noFollow": true,
+            "tagTitle": "Secador de Cabelos",
+            "text": "Secador de Cabelos"
+          },
+          "blockClass": "child"
+        }
+      ]
+    }
+  }
+}

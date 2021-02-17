@@ -1,0 +1,66 @@
+{
+  "menu-item#decoracao-e-moveis": {
+    "props": {
+      "id": "menu-item-decoracao-e-moveis",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/decoracao-e-moveis",
+        "noFollow": true,
+        "tagTitle": "Organização da Casa",
+        "text": "Organização da Casa"
+      },
+      "blockClass": ["department", "have-children"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#decoracao-e-moveis"]
+  },
+
+  "vtex.menu@2.x:submenu#decoracao-e-moveis": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#decoracao-e-moveis"]
+  },
+
+  "vtex.menu@2.x:menu#decoracao-e-moveis": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "drop-category"
+    },
+    "children": [
+      "rich-text#department-decoracao-e-moveis",
+      "menu-item#decoracao-e-moveis-ver-todos",
+      "menu-item#cama-mesa-e-banho",
+      "menu-item#cortinas-e-persianas",
+      "menu-item#decoracao",
+      "menu-item#escritorio",
+      "menu-item#moveis",
+      "menu-item#papel-e-adesivo-de-parede",
+      "menu-item#tapetes"
+    ]
+  },
+  "rich-text#department-decoracao-e-moveis": {
+    "props": {
+      "text": "Organização da Casa",
+      "blockClass": "titulo-menu-department"
+    }
+  },
+  "menu-item#decoracao-e-moveis-ver-todos": {
+    "props": {
+      "id": "menu-item-decoracao-e-moveis-ver-todos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/decoracao-e-moveis",
+        "noFollow": true,
+        "tagTitle": "Ver todos os produtos",
+        "text": "Ver todos os produtos"
+      },
+      "blockClass": [ "ver-todos"]
+    }
+  }
+}

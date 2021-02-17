@@ -1,0 +1,54 @@
+{
+  "list-context.image-list#empty-search-content-slider": {
+    "children": ["slider-layout#empty-search-slider"],
+    "props": {
+      "height": 200,
+      "showArrows": true,
+      "images": [{
+          "image": "https://cassol.vtexassets.com/arquivos/empty-pisos.png",
+          "mobileImage": "https://cassol.vtexassets.com/arquivos/empty-pisos.png",
+          "url": "/",
+          "label": "Pisos"
+        },
+        {
+          "image": "https://cassol.vtexassets.com/arquivos/empty-ferramentas.png",
+          "mobileImage": "https://cassol.vtexassets.com/arquivos/empty-ferramentas.png",
+          "url": "/",
+          "label": "Ferramentas"
+        },
+        {
+          "image": "https://cassol.vtexassets.com/arquivos/empty-cozinha.png",
+          "mobileImage": "https://cassol.vtexassets.com/arquivos/empty-cozinha.png",
+          "url": "/",
+          "label": "Cozinha"
+        },
+        {
+          "image": "https://cassol.vtexassets.com/arquivos/empty-eletroportateis.png",
+          "mobileImage": "https://cassol.vtexassets.com/arquivos/empty-eletroportateis.png",
+          "url": "/",
+          "label": "Eletroportáteis"
+        },
+        {
+          "image": "https://cassol.vtexassets.com/arquivos/empty-cozinha.png",
+          "mobileImage": "https://cassol.vtexassets.com/arquivos/empty-cozinha.png",
+          "url": "/",
+          "label": "Pisos"
+        }
+      ]
+    }
+  },
+
+  "slider-layout#empty-search-slider": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 2,
+        "phone": 1
+      },
+      "infinite": true,
+      "showPaginationDots": "always",
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "emptySearchContainer"
+    }
+  }
+}

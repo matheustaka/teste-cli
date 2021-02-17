@@ -1,0 +1,132 @@
+{
+  "menu-item#chapas-e-madeira": {
+    "props": {
+      "id": "menu-item-chapas-e-madeira",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/materiais-de-construcao/chapas-e-madeira",
+        "noFollow": true,
+        "tagTitle": "Chapas e Madeira",
+        "text": "Chapas e Madeira"
+      },
+      "blockClass": ["childSub", "have-children"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#chapas-e-madeira"]
+  },
+
+  "vtex.menu@2.x:submenu#chapas-e-madeira": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#chapas-e-madeira"]
+  },
+
+  "vtex.menu@2.x:menu#chapas-e-madeira": {
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-chapas-e-madeira-ver-todos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-de-construcao/chapas-e-madeira",
+            "noFollow": true,
+            "tagTitle": "Ver todos os produtos",
+            "text": "Ver todos os produtos"
+          },
+          "blockClass": ["ver-todos"]
+        },
+        {
+          "id": "menu-item-caibro",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-de-construcao/chapas-e-madeira/caibro",
+            "noFollow": true,
+            "tagTitle": "Caibro",
+            "text": "Caibro"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-compensado",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-de-construcao/chapas-e-madeira/compensado",
+            "noFollow": true,
+            "tagTitle": "Compensado",
+            "text": "Compensado"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-perna-serra",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-de-construcao/chapas-e-madeira/perna-serra",
+            "noFollow": true,
+            "tagTitle": "Perna Serra",
+            "text": "Perna Serra"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-ripa",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-de-construcao/chapas-e-madeira/ripa",
+            "noFollow": true,
+            "tagTitle": "Ripa",
+            "text": "Ripa"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-tabua",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-de-construcao/chapas-e-madeira/tabua",
+            "noFollow": true,
+            "tagTitle": "Tábua",
+            "text": "Tábua"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-tapume",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-de-construcao/chapas-e-madeira/tapume",
+            "noFollow": true,
+            "tagTitle": "Tapume",
+            "text": "Tapume"
+          },
+          "blockClass": "child"
+        }
+      ]
+    }
+  }
+}

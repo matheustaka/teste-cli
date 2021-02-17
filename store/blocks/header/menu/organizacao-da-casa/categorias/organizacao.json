@@ -1,0 +1,62 @@
+{
+  "menu-item#organizacao": {
+    "props": {
+      "id": "menu-item-organizacao",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/organizacao-da-casa/organizacao",
+        "noFollow": true,
+        "tagTitle": "Organização",
+        "text": "Organização"
+      },
+      "blockClass": ["childSub", "have-children"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#organizacao"]
+  },
+
+  "vtex.menu@2.x:submenu#organizacao": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#organizacao"]
+  },
+
+  "vtex.menu@2.x:menu#organizacao": {
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-organizacao-ver-todos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/organizacao-da-casa/organizacao",
+            "noFollow": true,
+            "tagTitle": "Ver todos os produtos",
+            "text": "Ver todos os produtos"
+          },
+          "blockClass": ["ver-todos"]
+        },
+        {
+          "id": "menu-item-prateleira-e-nicho",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/organizacao-da-casa/organizacao/prateleira-e-nicho",
+            "noFollow": true,
+            "tagTitle": "Prateleira e Nicho",
+            "text": "Prateleira e Nicho"
+          },
+          "blockClass": "child"
+        }
+      ]
+    }
+  }
+}

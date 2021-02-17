@@ -1,0 +1,18 @@
+{
+  "menu-item#porcelanatos-polidos": {
+    "props": {
+      "id": "menu-item-porcelanatos-polidos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/pisos-e-revestimentos/porcelanatos-polidos",
+        "noFollow": true,
+        "tagTitle": "Porcelanatos Polidos",
+        "text": "Porcelanatos Polidos"
+      },
+      "blockClass": "childSub"
+    }
+  }
+}

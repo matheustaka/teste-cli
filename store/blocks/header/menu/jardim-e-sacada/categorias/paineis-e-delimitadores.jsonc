@@ -1,0 +1,18 @@
+{
+  "menu-item#paineis-e-delimitadores": {
+    "props": {
+      "id": "menu-item-paineis-e-delimitadores",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/jardim-e-sacada/paineis-e-delimitadores",
+        "noFollow": true,
+        "tagTitle": "Painéis e Delimitadores",
+        "text": "Painéis e Delimitadores"
+      },
+      "blockClass": ["childSub", "have-children"]
+    }
+  }
+}

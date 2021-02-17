@@ -1,0 +1,18 @@
+{
+  "menu-item#pisos-ceramicos": {
+    "props": {
+      "id": "menu-item-pisos-ceramicos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/pisos-e-revestimentos/pisos-ceramicos",
+        "noFollow": true,
+        "tagTitle": "Pisos Cerâmicos",
+        "text": "Pisos Cerâmicos"
+      },
+      "blockClass": "childSub"
+    }
+  }
+}

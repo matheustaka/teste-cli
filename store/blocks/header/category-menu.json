@@ -1,0 +1,120 @@
+{
+  "vtex.menu@2.x:menu#category-menu": {
+    "props": {
+      "experimentalOptimizeRendering": false,
+      "blockClass": "menu-topo"
+    },
+    "children": [
+      "menu-item#departamentos",
+      "menu-item#pisos-e-revestimentos",
+      "menu-item#eletro",
+      "menu-item#climatizacao-e-ventilacao",
+      "menu-item#materiais-de-construcao",
+      "menu-item#banheiros",
+      "menu-item#ferramentas",
+      "menu-item#novidades"
+    ]
+  },
+
+  "menu-item#departamentos": {
+    "props": {
+      "id": "menu-item-departamentos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "Todos os Departamentos",
+        "text": "Todos os Departamentos"
+      },
+      "blockClass": ["department", "have-children", "first-department"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#departamentos"]
+  },
+
+  "vtex.menu@2.x:submenu#departamentos": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#departamentos"]
+  },
+
+  "vtex.menu@2.x:menu#departamentos": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#pisos-e-revestimentos",
+      "menu-item#eletro",
+      "menu-item#climatizacao-e-ventilacao",
+      "menu-item#cozinhar-servir-e-organizar",
+      "menu-item#materiais-de-construcao",
+      "menu-item#banheiros",
+      "menu-item#cozinha-e-lavanderia",
+      "menu-item#decoracao-e-moveis",
+      "menu-item#ferramentas",
+      "menu-item#ferragens",
+      "menu-item#iluminacao",
+      "menu-item#jardim-e-sacada",
+      "menu-item#materiais-eletricos",
+      "menu-item#materiais-hidraulicos",
+      "menu-item#organizacao-da-casa",
+      "menu-item#piscina-e-lazer",
+      "menu-item#pneus-e-acessorios-automotivos",
+      "menu-item#tintas-e-acessorios"
+    ]
+  },
+
+  "menu-item#novidades": {
+    "props": {
+      "id": "menu-item-novidades",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/146?map=productClusterIds",
+        "noFollow": true,
+        "tagTitle": "Novidades",
+        "text": "Novidades"
+      },
+      "blockClass": ["last-department"]
+    }
+  },
+
+  "menu-item#myAccount": {
+    "props": {
+      "id": "menu-item-myAccount",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/account",
+        "noFollow": true,
+        "tagTitle": "Minha Conta",
+        "text": "Minha Conta"
+      },
+      "blockClass": [ "department", "first-department"]
+    }
+  },
+
+  "menu-item#nossas-lojas-menu": {
+    "props": {
+      "id": "menu-item-nossas-lojas-menu",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/146?map=productClusterIds",
+        "noFollow": true,
+        "tagTitle": "Nossas Lojas",
+        "text": "Nossas Lojas"
+      },
+      "blockClass": [ "department", "first-department"]
+    }
+  }
+}

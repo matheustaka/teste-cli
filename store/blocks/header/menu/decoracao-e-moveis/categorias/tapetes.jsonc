@@ -1,0 +1,118 @@
+{
+  "menu-item#tapetes": {
+    "props": {
+      "id": "menu-item-tapetes",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/decoracao-e-moveis/tapetes",
+        "noFollow": true,
+        "tagTitle": "Tapetes",
+        "text": "Tapetes"
+      },
+      "blockClass": ["childSub", "have-children"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#tapetes"]
+  },
+
+  "vtex.menu@2.x:submenu#tapetes": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#tapetes"]
+  },
+
+  "vtex.menu@2.x:menu#tapetes": {
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-tapetes-ver-todos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/decoracao-e-moveis/tapetes",
+            "noFollow": true,
+            "tagTitle": "Ver todos os produtos",
+            "text": "Ver todos os produtos"
+          },
+          "blockClass": ["ver-todos"]
+        },
+        {
+          "id": "menu-item-capacho",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/decoracao-e-moveis/tapetes/capacho",
+            "noFollow": true,
+            "tagTitle": "Capacho",
+            "text": "Capacho"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-passadeira",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/decoracao-e-moveis/tapetes/passadeira",
+            "noFollow": true,
+            "tagTitle": "Passadeira",
+            "text": "Passadeira"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-tapetes-para-banheiro",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/decoracao-e-moveis/tapetes/tapetes-para-banheiro",
+            "noFollow": true,
+            "tagTitle": "Tapetes para Banheiro",
+            "text": "Tapetes para Banheiro"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-tapetes-para-cozinha-e-lavanderia",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/decoracao-e-moveis/tapetes/tapetes-para-cozinha-e-lavanderia",
+            "noFollow": true,
+            "tagTitle": "Tapetes para Cozinha e Lavanderia",
+            "text": "Tapetes para Cozinha e Lavanderia"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-tapetes-para-quarto-e-sala",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/decoracao-e-moveis/tapetes/tapetes-para-quarto-e-sala",
+            "noFollow": true,
+            "tagTitle": "Tapetes para Quarto e Sala",
+            "text": "Tapetes para Quarto e Sala"
+          },
+          "blockClass": "child"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "menu-item#gabinetes-para-banheiro": {
+    "props": {
+      "id": "menu-item-gabinetes-para-banheiro",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/banheiros/gabinetes-para-banheiro",
+        "noFollow": true,
+        "tagTitle": "Gabinetes para Banheiro",
+        "text": "Gabinetes para Banheiro"
+      },
+      "blockClass": ["childSub", "have-children"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#gabinetes-para-banheiro"]
+  },
+
+  "vtex.menu@2.x:submenu#gabinetes-para-banheiro": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#gabinetes-para-banheiro"]
+  },
+
+  "vtex.menu@2.x:menu#gabinetes-para-banheiro": {
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-gabinetes-para-banheiro-ver-todos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/banheiros/gabinetes-para-banheiro",
+            "noFollow": true,
+            "tagTitle": "Ver todos os produtos",
+            "text": "Ver todos os produtos"
+          },
+          "blockClass": ["ver-todos"]
+        },
+        {
+          "id": "menu-item-espelheira",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/banheiros/gabinetes-para-banheiro/exaustor",
+            "noFollow": true,
+            "tagTitle": "Espelheira",
+            "text": "Espelheira"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-gabinete",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/banheiros/gabinetes-para-banheiro/exaustor",
+            "noFollow": true,
+            "tagTitle": "Gabinete",
+            "text": "Gabinete"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-gabinete-com-espelheira",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/banheiros/gabinetes-para-banheiro/instalacao-e-reparo",
+            "noFollow": true,
+            "tagTitle": "Gabinete com Espelheira",
+            "text": "Gabinete com Espelheira"
+          },
+          "blockClass": "child"
+        }
+      ]
+    }
+  }
+}

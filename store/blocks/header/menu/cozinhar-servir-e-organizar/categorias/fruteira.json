@@ -1,0 +1,20 @@
+{
+    "menu-item#fruteira": {
+      "props": {
+        "id": "menu-item-fruteira",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/cozinhar-servir-e-organizar/fruteira",
+          "noFollow": true,
+          "tagTitle": "Fruteira",
+          "text": "Fruteira"
+        },
+        "blockClass": ["childSub"]
+      }
+    }
+
+  }
+  

@@ -1,0 +1,160 @@
+{
+  "menu-item#loucas-sanitarias-e-cubas": {
+    "props": {
+      "id": "menu-item-loucas-sanitarias-e-cubas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/banheiros/loucas-sanitarias-e-cubas",
+        "noFollow": true,
+        "tagTitle": "Louças Sanitárias e Cubas",
+        "text": "Louças Sanitárias e Cubas"
+      },
+      "blockClass": ["childSub", "have-children"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#loucas-sanitarias-e-cubas"]
+  },
+
+  "vtex.menu@2.x:submenu#loucas-sanitarias-e-cubas": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#loucas-sanitarias-e-cubas"]
+  },
+
+  "vtex.menu@2.x:menu#loucas-sanitarias-e-cubas": {
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-loucas-sanitarias-e-cubas-ver-todos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/banheiros/loucas-sanitarias-e-cubas",
+            "noFollow": true,
+            "tagTitle": "Ver todos os produtos",
+            "text": "Ver todos os produtos"
+          },
+          "blockClass": ["ver-todos"]
+        },
+        {
+          "id": "menu-item-bide",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/banheiros/loucas-sanitarias-e-cubas/bide",
+            "noFollow": true,
+            "tagTitle": "Bidê",
+            "text": "Bidê"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-caixa-acoplada",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/banheiros/loucas-sanitarias-e-cubas/caixa-acoplada",
+            "noFollow": true,
+            "tagTitle": "Caixa Acoplada",
+            "text": "Caixa Acoplada"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-coluna-para-banheiro",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/banheiros/loucas-sanitarias-e-cubas/coluna-para-banheiro",
+            "noFollow": true,
+            "tagTitle": "Coluna para Banheiro",
+            "text": "Coluna para Banheiro"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-cuba-para-banheiro",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/banheiros/loucas-sanitarias-e-cubas/cuba-para-banheiro",
+            "noFollow": true,
+            "tagTitle": "Cuba para Banheiro",
+            "text": "Cuba para Banheiro"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-lavatorio-para-banheiro",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/banheiros/loucas-sanitarias-e-cubas/lavatorio-para-banheiro",
+            "noFollow": true,
+            "tagTitle": "Lavatório para Banheiro",
+            "text": "Lavatório para Banheiro"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-mictorio",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/banheiros/loucas-sanitarias-e-cubas/mictorio",
+            "noFollow": true,
+            "tagTitle": "Mictório",
+            "text": "Mictório"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-vaso-sanitario",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/banheiros/loucas-sanitarias-e-cubas/vaso-sanitario",
+            "noFollow": true,
+            "tagTitle": "Vaso Sanitário",
+            "text": "Vaso Sanitário"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-vaso-sanitario-com-caixa-acoplada",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/banheiros/loucas-sanitarias-e-cubas/vaso-sanitario-com-caixa-acoplada",
+            "noFollow": true,
+            "tagTitle": "Vaso Sanitário com Caixa Acoplada",
+            "text": "Vaso Sanitário com Caixa Acoplada"
+          },
+          "blockClass": "child"
+        }
+      ]
+    }
+  }
+}

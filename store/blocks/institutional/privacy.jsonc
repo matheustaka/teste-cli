@@ -1,0 +1,96 @@
+{
+  "store.custom#privacy": {
+    "blocks": [
+      "responsive-layout.desktop#privacy",
+      "responsive-layout.tablet#privacy",
+      "responsive-layout.phone#privacy"
+    ]
+  },
+
+  "responsive-layout.desktop#privacy": {
+    "children": [
+      "breadcrumb",
+      "flex-layout.row#privacy-desktop"
+    ]
+  },
+
+  "responsive-layout.tablet#privacy": {
+    "children": [
+      "breadcrumb",
+      "flex-layout.row#privacy-menu-mobile",
+      "flex-layout.row#privacy-mobile"
+    ]
+  },
+
+  "responsive-layout.phone#privacy": {
+    "children": [
+      "breadcrumb",
+      "flex-layout.row#privacy-menu-mobile",
+      "flex-layout.row#privacy-mobile"
+    ]
+  },
+
+  "flex-layout.row#privacy-desktop": {
+    "children": [
+      "flex-layout.col#institutional-sidebar-desktop",
+      "flex-layout.col#content-privacy"
+    ],
+    "props": {
+      "blockClass": "institutionalContainer"
+    }
+  },
+
+  "flex-layout.row#privacy-menu-mobile": {
+    "children": [
+      "flex-layout.col#institutional-sidebar-mobile"
+    ],
+    "props": {
+      "blockClass": "institutionalContainer"
+    }
+  },
+
+  "flex-layout.row#privacy-mobile": {
+    "children": [
+      "flex-layout.col#content-privacy-mobile"
+    ],
+    "props": {
+      "blockClass": "institutionalContainer"
+    }
+  },
+
+  "flex-layout.col#content-privacy-mobile": {
+    "children": [
+      "rich-text#privacy",
+      "rich-text#privacy--seguranca"
+    ],
+    "props": {
+      "blockClass": "textColumn",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "flex-layout.col#content-privacy": {
+    "children": [
+      "rich-text#privacy",
+      "rich-text#privacy--seguranca"
+    ],
+    "props": {
+      "blockClass": "textColumn",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "rich-text#privacy": {
+    "props": {
+      "text": "### **Privacidade** \n \n A Cassol adota práticas confiáveis, investindo sempre em tecnologia e segurança na proteção dos dados dos seus clientes. Ao se cadastrar no \n site da Cassol, você terá um login e uma senha que facilitarão tanto na navegação quanto na segurança de suas transações. \n \n A Cassol se compromete a manter as informações de seus clientes em total sigilo, somente sendo utilizadas internamente para traçar o perfil do \n público, visando ao melhor atendimento e entendimento do mesmo. \n \n Ao se cadastrar no site, você está aceitando receber e-mails promocionais. Caso deseje cessar o recebimento das ofertas basta clicar em \n “descadastrar”, localizado no final de um dos e-mails recebidos. \n \n",
+      "blockClass": "aboutContent"
+    }
+  },
+
+  "rich-text#privacy--seguranca": {
+    "props": {
+      "text": "##### **SEGURANÇA** \n \n A Cassol, juntamente com seus parceiros, conta com recursos tecnológicos para garantir a segurança dos dados de seus usuários. Entre as \n medidas implementadas, modernas formas de criptografia e barreiras contra acessos indevidos tornam o site seguro. \n \n O cliente Cassol também pode contribuir com a segurança de suas informações: \n \n • Não compartilhando sua senha com terceiros \n \n • Fornecendo dados verídicos e atualizando-os na plataforma \n",
+      "blockClass": "aboutContent"
+    }
+  }
+}

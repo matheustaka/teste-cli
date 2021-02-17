@@ -1,0 +1,118 @@
+{
+  "menu-item#aquecedores-de-agua-e-pressurizadores": {
+    "props": {
+      "id": "menu-item-aquecedores-de-agua-e-pressurizadores",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/banheiros/aquecedores-de-agua-e-pressurizadores",
+        "noFollow": true,
+        "tagTitle": "Aquecedores de Água e Pressurizadores",
+        "text": "Aquecedores de Água e Pressurizadores"
+      },
+      "blockClass": ["childSub", "have-children"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#aquecedores-de-agua-e-pressurizadores"]
+  },
+
+  "vtex.menu@2.x:submenu#aquecedores-de-agua-e-pressurizadores": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#aquecedores-de-agua-e-pressurizadores"]
+  },
+
+  "vtex.menu@2.x:menu#aquecedores-de-agua-e-pressurizadores": {
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-aquecedores-de-agua-e-pressurizadores-ver-todos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/banheiros/aquecedores-de-agua-e-pressurizadores",
+            "noFollow": true,
+            "tagTitle": "Ver todos os produtos",
+            "text": "Ver todos os produtos"
+          },
+          "blockClass": ["ver-todos"]
+        },
+        {
+          "id": "menu-item-acessorios-para-aquecedor-a-gas",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/banheiros/aquecedores-de-agua-e-pressurizadores/acessorios-para-aquecedor-a-gas",
+            "noFollow": true,
+            "tagTitle": "Acessórios para Aquecedor de Água",
+            "text": "Acessórios para Aquecedor de Água"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-aquecedor-a-gas",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/banheiros/aquecedores-de-agua-e-pressurizadores/aquecedor-a-gas",
+            "noFollow": true,
+            "tagTitle": "Aquecedor a Gás",
+            "text": "Aquecedor a Gás"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-aquecedor-eletrico",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/banheiros/aquecedores-de-agua-e-pressurizadores/aquecedor-eletrico",
+            "noFollow": true,
+            "tagTitle": "Aquecedor Elétrico",
+            "text": "Aquecedor Elétrico"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-aquecedor-solar",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/banheiros/aquecedores-de-agua-e-pressurizadores/aquecedor-solar",
+            "noFollow": true,
+            "tagTitle": "Aquecedor Solar",
+            "text": "Aquecedor Solar"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-pressurizador",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/banheiros/aquecedores-de-agua-e-pressurizadores/pressurizador",
+            "noFollow": true,
+            "tagTitle": "Pressurizador",
+            "text": "Pressurizador"
+          },
+          "blockClass": "child"
+        }
+      ]
+    }
+  }
+}

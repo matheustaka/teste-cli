@@ -1,0 +1,67 @@
+{
+  "menu-item#ferramentas": {
+    "props": {
+      "id": "menu-item-ferramentas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/ferramentas",
+        "noFollow": true,
+        "tagTitle": "Ferramentas",
+        "text": "Ferramentas"
+      },
+      "blockClass": ["department", "have-children", "penultimate-department", "dropdown-inverter"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#ferramentas"]
+  },
+
+  "vtex.menu@2.x:submenu#ferramentas": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#ferramentas"]
+  },
+
+  "vtex.menu@2.x:menu#ferramentas": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "drop-category"
+    },
+    "children": [
+      "rich-text#department-ferramentas",
+      "menu-item#ferramentas-ver-todos",
+      "menu-item#acessorios-para-ferramentas-eletricas",
+      "menu-item#epi-e-seguranca",
+      "menu-item#equipamentos-para-obra",
+      "menu-item#ferramentas-eletricas",
+      "menu-item#ferramentas-manuais",
+      "menu-item#ferramentas-para-oficina",
+      "menu-item#organizadores-para-ferramentas"
+    ]
+  },
+  "rich-text#department-ferramentas": {
+    "props": {
+      "text": "Ferramentas",
+      "blockClass": "titulo-menu-department"
+    }
+  },
+
+  "menu-item#ferramentas-ver-todos": {
+    "props": {
+      "id": "menu-item-ferramentas-ver-todos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/ferramentas",
+        "noFollow": true,
+        "tagTitle": "Ver todos os produtos",
+        "text": "Ver todos os produtos"
+      },
+      "blockClass": [ "ver-todos"]
+    }
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "menu-item#exaustores": {
+    "props": {
+      "id": "menu-item-exaustores",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/banheiros/exaustores",
+        "noFollow": true,
+        "tagTitle": "Exaustores",
+        "text": "Exaustores"
+      },
+      "blockClass": ["childSub", "have-children"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#exaustores"]
+  },
+
+  "vtex.menu@2.x:submenu#exaustores": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#exaustores"]
+  },
+
+  "vtex.menu@2.x:menu#exaustores": {
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-exaustores-ver-todos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/banheiros/exaustores",
+            "noFollow": true,
+            "tagTitle": "Ver todos os produtos",
+            "text": "Ver todos os produtos"
+          },
+          "blockClass": ["ver-todos"]
+        },
+        {
+          "id": "menu-item-exaustor",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/banheiros/exaustores/exaustor",
+            "noFollow": true,
+            "tagTitle": "Exaustor",
+            "text": "Exaustor"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-instalacao-e-reparo",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/banheiros/exaustores/instalacao-e-reparo",
+            "noFollow": true,
+            "tagTitle": "Instalação e Reparo",
+            "text": "Instalação e Reparo"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-kit-para-exaustor",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/banheiros/exaustores/kit-para-exaustor",
+            "noFollow": true,
+            "tagTitle": "Kit para Exaustor",
+            "text": "Kit para Exaustor"
+          },
+          "blockClass": "child"
+        }
+      ]
+    }
+  }
+}

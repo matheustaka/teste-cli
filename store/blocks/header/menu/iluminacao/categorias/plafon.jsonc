@@ -1,0 +1,18 @@
+{
+  "menu-item#plafon": {
+    "props": {
+      "id": "menu-item-plafon",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/iluminacao/plafon",
+        "noFollow": true,
+        "tagTitle": "Plafon",
+        "text": "Plafon"
+      },
+      "blockClass": "childSub"
+    }
+  }
+}

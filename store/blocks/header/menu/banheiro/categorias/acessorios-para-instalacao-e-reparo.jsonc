@@ -1,0 +1,566 @@
+{
+  "menu-item#banheiros-acessorios-para-instalacao-e-reparo": {
+    "props": {
+      "id": "menu-item-acessorios-para-instalacao-e-reparo",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/banheiros/acessorios-para-instalacao-e-reparo",
+        "noFollow": true,
+        "tagTitle": "Acessórios para Instalação e Reparo",
+        "text": "Acessórios para Instalação e Reparo"
+      },
+      "blockClass": ["childSub", "have-children"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#banheiros-acessorios-para-instalacao-e-reparo"]
+  },
+
+  "vtex.menu@2.x:submenu#banheiros-acessorios-para-instalacao-e-reparo": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#banheiros-acessorios-para-instalacao-e-reparo"]
+  },
+
+  "vtex.menu@2.x:menu#banheiros-acessorios-para-instalacao-e-reparo": {
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-banheiros-acessorios-para-instalacao-e-reparo-ver-todos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/banheiros/acessorios-para-instalacao-e-reparo",
+            "noFollow": true,
+            "tagTitle": "Ver todos os produtos",
+            "text": "Ver todos os produtos"
+          },
+          "blockClass": ["ver-todos"]
+        },
+        {
+          "id": "menu-item-anel-de-vedacao",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/banheiros/acessorios-para-instalacao-e-reparo/anel-de-vedacao",
+            "noFollow": true,
+            "tagTitle": "Anel de Vedação",
+            "text": "Anel de Vedação"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-bolsa-para-vaso",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/banheiros/acessorios-para-instalacao-e-reparo/bolsa-para-vaso",
+            "noFollow": true,
+            "tagTitle": "Bolsa para Vaso",
+            "text": "Bolsa para Vaso"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-botao-para-caixa Acoplada",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/banheiros/acessorios-para-instalacao-e-reparo/botao-para-caixa Acoplada",
+            "noFollow": true,
+            "tagTitle": "Botão para Caixa Acoplada",
+            "text": "Botão para Caixa Acoplada"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-braco-para-chuveiro",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/banheiros/acessorios-para-instalacao-e-reparo/braco-para-chuveiro",
+            "noFollow": true,
+            "tagTitle": "Braço para Chuveiro",
+            "text": "Braço para Chuveiro"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-bucha-de-reducao-e-Reversao",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/banheiros/acessorios-para-instalacao-e-reparo/bucha-de-reducao-e-Reversao",
+            "noFollow": true,
+            "tagTitle": "Bucha de Redução e Reversão",
+            "text": "Bucha de Redução e Reversão"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-caixa-de-descarga",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/banheiros/acessorios-para-instalacao-e-reparo/caixa-de-descarga",
+            "noFollow": true,
+            "tagTitle": "Caixa de Descarga",
+            "text": "Caixa de Descarga"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-desviador-para-ducha",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/banheiros/acessorios-para-instalacao-e-reparo/desviador-para-ducha",
+            "noFollow": true,
+            "tagTitle": "Desviador para Ducha",
+            "text": "Desviador para Ducha"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-engate-flexivel",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/banheiros/acessorios-para-instalacao-e-reparo/engate-flexivel",
+            "noFollow": true,
+            "tagTitle": "Engate Flexível",
+            "text": "Engate Flexível"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-extensao-para-torneira",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/banheiros/acessorios-para-instalacao-e-reparo/extensao-para-torneira",
+            "noFollow": true,
+            "tagTitle": "Extensão para Torneira",
+            "text": "Extensão para Torneira"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-fixacao-para-mictorio",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/banheiros/acessorios-para-instalacao-e-reparo/fixacao-para-mictorio",
+            "noFollow": true,
+            "tagTitle": "Fixação para Mictório",
+            "text": "Fixação para Mictório"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-fixacao-para-vaso-sanitario-e-bide",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/banheiros/acessorios-para-instalacao-e-reparo/fixacao-para-vaso-sanitario-e-bide",
+            "noFollow": true,
+            "tagTitle": "Fixação para Vaso Sanitário e Bidê",
+            "text": "Fixação para Vaso Sanitário e Bidê"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-grelha-para-ralo",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/banheiros/acessorios-para-instalacao-e-reparo/grelha-para-ralo",
+            "noFollow": true,
+            "tagTitle": "Grelha para Ralo",
+            "text": "Grelha para Ralo"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-joelho",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/banheiros/acessorios-para-instalacao-e-reparo/joelho",
+            "noFollow": true,
+            "tagTitle": "Joelho",
+            "text": "Joelho"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-juncao",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/banheiros/acessorios-para-instalacao-e-reparo/juncao",
+            "noFollow": true,
+            "tagTitle": "Junção",
+            "text": "Junção"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-kit-adaptador-para-valvula-de-descarga",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/banheiros/acessorios-para-instalacao-e-reparo/kit-adaptador-para-valvula-de-descarga",
+            "noFollow": true,
+            "tagTitle": "Kit Adaptador para Válvula de Descarga",
+            "text": "Kit Adaptador para Válvula de Descarga"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-kit-conversor-para-registro",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/banheiros/acessorios-para-instalacao-e-reparo/kit-conversor-para-registro",
+            "noFollow": true,
+            "tagTitle": "Kit Conversor para Registro",
+            "text": "Kit Conversor para Registro"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-kit-instalacao-para-chuveiro",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/banheiros/acessorios-para-instalacao-e-reparo/kit-instalacao-para-chuveiro",
+            "noFollow": true,
+            "tagTitle": "Kit Instalação para Chuveiro",
+            "text": "Kit Instalação para Chuveiro"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-kit-instalacao-para-mictorio",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/banheiros/acessorios-para-instalacao-e-reparo/kit-instalacao-para-mictorio",
+            "noFollow": true,
+            "tagTitle": "Kit Instalação para Mictório",
+            "text": "Kit Instalação para Mictório"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-kit-instalacao-para-vaso",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/banheiros/acessorios-para-instalacao-e-reparo/kit-instalacao-para-vaso",
+            "noFollow": true,
+            "tagTitle": "Kit Instalação para Vaso",
+            "text": "Kit Instalação para Vaso"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-kit-salva-registro",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/banheiros/acessorios-para-instalacao-e-reparo/kit-salva-registro",
+            "noFollow": true,
+            "tagTitle": "Kit Salva Registro",
+            "text": "Kit Salva Registro"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-luva",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/banheiros/acessorios-para-instalacao-e-reparo/luva",
+            "noFollow": true,
+            "tagTitle": "Luva",
+            "text": "Luva"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-niple",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/banheiros/acessorios-para-instalacao-e-reparo/niple",
+            "noFollow": true,
+            "tagTitle": "Niple",
+            "text": "Niple"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-parafuso-para-fixacao",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/banheiros/acessorios-para-instalacao-e-reparo/parafuso-para-fixacao",
+            "noFollow": true,
+            "tagTitle": "Parafuso para Fixação",
+            "text": "Parafuso para Fixação"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-plug-com-canopla",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/banheiros/acessorios-para-instalacao-e-reparo/plug-com-canopla",
+            "noFollow": true,
+            "tagTitle": "Plug com Canopla",
+            "text": "Plug com Canopla"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-prolongador-para-registro",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/banheiros/acessorios-para-instalacao-e-reparo/prolongador-para-registro",
+            "noFollow": true,
+            "tagTitle": "Prolongador para Registro",
+            "text": "Prolongador para Registro"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-reparo-de-caixa-acoplada",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/banheiros/acessorios-para-instalacao-e-reparo/reparo-de-caixa-acoplada",
+            "noFollow": true,
+            "tagTitle": "Reparo de Caixa Acoplada",
+            "text": "Reparo de Caixa Acoplada"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-reparo-para-registro-e-Valvula",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/banheiros/acessorios-para-instalacao-e-reparo/reparo-para-registro-e-Valvula",
+            "noFollow": true,
+            "tagTitle": "Reparo para Registro e Válvula",
+            "text": "Reparo para Registro e Válvula"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-rolete-para-papel-higienico",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/banheiros/acessorios-para-instalacao-e-reparo/rolete-para-papel-higienico",
+            "noFollow": true,
+            "tagTitle": "Rolete para Papel Higiênico",
+            "text": "Rolete para Papel Higiênico"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-sifao-para-lavatorio",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/banheiros/acessorios-para-instalacao-e-reparo/sifao-para-lavatorio",
+            "noFollow": true,
+            "tagTitle": "Sifão para Lavatório",
+            "text": "Sifão para Lavatório"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-spud-para-vaso",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/banheiros/acessorios-para-instalacao-e-reparo/spud-para-vaso",
+            "noFollow": true,
+            "tagTitle": "Spud para Vaso",
+            "text": "Spud para Vaso"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-tampa-para-valvula",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/banheiros/acessorios-para-instalacao-e-reparo/tampa-para-valvula",
+            "noFollow": true,
+            "tagTitle": "Tampa para Válvula",
+            "text": "Tampa para Válvula"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-te",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/banheiros/acessorios-para-instalacao-e-reparo/te",
+            "noFollow": true,
+            "tagTitle": "Tê",
+            "text": "Tê"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-tubo-de-ligacao",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/banheiros/acessorios-para-instalacao-e-reparo/tubo-de-ligacao",
+            "noFollow": true,
+            "tagTitle": "Tubo de Ligação",
+            "text": "Tubo de Ligação"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-tubo-para-caixa-de-descarga",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/banheiros/acessorios-para-instalacao-e-reparo/tubo-para-caixa-de-descarga",
+            "noFollow": true,
+            "tagTitle": "Tubo para Caixa de Descarga",
+            "text": "Tubo para Caixa de Descarga"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-tubo-para-valvula-de-descarga",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/banheiros/acessorios-para-instalacao-e-reparo/tubo-para-valvula-de-descarga",
+            "noFollow": true,
+            "tagTitle": "Tubo para Válvula de Descarga",
+            "text": "Tubo para Válvula de Descarga"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-valvula-para-lavatorio",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/banheiros/acessorios-para-instalacao-e-reparo/valvula-para-lavatorio",
+            "noFollow": true,
+            "tagTitle": "Válvula para Lavatório",
+            "text": "Válvula para Lavatório"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-vedante-para-torneira",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/banheiros/acessorios-para-instalacao-e-reparo/vedante-para-torneira",
+            "noFollow": true,
+            "tagTitle": "Vedante para Torneira",
+            "text": "Vedante para Torneira"
+          },
+          "blockClass": "child"
+        }
+      ]
+    }
+  }
+}

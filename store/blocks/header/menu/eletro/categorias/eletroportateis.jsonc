@@ -1,0 +1,412 @@
+{
+  "menu-item#eletroportateis": {
+    "props": {
+      "id": "menu-item-eletroportateis",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/eletro/eletroportateis",
+        "noFollow": true,
+        "tagTitle": "Eletroportáteis",
+        "text": "Eletroportáteis"
+      },
+      "blockClass": ["childSub", "have-children"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#eletroportateis"]
+  },
+
+  "vtex.menu@2.x:submenu#eletroportateis": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#eletroportateis"]
+  },
+
+  "vtex.menu@2.x:menu#eletroportateis": {
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-eletroportateis-ver-todos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/eletro/eletroportateis",
+            "noFollow": true,
+            "tagTitle": "Ver todos os produtos",
+            "text": "Ver todos os produtos"
+          },
+          "blockClass": ["ver-todos"]
+        },
+        {
+          "id": "menu-item-aspirador-de-po",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/eletro/eletroportateis/aspirador-de-po",
+            "noFollow": true,
+            "tagTitle": "Aspirador de Pó",
+            "text": "Aspirador de Pó"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-batedeira",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/eletro/eletroportateis/batedeira",
+            "noFollow": true,
+            "tagTitle": "Batedeira",
+            "text": "Batedeira"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-cafeteira",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/eletro/eletroportateis/cafeteira",
+            "noFollow": true,
+            "tagTitle": "Cafeteira",
+            "text": "Cafeteira"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-chaleira-eletrica",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/eletro/eletroportateis/chaleira-eletrica",
+            "noFollow": true,
+            "tagTitle": "Chaleira Elétrica",
+            "text": "Chaleira Elétrica"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-churrasqueira-eletrica",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/eletro/eletroportateis/churrasqueira-eletrica",
+            "noFollow": true,
+            "tagTitle": "Churrasqueira Elétrica",
+            "text": "Churrasqueira Elétrica"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-cozedor-eletrico",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/eletro/eletroportateis/cozedor-eletrico",
+            "noFollow": true,
+            "tagTitle": "Cozedor Elétrico",
+            "text": "Cozedor Elétrico"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-crepeira",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/eletro/eletroportateis/crepeira",
+            "noFollow": true,
+            "tagTitle": "Crepeira",
+            "text": "Crepeira"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-espremedor-de-frutas",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/eletro/eletroportateis/espremedor-de-frutas",
+            "noFollow": true,
+            "tagTitle": "Espremedor de Frutas",
+            "text": "Espremedor de Frutas"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-extrator-de-sujeira",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/eletro/eletroportateis/extrator-de-sujeira",
+            "noFollow": true,
+            "tagTitle": "Extrator de Sujeira",
+            "text": "Extrator de Sujeira"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-ferro-de-passar",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/eletro/eletroportateis/ferro-de-passar",
+            "noFollow": true,
+            "tagTitle": "Ferro de Passar",
+            "text": "Ferro de Passar"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-fritadeira-eletrica",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/eletro/eletroportateis/fritadeira-eletrica",
+            "noFollow": true,
+            "tagTitle": "Fritadeira Elétrica",
+            "text": "Fritadeira Elétrica"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-grill-e-sanduicheira",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/eletro/eletroportateis/grill-e-sanduicheira",
+            "noFollow": true,
+            "tagTitle": "Grill e Sanduicheira",
+            "text": "Grill e Sanduicheira"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-liquidificador",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/eletro/eletroportateis/liquidificador",
+            "noFollow": true,
+            "tagTitle": "Liquidificador",
+            "text": "Liquidificador"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-maquina-de-costura",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/eletro/eletroportateis/maquina-de-costura",
+            "noFollow": true,
+            "tagTitle": "Máquina de Costura",
+            "text": "Máquina de Costura"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-maquina-de-cupcake",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/eletro/eletroportateis/maquina-de-cupcake",
+            "noFollow": true,
+            "tagTitle": "Máquina de Cupcake",
+            "text": "Máquina de Cupcake"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-mixer",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/eletro/eletroportateis/mixer",
+            "noFollow": true,
+            "tagTitle": "Mixer",
+            "text": "Mixer"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-moedor-de-cafe",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/eletro/eletroportateis/moedor-de-cafe",
+            "noFollow": true,
+            "tagTitle": "Moedor de Café",
+            "text": "Moedor de Café"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-multiprocessador",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/eletro/eletroportateis/multiprocessador",
+            "noFollow": true,
+            "tagTitle": "Multiprocessador",
+            "text": "Multiprocessador"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-omeleteira",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/eletro/eletroportateis/omeleteira",
+            "noFollow": true,
+            "tagTitle": "Omeleteira",
+            "text": "Omeleteira"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-panela-eletrica",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/eletro/eletroportateis/panela-eletrica",
+            "noFollow": true,
+            "tagTitle": "Panela Elétrica",
+            "text": "Panela Elétrica"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-panificadora",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/eletro/eletroportateis/panificadora",
+            "noFollow": true,
+            "tagTitle": "Panificadora",
+            "text": "Panificadora"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-panquequeira",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/eletro/eletroportateis/panquequeira",
+            "noFollow": true,
+            "tagTitle": "Panquequeira",
+            "text": "Panquequeira"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-passadeira-a-vapor",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/eletro/eletroportateis/passadeira-a-vapor",
+            "noFollow": true,
+            "tagTitle": "Passadeira a Vapor",
+            "text": "Passadeira a Vapor"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-pipoqueira",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/eletro/eletroportateis/pipoqueira",
+            "noFollow": true,
+            "tagTitle": "Pipoqueira",
+            "text": "Pipoqueira"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-torradeira",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/eletro/eletroportateis/torradeira",
+            "noFollow": true,
+            "tagTitle": "Torradeira",
+            "text": "Torradeira"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-waffle",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/eletro/eletroportateis/waffle",
+            "noFollow": true,
+            "tagTitle": "Waffle",
+            "text": "Waffle"
+          },
+          "blockClass": "child"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,286 @@
+{
+  "menu-item#moveis-de-cozinha-e-lavanderia": {
+    "props": {
+      "id": "menu-item-moveis-de-cozinha-e-lavanderia",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cozinha-e-lavanderia/moveis-de-cozinha-e-lavanderia",
+        "noFollow": true,
+        "tagTitle": "Móveis de Cozinha e Lavanderia",
+        "text": "Móveis de Cozinha e Lavanderia"
+      },
+      "blockClass": ["childSub", "have-children"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#moveis-de-cozinha-e-lavanderia"]
+  },
+
+  "vtex.menu@2.x:submenu#moveis-de-cozinha-e-lavanderia": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#moveis-de-cozinha-e-lavanderia"]
+  },
+
+  "vtex.menu@2.x:menu#moveis-de-cozinha-e-lavanderia": {
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-moveis-de-cozinha-e-lavanderia-ver-todos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinha-e-lavanderia/moveis-de-cozinha-e-lavanderia",
+            "noFollow": true,
+            "tagTitle": "Ver todos os produtos",
+            "text": "Ver todos os produtos"
+          },
+          "blockClass": ["ver-todos"]
+        },
+        {
+          "id": "menu-item-aparador",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinha-e-lavanderia/moveis-de-cozinha-e-lavanderia/aparador",
+            "noFollow": true,
+            "tagTitle": "Aparador",
+            "text": "Aparador"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-armario",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinha-e-lavanderia/moveis-de-cozinha-e-lavanderia/armario",
+            "noFollow": true,
+            "tagTitle": "Armário",
+            "text": "Armário"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-armario-aereo-para-cozinha",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinha-e-lavanderia/moveis-de-cozinha-e-lavanderia/armario-aereo-para-cozinha",
+            "noFollow": true,
+            "tagTitle": "Armário Aéreo para Cozinha",
+            "text": "Armário Aéreo para Cozinha"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-armario-compacto",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinha-e-lavanderia/moveis-de-cozinha-e-lavanderia/armario-compacto",
+            "noFollow": true,
+            "tagTitle": "Armário Compacto",
+            "text": "Armário Compacto"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-armario-de-area-de-servico",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinha-e-lavanderia/moveis-de-cozinha-e-lavanderia/armario-de-area-de-servico",
+            "noFollow": true,
+            "tagTitle": "Armário de Área de Serviço",
+            "text": "Armário de Área de Serviço"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-armario-de-cozinha",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinha-e-lavanderia/moveis-de-cozinha-e-lavanderia/armario-de-cozinha",
+            "noFollow": true,
+            "tagTitle": "Armário de Cozinha",
+            "text": "Armário de Cozinha"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-balcao",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinha-e-lavanderia/moveis-de-cozinha-e-lavanderia/balcao",
+            "noFollow": true,
+            "tagTitle": "Balcão",
+            "text": "Balcão"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-balcao-com-tanque",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinha-e-lavanderia/moveis-de-cozinha-e-lavanderia/balcao-com-tanque",
+            "noFollow": true,
+            "tagTitle": "Balcão com Tanque",
+            "text": "Balcão com Tanque"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-balcao-de-cozinha",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinha-e-lavanderia/moveis-de-cozinha-e-lavanderia/balcao-de-cozinha",
+            "noFollow": true,
+            "tagTitle": "Balcão de Cozinha",
+            "text": "Balcão de Cozinha"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-balcao-para-tanque",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinha-e-lavanderia/moveis-de-cozinha-e-lavanderia/balcao-para-tanque",
+            "noFollow": true,
+            "tagTitle": "Balcão para Tanque",
+            "text": "Balcão para Tanque"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-cozinha-completa",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinha-e-lavanderia/moveis-de-cozinha-e-lavanderia/cozinha-completa",
+            "noFollow": true,
+            "tagTitle": "Cozinha Completa",
+            "text": "Cozinha Completa"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-estante",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinha-e-lavanderia/moveis-de-cozinha-e-lavanderia/estante",
+            "noFollow": true,
+            "tagTitle": "Estante",
+            "text": "Estante"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-kit-armario-e-balcao",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinha-e-lavanderia/moveis-de-cozinha-e-lavanderia/kit-armario-e-balcao",
+            "noFollow": true,
+            "tagTitle": "Kit Armário e Balcão",
+            "text": "Kit Armário e Balcão"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-kit-casa",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinha-e-lavanderia/moveis-de-cozinha-e-lavanderia/kit-casa",
+            "noFollow": true,
+            "tagTitle": "Kit Casa",
+            "text": "Kit Casa"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-paneleiro",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinha-e-lavanderia/moveis-de-cozinha-e-lavanderia/paneleiro",
+            "noFollow": true,
+            "tagTitle": "Paneleiro",
+            "text": "Paneleiro"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-protetor-para-pia",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinha-e-lavanderia/moveis-de-cozinha-e-lavanderia/protetor-para-pia",
+            "noFollow": true,
+            "tagTitle": "Protetor para Pia",
+            "text": "Protetor para Pia"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-tampo-para-balcao",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinha-e-lavanderia/moveis-de-cozinha-e-lavanderia/tampo-para-balcao",
+            "noFollow": true,
+            "tagTitle": "Tampo para Balcão",
+            "text": "Tampo para Balcão"
+          },
+          "blockClass": "child"
+        }
+      ]
+    }
+  }
+}

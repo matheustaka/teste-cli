@@ -1,0 +1,67 @@
+{
+  "menu-item#jardim-e-sacada": {
+    "props": {
+      "id": "menu-item-jardim-e-sacada",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/jardim-e-sacada",
+        "noFollow": true,
+        "tagTitle": "Jardim e Sacada",
+        "text": "Jardim e Sacada"
+      },
+      "blockClass": ["department", "have-children"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#jardim-e-sacada"]
+  },
+
+  "vtex.menu@2.x:submenu#jardim-e-sacada": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#jardim-e-sacada"]
+  },
+
+  "vtex.menu@2.x:menu#jardim-e-sacada": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "drop-category"
+    },
+    "children": [
+      "rich-text#department-jardim-e-sacada",
+      "menu-item#jardim-e-sacada-ver-todos",
+      "menu-item#churrasqueiras-e-lareiras",
+      "menu-item#decks-e-pisos",
+      "menu-item#decoracao-de-jardim",
+      "menu-item#ferramentas-de-jardim",
+      "menu-item#irrigacao",
+      "menu-item#lavadora-de-alta-pressao",
+      "menu-item#moveis-para-sacada-e-jardim",
+      "menu-item#paineis-e-delimitadores"
+    ]
+  },
+  "rich-text#department-jardim-e-sacada": {
+    "props": {
+      "text": "Jardim e Sacada",
+      "blockClass": "titulo-menu-department"
+    }
+  },
+  "menu-item#jardim-e-sacada-ver-todos": {
+    "props": {
+      "id": "menu-item-jardim-e-sacada-ver-todos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/jardim-e-sacada",
+        "noFollow": true,
+        "tagTitle": "Ver todos os produtos",
+        "text": "Ver todos os produtos"
+      },
+      "blockClass": [ "ver-todos"]
+    }
+  }
+}

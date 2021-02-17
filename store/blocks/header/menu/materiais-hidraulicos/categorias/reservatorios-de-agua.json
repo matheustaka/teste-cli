@@ -1,0 +1,137 @@
+{
+  "menu-item#reservatorios-de-agua": {
+    "props": {
+      "id": "menu-item-reservatorios-de-agua",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/materiais-hidraulicos/reservatorios-de-agua",
+        "noFollow": true,
+        "tagTitle": "Reservatórios de Água",
+        "text": "Reservatórios de Água"
+      },
+      "blockClass": ["childSub", "have-children"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#reservatorios-de-agua"]
+  },
+
+  "vtex.menu@2.x:submenu#reservatorios-de-agua": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#reservatorios-de-agua"]
+  },
+
+  "vtex.menu@2.x:menu#reservatorios-de-agua": {
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-reservatorios-de-agua-ver-todos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-hidraulicos/reservatorios-de-agua",
+            "noFollow": true,
+            "tagTitle": "Ver todos os produtos",
+            "text": "Ver todos os produtos"
+          },
+          "blockClass": [ "ver-todos"]
+        },
+        {
+          "id": "menu-item-caixa-d-agua",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-hidraulicos/reservatorios-de-agua/caixa-d-agua",
+            "noFollow": true,
+            "tagTitle": "Caixa D'Água",
+            "text": "Caixa D'Água"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-cisterna",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-hidraulicos/reservatorios-de-agua/cisterna",
+            "noFollow": true,
+            "tagTitle": "Cisterna",
+            "text": "Cisterna"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-filtro",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-hidraulicos/reservatorios-de-agua/filtro",
+            "noFollow": true,
+            "tagTitle": "Filtro",
+            "text": "Filtro"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-reator",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-hidraulicos/reservatorios-de-agua/reator",
+            "noFollow": true,
+            "tagTitle": "Reator",
+            "text": "Reator"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-separador-de-folhas",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-hidraulicos/reservatorios-de-agua/separador-de-folhas",
+            "noFollow": true,
+            "tagTitle": "Separador de Folhas",
+            "text": "Separador de Folhas"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-torneira-boia",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-hidraulicos/reservatorios-de-agua/torneira-boia",
+            "noFollow": true,
+            "tagTitle": "Torneira Boia",
+            "text": "Torneira Boia"
+          },
+          "blockClass": "child"
+        }
+      ]
+    }
+  }
+}

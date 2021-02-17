@@ -1,0 +1,92 @@
+{
+  "menu-item#prateleiras-e-nichos": {
+    "props": {
+      "id": "menu-item-prateleiras-e-nichos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/organizacao-da-casa/prateleiras-e-nichos",
+        "noFollow": true,
+        "tagTitle": "Prateleiras e Nichos",
+        "text": "Prateleiras e Nichos"
+      },
+      "blockClass": ["childSub", "have-children"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#prateleiras-e-nichos"]
+  },
+
+  "vtex.menu@2.x:submenu#prateleiras-e-nichos": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#prateleiras-e-nichos"]
+  },
+
+  "vtex.menu@2.x:menu#prateleiras-e-nichos": {
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-prateleiras-e-nichos-ver-todos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/organizacao-da-casa/prateleiras-e-nichos",
+            "noFollow": true,
+            "tagTitle": "Ver todos os produtos",
+            "text": "Ver todos os produtos"
+          },
+          "blockClass": [ "ver-todos"]
+        },
+        {
+          "id": "menu-item-nicho",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/organizacao-da-casa/prateleiras-e-nichos/nicho",
+            "noFollow": true,
+            "tagTitle": "Nicho",
+            "text": "Nicho"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-prateleira",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/organizacao-da-casa/prateleiras-e-nichos/prateleira",
+            "noFollow": true,
+            "tagTitle": "Prateleira",
+            "text": "Prateleira"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-suporte-para-prateleira",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/organizacao-da-casa/prateleiras-e-nichos/suporte-para-prateleira",
+            "noFollow": true,
+            "tagTitle": "Suporte para Prateleira",
+            "text": "Suporte para Prateleira"
+          },
+          "blockClass": "child"
+        }
+      ]
+    }
+  }
+}

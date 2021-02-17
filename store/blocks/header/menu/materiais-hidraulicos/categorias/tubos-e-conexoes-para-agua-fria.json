@@ -1,0 +1,302 @@
+{
+  "menu-item#tubos-e-conexoes-para-agua-fria": {
+    "props": {
+      "id": "menu-item-tubos-e-conexoes-para-agua-fria",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/materiais-hidraulicos/tubos-e-conexoes-para-agua-fria",
+        "noFollow": true,
+        "tagTitle": "Tubos e Conexões para Água Fria",
+        "text": "Tubos e Conexões para Água Fria"
+      },
+      "blockClass": ["childSub", "have-children"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#tubos-e-conexoes-para-agua-fria"]
+  },
+
+  "vtex.menu@2.x:submenu#tubos-e-conexoes-para-agua-fria": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#tubos-e-conexoes-para-agua-fria"]
+  },
+
+  "vtex.menu@2.x:menu#tubos-e-conexoes-para-agua-fria": {
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-tubos-e-conexoes-para-agua-fria-ver-todos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-hidraulicos/tubos-e-conexoes-para-agua-fria",
+            "noFollow": true,
+            "tagTitle": "Ver todos os produtos",
+            "text": "Ver todos os produtos"
+          },
+          "blockClass": ["ver-todos"]
+        },
+        {
+          "id": "menu-item-abracadeira",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-hidraulicos/tubos-e-conexoes-para-agua-fria/abracadeira",
+            "noFollow": true,
+            "tagTitle": "Abraçadeira",
+            "text": "Abraçadeira"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-adaptador",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-hidraulicos/tubos-e-conexoes-para-agua-fria/adaptador",
+            "noFollow": true,
+            "tagTitle": "Adaptador",
+            "text": "Adaptador"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-anel",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-hidraulicos/tubos-e-conexoes-para-agua-fria/anel",
+            "noFollow": true,
+            "tagTitle": "Anel",
+            "text": "Anel"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-bucha-de-reducao",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-hidraulicos/tubos-e-conexoes-para-agua-fria/bucha-de-reducao",
+            "noFollow": true,
+            "tagTitle": "Bucha de Redução",
+            "text": "Bucha de Redução"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-caixa-clorada",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-hidraulicos/tubos-e-conexoes-para-agua-fria/caixa-clorada",
+            "noFollow": true,
+            "tagTitle": "Caixa Clorada",
+            "text": "Caixa Clorada"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-caixa-para-hidrometro",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-hidraulicos/tubos-e-conexoes-para-agua-fria/caixa-para-hidrometro",
+            "noFollow": true,
+            "tagTitle": "Caixa para Hidrômetro",
+            "text": "Caixa para Hidrômetro"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-cap",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-hidraulicos/tubos-e-conexoes-para-agua-fria/cap",
+            "noFollow": true,
+            "tagTitle": "Cap",
+            "text": "Cap"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-cruzeta",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-hidraulicos/tubos-e-conexoes-para-agua-fria/cruzeta",
+            "noFollow": true,
+            "tagTitle": "Cruzeta",
+            "text": "Cruzeta"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-curva",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-hidraulicos/tubos-e-conexoes-para-agua-fria/curva",
+            "noFollow": true,
+            "tagTitle": "Curva",
+            "text": "Curva"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-joelho",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-hidraulicos/tubos-e-conexoes-para-agua-fria/joelho",
+            "noFollow": true,
+            "tagTitle": "Joelho",
+            "text": "Joelho"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-luva",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-hidraulicos/tubos-e-conexoes-para-agua-fria/luva",
+            "noFollow": true,
+            "tagTitle": "Luva",
+            "text": "Luva"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-mangueira",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-hidraulicos/tubos-e-conexoes-para-agua-fria/mangueira",
+            "noFollow": true,
+            "tagTitle": "Mangueira",
+            "text": "Mangueira"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-niple",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-hidraulicos/tubos-e-conexoes-para-agua-fria/niple",
+            "noFollow": true,
+            "tagTitle": "Niple",
+            "text": "Niple"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-plug",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-hidraulicos/tubos-e-conexoes-para-agua-fria/plug",
+            "noFollow": true,
+            "tagTitle": "Plug",
+            "text": "Plug"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-te",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-hidraulicos/tubos-e-conexoes-para-agua-fria/te",
+            "noFollow": true,
+            "tagTitle": "Tê",
+            "text": "Tê"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-tubo",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-hidraulicos/tubos-e-conexoes-para-agua-fria/tubo",
+            "noFollow": true,
+            "tagTitle": "Tubo",
+            "text": "Tubo"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-uniao",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-hidraulicos/tubos-e-conexoes-para-agua-fria/uniao",
+            "noFollow": true,
+            "tagTitle": "União",
+            "text": "União"
+          },
+          "blockClass": "child"
+        }
+      ]
+    }
+  }
+}

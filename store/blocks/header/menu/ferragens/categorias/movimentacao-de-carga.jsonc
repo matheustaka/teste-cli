@@ -1,0 +1,104 @@
+{
+  "menu-item#movimentacao-de-carga": {
+    "props": {
+      "id": "menu-item-movimentacao-de-carga",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/ferragens/movimentacao-de-carga",
+        "noFollow": true,
+        "tagTitle": "Movimentação de Carga",
+        "text": "Movimentação de Carga"
+      },
+      "blockClass": ["childSub", "have-children"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#movimentacao-de-carga"]
+  },
+
+  "vtex.menu@2.x:submenu#movimentacao-de-carga": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#movimentacao-de-carga"]
+  },
+
+  "vtex.menu@2.x:menu#movimentacao-de-carga": {
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-movimentacao-de-carga-ver-todos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferragens/movimentacao-de-carga",
+            "noFollow": true,
+            "tagTitle": "Ver todos os produtos",
+            "text": "Ver todos os produtos"
+          },
+          "blockClass": ["ver-todos"]
+        },
+        {
+          "id": "menu-item-acessorios",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferragens/movimentacao-de-carga/acessorios",
+            "noFollow": true,
+            "tagTitle": "Acessórios",
+            "text": "Acessórios"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-carrinho",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferragens/movimentacao-de-carga/carrinho",
+            "noFollow": true,
+            "tagTitle": "Carrinho",
+            "text": "Carrinho"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-carro-plataforma",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferragens/movimentacao-de-carga/carro-plataforma",
+            "noFollow": true,
+            "tagTitle": "Carro Plataforma",
+            "text": "Carro Plataforma"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-lona",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferragens/movimentacao-de-carga/lona",
+            "noFollow": true,
+            "tagTitle": "Lona",
+            "text": "Lona"
+          },
+          "blockClass": "child"
+        }
+      ]
+    }
+  }
+}

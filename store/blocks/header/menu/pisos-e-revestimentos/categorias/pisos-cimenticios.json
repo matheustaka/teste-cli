@@ -1,0 +1,122 @@
+{
+  "menu-item#pisos-cimenticios": {
+    "props": {
+      "id": "menu-item-pisos-cimenticios",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/pisos-e-revestimentos/pisos-cimenticios",
+        "noFollow": true,
+        "tagTitle": "Pisos Cimentícios",
+        "text": "Pisos Cimentícios"
+      },
+      "blockClass": ["childSub", "have-children"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#pisos-cimenticios"]
+  },
+
+  "vtex.menu@2.x:submenu#pisos-cimenticios": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#pisos-cimenticios"]
+  },
+
+  "vtex.menu@2.x:menu#pisos-cimenticios": {
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-pisos-cimenticios-ver-todos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/pisos-e-revestimentos/pisos-cimenticios",
+            "noFollow": true,
+            "tagTitle": "Ver todos os produtos",
+            "text": "Ver todos os produtos"
+          },
+          "blockClass": ["ver-todos"]
+        },
+        {
+          "id": "menu-item-borda",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/pisos-e-revestimentos/pisos-cimenticios/borda",
+            "noFollow": true,
+            "tagTitle": "Borda",
+            "text": "Borda"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-borda-para-piscina",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/pisos-e-revestimentos/pisos-cimenticios/borda-para-piscina",
+            "noFollow": true,
+            "tagTitle": "Borda para Piscina",
+            "text": "Borda para Piscina"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-grelha",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/pisos-e-revestimentos/pisos-cimenticios/grelha",
+            "noFollow": true,
+            "tagTitle": "Grelha",
+            "text": "Grelha"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-lajota",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/pisos-e-revestimentos/pisos-cimenticios/lajota",
+            "noFollow": true,
+            "tagTitle": "Lajota",
+            "text": "Lajota"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-piso-para-piscina",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/pisos-e-revestimentos/pisos-cimenticios/piso-para-piscina",
+            "noFollow": true,
+            "tagTitle": "Piso para Piscina",
+            "text": "Piso para Piscina"
+          },
+          "blockClass": "child"
+        }
+      ]
+    }
+  }
+}

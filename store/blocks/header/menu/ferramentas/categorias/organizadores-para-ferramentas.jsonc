@@ -1,0 +1,132 @@
+{
+  "menu-item#organizadores-para-ferramentas": {
+    "props": {
+      "id": "menu-item-organizadores-para-ferramentas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/ferramentas/organizadores-para-ferramentas",
+        "noFollow": true,
+        "tagTitle": "Organizadores para Ferramentas",
+        "text": "Organizadores para Ferramentas"
+      },
+      "blockClass": ["childSub", "have-children"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#organizadores-para-ferramentas"]
+  },
+
+  "vtex.menu@2.x:submenu#organizadores-para-ferramentas": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#organizadores-para-ferramentas"]
+  },
+
+  "vtex.menu@2.x:menu#organizadores-para-ferramentas": {
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-organizadores-para-ferramentas-ver-todos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/organizadores-para-ferramentas",
+            "noFollow": true,
+            "tagTitle": "Ver todos os produtos",
+            "text": "Ver todos os produtos"
+          },
+          "blockClass": ["ver-todos"]
+        },
+        {
+          "id": "menu-item-acessorios",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/organizadores-para-ferramentas/acessorios",
+            "noFollow": true,
+            "tagTitle": "Acessórios",
+            "text": "Acessórios"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-bancadas-de-trabalho",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/organizadores-para-ferramentas/bancadas-de-trabalho",
+            "noFollow": true,
+            "tagTitle": "Bancadas de Trabalho",
+            "text": "Bancadas de Trabalho"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-caixas-e-bolsas",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/organizadores-para-ferramentas/caixas-e-bolsas",
+            "noFollow": true,
+            "tagTitle": "Caixas e Bolsas",
+            "text": "Caixas e Bolsas"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-carrinho-para-ferramentas",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/organizadores-para-ferramentas/carrinho-para-ferramentas",
+            "noFollow": true,
+            "tagTitle": "Carrinho para Ferramentas",
+            "text": "Carrinho para Ferramentas"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-estante-para-ferramentas",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/organizadores-para-ferramentas/estante-para-ferramentas",
+            "noFollow": true,
+            "tagTitle": "Estante para Ferramentas",
+            "text": "Estante para Ferramentas"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-painel-de-ferramentas",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/organizadores-para-ferramentas/painel-de-ferramentas",
+            "noFollow": true,
+            "tagTitle": "Painel de Ferramentas",
+            "text": "Painel de Ferramentas"
+          },
+          "blockClass": "child"
+        }
+      ]
+    }
+  }
+}

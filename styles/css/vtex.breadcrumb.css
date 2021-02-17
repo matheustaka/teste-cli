@@ -1,0 +1,40 @@
+.term {
+  color: #afafaf;
+}
+
+.link {
+  color: #afafaf;
+  font-size: 12px;
+  font-weight: 400;
+  text-align: left;
+  text-transform: inherit !important;
+}
+
+.container {
+  padding-bottom: 0;
+  max-width: 1250px;
+  margin: auto;
+}
+
+.container :last-child .link {
+  color: #707070;
+  text-transform: inherit !important;
+}
+
+.container :last-child .link:hover {
+  color: #0c389f;
+}
+
+.homeLink {
+  filter: contrast(0);
+  padding-bottom: 4px;
+}
+
+.homeLink:hover {
+  filter: contrast(1);
+}
+
+.homeLink .homeIcon {
+  width: 16px !important;
+  height: 16px !important;
+}

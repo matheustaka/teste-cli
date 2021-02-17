@@ -1,0 +1,18 @@
+{
+  "menu-item#termicas": {
+    "props": {
+      "id": "menu-item-termicas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/piscina-e-lazer/termicas",
+        "noFollow": true,
+        "tagTitle": "Térmicas",
+        "text": "Térmicas"
+      },
+      "blockClass": "childSub"
+    }
+  }
+}

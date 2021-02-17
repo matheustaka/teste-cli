@@ -1,0 +1,33 @@
+{
+  "store.custom#old-orders": {
+    "blocks": [
+      "responsive-layout.desktop#old-orders",
+      "responsive-layout.tablet#old-orders",
+      "responsive-layout.phone#old-orders"
+    ]
+  },
+
+  "responsive-layout.desktop#old-orders": {
+    "children": [
+      "breadcrumb",
+      "flex-layout.row#product-breadcrumb",
+      "old-orders"
+    ]
+  },
+
+  "responsive-layout.tablet#old-orders": {
+    "children": [
+      "breadcrumb",
+      "flex-layout.row#product-breadcrumb",
+      "old-orders"
+    ]
+  },
+
+  "responsive-layout.phone#old-orders": {
+    "children": [
+      "breadcrumb",
+      "flex-layout.row#product-breadcrumb",
+      "old-orders"
+    ]
+  }
+}

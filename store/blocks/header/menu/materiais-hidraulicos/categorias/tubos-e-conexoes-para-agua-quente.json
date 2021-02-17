@@ -1,0 +1,212 @@
+{
+  "menu-item#tubos-e-conexoes-para-agua-quente": {
+    "props": {
+      "id": "menu-item-tubos-e-conexoes-para-agua-quente",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/materiais-hidraulicos/tubos-e-conexoes-para-agua-quente",
+        "noFollow": true,
+        "tagTitle": "Tubos e Conexões para Água Quente",
+        "text": "Tubos e Conexões para Água Quente"
+      },
+      "blockClass": ["childSub", "have-children"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#tubos-e-conexoes-para-agua-quente"]
+  },
+
+  "vtex.menu@2.x:submenu#tubos-e-conexoes-para-agua-quente": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#tubos-e-conexoes-para-agua-quente"]
+  },
+
+  "vtex.menu@2.x:menu#tubos-e-conexoes-para-agua-quente": {
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-tubos-e-conexoes-para-agua-quente-ver-todos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-hidraulicos/tubos-e-conexoes-para-agua-quente",
+            "noFollow": true,
+            "tagTitle": "Ver todos os produtos",
+            "text": "Ver todos os produtos"
+          },
+          "blockClass": ["ver-todos"]
+        },
+        {
+          "id": "menu-item-bocal",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-hidraulicos/tubos-e-conexoes-para-agua-quente/bocal",
+            "noFollow": true,
+            "tagTitle": "Bocal",
+            "text": "Bocal"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-bucha-de-reducao",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-hidraulicos/tubos-e-conexoes-para-agua-quente/bucha-de-reducao",
+            "noFollow": true,
+            "tagTitle": "Bucha de Redução",
+            "text": "Bucha de Redução"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-cap",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-hidraulicos/tubos-e-conexoes-para-agua-quente/cap",
+            "noFollow": true,
+            "tagTitle": "Cap",
+            "text": "Cap"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-conector",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-hidraulicos/tubos-e-conexoes-para-agua-quente/conector",
+            "noFollow": true,
+            "tagTitle": "Conector",
+            "text": "Conector"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-curva",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-hidraulicos/tubos-e-conexoes-para-agua-quente/curva",
+            "noFollow": true,
+            "tagTitle": "Curva",
+            "text": "Curva"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-joelho",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-hidraulicos/tubos-e-conexoes-para-agua-quente/joelho",
+            "noFollow": true,
+            "tagTitle": "Joelho",
+            "text": "Joelho"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-luva",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-hidraulicos/tubos-e-conexoes-para-agua-quente/luva",
+            "noFollow": true,
+            "tagTitle": "Luva",
+            "text": "Luva"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-te",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-hidraulicos/tubos-e-conexoes-para-agua-quente/te",
+            "noFollow": true,
+            "tagTitle": "Tê",
+            "text": "Tê"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-termofusora",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-hidraulicos/tubos-e-conexoes-para-agua-quente/termofusora",
+            "noFollow": true,
+            "tagTitle": "Termofusora",
+            "text": "Termofusora"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-tubo",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-hidraulicos/tubos-e-conexoes-para-agua-quente/tubo",
+            "noFollow": true,
+            "tagTitle": "Tubo",
+            "text": "Tubo"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-uniao",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-hidraulicos/tubos-e-conexoes-para-agua-quente/uniao",
+            "noFollow": true,
+            "tagTitle": "União",
+            "text": "União"
+          },
+          "blockClass": "child"
+        }
+      ]
+    }
+  }
+}

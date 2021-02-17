@@ -1,0 +1,39 @@
+{
+  "store.custom#tabloide": {
+    "blocks": [
+      "responsive-layout.desktop#tabloide",
+      "responsive-layout.tablet#tabloide",
+      "responsive-layout.phone#tabloide"
+    ]
+  },
+
+  "responsive-layout.desktop#tabloide": {
+    "children": [
+      "breadcrumb",
+      "iframe#tabloide"
+    ]
+  },
+
+  "responsive-layout.tablet#tabloide": {
+    "children": [
+      "breadcrumb",
+      "iframe#tabloide"
+    ]
+  },
+
+  "responsive-layout.phone#tabloide": {
+    "children": [
+      "breadcrumb",
+      "iframe#tabloide"
+    ]
+  },
+
+  "iframe#tabloide": {
+    "props": {
+      "src": "https://tdzain.io/accounts/cassol/mapa.html",
+      "width":"100%",
+      "height":"550px",
+      "blockClass": "tabloideContainer"
+    }
+  }
+}

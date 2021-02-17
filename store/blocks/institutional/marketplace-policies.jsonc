@@ -1,0 +1,134 @@
+{
+  "store.custom#marketplace-policies": {
+    "blocks": [
+      "responsive-layout.desktop#marketplace-policies",
+      "responsive-layout.tablet#marketplace-policies",
+      "responsive-layout.phone#marketplace-policies"
+    ]
+  },
+
+  "responsive-layout.desktop#marketplace-policies": {
+    "children": ["breadcrumb", "flex-layout.row#marketplace-policies-desktop"]
+  },
+
+  "responsive-layout.tablet#marketplace-policies": {
+    "children": [
+      "breadcrumb",
+      "flex-layout.row#marketplace-policies-menu-mobile",
+      "flex-layout.row#marketplace-policies-mobile"
+    ]
+  },
+
+  "responsive-layout.phone#marketplace-policies": {
+    "children": [
+      "breadcrumb",
+      "flex-layout.row#marketplace-policies-menu-mobile",
+      "flex-layout.row#marketplace-policies-mobile"
+    ]
+  },
+
+  "flex-layout.row#marketplace-policies-desktop": {
+    "children": [
+      "flex-layout.col#institutional-sidebar-desktop",
+      "flex-layout.col#content-marketplace-policies"
+    ],
+    "props": {
+      "blockClass": "institutionalContainer"
+    }
+  },
+
+  "flex-layout.row#marketplace-policies-menu-mobile": {
+    "children": ["flex-layout.col#institutional-sidebar-mobile"],
+    "props": {
+      "blockClass": "institutionalContainer"
+    }
+  },
+
+  "flex-layout.row#marketplace-policies-mobile": {
+    "children": ["flex-layout.col#content-marketplace-policies-mobile"],
+    "props": {
+      "blockClass": "institutionalContainer"
+    }
+  },
+
+  "flex-layout.col#content-marketplace-policies-mobile": {
+    "children": [
+      "rich-text#marketplace-policies--title",
+      "rich-text#marketplace-policies--marketplace",
+      "rich-text#marketplace-policies--frete",
+      "rich-text#marketplace-policies--formas-pagamento",
+      "rich-text#marketplace-policies--cupons-desconto",
+      "rich-text#marketplace-policies--sac",
+      "rich-text#marketplace-policies--seja-parceiro"
+    ],
+    "props": {
+      "blockClass": "textColumn",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "flex-layout.col#content-marketplace-policies": {
+    "children": [
+      "rich-text#marketplace-policies--title",
+      "rich-text#marketplace-policies--marketplace",
+      "rich-text#marketplace-policies--frete",
+      "rich-text#marketplace-policies--formas-pagamento",
+      "rich-text#marketplace-policies--cupons-desconto",
+      "rich-text#marketplace-policies--sac",
+      "rich-text#marketplace-policies--seja-parceiro"
+    ],
+    "props": {
+      "blockClass": "textColumn",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "rich-text#marketplace-policies--title": {
+    "props": {
+      "text": "### **Políticas Marketplace** \n \n",
+      "blockClass": "aboutContent"
+    }
+  },
+
+  "rich-text#marketplace-policies--marketplace": {
+    "props": {
+      "text": "##### **LOJAS PARCEIRAS (MARKETPLACE)** \n \n Denominamos Loja Parceira ou Parceiro Anunciante a loja ou fabricante que anuncia e comercializa seus produtos ou serviços através do site do Cassol. \n\n Os produtos e/ou serviços vendidos diretamente pelas lojas parceiras estão devidamente identificados na página do produto. As condições de venda, preço e entrega desses produtos e/ou serviços são definidas diretamente pela loja parceira e também são apresentadas na página do produto, antes do fechamento do pedido. \n\n IMPORTANTE: antes de finalizar a compra, verifique se o produto é vendido diretamente pela cassol.com.br ou diretamente por uma das nossas lojas parceiras. Caso você não esteja de acordo com os termos e condições do Parceiro Anunciante, não finalize a operação. \n\n A responsabilidade pela qualidade, quantidade, vícios ou defeitos desses produtos e/ou serviços é do Parceiro Anunciante. O cliente poderá contatar diretamente da loja parceira para esclarecer dúvidas e agilizar seu atendimento, permanecendo a Cassol à disposição para qualquer auxílio através dos seus canais de atendimento. \n\n Em caso de dúvida em relação à entrega do produto vendido por uma loja parceira, você pode consultar o andamento na aba “Meus Pedidos” dentro do site. É possível acompanhar todo o processamento do pedido, desde a aprovação do pagamento até a entrega à transportadora. \n",
+      "blockClass": "aboutContent"
+    }
+  },
+
+  "rich-text#marketplace-policies--frete": {
+    "props": {
+      "text": "##### **POLÍTICA DE FRETE** \n \n Produtos vendidos e entregues por nossas lojas parceiras (marketplace) seguem as regras definidas por cada loja podendo ser validado no momento da compra.",
+      "blockClass": "aboutContent"
+    }
+  },
+
+  "rich-text#marketplace-policies--formas-pagamento": {
+    "props": {
+      "text": "##### **FORMAS DE PAGAMENTO** \n \n Produtos vendidos e entregues por nossas lojas parceiras (marketplace) seguem as regras definidas por cada loja podendo ser validado no momento da compra.",
+      "blockClass": "aboutContent"
+    }
+  },
+
+  "rich-text#marketplace-policies--cupons-desconto": {
+    "props": {
+      "text": "##### **CUPONS DE DESCONTO** \n \n Os parceiros são responsáveis por dar todo o suporte ao cliente final nos termos da Lei nº 8.078, de 11 de setembro de 1990 (“Código de Defesa do Consumidor”). A Cassol é responsável por acompanhar e garantir que nossos clientes sejam atendidos da melhor forma, e está a disposição para ser contatada através de seus canais de atendimento.",
+      "blockClass": "aboutContent"
+    }
+  },
+
+  "rich-text#marketplace-policies--sac": {
+    "props": {
+      "text": "##### **SAC** \n \n Os parceiros são responsáveis por dar todo o suporte ao cliente final nos termos da Lei nº 8.078, de 11 de setembro de 1990 (“Código de Defesa do Consumidor”). A Cassol é responsável por acompanhar e garantir que nossos clientes sejam atendidos da melhor forma, e está a disposição para ser contatada através de seus canais de atendimento.",
+      "blockClass": "aboutContent"
+    }
+  },
+
+  "rich-text#marketplace-policies--seja-parceiro": {
+    "props": {
+      "text": "##### **SEJA UM PARCEIRO** \n \n Cadastra-se e se torne um parceiro do maior Home center do sul do Brasil, entre em contato através do e-mail marketplace@cassol.com.br e passe a expor seus produtos numa empresa de alta reputação e com posição de destaque no varejo nacional.",
+      "blockClass": "aboutContent"
+    }
+  }
+}

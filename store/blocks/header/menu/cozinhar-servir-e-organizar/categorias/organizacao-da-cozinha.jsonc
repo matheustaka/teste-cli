@@ -1,0 +1,216 @@
+{
+  "menu-item#organizacao-da-cozinha": {
+    "props": {
+      "id": "menu-item-organizacao-da-cozinha",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cozinhar-servir-e-organizar/organizacao-da-cozinha",
+        "noFollow": true,
+        "tagTitle": "Organização da Cozinha",
+        "text": "Organização da Cozinha"
+      },
+      "blockClass": ["childSub", "have-children"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#organizacao-da-cozinha"]
+  },
+
+  "vtex.menu@2.x:submenu#organizacao-da-cozinha": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#organizacao-da-cozinha"]
+  },
+
+  "vtex.menu@2.x:menu#organizacao-da-cozinha": {
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-organizacao-da-cozinha-ver-todos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinhar-servir-e-organizar/organizacao-da-cozinha",
+            "noFollow": true,
+            "tagTitle": "Ver todos os produtos",
+            "text": "Ver todos os produtos"
+          },
+          "blockClass": ["ver-todos"]
+        },
+        {
+          "id": "menu-item-barra-tubular",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinhar-servir-e-organizar/organizacao-da-cozinha/barra-tubular",
+            "noFollow": true,
+            "tagTitle": "Barra Tubular",
+            "text": "Barra Tubular"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-caixa-para-legumes",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinhar-servir-e-organizar/organizacao-da-cozinha/caixa-para-legumes",
+            "noFollow": true,
+            "tagTitle": "Caixa para Legumes",
+            "text": "Caixa para Legumes"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-cesto-organizador",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinhar-servir-e-organizar/organizacao-da-cozinha/cesto-organizador",
+            "noFollow": true,
+            "tagTitle": "Cesto Organizador",
+            "text": "Cesto Organizador"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-cozinha-suspensa",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinhar-servir-e-organizar/organizacao-da-cozinha/cozinha-suspensa",
+            "noFollow": true,
+            "tagTitle": "Cozinha Suspensa",
+            "text": "Cozinha Suspensa"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-escorredor-de-louca",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinhar-servir-e-organizar/organizacao-da-cozinha/escorredor-de-louca",
+            "noFollow": true,
+            "tagTitle": "Escorredor de Louça",
+            "text": "Escorredor de Louça"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-fruteira",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinhar-servir-e-organizar/organizacao-da-cozinha/fruteira",
+            "noFollow": true,
+            "tagTitle": "Fruteira",
+            "text": "Fruteira"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-organizador",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinhar-servir-e-organizar/organizacao-da-cozinha/organizador",
+            "noFollow": true,
+            "tagTitle": "Organizador",
+            "text": "Organizador"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-porta-filtro-de-cafe",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinhar-servir-e-organizar/organizacao-da-cozinha/porta-filtro-de-cafe",
+            "noFollow": true,
+            "tagTitle": "Porta Filtro de Café",
+            "text": "Porta Filtro de Café"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-porta-ovos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinhar-servir-e-organizar/organizacao-da-cozinha/porta-ovos",
+            "noFollow": true,
+            "tagTitle": "Porta Ovos",
+            "text": "Porta Ovos"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-porta-talheres",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinhar-servir-e-organizar/organizacao-da-cozinha/porta-talheres",
+            "noFollow": true,
+            "tagTitle": "Porta Talheres",
+            "text": "Porta Talheres"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-porta-utensilios",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinhar-servir-e-organizar/organizacao-da-cozinha/porta-utensilios",
+            "noFollow": true,
+            "tagTitle": "Porta Utensílios",
+            "text": "Porta Utensílios"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-suporte-organizador",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinhar-servir-e-organizar/organizacao-da-cozinha/suporte-organizador",
+            "noFollow": true,
+            "tagTitle": "Suporte Organizador",
+            "text": "Suporte Organizador"
+          },
+          "blockClass": "child"
+        }
+      ]
+    }
+  }
+}

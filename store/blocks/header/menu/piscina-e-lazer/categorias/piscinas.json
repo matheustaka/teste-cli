@@ -1,0 +1,137 @@
+{
+  "menu-item#piscinas": {
+    "props": {
+      "id": "menu-item-piscinas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/piscina-e-lazer/piscinas",
+        "noFollow": true,
+        "tagTitle": "Piscinas",
+        "text": "Piscinas"
+      },
+      "blockClass": ["childSub", "have-children"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#piscinas"]
+  },
+
+  "vtex.menu@2.x:submenu#piscinas": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#piscinas"]
+  },
+
+  "vtex.menu@2.x:menu#piscinas": {
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-piscinas-ver-todos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/piscina-e-lazer/piscinas",
+            "noFollow": true,
+            "tagTitle": "Ver todos os produtos",
+            "text": "Ver todos os produtos"
+          },
+          "blockClass": ["ver-todos"]
+        },
+        {
+          "id": "menu-item-banheira-ofuro",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/piscina-e-lazer/piscinas/banheira-ofuro",
+            "noFollow": true,
+            "tagTitle": "Banheira Ofurô",
+            "text": "Banheira Ofurô"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-manutencao-e-equipamentos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/piscina-e-lazer/piscinas/manutencao-e-equipamentos",
+            "noFollow": true,
+            "tagTitle": "Manutenção e Equipamentos",
+            "text": "Manutenção e Equipamentos"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-piscina-de-armacao",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/piscina-e-lazer/piscinas/piscina-de-armacao",
+            "noFollow": true,
+            "tagTitle": "Piscina de Armação",
+            "text": "Piscina de Armação"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-piscina-de-fibra",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/piscina-e-lazer/piscinas/piscina-de-fibra",
+            "noFollow": true,
+            "tagTitle": "Piscina de Fibra",
+            "text": "Piscina de Fibra"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-piscina-inflavel",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/piscina-e-lazer/piscinas/piscina-inflavel",
+            "noFollow": true,
+            "tagTitle": "Piscina Inflável",
+            "text": "Piscina Inflável"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-tratamento-de-piscina",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/piscina-e-lazer/piscinas/tratamento-de-piscina",
+            "noFollow": true,
+            "tagTitle": "Tratamento de Piscina",
+            "text": "Tratamento de Piscina"
+          },
+          "blockClass": "child"
+        }
+      ]
+    }
+  }
+}

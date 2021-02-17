@@ -1,0 +1,314 @@
+{
+  "menu-item#ferramentas-para-oficina": {
+    "props": {
+      "id": "menu-item-ferramentas-para-oficina",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/ferramentas/ferramentas-para-oficina",
+        "noFollow": true,
+        "tagTitle": "Ferramentas para Oficina",
+        "text": "Ferramentas para Oficina"
+      },
+      "blockClass": ["childSub", "have-children"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#ferramentas-para-oficina"]
+  },
+
+  "vtex.menu@2.x:submenu#ferramentas-para-oficina": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#ferramentas-para-oficina"]
+  },
+
+  "vtex.menu@2.x:menu#ferramentas-para-oficina": {
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-ferramentas-para-oficina-ver-todos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/ferramentas-para-oficina",
+            "noFollow": true,
+            "tagTitle": "Ver todos os produtos",
+            "text": "Ver todos os produtos"
+          },
+          "blockClass": ["ver-todos"]
+        },
+        {
+          "id": "menu-item-acessorios",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/ferramentas-para-oficina/acessorios",
+            "noFollow": true,
+            "tagTitle": "Acessórios",
+            "text": "Acessórios"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-almotolia",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/ferramentas-para-oficina/almotolia",
+            "noFollow": true,
+            "tagTitle": "Almotolia",
+            "text": "Almotolia"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-bomba-manual",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/ferramentas-para-oficina/bomba-manual",
+            "noFollow": true,
+            "tagTitle": "Bomba Manual",
+            "text": "Bomba Manual"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-compressor-de-ar-e-motocompressor",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/ferramentas-para-oficina/compressor-de-ar-e-motocompressor",
+            "noFollow": true,
+            "tagTitle": "Compressor de Ar e Motocompressor",
+            "text": "Compressor de Ar e Motocompressor"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-eixo-serra-circular",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/ferramentas-para-oficina/eixo-serra-circular",
+            "noFollow": true,
+            "tagTitle": "Eixo Serra Circular",
+            "text": "Eixo Serra Circular"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-eletrodo",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/ferramentas-para-oficina/eletrodo",
+            "noFollow": true,
+            "tagTitle": "Eletrodo",
+            "text": "Eletrodo"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-ferro-de-solda",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/ferramentas-para-oficina/ferro-de-solda",
+            "noFollow": true,
+            "tagTitle": "Ferro de Solda",
+            "text": "Ferro de Solda"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-furadeira-de-bancada",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/ferramentas-para-oficina/furadeira-de-bancada",
+            "noFollow": true,
+            "tagTitle": "Furadeira de Bancada",
+            "text": "Furadeira de Bancada"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-gerador-de-energia",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/ferramentas-para-oficina/gerador-de-energia",
+            "noFollow": true,
+            "tagTitle": "Gerador de Energia",
+            "text": "Gerador de Energia"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-guincho-de-coluna",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/ferramentas-para-oficina/guincho-de-coluna",
+            "noFollow": true,
+            "tagTitle": "Guincho de Coluna",
+            "text": "Guincho de Coluna"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-inversor-para-solda",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/ferramentas-para-oficina/inversor-para-solda",
+            "noFollow": true,
+            "tagTitle": "Inversor para Solda",
+            "text": "Inversor para Solda"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-lavadora-extratora",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/ferramentas-para-oficina/lavadora-extratora",
+            "noFollow": true,
+            "tagTitle": "Lavadora Extratora",
+            "text": "Lavadora Extratora"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-macarico",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/ferramentas-para-oficina/macarico",
+            "noFollow": true,
+            "tagTitle": "Maçarico",
+            "text": "Maçarico"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-maquina-de-pintura",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/ferramentas-para-oficina/maquina-de-pintura",
+            "noFollow": true,
+            "tagTitle": "Máquina de Pintura",
+            "text": "Máquina de Pintura"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-motoesmeril",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/ferramentas-para-oficina/motoesmeril",
+            "noFollow": true,
+            "tagTitle": "Motoesmeril",
+            "text": "Motoesmeril"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-oleo",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/ferramentas-para-oficina/oleo",
+            "noFollow": true,
+            "tagTitle": "Óleo",
+            "text": "Óleo"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-pistola",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/ferramentas-para-oficina/pistola",
+            "noFollow": true,
+            "tagTitle": "Pistola",
+            "text": "Pistola"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-torno-de-bancada",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/ferramentas-para-oficina/torno-de-bancada",
+            "noFollow": true,
+            "tagTitle": "Torno de Bancada",
+            "text": "Torno de Bancada"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-transformador-para-solda",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/ferramentas-para-oficina/transformador-para-solda",
+            "noFollow": true,
+            "tagTitle": "Transformador para Solda",
+            "text": "Transformador para Solda"
+          },
+          "blockClass": "child"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,391 @@
+{
+  "menu-item#tubos-e-conexoes-pluviais": {
+    "props": {
+      "id": "menu-item-tubos-e-conexoes-pluviais",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/materiais-hidraulicos/tubos-e-conexoes-pluviais",
+        "noFollow": true,
+        "tagTitle": "Tubos e Conexões Pluviais",
+        "text": "Tubos e Conexões Pluviais"
+      },
+      "blockClass": ["childSub", "have-children"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#tubos-e-conexoes-pluviais"]
+  },
+
+  "vtex.menu@2.x:submenu#tubos-e-conexoes-pluviais": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#tubos-e-conexoes-pluviais"]
+  },
+
+  "vtex.menu@2.x:menu#tubos-e-conexoes-pluviais": {
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-tubos-e-conexoes-pluviais-ver-todos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-hidraulicos/tubos-e-conexoes-pluviais",
+            "noFollow": true,
+            "tagTitle": "Ver todos os produtos",
+            "text": "Ver todos os produtos"
+          },
+          "blockClass": ["ver-todos"]
+        },
+        {
+          "id": "menu-item-abracadeira",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-hidraulicos/tubos-e-conexoes-pluviais/abracadeira",
+            "noFollow": true,
+            "tagTitle": "Abraçadeira",
+            "text": "Abraçadeira"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-acoplamento",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-hidraulicos/tubos-e-conexoes-pluviais/acoplamento",
+            "noFollow": true,
+            "tagTitle": "Acoplamento",
+            "text": "Acoplamento"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-adaptador",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-hidraulicos/tubos-e-conexoes-pluviais/adaptador",
+            "noFollow": true,
+            "tagTitle": "Adaptador",
+            "text": "Adaptador"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-bocal",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-hidraulicos/tubos-e-conexoes-pluviais/bocal",
+            "noFollow": true,
+            "tagTitle": "Bocal",
+            "text": "Bocal"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-cabeceira",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-hidraulicos/tubos-e-conexoes-pluviais/cabeceira",
+            "noFollow": true,
+            "tagTitle": "Cabeceira",
+            "text": "Cabeceira"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-calha",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-hidraulicos/tubos-e-conexoes-pluviais/calha",
+            "noFollow": true,
+            "tagTitle": "Calha",
+            "text": "Calha"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-condutor",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-hidraulicos/tubos-e-conexoes-pluviais/condutor",
+            "noFollow": true,
+            "tagTitle": "Condutor",
+            "text": "Condutor"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-corrente",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-hidraulicos/tubos-e-conexoes-pluviais/corrente",
+            "noFollow": true,
+            "tagTitle": "Corrente",
+            "text": "Corrente"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-curva",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-hidraulicos/tubos-e-conexoes-pluviais/curva",
+            "noFollow": true,
+            "tagTitle": "Curva",
+            "text": "Curva"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-emenda",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-hidraulicos/tubos-e-conexoes-pluviais/emenda",
+            "noFollow": true,
+            "tagTitle": "Emenda",
+            "text": "Emenda"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-esquadro",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-hidraulicos/tubos-e-conexoes-pluviais/esquadro",
+            "noFollow": true,
+            "tagTitle": "Esquadro",
+            "text": "Esquadro"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-grelha",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-hidraulicos/tubos-e-conexoes-pluviais/grelha",
+            "noFollow": true,
+            "tagTitle": "Grelha",
+            "text": "Grelha"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-haste",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-hidraulicos/tubos-e-conexoes-pluviais/haste",
+            "noFollow": true,
+            "tagTitle": "Haste",
+            "text": "Haste"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-joelho",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-hidraulicos/tubos-e-conexoes-pluviais/joelho",
+            "noFollow": true,
+            "tagTitle": "Joelho",
+            "text": "Joelho"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-juncao",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-hidraulicos/tubos-e-conexoes-pluviais/juncao",
+            "noFollow": true,
+            "tagTitle": "Junção",
+            "text": "Junção"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-marco-para-grelha",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-hidraulicos/tubos-e-conexoes-pluviais/marco-para-grelha",
+            "noFollow": true,
+            "tagTitle": "Marco para Grelha",
+            "text": "Marco para Grelha"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-ralo",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-hidraulicos/tubos-e-conexoes-pluviais/ralo",
+            "noFollow": true,
+            "tagTitle": "Ralo",
+            "text": "Ralo"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-rufo",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-hidraulicos/tubos-e-conexoes-pluviais/rufo",
+            "noFollow": true,
+            "tagTitle": "Rufo",
+            "text": "Rufo"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-suporte-pluvial-para-calha",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-hidraulicos/tubos-e-conexoes-pluviais/suporte-pluvial-para-calha",
+            "noFollow": true,
+            "tagTitle": "Suporte Pluvial para Calha",
+            "text": "Suporte Pluvial para Calha"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-tela",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-hidraulicos/tubos-e-conexoes-pluviais/tela",
+            "noFollow": true,
+            "tagTitle": "Tela",
+            "text": "Tela"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-terminal",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-hidraulicos/tubos-e-conexoes-pluviais/terminal",
+            "noFollow": true,
+            "tagTitle": "Terminal",
+            "text": "Terminal"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-tubo",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-hidraulicos/tubos-e-conexoes-pluviais/tubo",
+            "noFollow": true,
+            "tagTitle": "Tubo",
+            "text": "Tubo"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-vedacao",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-hidraulicos/tubos-e-conexoes-pluviais/vedacao",
+            "noFollow": true,
+            "tagTitle": "Vedação",
+            "text": "Vedação"
+          },
+          "blockClass": "child"
+        }
+      ]
+    }
+  }
+}

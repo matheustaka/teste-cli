@@ -1,0 +1,538 @@
+{
+  "menu-item#ferragens-para-portas-e-janelas": {
+    "props": {
+      "id": "menu-item-ferragens-para-portas-e-janelas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/ferragens/ferragens-para-portas-e-janelas",
+        "noFollow": true,
+        "tagTitle": "Ferragens para Portas e Janelas",
+        "text": "Ferragens para Portas e Janelas"
+      },
+      "blockClass": ["childSub", "have-children"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#ferragens-para-portas-e-janelas"]
+  },
+
+  "vtex.menu@2.x:submenu#ferragens-para-portas-e-janelas": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#ferragens-para-portas-e-janelas"]
+  },
+
+  "vtex.menu@2.x:menu#ferragens-para-portas-e-janelas": {
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-ferragens-para-portas-e-janelas-ver-todos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferragens/ferragens-para-portas-e-janelas",
+            "noFollow": true,
+            "tagTitle": "Ver todos os produtos",
+            "text": "Ver todos os produtos"
+          },
+          "blockClass": ["ver-todos"]
+        },
+        {
+          "id": "menu-item-amortecedor-para-porta",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferragens/ferragens-para-portas-e-janelas/amortecedor-para-porta",
+            "noFollow": true,
+            "tagTitle": "Amortecedor para Porta",
+            "text": "Amortecedor para Porta"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-batedor",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferragens/ferragens-para-portas-e-janelas/batedor",
+            "noFollow": true,
+            "tagTitle": "Batedor",
+            "text": "Batedor"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-batente",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferragens/ferragens-para-portas-e-janelas/batente",
+            "noFollow": true,
+            "tagTitle": "Batente",
+            "text": "Batente"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-borboleta",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferragens/ferragens-para-portas-e-janelas/borboleta",
+            "noFollow": true,
+            "tagTitle": "Borboleta",
+            "text": "Borboleta"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-braco-maxim-ar",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferragens/ferragens-para-portas-e-janelas/braco-maxim-ar",
+            "noFollow": true,
+            "tagTitle": "Braço Maxim Ar",
+            "text": "Braço Maxim Ar"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-cadeado",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferragens/ferragens-para-portas-e-janelas/cadeado",
+            "noFollow": true,
+            "tagTitle": "Cadeado",
+            "text": "Cadeado"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-canto-externo-de-sobrepor",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferragens/ferragens-para-portas-e-janelas/canto-externo-de-sobrepor",
+            "noFollow": true,
+            "tagTitle": "Canto Externo de Sobrepor",
+            "text": "Canto Externo de Sobrepor"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-cantoneira",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferragens/ferragens-para-portas-e-janelas/cantoneira",
+            "noFollow": true,
+            "tagTitle": "Cantoneira",
+            "text": "Cantoneira"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-carranca",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferragens/ferragens-para-portas-e-janelas/carranca",
+            "noFollow": true,
+            "tagTitle": "Carranca",
+            "text": "Carranca"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-cavalete",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferragens/ferragens-para-portas-e-janelas/cavalete",
+            "noFollow": true,
+            "tagTitle": "Cavalete",
+            "text": "Cavalete"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-concha",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferragens/ferragens-para-portas-e-janelas/concha",
+            "noFollow": true,
+            "tagTitle": "Concha",
+            "text": "Concha"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-cremona",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferragens/ferragens-para-portas-e-janelas/cremona",
+            "noFollow": true,
+            "tagTitle": "Cremona",
+            "text": "Cremona"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-cunha-para-retencao",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferragens/ferragens-para-portas-e-janelas/cunha-para-retencao",
+            "noFollow": true,
+            "tagTitle": "Cunha para Retenção",
+            "text": "Cunha para Retenção"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-fecho",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferragens/ferragens-para-portas-e-janelas/fecho",
+            "noFollow": true,
+            "tagTitle": "Fecho",
+            "text": "Fecho"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-fita-adesiva",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferragens/ferragens-para-portas-e-janelas/fita-adesiva",
+            "noFollow": true,
+            "tagTitle": "Fita Adesiva",
+            "text": "Fita Adesiva"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-gonzo",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferragens/ferragens-para-portas-e-janelas/gonzo",
+            "noFollow": true,
+            "tagTitle": "Gonzo",
+            "text": "Gonzo"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-guia",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferragens/ferragens-para-portas-e-janelas/guia",
+            "noFollow": true,
+            "tagTitle": "Guia",
+            "text": "Guia"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-haste",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferragens/ferragens-para-portas-e-janelas/haste",
+            "noFollow": true,
+            "tagTitle": "Haste",
+            "text": "Haste"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-junta-de-dilatacao",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferragens/ferragens-para-portas-e-janelas/junta-de-dilatacao",
+            "noFollow": true,
+            "tagTitle": "Junta de Dilatação",
+            "text": "Junta de Dilatação"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-levantador",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferragens/ferragens-para-portas-e-janelas/levantador",
+            "noFollow": true,
+            "tagTitle": "Levantador",
+            "text": "Levantador"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-macaneta",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferragens/ferragens-para-portas-e-janelas/macaneta",
+            "noFollow": true,
+            "tagTitle": "Maçaneta",
+            "text": "Maçaneta"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-mola-aerea",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferragens/ferragens-para-portas-e-janelas/mola-aerea",
+            "noFollow": true,
+            "tagTitle": "Mola Aérea",
+            "text": "Mola Aérea"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-olho-magico",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferragens/ferragens-para-portas-e-janelas/olho-magico",
+            "noFollow": true,
+            "tagTitle": "Olho Mágico",
+            "text": "Olho Mágico"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-pivo",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferragens/ferragens-para-portas-e-janelas/pivo",
+            "noFollow": true,
+            "tagTitle": "Pivô",
+            "text": "Pivô"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-porta-cadeado",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferragens/ferragens-para-portas-e-janelas/porta-cadeado",
+            "noFollow": true,
+            "tagTitle": "Porta Cadeado",
+            "text": "Porta Cadeado"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-protetor",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferragens/ferragens-para-portas-e-janelas/protetor",
+            "noFollow": true,
+            "tagTitle": "Protetor",
+            "text": "Protetor"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-puxador",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferragens/ferragens-para-portas-e-janelas/puxador",
+            "noFollow": true,
+            "tagTitle": "Puxador",
+            "text": "Puxador"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-rodizio",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferragens/ferragens-para-portas-e-janelas/rodizio",
+            "noFollow": true,
+            "tagTitle": "Rodízio",
+            "text": "Rodízio"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-roldana",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferragens/ferragens-para-portas-e-janelas/roldana",
+            "noFollow": true,
+            "tagTitle": "Roldana",
+            "text": "Roldana"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-suporte-para-corrimao",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferragens/ferragens-para-portas-e-janelas/suporte-para-corrimao",
+            "noFollow": true,
+            "tagTitle": "Suporte para Corrimão",
+            "text": "Suporte para Corrimão"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-targeta",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferragens/ferragens-para-portas-e-janelas/targeta",
+            "noFollow": true,
+            "tagTitle": "Targeta",
+            "text": "Targeta"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-terminal-de-acabamento",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferragens/ferragens-para-portas-e-janelas/terminal-de-acabamento",
+            "noFollow": true,
+            "tagTitle": "Terminal de Acabamento",
+            "text": "Terminal de Acabamento"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-trava",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferragens/ferragens-para-portas-e-janelas/trava",
+            "noFollow": true,
+            "tagTitle": "Trava",
+            "text": "Trava"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-trinco",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferragens/ferragens-para-portas-e-janelas/trinco",
+            "noFollow": true,
+            "tagTitle": "Trinco",
+            "text": "Trinco"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-vara-cremona",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferragens/ferragens-para-portas-e-janelas/vara-cremona",
+            "noFollow": true,
+            "tagTitle": "Vara Cremona",
+            "text": "Vara Cremona"
+          },
+          "blockClass": "child"
+        }
+      ]
+    }
+  }
+}

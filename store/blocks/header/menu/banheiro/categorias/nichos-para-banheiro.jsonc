@@ -1,0 +1,18 @@
+{
+  "menu-item#nichos-para-banheiro": {
+    "props": {
+      "id": "menu-item-nichos-para-banheiro",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/banheiros/nichos-para-banheiro",
+        "noFollow": true,
+        "tagTitle": "Nichos para Banheiro",
+        "text": "Nichos para Banheiro"
+      },
+      "blockClass": "childSub"
+    }
+  }
+}

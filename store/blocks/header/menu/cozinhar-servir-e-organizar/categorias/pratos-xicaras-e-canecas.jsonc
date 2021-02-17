@@ -1,0 +1,104 @@
+{
+  "menu-item#pratos-xicaras-e-canecas": {
+    "props": {
+      "id": "menu-item-pratos-xicaras-e-canecas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cozinhar-servir-e-organizar/pratos-xicaras-e-canecas",
+        "noFollow": true,
+        "tagTitle": "Pratos, Xícaras e Canecas",
+        "text": "Pratos, Xícaras e Canecas"
+      },
+      "blockClass": ["childSub", "have-children"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#pratos-xicaras-e-canecas"]
+  },
+
+  "vtex.menu@2.x:submenu#pratos-xicaras-e-canecas": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#pratos-xicaras-e-canecas"]
+  },
+
+  "vtex.menu@2.x:menu#pratos-xicaras-e-canecas": {
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-pratos-xicaras-e-canecas-ver-todos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinhar-servir-e-organizar/pratos-xicaras-e-canecas",
+            "noFollow": true,
+            "tagTitle": "Ver todos os produtos",
+            "text": "Ver todos os produtos"
+          },
+          "blockClass": ["ver-todos"]
+        },
+        {
+          "id": "menu-item-canecas",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinhar-servir-e-organizar/pratos-xicaras-e-canecas/canecas",
+            "noFollow": true,
+            "tagTitle": "Canecas",
+            "text": "Canecas"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-jogo-de-jantar",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinhar-servir-e-organizar/pratos-xicaras-e-canecas/jogo-de-jantar",
+            "noFollow": true,
+            "tagTitle": "Jogo de Jantar",
+            "text": "Jogo de Jantar"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-pratos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinhar-servir-e-organizar/pratos-xicaras-e-canecas/pratos",
+            "noFollow": true,
+            "tagTitle": "Pratos",
+            "text": "Pratos"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-xicaras",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinhar-servir-e-organizar/pratos-xicaras-e-canecas/xicaras",
+            "noFollow": true,
+            "tagTitle": "Xícaras",
+            "text": "Xícaras"
+          },
+          "blockClass": "child"
+        }
+      ]
+    }
+  }
+}

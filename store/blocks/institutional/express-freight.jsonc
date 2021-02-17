@@ -1,0 +1,96 @@
+{
+  "store.custom#express-freight": {
+    "blocks": [
+      "responsive-layout.desktop#express-freight",
+      "responsive-layout.tablet#express-freight",
+      "responsive-layout.phone#express-freight"
+    ]
+  },
+
+  "responsive-layout.desktop#express-freight": {
+    "children": [
+      "breadcrumb",
+      "flex-layout.row#express-freight-desktop"
+    ]
+  },
+
+  "responsive-layout.tablet#express-freight": {
+    "children": [
+      "breadcrumb",
+      "flex-layout.row#express-freight-menu-mobile",
+      "flex-layout.row#express-freight-mobile"
+    ]
+  },
+
+  "responsive-layout.phone#express-freight": {
+    "children": [
+      "breadcrumb",
+      "flex-layout.row#express-freight-menu-mobile",
+      "flex-layout.row#express-freight-mobile"
+    ]
+  },
+
+  "flex-layout.row#express-freight-desktop": {
+    "children": [
+      "flex-layout.col#institutional-sidebar-desktop",
+      "flex-layout.col#content-express-freight"
+    ],
+    "props": {
+      "blockClass": "institutionalContainer"
+    }
+  },
+
+  "flex-layout.row#express-freight-menu-mobile": {
+    "children": [
+      "flex-layout.col#institutional-sidebar-mobile"
+    ],
+    "props": {
+      "blockClass": "institutionalContainer"
+    }
+  },
+
+  "flex-layout.row#express-freight-mobile": {
+    "children": [
+      "flex-layout.col#content-express-freight-mobile"
+    ],
+    "props": {
+      "blockClass": "institutionalContainer"
+    }
+  },
+
+  "flex-layout.col#content-express-freight-mobile": {
+    "children": [
+      "image#express-freight",
+      "rich-text#express-freight"
+    ],
+    "props": {
+      "blockClass": "textColumn",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "flex-layout.col#content-express-freight": {
+    "children": [
+      "image#express-freight",
+      "rich-text#express-freight"
+    ],
+    "props": {
+      "blockClass": "textColumn",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "image#express-freight": {
+    "props": {
+      "src": "https://cassol.vtexassets.com/arquivos/frete-express.png",
+      "blockClass": ["aboutContent", "banner-budgets"]
+    }
+  },
+
+  "rich-text#express-freight": {
+    "props": {
+      "text": "### **Frete Expresso** \n \n Na Cassol você pode realizar suas compras nas lojas, no site ou no televendas e receber os seus pedidos em até 4 horas. É isso mesmo.  Aproveite mais esta facilidade exclusiva. \n \n **Quem pode receber as compras em até 6 horas?**\n Clientes que residirem em Santa Catarina. Mas não esqueça: o endereço de entrega do pedido deve estar localizado num raio de 50 KM  da Central de Distribuição Cassol. E a entrega imediata é válida somente para produtos que tenham disponibilidade imediata na Central. \n\n **Quando a Cassol entrega minhas compras?** \n Até às 20h, de segunda a sexta, em caso de compras realizadas até às 16h do mesmo dia.  Se o seu pedido foi efetuado após às 16h, a entrega será a partir do dia seguinte, às 7h. \n \n **E no fim de semana?** \n Suas compras realizadas aos sábados, até às 12h, serão entregues até às 16h do mesmo dia. Se o seu pedido foi efetuado após às 12h, a entrega será a partir da segunda-feira seguinte, às 7h.",
+      "blockClass": "aboutContent"
+    }
+  }
+}

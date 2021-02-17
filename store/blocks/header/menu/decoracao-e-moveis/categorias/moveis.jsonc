@@ -1,0 +1,427 @@
+{
+  "menu-item#moveis": {
+    "props": {
+      "id": "menu-item-moveis",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/decoracao-e-moveis/moveis",
+        "noFollow": true,
+        "tagTitle": "Móveis",
+        "text": "Móveis"
+      },
+      "blockClass": ["childSub", "have-children"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#moveis"]
+  },
+
+  "vtex.menu@2.x:submenu#moveis": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#moveis"]
+  },
+
+  "vtex.menu@2.x:menu#moveis": {
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-moveis-ver-todos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/decoracao-e-moveis/moveis",
+            "noFollow": true,
+            "tagTitle": "Ver todos os produtos",
+            "text": "Ver todos os produtos"
+          },
+          "blockClass": ["ver-todos"]
+        },
+        {
+          "id": "menu-item-buffet-aparador",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/decoracao-e-moveis/moveis/buffet-aparador",
+            "noFollow": true,
+            "tagTitle": "Buffet Aparador",
+            "text": "Buffet Aparador"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-cabeceira-de-cama",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/decoracao-e-moveis/moveis/cabeceira-de-cama",
+            "noFollow": true,
+            "tagTitle": "Cabeceira de Cama",
+            "text": "Cabeceira de Cama"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-cabeceira-para-cama-de-casal",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/decoracao-e-moveis/moveis/cabeceira-para-cama-de-casal",
+            "noFollow": true,
+            "tagTitle": "Cabeceira para Cama de Casal",
+            "text": "Cabeceira para Cama de Casal"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-armario",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/decoracao-e-moveis/moveis/armario",
+            "noFollow": true,
+            "tagTitle": "Armário",
+            "text": "Armário"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-banqueta",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/decoracao-e-moveis/moveis/banqueta",
+            "noFollow": true,
+            "tagTitle": "Banqueta",
+            "text": "Banqueta"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-cadeira",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/decoracao-e-moveis/moveis/cadeira",
+            "noFollow": true,
+            "tagTitle": "Cadeira",
+            "text": "Cadeira"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-cama-box",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/decoracao-e-moveis/moveis/cama-box",
+            "noFollow": true,
+            "tagTitle": "Cama Box",
+            "text": "Cama Box"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-colchao",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/decoracao-e-moveis/moveis/colchao",
+            "noFollow": true,
+            "tagTitle": "Colchão",
+            "text": "Colchão"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-comoda",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/decoracao-e-moveis/moveis/comoda",
+            "noFollow": true,
+            "tagTitle": "Cômoda",
+            "text": "Cômoda"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-conjunto-para-sala-de-jantar",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/decoracao-e-moveis/moveis/conjunto-para-sala-de-jantar",
+            "noFollow": true,
+            "tagTitle": "Conjunto para Sala de Jantar",
+            "text": "Conjunto para Sala de Jantar"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-criado-mudo",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/decoracao-e-moveis/moveis/criado-mudo",
+            "noFollow": true,
+            "tagTitle": "Criado Mudo",
+            "text": "Criado Mudo"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-cristaleira",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/decoracao-e-moveis/moveis/cristaleira",
+            "noFollow": true,
+            "tagTitle": "Cristaleira",
+            "text": "Cristaleira"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-espelheira",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/decoracao-e-moveis/moveis/espelheira",
+            "noFollow": true,
+            "tagTitle": "Espelheira",
+            "text": "Espelheira"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-estante",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/decoracao-e-moveis/moveis/estante",
+            "noFollow": true,
+            "tagTitle": "Estante",
+            "text": "Estante"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-gaveteiro",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/decoracao-e-moveis/moveis/gaveteiro",
+            "noFollow": true,
+            "tagTitle": "Gaveteiro",
+            "text": "Gaveteiro"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-guarda-roupas",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/decoracao-e-moveis/moveis/guarda-roupas",
+            "noFollow": true,
+            "tagTitle": "Guarda Roupas",
+            "text": "Guarda Roupas"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-kit-nicho",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/decoracao-e-moveis/moveis/kit-nicho",
+            "noFollow": true,
+            "tagTitle": "KIT NICHO",
+            "text": "KIT NICHO"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-kit-quarto",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/decoracao-e-moveis/moveis/kit-quarto",
+            "noFollow": true,
+            "tagTitle": "Kit Quarto",
+            "text": "Kit Quarto"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-mesa",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/decoracao-e-moveis/moveis/mesa",
+            "noFollow": true,
+            "tagTitle": "Mesa",
+            "text": "Mesa"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-mesa-de-cabeceira",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/decoracao-e-moveis/moveis/mesa-de-cabeceira",
+            "noFollow": true,
+            "tagTitle": "Mesa de Cabeceira",
+            "text": "Mesa de Cabeceira"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-mesa-de-centro",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/decoracao-e-moveis/moveis/mesa-de-centro",
+            "noFollow": true,
+            "tagTitle": "Mesa de Centro",
+            "text": "Mesa de Centro"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-nicho",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/decoracao-e-moveis/moveis/nicho",
+            "noFollow": true,
+            "tagTitle": "Nicho",
+            "text": "Nicho"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-poltrona",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/decoracao-e-moveis/moveis/poltrona",
+            "noFollow": true,
+            "tagTitle": "Poltrona",
+            "text": "Poltrona"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-puff",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/decoracao-e-moveis/moveis/puff",
+            "noFollow": true,
+            "tagTitle": "Puff",
+            "text": "Puff"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-quarto-completo",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/decoracao-e-moveis/moveis/quarto-completo",
+            "noFollow": true,
+            "tagTitle": "Quarto Completo",
+            "text": "Quarto Completo"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-rack",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/decoracao-e-moveis/moveis/rack",
+            "noFollow": true,
+            "tagTitle": "Rack",
+            "text": "Rack"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-sapateira",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/decoracao-e-moveis/moveis/sapateira",
+            "noFollow": true,
+            "tagTitle": "Sapateira",
+            "text": "Sapateira"
+          },
+          "blockClass": "child"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "menu-item#faixas-tozzetos-e-rodapes": {
+    "props": {
+      "id": "menu-item-faixas-tozzetos-e-rodapes",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/pisos-e-revestimentos/faixas-tozzetos-e-rodapes",
+        "noFollow": true,
+        "tagTitle": "Faixas, Tozzetos e Rodapés",
+        "text": "Faixas, Tozzetos e Rodapés"
+      },
+      "blockClass": ["childSub", "have-children"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#faixas-tozzetos-e-rodapes"]
+  },
+
+  "vtex.menu@2.x:submenu#faixas-tozzetos-e-rodapes": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#faixas-tozzetos-e-rodapes"]
+  },
+
+  "vtex.menu@2.x:menu#faixas-tozzetos-e-rodapes": {
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-faixas-tozzetos-e-rodapes-ver-todos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "blockClass": "ver-todos",
+          "itemProps": {
+            "type": "internal",
+            "href": "/pisos-e-revestimentos/faixas-tozzetos-e-rodapes",
+            "noFollow": true,
+            "tagTitle": "Ver todos os produtos",
+            "text": "Ver todos os produtos"
+          }
+        },
+        {
+          "id": "menu-item-calha",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/pisos-e-revestimentos/faixas-tozzetos-e-rodapes/calha",
+            "noFollow": true,
+            "tagTitle": "Calha",
+            "text": "Calha"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-canaleta",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/pisos-e-revestimentos/faixas-tozzetos-e-rodapes/canaleta",
+            "noFollow": true,
+            "tagTitle": "Canaleta",
+            "text": "Canaleta"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-cantoneira",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/pisos-e-revestimentos/faixas-tozzetos-e-rodapes/cantoneira",
+            "noFollow": true,
+            "tagTitle": "Cantoneira",
+            "text": "Cantoneira"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-faixa-decorativa",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/pisos-e-revestimentos/faixas-tozzetos-e-rodapes/faixa-decorativa",
+            "noFollow": true,
+            "tagTitle": "Faixa Decorativa",
+            "text": "Faixa Decorativa"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-kits",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/pisos-e-revestimentos/faixas-tozzetos-e-rodapes/kits",
+            "noFollow": true,
+            "tagTitle": "Kits",
+            "text": "Kits"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-rodape",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/pisos-e-revestimentos/faixas-tozzetos-e-rodapes/rodape",
+            "noFollow": true,
+            "tagTitle": "Rodapé",
+            "text": "Rodapé"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-tozzeto",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/pisos-e-revestimentos/faixas-tozzetos-e-rodapes/tozzeto",
+            "noFollow": true,
+            "tagTitle": "Tozzeto",
+            "text": "Tozzeto"
+          },
+          "blockClass": "child"
+        }
+      ]
+    }
+  }
+}

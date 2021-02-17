@@ -1,0 +1,77 @@
+{
+  "menu-item#motobombas": {
+    "props": {
+      "id": "menu-item-motobombas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/materiais-hidraulicos/motobombas",
+        "noFollow": true,
+        "tagTitle": "Motobombas",
+        "text": "Motobombas"
+      },
+      "blockClass": ["childSub", "have-children"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#motobombas"]
+  },
+
+  "vtex.menu@2.x:submenu#motobombas": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#motobombas"]
+  },
+
+  "vtex.menu@2.x:menu#motobombas": {
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-motobombas-ver-todos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-hidraulicos/motobombas",
+            "noFollow": true,
+            "tagTitle": "Ver todos os produtos",
+            "text": "Ver todos os produtos"
+          },
+          "blockClass": [ "ver-todos"]
+        },
+        {
+          "id": "menu-item-chave-boia",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-hidraulicos/motobombas/chave-boia",
+            "noFollow": true,
+            "tagTitle": "Chave Boia",
+            "text": "Chave Boia"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-motobomba",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-hidraulicos/motobombas/motobomba",
+            "noFollow": true,
+            "tagTitle": "Motobomba",
+            "text": "Motobomba"
+          },
+          "blockClass": "child"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,508 @@
+{
+  "flex-layout.col#institutional-sidebar-desktop": {
+    "children": [
+      "menu-item#institutional-sidebar-accordion-desktop-institucional",
+      "menu-item#institutional-sidebar-accordion-desktop-politicas",
+      "menu-item#institutional-sidebar-accordion-desktop-servicos",
+      "menu-item#institutional-sidebar-accordion-desktop-ajuda"
+    ],
+    "props": {
+      "blockClass": "institucionalSidebar",
+      "preventVerticalStretch": true,
+      "width": "20%"
+    }
+  },
+
+  "menu-item#institutional-sidebar-accordion-desktop-institucional": {
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#sideBarInstitutional"
+    ],
+    "props": {
+      "text": "Institucional",
+      "blockClass": "accordionTitleDesktop"
+    }
+  },
+
+  "vtex.menu@2.x:submenu.accordion#sideBarInstitutional": {
+    "children": [
+      "vtex.menu@2.x:menu#sidebar-menu-institutional"
+    ],
+    "props": {
+      "blockClass": "sideBarAccordionMobile"
+    }
+  },
+
+  "menu-item#institutional-sidebar-accordion-desktop-politicas": {
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#sideBarPoliticas"
+    ],
+    "props": {
+      "text": "Políticas",
+      "blockClass": "accordionTitleDesktop"
+    }
+  },
+
+  "vtex.menu@2.x:submenu.accordion#sideBarPoliticas": {
+    "children": [
+      "vtex.menu@2.x:menu#sidebar-menu-politicas"
+    ],
+    "props": {
+      "blockClass": "sideBarAccordionMobile"
+    }
+  },
+
+  "menu-item#institutional-sidebar-accordion-desktop-servicos": {
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#sideBarServicos"
+    ],
+    "props": {
+      "text": "Serviços",
+      "blockClass": "accordionTitleDesktop"
+    }
+  },
+
+  "vtex.menu@2.x:submenu.accordion#sideBarServicos": {
+    "children": [
+      "vtex.menu@2.x:menu#sidebar-menu-servicos"
+    ],
+    "props": {
+      "blockClass": "sideBarAccordionMobile"
+    }
+  },
+
+  "menu-item#institutional-sidebar-accordion-desktop-ajuda": {
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#sideBarAjuda"
+    ],
+    "props": {
+      "text": "Precisa de ajuda?",
+      "blockClass": "accordionTitleDesktop"
+    }
+  },
+
+  "vtex.menu@2.x:submenu.accordion#sideBarAjuda": {
+    "children": [
+      "vtex.menu@2.x:menu#sidebar-menu-ajuda"
+    ],
+    "props": {
+      "blockClass": "sideBarAccordionMobile"
+    }
+  },
+
+  "flex-layout.col#institutional-sidebar-mobile": {
+    "children": [
+      "menu-item#institutional-sidebar-accordion-mobile"
+    ],
+    "props": {
+      "blockClass": "institucionalSidebarMobile",
+      "preventVerticalStretch": false,
+      "width": "100%"
+    }
+  },
+
+  "menu-item#institutional-sidebar-accordion-mobile": {
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#sideBar"
+    ],
+    "props": {
+      "text": "Escolha o assunto",
+      "blockClass": "accordionTitle"
+    }
+  },
+
+  "vtex.menu@2.x:submenu.accordion#sideBar": {
+    "children": [
+      "vtex.menu@2.x:menu#sidebar-menu-institutional",
+      "vtex.menu@2.x:menu#sidebar-menu-politicas",
+      "vtex.menu@2.x:menu#sidebar-menu-servicos",
+      "vtex.menu@2.x:menu#sidebar-menu-ajuda"
+    ],
+    "props": {
+      "blockClass": "sideBarAccordionMobile"
+    }
+  },
+
+  "rich-text#sidebar-menu-title-institutional": {
+    "props": {
+      "text": "Institucional",
+      "blockClass": "sidebarMenuTitle"
+    }
+  },
+
+  "vtex.menu@2.x:menu#sidebar-menu-institutional": {
+    "children": [
+      "rich-text#sidebar-menu-title-institutional"
+    ],
+    "props": {
+      "items": [{
+          "id": "menu-item-about-us",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/quem-somos",
+            "noFollow": true,
+            "tagTitle": "Quem somos",
+            "text": "Quem somos"
+          }
+        },
+        {
+          "id": "menu-item-manifest-brand",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/manifesto-da-marca",
+            "noFollow": true,
+            "tagTitle": "Manifesto da Marca",
+            "text": "Manifesto da Marca"
+          }
+        },
+        {
+          "id": "menu-item-sellers",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/canais-de-vendas",
+            "noFollow": true,
+            "tagTitle": "Canais de Vendas",
+            "text": "Canais de Vendas"
+          }
+        },
+        {
+          "id": "menu-item-our-stores",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/nossas-lojas",
+            "noFollow": true,
+            "tagTitle": "Nossas Lojas",
+            "text": "Nossas Lojas"
+          }
+        },
+        {
+          "id": "menu-item-work-with-us",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/trabalhe-conosco",
+            "noFollow": true,
+            "tagTitle": "Trabalhe Conosco",
+            "text": "Trabalhe Conosco"
+          }
+        },
+        {
+          "id": "menu-item-fornecedor",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/seja-um-fornecedor",
+            "noFollow": true,
+            "tagTitle": "Seja um Fornecedor",
+            "text": "Seja um Fornecedor"
+          }
+        },
+        {
+          "id": "menu-item-contact-us",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/fale-conosco",
+            "noFollow": true,
+            "tagTitle": "Fale conosco",
+            "text": "Fale conosco"
+          }
+        },
+        {
+          "id": "menu-item-exchanges-returns",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/troca-e-devolucoes",
+            "noFollow": true,
+            "tagTitle": "Trocas e Devoluções",
+            "text": "Trocas e Devoluções"
+          }
+        }
+      ],
+      "blockClass": "sidebarMenu",
+      "orientation": "vertical"
+    }
+  },
+
+  "rich-text#sidebar-menu-title-politicas": {
+    "props": {
+      "text": "Políticas",
+      "blockClass": "sidebarMenuTitle"
+    }
+  },
+
+  "vtex.menu@2.x:menu#sidebar-menu-politicas": {
+    "children": [
+      "rich-text#sidebar-menu-title-politicas"
+    ],
+    "props": {
+      "items": [{
+          "id": "menu-item-menor-preco",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/menor-preco",
+            "noFollow": true,
+            "tagTitle": "Menor Preço",
+            "text": "Menor Preço"
+          }
+        },
+        {
+          "id": "menu-item-devolucao-ou-troca",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/devolucao-ou-troca",
+            "noFollow": true,
+            "tagTitle": "Devolução ou Troca",
+            "text": "Devolução ou Troca"
+          }
+        },
+        {
+          "id": "menu-item-entrega",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/entrega",
+            "noFollow": true,
+            "tagTitle": "Entrega",
+            "text": "Entrega"
+          }
+        },
+        {
+          "id": "menu-item-pagamento",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/pagamento",
+            "noFollow": true,
+            "tagTitle": "Pagamento",
+            "text": "Pagamento"
+          }
+        },
+        {
+          "id": "menu-item-retire-em-loja",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/retire-em-loja",
+            "noFollow": true,
+            "tagTitle": "Retire em Loja",
+            "text": "Retire em Loja"
+          }
+        },
+        {
+          "id": "menu-item-privacidade",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/privacidade",
+            "noFollow": true,
+            "tagTitle": "Privacidade",
+            "text": "Privacidade"
+          }
+        },
+        {
+          "id": "menu-item-frete-expresso",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/frete-expresso",
+            "noFollow": true,
+            "tagTitle": "Frete Expresso",
+            "text": "Frete Expresso"
+          }
+        }
+      ],
+      "blockClass": "sidebarMenu",
+      "orientation": "vertical"
+    }
+  },
+
+  "rich-text#sidebar-menu-title-servicos": {
+    "props": {
+      "text": "Serviços",
+      "blockClass": "sidebarMenuTitle"
+    }
+  },
+
+  "vtex.menu@2.x:menu#sidebar-menu-servicos": {
+    "children": [
+      "rich-text#sidebar-menu-title-servicos"
+    ],
+    "props": {
+      "items": [{
+          "id": "menu-item-cartao-cassol",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cartao-cassol",
+            "noFollow": true,
+            "tagTitle": "Cartão Cassol",
+            "text": "Cartão Cassol"
+          }
+        },
+        {
+          "id": "menu-item-garantia-estendida",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/garantia-estendida",
+            "noFollow": true,
+            "tagTitle": "Garantia Estendida",
+            "text": "Garantia Estendida"
+          }
+        },
+        {
+          "id": "menu-item-assistencia-residencial",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/assistencia-residencial",
+            "noFollow": true,
+            "tagTitle": "Assistência Residencial",
+            "text": "Assistência Residencial"
+          }
+        },
+        {
+          "id": "menu-item-fabrica-de-tintas",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/fabrica-de-tintas",
+            "noFollow": true,
+            "tagTitle": "Fábrica de Tintas",
+            "text": "Fábrica de Tintas"
+          }
+        },
+        {
+          "id": "menu-item-orcamentos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/orcamentos",
+            "noFollow": true,
+            "tagTitle": "Orçamentos",
+            "text": "Orçamentos"
+          }
+        },
+        {
+          "id": "menu-item-calculadora",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/calculadora",
+            "noFollow": true,
+            "tagTitle": "Calculadora",
+            "text": "Calculadora"
+          }
+        }
+      ],
+      "blockClass": "sidebarMenu",
+      "orientation": "vertical"
+    }
+  },
+
+  "rich-text#sidebar-menu-title-ajuda": {
+    "props": {
+      "text": "Precisa de ajuda?",
+      "blockClass": "sidebarMenuTitle"
+    }
+  },
+
+  "vtex.menu@2.x:menu#sidebar-menu-ajuda": {
+    "children": [
+      "rich-text#sidebar-menu-title-ajuda"
+    ],
+    "props": {
+      "items": [{
+          "id": "menu-item-contact-us",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/fale-conosco",
+            "noFollow": true,
+            "tagTitle": "Fale Conosco",
+            "text": "Fale Conosco"
+          }
+        },
+        {
+          "id": "menu-item-faq",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/faq",
+            "noFollow": true,
+            "tagTitle": "FAQ",
+            "text": "FAQ"
+          }
+        },
+        {
+          "id": "menu-item-faq-cassol",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/faq-cassol",
+            "noFollow": true,
+            "tagTitle": "FAQ Cartão Cassol",
+            "text": "FAQ Cartão Cassol"
+          }
+        }
+      ],
+      "blockClass": "sidebarMenu",
+      "orientation": "vertical"
+    }
+  }
+}

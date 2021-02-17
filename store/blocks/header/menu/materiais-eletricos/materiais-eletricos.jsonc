@@ -1,0 +1,68 @@
+{
+  "menu-item#materiais-eletricos": {
+    "props": {
+      "id": "menu-item-materiais-eletricos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/materiais-eletricos",
+        "noFollow": true,
+        "tagTitle": "Materiais Elétricos",
+        "text": "Materiais Elétricos"
+      },
+      "blockClass": ["department", "have-children"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#materiais-eletricos"]
+  },
+
+  "vtex.menu@2.x:submenu#materiais-eletricos": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#materiais-eletricos"]
+  },
+
+  "vtex.menu@2.x:menu#materiais-eletricos": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "drop-category"
+    },
+    "children": [
+      "rich-text#department-materiais-eletricos",
+      "menu-item#materiais-eletricos-ver-todos",
+      "menu-item#acessorios-e-complementos-eletricos",
+      "menu-item#entrada-e-distribuicao",
+      "menu-item#fios-e-cabos",
+      "menu-item#fontes-de-energia",
+      "menu-item#interruptores-e-tomadas",
+      "menu-item#quadros-e-disjuntores",
+      "menu-item#sistemas-de-seguranca",
+      "menu-item#som-dados-e-imagem",
+      "menu-item#tubos-e-eletrodutos"
+    ]
+  },
+  "rich-text#department-materiais-eletricos": {
+    "props": {
+      "text": "Materiais Elétricos",
+      "blockClass": "titulo-menu-department"
+    }
+  },
+  "menu-item#materiais-eletricos-ver-todos": {
+    "props": {
+      "id": "menu-item-materiais-eletricos-ver-todos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/materiais-eletricos",
+        "noFollow": true,
+        "tagTitle": "Ver todos os produtos",
+        "text": "Ver todos os produtos"
+      },
+      "blockClass": [ "ver-todos"]
+    }
+  }
+}

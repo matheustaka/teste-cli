@@ -1,0 +1,14 @@
+.quantitySelector {
+  width: auto;
+}
+
+@media screen and (max-width: 39.9em) {
+  .quantitySelector {
+    width: auto;
+  }
+}
+
+.productImage {
+  max-height: 165px;
+  width: auto;
+}

@@ -1,0 +1,410 @@
+{
+  "menu-item#preparacao-e-protecao-de-superficie-para-pintura": {
+    "props": {
+      "id": "menu-item-preparacao-e-protecao-de-superficie-para-pintura",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/tintas-e-acessorios/preparacao-e-protecao-de-superficie-para-pintura",
+        "noFollow": true,
+        "tagTitle": "Preparação e Proteção de Superfície para Pintura",
+        "text": "Preparação e Proteção de Superfície para Pintura"
+      },
+      "blockClass": ["childSub", "have-children"]
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#preparacao-e-protecao-de-superficie-para-pintura"
+    ]
+  },
+
+  "vtex.menu@2.x:submenu#preparacao-e-protecao-de-superficie-para-pintura": {
+    "props": {
+      "width": "auto"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#preparacao-e-protecao-de-superficie-para-pintura"
+    ]
+  },
+
+  "vtex.menu@2.x:menu#preparacao-e-protecao-de-superficie-para-pintura": {
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-preparacao-e-protecao-de-superficie-para-pintura-ver-todos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/tintas-e-acessorios/preparacao-e-protecao-de-superficie-para-pintura",
+            "noFollow": true,
+            "tagTitle": "Ver todos os produtos",
+            "text": "Ver todos os produtos"
+          },
+          "blockClass": ["ver-todos"]
+        },
+        {
+          "id": "menu-item-aquabloc",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/tintas-e-acessorios/preparacao-e-protecao-de-superficie-para-pintura/aquabloc",
+            "noFollow": true,
+            "tagTitle": "Aquabloc",
+            "text": "Aquabloc"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-clareador-de-madeira",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/tintas-e-acessorios/preparacao-e-protecao-de-superficie-para-pintura/clareador-de-madeira",
+            "noFollow": true,
+            "tagTitle": "Clareador de Madeira",
+            "text": "Clareador de Madeira"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-convertedor-de-ferrugem",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/tintas-e-acessorios/preparacao-e-protecao-de-superficie-para-pintura/convertedor-de-ferrugem",
+            "noFollow": true,
+            "tagTitle": "Convertedor de Ferrugem",
+            "text": "Convertedor de Ferrugem"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-corante",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/tintas-e-acessorios/preparacao-e-protecao-de-superficie-para-pintura/corante",
+            "noFollow": true,
+            "tagTitle": "Corante",
+            "text": "Corante"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-cupinicida",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/tintas-e-acessorios/preparacao-e-protecao-de-superficie-para-pintura/cupinicida",
+            "noFollow": true,
+            "tagTitle": "Cupinicida",
+            "text": "Cupinicida"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-diluente",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/tintas-e-acessorios/preparacao-e-protecao-de-superficie-para-pintura/diluente",
+            "noFollow": true,
+            "tagTitle": "Diluente",
+            "text": "Diluente"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-fundo",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/tintas-e-acessorios/preparacao-e-protecao-de-superficie-para-pintura/fundo",
+            "noFollow": true,
+            "tagTitle": "Fundo",
+            "text": "Fundo"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-impermeabilizante",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/tintas-e-acessorios/preparacao-e-protecao-de-superficie-para-pintura/impermeabilizante",
+            "noFollow": true,
+            "tagTitle": "Impermeabilizante",
+            "text": "Impermeabilizante"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-massa-acrilica",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/tintas-e-acessorios/preparacao-e-protecao-de-superficie-para-pintura/massa-acrilica",
+            "noFollow": true,
+            "tagTitle": "Massa Acrílica",
+            "text": "Massa Acrílica"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-massa-corrida",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/tintas-e-acessorios/preparacao-e-protecao-de-superficie-para-pintura/massa-corrida",
+            "noFollow": true,
+            "tagTitle": "Massa Corrida",
+            "text": "Massa Corrida"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-massa-para-madeira",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/tintas-e-acessorios/preparacao-e-protecao-de-superficie-para-pintura/massa-para-madeira",
+            "noFollow": true,
+            "tagTitle": "Massa para Madeira",
+            "text": "Massa para Madeira"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-massa-plastica",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/tintas-e-acessorios/preparacao-e-protecao-de-superficie-para-pintura/massa-plastica",
+            "noFollow": true,
+            "tagTitle": "Massa Plástica",
+            "text": "Massa Plástica"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-multimassa",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/tintas-e-acessorios/preparacao-e-protecao-de-superficie-para-pintura/multimassa",
+            "noFollow": true,
+            "tagTitle": "Multimassa",
+            "text": "Multimassa"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-preparador",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/tintas-e-acessorios/preparacao-e-protecao-de-superficie-para-pintura/preparador",
+            "noFollow": true,
+            "tagTitle": "Preparador",
+            "text": "Preparador"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-protetor",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/tintas-e-acessorios/preparacao-e-protecao-de-superficie-para-pintura/protetor",
+            "noFollow": true,
+            "tagTitle": "Protetor",
+            "text": "Protetor"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-querosene",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/tintas-e-acessorios/preparacao-e-protecao-de-superficie-para-pintura/querosene",
+            "noFollow": true,
+            "tagTitle": "Querosene",
+            "text": "Querosene"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-removedor",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/tintas-e-acessorios/preparacao-e-protecao-de-superficie-para-pintura/removedor",
+            "noFollow": true,
+            "tagTitle": "Removedor",
+            "text": "Removedor"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-selador",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/tintas-e-acessorios/preparacao-e-protecao-de-superficie-para-pintura/selador",
+            "noFollow": true,
+            "tagTitle": "Selador",
+            "text": "Selador"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-solvente",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/tintas-e-acessorios/preparacao-e-protecao-de-superficie-para-pintura/solvente",
+            "noFollow": true,
+            "tagTitle": "Solvente",
+            "text": "Solvente"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-super-galvite",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/tintas-e-acessorios/preparacao-e-protecao-de-superficie-para-pintura/super-galvite",
+            "noFollow": true,
+            "tagTitle": "Super Galvite",
+            "text": "Super Galvite"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-suviflex",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/tintas-e-acessorios/preparacao-e-protecao-de-superficie-para-pintura/suviflex",
+            "noFollow": true,
+            "tagTitle": "Suviflex",
+            "text": "Suviflex"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-thinner",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/tintas-e-acessorios/preparacao-e-protecao-de-superficie-para-pintura/thinner",
+            "noFollow": true,
+            "tagTitle": "Thinner",
+            "text": "Thinner"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-tinta-spray",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/tintas-e-acessorios/preparacao-e-protecao-de-superficie-para-pintura/tinta-spray",
+            "noFollow": true,
+            "tagTitle": "Tinta Spray",
+            "text": "Tinta Spray"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-zarcao",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/tintas-e-acessorios/preparacao-e-protecao-de-superficie-para-pintura/zarcao",
+            "noFollow": true,
+            "tagTitle": "Zarcão",
+            "text": "Zarcão"
+          },
+          "blockClass": "child"
+        }
+      ]
+    }
+  }
+}

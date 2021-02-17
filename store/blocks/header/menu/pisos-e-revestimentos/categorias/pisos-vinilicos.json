@@ -1,0 +1,107 @@
+{
+  "menu-item#pisos-vinilicos": {
+    "props": {
+      "id": "menu-item-pisos-vinilicos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/pisos-e-revestimentos/pisos-vinilicos",
+        "noFollow": true,
+        "tagTitle": "Pisos Vinílicos",
+        "text": "Pisos Vinílicos"
+      },
+      "blockClass": ["childSub", "have-children"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#pisos-vinilicos"]
+  },
+
+  "vtex.menu@2.x:submenu#pisos-vinilicos": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#pisos-vinilicos"]
+  },
+
+  "vtex.menu@2.x:menu#pisos-vinilicos": {
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-pisos-vinilicos-ver-todos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/pisos-e-revestimentos/pisos-vinilicos",
+            "noFollow": true,
+            "tagTitle": "Ver todos os produtos",
+            "text": "Ver todos os produtos"
+          },
+          "blockClass": ["ver-todos"]
+        },
+        {
+          "id": "menu-item-carpete",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/pisos-e-revestimentos/pisos-vinilicos/carpete",
+            "noFollow": true,
+            "tagTitle": "Carpete",
+            "text": "Carpete"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-cola",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/pisos-e-revestimentos/pisos-vinilicos/cola",
+            "noFollow": true,
+            "tagTitle": "Cola",
+            "text": "Cola"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-perfil",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/pisos-e-revestimentos/pisos-vinilicos/perfil",
+            "noFollow": true,
+            "tagTitle": "Perfil",
+            "text": "Perfil"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-piso-vinilico",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/pisos-e-revestimentos/pisos-vinilicos/piso-vinilico",
+            "noFollow": true,
+            "tagTitle": "Piso Vinílico",
+            "text": "Piso Vinílico"
+          },
+          "blockClass": "child"
+        }
+      ]
+    }
+  }
+}

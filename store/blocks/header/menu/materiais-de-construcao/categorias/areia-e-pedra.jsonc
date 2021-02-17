@@ -1,0 +1,104 @@
+{
+  "menu-item#areia-e-pedra": {
+    "props": {
+      "id": "menu-item-areia-e-pedra",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/materiais-de-construcao/areia-e-pedra",
+        "noFollow": true,
+        "tagTitle": "Areia e Pedra",
+        "text": "Areia e Pedra"
+      },
+      "blockClass": ["childSub", "have-children"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#areia-e-pedra"]
+  },
+
+  "vtex.menu@2.x:submenu#areia-e-pedra": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#areia-e-pedra"]
+  },
+
+  "vtex.menu@2.x:menu#areia-e-pedra": {
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-areia-e-pedra-ver-todos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-de-construcao/areia-e-pedra",
+            "noFollow": true,
+            "tagTitle": "Ver todos os produtos",
+            "text": "Ver todos os produtos"
+          },
+          "blockClass": ["ver-todos"]
+        },
+        {
+          "id": "menu-item-agregado",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-de-construcao/areia-e-pedra/agregado",
+            "noFollow": true,
+            "tagTitle": "Agregado",
+            "text": "Agregado"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-areia",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-de-construcao/areia-e-pedra/areia",
+            "noFollow": true,
+            "tagTitle": "Areia",
+            "text": "Areia"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-brita",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-de-construcao/areia-e-pedra/brita",
+            "noFollow": true,
+            "tagTitle": "Brita",
+            "text": "Brita"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-terra-refrataria",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-de-construcao/areia-e-pedra/terra-refrataria",
+            "noFollow": true,
+            "tagTitle": "Terra Refratária",
+            "text": "Terra Refratária"
+          },
+          "blockClass": "child"
+        }
+      ]
+    }
+  }
+}

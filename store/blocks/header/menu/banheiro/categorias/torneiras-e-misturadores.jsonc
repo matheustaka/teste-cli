@@ -1,0 +1,160 @@
+{
+  "menu-item#torneiras-e-misturadores": {
+    "props": {
+      "id": "menu-item-torneiras-e-misturadores",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/banheiros/torneiras-e-misturadores",
+        "noFollow": true,
+        "tagTitle": "Gabinetes para Banheiro",
+        "text": "Gabinetes para Banheiro"
+      },
+      "blockClass": ["childSub", "have-children"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#torneiras-e-misturadores"]
+  },
+
+  "vtex.menu@2.x:submenu#torneiras-e-misturadores": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#torneiras-e-misturadores"]
+  },
+
+  "vtex.menu@2.x:menu#torneiras-e-misturadores": {
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-torneiras-e-misturadores-ver-todos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/banheiros/torneiras-e-misturadores",
+            "noFollow": true,
+            "tagTitle": "Ver todos os produtos",
+            "text": "Ver todos os produtos"
+          },
+          "blockClass": ["ver-todos"]
+        },
+        {
+          "id": "menu-item-acabamento-para-registro",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/banheiros/torneiras-e-misturadores/acabamento-para-registro",
+            "noFollow": true,
+            "tagTitle": "Acabamento para Registro",
+            "text": "Acabamento para Registro"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-acabamento-para-valvula-de-descarga",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/banheiros/torneiras-e-misturadores/acabamento-para-valvula-de-descarga",
+            "noFollow": true,
+            "tagTitle": "Acabamento para Válvula de Descarga",
+            "text": "Acabamento para Válvula de Descarga"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-ducha-higienica",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/banheiros/torneiras-e-misturadores/ducha-higienica",
+            "noFollow": true,
+            "tagTitle": "Ducha Higiênica",
+            "text": "Ducha Higiênica"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-misturador-para-bide",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/banheiros/torneiras-e-misturadores/misturador-para-bide",
+            "noFollow": true,
+            "tagTitle": "Misturador para Bidê",
+            "text": "Misturador para Bidê"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-misturador-para-chuveiro",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/banheiros/torneiras-e-misturadores/misturador-para-chuveiro",
+            "noFollow": true,
+            "tagTitle": "Misturador para Chuveiro",
+            "text": "Misturador para Chuveiro"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-misturador-para-ducha",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/banheiros/torneiras-e-misturadores/misturador-para-ducha",
+            "noFollow": true,
+            "tagTitle": "Misturador para Ducha",
+            "text": "Misturador para Ducha"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-torneira-misturador-para-banheiro",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/banheiros/torneiras-e-misturadores/torneira-misturador-para-banheiro",
+            "noFollow": true,
+            "tagTitle": "Torneira Misturador para Banheiro",
+            "text": "Torneira Misturador para Banheiro"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-torneira-para-banheiro",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/banheiros/torneiras-e-misturadores/torneira-para-banheiro",
+            "noFollow": true,
+            "tagTitle": "Torneira para Banheiro",
+            "text": "Torneira para Banheiro"
+          },
+          "blockClass": "child"
+        }
+      ]
+    }
+  }
+}

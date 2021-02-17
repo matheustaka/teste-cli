@@ -1,0 +1,8 @@
+.wrapper--main-header-mobile-center :nth-child(40n + 2) {
+  margin-left: 30px;
+}
+
+.wrapper--stuck
+  :global(.vtex-flex-layout-0-x-flexRowContent--main-header) {
+  padding-bottom: 8px;
+}

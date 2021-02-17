@@ -1,0 +1,356 @@
+{
+  "menu-item#acessorios-para-banheiro": {
+    "props": {
+      "id": "menu-item-acessorios-para-banheiro",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/banheiros/acessorios-para-banheiro",
+        "noFollow": true,
+        "tagTitle": "Acessórios para Banheiro",
+        "text": "Acessórios para Banheiro"
+      },
+      "blockClass": ["childSub", "have-children"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#acessorios-para-banheiro"]
+  },
+
+  "vtex.menu@2.x:submenu#acessorios-para-banheiro": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#acessorios-para-banheiro"]
+  },
+
+  "vtex.menu@2.x:menu#acessorios-para-banheiro": {
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-acessorios-para-banheiro-ver-todos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/banheiros/acessorios-para-banheiro",
+            "noFollow": true,
+            "tagTitle": "Ver todos os produtos",
+            "text": "Ver todos os produtos"
+          },
+          "blockClass": ["ver-todos"]
+        },
+        {
+          "id": "menu-item-Balança",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/banheiros/acessorios-para-banheiro/Balança",
+            "noFollow": true,
+            "tagTitle": "Balança",
+            "text": "Balança"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-barra-de-apoio",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/banheiros/acessorios-para-banheiro/barra-de-apoio",
+            "noFollow": true,
+            "tagTitle": "Barra de Apoio",
+            "text": "Barra de Apoio"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-cabide-para-banheiro",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/banheiros/acessorios-para-banheiro/cabide-para-banheiro",
+            "noFollow": true,
+            "tagTitle": "Cabide para Banheiro",
+            "text": "Cabide para Banheiro"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-cortina",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/banheiros/acessorios-para-banheiro/cortina",
+            "noFollow": true,
+            "tagTitle": "Cortina",
+            "text": "Cortina"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-dosador-de-sabao",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/banheiros/acessorios-para-banheiro/dosador-de-sabao",
+            "noFollow": true,
+            "tagTitle": "Dosador de Sabão",
+            "text": "Dosador de Sabão"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-escova-sanitaria",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/banheiros/acessorios-para-banheiro/escova-sanitaria",
+            "noFollow": true,
+            "tagTitle": "Escova Sanitária",
+            "text": "Escova Sanitária"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-estrado",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/banheiros/acessorios-para-banheiro/estrado",
+            "noFollow": true,
+            "tagTitle": "Estrado",
+            "text": "Estrado"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-kit-de-acessorios",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/banheiros/acessorios-para-banheiro/kit-de-acessorios",
+            "noFollow": true,
+            "tagTitle": "Kit de Acessórios",
+            "text": "Kit de Acessórios"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-necessaria",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/banheiros/acessorios-para-banheiro/necessaria",
+            "noFollow": true,
+            "tagTitle": "Necessaria",
+            "text": "Necessaria"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-organizador",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/banheiros/acessorios-para-banheiro/organizador",
+            "noFollow": true,
+            "tagTitle": "Organizador",
+            "text": "Organizador"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-peneira",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/banheiros/acessorios-para-banheiro/peneira",
+            "noFollow": true,
+            "tagTitle": "Peneira",
+            "text": "Peneira"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-porta-algodao",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/banheiros/acessorios-para-banheiro/porta-algodao",
+            "noFollow": true,
+            "tagTitle": "Porta Algodão",
+            "text": "Porta Algodão"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-porta-escova-de-dente",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/banheiros/acessorios-para-banheiro/porta-escova-de-dente",
+            "noFollow": true,
+            "tagTitle": "Porta Escova de Dente",
+            "text": "Porta Escova de Dente"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-porta-papel-higienico",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/banheiros/acessorios-para-banheiro/porta-papel-higienico",
+            "noFollow": true,
+            "tagTitle": "Porta Papel Higiênico",
+            "text": "Porta Papel Higiênico"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-porta-shampoo",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/banheiros/acessorios-para-banheiro/porta-shampoo",
+            "noFollow": true,
+            "tagTitle": "Porta Shampoo",
+            "text": "Porta Shampoo"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-porta-toalha",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/banheiros/acessorios-para-banheiro/porta-toalha",
+            "noFollow": true,
+            "tagTitle": "Porta Toalha",
+            "text": "Porta Toalha"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-prateleira-para-banheiro",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/banheiros/acessorios-para-banheiro/prateleira-para-banheiro",
+            "noFollow": true,
+            "tagTitle": "Prateleira para Banheiro",
+            "text": "Prateleira para Banheiro"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-saboneteira",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/banheiros/acessorios-para-banheiro/saboneteira",
+            "noFollow": true,
+            "tagTitle": "Saboneteira",
+            "text": "Saboneteira"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-suporte-para-secador",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/banheiros/acessorios-para-banheiro/suporte-para-secador",
+            "noFollow": true,
+            "tagTitle": "Suporte para Secador",
+            "text": "Suporte para Secador"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-suporte-para-toalha",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/banheiros/acessorios-para-banheiro/suporte-para-toalha",
+            "noFollow": true,
+            "tagTitle": "Suporte para Toalha",
+            "text": "Suporte para Toalha"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-tapete-para-box",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/banheiros/acessorios-para-banheiro/tapete-para-box",
+            "noFollow": true,
+            "tagTitle": "Tapete para Box",
+            "text": "Tapete para Box"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-varal-retratil",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/banheiros/acessorios-para-banheiro/varal-retratil",
+            "noFollow": true,
+            "tagTitle": "Varal Retrátil",
+            "text": "Varal Retrátil"
+          },
+          "blockClass": "child"
+        }
+      ]
+    }
+  }
+}

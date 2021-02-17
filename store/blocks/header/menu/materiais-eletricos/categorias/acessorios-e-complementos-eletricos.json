@@ -1,0 +1,132 @@
+{
+  "menu-item#acessorios-e-complementos-eletricos": {
+    "props": {
+      "id": "menu-item-acessorios-e-complementos-eletricos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/materiais-eletricos/acessorios-e-complementos-eletricos",
+        "noFollow": true,
+        "tagTitle": "Acessórios e Complementos Elétricos",
+        "text": "Acessórios e Complementos Elétricos"
+      },
+      "blockClass": ["childSub", "have-children"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#acessorios-e-complementos-eletricos"]
+  },
+
+  "vtex.menu@2.x:submenu#acessorios-e-complementos-eletricos": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#acessorios-e-complementos-eletricos"]
+  },
+
+  "vtex.menu@2.x:menu#acessorios-e-complementos-eletricos": {
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-acessorios-e-complementos-eletricos-ver-todos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-eletricos/acessorios-e-complementos-eletricos",
+            "noFollow": true,
+            "tagTitle": "Ver todos os produtos",
+            "text": "Ver todos os produtos"
+          },
+          "blockClass": ["ver-todos"]
+        },
+        {
+          "id": "menu-item-extensoes-filtros-e-plugs",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-eletricos/acessorios-e-complementos-eletricos/extensoes-filtros-e-plugs",
+            "noFollow": true,
+            "tagTitle": "Extensões, Filtros e Plugs",
+            "text": "Extensões, Filtros e Plugs"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-fita-isolante",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-eletricos/acessorios-e-complementos-eletricos/fita-isolante",
+            "noFollow": true,
+            "tagTitle": "Fita Isolante",
+            "text": "Fita Isolante"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-passa-fio",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-eletricos/acessorios-e-complementos-eletricos/passa-fio",
+            "noFollow": true,
+            "tagTitle": "Passa Fio",
+            "text": "Passa Fio"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-tomada-para-telefone",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-eletricos/acessorios-e-complementos-eletricos/tomada-para-telefone",
+            "noFollow": true,
+            "tagTitle": "Tomada para Telefone",
+            "text": "Tomada para Telefone"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-transformador-de-tensao",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-eletricos/acessorios-e-complementos-eletricos/transformador-de-tensao",
+            "noFollow": true,
+            "tagTitle": "Transformador de Tensão",
+            "text": "Transformador de Tensão"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-tubo-para-antena",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-eletricos/acessorios-e-complementos-eletricos/tubo-para-antena",
+            "noFollow": true,
+            "tagTitle": "Tubo para Antena",
+            "text": "Tubo para Antena"
+          },
+          "blockClass": "child"
+        }
+      ]
+    }
+  }
+}

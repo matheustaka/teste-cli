@@ -1,0 +1,300 @@
+{
+  "menu-item#eletrodomesticos": {
+    "props": {
+      "id": "menu-item-eletrodomesticos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/eletro/eletrodomesticos",
+        "noFollow": true,
+        "tagTitle": "Eletrodomésticos",
+        "text": "Eletrodomésticos"
+      },
+      "blockClass": ["childSub", "have-children"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#eletrodomesticos"]
+  },
+
+  "vtex.menu@2.x:submenu#eletrodomesticos": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#eletrodomesticos"]
+  },
+
+  "vtex.menu@2.x:menu#eletrodomesticos": {
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-eletrodomesticos-ver-todos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/eletro/eletrodomesticos",
+            "noFollow": true,
+            "tagTitle": "Ver todos os produtos",
+            "text": "Ver todos os produtos"
+          },
+          "blockClass": ["ver-todos"]
+        },
+        {
+          "id": "menu-item-adega",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/eletro/eletrodomesticos/adega",
+            "noFollow": true,
+            "tagTitle": "Adega",
+            "text": "Adega"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-centrifuga-de-roupas",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/eletro/eletrodomesticos/centrifuga-de-roupas",
+            "noFollow": true,
+            "tagTitle": "Centrífuga de Roupas",
+            "text": "Centrífuga de Roupas"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-cervejeira",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/eletro/eletrodomesticos/cervejeira",
+            "noFollow": true,
+            "tagTitle": "Cervejeira",
+            "text": "Cervejeira"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-coifa",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/eletro/eletrodomesticos/coifa",
+            "noFollow": true,
+            "tagTitle": "Coifa",
+            "text": "Coifa"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-cooktop",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/eletro/eletrodomesticos/cooktop",
+            "noFollow": true,
+            "tagTitle": "Cooktop",
+            "text": "Cooktop"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-depurador-de-ar",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/eletro/eletrodomesticos/depurador-de-ar",
+            "noFollow": true,
+            "tagTitle": "Depurador de Ar",
+            "text": "Depurador de Ar"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-fogao",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/eletro/eletrodomesticos/fogao",
+            "noFollow": true,
+            "tagTitle": "Fogão",
+            "text": "Fogão"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-forno-a-gas",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/eletro/eletrodomesticos/forno-a-gas",
+            "noFollow": true,
+            "tagTitle": "Forno a Gás",
+            "text": "Forno a Gás"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-forno-eletrico",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/eletro/eletrodomesticos/forno-eletrico",
+            "noFollow": true,
+            "tagTitle": "Forno Elétrico",
+            "text": "Forno Elétrico"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-freezer",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/eletro/eletrodomesticos/freezer",
+            "noFollow": true,
+            "tagTitle": "Freezer",
+            "text": "Freezer"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-frigobar",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/eletro/eletrodomesticos/frigobar",
+            "noFollow": true,
+            "tagTitle": "Frigobar",
+            "text": "Frigobar"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-lava-e-seca",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/eletro/eletrodomesticos/lava-e-seca",
+            "noFollow": true,
+            "tagTitle": "Lava e Seca",
+            "text": "Lava e Seca"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-lavadora-de-roupas",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/eletro/eletrodomesticos/lavadora-de-roupas",
+            "noFollow": true,
+            "tagTitle": "Lavadora de Roupas",
+            "text": "Lavadora de Roupas"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-lava-louças",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/eletro/eletrodomesticos/lava-louças",
+            "noFollow": true,
+            "tagTitle": "Lava-Louças",
+            "text": "Lava-Louças"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-micro-ondas",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/eletro/eletrodomesticos/micro-ondas",
+            "noFollow": true,
+            "tagTitle": "Micro-ondas",
+            "text": "Micro-ondas"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-refrigerador",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/eletro/eletrodomesticos/refrigerador",
+            "noFollow": true,
+            "tagTitle": "Refrigerador",
+            "text": "Refrigerador"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-secadora-de-roupas",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/eletro/eletrodomesticos/secadora-de-roupas",
+            "noFollow": true,
+            "tagTitle": "Secadora de Roupas",
+            "text": "Secadora de Roupas"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-triturador-de-alimentos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/eletro/eletrodomesticos/triturador-de-alimentos",
+            "noFollow": true,
+            "tagTitle": "Triturador de Alimentos",
+            "text": "Triturador de Alimentos"
+          },
+          "blockClass": "child"
+        }
+      ]
+    }
+  }
+}

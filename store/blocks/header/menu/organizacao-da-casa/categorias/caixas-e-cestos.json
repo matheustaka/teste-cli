@@ -1,0 +1,92 @@
+{
+  "menu-item#caixas-e-cestos": {
+    "props": {
+      "id": "menu-item-caixas-e-cestos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/organizacao-da-casa/caixas-e-cestos",
+        "noFollow": true,
+        "tagTitle": "Caixas e Cestos",
+        "text": "Caixas e Cestos"
+      },
+      "blockClass": ["childSub", "have-children"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#caixas-e-cestos"]
+  },
+
+  "vtex.menu@2.x:submenu#caixas-e-cestos": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#caixas-e-cestos"]
+  },
+
+  "vtex.menu@2.x:menu#caixas-e-cestos": {
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-caixas-e-cestos-ver-todos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/organizacao-da-casa/caixas-e-cestos",
+            "noFollow": true,
+            "tagTitle": "Ver todos os produtos",
+            "text": "Ver todos os produtos"
+          },
+          "blockClass": [ "ver-todos"]
+        },
+        {
+          "id": "menu-item-balaio",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/organizacao-da-casa/caixas-e-cestos/balaio",
+            "noFollow": true,
+            "tagTitle": "Balaio",
+            "text": "Balaio"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-caixa",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/organizacao-da-casa/caixas-e-cestos/caixa",
+            "noFollow": true,
+            "tagTitle": "Caixa",
+            "text": "Caixa"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-cestos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/organizacao-da-casa/caixas-e-cestos/cestos",
+            "noFollow": true,
+            "tagTitle": "Cestos",
+            "text": "Cestos"
+          },
+          "blockClass": "child"
+        }
+      ]
+    }
+  }
+}

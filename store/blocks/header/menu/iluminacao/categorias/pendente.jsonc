@@ -1,0 +1,18 @@
+{
+  "menu-item#pendente": {
+    "props": {
+      "id": "menu-item-pendente",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/iluminacao/pendente",
+        "noFollow": true,
+        "tagTitle": "Pendente",
+        "text": "Pendente"
+      },
+      "blockClass": "childSub"
+    }
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "menu-item#materiais-hidraulicos": {
+    "props": {
+      "id": "menu-item-materiais-hidraulicos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/materiais-hidraulicos",
+        "noFollow": true,
+        "tagTitle": "Materiais Hidráulicos",
+        "text": "Materiais Hidráulicos"
+      },
+      "blockClass": ["department", "have-children"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#materiais-hidraulicos"]
+  },
+
+  "vtex.menu@2.x:submenu#materiais-hidraulicos": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#materiais-hidraulicos"]
+  },
+
+  "vtex.menu@2.x:menu#materiais-hidraulicos": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "drop-category"
+    },
+    "children": [
+      "rich-text#department-materiais-hidraulicos",
+      "menu-item#materiais-hidraulicos-ver-todos",
+      "menu-item#acessorios",
+      "menu-item#motobombas",
+      "menu-item#registros-e-valvulas",
+      "menu-item#reservatorios-de-agua",
+      "menu-item#tubos-e-conexoes-de-incendio",
+      "menu-item#tubos-e-conexoes-para-agua-fria",
+      "menu-item#tubos-e-conexoes-para-agua-quente",
+      "menu-item#tubos-e-conexoes-para-dreno",
+      "menu-item#tubos-e-conexoes-para-esgoto",
+      "menu-item#tubos-e-conexoes-para-gas",
+      "menu-item#tubos-e-conexoes-pluviais"
+    ]
+  },
+  "rich-text#department-materiais-hidraulicos": {
+    "props": {
+      "text": "Materiais Hidráulicos",
+      "blockClass": "titulo-menu-department"
+    }
+  },
+  "menu-item#materiais-hidraulicos-ver-todos": {
+    "props": {
+      "id": "menu-item-materiais-hidraulicos-ver-todos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/materiais-hidraulicos",
+        "noFollow": true,
+        "tagTitle": "Ver todos os produtos",
+        "text": "Ver todos os produtos"
+      },
+      "blockClass": [ "ver-todos"]
+    }
+  }
+}

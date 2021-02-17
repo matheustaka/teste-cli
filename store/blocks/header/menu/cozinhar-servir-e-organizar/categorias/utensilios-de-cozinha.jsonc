@@ -1,0 +1,496 @@
+{
+  "menu-item#utensilios-de-cozinha": {
+    "props": {
+      "id": "menu-item-utensilios-de-cozinha",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cozinhar-servir-e-organizar/utensilios-de-cozinha",
+        "noFollow": true,
+        "tagTitle": "Utensílios de Cozinha",
+        "text": "Utensílios de Cozinha"
+      },
+      "blockClass": ["childSub", "have-children"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#utensilios-de-cozinha"]
+  },
+
+  "vtex.menu@2.x:submenu#utensilios-de-cozinha": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#utensilios-de-cozinha"]
+  },
+
+  "vtex.menu@2.x:menu#utensilios-de-cozinha": {
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-utensilios-de-cozinha-ver-todos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinhar-servir-e-organizar/utensilios-de-cozinha",
+            "noFollow": true,
+            "tagTitle": "Ver todos os produtos",
+            "text": "Ver todos os produtos"
+          },
+          "blockClass": ["ver-todos"]
+        },
+        {
+          "id": "menu-item-abridor",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinhar-servir-e-organizar/utensilios-de-cozinha/abridor",
+            "noFollow": true,
+            "tagTitle": "Abridor",
+            "text": "Abridor"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-amassador-de-batatas",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinhar-servir-e-organizar/utensilios-de-cozinha/amassador-de-batatas",
+            "noFollow": true,
+            "tagTitle": "Amassador de Batatas",
+            "text": "Amassador de Batatas"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-apoio-de-talher",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinhar-servir-e-organizar/utensilios-de-cozinha/apoio-de-talher",
+            "noFollow": true,
+            "tagTitle": "Apoio de Talher",
+            "text": "Apoio de Talher"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-batetor",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinhar-servir-e-organizar/utensilios-de-cozinha/batetor",
+            "noFollow": true,
+            "tagTitle": "Batetor",
+            "text": "Batetor"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-centrifuga",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinhar-servir-e-organizar/utensilios-de-cozinha/centrifuga",
+            "noFollow": true,
+            "tagTitle": "Centrífuga",
+            "text": "Centrífuga"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-colher-de-cozinha",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinhar-servir-e-organizar/utensilios-de-cozinha/colher-de-cozinha",
+            "noFollow": true,
+            "tagTitle": "Colher de Cozinha",
+            "text": "Colher de Cozinha"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-concha",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinhar-servir-e-organizar/utensilios-de-cozinha/concha",
+            "noFollow": true,
+            "tagTitle": "Concha",
+            "text": "Concha"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-copo-medidor",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinhar-servir-e-organizar/utensilios-de-cozinha/copo-medidor",
+            "noFollow": true,
+            "tagTitle": "Copo Medidor",
+            "text": "Copo Medidor"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-cortador",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinhar-servir-e-organizar/utensilios-de-cozinha/cortador",
+            "noFollow": true,
+            "tagTitle": "Cortador",
+            "text": "Cortador"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-descanso-de-panela",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinhar-servir-e-organizar/utensilios-de-cozinha/descanso-de-panela",
+            "noFollow": true,
+            "tagTitle": "Descanso de Panela",
+            "text": "Descanso de Panela"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-descarocador",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinhar-servir-e-organizar/utensilios-de-cozinha/descarocador",
+            "noFollow": true,
+            "tagTitle": "Descaroçador",
+            "text": "Descaroçador"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-descascador",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinhar-servir-e-organizar/utensilios-de-cozinha/descascador",
+            "noFollow": true,
+            "tagTitle": "Descascador",
+            "text": "Descascador"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-escorredor",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinhar-servir-e-organizar/utensilios-de-cozinha/escorredor",
+            "noFollow": true,
+            "tagTitle": "Escorredor",
+            "text": "Escorredor"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-espatula",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinhar-servir-e-organizar/utensilios-de-cozinha/espatula",
+            "noFollow": true,
+            "tagTitle": "Espátula",
+            "text": "Espátula"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-espremedor-de-alho",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinhar-servir-e-organizar/utensilios-de-cozinha/espremedor-de-alho",
+            "noFollow": true,
+            "tagTitle": "Espremedor de Alho",
+            "text": "Espremedor de Alho"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-espumadeira",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinhar-servir-e-organizar/utensilios-de-cozinha/espumadeira",
+            "noFollow": true,
+            "tagTitle": "Espumadeira",
+            "text": "Espumadeira"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-extrator",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinhar-servir-e-organizar/utensilios-de-cozinha/extrator",
+            "noFollow": true,
+            "tagTitle": "Extrator",
+            "text": "Extrator"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-forma-para-hamburguer",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinhar-servir-e-organizar/utensilios-de-cozinha/forma-para-hamburguer",
+            "noFollow": true,
+            "tagTitle": "Forma para Hamburguer",
+            "text": "Forma para Hamburguer"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-gancho",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinhar-servir-e-organizar/utensilios-de-cozinha/gancho",
+            "noFollow": true,
+            "tagTitle": "Gancho",
+            "text": "Gancho"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-garfo-trinchante",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinhar-servir-e-organizar/utensilios-de-cozinha/garfo-trinchante",
+            "noFollow": true,
+            "tagTitle": "Garfo Trinchante",
+            "text": "Garfo Trinchante"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-pegador",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinhar-servir-e-organizar/utensilios-de-cozinha/pegador",
+            "noFollow": true,
+            "tagTitle": "Pegador",
+            "text": "Pegador"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-peneira",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinhar-servir-e-organizar/utensilios-de-cozinha/peneira",
+            "noFollow": true,
+            "tagTitle": "Peneira",
+            "text": "Peneira"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-pincel",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinhar-servir-e-organizar/utensilios-de-cozinha/pincel",
+            "noFollow": true,
+            "tagTitle": "Pincel",
+            "text": "Pincel"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-porta-detergente",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinhar-servir-e-organizar/utensilios-de-cozinha/porta-detergente",
+            "noFollow": true,
+            "tagTitle": "Porta Detergente",
+            "text": "Porta Detergente"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-porta-utensilios",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinhar-servir-e-organizar/utensilios-de-cozinha/porta-utensilios",
+            "noFollow": true,
+            "tagTitle": "Porta Utensílios",
+            "text": "Porta Utensílios"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-ralador",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinhar-servir-e-organizar/utensilios-de-cozinha/ralador",
+            "noFollow": true,
+            "tagTitle": "Ralador",
+            "text": "Ralador"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-raspador",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinhar-servir-e-organizar/utensilios-de-cozinha/raspador",
+            "noFollow": true,
+            "tagTitle": "Raspador",
+            "text": "Raspador"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-socador",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinhar-servir-e-organizar/utensilios-de-cozinha/socador",
+            "noFollow": true,
+            "tagTitle": "Socador",
+            "text": "Socador"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-tabuas-de-corte",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinhar-servir-e-organizar/utensilios-de-cozinha/tabuas-de-corte",
+            "noFollow": true,
+            "tagTitle": "Tábuas de Corte",
+            "text": "Tábuas de Corte"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-tampa-de-microondas",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinhar-servir-e-organizar/utensilios-de-cozinha/tampa-de-microondas",
+            "noFollow": true,
+            "tagTitle": "Tampa de Microondas",
+            "text": "Tampa de Microondas"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-tesoura",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinhar-servir-e-organizar/utensilios-de-cozinha/tesoura",
+            "noFollow": true,
+            "tagTitle": "Tesoura",
+            "text": "Tesoura"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-utensilio-avulso",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinhar-servir-e-organizar/utensilios-de-cozinha/utensilio-avulso",
+            "noFollow": true,
+            "tagTitle": "Utensílio Avulso",
+            "text": "Utensílio Avulso"
+          },
+          "blockClass": "child"
+        }
+      ]
+    }
+  }
+}

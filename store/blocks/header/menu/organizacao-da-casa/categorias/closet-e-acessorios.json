@@ -1,0 +1,167 @@
+{
+  "menu-item#closet-e-acessorios": {
+    "props": {
+      "id": "menu-item-closet-e-acessorios",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/organizacao-da-casa/closet-e-acessorios",
+        "noFollow": true,
+        "tagTitle": "Closet e Acessórios",
+        "text": "Closet e Acessórios"
+      },
+      "blockClass": ["childSub", "have-children"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#closet-e-acessorios"]
+  },
+
+  "vtex.menu@2.x:submenu#closet-e-acessorios": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#closet-e-acessorios"]
+  },
+
+  "vtex.menu@2.x:menu#closet-e-acessorios": {
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-closet-e-acessorios-ver-todos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/organizacao-da-casa/closet-e-acessorios",
+            "noFollow": true,
+            "tagTitle": "Ver todos os produtos",
+            "text": "Ver todos os produtos"
+          },
+          "blockClass": [ "ver-todos"]
+        },
+
+        {
+          "id": "menu-item-arara",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/organizacao-da-casa/closet-e-acessorios/arara",
+            "noFollow": true,
+            "tagTitle": "Arara",
+            "text": "Arara"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-cabide",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/organizacao-da-casa/closet-e-acessorios/cabide",
+            "noFollow": true,
+            "tagTitle": "Cabide",
+            "text": "Cabide"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-embalagem-a-vacuo",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/organizacao-da-casa/closet-e-acessorios/embalagem-a-vacuo",
+            "noFollow": true,
+            "tagTitle": "Embalagem a Vácuo",
+            "text": "Embalagem a Vácuo"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-gaveteiro",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/organizacao-da-casa/closet-e-acessorios/gaveteiro",
+            "noFollow": true,
+            "tagTitle": "Gaveteiro",
+            "text": "Gaveteiro"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-guarda-roupa",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/organizacao-da-casa/closet-e-acessorios/guarda-roupa",
+            "noFollow": true,
+            "tagTitle": "Guarda Roupa",
+            "text": "Guarda Roupa"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-organizador",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/organizacao-da-casa/closet-e-acessorios/organizador",
+            "noFollow": true,
+            "tagTitle": "Organizador",
+            "text": "Organizador"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-porta-maquiagem",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/organizacao-da-casa/closet-e-acessorios/porta-maquiagem",
+            "noFollow": true,
+            "tagTitle": "Porta Maquiagem",
+            "text": "Porta Maquiagem"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-sapateira",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/organizacao-da-casa/closet-e-acessorios/sapateira",
+            "noFollow": true,
+            "tagTitle": "Sapateira",
+            "text": "Sapateira"
+          },
+          "blockClass": "child"
+        }
+      ]
+    }
+  }
+}

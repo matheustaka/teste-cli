@@ -1,0 +1,527 @@
+{
+  "menu-item#tubos-e-conexoes-para-esgoto": {
+    "props": {
+      "id": "menu-item-tubos-e-conexoes-para-esgoto",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/materiais-hidraulicos/tubos-e-conexoes-para-esgoto",
+        "noFollow": true,
+        "tagTitle": "Tubos e Conexões para Esgoto",
+        "text": "Tubos e Conexões para Esgoto"
+      },
+      "blockClass": ["childSub", "have-children"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#tubos-e-conexoes-para-esgoto"]
+  },
+
+  "vtex.menu@2.x:submenu#tubos-e-conexoes-para-esgoto": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#tubos-e-conexoes-para-esgoto"]
+  },
+
+  "vtex.menu@2.x:menu#tubos-e-conexoes-para-esgoto": {
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-tubos-e-conexoes-para-esgoto-ver-todos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-hidraulicos/tubos-e-conexoes-para-esgoto",
+            "noFollow": true,
+            "tagTitle": "Ver todos os produtos",
+            "text": "Ver todos os produtos"
+          },
+          "blockClass": ["ver-todos"]
+        },
+        {
+          "id": "menu-item-abracadeira",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-hidraulicos/tubos-e-conexoes-para-esgoto/abracadeira",
+            "noFollow": true,
+            "tagTitle": "Abraçadeira",
+            "text": "Abraçadeira"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-amortecedor",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-hidraulicos/tubos-e-conexoes-para-esgoto/amortecedor",
+            "noFollow": true,
+            "tagTitle": "Amortecedor",
+            "text": "Amortecedor"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-anel",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-hidraulicos/tubos-e-conexoes-para-esgoto/anel",
+            "noFollow": true,
+            "tagTitle": "Anel",
+            "text": "Anel"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-antiespuma",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-hidraulicos/tubos-e-conexoes-para-esgoto/antiespuma",
+            "noFollow": true,
+            "tagTitle": "Antiespuma",
+            "text": "Antiespuma"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-anti-infiltracao",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-hidraulicos/tubos-e-conexoes-para-esgoto/anti-infiltracao",
+            "noFollow": true,
+            "tagTitle": "Anti-infiltração",
+            "text": "Anti-infiltração"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-bucha-de-reducao",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-hidraulicos/tubos-e-conexoes-para-esgoto/bucha-de-reducao",
+            "noFollow": true,
+            "tagTitle": "Bucha de Redução",
+            "text": "Bucha de Redução"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-caixa-de-areia",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-hidraulicos/tubos-e-conexoes-para-esgoto/caixa-de-areia",
+            "noFollow": true,
+            "tagTitle": "Caixa de Areia",
+            "text": "Caixa de Areia"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-caixa-de-gordura",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-hidraulicos/tubos-e-conexoes-para-esgoto/caixa-de-gordura",
+            "noFollow": true,
+            "tagTitle": "Caixa de Gordura",
+            "text": "Caixa de Gordura"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-caixa-de-inspecao",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-hidraulicos/tubos-e-conexoes-para-esgoto/caixa-de-inspecao",
+            "noFollow": true,
+            "tagTitle": "Caixa de Inspeção",
+            "text": "Caixa de Inspeção"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-caixa-sifonada",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-hidraulicos/tubos-e-conexoes-para-esgoto/caixa-sifonada",
+            "noFollow": true,
+            "tagTitle": "Caixa Sifonada",
+            "text": "Caixa Sifonada"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-cap",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-hidraulicos/tubos-e-conexoes-para-esgoto/cap",
+            "noFollow": true,
+            "tagTitle": "Cap",
+            "text": "Cap"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-corpo-para-caixa-sifonada",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-hidraulicos/tubos-e-conexoes-para-esgoto/corpo-para-caixa-sifonada",
+            "noFollow": true,
+            "tagTitle": "Corpo para Caixa Sifonada",
+            "text": "Corpo para Caixa Sifonada"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-curva",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-hidraulicos/tubos-e-conexoes-para-esgoto/curva",
+            "noFollow": true,
+            "tagTitle": "Curva",
+            "text": "Curva"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-defletor",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-hidraulicos/tubos-e-conexoes-para-esgoto/defletor",
+            "noFollow": true,
+            "tagTitle": "Defletor",
+            "text": "Defletor"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-flange",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-hidraulicos/tubos-e-conexoes-para-esgoto/flange",
+            "noFollow": true,
+            "tagTitle": "Flange",
+            "text": "Flange"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-fossa",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-hidraulicos/tubos-e-conexoes-para-esgoto/fossa",
+            "noFollow": true,
+            "tagTitle": "Fossa",
+            "text": "Fossa"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-grelha",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-hidraulicos/tubos-e-conexoes-para-esgoto/grelha",
+            "noFollow": true,
+            "tagTitle": "Grelha",
+            "text": "Grelha"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-isolador-fita",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-hidraulicos/tubos-e-conexoes-para-esgoto/isolador-fita",
+            "noFollow": true,
+            "tagTitle": "Isolador Fita",
+            "text": "Isolador Fita"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-joelho",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-hidraulicos/tubos-e-conexoes-para-esgoto/joelho",
+            "noFollow": true,
+            "tagTitle": "Joelho",
+            "text": "Joelho"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-juncao",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-hidraulicos/tubos-e-conexoes-para-esgoto/juncao",
+            "noFollow": true,
+            "tagTitle": "Junção",
+            "text": "Junção"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-luva",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-hidraulicos/tubos-e-conexoes-para-esgoto/luva",
+            "noFollow": true,
+            "tagTitle": "Luva",
+            "text": "Luva"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-plug",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-hidraulicos/tubos-e-conexoes-para-esgoto/plug",
+            "noFollow": true,
+            "tagTitle": "Plug",
+            "text": "Plug"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-porta-grelha-pvc",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-hidraulicos/tubos-e-conexoes-para-esgoto/porta-grelha-pvc",
+            "noFollow": true,
+            "tagTitle": "Porta Grelha PVC",
+            "text": "Porta Grelha PVC"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-prolongador",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-hidraulicos/tubos-e-conexoes-para-esgoto/prolongador",
+            "noFollow": true,
+            "tagTitle": "Prolongador",
+            "text": "Prolongador"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-ralo-para-esgoto",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-hidraulicos/tubos-e-conexoes-para-esgoto/ralo-para-esgoto",
+            "noFollow": true,
+            "tagTitle": "Ralo para Esgoto",
+            "text": "Ralo para Esgoto"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-reducao-excentrica",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-hidraulicos/tubos-e-conexoes-para-esgoto/reducao-excentrica",
+            "noFollow": true,
+            "tagTitle": "Redução Excêntrica",
+            "text": "Redução Excêntrica"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-suporte",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-hidraulicos/tubos-e-conexoes-para-esgoto/suporte",
+            "noFollow": true,
+            "tagTitle": "Suporte",
+            "text": "Suporte"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-tampa-para-esgoto",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-hidraulicos/tubos-e-conexoes-para-esgoto/tampa-para-esgoto",
+            "noFollow": true,
+            "tagTitle": "Tampa para Esgoto",
+            "text": "Tampa para Esgoto"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-te",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-hidraulicos/tubos-e-conexoes-para-esgoto/te",
+            "noFollow": true,
+            "tagTitle": "Tê",
+            "text": "Tê"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-terminal-de-ventilacao",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-hidraulicos/tubos-e-conexoes-para-esgoto/terminal-de-ventilacao",
+            "noFollow": true,
+            "tagTitle": "Terminal de Ventilação",
+            "text": "Terminal de Ventilação"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-tubo",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-hidraulicos/tubos-e-conexoes-para-esgoto/tubo",
+            "noFollow": true,
+            "tagTitle": "Tubo",
+            "text": "Tubo"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-valvula",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-hidraulicos/tubos-e-conexoes-para-esgoto/valvula",
+            "noFollow": true,
+            "tagTitle": "Válvula",
+            "text": "Válvula"
+          },
+          "blockClass": "child"
+        }
+      ]
+    }
+  }
+}

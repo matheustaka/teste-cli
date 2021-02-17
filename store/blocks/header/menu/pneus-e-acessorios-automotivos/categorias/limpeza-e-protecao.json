@@ -1,0 +1,387 @@
+{
+  "menu-item#limpeza-e-protecao": {
+    "props": {
+      "id": "menu-item-limpeza-e-protecao",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/pneus-e-acessorios-automotivos/limpeza-e-protecao",
+        "noFollow": true,
+        "tagTitle": "Limpeza e Proteção",
+        "text": "Limpeza e Proteção"
+      },
+      "blockClass": ["childSub", "have-children"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#limpeza-e-protecao"]
+  },
+
+  "vtex.menu@2.x:submenu#limpeza-e-protecao": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#limpeza-e-protecao"]
+  },
+
+  "vtex.menu@2.x:menu#limpeza-e-protecao": {
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-limpeza-e-protecao-ver-todos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/pneus-e-acessorios-automotivos/limpeza-e-protecao",
+            "noFollow": true,
+            "tagTitle": "Ver todos os produtos",
+            "text": "Ver todos os produtos"
+          },
+          "blockClass": ["ver-todos"]
+        },
+        {
+          "id": "menu-item-cera",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/pneus-e-acessorios-automotivos/limpeza-e-protecao/cera",
+            "noFollow": true,
+            "tagTitle": "Cera",
+            "text": "Cera"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-detergente",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/pneus-e-acessorios-automotivos/limpeza-e-protecao/detergente",
+            "noFollow": true,
+            "tagTitle": "Detergente",
+            "text": "Detergente"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-esponja",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/pneus-e-acessorios-automotivos/limpeza-e-protecao/esponja",
+            "noFollow": true,
+            "tagTitle": "Esponja",
+            "text": "Esponja"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-espuma",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/pneus-e-acessorios-automotivos/limpeza-e-protecao/espuma",
+            "noFollow": true,
+            "tagTitle": "Espuma",
+            "text": "Espuma"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-estopa",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/pneus-e-acessorios-automotivos/limpeza-e-protecao/estopa",
+            "noFollow": true,
+            "tagTitle": "Estopa",
+            "text": "Estopa"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-kit",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/pneus-e-acessorios-automotivos/limpeza-e-protecao/kit",
+            "noFollow": true,
+            "tagTitle": "Kit",
+            "text": "Kit"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-lanterna",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/pneus-e-acessorios-automotivos/limpeza-e-protecao/lanterna",
+            "noFollow": true,
+            "tagTitle": "Lanterna",
+            "text": "Lanterna"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-lava-auto",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/pneus-e-acessorios-automotivos/limpeza-e-protecao/lava-auto",
+            "noFollow": true,
+            "tagTitle": "Lava Auto",
+            "text": "Lava Auto"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-limpa-ar-condicionado",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/pneus-e-acessorios-automotivos/limpeza-e-protecao/limpa-ar-condicionado",
+            "noFollow": true,
+            "tagTitle": "Limpa Ar Condicionado",
+            "text": "Limpa Ar Condicionado"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-limpa-motor",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/pneus-e-acessorios-automotivos/limpeza-e-protecao/limpa-motor",
+            "noFollow": true,
+            "tagTitle": "Limpa Motor",
+            "text": "Limpa Motor"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-limpa-para-brisa",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/pneus-e-acessorios-automotivos/limpeza-e-protecao/limpa-para-brisa",
+            "noFollow": true,
+            "tagTitle": "Limpa Para-Brisa",
+            "text": "Limpa Para-Brisa"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-limpa-pneu",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/pneus-e-acessorios-automotivos/limpeza-e-protecao/limpa-pneu",
+            "noFollow": true,
+            "tagTitle": "Limpa Pneu",
+            "text": "Limpa Pneu"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-limpa-vidro",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/pneus-e-acessorios-automotivos/limpeza-e-protecao/limpa-vidro",
+            "noFollow": true,
+            "tagTitle": "Limpa Vidro",
+            "text": "Limpa Vidro"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-limpador",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/pneus-e-acessorios-automotivos/limpeza-e-protecao/limpador",
+            "noFollow": true,
+            "tagTitle": "Limpador",
+            "text": "Limpador"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-lixeira",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/pneus-e-acessorios-automotivos/limpeza-e-protecao/lixeira",
+            "noFollow": true,
+            "tagTitle": "Lixeira",
+            "text": "Lixeira"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-massa-polir",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/pneus-e-acessorios-automotivos/limpeza-e-protecao/massa-polir",
+            "noFollow": true,
+            "tagTitle": "Massa Polir",
+            "text": "Massa Polir"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-odorizante",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/pneus-e-acessorios-automotivos/limpeza-e-protecao/odorizante",
+            "noFollow": true,
+            "tagTitle": "Odorizante",
+            "text": "Odorizante"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-pano",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/pneus-e-acessorios-automotivos/limpeza-e-protecao/pano",
+            "noFollow": true,
+            "tagTitle": "Pano",
+            "text": "Pano"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-protetivo",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/pneus-e-acessorios-automotivos/limpeza-e-protecao/protetivo",
+            "noFollow": true,
+            "tagTitle": "Protetivo",
+            "text": "Protetivo"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-renovador",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/pneus-e-acessorios-automotivos/limpeza-e-protecao/renovador",
+            "noFollow": true,
+            "tagTitle": "Renovador",
+            "text": "Renovador"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-revitalizador",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/pneus-e-acessorios-automotivos/limpeza-e-protecao/revitalizador",
+            "noFollow": true,
+            "tagTitle": "Revitalizador",
+            "text": "Revitalizador"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-silicone",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/pneus-e-acessorios-automotivos/limpeza-e-protecao/silicone",
+            "noFollow": true,
+            "tagTitle": "Silicone",
+            "text": "Silicone"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-tira-risco",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/pneus-e-acessorios-automotivos/limpeza-e-protecao/tira-risco",
+            "noFollow": true,
+            "tagTitle": "Tira Risco",
+            "text": "Tira Risco"
+          },
+          "blockClass": "child"
+        }
+      ]
+    }
+  }
+}

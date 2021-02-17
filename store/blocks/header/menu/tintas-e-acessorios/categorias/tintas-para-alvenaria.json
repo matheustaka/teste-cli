@@ -1,0 +1,92 @@
+{
+  "menu-item#tintas-para-alvenaria": {
+    "props": {
+      "id": "menu-item-tintas-para-alvenaria",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/tintas-e-acessorios/tintas-para-alvenaria",
+        "noFollow": true,
+        "tagTitle": "Tintas para Alvenaria",
+        "text": "Tintas para Alvenaria"
+      },
+      "blockClass": ["childSub", "have-children"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#tintas-para-alvenaria"]
+  },
+
+  "vtex.menu@2.x:submenu#tintas-para-alvenaria": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#tintas-para-alvenaria"]
+  },
+
+  "vtex.menu@2.x:menu#tintas-para-alvenaria": {
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-tintas-para-alvenaria-ver-todos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/tintas-e-acessorios/tintas-para-alvenaria",
+            "noFollow": true,
+            "tagTitle": "Ver todos os produtos",
+            "text": "Ver todos os produtos"
+          },
+          "blockClass": ["ver-todos"]
+        },
+        {
+          "id": "menu-item-cal-para-pintura",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/tintas-e-acessorios/tintas-para-alvenaria/cal-para-pintura",
+            "noFollow": true,
+            "tagTitle": "Cal para Pintura",
+            "text": "Cal para Pintura"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-tinta-acrilica",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/tintas-e-acessorios/tintas-para-alvenaria/tinta-acrilica",
+            "noFollow": true,
+            "tagTitle": "Tinta Acrílica",
+            "text": "Tinta Acrílica"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-tinta-pva",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/tintas-e-acessorios/tintas-para-alvenaria/tinta-pva",
+            "noFollow": true,
+            "tagTitle": "Tinta PVA",
+            "text": "Tinta PVA"
+          },
+          "blockClass": "child"
+        }
+      ]
+    }
+  }
+}

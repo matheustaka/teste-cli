@@ -1,0 +1,64 @@
+{
+  "menu-item#pneus-e-acessorios-automotivos": {
+    "props": {
+      "id": "menu-item-pneus-e-acessorios-automotivos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/pneus-e-acessorios-automotivos",
+        "noFollow": true,
+        "tagTitle": "Pneus e Acessórios Automotivos",
+        "text": "Pneus e Acessórios Automotivos"
+      },
+      "blockClass": ["department", "have-children"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#pneus-e-acessorios-automotivos"]
+  },
+
+  "vtex.menu@2.x:submenu#pneus-e-acessorios-automotivos": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#pneus-e-acessorios-automotivos"]
+  },
+
+  "vtex.menu@2.x:menu#pneus-e-acessorios-automotivos": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "drop-category"
+    },
+    "children": [
+      "rich-text#department-Pneus e Acessórios Automotivos",
+      "menu-item#pneus-e-acessorios-automotivos-ver-todos",
+      "menu-item#acessorios-automotivos",
+      "menu-item#baterias",
+      "menu-item#limpeza-e-protecao",
+      "menu-item#lubrificantes-aditivos-e-fluidos",
+      "menu-item#pneus"
+    ]
+  },
+  "rich-text#department-Pneus e Acessórios Automotivos": {
+    "props": {
+      "text": "Pneus e Acessórios Automotivos",
+      "blockClass": "titulo-menu-department"
+    }
+  },
+  "menu-item#pneus-e-acessorios-automotivos-ver-todos": {
+    "props": {
+      "id": "menu-item-pneus-e-acessorios-automotivos-ver-todos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/pneus-e-acessorios-automotivos",
+        "noFollow": true,
+        "tagTitle": "Ver todos os produtos",
+        "text": "Ver todos os produtos"
+      },
+      "blockClass": [ "ver-todos"]
+    }
+  }
+}

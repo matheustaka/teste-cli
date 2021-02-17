@@ -1,0 +1,62 @@
+{
+  "menu-item#banheiras-e-spas": {
+    "props": {
+      "id": "menu-item-banheiras-e-spas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/banheiros/banheiras-e-spas",
+        "noFollow": true,
+        "tagTitle": "Banheiras e Spas",
+        "text": "Banheiras e Spas"
+      },
+      "blockClass": ["childSub", "have-children"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#banheiras-e-spas"]
+  },
+
+  "vtex.menu@2.x:submenu#banheiras-e-spas": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#banheiras-e-spas"]
+  },
+
+  "vtex.menu@2.x:menu#banheiras-e-spas": {
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-banheiras-e-spas-ver-todos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/banheiros/banheiras-e-spas",
+            "noFollow": true,
+            "tagTitle": "Ver todos os produtos",
+            "text": "Ver todos os produtos"
+          },
+          "blockClass": ["ver-todos"]
+        },
+        {
+          "id": "menu-item-acessorios-para-banheiras-e-spas",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/banheiros/banheiras-e-spas/acessorios-para-banheiras-e-spas",
+            "noFollow": true,
+            "tagTitle": "Acessórios para Banheiras e Spas",
+            "text": "Acessórios para Banheiras e Spas"
+          },
+          "blockClass": "child"
+        }
+      ]
+    }
+  }
+}

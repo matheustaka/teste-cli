@@ -1,0 +1,71 @@
+{
+  "menu-item#iluminacao": {
+    "props": {
+      "id": "menu-item-iluminacao",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/iluminacao",
+        "noFollow": true,
+        "tagTitle": "Iluminação",
+        "text": "Iluminação"
+      },
+      "blockClass": ["department", "have-children"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#iluminacao"]
+  },
+
+  "vtex.menu@2.x:submenu#iluminacao": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#iluminacao"]
+  },
+
+  "vtex.menu@2.x:menu#iluminacao": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "drop-category"
+    },
+    "children": [
+      "rich-text#department-iluminacao",
+      "menu-item#iluminacao-ver-todos",
+      "menu-item#abajures",
+      "menu-item#acessorios-para-iluminacao",
+      "menu-item#arandela",
+      "menu-item#fitas-e-perfis-de-led",
+      "menu-item#iluminacao-externa",
+      "menu-item#lampadas",
+      "menu-item#luminarias",
+      "menu-item#lustre",
+      "menu-item#painel-led",
+      "menu-item#pendente",
+      "menu-item#plafon",
+      "menu-item#spot"
+    ]
+  },
+  "rich-text#department-iluminacao": {
+    "props": {
+      "text": "Iluminação",
+      "blockClass": "titulo-menu-department"
+    }
+  },
+  "menu-item#iluminacao-ver-todos": {
+    "props": {
+      "id": "menu-item-iluminacao-ver-todos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/iluminacao",
+        "noFollow": true,
+        "tagTitle": "Ver todos os produtos",
+        "text": "Ver todos os produtos"
+      },
+      "blockClass": [ "ver-todos"]
+    }
+  }
+}

@@ -1,0 +1,524 @@
+{
+  "menu-item#ferramentas-eletricas": {
+    "props": {
+      "id": "menu-item-ferramentas-eletricas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/ferramentas/ferramentas-eletricas",
+        "noFollow": true,
+        "tagTitle": "Ferramentas Elétricas",
+        "text": "Ferramentas Elétricas"
+      },
+      "blockClass": ["childSub", "have-children"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#ferramentas-eletricas"]
+  },
+
+  "vtex.menu@2.x:submenu#ferramentas-eletricas": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#ferramentas-eletricas"]
+  },
+
+  "vtex.menu@2.x:menu#ferramentas-eletricas": {
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-ferramentas-eletricas-ver-todos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/ferramentas-eletricas",
+            "noFollow": true,
+            "tagTitle": "Ver todos os produtos",
+            "text": "Ver todos os produtos"
+          },
+          "blockClass": ["ver-todos"]
+        },
+        {
+          "id": "menu-item-aspirador-industrial",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/ferramentas-eletricas/aspirador-industrial",
+            "noFollow": true,
+            "tagTitle": "Aspirador Industrial",
+            "text": "Aspirador Industrial"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-chave-de-impacto",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/ferramentas-eletricas/chave-de-impacto",
+            "noFollow": true,
+            "tagTitle": "Chave de Impacto",
+            "text": "Chave de Impacto"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-cortador-multifuncao",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/ferramentas-eletricas/cortador-multifuncao",
+            "noFollow": true,
+            "tagTitle": "Cortador Multifunção",
+            "text": "Cortador Multifunção"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-esmerilhadeira",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/ferramentas-eletricas/esmerilhadeira",
+            "noFollow": true,
+            "tagTitle": "Esmerilhadeira",
+            "text": "Esmerilhadeira"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-furadeira",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/ferramentas-eletricas/furadeira",
+            "noFollow": true,
+            "tagTitle": "Furadeira",
+            "text": "Furadeira"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-furadeira-e-parafusadeira",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/ferramentas-eletricas/furadeira-e-parafusadeira",
+            "noFollow": true,
+            "tagTitle": "Furadeira e Parafusadeira",
+            "text": "Furadeira e Parafusadeira"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-grampeador-eletrico",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/ferramentas-eletricas/grampeador-eletrico",
+            "noFollow": true,
+            "tagTitle": "Grampeador Elétrico",
+            "text": "Grampeador Elétrico"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-lixadeira-cinta",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/ferramentas-eletricas/lixadeira-cinta",
+            "noFollow": true,
+            "tagTitle": "Lixadeira Cinta",
+            "text": "Lixadeira Cinta"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-lixadeira-de-parede",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/ferramentas-eletricas/lixadeira-de-parede",
+            "noFollow": true,
+            "tagTitle": "Lixadeira de Parede",
+            "text": "Lixadeira de Parede"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-lixadeira-multifuncao",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/ferramentas-eletricas/lixadeira-multifuncao",
+            "noFollow": true,
+            "tagTitle": "Lixadeira Multifunção",
+            "text": "Lixadeira Multifunção"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-lixadeira-orbital",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/ferramentas-eletricas/lixadeira-orbital",
+            "noFollow": true,
+            "tagTitle": "Lixadeira Orbital",
+            "text": "Lixadeira Orbital"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-mangote-para-vibrador",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/ferramentas-eletricas/mangote-para-vibrador",
+            "noFollow": true,
+            "tagTitle": "Mangote para Vibrador",
+            "text": "Mangote para Vibrador"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-martelete",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/ferramentas-eletricas/martelete",
+            "noFollow": true,
+            "tagTitle": "Martelete",
+            "text": "Martelete"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-martelo-demolidor",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/ferramentas-eletricas/martelo-demolidor",
+            "noFollow": true,
+            "tagTitle": "Martelo Demolidor",
+            "text": "Martelo Demolidor"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-microrretifica",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/ferramentas-eletricas/microrretifica",
+            "noFollow": true,
+            "tagTitle": "Microrretífica",
+            "text": "Microrretífica"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-misturador-eletrico",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/ferramentas-eletricas/misturador-eletrico",
+            "noFollow": true,
+            "tagTitle": "Misturador Elétrico",
+            "text": "Misturador Elétrico"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-nivel-a-laser",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/ferramentas-eletricas/nivel-a-laser",
+            "noFollow": true,
+            "tagTitle": "Nível a Laser",
+            "text": "Nível a Laser"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-parafusadeira",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/ferramentas-eletricas/parafusadeira",
+            "noFollow": true,
+            "tagTitle": "Parafusadeira",
+            "text": "Parafusadeira"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-pinador",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/ferramentas-eletricas/pinador",
+            "noFollow": true,
+            "tagTitle": "Pinador",
+            "text": "Pinador"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-pistola-de-pintura",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/ferramentas-eletricas/pistola-de-pintura",
+            "noFollow": true,
+            "tagTitle": "Pistola de Pintura",
+            "text": "Pistola de Pintura"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-plaina",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/ferramentas-eletricas/plaina",
+            "noFollow": true,
+            "tagTitle": "Plaina",
+            "text": "Plaina"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-politriz",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/ferramentas-eletricas/politriz",
+            "noFollow": true,
+            "tagTitle": "Politriz",
+            "text": "Politriz"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-serra-circular",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/ferramentas-eletricas/serra-circular",
+            "noFollow": true,
+            "tagTitle": "Serra Circular",
+            "text": "Serra Circular"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-serra-de-bancada",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/ferramentas-eletricas/serra-de-bancada",
+            "noFollow": true,
+            "tagTitle": "Serra de Bancada",
+            "text": "Serra de Bancada"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-serra-marmore",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/ferramentas-eletricas/serra-marmore",
+            "noFollow": true,
+            "tagTitle": "Serra Mármore",
+            "text": "Serra Mármore"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-serra-meia-esquadria",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/ferramentas-eletricas/serra-meia-esquadria",
+            "noFollow": true,
+            "tagTitle": "Serra Meia Esquadria",
+            "text": "Serra Meia Esquadria"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-serra-para-cortar-ferro",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/ferramentas-eletricas/serra-para-cortar-ferro",
+            "noFollow": true,
+            "tagTitle": "Serra para Cortar Ferro",
+            "text": "Serra para Cortar Ferro"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-serra-policorte",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/ferramentas-eletricas/serra-policorte",
+            "noFollow": true,
+            "tagTitle": "Serra Policorte",
+            "text": "Serra Policorte"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-serra-sabre",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/ferramentas-eletricas/serra-sabre",
+            "noFollow": true,
+            "tagTitle": "Serra Sabre",
+            "text": "Serra Sabre"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-serra-tico-tico",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/ferramentas-eletricas/serra-tico-tico",
+            "noFollow": true,
+            "tagTitle": "Serra Tico-Tico",
+            "text": "Serra Tico-Tico"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-soprador-termico",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/ferramentas-eletricas/soprador-termico",
+            "noFollow": true,
+            "tagTitle": "Soprador Térmico",
+            "text": "Soprador Térmico"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-trena-a-laser",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/ferramentas-eletricas/trena-a-laser",
+            "noFollow": true,
+            "tagTitle": "Trena a Laser",
+            "text": "Trena a Laser"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-tupia",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/ferramentas-eletricas/tupia",
+            "noFollow": true,
+            "tagTitle": "Tupia",
+            "text": "Tupia"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-vibrador-para-concreto",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/ferramentas-eletricas/vibrador-para-concreto",
+            "noFollow": true,
+            "tagTitle": "Vibrador para Concreto",
+            "text": "Vibrador para Concreto"
+          },
+          "blockClass": "child"
+        }
+      ]
+    }
+  }
+}

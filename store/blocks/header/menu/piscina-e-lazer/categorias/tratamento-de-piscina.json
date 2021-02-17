@@ -1,0 +1,18 @@
+{
+  "menu-item#tratamento-de-piscina": {
+    "props": {
+      "id": "menu-item-tratamento-de-piscina",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/piscina-e-lazer/tratamento-de-piscina",
+        "noFollow": true,
+        "tagTitle": "Tratamento de Piscina",
+        "text": "Tratamento de Piscina"
+      },
+      "blockClass": "childSub"
+    }
+  }
+}

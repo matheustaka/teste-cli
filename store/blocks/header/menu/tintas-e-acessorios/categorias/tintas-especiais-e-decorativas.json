@@ -1,0 +1,193 @@
+{
+  "menu-item#tintas-especiais-e-decorativas": {
+    "props": {
+      "id": "menu-item-tintas-especiais-e-decorativas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/tintas-e-acessorios/tintas-especiais-e-decorativas",
+        "noFollow": true,
+        "tagTitle": "Tintas Especiais e Decorativas",
+        "text": "Tintas Especiais e Decorativas"
+      },
+      "blockClass": ["childSub", "have-children"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#tintas-especiais-e-decorativas"]
+  },
+
+  "vtex.menu@2.x:submenu#tintas-especiais-e-decorativas": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#tintas-especiais-e-decorativas"]
+  },
+
+  "vtex.menu@2.x:menu#tintas-especiais-e-decorativas": {
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-tintas-especiais-e-decorativas-ver-todos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/tintas-e-acessorios/tintas-especiais-e-decorativas",
+            "noFollow": true,
+            "tagTitle": "Ver todos os produtos",
+            "text": "Ver todos os produtos"
+          },
+          "blockClass": ["child", "ver-todos"]
+        },
+        {
+          "id": "menu-item-catalisador",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/tintas-e-acessorios/tintas-especiais-e-decorativa/catalisador",
+            "noFollow": true,
+            "tagTitle": "Catalisador",
+            "text": "Catalisador"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-resina-acrilica",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/tintas-e-acessorios/tintas-especiais-e-decorativa/resina-acrilica",
+            "noFollow": true,
+            "tagTitle": "Resina Acrílica",
+            "text": "Resina Acrílica"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-silicone",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/tintas-e-acessorios/tintas-especiais-e-decorativa/silicone",
+            "noFollow": true,
+            "tagTitle": "Silicone",
+            "text": "Silicone"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-textura-acrilica",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/tintas-e-acessorios/tintas-especiais-e-decorativa/textura-acrilica",
+            "noFollow": true,
+            "tagTitle": "Textura Acrílica",
+            "text": "Textura Acrílica"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-tinta-epoxi",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/tintas-e-acessorios/tintas-especiais-e-decorativa/tinta-epoxi",
+            "noFollow": true,
+            "tagTitle": "Tinta Epóxi",
+            "text": "Tinta Epóxi"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-tinta-para-gesso",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/tintas-e-acessorios/tintas-especiais-e-decorativa/tinta-para-gesso",
+            "noFollow": true,
+            "tagTitle": "Tinta para Gesso",
+            "text": "Tinta para Gesso"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-tinta-para-piscina",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/tintas-e-acessorios/tintas-especiais-e-decorativa/tinta-para-piscina",
+            "noFollow": true,
+            "tagTitle": "Tinta para Piscina",
+            "text": "Tinta para Piscina"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-tinta-para-piso",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/tintas-e-acessorios/tintas-especiais-e-decorativa/tinta-para-piso",
+            "noFollow": true,
+            "tagTitle": "Tinta para Piso",
+            "text": "Tinta para Piso"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-tinta-para-rejunte",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/tintas-e-acessorios/tintas-especiais-e-decorativa/tinta-para-rejunte",
+            "noFollow": true,
+            "tagTitle": "Tinta para Rejunte",
+            "text": "Tinta para Rejunte"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-tinta-para-telha",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/tintas-e-acessorios/tintas-especiais-e-decorativa/tinta-para-telha",
+            "noFollow": true,
+            "tagTitle": "Tinta para Telha",
+            "text": "Tinta para Telha"
+          },
+          "blockClass": "child"
+        }
+      ]
+    }
+  }
+}

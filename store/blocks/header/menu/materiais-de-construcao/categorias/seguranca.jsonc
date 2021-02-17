@@ -1,0 +1,202 @@
+{
+  "menu-item#seguranca": {
+    "props": {
+      "id": "menu-item-seguranca",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/materiais-de-construcao/seguranca",
+        "noFollow": true,
+        "tagTitle": "Segurança",
+        "text": "Segurança"
+      },
+      "blockClass": ["childSub", "have-children"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#seguranca"]
+  },
+
+  "vtex.menu@2.x:submenu#seguranca": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#seguranca"]
+  },
+
+  "vtex.menu@2.x:menu#seguranca": {
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-seguranca-ver-todos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-de-construcao/seguranca",
+            "noFollow": true,
+            "tagTitle": "Ver todos os produtos",
+            "text": "Ver todos os produtos"
+          },
+          "blockClass": ["ver-todos"]
+        },
+        {
+          "id": "menu-item-camera-de-seguranca",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-de-construcao/seguranca/camera-de-seguranca",
+            "noFollow": true,
+            "tagTitle": "Câmera de Segurança",
+            "text": "Câmera de Segurança"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-campainha-sem-fio",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-de-construcao/seguranca/campainha-sem-fio",
+            "noFollow": true,
+            "tagTitle": "Campainha sem Fio",
+            "text": "Campainha sem Fio"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-cofre",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-de-construcao/seguranca/cofre",
+            "noFollow": true,
+            "tagTitle": "Cofre",
+            "text": "Cofre"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-controle-remoto",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-de-construcao/seguranca/controle-remoto",
+            "noFollow": true,
+            "tagTitle": "Controle Remoto",
+            "text": "Controle Remoto"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-fechadura-digital",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-de-construcao/seguranca/fechadura-digital",
+            "noFollow": true,
+            "tagTitle": "Fechadura Digital",
+            "text": "Fechadura Digital"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-fio-alta-temperatura",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-de-construcao/seguranca/fio-alta-temperatura",
+            "noFollow": true,
+            "tagTitle": "Fio Alta Temperatura",
+            "text": "Fio Alta Temperatura"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-interfone",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-de-construcao/seguranca/interfone",
+            "noFollow": true,
+            "tagTitle": "Interfone",
+            "text": "Interfone"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-porteiro-eletronico",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-de-construcao/seguranca/porteiro-eletronico",
+            "noFollow": true,
+            "tagTitle": "Porteiro Eletrônico",
+            "text": "Porteiro Eletrônico"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-sensores",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-de-construcao/seguranca/sensores",
+            "noFollow": true,
+            "tagTitle": "Sensores",
+            "text": "Sensores"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-sirene",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-de-construcao/seguranca/sirene",
+            "noFollow": true,
+            "tagTitle": "Sirene",
+            "text": "Sirene"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-timer",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-de-construcao/seguranca/timer",
+            "noFollow": true,
+            "tagTitle": "Timer",
+            "text": "Timer"
+          },
+          "blockClass": "child"
+        }
+      ]
+    }
+  }
+}

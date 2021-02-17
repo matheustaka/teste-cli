@@ -1,0 +1,118 @@
+{
+  "menu-item#tacas-copos-e-jarras": {
+    "props": {
+      "id": "menu-item-tacas-copos-e-jarras",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cozinhar-servir-e-organizar/tacas-copos-e-jarras",
+        "noFollow": true,
+        "tagTitle": "Taças, Copos e Jarras",
+        "text": "Taças, Copos e Jarras"
+      },
+      "blockClass": ["childSub", "have-children"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#tacas-copos-e-jarras"]
+  },
+
+  "vtex.menu@2.x:submenu#tacas-copos-e-jarras": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#tacas-copos-e-jarras"]
+  },
+
+  "vtex.menu@2.x:menu#tacas-copos-e-jarras": {
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-tacas-copos-e-jarras-ver-todos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinhar-servir-e-organizar/tacas-copos-e-jarras",
+            "noFollow": true,
+            "tagTitle": "Ver todos os produtos",
+            "text": "Ver todos os produtos"
+          },
+          "blockClass": ["ver-todos"]
+        },
+        {
+          "id": "menu-item-copos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinhar-servir-e-organizar/tacas-copos-e-jarras/copos",
+            "noFollow": true,
+            "tagTitle": "Copos",
+            "text": "Copos"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-garrafa",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinhar-servir-e-organizar/tacas-copos-e-jarras/garrafa",
+            "noFollow": true,
+            "tagTitle": "Garrafa",
+            "text": "Garrafa"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-jarras",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinhar-servir-e-organizar/tacas-copos-e-jarras/jarras",
+            "noFollow": true,
+            "tagTitle": "Jarras",
+            "text": "Jarras"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-moringa",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinhar-servir-e-organizar/tacas-copos-e-jarras/moringa",
+            "noFollow": true,
+            "tagTitle": "Moringa",
+            "text": "Moringa"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-tacas",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinhar-servir-e-organizar/tacas-copos-e-jarras/tacas",
+            "noFollow": true,
+            "tagTitle": "Taças",
+            "text": "Taças"
+          },
+          "blockClass": "child"
+        }
+      ]
+    }
+  }
+}

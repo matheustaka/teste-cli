@@ -1,0 +1,66 @@
+{
+  "menu-item#tintas-e-acessorios": {
+    "props": {
+      "id": "menu-item-tintas-e-acessorios",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/tintas-e-acessorios",
+        "noFollow": true,
+        "tagTitle": "Tintas e Acessórios",
+        "text": "Tintas e Acessórios"
+      },
+      "blockClass": ["department", "have-children"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#tintas-e-acessorios"]
+  },
+
+  "vtex.menu@2.x:submenu#tintas-e-acessorios": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#tintas-e-acessorios"]
+  },
+
+  "vtex.menu@2.x:menu#tintas-e-acessorios": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "drop-category"
+    },
+    "children": [
+      "rich-text#department-tintas-e-acessorios",
+      "menu-item#tintas-e-acessorios-ver-todos",
+      "menu-item#acessorios-e-complementos",
+      "menu-item#colas-silicones-e-adesivos",
+      "menu-item#preparacao-e-protecao-de-superficie-para-pintura",
+      "menu-item#protecao-para-madeira",
+      "menu-item#tintas-especiais-e-decorativas",
+      "menu-item#tintas-para-alvenaria",
+      "menu-item#tintas-para-metal-e-madeira"
+    ]
+  },
+  "rich-text#department-tintas-e-acessorios": {
+    "props": {
+      "text": "Tintas e Acessórios",
+      "blockClass": "titulo-menu-department"
+    }
+  },
+  "menu-item#tintas-e-acessorios-ver-todos": {
+    "props": {
+      "id": "menu-item-tintas-e-acessorios-ver-todos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/tintas-e-acessorios",
+        "noFollow": true,
+        "tagTitle": "Ver todos os produtos",
+        "text": "Ver todos os produtos"
+      },
+      "blockClass": [ "ver-todos"]
+    }
+  }
+}

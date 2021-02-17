@@ -1,0 +1,104 @@
+{
+  "menu-item#cimento-cal-e-gesso": {
+    "props": {
+      "id": "menu-item-cimento-cal-e-gesso",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/materiais-de-construcao/cimento-cal-e-gesso",
+        "noFollow": true,
+        "tagTitle": "Cimento, Cal e Gesso",
+        "text": "Cimento, Cal e Gesso"
+      },
+      "blockClass": ["childSub", "have-children"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#cimento-cal-e-gesso"]
+  },
+
+  "vtex.menu@2.x:submenu#cimento-cal-e-gesso": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#cimento-cal-e-gesso"]
+  },
+
+  "vtex.menu@2.x:menu#cimento-cal-e-gesso": {
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-cimento-cal-e-gesso-ver-todos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-de-construcao/cimento-cal-e-gesso",
+            "noFollow": true,
+            "tagTitle": "Ver todos os produtos",
+            "text": "Ver todos os produtos"
+          },
+          "blockClass": ["ver-todos"]
+        },
+        {
+          "id": "menu-item-cal",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-de-construcao/cimento-cal-e-gesso/cal",
+            "noFollow": true,
+            "tagTitle": "Cal",
+            "text": "Cal"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-cimento",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-de-construcao/cimento-cal-e-gesso/cimento",
+            "noFollow": true,
+            "tagTitle": "Cimento",
+            "text": "Cimento"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-concreto",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-de-construcao/cimento-cal-e-gesso/concreto",
+            "noFollow": true,
+            "tagTitle": "Concreto",
+            "text": "Concreto"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-gesso",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-de-construcao/cimento-cal-e-gesso/gesso",
+            "noFollow": true,
+            "tagTitle": "Gesso",
+            "text": "Gesso"
+          },
+          "blockClass": "child"
+        }
+      ]
+    }
+  }
+}

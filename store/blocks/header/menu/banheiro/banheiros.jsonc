@@ -1,0 +1,71 @@
+{
+  "menu-item#banheiros": {
+    "props": {
+      "id": "menu-item-banheiros",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/banheiros",
+        "noFollow": false,
+        "tagTitle": "Banheiros",
+        "text": "Banheiros"
+      },
+      "blockClass": ["department", "have-children", "penultimate-department"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#banheiros"]
+  },
+
+  "vtex.menu@2.x:submenu#banheiros": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#banheiros"]
+  },
+
+  "vtex.menu@2.x:menu#banheiros": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "drop-category"
+    },
+    "children": [
+      "rich-text#department-banheiros",
+      "menu-item#banheiros-ver-todos",
+      "menu-item#acessorios-para-banheiro",
+      "menu-item#banheiros-acessorios-para-instalacao-e-reparo",
+      "menu-item#aquecedores-de-agua-e-pressurizadores",
+      "menu-item#assentos-sanitarios",
+      "menu-item#banheiras-e-spas",
+      "menu-item#chuveiros-e-duchas",
+      "menu-item#exaustores",
+      "menu-item#gabinetes-para-banheiro",
+      "menu-item#loucas-sanitarias-e-cubas",
+      "menu-item#nichos-para-banheiro",
+      "menu-item#torneiras-e-misturadores"
+    ]
+  },
+  "rich-text#department-banheiros": {
+    "props": {
+      "text": "Banheiros",
+      "blockClass": "titulo-menu-department"
+    }
+  },
+
+  "menu-item#banheiros-ver-todos": {
+    "props": {
+      "id": "menu-item-banheiros-ver-todos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/banheiros",
+        "noFollow": true,
+        "tagTitle": "Ver todos os produtos",
+        "text": "Ver todos os produtos"
+      },
+      "blockClass": [ "ver-todos"]
+    }
+  }
+}

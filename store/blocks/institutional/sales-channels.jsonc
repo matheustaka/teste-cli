@@ -1,0 +1,195 @@
+{
+  "store.custom#sales-channels": {
+    "blocks": [
+      "responsive-layout.desktop#sales",
+      "responsive-layout.tablet#sales",
+      "responsive-layout.phone#sales"
+    ]
+  },
+
+  "responsive-layout.desktop#sales": {
+    "children": [
+      "breadcrumb",
+      "flex-layout.row#sales-channels-desktop"
+    ]
+  },
+
+  "responsive-layout.tablet#sales": {
+    "children": [
+      "breadcrumb",
+      "flex-layout.row#sales-channels-menu-mobile",
+      "flex-layout.row#sales-channels-mobile"
+    ]
+  },
+
+  "responsive-layout.phone#sales": {
+    "children": [
+      "breadcrumb",
+      "flex-layout.row#sales-channels-menu-mobile",
+      "flex-layout.row#sales-channels-mobile"
+    ]
+  },
+
+  "flex-layout.row#sales-channels-desktop": {
+    "children": [
+      "flex-layout.col#institutional-sidebar-desktop",
+      "flex-layout.col#content-sales-channels"
+    ],
+    "props": {
+      "blockClass": "institutionalContainer"
+    }
+  },
+
+  "flex-layout.row#sales-channels-menu-mobile": {
+    "children": [
+      "flex-layout.col#institutional-sidebar-mobile"
+    ],
+    "props": {
+      "blockClass": "institutionalContainer"
+    }
+  },
+
+  "flex-layout.row#sales-channels-mobile": {
+    "children": [
+      "flex-layout.col#content-sales-channels-mobile"
+    ],
+    "props": {
+      "blockClass": "institutionalContainer"
+    }
+  },
+
+  "flex-layout.col#content-sales-channels-mobile": {
+    "children": [
+      "flex-layout.col#content-sales-channels"
+    ],
+    "props": {
+      "blockClass": "textColumn",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "flex-layout.col#content-sales-channels": {
+    "children": [
+      "rich-text#sales-channels",
+      "flex-layout.row#sales-channels--lojas",
+      "flex-layout.row#sales-channels--televendas",
+      "flex-layout.row#sales-channels--vendas-diretas",
+      "flex-layout.row#sales-channels--ecommerce"
+    ],
+    "props": {
+      "blockClass": "textColumn",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "rich-text#sales-channels": {
+    "props": {
+      "text": "### **Canais de Venda** \n \n A Cassol está preparada para atendê-lo, oferecendo sempre a opção mais cômoda às suas necessidades.",
+      "blockClass": "aboutContent"
+    }
+  },
+
+  "flex-layout.row#sales-channels--lojas": {
+    "props": {
+      "blockClass": "sales-channels--container",
+      "preserveLayoutOnMobile": true,
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "image#sales-channels--lojas",
+      "rich-text#sales-channels--lojas"
+    ]
+  },
+
+  "image#sales-channels--lojas": {
+    "props": {
+      "src": "https://cassol.vtexassets.com/arquivos/sales-channels--lojas.png",
+      "blockClass": "imageAboutContent"
+    }
+  },
+
+  "rich-text#sales-channels--lojas": {
+    "props": {
+      "text": "##### **Lojas** \n Em nossas 18 lojas modernizadas você encontra todos os setores necessários para construir e equipar seu lar além de equipes treinadas e dispostas a atendê-lo, retirando qualquer dúvida e auxiliando para que sua experiência seja rápida e eficiente. \n \n Lembre-se que você pode comprar pelo site e retirar na loja de sua preferência. Confira nossos endereços. \n [Confira nossas lojas](https://cassol.myvtex.com/nossas-lojas)",
+      "blockClass": "aboutContent-sales-channels"
+    }
+  },
+
+  "flex-layout.row#sales-channels--televendas": {
+    "props": {
+      "blockClass": "sales-channels--container",
+      "preserveLayoutOnMobile": true,
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "image#sales-channels--televendas",
+      "rich-text#sales-channels--televendas"
+    ]
+  },
+
+  "image#sales-channels--televendas": {
+    "props": {
+      "src": "https://cassol.vtexassets.com/arquivos/sales-channels--televendas.png",
+      "blockClass": "imageAboutContent"
+    }
+  },
+
+  "rich-text#sales-channels--televendas": {
+    "props": {
+      "text": "##### **Televendas** \n Você no conforto do seu lar ou em meio as atividades do dia a dia, pode tiras suas dúvidas e economizar tempo utilizando nosso serviço de TELEVENDAS. É só ligar e pronto: você faz a sua compra de onde estiver. \n \n Horário de atendimento: Segunda a Sexta. 8h às 21h. Sábado. 8h às 20h \n Ligue: [4001 1515 ](tel:+5540011515) ou nos escreva, [vendas@cassol.com.br](mailto:vendas@cassol.com.br)",
+      "blockClass": "aboutContent-sales-channels"
+    }
+  },
+
+  "flex-layout.row#sales-channels--vendas-diretas": {
+    "props": {
+      "blockClass": "sales-channels--container",
+      "preserveLayoutOnMobile": true,
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "image#sales-channels--vendas-diretas",
+      "rich-text#sales-channels--vendas-diretas"
+    ]
+  },
+
+  "image#sales-channels--vendas-diretas": {
+    "props": {
+      "src": "https://cassol.vtexassets.com/arquivos/sales-channels--vendas-diretas.png",
+      "blockClass": "imageAboutContent"
+    }
+  },
+
+  "rich-text#sales-channels--vendas-diretas": {
+    "props": {
+      "text": "##### **Vendas Diretas** \n Empreiteiras, Condomínios, Construtoras, empresas, profissionais da construção e reformas podem contar com mais esta facilidade Cassol que inclui além de um atendimento personalizado, preços exclusivos e produtos a pronta entrega. Solicite a visita de um dos nossos representantes comerciais e tenha a Cassol como sua principal aliada em seus projetos. \n \n Ligue: [4001 1515 ](tel:+5540011515) ou nos escreva, [vendas@cassol.com.br](mailto:vendas@cassol.com.br)",
+      "blockClass": "aboutContent-sales-channels"
+    }
+  },
+
+  "flex-layout.row#sales-channels--ecommerce": {
+    "props": {
+      "blockClass": "sales-channels--container",
+      "preserveLayoutOnMobile": true,
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "image#sales-channels--ecommerce",
+      "rich-text#sales-channels--ecommerce"
+    ]
+  },
+
+  "image#sales-channels--ecommerce": {
+    "props": {
+      "src": "https://cassol.vtexassets.com/arquivos/sales-channels--ecommerce.png",
+      "blockClass": "imageAboutContent"
+    }
+  },
+
+  "rich-text#sales-channels--ecommerce": {
+    "props": {
+      "text": "##### **E-Commerce** \n Uma vitrine de fácil navegação onde você encontra tudo o que precisa sem sair de casa. Nosso Ambiente virtual é uma \n extensão das nossas lojas físicas o que torna tudo ainda mais fácil, você pode começar sua venda na loja e terminar no site ou \n vice e versa. \n \n [Confira nossa área de cobertura.](https://cassol.myvtex.com/entrega)",
+      "blockClass": "aboutContent-sales-channels"
+    }
+  }
+}

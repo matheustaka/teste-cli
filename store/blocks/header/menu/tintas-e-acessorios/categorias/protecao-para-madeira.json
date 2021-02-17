@@ -1,0 +1,77 @@
+{
+  "menu-item#protecao-para-madeira": {
+    "props": {
+      "id": "menu-item-protecao-para-madeira",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/tintas-e-acessorios/protecao-para-madeira",
+        "noFollow": true,
+        "tagTitle": "Proteção para Madeira",
+        "text": "Proteção para Madeira"
+      },
+      "blockClass": ["childSub", "have-children"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#protecao-para-madeira"]
+  },
+
+  "vtex.menu@2.x:submenu#protecao-para-madeira": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#protecao-para-madeira"]
+  },
+
+  "vtex.menu@2.x:menu#protecao-para-madeira": {
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-protecao-para-madeira-ver-todos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/tintas-e-acessorios/protecao-para-madeira",
+            "noFollow": true,
+            "tagTitle": "Ver todos os produtos",
+            "text": "Ver todos os produtos"
+          },
+          "blockClass": ["ver-todos"]
+        },
+        {
+          "id": "menu-item-stain",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/tintas-e-acessorios/protecao-para-madeira/stain",
+            "noFollow": true,
+            "tagTitle": "Stain",
+            "text": "Stain"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-verniz",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/tintas-e-acessorios/protecao-para-madeira/verniz",
+            "noFollow": true,
+            "tagTitle": "Verniz",
+            "text": "Verniz"
+          },
+          "blockClass": "child"
+        }
+      ]
+    }
+  }
+}

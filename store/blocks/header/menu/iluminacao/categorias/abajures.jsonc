@@ -1,0 +1,18 @@
+{
+  "menu-item#abajures": {
+    "props": {
+      "id": "menu-item-abajures",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/iluminacao/abajures",
+        "noFollow": true,
+        "tagTitle": "Abajures",
+        "text": "Abajures"
+      },
+      "blockClass": "childSub"
+    }
+  }
+}

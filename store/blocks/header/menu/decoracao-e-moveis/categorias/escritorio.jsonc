@@ -1,0 +1,104 @@
+{
+  "menu-item#escritorio": {
+    "props": {
+      "id": "menu-item-escritorio",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/decoracao-e-moveis/escritorio",
+        "noFollow": true,
+        "tagTitle": "Escritório",
+        "text": "Escritório"
+      },
+      "blockClass": ["childSub", "have-children"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#escritorio"]
+  },
+
+  "vtex.menu@2.x:submenu#escritorio": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#escritorio"]
+  },
+
+  "vtex.menu@2.x:menu#escritorio": {
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-escritorio-ver-todos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/decoracao-e-moveis/escritorio",
+            "noFollow": true,
+            "tagTitle": "Ver todos os produtos",
+            "text": "Ver todos os produtos"
+          },
+          "blockClass": ["ver-todos"]
+        },
+        {
+          "id": "menu-item-acessorios-para-escritorio",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/decoracao-e-moveis/escritorio/acessorios-para-escritorio",
+            "noFollow": true,
+            "tagTitle": "Acessórios para Escritório",
+            "text": "Acessórios para Escritório"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-cadeira-de-escritorio",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/decoracao-e-moveis/escritorio/cadeira-de-escritorio",
+            "noFollow": true,
+            "tagTitle": "Cadeira de Escritório",
+            "text": "Cadeira de Escritório"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-escrivaninha",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/decoracao-e-moveis/escritorio/escrivaninha",
+            "noFollow": true,
+            "tagTitle": "Escrivaninha",
+            "text": "Escrivaninha"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-moveis-para-escritorio",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/decoracao-e-moveis/escritorio/moveis-para-escritorio",
+            "noFollow": true,
+            "tagTitle": "Móveis para Escritório",
+            "text": "Móveis para Escritório"
+          },
+          "blockClass": "child"
+        }
+      ]
+    }
+  }
+}

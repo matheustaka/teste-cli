@@ -1,0 +1,132 @@
+{
+  "menu-item#tecnologia": {
+    "props": {
+      "id": "menu-item-tecnologia",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/eletro/tecnologia",
+        "noFollow": true,
+        "tagTitle": "Tecnologia",
+        "text": "Tecnologia"
+      },
+      "blockClass": ["childSub", "have-children"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#tecnologia"]
+  },
+
+  "vtex.menu@2.x:submenu#tecnologia": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#tecnologia"]
+  },
+
+  "vtex.menu@2.x:menu#tecnologia": {
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-tecnologia-ver-todos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/eletro/tecnologia",
+            "noFollow": true,
+            "tagTitle": "Ver todos os produtos",
+            "text": "Ver todos os produtos"
+          },
+          "blockClass": ["ver-todos"]
+        },
+        {
+          "id": "menu-item-alto-falante",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/eletro/tecnologia/alto-falante",
+            "noFollow": true,
+            "tagTitle": "Alto Falante",
+            "text": "Alto Falante"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-antena",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/eletro/tecnoantena",
+            "noFollow": true,
+            "tagTitle": "Antena",
+            "text": "Antena"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-caixa-acustica",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/eletro/tecnologia/ascaixa-acustica",
+            "noFollow": true,
+            "tagTitle": "Caixa Acústica",
+            "text": "Caixa Acústica"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-roteador-e-repetidor",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/eletro/tecnologia/aspiradoroteador-e-repetidor",
+            "noFollow": true,
+            "tagTitle": "Roteador e Repetidor",
+            "text": "Roteador e Repetidor"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-soundbar",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/eletro/tecnolosoundbar",
+            "noFollow": true,
+            "tagTitle": "Soundbar",
+            "text": "Soundbar"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-telefone",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/eletro/tecnolotelefone",
+            "noFollow": true,
+            "tagTitle": "Telefone",
+            "text": "Telefone"
+          },
+          "blockClass": "child"
+        }
+      ]
+    }
+  }
+}

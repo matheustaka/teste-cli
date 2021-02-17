@@ -1,0 +1,87 @@
+{
+  "store.custom#be-a-supplier": {
+    "blocks": [
+      "responsive-layout.desktop#be-a-supplier",
+      "responsive-layout.tablet#be-a-supplier",
+      "responsive-layout.phone#be-a-supplier"
+    ]
+  },
+
+  "responsive-layout.desktop#be-a-supplier": {
+    "children": [
+      "breadcrumb",
+      "flex-layout.row#be-a-supplier-desktop"
+    ]
+  },
+
+  "responsive-layout.tablet#be-a-supplier": {
+    "children": [
+      "breadcrumb",
+      "flex-layout.row#be-a-supplier-menu-mobile",
+      "flex-layout.row#be-a-supplier-mobile"
+    ]
+  },
+
+  "responsive-layout.phone#be-a-supplier": {
+    "children": [
+      "breadcrumb",
+      "flex-layout.row#be-a-supplier-menu-mobile",
+      "flex-layout.row#be-a-supplier-mobile"
+    ]
+  },
+
+  "flex-layout.row#be-a-supplier-desktop": {
+    "children": [
+      "flex-layout.col#institutional-sidebar-desktop",
+      "flex-layout.col#content-be-a-supplier"
+    ],
+    "props": {
+      "blockClass": "institutionalContainer"
+    }
+  },
+
+  "flex-layout.row#be-a-supplier-menu-mobile": {
+    "children": [
+      "flex-layout.col#institutional-sidebar-mobile"
+    ],
+    "props": {
+      "blockClass": "institutionalContainer"
+    }
+  },
+
+  "flex-layout.row#be-a-supplier-mobile": {
+    "children": [
+      "flex-layout.col#content-be-a-supplier-mobile"
+    ],
+    "props": {
+      "blockClass": "institutionalContainer"
+    }
+  },
+
+  "flex-layout.col#content-be-a-supplier-mobile": {
+    "children": [
+      "rich-text#be-a-supplier"
+    ],
+    "props": {
+      "blockClass": "textColumn",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "flex-layout.col#content-be-a-supplier": {
+    "children": [
+      "rich-text#be-a-supplier"
+    ],
+    "props": {
+      "blockClass": "textColumn",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "rich-text#be-a-supplier": {
+    "props": {
+      "text": "### **Seja um fornecedor** \n \n A Cassol é **líder no comércio varejista de materiais de construção** e considerada o maior grupo Centerlar da Região Sul do País. Oferece o \n maior estoque de produtos à pronta entrega da região Sul com mais de 45 mil itens.\n \n São 18 lojas em Santa Catarina, Rio Grande do Sul e Paraná e três Centros de Distribuição prontos para atender essas regiões.\n \n Trabalhamos com linhas de Construção, Revestimento, Banho e Cozinha, Casa e Decoração, Tintas, Iluminação e Sacada e Jardim.\n \n Com o olhar voltado a melhor atender os interesses de seus clientes, a Cassol Centerlar está em constante evolução buscando **oferecer novos** \n **produtos em seus diversos canais de venda** (Lojas, Televendas, e-Commerce e Venda Direta). \n \n Venha fazer parte desta história de sucesso. Contate-nos pelo email: [**comercial@cassol.com.br**](mailto:comercial@cassol.com.br)  \n \n ***Nossa equipe está preparada melhor atende-lo.***",
+      "blockClass": "aboutContent"
+    }
+  }
+}

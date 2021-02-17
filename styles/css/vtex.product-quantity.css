@@ -1,0 +1,47 @@
+.quantitySelectorContainer {
+  margin: 20px 0;
+  position: relative;
+}
+
+.quantitySelectorTitle {
+  color: #2D2E3A;
+  font-size: 0;
+  font-weight: 400;
+  top: 35%;
+  position: absolute;
+  text-transform: capitalize;
+}
+
+.quantitySelectorStepper {
+  margin-left: 100px;
+}
+
+.quantitySelectorTitle::before {
+  content: 'Quantidade:';
+  font-size: 14px;
+}
+
+.quantitySelectorStepper :global(.vtex-numeric-stepper__plus-button),
+.quantitySelectorStepper :global(.vtex-numeric-stepper__minus-button),
+.quantitySelectorStepper :global(.vtex-numeric-stepper__input) {
+  height: 48px;
+  font-size: 14px;
+  color: #2E2E2E;
+  font-weight: 400;
+  border-color: #E9E9E9;
+  background-color: transparent;
+}
+
+.quantitySelectorStepper :global(.vtex-numeric-stepper__plus-button) {
+  border-left: 0;
+}
+
+.quantitySelectorStepper :global(.vtex-numeric-stepper__minus-button) {
+  border-right: 0;
+}
+
+.quantitySelectorStepper :global(.vtex-numeric-stepper__input) {
+  border-left: 0;
+  border-right: 0;
+  min-width: 85px;
+}

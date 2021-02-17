@@ -1,0 +1,328 @@
+{
+  "menu-item#epi-e-seguranca": {
+    "props": {
+      "id": "menu-item-epi-e-seguranca",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/ferramentas/epi-e-seguranca",
+        "noFollow": true,
+        "tagTitle": "EPI e Segurança",
+        "text": "EPI e Segurança"
+      },
+      "blockClass": ["childSub", "have-children"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#epi-e-seguranca"]
+  },
+
+  "vtex.menu@2.x:submenu#epi-e-seguranca": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#epi-e-seguranca"]
+  },
+
+  "vtex.menu@2.x:menu#epi-e-seguranca": {
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-epi-e-seguranca-ver-todos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/epi-e-seguranca",
+            "noFollow": true,
+            "tagTitle": "Ver todos os produtos",
+            "text": "Ver todos os produtos"
+          },
+          "blockClass": ["ver-todos"]
+        },
+        {
+          "id": "menu-item-abafador-de-ruidos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/epi-e-seguranca/abafador-de-ruidos",
+            "noFollow": true,
+            "tagTitle": "Abafador de Ruídos",
+            "text": "Abafador de Ruídos"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-bota",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/epi-e-seguranca/bota",
+            "noFollow": true,
+            "tagTitle": "Bota",
+            "text": "Bota"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-botina",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/epi-e-seguranca/botina",
+            "noFollow": true,
+            "tagTitle": "Botina",
+            "text": "Botina"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-capa-de-chuva",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/epi-e-seguranca/capa-de-chuva",
+            "noFollow": true,
+            "tagTitle": "Capa de Chuva",
+            "text": "Capa de Chuva"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-capacete",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/epi-e-seguranca/capacete",
+            "noFollow": true,
+            "tagTitle": "Capacete",
+            "text": "Capacete"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-cavalete",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/epi-e-seguranca/cavalete",
+            "noFollow": true,
+            "tagTitle": "Cavalete",
+            "text": "Cavalete"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-cinta-para-amarracao",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/epi-e-seguranca/cinta-para-amarracao",
+            "noFollow": true,
+            "tagTitle": "Cinta para Amarração",
+            "text": "Cinta para Amarração"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-colete-de-sinalizacao",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/epi-e-seguranca/colete-de-sinalizacao",
+            "noFollow": true,
+            "tagTitle": "Colete de Sinalização",
+            "text": "Colete de Sinalização"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-cone-de-sinalizacao",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/epi-e-seguranca/cone-de-sinalizacao",
+            "noFollow": true,
+            "tagTitle": "Cone de Sinalização",
+            "text": "Cone de Sinalização"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-corrente",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/epi-e-seguranca/corrente",
+            "noFollow": true,
+            "tagTitle": "Corrente",
+            "text": "Corrente"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-fita-antiderrapante",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/epi-e-seguranca/fita-antiderrapante",
+            "noFollow": true,
+            "tagTitle": "Fita Antiderrapante",
+            "text": "Fita Antiderrapante"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-fita-zebrada",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/epi-e-seguranca/fita-zebrada",
+            "noFollow": true,
+            "tagTitle": "Fita Zebrada",
+            "text": "Fita Zebrada"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-garra-jacare",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/epi-e-seguranca/garra-jacare",
+            "noFollow": true,
+            "tagTitle": "Garra Jacaré",
+            "text": "Garra Jacaré"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-joelheira",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/epi-e-seguranca/joelheira",
+            "noFollow": true,
+            "tagTitle": "Joelheiras",
+            "text": "Joelheiras"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-luva",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas//epi-e-seguranca/luva",
+            "noFollow": true,
+            "tagTitle": "Luva",
+            "text": "Luva"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-mascara-para-solda",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/epi-e-seguranca/mascara-para-solda",
+            "noFollow": true,
+            "tagTitle": "Máscara para Solda",
+            "text": "Máscara para Solda"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-oculos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/epi-e-seguranca/oculos",
+            "noFollow": true,
+            "tagTitle": "Óculos",
+            "text": "Óculos"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-pedestal-de-sinalizacao",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/epi-e-seguranca/pedestal-de-sinalizacao",
+            "noFollow": true,
+            "tagTitle": "Pedestal de Sinalização",
+            "text": "Pedestal de Sinalização"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-protetor-auricular",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/epi-e-seguranca/protetor-auricular",
+            "noFollow": true,
+            "tagTitle": "Protetor Auricular",
+            "text": "Protetor Auricular"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-protetor-facial",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/epi-e-seguranca/protetor-facial",
+            "noFollow": true,
+            "tagTitle": "Protetor Facial",
+            "text": "Protetor Facial"
+          },
+          "blockClass": "child"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "menu-item#grade-de-protecao": {
+    "props": {
+      "id": "menu-item-grade-de-protecao",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/ferragens/grade-de-protecao",
+        "noFollow": true,
+        "tagTitle": "Grade de Proteção",
+        "text": "Grade de Proteção"
+      },
+      "blockClass": "childSub"
+    }
+  }
+}

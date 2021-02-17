@@ -1,0 +1,90 @@
+{
+  "menu-item#facas-faqueiros-e-talheres": {
+    "props": {
+      "id": "menu-item-facas-faqueiros-e-talheres",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cozinhar-servir-e-organizar/facas-faqueiros-e-talheres",
+        "noFollow": true,
+        "tagTitle": "Facas, Faqueiros e Talheres",
+        "text": "Facas, Faqueiros e Talheres"
+      },
+      "blockClass": ["childSub", "have-children"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#facas-faqueiros-e-talheres"]
+  },
+
+  "vtex.menu@2.x:submenu#facas-faqueiros-e-talheres": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#facas-faqueiros-e-talheres"]
+  },
+
+  "vtex.menu@2.x:menu#facas-faqueiros-e-talheres": {
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-facas-faqueiros-e-talheres-ver-todos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinhar-servir-e-organizar/facas-faqueiros-e-talheres",
+            "noFollow": true,
+            "tagTitle": "Ver todos os produtos",
+            "text": "Ver todos os produtos"
+          },
+          "blockClass": ["ver-todos"]
+        },
+        {
+          "id": "menu-item-facas",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinhar-servir-e-organizar/facas-faqueiros-e-talheres/facas",
+            "noFollow": true,
+            "tagTitle": "Facas",
+            "text": "Facas"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-faqueiro",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinhar-servir-e-organizar/facas-faqueiros-e-talheres/faqueiro",
+            "noFollow": true,
+            "tagTitle": "Faqueiro",
+            "text": "Faqueiro"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-talheres",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinhar-servir-e-organizar/facas-faqueiros-e-talheres/talheres",
+            "noFollow": true,
+            "tagTitle": "Talheres",
+            "text": "Talheres"
+          },
+          "blockClass": "child"
+        }
+      ]
+    }
+  }
+}

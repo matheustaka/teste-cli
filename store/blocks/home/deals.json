@@ -1,0 +1,45 @@
+{
+  "slider-layout#deals": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 2,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "showPaginationDots": "desktopOnly",
+      "blockClass": ["deals"],
+      "autoplay": {
+        "timeout": 4000
+      },
+      "stopOnHover": true
+    },
+    "children": [
+      "image#deal1",
+      "image#deal2",
+      "image#deal3",
+      "image#deal4"
+    ]
+  },
+  "image#deal1": {
+    "props": {
+      "src": "https://cassol.vtexassets.com/arquivos/barra-beneficios-1.png"
+    }
+  },
+  "image#deal2": {
+    "props": {
+      "src": "https://cassol.vtexassets.com/arquivos/barra-beneficios-2.png"
+    }
+  },
+  "image#deal3": {
+    "props": {
+      "src": "https://cassol.vtexassets.com/arquivos/barra-beneficios-3.png"
+    }
+  },
+  "image#deal4": {
+    "props": {
+      "src": "https://cassol.vtexassets.com/arquivos/barra-beneficios-4.png"
+    }
+  }
+}

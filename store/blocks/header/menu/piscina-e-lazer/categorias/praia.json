@@ -1,0 +1,122 @@
+{
+  "menu-item#praia": {
+    "props": {
+      "id": "menu-item-praia",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/piscina-e-lazer/praia",
+        "noFollow": true,
+        "tagTitle": "Praia",
+        "text": "Praia"
+      },
+      "blockClass": ["childSub", "have-children"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#praia"]
+  },
+
+  "vtex.menu@2.x:submenu#praia": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#praia"]
+  },
+
+  "vtex.menu@2.x:menu#praia": {
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-praia-ver-todos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/piscina-e-lazer/praia",
+            "noFollow": true,
+            "tagTitle": "Ver todos os produtos",
+            "text": "Ver todos os produtos"
+          },
+          "blockClass": ["ver-todos"]
+        },
+        {
+          "id": "menu-item-acessorios-para-mergulho",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/piscina-e-lazer/praia/acessorios-para-mergulho",
+            "noFollow": true,
+            "tagTitle": "Acessórios para Mergulho",
+            "text": "Acessórios para Mergulho"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-cadeira-de-praia",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/piscina-e-lazer/praia/cadeira-de-praia",
+            "noFollow": true,
+            "tagTitle": "Cadeira de Praia",
+            "text": "Cadeira de Praia"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-guarda-sol",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/piscina-e-lazer/praia/guarda-sol",
+            "noFollow": true,
+            "tagTitle": "Guarda Sol",
+            "text": "Guarda Sol"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-saca-areia",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/piscina-e-lazer/praia/saca-areia",
+            "noFollow": true,
+            "tagTitle": "Saca-Areia",
+            "text": "Saca-Areia"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-suporte",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/piscina-e-lazer/praia/suporte",
+            "noFollow": true,
+            "tagTitle": "Suporte",
+            "text": "Suporte"
+          },
+          "blockClass": "child"
+        }
+      ]
+    }
+  }
+}

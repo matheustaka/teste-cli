@@ -1,0 +1,69 @@
+{
+  "menu-item#cozinha-e-lavanderia": {
+    "props": {
+      "id": "menu-item-cozinha-e-lavanderia",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cozinha-e-lavanderia",
+        "noFollow": true,
+        "tagTitle": "Cozinha e Lavanderia",
+        "text": "Cozinha e Lavanderia"
+      },
+      "blockClass": ["department", "have-children"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#cozinha-e-lavanderia"]
+  },
+
+  "vtex.menu@2.x:submenu#cozinha-e-lavanderia": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#cozinha-e-lavanderia"]
+  },
+
+  "vtex.menu@2.x:menu#cozinha-e-lavanderia": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "drop-category"
+    },
+    "children": [
+      "rich-text#department-cozinha-e-lavanderia",
+      "menu-item#cozinha-e-lavanderia-ver-todos",
+      "menu-item#cozinha-acessorios-para-instalacao-e-reparo",
+      "menu-item#cubas-e-pias-para-cozinha",
+      "menu-item#filtros-bebedouros-e-purificadores",
+      "menu-item#lavanderia",
+      "menu-item#cozinha-e-lavanderia-moveis",
+      "menu-item#moveis-de-cozinha-e-lavanderia",
+      "menu-item#tanques",
+      "menu-item#torneiras-eletricas",
+      "menu-item#torneiras-para-cozinha",
+      "menu-item#torneiras-para-lavanderia-e-jardim"
+    ]
+  },
+  "rich-text#department-cozinha-e-lavanderia": {
+    "props": {
+      "text": "Cozinha e Lavanderia",
+      "blockClass": "titulo-menu-department"
+    }
+  },
+  "menu-item#cozinha-e-lavanderia-ver-todos": {
+    "props": {
+      "id": "menu-item-cozinha-e-lavanderia-ver-todos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cozinha-e-lavanderia",
+        "noFollow": true,
+        "tagTitle": "Ver todos os produtos",
+        "text": "Ver todos os produtos"
+      },
+      "blockClass": [ "ver-todos"]
+    }
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "menu-item#cubas-e-pias-para-cozinha": {
+    "props": {
+      "id": "menu-item-cubas-e-pias-para-cozinha",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cozinha-e-lavanderia/cubas-e-pias-para-cozinha",
+        "noFollow": true,
+        "tagTitle": "Cubas e Pias para Cozinha",
+        "text": "Cubas e Pias para Cozinha"
+      },
+      "blockClass": ["childSub", "have-children"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#cubas-e-pias-para-cozinha"]
+  },
+
+  "vtex.menu@2.x:submenu#cubas-e-pias-para-cozinha": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#cubas-e-pias-para-cozinha"]
+  },
+
+  "vtex.menu@2.x:menu#cubas-e-pias-para-cozinha": {
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-cubas-e-pias-para-cozinha-ver-todos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinha-e-lavanderia/cubas-e-pias-para-cozinha",
+            "noFollow": true,
+            "tagTitle": "Ver todos os produtos",
+            "text": "Ver todos os produtos"
+          },
+          "blockClass": ["ver-todos"]
+        },
+        {
+          "id": "menu-item-calha-umida",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinha-e-lavanderia/cubas-e-pias-para-cozinha/calha-umida",
+            "noFollow": true,
+            "tagTitle": "Calha Úmida",
+            "text": "Calha Úmida"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-cuba-para-cozinha",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinha-e-lavanderia/cubas-e-pias-para-cozinha/cuba-para-cozinha",
+            "noFollow": true,
+            "tagTitle": "Cuba para Cozinha",
+            "text": "Cuba para Cozinha"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-dosador-de-sabao",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinha-e-lavanderia/cubas-e-pias-para-cozinha/dosador-de-sabao",
+            "noFollow": true,
+            "tagTitle": "Dosador de Sabão",
+            "text": "Dosador de Sabão"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-pia-para-cozinha",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinha-e-lavanderia/cubas-e-pias-para-cozinha/pia-para-cozinha",
+            "noFollow": true,
+            "tagTitle": "Pia para Cozinha",
+            "text": "Pia para Cozinha"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-tabua-para-cuba",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinha-e-lavanderia/cubas-e-pias-para-cozinha/tabua-para-cuba",
+            "noFollow": true,
+            "tagTitle": "Tábua para Cuba",
+            "text": "Tábua para Cuba"
+          },
+          "blockClass": "child"
+        }
+      ]
+    }
+  }
+}

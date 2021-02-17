@@ -1,0 +1,104 @@
+{
+  "menu-item#impermeabilizacao": {
+    "props": {
+      "id": "menu-item-impermeabilizacao",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/materiais-de-construcao/impermeabilizacao",
+        "noFollow": true,
+        "tagTitle": "Impermeabilização",
+        "text": "Impermeabilização"
+      },
+      "blockClass": ["childSub", "have-children"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#impermeabilizacao"]
+  },
+
+  "vtex.menu@2.x:submenu#impermeabilizacao": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#impermeabilizacao"]
+  },
+
+  "vtex.menu@2.x:menu#impermeabilizacao": {
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-impermeabilizacao-ver-todos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-de-construcao/impermeabilizacao",
+            "noFollow": true,
+            "tagTitle": "Ver todos os produtos",
+            "text": "Ver todos os produtos"
+          },
+          "blockClass": ["ver-todos"]
+        },
+        {
+          "id": "menu-item-adesivo",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-de-construcao/impermeabilizacao/adesivo",
+            "noFollow": true,
+            "tagTitle": "Adesivo",
+            "text": "Adesivo"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-cera-liquida",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-de-construcao/impermeabilizacao/cera-liquida",
+            "noFollow": true,
+            "tagTitle": "Cera Líquida",
+            "text": "Cera Líquida"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-manta-asfaltica-e-fita",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-de-construcao/impermeabilizacao/manta-asfaltica-e-fita",
+            "noFollow": true,
+            "tagTitle": "Manta Asfáltica e Fita",
+            "text": "Manta Asfáltica e Fita"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-tela-de-poliester",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-de-construcao/impermeabilizacao/tela-de-poliester",
+            "noFollow": true,
+            "tagTitle": "Tela de Poliéster",
+            "text": "Tela de Poliéster"
+          },
+          "blockClass": "child"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "store.custom#withdraw-in-store": {
+    "blocks": [
+      "responsive-layout.desktop#withdraw-in-store",
+      "responsive-layout.tablet#withdraw-in-store",
+      "responsive-layout.phone#withdraw-in-store"
+    ]
+  },
+
+  "responsive-layout.desktop#withdraw-in-store": {
+    "children": [
+      "breadcrumb",
+      "flex-layout.row#withdraw-in-store-desktop"
+    ]
+  },
+
+  "responsive-layout.tablet#withdraw-in-store": {
+    "children": [
+      "breadcrumb",
+      "flex-layout.row#withdraw-in-store-menu-mobile",
+      "flex-layout.row#withdraw-in-store-mobile"
+    ]
+  },
+
+  "responsive-layout.phone#withdraw-in-store": {
+    "children": [
+      "breadcrumb",
+      "flex-layout.row#withdraw-in-store-menu-mobile",
+      "flex-layout.row#withdraw-in-store-mobile"
+    ]
+  },
+
+  "flex-layout.row#withdraw-in-store-desktop": {
+    "children": [
+      "flex-layout.col#institutional-sidebar-desktop",
+      "flex-layout.col#content-withdraw-in-store"
+    ],
+    "props": {
+      "blockClass": "institutionalContainer"
+    }
+  },
+
+  "flex-layout.row#withdraw-in-store-menu-mobile": {
+    "children": [
+      "flex-layout.col#institutional-sidebar-mobile"
+    ],
+    "props": {
+      "blockClass": "institutionalContainer"
+    }
+  },
+
+  "flex-layout.row#withdraw-in-store-mobile": {
+    "children": [
+      "flex-layout.col#content-withdraw-in-store-mobile"
+    ],
+    "props": {
+      "blockClass": "institutionalContainer"
+    }
+  },
+
+  "flex-layout.col#content-withdraw-in-store-mobile": {
+    "children": [
+      "image#withdraw-in-store--banner",
+      "image#withdraw-in-store--banner-retire-loja-mobile",
+      "rich-text#withdraw-in-store",
+      "rich-text#withdraw-in-store--text-1",
+      "rich-text#withdraw-in-store--text-2",
+      "rich-text#withdraw-in-store--text-3"
+    ],
+    "props": {
+      "blockClass": ["textColumn", "content-withdraw-in-store"],
+      "preventVerticalStretch": true
+    }
+  },
+
+  "flex-layout.col#content-withdraw-in-store": {
+    "children": [
+      "image#withdraw-in-store--banner",
+      "image#withdraw-in-store--banner-retire-loja",
+      "rich-text#withdraw-in-store",
+      "rich-text#withdraw-in-store--text-1",
+      "rich-text#withdraw-in-store--text-2",
+      "rich-text#withdraw-in-store--text-3"
+    ],
+    "props": {
+      "blockClass": ["textColumn", "content-withdraw-in-store"],
+      "preventVerticalStretch": true
+    }
+  },
+
+  "image#withdraw-in-store--banner": {
+    "props": {
+      "src": "https://cassol.vtexassets.com/arquivos/compre-retire-na-loja.png",
+      "blockClass": "aboutContent"
+    }
+  },
+
+  "image#withdraw-in-store--banner-retire-loja": {
+    "props": {
+      "src": "https://cassol.vtexassets.com/arquivos/retire-na-loja-opcoes.png",
+      "blockClass": "aboutContent"
+    }
+  },
+  "image#withdraw-in-store--banner-retire-loja-mobile": {
+    "props": {
+      "src": "https://cassol.vtexassets.com/arquivos/retirada-na-loja-opecoes-mobile.png",
+      "blockClass": "aboutContent"
+    }
+  },
+
+
+  "rich-text#withdraw-in-store": {
+    "props": {
+      "text": "### **Confira as regras** \n \n No ato da compra via e-commerce o cliente poderá optar pela retirada do produto em Loja ou no Centro de Distribuição. No caso de compras assistidas, tais como Televendas, Vendas Diretas ou na loja junto ao vendedor, o cliente deve verificar as possibilidades de retiradas. Lembrando que em qualquer dos casos deve ser observado os dias e horários de funcionamentos tanto das lojas quanto dos Centros de Distribuição. \n\n Nos casos de validada a possibilidade de retirar em loja, deve-se ter ciência de que:\n\n Caso a compra não seja retirada em 7 dias corridos, o produto voltará ao estoque e o cliente receberá um bônus para uma próxima compra no mesmo valor.",
+      "blockClass": "aboutContent"
+    }
+  },
+
+  "rich-text#withdraw-in-store--text-1": {
+    "props": {
+      "text": "##### **PROCEDIMENTOS PARA RETIRADA DE PRODUTOS NA LOJA OU EM CENTRO DE DISTRIBUIÇÃO (CD)** \n\n Nas compras realizadas pelo site, a retirada pode ser solicitada selecionando a opção indicada “retirar em loja” na página do carrinho de compras; \n\n • Para os clientes que compram nas Lojas e gostariam de retirar seu pedido posteriormente nas próprias lojas, a retirada deve obedecer o prazo negociado com o vendedor além de só ser possível nos casos de: \n\n Lista de presentes;\n- Empresas (Pessoa Jurídica) \n- Transferência de produtos; \n- Venda de Cerâmica; \n- Venda de sacaria; \n- Produtos estocados no depósito da loja.\n \n",
+      "blockClass": "aboutContent"
+    }
+  },
+  "rich-text#withdraw-in-store--text-2": {
+    "props": {
+      "text": "Na hipótese de compras realizadas na Loja Física a retirada em CD fica limitada as seguintes situações:\n- Ausência do produto no estoque na loja; \n- Cerâmica / Sacaria em grande quantidade.\n\n ",
+      "blockClass": "aboutContent"
+    }
+  },
+  "rich-text#withdraw-in-store--text-3": {
+    "props": {
+      "text": "• Nas compras realizadas pelo Televendas para retirada em Loja ou CD, o cliente deve indicar ao vendedor em qual a loja desejada fazer a retirada de seus pedidos; \n\n • Para efetivar a retirada do produto em loja, o cliente deve apresentar documento com foto do comprador e o número do pedido; \n\n • Para clientes que não são titulares da compra, mas que irão retirar o produto em nome do comprador, será necessário:\n • Para clientes que não são titulares da compra, mas que irão retirar o produto em nome do comprador, será necessário:\n - Autorização assinada pelo titular da compra com copia do documento de identidade\n - Cupom fiscal ou pagina do pedido impressa\n - Apresentação de documento com foto para identificação do responsável pela retirada.\n\n***O Retira na Loja será possível nos Centros de Distribuição de SC, PR e RS, além de todas as lojas da rede, mediante disponibilidade.***",
+      "blockClass": "aboutContent"
+    }
+  }
+}

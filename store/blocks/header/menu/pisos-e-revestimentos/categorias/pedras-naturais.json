@@ -1,0 +1,77 @@
+{
+  "menu-item#pedras-naturais": {
+    "props": {
+      "id": "menu-item-pedras-naturais",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/pisos-e-revestimentos/pedras-naturais",
+        "noFollow": true,
+        "tagTitle": "Pedras Naturais",
+        "text": "Pedras Naturais"
+      },
+      "blockClass": ["childSub", "have-children"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#pedras-naturais"]
+  },
+
+  "vtex.menu@2.x:submenu#pedras-naturais": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#pedras-naturais"]
+  },
+
+  "vtex.menu@2.x:menu#pedras-naturais": {
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-pedras-naturais-ver-todos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/pisos-e-revestimentos/pedras-naturais",
+            "noFollow": true,
+            "tagTitle": "Ver todos os produtos",
+            "text": "Ver todos os produtos"
+          },
+          "blockClass": ["ver-todos"]
+        },
+        {
+          "id": "menu-item-ladrilho",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/pisos-e-revestimentos/pedras-naturais/ladrilho",
+            "noFollow": true,
+            "tagTitle": "Ladrilho",
+            "text": "Ladrilho"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-soleira",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/pisos-e-revestimentos/pedras-naturais/soleira",
+            "noFollow": true,
+            "tagTitle": "Soleira",
+            "text": "Soleira"
+          },
+          "blockClass": "child"
+        }
+      ]
+    }
+  }
+}

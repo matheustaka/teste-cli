@@ -1,0 +1,104 @@
+{
+  "menu-item#lampadas": {
+    "props": {
+      "id": "menu-item-lampadas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/iluminacao/lampadas",
+        "noFollow": true,
+        "tagTitle": "Lâmpadas",
+        "text": "Lâmpadas"
+      },
+      "blockClass": ["childSub", "have-children"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#lampadas"]
+  },
+
+  "vtex.menu@2.x:submenu#lampadas": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#lampadas"]
+  },
+
+  "vtex.menu@2.x:menu#lampadas": {
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-lampadas-ver-todos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/iluminacao/lampadas",
+            "noFollow": true,
+            "tagTitle": "Ver todos os produtos",
+            "text": "Ver todos os produtos"
+          },
+          "blockClass": ["ver-todos"]
+        },
+        {
+          "id": "menu-item-lampada-fluorescente",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/iluminacao/lampadas/lampada-fluorescente",
+            "noFollow": true,
+            "tagTitle": "Lâmpada Fluorescente",
+            "text": "Lâmpada Fluorescente"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-lampada-halogena",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/iluminacao/lampadas/lampada-halogena",
+            "noFollow": true,
+            "tagTitle": "Lâmpada Halogena",
+            "text": "Lâmpada Halogena"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-lampada-incandescente",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/iluminacao/lampadas/lampada-incandescente",
+            "noFollow": true,
+            "tagTitle": "Lâmpada Incandescente",
+            "text": "Lâmpada Incandescente"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-lampada-led",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/iluminacao/lampadas/lampada-led",
+            "noFollow": true,
+            "tagTitle": "Lâmpada LED",
+            "text": "Lâmpada LED"
+          },
+          "blockClass": "child"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,258 @@
+{
+  "menu-item#organizacao-e-protecao": {
+    "props": {
+      "id": "menu-item-organizacao-e-protecao",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/ferragens/organizacao-e-protecao",
+        "noFollow": true,
+        "tagTitle": "Organização e Proteção",
+        "text": "Organização e Proteção"
+      },
+      "blockClass": ["childSub", "have-children"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#organizacao-e-protecao"]
+  },
+
+  "vtex.menu@2.x:submenu#organizacao-e-protecao": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#organizacao-e-protecao"]
+  },
+
+  "vtex.menu@2.x:menu#organizacao-e-protecao": {
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-organizacao-e-protecao-ver-todos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferragens/organizacao-e-protecao",
+            "noFollow": true,
+            "tagTitle": "Ver todos os produtos",
+            "text": "Ver todos os produtos"
+          },
+          "blockClass": ["ver-todos"]
+        },
+        {
+          "id": "menu-item-barbante",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferragens/organizacao-e-protecao/barbante",
+            "noFollow": true,
+            "tagTitle": "Barbante",
+            "text": "Barbante"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-caixa-de-correspondencia",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferragens/organizacao-e-protecao/caixa-de-correspondencia",
+            "noFollow": true,
+            "tagTitle": "Caixa de Correspondência",
+            "text": "Caixa de Correspondência"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-cinta",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferragens/organizacao-e-protecao/cinta",
+            "noFollow": true,
+            "tagTitle": "Cinta",
+            "text": "Cinta"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-estrado",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferragens/organizacao-e-protecao/estrado",
+            "noFollow": true,
+            "tagTitle": "Estrado",
+            "text": "Estrado"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-fita-velcro",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferragens/organizacao-e-protecao/fita-velcro",
+            "noFollow": true,
+            "tagTitle": "Fita Velcro",
+            "text": "Fita Velcro"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-gancho",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferragens/organizacao-e-protecao/gancho",
+            "noFollow": true,
+            "tagTitle": "Gancho",
+            "text": "Gancho"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-identificador-de-chaves",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferragens/organizacao-e-protecao/identificador-de-chaves",
+            "noFollow": true,
+            "tagTitle": "Identificador de Chaves",
+            "text": "Identificador de Chaves"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-letra-de-residencia",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferragens/organizacao-e-protecao/letra-de-residencia",
+            "noFollow": true,
+            "tagTitle": "Letra de Residência",
+            "text": "Letra de Residência"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-organizador-para-cabos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferragens/organizacao-e-protecao/organizador-para-cabos",
+            "noFollow": true,
+            "tagTitle": "Organizador para Cabos",
+            "text": "Organizador para Cabos"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-placa-sinalizadora",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferragens/organizacao-e-protecao/placa-sinalizadora",
+            "noFollow": true,
+            "tagTitle": "Placa Sinalizadora",
+            "text": "Placa Sinalizadora"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-protetor",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferragens/organizacao-e-protecao/protetor",
+            "noFollow": true,
+            "tagTitle": "Protetor",
+            "text": "Protetor"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-suporte-para-bicicleta",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferragens/organizacao-e-protecao/suporte-para-bicicleta",
+            "noFollow": true,
+            "tagTitle": "Suporte para Bicicleta",
+            "text": "Suporte para Bicicleta"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-tampa-para-tomada",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferragens/organizacao-e-protecao/tampa-para-tomada",
+            "noFollow": true,
+            "tagTitle": "Tampa para Tomada",
+            "text": "Tampa para Tomada"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-tela-mosquiteiro",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferragens/organizacao-e-protecao/tela-mosquiteiro",
+            "noFollow": true,
+            "tagTitle": "Tela Mosquiteiro",
+            "text": "Tela Mosquiteiro"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-trava",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferragens/organizacao-e-protecao/trava",
+            "noFollow": true,
+            "tagTitle": "Trava",
+            "text": "Trava"
+          },
+          "blockClass": "child"
+        }
+      ]
+    }
+  }
+}

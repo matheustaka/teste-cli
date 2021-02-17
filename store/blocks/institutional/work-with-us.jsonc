@@ -1,0 +1,127 @@
+{
+  "store.custom#work-with-us": {
+    "blocks": [
+      "responsive-layout.desktop#work-with-us",
+      "responsive-layout.tablet#work-with-us",
+      "responsive-layout.phone#work-with-us"
+    ]
+  },
+
+  "responsive-layout.desktop#work-with-us": {
+    "children": [
+      "breadcrumb",
+      "flex-layout.row#work-with-us-desktop"
+    ]
+  },
+
+  "responsive-layout.tablet#work-with-us": {
+    "children": [
+      "breadcrumb",
+      "flex-layout.row#work-with-us-menu-mobile",
+      "flex-layout.row#work-with-us-mobile"
+    ]
+  },
+
+  "responsive-layout.phone#work-with-us": {
+    "children": [
+      "breadcrumb",
+      "flex-layout.row#work-with-us-menu-mobile",
+      "flex-layout.row#work-with-us-mobile"
+    ]
+  },
+
+  "flex-layout.row#work-with-us-desktop": {
+    "children": [
+      "flex-layout.col#institutional-sidebar-desktop",
+      "flex-layout.col#content-work-with-us"
+    ],
+    "props": {
+      "blockClass": "institutionalContainer"
+    }
+  },
+
+  "flex-layout.row#work-with-us-menu-mobile": {
+    "children": [
+      "flex-layout.col#institutional-sidebar-mobile"
+    ],
+    "props": {
+      "blockClass": "institutionalContainer"
+    }
+  },
+
+  "flex-layout.row#work-with-us-mobile": {
+    "children": [
+      "flex-layout.col#content-work-with-us-mobile"
+    ],
+    "props": {
+      "blockClass": "institutionalContainer"
+    }
+  },
+
+  "flex-layout.col#content-work-with-us-mobile": {
+    "children": [
+      "flex-layout.col#content-work-with-us"
+    ],
+    "props": {
+      "blockClass": "textColumn",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "flex-layout.col#content-work-with-us": {
+    "children": [
+      "rich-text#work-with-us--titulo",
+      "rich-text#work-with-us--image-1",
+      "rich-text#work-with-us--image-2",
+      "image#work-with-us--image-3",
+      "rich-text#work-with-us--rodape",
+      "rich-text#work-with-us--frase-motivacional"
+    ],
+    "props": {
+      "blockClass": "textColumn",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "rich-text#work-with-us--titulo": {
+    "props": {
+      "text": "### **Trabalhe conosco** \n \n A Cassol está em constante crescimento sem perder a união e a colaboração do foco. Nesta evolução somos todos peças-chave.",
+      "blockClass": "aboutContent"
+    }
+  },
+
+  "rich-text#work-with-us--image-1": {
+    "props": {
+      "text": "<a target='_blank' href='https://www.linkedin.com/company/cassol-centerlar/'><img class='vtex-rich-text-0-x-image--trabalhe-conosco' src='https://cassol.vtexassets.com/arquivos/work-with-us--image-1.png'></a>",
+      "blockClass": "img-trabalhe-conosco"
+    }
+  },
+
+  "rich-text#work-with-us--image-2": {
+    "props": {
+      "text": "<a target='_blank' href='mailto:curriculo@cassol.com.br'><img class='vtex-rich-text-0-x-image--trabalhe-conosco' src='https://cassol.vtexassets.com/arquivos/work-with-us--image-2.png'></a>",
+      "blockClass": "img-trabalhe-conosco"
+    }
+  },
+
+  "image#work-with-us--image-3": {
+    "props": {
+      "src": "https://cassol.vtexassets.com/arquivos/work-with-us--image-3.png",
+      "blockClass": "img-trabalhe-conosco"
+    }
+  },
+
+  "rich-text#work-with-us--rodape": {
+    "props": {
+      "text": "Nesta caminhada nos tornamos a maior empresa do setor na Região Sul do país e somos referência nos lares que já adentramos. Para chegar até aqui precisamos de mão dispostas a colaborar para crescer.",
+      "blockClass": "aboutContent"
+    }
+  },
+
+  "rich-text#work-with-us--frase-motivacional": {
+    "props": {
+      "text": "“Somos Grandes por que somos um time”",
+      "blockClass": "aboutContent--frase-motivacional"
+    }
+  }
+}

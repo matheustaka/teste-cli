@@ -1,0 +1,347 @@
+{
+  "menu-item#tubos-e-conexoes-para-gas": {
+    "props": {
+      "id": "menu-item-tubos-e-conexoes-para-gas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/materiais-hidraulicos/tubos-e-conexoes-para-gas",
+        "noFollow": true,
+        "tagTitle": "Tubos e Conexões para Gás",
+        "text": "Tubos e Conexões para Gás"
+      },
+      "blockClass": ["childSub", "have-children"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#tubos-e-conexoes-para-gas"]
+  },
+
+  "vtex.menu@2.x:submenu#tubos-e-conexoes-para-gas": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#tubos-e-conexoes-para-gas"]
+  },
+
+  "vtex.menu@2.x:menu#tubos-e-conexoes-para-gas": {
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-tubos-e-conexoes-para-gas-ver-todos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-hidraulicos/tubos-e-conexoes-para-gas",
+            "noFollow": true,
+            "tagTitle": "Ver todos os produtos",
+            "text": "Ver todos os produtos"
+          },
+          "blockClass": ["ver-todos"]
+        },
+        {
+          "id": "menu-item-abracadeira",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-hidraulicos/tubos-e-conexoes-para-gas/abracadeira",
+            "noFollow": true,
+            "tagTitle": "Abraçadeira",
+            "text": "Abraçadeira"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-adaptador",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-hidraulicos/tubos-e-conexoes-para-gas/adaptador",
+            "noFollow": true,
+            "tagTitle": "Adaptador",
+            "text": "Adaptador"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-conjunto-de-gas",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-hidraulicos/tubos-e-conexoes-para-gas/conjunto-de-gas",
+            "noFollow": true,
+            "tagTitle": "Conjunto de Gás",
+            "text": "Conjunto de Gás"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-cortador-para-tubo-de-cobre",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-hidraulicos/tubos-e-conexoes-para-gas/cortador-para-tubo-de-cobre",
+            "noFollow": true,
+            "tagTitle": "Cortador para Tubo de Cobre",
+            "text": "Cortador para Tubo de Cobre"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-flange",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-hidraulicos/tubos-e-conexoes-para-gas/flange",
+            "noFollow": true,
+            "tagTitle": "Flange",
+            "text": "Flange"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-flangeador",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-hidraulicos/tubos-e-conexoes-para-gas/flangeador",
+            "noFollow": true,
+            "tagTitle": "Flangeador",
+            "text": "Flangeador"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-joelho",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-hidraulicos/tubos-e-conexoes-para-gas/joelho",
+            "noFollow": true,
+            "tagTitle": "Joelho",
+            "text": "Joelho"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-kit-instalacao-para-fogao",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-hidraulicos/tubos-e-conexoes-para-gas/kit-instalacao-para-fogao",
+            "noFollow": true,
+            "tagTitle": "Kit Instalação para Fogão",
+            "text": "Kit Instalação para Fogão"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-ligacao-flexivel-para-gas",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-hidraulicos/tubos-e-conexoes-para-gas/ligacao-flexivel-para-gas",
+            "noFollow": true,
+            "tagTitle": "Ligação Flexível para Gás",
+            "text": "Ligação Flexível para Gás"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-luva",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-hidraulicos/tubos-e-conexoes-para-gas/luva",
+            "noFollow": true,
+            "tagTitle": "Luva",
+            "text": "Luva"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-mangueira-de-gas",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-hidraulicos/tubos-e-conexoes-para-gas/mangueira-de-gas",
+            "noFollow": true,
+            "tagTitle": "Mangueira de Gás",
+            "text": "Mangueira de Gás"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-mini-valvula",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-hidraulicos/tubos-e-conexoes-para-gas/mini-valvula",
+            "noFollow": true,
+            "tagTitle": "Mini Válvula",
+            "text": "Mini Válvula"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-niple",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-hidraulicos/tubos-e-conexoes-para-gas/niple",
+            "noFollow": true,
+            "tagTitle": "Niple",
+            "text": "Niple"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-passador-de-parede",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-hidraulicos/tubos-e-conexoes-para-gas/passador-de-parede",
+            "noFollow": true,
+            "tagTitle": "Passador de Parede",
+            "text": "Passador de Parede"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-registro",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-hidraulicos/tubos-e-conexoes-para-gas/registro",
+            "noFollow": true,
+            "tagTitle": "Registro",
+            "text": "Registro"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-regulador-de-gas",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-hidraulicos/tubos-e-conexoes-para-gas/regulador-de-gas",
+            "noFollow": true,
+            "tagTitle": "Regulador de Gás",
+            "text": "Regulador de Gás"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-te",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-hidraulicos/tubos-e-conexoes-para-gas/te",
+            "noFollow": true,
+            "tagTitle": "Tê",
+            "text": "Tê"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-terminal",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-hidraulicos/tubos-e-conexoes-para-gas/terminal",
+            "noFollow": true,
+            "tagTitle": "Terminal",
+            "text": "Terminal"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-uniao",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-hidraulicos/tubos-e-conexoes-para-gas/uniao",
+            "noFollow": true,
+            "tagTitle": "União",
+            "text": "União"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-valvula",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-hidraulicos/tubos-e-conexoes-para-gas/valvula",
+            "noFollow": true,
+            "tagTitle": "Válvula",
+            "text": "Válvula"
+          },
+          "blockClass": "child"
+        }
+      ]
+    }
+  }
+}

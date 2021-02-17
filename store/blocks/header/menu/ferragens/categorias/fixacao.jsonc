@@ -1,0 +1,524 @@
+{
+  "menu-item#fixacao": {
+    "props": {
+      "id": "menu-item-fixacao",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/ferragens/fixacao",
+        "noFollow": true,
+        "tagTitle": "Fixação",
+        "text": "Fixação"
+      },
+      "blockClass": ["childSub", "have-children"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#fixacao"]
+  },
+
+  "vtex.menu@2.x:submenu#fixacao": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#fixacao"]
+  },
+
+  "vtex.menu@2.x:menu#fixacao": {
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-fixacao-ver-todos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferragens/fixacao",
+            "noFollow": true,
+            "tagTitle": "Ver todos os produtos",
+            "text": "Ver todos os produtos"
+          },
+          "blockClass": ["ver-todos"]
+        },
+        {
+          "id": "menu-item-abracadeira",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferragens/fixacao/abracadeira",
+            "noFollow": true,
+            "tagTitle": "Abraçadeira",
+            "text": "Abraçadeira"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-adesivo",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferragens/fixacao/adesivo",
+            "noFollow": true,
+            "tagTitle": "Adesivo",
+            "text": "Adesivo"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-alfinete",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferragens/fixacao/alfinete",
+            "noFollow": true,
+            "tagTitle": "Alfinete",
+            "text": "Alfinete"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-anilha-para-cabo",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferragens/fixacao/anilha-para-cabo",
+            "noFollow": true,
+            "tagTitle": "Anilha para Cabo",
+            "text": "Anilha para Cabo"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-arruela",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferragens/fixacao/arruela",
+            "noFollow": true,
+            "tagTitle": "Arruela",
+            "text": "Arruela"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-botao-frances",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferragens/fixacao/botao-frances",
+            "noFollow": true,
+            "tagTitle": "Botão Francês",
+            "text": "Botão Francês"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-bucha",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferragens/fixacao/bucha",
+            "noFollow": true,
+            "tagTitle": "Bucha",
+            "text": "Bucha"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-cabo-de-aco",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferragens/fixacao/cabo-de-aco",
+            "noFollow": true,
+            "tagTitle": "Cabo de Aço",
+            "text": "Cabo de Aço"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-chumbador",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferragens/fixacao/chumbador",
+            "noFollow": true,
+            "tagTitle": "Chumbador",
+            "text": "Chumbador"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-clips-para-cabo",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferragens/fixacao/clips-para-cabo",
+            "noFollow": true,
+            "tagTitle": "Clips para Cabo",
+            "text": "Clips para Cabo"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-corda",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferragens/fixacao/corda",
+            "noFollow": true,
+            "tagTitle": "Corda",
+            "text": "Corda"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-corrente",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferragens/fixacao/corrente",
+            "noFollow": true,
+            "tagTitle": "Corrente",
+            "text": "Corrente"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-escapula",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferragens/fixacao/escapula",
+            "noFollow": true,
+            "tagTitle": "Escápula",
+            "text": "Escápula"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-esticador-para-cabo",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferragens/fixacao/esticador-para-cabo",
+            "noFollow": true,
+            "tagTitle": "Esticador para Cabo",
+            "text": "Esticador para Cabo"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-fecho",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferragens/fixacao/fecho",
+            "noFollow": true,
+            "tagTitle": "Fecho",
+            "text": "Fecho"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-fincapino",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferragens/fixacao/fincapino",
+            "noFollow": true,
+            "tagTitle": "Fincapino",
+            "text": "Fincapino"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-fita-perfurada",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferragens/fixacao/fita-perfurada",
+            "noFollow": true,
+            "tagTitle": "Fita Perfurada",
+            "text": "Fita Perfurada"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-fixador-de-fios",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferragens/fixacao/fixador-de-fios",
+            "noFollow": true,
+            "tagTitle": "Fixador de Fios",
+            "text": "Fixador de Fios"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-fixador-velcro",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferragens/fixacao/fixador-velcro",
+            "noFollow": true,
+            "tagTitle": "Fixador Velcro",
+            "text": "Fixador Velcro"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-ganchos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferragens/fixacao/ganchos",
+            "noFollow": true,
+            "tagTitle": "Ganchos",
+            "text": "Ganchos"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-kits",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferragens/fixacao/kits",
+            "noFollow": true,
+            "tagTitle": "Kits",
+            "text": "Kits"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-manilha-para-cabo",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferragens/fixacao/manilha-para-cabo",
+            "noFollow": true,
+            "tagTitle": "Manilha para Cabo",
+            "text": "Manilha para Cabo"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-mosquetao",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferragens/fixacao/mosquetao",
+            "noFollow": true,
+            "tagTitle": "Mosquetão",
+            "text": "Mosquetão"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-numero-de-residencia",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferragens/fixacao/numero-de-residencia",
+            "noFollow": true,
+            "tagTitle": "Número de Residência",
+            "text": "Número de Residência"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-parafuso",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferragens/fixacao/parafuso",
+            "noFollow": true,
+            "tagTitle": "Parafuso",
+            "text": "Parafuso"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-pino",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferragens/fixacao/pino",
+            "noFollow": true,
+            "tagTitle": "Pino",
+            "text": "Pino"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-pitao",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferragens/fixacao/pitao",
+            "noFollow": true,
+            "tagTitle": "Pitão",
+            "text": "Pitão"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-porca",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferragens/fixacao/porca",
+            "noFollow": true,
+            "tagTitle": "Porca",
+            "text": "Porca"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-prego",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferragens/fixacao/prego",
+            "noFollow": true,
+            "tagTitle": "Prego",
+            "text": "Prego"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-rebite",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferragens/fixacao/rebite",
+            "noFollow": true,
+            "tagTitle": "Rebite",
+            "text": "Rebite"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-suporte",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferragens/fixacao/suporte",
+            "noFollow": true,
+            "tagTitle": "Suporte",
+            "text": "Suporte"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-tacha",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferragens/fixacao/tacha",
+            "noFollow": true,
+            "tagTitle": "Tacha",
+            "text": "Tacha"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-trava",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferragens/fixacao/trava",
+            "noFollow": true,
+            "tagTitle": "Trava",
+            "text": "Trava"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-ventosa",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferragens/fixacao/ventosa",
+            "noFollow": true,
+            "tagTitle": "Ventosa",
+            "text": "Ventosa"
+          },
+          "blockClass": "child"
+        }
+      ]
+    }
+  }
+}

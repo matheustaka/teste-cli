@@ -1,0 +1,104 @@
+{
+  "menu-item#complementos-de-mesa": {
+    "props": {
+      "id": "menu-item-complementos-de-mesa",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cozinhar-servir-e-organizar/complementos-de-mesa",
+        "noFollow": true,
+        "tagTitle": "Complementos de Mesa",
+        "text": "Complementos de Mesa"
+      },
+      "blockClass": ["childSub", "have-children"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#complementos-de-mesa"]
+  },
+
+  "vtex.menu@2.x:submenu#complementos-de-mesa": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#complementos-de-mesa"]
+  },
+
+  "vtex.menu@2.x:menu#complementos-de-mesa": {
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-complementos-de-mesa-ver-todos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinhar-servir-e-organizar/complementos-de-mesa",
+            "noFollow": true,
+            "tagTitle": "Ver todos os produtos",
+            "text": "Ver todos os produtos"
+          },
+          "blockClass": ["ver-todos"]
+        },
+        {
+          "id": "menu-item-assadeira",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinhar-servir-e-organizar/complementos-de-mesa/assadeira",
+            "noFollow": true,
+            "tagTitle": "Assadeira",
+            "text": "Assadeira"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-jogo-de-sobremesa",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinhar-servir-e-organizar/complementos-de-mesa/jogo-de-sobremesa",
+            "noFollow": true,
+            "tagTitle": "Jogo de Sobremesa",
+            "text": "Jogo de Sobremesa"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-tigela",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinhar-servir-e-organizar/complementos-de-mesa/tigela",
+            "noFollow": true,
+            "tagTitle": "Tigela",
+            "text": "Tigela"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-travessa",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinhar-servir-e-organizar/complementos-de-mesa/travessa",
+            "noFollow": true,
+            "tagTitle": "Travessa",
+            "text": "Travessa"
+          },
+          "blockClass": "child"
+        }
+      ]
+    }
+  }
+}

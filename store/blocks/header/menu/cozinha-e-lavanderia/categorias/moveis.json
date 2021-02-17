@@ -1,0 +1,62 @@
+{
+  "menu-item#cozinha-e-lavanderia-moveis": {
+    "props": {
+      "id": "menu-item-cozinha-e-lavanderia-moveis",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cozinha-e-lavanderia/moveis",
+        "noFollow": true,
+        "tagTitle": "Móveis",
+        "text": "Móveis"
+      },
+      "blockClass": ["childSub", "have-children"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#cozinha-e-lavanderia-moveis"]
+  },
+
+  "vtex.menu@2.x:submenu#cozinha-e-lavanderia-moveis": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#cozinha-e-lavanderia-moveis"]
+  },
+
+  "vtex.menu@2.x:menu#cozinha-e-lavanderia-moveis": {
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-cozinha-e-lavanderia-moveis-ver-todos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinha-e-lavanderia/moveis",
+            "noFollow": true,
+            "tagTitle": "Ver todos os produtos",
+            "text": "Ver todos os produtos"
+          },
+          "blockClass": ["ver-todos"]
+        },
+        {
+          "id": "menu-item-cozinha-e-lavanderia-armario",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinha-e-lavanderia/moveis/armario",
+            "noFollow": true,
+            "tagTitle": "Armário",
+            "text": "Armário"
+          },
+          "blockClass": "child"
+        }
+      ]
+    }
+  }
+}

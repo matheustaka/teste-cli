@@ -1,0 +1,328 @@
+{
+  "menu-item#equipamentos-para-obra": {
+    "props": {
+      "id": "menu-item-equipamentos-para-obra",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/ferramentas/equipamentos-para-obra",
+        "noFollow": true,
+        "tagTitle": "Equipamentos para Obra",
+        "text": "Equipamentos para Obra"
+      },
+      "blockClass": ["childSub", "have-children"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#equipamentos-para-obra"]
+  },
+
+  "vtex.menu@2.x:submenu#equipamentos-para-obra": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#equipamentos-para-obra"]
+  },
+
+  "vtex.menu@2.x:menu#equipamentos-para-obra": {
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-equipamentos-para-obra-ver-todos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/equipamentos-para-obra",
+            "noFollow": true,
+            "tagTitle": "Ver todos os produtos",
+            "text": "Ver todos os produtos"
+          },
+          "blockClass": ["ver-todos"]
+        },
+        {
+          "id": "menu-item-balde-para-concreto",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/equipamentos-para-obra/balde-para-concreto",
+            "noFollow": true,
+            "tagTitle": "Balde para Concreto",
+            "text": "Balde para Concreto"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-betoneira",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/equipamentos-para-obra/betoneira",
+            "noFollow": true,
+            "tagTitle": "Betoneira",
+            "text": "Betoneira"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-caixa-para-massa",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/equipamentos-para-obra/caixa-para-massa",
+            "noFollow": true,
+            "tagTitle": "Caixa para Massa",
+            "text": "Caixa para Massa"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-carrinho-de-mao",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/equipamentos-para-obra/carrinho-de-mao",
+            "noFollow": true,
+            "tagTitle": "Carrinho de Mão",
+            "text": "Carrinho de Mão"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-cavadeira-articulada",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/equipamentos-para-obra/cavadeira-articulada",
+            "noFollow": true,
+            "tagTitle": "Cavadeira Articulada",
+            "text": "Cavadeira Articulada"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-cortador-de-parede",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/equipamentos-para-obra/cortador-de-parede",
+            "noFollow": true,
+            "tagTitle": "Cortador de Parede",
+            "text": "Cortador de Parede"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-enxada",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/equipamentos-para-obra/enxada",
+            "noFollow": true,
+            "tagTitle": "Enxada",
+            "text": "Enxada"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-enxadao",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/equipamentos-para-obra/enxadao",
+            "noFollow": true,
+            "tagTitle": "Enxadão",
+            "text": "Enxadão"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-escada",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/equipamentos-para-obra/escada",
+            "noFollow": true,
+            "tagTitle": "Escada",
+            "text": "Escada"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-foice-meia-lua",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/equipamentos-para-obra/foice-meia-lua",
+            "noFollow": true,
+            "tagTitle": "Foice Meia Lua",
+            "text": "Foice Meia Lua"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-machado",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/equipamentos-para-obra/machado",
+            "noFollow": true,
+            "tagTitle": "Machado",
+            "text": "Machado"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-mangueira",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/equipamentos-para-obra/mangueira",
+            "noFollow": true,
+            "tagTitle": "Mangueira",
+            "text": "Mangueira"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-pa",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/equipamentos-para-obra/pa",
+            "noFollow": true,
+            "tagTitle": "Pá",
+            "text": "Pá"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-peneira",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/equipamentos-para-obra/peneira",
+            "noFollow": true,
+            "tagTitle": "Peneira",
+            "text": "Peneira"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-picareta",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/equipamentos-para-obra/picareta",
+            "noFollow": true,
+            "tagTitle": "Picareta",
+            "text": "Picareta"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-pneu-e-camara",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/equipamentos-para-obra/pneu-e-camara",
+            "noFollow": true,
+            "tagTitle": "Pneu e Câmara",
+            "text": "Pneu e Câmara"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-regua-para-reboco",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/equipamentos-para-obra/regua-para-reboco",
+            "noFollow": true,
+            "tagTitle": "Régua para Reboco",
+            "text": "Régua para Reboco"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-roldana",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/equipamentos-para-obra/roldana",
+            "noFollow": true,
+            "tagTitle": "Roldana",
+            "text": "Roldana"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-saco-para-entulhos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/equipamentos-para-obra/saco-para-entulhos",
+            "noFollow": true,
+            "tagTitle": "Saco para Entulhos",
+            "text": "Saco para Entulhos"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-talha-manual",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/equipamentos-para-obra/talha-manual",
+            "noFollow": true,
+            "tagTitle": "Talha Manual",
+            "text": "Talha Manual"
+          },
+          "blockClass": "child"
+        }
+      ]
+    }
+  }
+}

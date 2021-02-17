@@ -1,0 +1,90 @@
+{
+  "menu-item#lavanderia": {
+    "props": {
+      "id": "menu-item-lavanderia",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cozinha-e-lavanderia/lavanderia",
+        "noFollow": true,
+        "tagTitle": "lavanderia",
+        "text": "lavanderia"
+      },
+      "blockClass": ["childSub", "have-children"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#lavanderia"]
+  },
+
+  "vtex.menu@2.x:submenu#lavanderia": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#lavanderia"]
+  },
+
+  "vtex.menu@2.x:menu#lavanderia": {
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-lavanderia-ver-todos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinha-e-lavanderia/lavanderia",
+            "noFollow": true,
+            "tagTitle": "Ver todos os produtos",
+            "text": "Ver todos os produtos"
+          },
+          "blockClass": ["ver-todos"]
+        },
+        {
+          "id": "menu-item-bacia",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinha-e-lavanderia/lavanderia/bacia",
+            "noFollow": true,
+            "tagTitle": "Bacia",
+            "text": "Bacia"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-balde",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinha-e-lavanderia/lavanderia/balde",
+            "noFollow": true,
+            "tagTitle": "Balde",
+            "text": "Balde"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-cesto",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinha-e-lavanderia/lavanderia/cesto",
+            "noFollow": true,
+            "tagTitle": "Cesto",
+            "text": "Cesto"
+          },
+          "blockClass": "child"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,272 @@
+{
+  "menu-item#rodapes-portas-janelas-e-forros": {
+    "props": {
+      "id": "menu-item-rodapes-portas-janelas-e-forros",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/materiais-de-construcao/rodapes-portas-janelas-e-forros",
+        "noFollow": true,
+        "tagTitle": "Rodapés, Portas, Janelas e Forros",
+        "text": "Rodapés, Portas, Janelas e Forros"
+      },
+      "blockClass": ["childSub", "have-children"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#rodapes-portas-janelas-e-forros"]
+  },
+
+  "vtex.menu@2.x:submenu#rodapes-portas-janelas-e-forros": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#rodapes-portas-janelas-e-forros"]
+  },
+
+  "vtex.menu@2.x:menu#rodapes-portas-janelas-e-forros": {
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-rodapes-portas-janelas-e-forros-ver-todos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-de-construcao/rodapes-portas-janelas-e-forros",
+            "noFollow": true,
+            "tagTitle": "Ver todos os produtos",
+            "text": "Ver todos os produtos"
+          },
+          "blockClass": ["ver-todos"]
+        },
+        {
+          "id": "menu-item-arremate-pvc",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-de-construcao/rodapes-portas-janelas-e-forros/arremate-pvc",
+            "noFollow": true,
+            "tagTitle": "Arremate PVC",
+            "text": "Arremate PVC"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-automatizador",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-de-construcao/rodapes-portas-janelas-e-forros/automatizador",
+            "noFollow": true,
+            "tagTitle": "Automatizador",
+            "text": "Automatizador"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-basculante",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-de-construcao/rodapes-portas-janelas-e-forros/basculante",
+            "noFollow": true,
+            "tagTitle": "Basculante",
+            "text": "Basculante"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-boiserie",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-de-construcao/rodapes-portas-janelas-e-forros/boiserie",
+            "noFollow": true,
+            "tagTitle": "Boiserie",
+            "text": "Boiserie"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-cantoneira-pvc",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-de-construcao/rodapes-portas-janelas-e-forros/cantoneira-pvc",
+            "noFollow": true,
+            "tagTitle": "Cantoneira PVC",
+            "text": "Cantoneira PVC"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-emenda-pvc",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-de-construcao/rodapes-portas-janelas-e-forros/emenda-pvc",
+            "noFollow": true,
+            "tagTitle": "Emenda PVC",
+            "text": "Emenda PVC"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-forro-pvc",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-de-construcao/rodapes-portas-janelas-e-forros/forro-pvc",
+            "noFollow": true,
+            "tagTitle": "Forro PVC",
+            "text": "Forro PVC"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-guarnicao-socalo-e-roseta",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-de-construcao/rodapes-portas-janelas-e-forros/guarnicao-socalo-e-roseta",
+            "noFollow": true,
+            "tagTitle": "Guarnição, Sócalo e Roseta",
+            "text": "Guarnição, Sócalo e Roseta"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-janela",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-de-construcao/rodapes-portas-janelas-e-forros/janela",
+            "noFollow": true,
+            "tagTitle": "Janela",
+            "text": "Janela"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-jogo-batente",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-de-construcao/rodapes-portas-janelas-e-forros/jogo-batente",
+            "noFollow": true,
+            "tagTitle": "Jogo Batente",
+            "text": "Jogo Batente"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-maxim-ar",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-de-construcao/rodapes-portas-janelas-e-forros/maxim-ar",
+            "noFollow": true,
+            "tagTitle": "Maxim-ar",
+            "text": "Maxim-ar"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-moldura",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-de-construcao/rodapes-portas-janelas-e-forros/moldura",
+            "noFollow": true,
+            "tagTitle": "Moldura",
+            "text": "Moldura"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-porta",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-de-construcao/rodapes-portas-janelas-e-forros/porta",
+            "noFollow": true,
+            "tagTitle": "Porta",
+            "text": "Porta"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-portao",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-de-construcao/rodapes-portas-janelas-e-forros/portao",
+            "noFollow": true,
+            "tagTitle": "Portão",
+            "text": "Portão"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-rodape",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-de-construcao/rodapes-portas-janelas-e-forros/rodape",
+            "noFollow": true,
+            "tagTitle": "Rodapé",
+            "text": "Rodapé"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-tela-mosqueteiro",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-de-construcao/rodapes-portas-janelas-e-forros/tela-mosqueteiro",
+            "noFollow": true,
+            "tagTitle": "Tela Mosqueteiro",
+            "text": "Tela Mosqueteiro"
+          },
+          "blockClass": "child"
+        }
+      ]
+    }
+  }
+}

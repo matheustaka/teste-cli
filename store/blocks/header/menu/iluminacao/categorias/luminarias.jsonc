@@ -1,0 +1,132 @@
+{
+  "menu-item#luminarias": {
+    "props": {
+      "id": "menu-item-luminarias",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/iluminacao/luminarias",
+        "noFollow": true,
+        "tagTitle": "Luminárias",
+        "text": "Luminárias"
+      },
+      "blockClass": ["childSub", "have-children"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#luminarias"]
+  },
+
+  "vtex.menu@2.x:submenu#luminarias": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#luminarias"]
+  },
+
+  "vtex.menu@2.x:menu#luminarias": {
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-luminarias-ver-todos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/iluminacao/luminarias",
+            "noFollow": true,
+            "tagTitle": "Ver todos os produtos",
+            "text": "Ver todos os produtos"
+          },
+          "blockClass": ["ver-todos"]
+        },
+        {
+          "id": "menu-item-luminaria-de-coluna",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/iluminacao/luminarias/luminaria-de-coluna",
+            "noFollow": true,
+            "tagTitle": "Luminária de Coluna",
+            "text": "Luminária de Coluna"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-luminaria-de-emergência",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/iluminacao/luminarias/luminaria-de-emergência",
+            "noFollow": true,
+            "tagTitle": "Luminária de Emergência",
+            "text": "Luminária de Emergência"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-luminaria-de-mesa",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/iluminacao/luminarias/luminaria-de-mesa",
+            "noFollow": true,
+            "tagTitle": "Luminária de Mesa",
+            "text": "Luminária de Mesa"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-luminaria-de-teto",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/iluminacao/luminarias/luminaria-de-teto",
+            "noFollow": true,
+            "tagTitle": "Luminária de Teto",
+            "text": "Luminária de Teto"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-luminaria-tartaruga",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/iluminacao/luminarias/luminaria-tartaruga",
+            "noFollow": true,
+            "tagTitle": "Luminária Tartaruga",
+            "text": "Luminária Tartaruga"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-luz-noturna",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/iluminacao/luminarias/luz-noturna",
+            "noFollow": true,
+            "tagTitle": "Luz Noturna",
+            "text": "Luz Noturna"
+          },
+          "blockClass": "child"
+        }
+      ]
+    }
+  }
+}

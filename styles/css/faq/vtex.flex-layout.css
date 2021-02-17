@@ -1,0 +1,173 @@
+.flexRowContent--institutionalContainer :global(.vtex-rich-text-0-x-headingLevel2--textColumn) {
+  font-weight: bold;
+  font-size: 24px;
+  color: #184077;
+  margin-top: 35px;
+}
+
+.flexRowContent--institutionalContainer :global(.vtex-rich-text-0-x-headingLevel3--subTitle) {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 18px;
+  text-align: left;
+  color: #184077;
+}
+
+.flexRowContent--institutionalContainer
+  :global(.vtex-disclosure-layout-1-x-trigger--hidden)
+  :global(.vtex-rich-text-0-x-paragraph) {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 14px;
+  text-align: left;
+  color: #184077;
+}
+
+.flexRowContent--institutionalContainer
+  :global(.vtex-disclosure-layout-1-x-trigger--question--visible)
+  :global(.vtex-rich-text-0-x-paragraph) {
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 14px;
+  text-align: left;
+  color: #184077;
+}
+
+.flexRowContent--institutionalContainer :global(.vtex-store-icons-0-x-caretIcon) {
+  margin-left: auto;
+  margin-right: 150px;
+}
+
+.flexRowContent--institutionalContainer
+  :global(.vtex-disclosure-layout-1-x-content--answer--visible)
+  :global(.vtex-rich-text-0-x-paragraph) {
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 18px;
+  text-align: left;
+  color: #2d2e3a;
+  margin-top: 0;
+  max-width: 840px;
+}
+
+
+.flexColChild--communication-table .flexRowContent--lojas :first-child.stretchChildrenWidth {
+  display: none;
+}
+
+.flexRowContent--card-option {
+  margin-top: 44px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.flexRowContent--card-option .stretchChildrenWidth {
+  padding: 0 20px;
+  background: #184077;
+  border-left: 1px solid white;
+}
+
+.flexRowContent--card-option :first-child.stretchChildrenWidth {
+  border-left: none;
+  padding: 0 20px;
+}
+
+.flexRowContent--card-option :global(.vtex-rich-text-0-x-wrapper--card-option) {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flexRowContent--card-option :global(.vtex-rich-text-0-x-paragraph--card-option),
+.flexColChild--card-option :global(.vtex-rich-text-0-x-paragraph--card-option) {
+  margin: 0;
+}
+
+.flexRowContent--card-option :global(.vtex-rich-text-0-x-option) {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.flexColChild--card-option {
+  padding: 0 20px;
+  width: 100%;
+  height: 23px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #184077;
+  border: 1px solid white;
+}
+
+.flexCol--card-option {
+  margin-top: 17px;
+}
+
+.flexColChild--card-option :global(.vtex-rich-text-0-x-container--card-option) {
+  height: 30px;
+  align-items: center;
+}
+
+.flexColChild--card-option :global(.vtex-rich-text-0-x-option) {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.flexRowContent--faq .stretchChildrenWidth {
+  flex-direction: column;
+}
+
+@media (min-width: 1025px) {
+  .flexCol--communication-table :global(.vtex-rich-text-0-x-wrapper--aboutContent) {
+    width: 100%;
+  }
+
+  .flexCol--communication-table :global(.vtex-rich-text-0-x-headingLevel3) {
+    background: #fff;
+    margin: 0;
+    height: 45px;
+    display: flex;
+    align-items: flex-end;
+    font-size: 18px;
+  }
+
+
+  .flexColChild--communication-table .flexRowContent--lojas {
+    justify-content: space-around;
+  }
+
+  .flexRowContent--communication-distruibucao {
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .flexRowContent--communication-distruibucao :first-child.stretchChildrenWidth {
+    width: 12% !important;
+  }
+  .flexRowContent--communication-distruibucao .stretchChildrenWidth {
+    width: 40% !important;
+  }
+  .flexCol--communication-table :nth-child(odd).flexColChild--communication-table {
+    background: #e0e0e0;
+  }
+
+}
+@media (max-width: 1025px) {
+  .flexCol--communication-table :global(.vtex-rich-text-0-x-wrapper--endereco),
+  .flexCol--communication-table :global(.vtex-rich-text-0-x-wrapper--funcionamento) {
+    margin: 0;
+  }
+  .flexCol--communication-table :global(.vtex-rich-text-0-x-paragraph--endereco),
+  .flexCol--communication-table :global(.vtex-rich-text-0-x-paragraph--funcionamento) {
+    margin-top: 10px;
+  }
+
+  .flexRowContent--institutionalContainer :global(.vtex-store-icons-0-x-caretIcon) {
+    margin-right: 15px;
+    min-width: 16px;
+  }
+}

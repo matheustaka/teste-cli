@@ -1,0 +1,77 @@
+{
+  "menu-item#tubos-e-conexoes-para-dreno": {
+    "props": {
+      "id": "menu-item-tubos-e-conexoes-para-dreno",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/materiais-hidraulicos/tubos-e-conexoes-para-dreno",
+        "noFollow": true,
+        "tagTitle": "Tubos e Conexões para Dreno",
+        "text": "Tubos e Conexões para Dreno"
+      },
+      "blockClass": ["childSub", "have-children"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#tubos-e-conexoes-para-dreno"]
+  },
+
+  "vtex.menu@2.x:submenu#tubos-e-conexoes-para-dreno": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#tubos-e-conexoes-para-dreno"]
+  },
+
+  "vtex.menu@2.x:menu#tubos-e-conexoes-para-dreno": {
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-tubos-e-conexoes-para-dreno-ver-todos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-hidraulicos/tubos-e-conexoes-para-dreno",
+            "noFollow": true,
+            "tagTitle": "Ver todos os produtos",
+            "text": "Ver todos os produtos"
+          },
+          "blockClass": ["ver-todos"]
+        },
+        {
+          "id": "menu-item-manta-para-drenagem",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-hidraulicos/tubos-e-conexoes-para-dreno/manta-para-drenagem",
+            "noFollow": true,
+            "tagTitle": "Manta para Drenagem",
+            "text": "Manta para Drenagem"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-tubo-para-drenagem",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-hidraulicos/tubos-e-conexoes-para-dreno/tubo-para-drenagem",
+            "noFollow": true,
+            "tagTitle": "Tubo para Drenagem",
+            "text": "Tubo para Drenagem"
+          },
+          "blockClass": "child"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,355 @@
+{
+  "store.custom#faq-cassol-card": {
+    "blocks": [
+      "responsive-layout.desktop#faq-cassol-card",
+      "responsive-layout.tablet#faq-cassol-card",
+      "responsive-layout.phone#faq-cassol-card"
+    ]
+  },
+
+  "responsive-layout.desktop#faq-cassol-card": {
+    "children": [
+      "breadcrumb",
+      "flex-layout.row#faq-cassol-card-desktop"
+    ]
+  },
+
+  "responsive-layout.tablet#faq-cassol-card": {
+    "children": [
+      "breadcrumb",
+      "flex-layout.row#faq-cassol-card-menu-mobile",
+      "flex-layout.row#faq-cassol-card-mobile"
+    ]
+  },
+
+  "responsive-layout.phone#faq-cassol-card": {
+    "children": [
+      "breadcrumb",
+      "flex-layout.row#faq-cassol-card-menu-mobile",
+      "flex-layout.row#faq-cassol-card-mobile"
+    ]
+  },
+
+  "flex-layout.row#faq-cassol-card-desktop": {
+    "children": [
+      "flex-layout.col#institutional-sidebar-desktop",
+      "flex-layout.col#content-faq-cassol-card"
+    ],
+    "props": {
+      "blockClass": "institutionalContainer"
+    }
+  },
+
+  "flex-layout.row#faq-cassol-card-menu-mobile": {
+    "children": [
+      "flex-layout.col#institutional-sidebar-mobile"
+    ],
+    "props": {
+      "blockClass": "institutionalContainer"
+    }
+  },
+
+  "flex-layout.row#faq-cassol-card-mobile": {
+    "children": [
+      "flex-layout.col#content-faq-cassol-card-mobile"
+    ],
+    "props": {
+      "blockClass": "institutionalContainer"
+    }
+  },
+
+  "flex-layout.col#content-faq-cassol-card-mobile": {
+    "children": [
+      "rich-text#faq-cassol-card",
+      "disclosure-layout#faq--cartao-cassol-1",
+      "disclosure-layout#faq--cartao-cassol-2",
+      "disclosure-layout#faq--cartao-cassol-3",
+      "disclosure-layout#faq--cartao-cassol-4",
+      "disclosure-layout#faq--cartao-cassol-5",
+      "disclosure-layout#faq--cartao-cassol-6",
+      "disclosure-layout#faq--cartao-cassol-7"
+    ],
+    "props": {
+      "blockClass": "textColumn",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "flex-layout.col#content-faq-cassol-card": {
+    "children": [
+      "rich-text#faq-cassol-card",
+      "disclosure-layout#faq--cartao-cassol-1",
+      "disclosure-layout#faq--cartao-cassol-2",
+      "disclosure-layout#faq--cartao-cassol-3",
+      "disclosure-layout#faq--cartao-cassol-4",
+      "disclosure-layout#faq--cartao-cassol-5",
+      "disclosure-layout#faq--cartao-cassol-6",
+      "disclosure-layout#faq--cartao-cassol-7"
+    ],
+    "props": {
+      "blockClass": "textColumn",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "rich-text#faq-cassol-card": {
+    "props": {
+      "text": "### **FAQ Cartão cassol** \n \n ##### **PERGUNTAS FREQUENTES DO CARTÃO CASSOL**",
+      "blockClass": "aboutContent"
+    }
+  },
+
+
+  "disclosure-layout#faq--cartao-cassol-1": {
+    "props": {
+      "animated": true
+    },
+    "children": [
+      "disclosure-trigger#faq--cartao-cassol-1",
+      "disclosure-content#faq--cartao-cassol-1"
+    ]
+  },
+
+  "disclosure-trigger#faq--cartao-cassol-1": {
+    "props": {
+      "blockClass": "question",
+      "as": "div"
+    },
+    "children": ["rich-text#faq--cartao-cassol-1", "disclosure-state-indicator"]
+  },
+
+  "rich-text#faq--cartao-cassol-1": {
+    "props": {
+      "text": "Como lembrar a minha senha do Cartão Cassol ou solicitar 2ª via?"
+    }
+  },
+
+  "disclosure-content#faq--cartao-cassol-1": {
+    "props": {
+      "blockClass": "answer"
+    },
+    "children": ["rich-text#faq-content--cartao-cassol-1"]
+  },
+
+  "rich-text#faq-content--cartao-cassol-1": {
+    "props": {
+      "text": "A senha do Cartão Cassol foi criada e registrada no dia que houve a emissão do seu cartão. Esta senha possui 4 dígitos e somente números , é a segurança do cliente . Para cadastrar nova senha no cartão é necessário dirigir-se até uma de nossas lojas com documento de identidade original e o Cartão Cassol. Caso não possua mais o cartão, também poderá solicitar uma 2ª via na hora."
+    }
+  },
+  "disclosure-layout#faq--cartao-cassol-2": {
+    "props": {
+      "animated": true
+    },
+    "children": [
+      "disclosure-trigger#faq--cartao-cassol-2",
+      "disclosure-content#faq--cartao-cassol-2"
+    ]
+  },
+
+  "disclosure-trigger#faq--cartao-cassol-2": {
+    "props": {
+      "blockClass": "question",
+      "as": "div"
+    },
+    "children": ["rich-text#faq--cartao-cassol-2", "disclosure-state-indicator"]
+  },
+
+  "rich-text#faq--cartao-cassol-2": {
+    "props": {
+      "text": "Como posso negociar minha dívida do Cartão Cassol?"
+    }
+  },
+
+  "disclosure-content#faq--cartao-cassol-2": {
+    "props": {
+      "blockClass": "answer"
+    },
+    "children": ["rich-text#faq-content--cartao-cassol-2"]
+  },
+
+  "rich-text#faq-content--cartao-cassol-2": {
+    "props": {
+      "text": "Para débitos em atraso, entre em contato com a nossa Central de Negociação através do telefone 4007-2018, de segunda a sexta das 8h às 20h e sábados das 8h às 14h."
+    }
+  },
+  "disclosure-layout#faq--cartao-cassol-3": {
+    "props": {
+      "animated": true
+    },
+    "children": [
+      "disclosure-trigger#faq--cartao-cassol-3",
+      "disclosure-content#faq--cartao-cassol-3"
+    ]
+  },
+
+  "disclosure-trigger#faq--cartao-cassol-3": {
+    "props": {
+      "blockClass": "question",
+      "as": "div"
+    },
+    "children": ["rich-text#faq--cartao-cassol-3", "disclosure-state-indicator"]
+  },
+
+  "rich-text#faq--cartao-cassol-3": {
+    "props": {
+      "text": "Como solicitar o Cartão Cassol?"
+    }
+  },
+
+  "disclosure-content#faq--cartao-cassol-3": {
+    "props": {
+      "blockClass": "answer"
+    },
+    "children": ["rich-text#faq-content--cartao-cassol-2"]
+  },
+
+  "rich-text#faq-content--cartao-cassol-3": {
+    "props": {
+      "text": "O Cartão Cassol pode ser solicitado em nossas lojas físicas no setor de crediário ou pelo WhatsApp   4007-2018."
+    }
+  },
+  "disclosure-layout#faq--cartao-cassol-4": {
+    "props": {
+      "animated": true
+    },
+    "children": [
+      "disclosure-trigger#faq--cartao-cassol-4",
+      "disclosure-content#faq--cartao-cassol-4"
+    ]
+  },
+
+  "disclosure-trigger#faq--cartao-cassol-4": {
+    "props": {
+      "blockClass": "question",
+      "as": "div"
+    },
+    "children": ["rich-text#faq--cartao-cassol-4", "disclosure-state-indicator"]
+  },
+
+  "rich-text#faq--cartao-cassol-4": {
+    "props": {
+      "text": "Posso consultar meu limite do Cartão Cassol pelo site?"
+    }
+  },
+
+  "disclosure-content#faq--cartao-cassol-4": {
+    "props": {
+      "blockClass": "answer"
+    },
+    "children": ["rich-text#faq-content--cartao-cassol-2"]
+  },
+
+  "rich-text#faq-content--cartao-cassol-4": {
+    "props": {
+      "text": "Para consultar seu limite acesse a área do cliente Acesse sua fatura online aqui tenha em mãos o numero do seu Cartão Cassol e CPF ou pelo APP do Cartão Cassol."
+    }
+  },
+  "disclosure-layout#faq--cartao-cassol-5": {
+    "props": {
+      "animated": true
+    },
+    "children": [
+      "disclosure-trigger#faq--cartao-cassol-5",
+      "disclosure-content#faq--cartao-cassol-5"
+    ]
+  },
+
+  "disclosure-trigger#faq--cartao-cassol-5": {
+    "props": {
+      "blockClass": "question",
+      "as": "div"
+    },
+    "children": ["rich-text#faq--cartao-cassol-5", "disclosure-state-indicator"]
+  },
+
+  "rich-text#faq--cartao-cassol-5": {
+    "props": {
+      "text": "Informações sobre o Cartão Cassol?"
+    }
+  },
+
+  "disclosure-content#faq--cartao-cassol-5": {
+    "props": {
+      "blockClass": "answer"
+    },
+    "children": ["rich-text#faq-content--cartao-cassol-2"]
+  },
+
+  "rich-text#faq-content--cartao-cassol-5": {
+    "props": {
+      "text": "Para mais informações através do telefone 4007-2018 ou em nossas lojas."
+    }
+  },
+  "disclosure-layout#faq--cartao-cassol-6": {
+    "props": {
+      "animated": true
+    },
+    "children": [
+      "disclosure-trigger#faq--cartao-cassol-6",
+      "disclosure-content#faq--cartao-cassol-6"
+    ]
+  },
+
+  "disclosure-trigger#faq--cartao-cassol-6": {
+    "props": {
+      "blockClass": "question",
+      "as": "div"
+    },
+    "children": ["rich-text#faq--cartao-cassol-6", "disclosure-state-indicator"]
+  },
+
+  "rich-text#faq--cartao-cassol-6": {
+    "props": {
+      "text": "Como solicitar a atualização dos meus dados cadastrais do Cartão Cassol?"
+    }
+  },
+
+  "disclosure-content#faq--cartao-cassol-6": {
+    "props": {
+      "blockClass": "answer"
+    },
+    "children": ["rich-text#faq-content--cartao-cassol-2"]
+  },
+
+  "rich-text#faq-content--cartao-cassol-6": {
+    "props": {
+      "text": "Atualização dos dados cadastrais é feito somente em loja no setor de crediário."
+    }
+  },
+  "disclosure-layout#faq--cartao-cassol-7": {
+    "props": {
+      "animated": true
+    },
+    "children": [
+      "disclosure-trigger#faq--cartao-cassol-7",
+      "disclosure-content#faq--cartao-cassol-7"
+    ]
+  },
+
+  "disclosure-trigger#faq--cartao-cassol-7": {
+    "props": {
+      "blockClass": "question",
+      "as": "div"
+    },
+    "children": ["rich-text#faq--cartao-cassol-7", "disclosure-state-indicator"]
+  },
+
+  "rich-text#faq--cartao-cassol-7": {
+    "props": {
+      "text": "Como faço para acessar minha fatura do Cartão Cassol?"
+    }
+  },
+
+  "disclosure-content#faq--cartao-cassol-7": {
+    "props": {
+      "blockClass": "answer"
+    },
+    "children": ["rich-text#faq-content--cartao-cassol-2"]
+  },
+
+  "rich-text#faq-content--cartao-cassol-7": {
+    "props": {
+      "text": "A fatura pode ser consultada na através do link  Acesse sua fatura online [aqui](https://www.dmcardweb.com.br/cassol/Associados/login.aspx?cod=015&LIB=TRUE) ou pelo APP do Cartão Cassol."
+    }
+  }
+}

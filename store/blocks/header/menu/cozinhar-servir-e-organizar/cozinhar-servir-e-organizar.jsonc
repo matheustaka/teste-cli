@@ -1,0 +1,71 @@
+{
+  "menu-item#cozinhar-servir-e-organizar": {
+    "props": {
+      "id": "menu-item-cozinhar-servir-e-organizar",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cozinhar-servir-e-organizar",
+        "noFollow": true,
+        "tagTitle": "Cozinhar, Servir e Organizar",
+        "text": "Cozinhar, Servir e Organizar"
+      },
+      "blockClass": ["department", "have-children"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#cozinhar-servir-e-organizar"]
+  },
+
+  "vtex.menu@2.x:submenu#cozinhar-servir-e-organizar": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#cozinhar-servir-e-organizar"]
+  },
+
+  "vtex.menu@2.x:menu#cozinhar-servir-e-organizar": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "drop-category"
+    },
+    "children": [
+      "rich-text#department-cozinhar-servir-e-organizar",
+      "menu-item#cozinhar-servir-e-organizar-ver-todos",
+      "menu-item#acessorios-de-mesa-e-copa",
+      "menu-item#bar-e-vinho",
+      "menu-item#complementos-de-mesa",
+      "menu-item#facas",
+      "menu-item#facas-faqueiros-e-talheres",
+      "menu-item#fruteira",
+      "menu-item#organizacao-da-cozinha",
+      "menu-item#panelas",
+      "menu-item#pratos-xicaras-e-canecas",
+      "menu-item#preparar-a-mesa",
+      "menu-item#tacas-copos-e-jarras",
+      "menu-item#utensilios-de-cozinha"
+    ]
+  },
+  "rich-text#department-cozinhar-servir-e-organizar": {
+    "props": {
+      "text": "Cozinhar, Servir e Organizar",
+      "blockClass": "titulo-menu-department"
+    }
+  },
+  "menu-item#cozinhar-servir-e-organizar-ver-todos": {
+    "props": {
+      "id": "menu-item-cozinhar-servir-e-organizar-ver-todos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cozinhar-servir-e-organizar",
+        "noFollow": true,
+        "tagTitle": "Ver todos os produtos",
+        "text": "Ver todos os produtos"
+      },
+      "blockClass": ["ver-todos"]
+    }
+  }
+}

@@ -1,0 +1,584 @@
+.styledLinkContent--sidebarMenu {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.styledLinkContent--sidebarMenu:hover {
+  font-weight: 700;
+}
+
+.submenuAccordion {
+  display: block;
+}
+
+.menuItem--accordionTitle {
+  border-radius: 5px;
+  border: 2px solid #e9e9e9;
+}
+
+@media (max-width: 767.98px) {
+  .styledLinkContent--accordionTitle {
+    font-size: 12px;
+    color: #184077;
+    font-weight: 700;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
+
+@media (min-width: 767.99px) {
+  .styledLinkContent--accordionTitleDesktop {
+    color: #184077;
+
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 15px;
+  }
+
+  .styledLinkContainer--sidebarMenu {
+    margin-left: 25px;
+    margin-right: 10px;
+  }
+}
+
+.styledLinkContainer--department {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.accordionIcon--isClosed {
+  width: 12px;
+  height: 8px;
+  font-size: 0;
+  margin-top: 4px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-image: url("https://cassol.vtexassets.com/arquivos/arrowdown.png");
+}
+
+.accordionIcon--isOpen {
+  width: 12px;
+  height: 8px;
+  font-size: 0;
+  margin-top: 4px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-image: url("https://cassol.vtexassets.com/arquivos/arrowup.png");
+}
+
+.styledLinkContent--menu-footer-titulo {
+  cursor: default;
+  font-weight: 700;
+  font-size: 14px;
+  color: #184077;
+  margin-bottom: 6px;
+}
+
+.styledLinkContent--menu-footer-titulo--area-restrita {
+  cursor: default;
+  font-weight: 700;
+  font-size: 14px;
+  color: #184077;
+  margin-top: 17px;
+  margin-bottom: 6px;
+}
+
+.menuItem--accordionFooter {
+  border: none;
+  padding: 15px 0 0 0;
+}
+
+.menuItem--accordionFooter .styledLinkContent--accordionFooter {
+  font-weight: 700;
+  font-size: 18px;
+  color: #184077;
+}
+
+.menuItem--accordionFooter .styledLink {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 25px;
+  text-align: left;
+  color: #2d2e3a;
+}
+
+.menuItem--accordionFooter .styledLinkContent--menu-footer-titulo {
+  display: none;
+}
+
+.menuItem--accordionFooter
+  .submenuAccordion--sideBarAccordionMobile
+  .styledLinkContainer,
+.styledLinkContainer--accordionFooter {
+  margin: 0 !important;
+  padding: 0;
+}
+
+.submenuAccordion--sideBarAccordionMobile {
+  padding: 0;
+}
+
+.accordionIcon--accordionFooter--isClosed {
+  height: auto;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath id='Caminho_60' data-name='Caminho 60' d='M14.01,19.026H9.135v4.9H6.885v-4.9H2.01V16.862H6.885V11.93h2.25v4.932H14.01Z' transform='translate(-2.01 -11.93)' fill='%23184077'/%3E%3C/svg%3E%0A") !important;
+}
+
+.accordionIcon--accordionFooter--isOpen {
+  margin-top: 12px;
+  height: auto;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='2.164' viewBox='0 0 12 2.164'%3E%3Cpath id='Caminho_60' data-name='Caminho 60' d='M14.01,19.026h-12V16.862h12Z' transform='translate(-2.01 -16.862)' fill='%23184077'/%3E%3C/svg%3E%0A") !important;
+}
+
+.styledLinkContent--department {
+  color: black;
+  font-size: 12px;
+  font-weight: 700;
+  text-align: left;
+}
+
+.styledLinkContent--first-department {
+  font-weight: 900;
+}
+
+@media (max-width: 1024px) {
+  .menuContainerNav--drawer {
+    width: 100%;
+  }
+  .styledLinkContainer--last-department,
+  .styledLinkContainer--department {
+    padding: 12px;
+    margin: 0 7px;
+  }
+
+  .styledLinkContainer--first-department {
+    border-color: #d5d5d5;
+  }
+
+  .submenuWrapper .submenu {
+    justify-content: left !important;
+  }
+
+  .menuContainerNav {
+    width: 100%;
+  }
+
+  .submenuContainer,
+  .submenuWrapper--isOpen {
+    position: static !important;
+  }
+
+  .menuContainer {
+    margin-bottom: 24px;
+  }
+
+  .styledLinkContent--childSub {
+    font-weight: 400;
+
+    font-size: 14px;
+    text-align: left;
+    color: #2d2e3a;
+    width: 77%;
+    white-space: break-spaces;
+    overflow: hidden;
+    align-items: center;
+    text-overflow: ellipsis;
+    height: 32px;
+  }
+
+  .menuItem--department .styledLinkContainer--childSub {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    padding: 0 12px;
+  }
+
+  .menuItem--have-children {
+    position: relative;
+  }
+
+  .menuItem--have-children
+    .submenuContainer
+    .submenuWrapper--isOpen
+    .styledLinkContainer {
+    padding: 0.25rem 12px;
+  }
+
+  .menuItem--have-children .submenuContainer .submenuWrapper--isOpen {
+    margin: 0;
+  }
+
+  .submenuWrapper--isOpen::before {
+    content: "";
+    background-repeat: no-repeat;
+    background-size: contain;
+    right: 19px;
+    height: 30px;
+    width: 30px;
+    top: 6px;
+    float: right;
+    background: #ffffff;
+    position: absolute;
+    z-index: 999999;
+  }
+
+  .submenuWrapper--isOpen::after {
+    content: "";
+    background: url("https://cassol.vteximg.com.br/arquivos/arrow_top.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    right: 35px;
+    height: 11px;
+    width: 14px;
+    top: 17px;
+    float: right;
+    position: absolute;
+    z-index: 999999;
+  }
+
+  .menuItem--have-children::after {
+    content: "";
+    background: url("https://cassol.vteximg.com.br/arquivos/arrow_down.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    right: 35px;
+    height: 11px;
+    width: 14px;
+    top: 17px;
+    float: right;
+    position: absolute;
+  }
+
+  .menuItem--childSub .submenuWrapper--isOpen::before {
+    right: 24px;
+    top: 2px;
+  }
+
+  .menuItem--childSub .submenuWrapper--isOpen::after {
+    top: 17px;
+  }
+
+  .submenuWrapper--isOpen {
+    padding: 0;
+    border: 0;
+  }
+
+  .menuItem--childSub .submenuContainer .submenuWrapper--isOpen {
+    margin: 0;
+  }
+
+  .menuItem--childSub .submenuWrapper--isOpen .submenu {
+    padding: 0;
+  }
+
+  .styledLink--department .menuContainerNav {
+    width: 100%;
+    padding-left: 30px;
+  }
+
+  .styledLink--department {
+    text-transform: initial;
+    display: block;
+    width: 84%;
+  }
+
+  :global(.vtex-store-drawer-0-x-closeIconContainer),
+  .menuItem--first-department {
+    background: #eeeeee;
+  }
+
+  .menuItem.menuItem--department {
+    border-bottom: 1px solid #e9e9e9;
+  }
+
+  .menuItem--first-department {
+    border-bottom: none !important;
+  }
+
+  .styledLinkContainer--first-department {
+    border-top: 1px solid #d5d5d5;
+  }
+
+  .menuItem--last-department::after,
+  .menuItem--first-department::after {
+    display: none;
+  }
+
+  .menuItem--first-department .styledLinkContent--first-department {
+    font-weight: 700;
+    font-size: 16px;
+    text-align: left;
+    color: #2d2e3a;
+  }
+
+  .submenu .menuContainerNav {
+    width: 100%;
+  }
+
+  .menuItem--childSub .submenuContainer .styledLinkContent {
+    font-weight: 400;
+
+    font-size: 14px;
+    text-align: left;
+    color: #707070;
+    margin: 6px 0;
+  }
+  .styledLinkContent--ver-todos {
+    font-weight: 700;
+    font-size: 14px;
+    color: #2d2e3a;
+    height: 32px;
+    align-items: center;
+  }
+  .styledLink--childSub.styledLink--have-children,
+  .styledLink--department.styledLink--have-children {
+    pointer-events: none;
+    cursor: default;
+    width: 0;
+  }
+}
+
+@media (min-width: 1025px) {
+  .styledLinkContent--department {
+    color: #fff;
+    font-size: 12px;
+    text-align: left;
+  }
+
+  .menuItem--last-department {
+    background: #d61016;
+  }
+
+  .styledLinkContent--last-department {
+    font-weight: 700;
+    font-size: 14px;
+    color: #fff;
+  }
+
+  .styledLinkContainer--first-department {
+    margin-left: 0 !important;
+  }
+
+  .styledLinkContent--first-department::before {
+    content: "";
+    width: 18px;
+    height: 12px;
+    margin-right: 5px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("data:image/svg+xml,%3Csvg id='menu_1_' data-name='menu (1)' xmlns='http://www.w3.org/2000/svg' width='18' height='12' viewBox='0 0 18 12'%3E%3Cg id='Grupo_4' data-name='Grupo 4'%3E%3Cg id='Grupo_3' data-name='Grupo 3'%3E%3Crect id='Retângulo_5' data-name='Retângulo 5' width='18' height='2' transform='translate(0 10)' fill='%23fff'/%3E%3Crect id='Retângulo_6' data-name='Retângulo 6' width='18' height='2' transform='translate(0 5)' fill='%23fff'/%3E%3Crect id='Retângulo_7' data-name='Retângulo 7' width='18' height='2' fill='%23fff'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  }
+  .menuContainer--menu-topo {
+    justify-content: space-between;
+  }
+
+  .menuItem--ver-todos {
+    display: none;
+  }
+  .submenuWrapper--isOpen,
+  .submenu .menuContainer {
+    width: 282px;
+    margin: 0;
+    height: 400px;
+    z-index: 9999;
+  }
+
+  .submenuWrapper--isOpen {
+    top: 2px;
+  }
+
+  .childSub .menuContainer {
+    overflow-y: auto;
+    height: 375px;
+  }
+  .menuItem--childSub.menuItem--have-children .styledLinkContent,
+  .styledLinkContent--childSub {
+    font-weight: 700;
+    font-size: 12px;
+    text-align: left;
+    color: #184077;
+    width: 26ch;
+    white-space: normal !important;
+  }
+
+  .menuItem--have-children .menuItem--childSub .submenuWrapper--isOpen {
+    margin: 0;
+    background: #f3f3f3;
+    left: 282px;
+    top: 0;
+  }
+
+  .menuItem--department:hover {
+    background: white;
+    border-color: transparent;
+  }
+
+  .menuItem--department:hover .styledLinkContent--department {
+    color: #184077;
+  }
+
+  .styledLinkContainer--childSub.styledLinkContainer--have-children::after {
+    content: "";
+    width: 10px;
+    height: 10px;
+    display: flex;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='7.52' height='12.801' viewBox='0 0 7.52 12.801'%3E%3Cg id='back' transform='translate(109 12.801) rotate(180)'%3E%3Cg id='Grupo_4593' data-name='Grupo 4593' transform='translate(101.48 0)'%3E%3Cpath id='Caminho_69' data-name='Caminho 69' d='M104.007,6.4,108.8,1.614a.7.7,0,0,0,0-.99L108.376.2a.7.7,0,0,0-.99,0l-5.7,5.7a.707.707,0,0,0,0,.994l5.7,5.7a.7.7,0,0,0,.99,0l.42-.419a.7.7,0,0,0,0-.99Z' transform='translate(-101.48 0)' fill='%23707070'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E%0A");
+    position: absolute;
+    top: 6px;
+    right: 15px;
+  }
+
+  .menuItem--childSub.menuItem--have-children:hover
+    .styledLinkContainer--childSub.styledLinkContainer--have-children::after {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='7.52' height='12.801' viewBox='0 0 7.52 12.801'%3E%3Cg id='back' transform='translate(109 12.801) rotate(180)'%3E%3Cg id='Grupo_4593' data-name='Grupo 4593' transform='translate(101.48 0)'%3E%3Cpath id='Caminho_69' data-name='Caminho 69' d='M104.007,6.4,108.8,1.614a.7.7,0,0,0,0-.99L108.376.2a.7.7,0,0,0-.99,0l-5.7,5.7a.707.707,0,0,0,0,.994l5.7,5.7a.7.7,0,0,0,.99,0l.42-.419a.7.7,0,0,0,0-.99Z' transform='translate(-101.48 0)' fill='%23184077'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E%0A");
+  }
+
+  .menuItem--first-department .submenuWrapper {
+    border: none;
+    padding: 0;
+    top: 3px;
+  }
+
+  .menuItem--first-department .menuItem--department {
+    padding: 4.5px 0;
+    border-bottom: 0.25px solid #e9e9e9;
+  }
+
+  .menuItem--first-department .menuItem--department:hover {
+    border-color: #e9e9e9;
+  }
+
+  .menuItem--first-department .menuItem--department .submenuWrapper--isOpen {
+    margin: 0;
+    background: #f3f3f3;
+    left: 282px;
+    padding: 10px 0;
+    position: absolute;
+    top: 0 !important;
+    height: 575px;
+  }
+
+  .menuItem--first-department
+    .menuItem--department
+    .menuItem--childSub.menuItem--have-children
+    .submenuWrapper--isOpen {
+    top: -10px !important;
+    background: #e8e8e8;
+  }
+
+  .menuItem--first-department .menuContainer {
+    position: relative !important;
+  }
+
+  .menuItem--first-department
+    .menuItem--department
+    .menuItem--childSub.menuItem--have-children {
+    position: initial;
+  }
+
+  .menuItem--first-department
+    .menuItem--department
+    .menuItem--childSub.menuItem--have-children
+    .styledLinkContainer--childSub.styledLinkContainer--have-children {
+    position: relative;
+  }
+
+  .menuItem--first-department .menuItem--department.menuItem--have-children {
+    position: initial !important;
+  }
+
+  .menuItem--first-department
+    .menuItem--department.menuItem--have-children
+    .submenuContainer {
+    position: initial !important;
+  }
+
+  .menuItem--first-department .menuItem--department.menuItem--have-children {
+    background-position-x: 94%;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='7.52' height='12.801' viewBox='0 0 7.52 12.801'%3E%3Cg id='back' transform='translate(109 12.801) rotate(180)'%3E%3Cg id='Grupo_4593' data-name='Grupo 4593' transform='translate(101.48 0)'%3E%3Cpath id='Caminho_69' data-name='Caminho 69' d='M104.007,6.4,108.8,1.614a.7.7,0,0,0,0-.99L108.376.2a.7.7,0,0,0-.99,0l-5.7,5.7a.707.707,0,0,0,0,.994l5.7,5.7a.7.7,0,0,0,.99,0l.42-.419a.7.7,0,0,0,0-.99Z' transform='translate(-101.48 0)' fill='%23707070'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E%0A");
+  }
+  .menuItem--first-department
+    .menuItem--department.menuItem--have-children:hover
+    .styledLinkContent--department.styledLinkContent--have-children {
+    color: #184077;
+    font-weight: 700;
+  }
+
+  .menuItem--first-department
+    .menuItem--department.menuItem--have-children:hover {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='7.52' height='12.801' viewBox='0 0 7.52 12.801'%3E%3Cg id='back' transform='translate(109 12.801) rotate(180)'%3E%3Cg id='Grupo_4593' data-name='Grupo 4593' transform='translate(101.48 0)'%3E%3Cpath id='Caminho_69' data-name='Caminho 69' d='M104.007,6.4,108.8,1.614a.7.7,0,0,0,0-.99L108.376.2a.7.7,0,0,0-.99,0l-5.7,5.7a.707.707,0,0,0,0,.994l5.7,5.7a.7.7,0,0,0,.99,0l.42-.419a.7.7,0,0,0,0-.99Z' transform='translate(-101.48 0)' fill='%23184077'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E%0A");
+  }
+  .menuContainer.menuContainer--drop-category .menuItem.menuItem--childSub.menuItem--have-children {
+    position: relative;
+  }
+
+  .menuContainer.menuContainer--drop-category .menuItem.menuItem--childSub.menuItem--have-children,
+  .menuContainer .menuItem.menuItem--childSub.menuItem--have-children .submenuContainer {
+    position: initial !important;
+  }
+
+  .menuContainer .menuItem.menuItem--childSub.menuItem--have-children .styledLinkContainer--childSub.styledLinkContainer--have-children {
+    position: relative !important;
+  }
+
+  .styledLinkContainer--childSub.styledLinkContainer--have-children::after {
+    right: -10px !important;
+  }
+  .menuItem.menuItem--childSub.menuItem--have-children .submenuWrapper .submenu .menuContainerNav .menuContainer {
+    overflow: hidden;
+    overflow-y: auto;
+    height: 380px;
+  }
+
+  .menuItem--first-department  .menuItem.menuItem--childSub.menuItem--have-children .submenuWrapper .submenu .menuContainerNav .menuContainer {
+    height: 480px;
+  }
+  .menuItem--first-department .submenuWrapper--isOpen {
+    height: 570px;
+  }
+
+  .menuItem--dropdown-inverter .submenuWrapper.submenuWrapper--isOpen {
+    left: -170px;
+  }
+
+  .menuItem--dropdown-inverter .menuItem--have-children.menuItem--childSub .submenuWrapper--isOpen {
+    left: -282px !important;
+  }
+
+  .menuItem--first-department .menuItem--dropdown-inverter .submenuWrapper.submenuWrapper--isOpen {
+    left: 282px !important;
+  }
+
+  .menuItem--first-department .menuItem--dropdown-inverter .menuItem--have-children.menuItem--childSub .submenuWrapper--isOpen {
+    left: 282px !important;
+  }
+
+  .menuItem--penultimate-department
+  .menuItem--childSub
+  .submenuWrapper--isOpen {
+    left: -282px;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1425px) {
+  .menuItem--first-department .menuItem--department {
+    padding: 3px 0 !important;
+  }
+  .menuItem--first-department .menuItem--department .submenuWrapper--isOpen {
+    height: 504px !important;
+  }
+  .menuItem--first-department .submenuWrapper--isOpen {
+    max-height: 504px !important;
+  }
+  .submenuWrapper--isOpen {
+    top: 3px;
+  }
+}

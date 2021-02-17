@@ -1,0 +1,104 @@
+{
+  "menu-item#tanques": {
+    "props": {
+      "id": "menu-item-tanques",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cozinha-e-lavanderia/tanques",
+        "noFollow": true,
+        "tagTitle": "Tanques",
+        "text": "Tanques"
+      },
+      "blockClass": ["childSub", "have-children"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#tanques"]
+  },
+
+  "vtex.menu@2.x:submenu#tanques": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#tanques"]
+  },
+
+  "vtex.menu@2.x:menu#tanques": {
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-tanques-ver-todos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinha-e-lavanderia/tanques",
+            "noFollow": true,
+            "tagTitle": "Ver todos os produtos",
+            "text": "Ver todos os produtos"
+          },
+          "blockClass": ["ver-todos"]
+        },
+        {
+          "id": "menu-item-tanque-com-gabinete",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinha-e-lavanderia/tanques/tanque-com-gabinete",
+            "noFollow": true,
+            "tagTitle": "Tanque com Gabinete",
+            "text": "Tanque com Gabinete"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-tanque-de-inox",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinha-e-lavanderia/tanques/tanque-de-inox",
+            "noFollow": true,
+            "tagTitle": "Tanque de Inox",
+            "text": "Tanque de Inox"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-tanque-de-louca",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinha-e-lavanderia/tanques/tanque-de-louca",
+            "noFollow": true,
+            "tagTitle": "Tanque de Louça",
+            "text": "Tanque de Louça"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-tanque-de-plastico",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinha-e-lavanderia/tanques/tanque-de-plastico",
+            "noFollow": true,
+            "tagTitle": "Tanque de Plástico",
+            "text": "Tanque de Plástico"
+          },
+          "blockClass": "child"
+        }
+      ]
+    }
+  }
+}

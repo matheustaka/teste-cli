@@ -1,0 +1,70 @@
+{
+  "menu-item#pisos-e-revestimentos": {
+    "props": {
+      "id": "menu-item-pisos-e-revestimentos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/pisos-e-revestimentos",
+        "noFollow": true,
+        "tagTitle": "Pisos e Revestimentos",
+        "text": "Pisos e Revestimentos"
+      },
+      "blockClass": ["department", "have-children"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#pisos-e-revestimentos"]
+  },
+
+  "vtex.menu@2.x:submenu#pisos-e-revestimentos": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#pisos-e-revestimentos"]
+  },
+
+  "vtex.menu@2.x:menu#pisos-e-revestimentos": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "drop-category"
+    },
+    "children": [
+      "rich-text#department-pisos-e-revestimentos",
+      "menu-item#pisos-e-revestimentos-ver-todos",
+      "menu-item#faixas-tozzetos-e-rodapes",
+      "menu-item#nichos",
+      "menu-item#pastilhas",
+      "menu-item#pedras-naturais",
+      "menu-item#pisos-ceramicos",
+      "menu-item#pisos-cimenticios",
+      "menu-item#pisos-laminados-de-madeira",
+      "menu-item#pisos-vinilicos",
+      "menu-item#porcelanatos",
+      "menu-item#porcelanatos-polidos",
+      "menu-item#revestimentos-para-parede"
+    ]
+  },
+  "rich-text#department-pisos-e-revestimentos": {
+    "props": {
+      "text": "Pisos e Revestimentos",
+      "blockClass": "titulo-menu-department"
+    }
+  },
+  "menu-item#pisos-e-revestimentos-ver-todos": {
+    "props": {
+      "id": "menu-item-pisos-e-revestimentos-ver-todos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/pisos-e-revestimentos",
+        "noFollow": true,
+        "tagTitle": "Ver todos os produtos",
+        "text": "Ver todos os produtos"
+      },
+      "blockClass": [ "ver-todos"]
+    }
+  }
+}

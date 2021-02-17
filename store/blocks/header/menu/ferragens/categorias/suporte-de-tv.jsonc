@@ -1,0 +1,18 @@
+{
+  "menu-item#suporte-de-tv": {
+    "props": {
+      "id": "menu-item-suporte-de-tv",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/ferragens/suporte-de-tv",
+        "noFollow": true,
+        "tagTitle": "Suporte de TV",
+        "text": "Suporte de TV"
+      },
+      "blockClass": "childSub"
+    }
+  }
+}

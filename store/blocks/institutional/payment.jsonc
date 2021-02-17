@@ -1,0 +1,129 @@
+{
+  "store.custom#payment": {
+    "blocks": [
+      "responsive-layout.desktop#payment",
+      "responsive-layout.tablet#payment",
+      "responsive-layout.phone#payment"
+    ]
+  },
+
+  "responsive-layout.desktop#payment": {
+    "children": [
+      "breadcrumb",
+      "flex-layout.row#payment-desktop"
+    ]
+  },
+
+  "responsive-layout.tablet#payment": {
+    "children": [
+      "breadcrumb",
+      "flex-layout.row#payment-menu-mobile",
+      "flex-layout.row#payment-mobile"
+    ]
+  },
+
+  "responsive-layout.phone#payment": {
+    "children": [
+      "breadcrumb",
+      "flex-layout.row#payment-menu-mobile",
+      "flex-layout.row#payment-mobile"
+    ]
+  },
+
+  "flex-layout.row#payment-desktop": {
+    "children": [
+      "flex-layout.col#institutional-sidebar-desktop",
+      "flex-layout.col#content-payment"
+    ],
+    "props": {
+      "blockClass": "institutionalContainer"
+    }
+  },
+
+  "flex-layout.row#payment-menu-mobile": {
+    "children": [
+      "flex-layout.col#institutional-sidebar-mobile"
+    ],
+    "props": {
+      "blockClass": "institutionalContainer"
+    }
+  },
+
+  "flex-layout.row#payment-mobile": {
+    "children": [
+      "flex-layout.col#content-payment-mobile"
+    ],
+    "props": {
+      "blockClass": "institutionalContainer"
+    }
+  },
+
+  "flex-layout.col#content-payment-mobile": {
+    "children": [
+      "rich-text#payment",
+      "rich-text#payment--para-voce",
+      "rich-text#payment--para-empresa",
+      "image#payment--para-empresa",
+      "rich-text#payment--outros",
+      "image#payment--payment-methods-mobile"
+    ],
+    "props": {
+      "blockClass": "textColumn",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "flex-layout.col#content-payment": {
+    "children": [
+      "rich-text#payment",
+      "rich-text#payment--para-voce",
+      "rich-text#payment--para-empresa",
+      "image#payment--para-empresa",
+      "rich-text#payment--outros",
+      "flex-layout.row#payment-methods"
+    ],
+    "props": {
+      "blockClass": "textColumn",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "rich-text#payment": {
+    "props": {
+      "text": "### **Pagamento** \n \n Na Cassol Centelar você encontra o financiamento ideal para sua construção ou reforma. Para maiores informações sobre taxas e prazos de pagamentos, clique e consulte o banco de sua preferência. \n \n Não realizamos venda por atacado. Sendo assim, a quantidade máxima permitida por CPF ou CNPJ é de 10 itens de cada produto. Pedidos acima dessa quantidade serão analisados e poderão ser cancelados.",
+      "blockClass": "aboutContent"
+    }
+  },
+  "rich-text#payment--para-voce": {
+    "props": {
+      "text": "##### **Para Você** \n \n ![cartões para voce](https://cassol.vtexassets.com/arquivos/cartoes-pagamento.png)",
+      "blockClass": "aboutContent"
+    }
+  },
+  "rich-text#payment--para-empresa": {
+    "props": {
+      "text": "##### **Para Sua Empresa** \n \n",
+      "blockClass": "aboutContent"
+    }
+  },
+  "image#payment--para-empresa": {
+    "props": {
+      "src": "https://cassol.vtexassets.com/arquivos/cartoes-para-empresa.png",
+      "maxWidth": 126, 
+      "blockClass": "aboutContent"
+    }
+  },
+  "rich-text#payment--outros": {
+    "props": {
+      "text": "Aceitamos os principais cartões de crédito e débito existentes no mercado. \n \n ",
+      "blockClass": "aboutContent"
+    }
+  },
+
+  "image#payment--payment-methods-mobile": {
+    "props": {
+      "src": "https://cassol.vtexassets.com/arquivos/payment-methods-mobile.png",
+      "blockClass": "aboutContent"
+    }
+  }
+}

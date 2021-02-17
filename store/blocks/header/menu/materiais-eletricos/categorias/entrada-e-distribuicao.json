@@ -1,0 +1,182 @@
+{
+  "menu-item#entrada-e-distribuicao": {
+    "props": {
+      "id": "menu-item-entrada-e-distribuicao",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/materiais-eletricos/entrada-e-distribuicao",
+        "noFollow": true,
+        "tagTitle": "Entrada e Distribuição",
+        "text": "Entrada e Distribuição"
+      },
+      "blockClass": ["childSub", "have-children"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#entrada-e-distribuicao"]
+  },
+
+  "vtex.menu@2.x:submenu#entrada-e-distribuicao": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#entrada-e-distribuicao"]
+  },
+
+  "vtex.menu@2.x:menu#entrada-e-distribuicao": {
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-abracadeira",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-eletricos/entrada-e-distribuicao/abracadeira",
+            "noFollow": true,
+            "tagTitle": "Abraçadeira",
+            "text": "Abraçadeira"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-armacao",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-eletricos/entrada-e-distribuicao/armacao",
+            "noFollow": true,
+            "tagTitle": "Armação",
+            "text": "Armação"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-caixa-de-medidor",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-eletricos/entrada-e-distribuicao/caixa-de-medidor",
+            "noFollow": true,
+            "tagTitle": "Caixa de Medidor",
+            "text": "Caixa de Medidor"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-caixa-de-protecao",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-eletricos/entrada-e-distribuicao/caixa-de-protecao",
+            "noFollow": true,
+            "tagTitle": "Caixa de Proteção",
+            "text": "Caixa de Proteção"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-conector-split",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-eletricos/entrada-e-distribuicao/conector-split",
+            "noFollow": true,
+            "tagTitle": "Conector Split",
+            "text": "Conector Split"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-fio-alta-temperatura",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-eletricos/entrada-e-distribuicao/fio-alta-temperatura",
+            "noFollow": true,
+            "tagTitle": "Fio Alta Temperatura",
+            "text": "Fio Alta Temperatura"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-haste-terra",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-eletricos/entrada-e-distribuicao/haste-terra",
+            "noFollow": true,
+            "tagTitle": "Haste Terra",
+            "text": "Haste Terra"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-isolador",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-eletricos/entrada-e-distribuicao/isolador",
+            "noFollow": true,
+            "tagTitle": "Isolador",
+            "text": "Isolador"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-poste-de-luz",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-eletricos/entrada-e-distribuicao/poste-de-luz",
+            "noFollow": true,
+            "tagTitle": "Poste de Luz",
+            "text": "Poste de Luz"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-terminal",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-eletricos/entrada-e-distribuicao/terminal",
+            "noFollow": true,
+            "tagTitle": "Terminal",
+            "text": "Terminal"
+          },
+          "blockClass": "child"
+        }
+      ]
+    }
+  }
+}

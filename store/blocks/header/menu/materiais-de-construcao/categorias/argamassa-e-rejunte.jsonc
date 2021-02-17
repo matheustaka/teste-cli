@@ -1,0 +1,90 @@
+{
+  "menu-item#argamassa-e-rejunte": {
+    "props": {
+      "id": "menu-item-argamassa-e-rejunte",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/materiais-de-construcao/argamassa-e-rejunte",
+        "noFollow": true,
+        "tagTitle": "Argamassa e Rejunte",
+        "text": "Argamassa e Rejunte"
+      },
+      "blockClass": ["childSub", "have-children"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#argamassa-e-rejunte"]
+  },
+
+  "vtex.menu@2.x:submenu#argamassa-e-rejunte": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#argamassa-e-rejunte"]
+  },
+
+  "vtex.menu@2.x:menu#argamassa-e-rejunte": {
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-argamassa-e-rejunte-ver-todos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-de-construcao/argamassa-e-rejunte",
+            "noFollow": true,
+            "tagTitle": "Ver todos os produtos",
+            "text": "Ver todos os produtos"
+          },
+          "blockClass": ["ver-todos"]
+        },
+        {
+          "id": "menu-item-argamassa",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-de-construcao/argamassa-e-rejunte/argamassa",
+            "noFollow": true,
+            "tagTitle": "Argamassa",
+            "text": "Argamassa"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-rejunte",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-de-construcao/argamassa-e-rejunte/rejunte",
+            "noFollow": true,
+            "tagTitle": "Rejunte",
+            "text": "Rejunte"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-tinta-para-rejunte",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-de-construcao/argamassa-e-rejunte/tinta-para-rejunte",
+            "noFollow": true,
+            "tagTitle": "Tinta para Rejunte",
+            "text": "Tinta para Rejunte"
+          },
+          "blockClass": "child"
+        }
+      ]
+    }
+  }
+}

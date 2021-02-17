@@ -1,0 +1,115 @@
+{
+  "store.custom#paint-factory": {
+    "blocks": [
+      "responsive-layout.desktop#paint-factory",
+      "responsive-layout.tablet#paint-factory",
+      "responsive-layout.phone#paint-factory"
+    ]
+  },
+
+  "responsive-layout.desktop#paint-factory": {
+    "children": [
+      "breadcrumb",
+      "flex-layout.row#paint-factory-desktop"
+    ]
+  },
+
+  "responsive-layout.tablet#paint-factory": {
+    "children": [
+      "breadcrumb",
+      "flex-layout.row#paint-factory-menu-mobile",
+      "flex-layout.row#paint-factory-mobile"
+    ]
+  },
+
+  "responsive-layout.phone#paint-factory": {
+    "children": [
+      "breadcrumb",
+      "flex-layout.row#paint-factory-menu-mobile",
+      "flex-layout.row#paint-factory-mobile"
+    ]
+  },
+
+  "flex-layout.row#paint-factory-desktop": {
+    "children": [
+      "flex-layout.col#institutional-sidebar-desktop",
+      "flex-layout.col#content-paint-factory"
+    ],
+    "props": {
+      "blockClass": "institutionalContainer"
+    }
+  },
+
+  "flex-layout.row#paint-factory-menu-mobile": {
+    "children": [
+      "flex-layout.col#institutional-sidebar-mobile"
+    ],
+    "props": {
+      "blockClass": "institutionalContainer"
+    }
+  },
+
+  "flex-layout.row#paint-factory-mobile": {
+    "children": [
+      "flex-layout.col#content-paint-factory-mobile"
+    ],
+    "props": {
+      "blockClass": "institutionalContainer"
+    }
+  },
+
+  "flex-layout.col#content-paint-factory-mobile": {
+    "children": [
+      "rich-text#paint-factory--titulo",
+      "flex-layout.row#paint-factory"
+    ],
+    "props": {
+      "blockClass": "textColumn",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "flex-layout.col#content-paint-factory": {
+    "children": [
+      "rich-text#paint-factory--titulo",
+      "flex-layout.row#paint-factory"
+    ],
+    "props": {
+      "blockClass": "textColumn",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "rich-text#paint-factory--titulo": {
+    "props": {
+      "text": "### **Fábrica de tintas** \n\n",
+      "blockClass": "aboutContent"
+    }
+  },
+
+  "flex-layout.row#paint-factory": {
+    "props": {
+      "blockClass": "sales-channels--container",
+      "preserveLayoutOnMobile": true,
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "image#paint-factory",
+      "rich-text#paint-factory"
+    ]
+  },
+
+  "image#paint-factory": {
+    "props": {
+      "src": "https://cassol.vtexassets.com/arquivos/fabrica-de-tintas.png",
+      "blockClass": ["imageAboutContent", "paint-factory"]
+    }
+  },
+
+  "rich-text#paint-factory": {
+    "props": {
+      "text": "Não deixe faltar imaginação. A Cassol Centerlar tem uma fábrica de tintas dentro da loja para você criar as mais diferentes combinações de cores. São diversas opções para os mais variados usos e superfícies. Aquele tom que você não acha em nenhum outro lugar, tem na Cassol. \n \n Faça a sua cor favorita. \n \n São milhares de opções que podem ser criadas na hora e no tom exato que você deseja. [***Confira em nossas lojas!***](/faltalink)",
+      "blockClass": "aboutContent-sales-channels"
+    }
+  }
+}

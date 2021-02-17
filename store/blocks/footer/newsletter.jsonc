@@ -1,0 +1,84 @@
+{
+  "form#newsletter": {
+    "props": {
+      "entity": "newsletter",
+      "schema": "Newsletter"
+    },
+    "children": [
+      "rich-text#tituloNewsletter",
+      "flex-layout.row#newsletter-input-name",
+      "flex-layout.row#newsletter-input-email",
+      "form-submit#newsletter-submit"
+    ],
+    "blocks": ["form-success#newsletter"]
+  },
+
+  "flex-layout.row#newsletter": {
+    "children": [
+      "form#newsletter"
+    ],
+    "props": {
+      "blockClass": "newsletter"
+    }
+  },
+
+  "rich-text#tituloNewsletter": {
+    "props": {
+      "text": "**Receba a melhores ofertas Cassol**",
+      "blockClass": "tituloNewsletter"
+    }
+  },
+  "flex-layout.row#newsletter-input-name": {
+    "children": [
+      "form-input.text#name"
+    ],
+    "props": {
+      "blockClass": "newsletter-input-name"
+    }
+  },
+
+  "flex-layout.row#newsletter-input-email": {
+    "children": [
+      "form-input.text#email"
+    ],
+    "props": {
+      "blockClass": "newsletter-input-email"
+    }
+  },
+
+  "form-input.text#name": {
+    "props": {
+      "label": "",
+      "pointer": "#/properties/name",
+      "blockClass": "newsletter-name",
+      "placeholder": "Insira o seu nome"
+    }
+  },
+
+  "form-input.text#email": {
+    "props": {
+      "label": "",
+      "pointer": "#/properties/email",
+      "blockClass": "newsletter-email",
+      "placeholder": "Insira o seu e-mail"
+    }
+  },
+
+  "form-submit#newsletter-submit": {
+    "props": {
+      "label": "inscrever-se"
+    }
+  },
+
+  "form-success#newsletter": {
+    "children": ["rich-text#successSubmitt"]
+  },
+
+  "rich-text#successSubmitt": {
+    "props": {
+      "text": "Seu cadastro foi realizado com sucesso.",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  }
+}

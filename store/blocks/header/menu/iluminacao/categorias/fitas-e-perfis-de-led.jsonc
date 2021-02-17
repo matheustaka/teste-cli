@@ -1,0 +1,76 @@
+{
+  "menu-item#fitas-e-perfis-de-led": {
+    "props": {
+      "id": "menu-item-fitas-e-perfis-de-led",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/iluminacao/fitas-e-perfis-de-led",
+        "noFollow": true,
+        "tagTitle": "Fitas e Perfis de LED",
+        "text": "Fitas e Perfis de LED"
+      },
+      "blockClass": ["childSub", "have-children"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#fitas-e-perfis-de-led"]
+  },
+
+  "vtex.menu@2.x:submenu#fitas-e-perfis-de-led": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#fitas-e-perfis-de-led"]
+  },
+
+  "vtex.menu@2.x:menu#fitas-e-perfis-de-led": {
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-fitas-e-perfis-de-led-ver-todos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/iluminacao/fitas-e-perfis-de-led",
+            "noFollow": true,
+            "tagTitle": "Ver todos os produtos",
+            "text": "Ver todos os produtos"
+          },
+          "blockClass": ["ver-todos"]
+        },
+        {
+          "id": "menu-item-fitas-de-led",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/iluminacao/fitas-e-perfis-de-led/fitas-de-led",
+            "noFollow": true,
+            "tagTitle": "Fitas de LED",
+            "text": "Fitas de LED"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-perfis-de-led",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/iluminacao/fitas-e-perfis-de-led/perfis-de-led",
+            "noFollow": true,
+            "tagTitle": "Perfis de LED",
+            "text": "Perfis de LED"
+          },
+          "blockClass": "child"
+        }
+      ]
+    }
+  }
+}

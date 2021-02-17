@@ -1,0 +1,76 @@
+{
+  "menu-item#tvs": {
+    "props": {
+      "id": "menu-item-tvs",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/eletro/tvs",
+        "noFollow": true,
+        "tagTitle": "TVs",
+        "text": "TVs"
+      },
+      "blockClass": ["childSub", "have-children"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#tvs"]
+  },
+
+  "vtex.menu@2.x:submenu#tvs": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#tvs"]
+  },
+
+  "vtex.menu@2.x:menu#tvs": {
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-tvs-ver-todos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/eletro/tvs",
+            "noFollow": true,
+            "tagTitle": "Ver todos os produtos",
+            "text": "Ver todos os produtos"
+          },
+          "blockClass": ["ver-todos"]
+        },
+        {
+          "id": "menu-item-kit-antena",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/eletro/tvs/kit-antena",
+            "noFollow": true,
+            "tagTitle": "Kit Antena",
+            "text": "Kit Antena"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-tv-led",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/eletro/tvs/tv-led",
+            "noFollow": true,
+            "tagTitle": "TV LED",
+            "text": "TV LED"
+          },
+          "blockClass": "child"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "menu-item#iluminacao-externa": {
+    "props": {
+      "id": "menu-item-iluminacao-externa",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/iluminacao/iluminacao-externa",
+        "noFollow": true,
+        "tagTitle": " Iluminação Externa",
+        "text": " Iluminação Externa"
+      },
+      "blockClass": ["childSub", "have-children"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#iluminacao-externa"]
+  },
+
+  "vtex.menu@2.x:submenu#iluminacao-externa": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#iluminacao-externa"]
+  },
+
+  "vtex.menu@2.x:menu#iluminacao-externa": {
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-iluminacao-externa-ver-todos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/iluminacao/iluminacao-externa",
+            "noFollow": true,
+            "tagTitle": "Ver todos os produtos",
+            "text": "Ver todos os produtos"
+          },
+          "blockClass": ["ver-todos"]
+        },
+        {
+          "id": "menu-item-iluminacao-solar",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/iluminacao/iluminacao-externa/iluminacao-solar",
+            "noFollow": true,
+            "tagTitle": "Iluminação Solar",
+            "text": "Iluminação Solar"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-postes-e-balizadores",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/iluminacao/iluminacao-externa/postes-e-balizadores",
+            "noFollow": true,
+            "tagTitle": "Postes e Balizadores",
+            "text": "Postes e Balizadores"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-refletor",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/iluminacao/iluminacao-externa/refletor",
+            "noFollow": true,
+            "tagTitle": "Refletor",
+            "text": "Refletor"
+          },
+          "blockClass": "child"
+        }
+      ]
+    }
+  }
+}

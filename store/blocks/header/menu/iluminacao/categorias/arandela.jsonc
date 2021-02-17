@@ -1,0 +1,18 @@
+{
+  "menu-item#arandela": {
+    "props": {
+      "id": "menu-item-arandela",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/iluminacao/arandela",
+        "noFollow": true,
+        "tagTitle": "Arandela",
+        "text": "Arandela"
+      },
+      "blockClass": "childSub"
+    }
+  }
+}

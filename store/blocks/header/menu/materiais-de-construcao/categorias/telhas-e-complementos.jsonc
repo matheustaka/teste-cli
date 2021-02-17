@@ -1,0 +1,104 @@
+{
+  "menu-item#telhas-e-complementos": {
+    "props": {
+      "id": "menu-item-telhas-e-complementos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/materiais-de-construcao/telhas-e-complementos",
+        "noFollow": true,
+        "tagTitle": "Telhas e Complementos",
+        "text": "Telhas e Complementos"
+      },
+      "blockClass": ["childSub", "have-children"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#telhas-e-complementos"]
+  },
+
+  "vtex.menu@2.x:submenu#telhas-e-complementos": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#telhas-e-complementos"]
+  },
+
+  "vtex.menu@2.x:menu#telhas-e-complementos": {
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-telhas-e-complementos-ver-todos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-de-construcao/telhas-e-complementos",
+            "noFollow": true,
+            "tagTitle": "Ver todos os produtos",
+            "text": "Ver todos os produtos"
+          },
+          "blockClass": ["ver-todos"]
+        },
+        {
+          "id": "menu-item-acessorios-e-complementos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-de-construcao/telhas-e-complementos/acessorios-e-complementos",
+            "noFollow": true,
+            "tagTitle": "Acessórios e Complementos",
+            "text": "Acessórios e Complementos"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-cumeeira",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-de-construcao/telhas-e-complementos/cumeeira",
+            "noFollow": true,
+            "tagTitle": "Cumeeira",
+            "text": "Cumeeira"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-isolamento",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-de-construcao/telhas-e-complementos/isolamento",
+            "noFollow": true,
+            "tagTitle": "Isolamento",
+            "text": "Isolamento"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-telha",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-de-construcao/telhas-e-complementos/telha",
+            "noFollow": true,
+            "tagTitle": "Telha",
+            "text": "Telha"
+          },
+          "blockClass": "child"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "menu-item#pisos-laminados-de-madeira": {
+    "props": {
+      "id": "menu-item-pisos-laminados-de-madeira",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/pisos-e-revestimentos/pisos-laminados-de-madeira",
+        "noFollow": true,
+        "tagTitle": "Pisos Laminados de Madeira",
+        "text": "Pisos Laminados de Madeira"
+      },
+      "blockClass": ["childSub", "have-children"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#pisos-laminados-de-madeira"]
+  },
+
+  "vtex.menu@2.x:submenu#pisos-laminados-de-madeira": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#pisos-laminados-de-madeira"]
+  },
+
+  "vtex.menu@2.x:menu#pisos-laminados-de-madeira": {
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-pisos-laminados-de-madeira-ver-todos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/pisos-e-revestimentos/pisos-laminados-de-madeira",
+            "noFollow": true,
+            "tagTitle": "Ver todos os produtos",
+            "text": "Ver todos os produtos"
+          },
+          "blockClass": ["ver-todos"]
+        },
+        {
+          "id": "menu-item-acabamentos-e-acessorios",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/pisos-e-revestimentos/pisos-laminados-de-madeira/acabamentos-e-acessorios",
+            "noFollow": true,
+            "tagTitle": "Acabamentos e Acessórios",
+            "text": "Acabamentos e Acessórios"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-piso-laminado-de-madeira",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/pisos-e-revestimentos/pisos-laminados-de-madeira/piso-laminado-de-madeira",
+            "noFollow": true,
+            "tagTitle": "Piso Laminado de Madeira",
+            "text": "Piso Laminado de Madeira"
+          },
+          "blockClass": "child"
+        }
+      ]
+    }
+  }
+}

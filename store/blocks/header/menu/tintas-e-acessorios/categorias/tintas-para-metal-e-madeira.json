@@ -1,0 +1,62 @@
+{
+  "menu-item#tintas-para-metal-e-madeira": {
+    "props": {
+      "id": "menu-item-tintas-para-metal-e-madeira",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/tintas-e-acessorios/tintas-para-metal-e-madeira",
+        "noFollow": true,
+        "tagTitle": "Tintas para Metal e Madeira",
+        "text": "Tintas para Metal e Madeira"
+      },
+      "blockClass": ["childSub", "have-children"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#tintas-para-metal-e-madeira"]
+  },
+
+  "vtex.menu@2.x:submenu#tintas-para-metal-e-madeira": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#tintas-para-metal-e-madeira"]
+  },
+
+  "vtex.menu@2.x:menu#tintas-para-metal-e-madeira": {
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-tintas-para-metal-e-madeira-ver-todos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/tintas-e-acessorios/tintas-para-metal-e-madeira",
+            "noFollow": true,
+            "tagTitle": "Ver todos os produtos",
+            "text": "Ver todos os produtos"
+          },
+          "blockClass": ["ver-todos"]
+        },
+        {
+          "id": "menu-item-tinta-esmalte",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/tintas-e-acessorios/tintas-para-metal-e-madeira/tinta-esmalte",
+            "noFollow": true,
+            "tagTitle": "Tinta Esmalte",
+            "text": "Tinta Esmalte"
+          },
+          "blockClass": "child"
+        }
+      ]
+    }
+  }
+}

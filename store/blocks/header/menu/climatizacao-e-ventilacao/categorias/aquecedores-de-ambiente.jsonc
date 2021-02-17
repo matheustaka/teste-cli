@@ -1,0 +1,146 @@
+{
+  "menu-item#aquecedores-de-ambiente": {
+    "props": {
+      "id": "menu-item-aquecedores-de-ambiente",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/climatizacao-e-ventilacao/aquecedores-de-ambiente",
+        "noFollow": true,
+        "tagTitle": "Aquecedores de Ambiente",
+        "text": "Aquecedores de Ambiente"
+      },
+      "blockClass": ["childSub", "have-children"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#aquecedores-de-ambiente"]
+  },
+
+  "vtex.menu@2.x:submenu#aquecedores-de-ambiente": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#aquecedores-de-ambiente"]
+  },
+
+  "vtex.menu@2.x:menu#aquecedores-de-ambiente": {
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-aquecedores-de-ambiente-ver-todos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/climatizacao-e-ventilacao/aquecedores-de-ambiente",
+            "noFollow": true,
+            "tagTitle": "Ver todos os produtos",
+            "text": "Ver todos os produtos"
+          },
+          "blockClass": ["ver-todos"]
+        },
+        {
+          "id": "menu-item-aquecedor-a-Gas",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/climatizacao-e-ventilacao/aquecedores-de-ambiente/aquecedor-a-Gas",
+            "noFollow": true,
+            "tagTitle": "Aquecedor a Gás",
+            "text": "Aquecedor a Gás"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-aquecedor-a-oleo",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/climatizacao-e-ventilacao/aquecedores-de-ambiente/aquecedor-a-oleo",
+            "noFollow": true,
+            "tagTitle": "Aquecedor a Óleo",
+            "text": "Aquecedor a Óleo"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-aquecedor-ceramico",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/climatizacao-e-ventilacao/aquecedores-de-ambiente/aquecedor-ceramico",
+            "noFollow": true,
+            "tagTitle": "Aquecedor Cerâmico",
+            "text": "Aquecedor Cerâmico"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-aquecedor-de-indução",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/climatizacao-e-ventilacao/aquecedores-de-ambiente/aquecedor-de-indução",
+            "noFollow": true,
+            "tagTitle": "Aquecedor de Indução",
+            "text": "Aquecedor de Indução"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-aquecedor-de-quartzo",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/climatizacao-e-ventilacao/aquecedores-de-ambiente/aquecedor-de-quartzo",
+            "noFollow": true,
+            "tagTitle": "Aquecedor de Quartzo",
+            "text": "Aquecedor de Quartzo"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-aquecedor-halogeno",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/climatizacao-e-ventilacao/aquecedores-de-ambiente/aquecedor-halogeno",
+            "noFollow": true,
+            "tagTitle": "Aquecedor Halógeno",
+            "text": "Aquecedor Halógeno"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-aquecedor-termoventilador",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/climatizacao-e-ventilacao/aquecedores-de-ambiente/aquecedor-termoventilador",
+            "noFollow": true,
+            "tagTitle": "Aquecedor Termoventilador",
+            "text": "Aquecedor Termoventilador"
+          },
+          "blockClass": "child"
+        }
+      ]
+    }
+  }
+}

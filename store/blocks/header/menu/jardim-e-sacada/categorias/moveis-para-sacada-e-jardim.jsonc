@@ -1,0 +1,230 @@
+{
+  "menu-item#moveis-para-sacada-e-jardim": {
+    "props": {
+      "id": "menu-item-moveis-para-sacada-e-jardim",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/jardim-e-sacada/moveis-para-sacada-e-jardim",
+        "noFollow": true,
+        "tagTitle": "Móveis para Sacada e Jardim",
+        "text": "Móveis para Sacada e Jardim"
+      },
+      "blockClass": ["childSub", "have-children"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#moveis-para-sacada-e-jardim"]
+  },
+
+  "vtex.menu@2.x:submenu#moveis-para-sacada-e-jardim": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#moveis-para-sacada-e-jardim"]
+  },
+
+  "vtex.menu@2.x:menu#moveis-para-sacada-e-jardim": {
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-moveis-para-sacada-e-jardim-ver-todos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/jardim-e-sacada/moveis-para-sacada-e-jardim",
+            "noFollow": true,
+            "tagTitle": "Ver todos os produtos",
+            "text": "Ver todos os produtos"
+          },
+          "blockClass": ["ver-todos"]
+        },
+        {
+          "id": "menu-item-almofada-para-moveis",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/jardim-e-sacada/moveis-para-sacada-e-jardim/almofada-para-moveis",
+            "noFollow": true,
+            "tagTitle": "Almofada para Móveis",
+            "text": "Almofada para Móveis"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-banco",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/jardim-e-sacada/moveis-para-sacada-e-jardim/banco",
+            "noFollow": true,
+            "tagTitle": "Banco",
+            "text": "Banco"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-banqueta",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/jardim-e-sacada/moveis-para-sacada-e-jardim/banqueta",
+            "noFollow": true,
+            "tagTitle": "Banqueta",
+            "text": "Banqueta"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-base-para-guarda-sol",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/jardim-e-sacada/moveis-para-sacada-e-jardim/base-para-guarda-sol",
+            "noFollow": true,
+            "tagTitle": "Base para Guarda Sol",
+            "text": "Base para Guarda Sol"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-bau",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/jardim-e-sacada/moveis-para-sacada-e-jardim/bau",
+            "noFollow": true,
+            "tagTitle": "Baú",
+            "text": "Baú"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-cadeira",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/jardim-e-sacada/moveis-para-sacada-e-jardim/cadeira",
+            "noFollow": true,
+            "tagTitle": "Cadeira",
+            "text": "Cadeira"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-cheise",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/jardim-e-sacada/moveis-para-sacada-e-jardim/cheise",
+            "noFollow": true,
+            "tagTitle": "Cheise",
+            "text": "Cheise"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-conjunto",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/jardim-e-sacada/moveis-para-sacada-e-jardim/conjunto",
+            "noFollow": true,
+            "tagTitle": "Conjunto",
+            "text": "Conjunto"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-espreguicadeira",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/jardim-e-sacada/moveis-para-sacada-e-jardim/espreguicadeira",
+            "noFollow": true,
+            "tagTitle": "Espreguiçadeira",
+            "text": "Espreguiçadeira"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-mesa",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/jardim-e-sacada/moveis-para-sacada-e-jardim/mesa",
+            "noFollow": true,
+            "tagTitle": "Mesa",
+            "text": "Mesa"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-ombrelone",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/jardim-e-sacada/moveis-para-sacada-e-jardim/ombrelone",
+            "noFollow": true,
+            "tagTitle": "Ombrelone",
+            "text": "Ombrelone"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-poltrona",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/jardim-e-sacada/moveis-para-sacada-e-jardim/poltrona",
+            "noFollow": true,
+            "tagTitle": "Poltrona",
+            "text": "Poltrona"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-puff",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/jardim-e-sacada/moveis-para-sacada-e-jardim/puff",
+            "noFollow": true,
+            "tagTitle": "Puff",
+            "text": "Puff"
+          },
+          "blockClass": "child"
+        }
+      ]
+    }
+  }
+}

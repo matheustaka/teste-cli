@@ -1,0 +1,132 @@
+{
+  "menu-item#ventiladores-e-circuladores": {
+    "props": {
+      "id": "menu-item-ventiladores-e-circuladores",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/climatizacao-e-ventilacao/ventiladores-e-circuladores",
+        "noFollow": true,
+        "tagTitle": "Ventiladores e Circuladores",
+        "text": "Ventiladores e Circuladores"
+      },
+      "blockClass": ["childSub", "have-children"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#ventiladores-e-circuladores"]
+  },
+
+  "vtex.menu@2.x:submenu#ventiladores-e-circuladores": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#ventiladores-e-circuladores"]
+  },
+
+  "vtex.menu@2.x:menu#ventiladores-e-circuladores": {
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-ventiladores-e-circuladores-ver-todos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/climatizacao-e-ventilacao/ventiladores-e-circuladores",
+            "noFollow": true,
+            "tagTitle": "Ver todos os produtos",
+            "text": "Ver todos os produtos"
+          },
+          "blockClass": ["ver-todos"]
+        },
+        {
+          "id": "menu-item-circulador-de-ar",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/climatizacao-e-ventilacao/ventiladores-e-circuladores/circulador-de-ar",
+            "noFollow": true,
+            "tagTitle": "Circulador de Ar",
+            "text": "Circulador de Ar"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-controle-remoto",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/climatizacao-e-ventilacao/ventiladores-e-circuladores/controle-remoto",
+            "noFollow": true,
+            "tagTitle": "Controle Remoto",
+            "text": "Controle Remoto"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-ventilador-de-coluna",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/climatizacao-e-ventilacao/ventiladores-e-circuladores/ventilador-de-coluna",
+            "noFollow": true,
+            "tagTitle": "Ventilador de Coluna",
+            "text": "Ventilador de Coluna"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-ventilador-de-mesa",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/climatizacao-e-ventilacao/ventiladores-e-circuladores/ventilador-de-mesa",
+            "noFollow": true,
+            "tagTitle": "Ventilador de Mesa",
+            "text": "Ventilador de Mesa"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-ventilador-de-parede",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/climatizacao-e-ventilacao/ventiladores-e-circuladores/ventilador-de-parede",
+            "noFollow": true,
+            "tagTitle": "Ventilador de Parede",
+            "text": "Ventilador de Parede"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-ventilador-de-teto",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/climatizacao-e-ventilacao/ventiladores-e-circuladores/ventilador-de-teto",
+            "noFollow": true,
+            "tagTitle": "Ventilador de Teto",
+            "text": "Ventilador de Teto"
+          },
+          "blockClass": "child"
+        }
+      ]
+    }
+  }
+}

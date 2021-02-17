@@ -1,0 +1,146 @@
+{
+  "menu-item#acos-para-construcao": {
+    "props": {
+      "id": "menu-item-acos-para-construcao",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/materiais-de-construcao/acos-para-construcao",
+        "noFollow": true,
+        "tagTitle": "Aços para Construção",
+        "text": "Aços para Construção"
+      },
+      "blockClass": ["childSub", "have-children"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#acos-para-construcao"]
+  },
+
+  "vtex.menu@2.x:submenu#acos-para-construcao": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#acos-para-construcao"]
+  },
+
+  "vtex.menu@2.x:menu#acos-para-construcao": {
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-acos-para-construcao-ver-todos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-de-construcao/acos-para-construcao",
+            "noFollow": true,
+            "tagTitle": "Ver todos os produtos",
+            "text": "Ver todos os produtos"
+          },
+          "blockClass": ["ver-todos"]
+        },
+        {
+          "id": "menu-item-espacador",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-de-construcao/acos-para-construcao/espacador",
+            "noFollow": true,
+            "tagTitle": "Espaçador",
+            "text": "Espaçador"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-estribo",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-de-construcao/acos-para-construcao/estribo",
+            "noFollow": true,
+            "tagTitle": "Estribo",
+            "text": "Estribo"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-ferro",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-de-construcao/acos-para-construcao/ferro",
+            "noFollow": true,
+            "tagTitle": "Ferro",
+            "text": "Ferro"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-grampo",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-de-construcao/acos-para-construcao/grampo",
+            "noFollow": true,
+            "tagTitle": "Grampo",
+            "text": "Grampo"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-malha",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-de-construcao/acos-para-construcao/malha",
+            "noFollow": true,
+            "tagTitle": "Malha",
+            "text": "Malha"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-protetor-para-vergalhao",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-de-construcao/acos-para-construcao/protetor-para-vergalhao",
+            "noFollow": true,
+            "tagTitle": "Protetor para Vergalhão",
+            "text": "Protetor para Vergalhão"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-trelica",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-de-construcao/acos-para-construcao/trelica",
+            "noFollow": true,
+            "tagTitle": "Treliça",
+            "text": "Treliça"
+          },
+          "blockClass": "child"
+        }
+      ]
+    }
+  }
+}

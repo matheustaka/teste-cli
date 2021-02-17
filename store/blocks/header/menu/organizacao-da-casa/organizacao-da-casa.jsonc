@@ -1,0 +1,64 @@
+{
+  "menu-item#organizacao-da-casa": {
+    "props": {
+      "id": "menu-item-organizacao-da-casa",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/organizacao-da-casa",
+        "noFollow": true,
+        "tagTitle": "Organização da Casa",
+        "text": "Organização da Casa"
+      },
+      "blockClass": ["department", "have-children"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#organizacao-da-casa"]
+  },
+
+  "vtex.menu@2.x:submenu#organizacao-da-casa": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#organizacao-da-casa"]
+  },
+
+  "vtex.menu@2.x:menu#organizacao-da-casa": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "drop-category"
+    },
+    "children": [
+      "rich-text#department-organizacao-da-casa",
+      "menu-item#organizacao-da-casa-ver-todos",
+      "menu-item#caixas-e-cestos",
+      "menu-item#closet-e-acessorios",
+      "menu-item#lavanderia-e-limpeza",
+      "menu-item#organizacao",
+      "menu-item#prateleiras-e-nichos"
+    ]
+  },
+  "rich-text#department-organizacao-da-casa": {
+    "props": {
+      "text": "Organização da Casa",
+      "blockClass": "titulo-menu-department"
+    }
+  },
+  "menu-item#organizacao-da-casa-ver-todos": {
+    "props": {
+      "id": "menu-item-organizacao-da-casa-ver-todos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/organizacao-da-casa",
+        "noFollow": true,
+        "tagTitle": "Ver todos os produtos",
+        "text": "Ver todos os produtos"
+      },
+      "blockClass": [ "ver-todos"]
+    }
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "menu-item#cozinha-acessorios-para-instalacao-e-reparo": {
+    "props": {
+      "id": "menu-item-acessorios-para-instalacao-e-reparo",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cozinha-e-lavanderia/acessorios-para-instalacao-e-reparo",
+        "noFollow": true,
+        "tagTitle": "Acessórios para Instalação e Reparo",
+        "text": "Acessórios para Instalação e Reparo"
+      },
+      "blockClass": ["childSub", "have-children"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#cozinha-acessorios-para-instalacao-e-reparo"]
+  },
+
+  "vtex.menu@2.x:submenu#cozinha-acessorios-para-instalacao-e-reparo": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#cozinha-acessorios-para-instalacao-e-reparo"]
+  },
+
+  "vtex.menu@2.x:menu#cozinha-acessorios-para-instalacao-e-reparo": {
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-cozinha-acessorios-para-instalacao-e-reparo-ver-todos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinha-e-lavanderia/acessorios-para-instalacao-e-reparo",
+            "noFollow": true,
+            "tagTitle": "Ver todos os produtos",
+            "text": "Ver todos os produtos"
+          },
+          "blockClass": ["ver-todos"]
+        },
+        {
+          "id": "menu-item-adaptador-para-maquina-de-lavar",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinha-e-lavanderia/acessorios-para-instalacao-e-reparo/adaptador-para-maquina-de-lavar",
+            "noFollow": true,
+            "tagTitle": "Adaptador para Máquina de Lavar",
+            "text": "Adaptador para Máquina de Lavar"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-arejador",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinha-e-lavanderia/acessorios-para-instalacao-e-reparo/arejador",
+            "noFollow": true,
+            "tagTitle": "Arejador",
+            "text": "Arejador"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-mangueira",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinha-e-lavanderia/acessorios-para-instalacao-e-reparo/mangueira",
+            "noFollow": true,
+            "tagTitle": "Mangueira",
+            "text": "Mangueira"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-parafuso-para-tanque",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinha-e-lavanderia/acessorios-para-instalacao-e-reparo/parafuso-para-tanque",
+            "noFollow": true,
+            "tagTitle": "Parafuso para Tanque",
+            "text": "Parafuso para Tanque"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-tampa-para-grelha",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinha-e-lavanderia/acessorios-para-instalacao-e-reparo/tampa-para-grelha",
+            "noFollow": true,
+            "tagTitle": "Tampa para Grelha",
+            "text": "Tampa para Grelha"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-tubo-Extensivo",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinha-e-lavanderia/acessorios-para-instalacao-e-reparo/tubo-Extensivo",
+            "noFollow": true,
+            "tagTitle": "Tubo Extensivo",
+            "text": "Tubo Extensivo"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-valvula",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinha-e-lavanderia/acessorios-para-instalacao-e-reparo/valvula",
+            "noFollow": true,
+            "tagTitle": "Válvula",
+            "text": "Válvula"
+          },
+          "blockClass": "child"
+        }
+      ]
+    }
+  }
+}

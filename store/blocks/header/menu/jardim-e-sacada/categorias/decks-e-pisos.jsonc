@@ -1,0 +1,104 @@
+{
+  "menu-item#decks-e-pisos": {
+    "props": {
+      "id": "menu-item-decks-e-pisos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/jardim-e-sacada/decks-e-pisos",
+        "noFollow": true,
+        "tagTitle": "Decks e Pisos",
+        "text": "Decks e Pisos"
+      },
+      "blockClass": ["childSub", "have-children"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#decks-e-pisos"]
+  },
+
+  "vtex.menu@2.x:submenu#decks-e-pisos": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#decks-e-pisos"]
+  },
+
+  "vtex.menu@2.x:menu#decks-e-pisos": {
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-decks-e-pisos-ver-todos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/jardim-e-sacada/decks-e-pisos",
+            "noFollow": true,
+            "tagTitle": "Ver todos os produtos",
+            "text": "Ver todos os produtos"
+          },
+          "blockClass": ["ver-todos"]
+        },
+        {
+          "id": "menu-item-deck",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/jardim-e-sacada/decks-e-pisos/deck",
+            "noFollow": true,
+            "tagTitle": "Deck",
+            "text": "Deck"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-delimitador-de-grama",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/jardim-e-sacada/decks-e-pisos/delimitador-de-grama",
+            "noFollow": true,
+            "tagTitle": "Delimitador de Grama",
+            "text": "Delimitador de Grama"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-grama-sintetica",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/jardim-e-sacada/decks-e-pisos/grama-sintetica",
+            "noFollow": true,
+            "tagTitle": "Grama Sintética",
+            "text": "Grama Sintética"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-pallet",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/jardim-e-sacada/decks-e-pisos/pallet",
+            "noFollow": true,
+            "tagTitle": "Pallet",
+            "text": "Pallet"
+          },
+          "blockClass": "child"
+        }
+      ]
+    }
+  }
+}

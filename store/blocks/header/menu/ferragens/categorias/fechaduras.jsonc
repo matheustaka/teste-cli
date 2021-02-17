@@ -1,0 +1,160 @@
+{
+  "menu-item#fechaduras": {
+    "props": {
+      "id": "menu-item-menu-item-fechaduras",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/ferragens/fechaduras",
+        "noFollow": true,
+        "tagTitle": "Fechaduras",
+        "text": "Fechaduras"
+      },
+      "blockClass": ["childSub", "have-children"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#fechaduras"]
+  },
+
+  "vtex.menu@2.x:submenu#fechaduras": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#fechaduras"]
+  },
+
+  "vtex.menu@2.x:menu#fechaduras": {
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-fechaduras-ver-todos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferragens/fechaduras",
+            "noFollow": true,
+            "tagTitle": "Ver todos os produtos",
+            "text": "Ver todos os produtos"
+          },
+          "blockClass": ["ver-todos"]
+        },
+        {
+          "id": "menu-item-fechadura-bico-de-papagaio",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferragens/fechaduras/fechadura-bico-de-papagaio",
+            "noFollow": true,
+            "tagTitle": "Fechadura Bico de Papagaio",
+            "text": "Fechadura Bico de Papagaio"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-fechadura-eletrica",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferragens/fechaduras/fechadura-eletrica",
+            "noFollow": true,
+            "tagTitle": "Fechadura Elétrica",
+            "text": "Fechadura Elétrica"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-fechadura-espelho",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferragens/fechaduras/fechadura-espelho",
+            "noFollow": true,
+            "tagTitle": "Fechadura Espelho",
+            "text": "Fechadura Espelho"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-fechadura-para-moveis",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferragens/fechaduras/fechadura-para-moveis",
+            "noFollow": true,
+            "tagTitle": "Fechadura para Móveis",
+            "text": "Fechadura para Móveis"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-fechadura-para-portao",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferragens/fechaduras/fechadura-para-portao",
+            "noFollow": true,
+            "tagTitle": "Fechadura para Portão",
+            "text": "Fechadura para Portão"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-fechadura-roseta",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferragens/fechaduras/fechadura-roseta",
+            "noFollow": true,
+            "tagTitle": "Fechadura Roseta",
+            "text": "Fechadura Roseta"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-fechadura-trinco-rolete",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferragens/fechaduras/fechadura-trinco-rolete",
+            "noFollow": true,
+            "tagTitle": "Fechadura Trinco Rolete",
+            "text": "Fechadura Trinco Rolete"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-prendedor-de-porta",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferragens/fechaduras/prendedor-de-porta",
+            "noFollow": true,
+            "tagTitle": "Prendedor de Porta",
+            "text": "Prendedor de Porta"
+          },
+          "blockClass": "child"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,267 @@
+{
+  // "header": {
+  //   "blocks": ["header-layout.desktop", "header-layout.mobile"]
+  // },
+  "header.full": {
+    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+  },
+  "header-layout.desktop": {
+    "children": ["flex-layout.row#1-desktop", "sticky-layout#desktop"],
+    "props": {
+      "blockClass": "header-desktop-scroll"
+    }
+  },
+
+  "sticky-layout#desktop": {
+    "children": ["flex-layout.row#2-desktop", "flex-layout.row#menu-desktop"]
+  },
+
+  "flex-layout.row#1-desktop": {
+    "children": ["rich-text#notification-bar"],
+    "props": {
+      "fullWidth": "true"
+    }
+  },
+  "rich-text#notification-bar": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "![WhatApp Cassol](https://cassol.vtexassets.com/arquivos/icon-whatsapp.png) Compre pelo WhatsApp: <a class='vtex-rich-text-0-x-link--notification-bar' href='https://api.whatsapp.com/send?phone=5540011515&text=Ol%C3%A1' target='_blank'>4001-1515</a>",
+      "blockClass": "notification-bar"
+    }
+  },
+  "flex-layout.col#spacer": {
+    "props": {
+      "width": "grow"
+    }
+  },
+
+  "flex-layout.col#spacer-2": {
+    "props": {
+      "blockClass": "spacer-2"
+    }
+  },
+
+  "flex-layout.row#2-desktop": {
+    "props": {
+      "blockClass": "main-header",
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children": [
+      "flex-layout.col#logo-desktop",
+      "flex-layout.col#spacer-2",
+      "search-bar",
+      "flex-layout.col#spacer",
+      "rich-text#nossas-lojas",
+      "login",
+      "minicart.v2"
+    ]
+  },
+
+  "rich-text#nossas-lojas": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "![Nossas lojas](https://cassol.vtexassets.com/arquivos/nossas-lojas.png) [Nossas Lojas](/nossas-lojas)",
+      "blockClass": "nossas-lojas"
+    }
+  },
+
+  "flex-layout.col#logo-desktop": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": ["logo#desktop"]
+  },
+
+  "logo#desktop": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "https://cassol.vteximg.com.br/arquivos/logo-desktop.png",
+      "width": "169.63"
+    }
+  },
+
+  "flex-layout.row#menu-desktop": {
+    "props": {
+      "blockClass": "main-header-menu-desktop",
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": false,
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children": ["vtex.menu@2.x:menu#category-menu"]
+  },
+
+  "header-layout.mobile": {
+    "children": [
+      "flex-layout.row#1-mobile",
+      "sticky-layout#2-mobile",
+      "flex-layout.row#3-mobile"
+    ]
+  },
+  "sticky-layout#1-mobile": {
+    "children": ["flex-layout.row#1-mobile"]
+  },
+  "sticky-layout#2-mobile": {
+    "children": ["flex-layout.row#2-mobile"],
+    "props": {
+      "blockClass": "main-header-mobile-center"
+    }
+  },
+  "sticky-layout#3-mobile": {
+    "children": ["flex-layout.row#3-mobile"]
+  },
+  "flex-layout.row#1-mobile": {
+    "children": ["flex-layout.row#1-desktop"],
+    "props": {
+      "blockClass": "main-header-mobile",
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
+
+  "flex-layout.row#2-mobile": {
+    "children": ["drawer", "logo#mobile", "minicart.v2"],
+    "props": {
+      "blockClass": ["main-header-mobile", "main-header-mob-log"],
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
+  "flex-layout.row#3-mobile": {
+    "children": ["search-bar"],
+    "props": {
+      "blockClass": "main-header-mobile-search-bar",
+      "preserveLayoutOnMobile": true,
+      "preventHorizontalStretch": false,
+      "fullWidth": true
+    }
+  },
+  "drawer": {
+    "children": ["menu#drawer"]
+  },
+
+  "menu#drawer": {
+    "children": [
+      "menu-item#myAccount",
+      "menu-item#nossas-lojas-menu",
+      "menu-item#pisos-e-revestimentos",
+      "menu-item#eletro",
+      "menu-item#climatizacao-e-ventilacao",
+      "menu-item#materiais-de-construcao",
+      "menu-item#banheiros",
+      "menu-item#ferramentas",
+      "menu-item#materiais-hidraulicos",
+      "menu-item#decoracao-e-moveis",
+      "menu-item#pneus-e-acessorios-automotivos",
+      "menu-item#materiais-eletricos",
+      "menu-item#tintas-e-acessorios",
+      "menu-item#cozinhar-servir-e-organizar",
+      "menu-item#cozinha-e-lavanderia",
+      "menu-item#jardim-e-sacada",
+      "menu-item#iluminacao",
+      "menu-item#piscina-e-lazer",
+      "menu-item#ferragens",
+      "menu-item#organizacao-da-casa",
+      "menu-item#novidades"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "drawer"
+    }
+  },
+
+  "logo#mobile": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "https://cassol.vteximg.com.br/arquivos/logo-mobile.png",
+      "width": "143.5"
+    }
+  },
+
+  "minicart.v2": {
+    "props": {
+      "MinicartIcon": "icon-cart#minicart-icon",
+      "itemCountMode": "totalAvailable"
+    },
+    "children": ["minicart-base-content"]
+  },
+  "icon-cart#minicart-icon": {
+    "props": {
+      "size": 24
+    }
+  },
+  "minicart-base-content": {
+    "blocks": ["minicart-empty-state"],
+    "children": ["minicart-product-list", "flex-layout.row#minicart-footer"]
+  },
+  "flex-layout.row#minicart-footer": {
+    "props": {
+      "blockClass": "minicart-footer"
+    },
+    "children": ["flex-layout.col#minicart-footer"]
+  },
+  "flex-layout.col#minicart-footer": {
+    "children": ["minicart-summary", "minicart-checkout-button"]
+  },
+  "minicart-product-list": {
+    "blocks": ["product-list#minicart"],
+    "props": {}
+  },
+  "product-list#minicart": {
+    "blocks": ["product-list-content-mobile"]
+  },
+  "minicart-summary": {
+    "blocks": ["checkout-summary.compact#minicart"]
+  },
+
+  "checkout-summary.compact#minicart": {
+    "children": ["summary-totalizers#minicart"],
+    "props": {
+      "totalizersToShow": ["Items", "Discounts"]
+    }
+  },
+  "summary-totalizers#minicart": {
+    "props": {
+      "showTotal": true,
+      "showDeliveryTotal": false
+    }
+  },
+  "minicart-empty-state": {
+    "children": ["flex-layout.row#empty-state"]
+  },
+  "flex-layout.row#empty-state": {
+    "children": ["flex-layout.col#empty-state"]
+  },
+  "flex-layout.col#empty-state": {
+    "children": [
+      "icon-cart#minicart-empty-state",
+      "rich-text#minicart-default-empty-state"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "rowGap": 5
+    }
+  },
+  "icon-cart#minicart-empty-state": {
+    "props": {
+      "size": 64,
+      "blockClass": "minicart-empty-state"
+    }
+  },
+  "rich-text#minicart-default-empty-state": {
+    "props": {
+      "text": "Carrinho Vazio"
+    }
+  }
+}

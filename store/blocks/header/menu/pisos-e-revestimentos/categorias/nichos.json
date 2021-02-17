@@ -1,0 +1,18 @@
+{
+  "menu-item#nichos": {
+    "props": {
+      "id": "menu-item-nichos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/pisos-e-revestimentos/nichos",
+        "noFollow": true,
+        "tagTitle": "Nichos",
+        "text": "Nichos"
+      },
+      "blockClass": "childSub"
+    }
+  }
+}

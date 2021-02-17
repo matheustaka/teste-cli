@@ -1,0 +1,553 @@
+{
+  "vtex.menu@2.x:menu#Institucional": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#institucional",
+      "menu-item#quem-somos",
+      "menu-item#manifesto-da-marca",
+      "menu-item#canais-de-vendas",
+      "menu-item#nossas-lojas",
+      "menu-item#trabalhe-conosco",
+      "menu-item#seja-um-fornecedor"
+    ]
+  },
+
+  "menu-item#institucional": {
+    "props": {
+      "id": "menu-item-institucional",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "menu-footer-titulo",
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "tagTitle": "Institucional",
+        "text": "Institucional"
+      }
+    }
+  },
+
+  "menu-item#quem-somos": {
+    "props": {
+      "id": "menu-item-quem-somos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/quem-somos",
+        "noFollow": false,
+        "tagTitle": "QuemSomos",
+        "text": "Quem Somos"
+      }
+    }
+  },
+
+  "menu-item#manifesto-da-marca": {
+    "props": {
+      "id": "menu-item-manifesto-da-marca",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/manifesto-da-marca",
+        "noFollow": false,
+        "tagTitle": "ManifestodaMarca",
+        "text": "Manifesto da Marca"
+      }
+    }
+  },
+
+  "menu-item#canais-de-vendas": {
+    "props": {
+      "id": "canais-de-vendas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/canais-de-vendas",
+        "noFollow": false,
+        "tagTitle": "CanaisdeVendas",
+        "text": "Canais de Vendas"
+      }
+    }
+  },
+
+  "menu-item#nossas-lojas": {
+    "props": {
+      "id": "menu-item-nossas-lojas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/nossas-lojas",
+        "noFollow": false,
+        "tagTitle": "NossasLojas",
+        "text": "Nossas Lojas"
+      }
+    }
+  },
+
+  "menu-item#trabalhe-conosco": {
+    "props": {
+      "id": "menu-item-trabalhe-conosco",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/trabalhe-conosco",
+        "noFollow": false,
+        "tagTitle": "TrabalheConosco",
+        "text": "Trabalhe Conosco"
+      }
+    }
+  },
+
+  "menu-item#seja-um-fornecedor": {
+    "props": {
+      "id": "menu-item-seja-um-fornecedor",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/seja-um-fornecedor",
+        "noFollow": false,
+        "tagTitle": "SejaumFornecedor",
+        "text": "Seja um Fornecedor"
+      }
+    }
+  },
+
+  "vtex.menu@2.x:menu#Politicas": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#politicas",
+      "menu-item#menor-preco",
+      "menu-item#devolucao-ou-troca",
+      "menu-item#entrega",
+      "menu-item#pagamento",
+      "menu-item#retire-em-loja",
+      "menu-item#privacidade",
+      "menu-item#frete-expresso",
+      "menu-item#marketplace-policies"
+    ]
+  },
+
+  "menu-item#politicas": {
+    "props": {
+      "id": "menu-item-politicas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "menu-footer-titulo",
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "tagTitle": "Políticas",
+        "text": "Políticas"
+      }
+    }
+  },
+
+  "menu-item#menor-preco": {
+    "props": {
+      "id": "menu-item-menor-preco",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/menor-preco",
+        "noFollow": false,
+        "tagTitle": "MenorPreco",
+        "text": "Menor Preço"
+      }
+    }
+  },
+
+  "menu-item#devolucao-ou-troca": {
+    "props": {
+      "id": "menu-item-devolucao-ou-troca",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/devolucao-ou-troca",
+        "noFollow": false,
+        "tagTitle": "DevoluçãoouTroca",
+        "text": "Devolução ou Troca"
+      }
+    }
+  },
+
+  "menu-item#entrega": {
+    "props": {
+      "id": "menu-item-entrega",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/entrega",
+        "noFollow": false,
+        "tagTitle": "Entrega",
+        "text": "Entrega"
+      }
+    }
+  },
+
+  "menu-item#pagamento": {
+    "props": {
+      "id": "menu-item-pagamento",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/pagamento",
+        "noFollow": false,
+        "tagTitle": "Pagamento",
+        "text": "Pagamento"
+      }
+    }
+  },
+
+  "menu-item#retire-em-loja": {
+    "props": {
+      "id": "menu-item-retire-em-loja",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/retire-em-loja",
+        "noFollow": false,
+        "tagTitle": "RetiraemLoja",
+        "text": "Retira em Loja"
+      }
+    }
+  },
+
+  "menu-item#privacidade": {
+    "props": {
+      "id": "menu-item-privacidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/privacidade",
+        "noFollow": false,
+        "tagTitle": "Privacidade",
+        "text": "Privacidade"
+      }
+    }
+  },
+
+  "menu-item#frete-expresso": {
+    "props": {
+      "id": "menu-item-frete-expresso",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/frete-expresso",
+        "noFollow": false,
+        "tagTitle": "FreteExpresso",
+        "text": "Frete Expresso"
+      }
+    }
+  },
+
+  "menu-item#marketplace-policies": {
+    "props": {
+      "id": "menu-item-marketplace-policies",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/politicamarketplace",
+        "noFollow": false,
+        "tagTitle": "politicamarketplace",
+        "text": "Políticas Marketplace"
+      }
+    }
+  },
+
+  "vtex.menu@2.x:menu#Servicos": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#servicos",
+      "menu-item#cartao-cassol",
+      "menu-item#garantia-estendida",
+      "menu-item#assistencia-residencial",
+      "menu-item#fabrica-de-tintas",
+      "menu-item#orcamentos",
+      "menu-item#calculadora"
+    ]
+  },
+
+  "menu-item#servicos": {
+    "props": {
+      "id": "menu-item-servicos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "menu-footer-titulo",
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "tagTitle": "Serviços",
+        "text": "Serviços"
+      }
+    }
+  },
+
+
+  "menu-item#cartao-cassol": {
+    "props": {
+      "id": "menu-item-cartao-cassol",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cartao-cassol",
+        "noFollow": false,
+        "tagTitle": "CartaoCassol",
+        "text": "Cartão Cassol"
+      }
+    }
+  },
+
+  "menu-item#garantia-estendida": {
+    "props": {
+      "id": "menu-item-garantia-estendida",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/garantia-estendida",
+        "noFollow": false,
+        "tagTitle": "GarantiaEstendida",
+        "text": "Garantia Estendida"
+      }
+    }
+  },
+
+  "menu-item#assistencia-residencial": {
+    "props": {
+      "id": "menu-item-assistencia-residencial",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/assistencia-residencial",
+        "noFollow": false,
+        "tagTitle": "AssistenciaResidencial",
+        "text": "Assistência Residencial"
+      }
+    }
+  },
+
+  "menu-item#fabrica-de-tintas": {
+    "props": {
+      "id": "menu-item-fabrica-de-tintas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/fabrica-de-tintas",
+        "noFollow": false,
+        "tagTitle": "Fábrica de Tintas",
+        "text": "Fábrica de Tintas"
+      }
+    }
+  },
+
+  "menu-item#orcamentos": {
+    "props": {
+      "id": "menu-item-orcamentos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/orcamentos",
+        "noFollow": false,
+        "tagTitle": "Orçamentos",
+        "text": "Orçamentos"
+      }
+    }
+  },
+
+  "menu-item#calculadora": {
+    "props": {
+      "id": "menu-item-calculadora",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/calculadora",
+        "noFollow": false,
+        "tagTitle": "Calculadora",
+        "text": "Calculadora"
+      }
+    }
+  },
+
+  "vtex.menu@2.x:menu#precisa-de-ajuda": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#precisa-de-ajuda",
+      "menu-item#fale-conosco",
+      "menu-item#faq",
+      "menu-item#faq-cartao-cassol"
+    ]
+  },
+
+  "menu-item#precisa-de-ajuda": {
+    "props": {
+      "id": "menu-item-precisa-de-ajuda",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "menu-footer-titulo",
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "tagTitle": "Precisa de ajuda?",
+        "text": "Precisa de ajuda?"
+      }
+    }
+  },
+
+
+  "menu-item#fale-conosco": {
+    "props": {
+      "id": "menu-item-fale-conosco",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/fale-conosco",
+        "noFollow": false,
+        "tagTitle": "fale-conosco",
+        "text": "Fale Conosco"
+      }
+    }
+  },
+
+  "menu-item#faq": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/faq",
+        "noFollow": false,
+        "tagTitle": "faq",
+        "text": "FAQ"
+      }
+    }
+  },
+
+  "menu-item#faq-cartao-cassol": {
+    "props": {
+      "id": "menu-item-faq-cartao-cassol",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/faq-cartao-cassol",
+        "noFollow": false,
+        "tagTitle": "faq-cartao-cassol",
+        "text": "FAQ Cartão Cassol"
+      }
+    }
+  },
+
+  "vtex.menu@2.x:menu#area-restrita": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#area-restrita",
+      "menu-item#webmail",
+      "menu-item#fale-conosco"
+    ]
+  },
+
+  "menu-item#area-restrita": {
+    "props": {
+      "id": "menu-item-area-restrita",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "menu-footer-titulo--area-restrita",
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "tagTitle": "Área Restrita",
+        "text": "Área Restrita"
+      }
+    }
+  },
+
+  "menu-item#webmail": {
+    "props": {
+      "id": "menu-item-webmail",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "https://mailz.cassol.com.br/",
+        "noFollow": false,
+        "tagTitle": "webmail",
+        "text": "Webmail"
+      }
+    }
+  },
+
+  "menu-item#fornecedores": {
+    "props": {
+      "id": "menu-item-fornecedores",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/fornecedores",
+        "noFollow": false,
+        "tagTitle": "fornecedores",
+        "text": "Fornecedores"
+      }
+    }
+  }
+}

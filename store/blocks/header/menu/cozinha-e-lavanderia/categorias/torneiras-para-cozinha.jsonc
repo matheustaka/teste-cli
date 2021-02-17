@@ -1,0 +1,104 @@
+{
+  "menu-item#torneiras-para-cozinha": {
+    "props": {
+      "id": "menu-item-torneiras-para-cozinha",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cozinha-e-lavanderia/torneiras-para-cozinha",
+        "noFollow": true,
+        "tagTitle": "Torneiras para Cozinha",
+        "text": "Torneiras para Cozinha"
+      },
+      "blockClass": ["childSub", "have-children"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#torneiras-para-cozinha"]
+  },
+
+  "vtex.menu@2.x:submenu#torneiras-para-cozinha": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#torneiras-para-cozinha"]
+  },
+
+  "vtex.menu@2.x:menu#torneiras-para-cozinha": {
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-torneiras-para-cozinha-ver-todos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinha-e-lavanderia/torneiras-para-cozinha",
+            "noFollow": true,
+            "tagTitle": "Ver todos os produtos",
+            "text": "Ver todos os produtos"
+          },
+          "blockClass": ["ver-todos"]
+        },
+        {
+          "id": "menu-item-torneira-de-mesa",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinha-e-lavanderia/torneiras-para-cozinha/torneira-de-mesa",
+            "noFollow": true,
+            "tagTitle": "Torneira de Mesa",
+            "text": "Torneira de Mesa"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-torneira-de-parede",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinha-e-lavanderia/torneiras-para-cozinha/torneira-de-parede",
+            "noFollow": true,
+            "tagTitle": "Torneira de Parede",
+            "text": "Torneira de Parede"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-torneira-misturador-de-mesa-para-cozinha",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinha-e-lavanderia/torneiras-para-cozinha/torneira-misturador-de-mesa-para-cozinha",
+            "noFollow": true,
+            "tagTitle": "Torneira Misturador de Mesa para Cozinha",
+            "text": "Torneira Misturador de Mesa para Cozinha"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-torneira-misturador-de-parede-para-cozinha",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinha-e-lavanderia/torneiras-para-cozinha/torneira-misturador-de-parede-para-cozinha",
+            "noFollow": true,
+            "tagTitle": "Torneira Misturador de Parede para Cozinha",
+            "text": "Torneira Misturador de Parede para Cozinha"
+          },
+          "blockClass": "child"
+        }
+      ]
+    }
+  }
+}

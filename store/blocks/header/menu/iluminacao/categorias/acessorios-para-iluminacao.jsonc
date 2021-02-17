@@ -1,0 +1,104 @@
+{
+  "menu-item#acessorios-para-iluminacao": {
+    "props": {
+      "id": "menu-item-acessorios-para-iluminacao",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/iluminacao/acessorios-para-iluminacao",
+        "noFollow": true,
+        "tagTitle": "Acessórios para Iluminação",
+        "text": "Acessórios para Iluminação"
+      },
+      "blockClass": ["childSub", "have-children"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#acessorios-para-iluminacao"]
+  },
+
+  "vtex.menu@2.x:submenu#acessorios-para-iluminacao": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#acessorios-para-iluminacao"]
+  },
+
+  "vtex.menu@2.x:menu#acessorios-para-iluminacao": {
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-acessorios-para-iluminacao-ver-todos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/iluminacao/acessorios-para-iluminacao",
+            "noFollow": true,
+            "tagTitle": "Ver todos os produtos",
+            "text": "Ver todos os produtos"
+          },
+          "blockClass": ["ver-todos"]
+        },
+        {
+          "id": "menu-item-porta-lampada",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/iluminacao/acessorios-para-iluminacao/porta-lampada",
+            "noFollow": true,
+            "tagTitle": "Porta Lâmpada",
+            "text": "Porta Lâmpada"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-reator",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/iluminacao/acessorios-para-iluminacao/reator",
+            "noFollow": true,
+            "tagTitle": "Reator",
+            "text": "Reator"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-soquete",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/iluminacao/acessorios-para-iluminacao/soquete",
+            "noFollow": true,
+            "tagTitle": "Soquete",
+            "text": "Soquete"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-transformador-para-lampada",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/iluminacao/acessorios-para-iluminacao/transformador-para-lampada",
+            "noFollow": true,
+            "tagTitle": "Transformador para Lâmpada",
+            "text": "Transformador para Lâmpada"
+          },
+          "blockClass": "child"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,211 @@
+{
+  "menu-item#som-dados-e-imagem": {
+    "props": {
+      "id": "menu-item-som-dados-e-imagem",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/materiais-eletricos/som-dados-e-imagem",
+        "noFollow": true,
+        "tagTitle": "Som, Dados e Imagem",
+        "text": "Som, Dados e Imagem"
+      },
+      "blockClass": ["childSub", "have-children"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#som-dados-e-imagem"]
+  },
+
+  "vtex.menu@2.x:submenu#som-dados-e-imagem": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#som-dados-e-imagem"]
+  },
+
+  "vtex.menu@2.x:menu#som-dados-e-imagem": {
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-baloom",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-eletricos/som-dados-e-imagem/baloom",
+            "noFollow": true,
+            "tagTitle": "Baloom",
+            "text": "Baloom"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-cachimbo-tv/video",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-eletricos/som-dados-e-imagem/cachimbo-tv/video",
+            "noFollow": true,
+            "tagTitle": "Cachimbo TV/Vídeo",
+            "text": "Cachimbo TV/Vídeo"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-conector",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-eletricos/som-dados-e-imagem/conector",
+            "noFollow": true,
+            "tagTitle": "Conector",
+            "text": "Conector"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-controle-de-ventilador",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-eletricos/som-dados-e-imagem/controle-de-ventilador",
+            "noFollow": true,
+            "tagTitle": "Controle de Ventilador",
+            "text": "Controle de Ventilador"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-conversor-e-gravador",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-eletricos/som-dados-e-imagem/conversor-e-gravador",
+            "noFollow": true,
+            "tagTitle": "Conversor e Gravador",
+            "text": "Conversor e Gravador"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-divisor-de-antena",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-eletricos/som-dados-e-imagem/divisor-de-antena",
+            "noFollow": true,
+            "tagTitle": "Divisor de Antena",
+            "text": "Divisor de Antena"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-emendas",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-eletricos/som-dados-e-imagem/emendas",
+            "noFollow": true,
+            "tagTitle": "Emendas",
+            "text": "Emendas"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-filtro-protetor",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-eletricos/som-dados-e-imagem/filtro-protetor",
+            "noFollow": true,
+            "tagTitle": "Filtro Protetor",
+            "text": "Filtro Protetor"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-fusivel-de-contato",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-eletricos/som-dados-e-imagem/fusivel-de-contato",
+            "noFollow": true,
+            "tagTitle": "Fusível de Contato",
+            "text": "Fusível de Contato"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-garra-jacare",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-eletricos/som-dados-e-imagem/garra-jacare",
+            "noFollow": true,
+            "tagTitle": "Garra Jacaré",
+            "text": "Garra Jacaré"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-multiplicador-de-linha",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-eletricos/som-dados-e-imagem/multiplicador-de-linha",
+            "noFollow": true,
+            "tagTitle": "Multiplicador de Linha",
+            "text": "Multiplicador de Linha"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-terminal-jack",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-eletricos/som-dados-e-imagem/terminal-jack",
+            "noFollow": true,
+            "tagTitle": "Terminal Jack",
+            "text": "Terminal Jack"
+          },
+          "blockClass": "child"
+        }
+      ]
+    }
+  }
+}

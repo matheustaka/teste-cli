@@ -1,0 +1,211 @@
+{
+  "menu-item#inflaveis-e-acessorios": {
+    "props": {
+      "id": "menu-item-inflaveis-e-acessorios",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/piscina-e-lazer/inflaveis-e-acessorios",
+        "noFollow": true,
+        "tagTitle": "Infláveis e Acessórios",
+        "text": "Infláveis e Acessórios"
+      },
+      "blockClass": ["childSub", "have-children"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#inflaveis-e-acessorios"]
+  },
+
+  "vtex.menu@2.x:submenu#inflaveis-e-acessorios": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#inflaveis-e-acessorios"]
+  },
+
+  "vtex.menu@2.x:menu#inflaveis-e-acessorios": {
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-inflaveis-e-acessorios-ver-todos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/piscina-e-lazer/inflaveis-e-acessorios",
+            "noFollow": true,
+            "tagTitle": "Ver todos os produtos",
+            "text": "Ver todos os produtos"
+          },
+          "blockClass": ["ver-todos"]
+        },
+        {
+          "id": "menu-item-banco",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/piscina-e-lazer/inflaveis-e-acessorios/banco",
+            "noFollow": true,
+            "tagTitle": "Banco",
+            "text": "Banco"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-barraca",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/piscina-e-lazer/inflaveis-e-acessorios/barraca",
+            "noFollow": true,
+            "tagTitle": "Barraca",
+            "text": "Barraca"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-boia",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/piscina-e-lazer/inflaveis-e-acessorios/boia",
+            "noFollow": true,
+            "tagTitle": "Boia",
+            "text": "Boia"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-bola",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/piscina-e-lazer/inflaveis-e-acessorios/bola",
+            "noFollow": true,
+            "tagTitle": "Bola",
+            "text": "Bola"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-bomba-de-ar",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/piscina-e-lazer/inflaveis-e-acessorios/bomba-de-ar",
+            "noFollow": true,
+            "tagTitle": "Bomba de Ar",
+            "text": "Bomba de Ar"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-caiaque",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/piscina-e-lazer/inflaveis-e-acessorios/caiaque",
+            "noFollow": true,
+            "tagTitle": "Caiaque",
+            "text": "Caiaque"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-colchao-inflavel",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/piscina-e-lazer/inflaveis-e-acessorios/colchao-inflavel",
+            "noFollow": true,
+            "tagTitle": "Colchão Inflável",
+            "text": "Colchão Inflável"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-colete",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/piscina-e-lazer/inflaveis-e-acessorios/colete",
+            "noFollow": true,
+            "tagTitle": "Colete",
+            "text": "Colete"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-encosto",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/piscina-e-lazer/inflaveis-e-acessorios/encosto",
+            "noFollow": true,
+            "tagTitle": "Encosto",
+            "text": "Encosto"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-jogos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/piscina-e-lazer/inflaveis-e-acessorios/jogos",
+            "noFollow": true,
+            "tagTitle": "Jogos",
+            "text": "Jogos"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-ventilador-portatil",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/piscina-e-lazer/inflaveis-e-acessorios/ventilador-portatil",
+            "noFollow": true,
+            "tagTitle": "Ventilador Portátil",
+            "text": "Ventilador Portátil"
+          },
+          "blockClass": "child"
+        }
+      ]
+    }
+  }
+}

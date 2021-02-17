@@ -1,0 +1,104 @@
+{
+  "menu-item#spot": {
+    "props": {
+      "id": "menu-item-spot",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/iluminacao/spot",
+        "noFollow": true,
+        "tagTitle": "Spot",
+        "text": "Spot"
+      },
+      "blockClass": ["childSub", "have-children"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#spot"]
+  },
+
+  "vtex.menu@2.x:submenu#spot": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#spot"]
+  },
+
+  "vtex.menu@2.x:menu#spot": {
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-spot-ver-todos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/iluminacao/spot",
+            "noFollow": true,
+            "tagTitle": "Ver todos os produtos",
+            "text": "Ver todos os produtos"
+          },
+          "blockClass": ["ver-todos"]
+        },
+        {
+          "id": "menu-item-driver-para-spot-led",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/iluminacao/spot/driver-para-spot-led",
+            "noFollow": true,
+            "tagTitle": "Driver para Spot LED",
+            "text": "Driver para Spot LED"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-spot-e-trilhos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/iluminacao/spot/spot-e-trilhos",
+            "noFollow": true,
+            "tagTitle": "Spot e Trilhos",
+            "text": "Spot e Trilhos"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-spot-led",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/iluminacao/spot/spot-led",
+            "noFollow": true,
+            "tagTitle": "Spot LED",
+            "text": "Spot LED"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-trilho",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/iluminacao/spot/trilho",
+            "noFollow": true,
+            "tagTitle": "Trilho",
+            "text": "Trilho"
+          },
+          "blockClass": "child"
+        }
+      ]
+    }
+  }
+}

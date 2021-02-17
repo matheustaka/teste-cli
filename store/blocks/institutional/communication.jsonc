@@ -1,0 +1,418 @@
+{
+  "store.custom#communication": {
+    "blocks": [
+      "responsive-layout.desktop#communication",
+      "responsive-layout.tablet#communication",
+      "responsive-layout.phone#communication"
+    ]
+  },
+
+  "responsive-layout.desktop#communication": {
+    "children": ["breadcrumb", "flex-layout.row#communication-desktop"]
+  },
+
+  "responsive-layout.tablet#communication": {
+    "children": [
+      "breadcrumb",
+      "flex-layout.row#communication-menu-mobile",
+      "flex-layout.row#communication-mobile"
+    ]
+  },
+
+  "responsive-layout.phone#communication": {
+    "children": [
+      "breadcrumb",
+      "flex-layout.row#communication-menu-mobile",
+      "flex-layout.row#communication-mobile"
+    ]
+  },
+
+  "flex-layout.row#communication-desktop": {
+    "children": [
+      "flex-layout.col#institutional-sidebar-desktop",
+      "flex-layout.col#content-communication"
+    ],
+    "props": {
+      "blockClass": "institutionalContainer"
+    }
+  },
+
+  "flex-layout.row#communication-menu-mobile": {
+    "children": ["flex-layout.col#institutional-sidebar-mobile"],
+    "props": {
+      "blockClass": "institutionalContainer"
+    }
+  },
+
+  "flex-layout.row#communication-mobile": {
+    "children": ["flex-layout.col#content-communication-mobile"],
+    "props": {
+      "blockClass": "institutionalContainer"
+    }
+  },
+
+  "flex-layout.col#content-communication-mobile": {
+    "children": [
+      "rich-text#communication--title",
+      "image#communication-1",
+      "rich-text#communication--1",
+      "rich-text#communication--2",
+      "flex-layout.col#communication-table",
+      "rich-text#communication--3",
+      "rich-text#communication--4",
+      "flex-layout.col#communication--sc",
+      "flex-layout.col#communication--rs",
+      "flex-layout.col#communication--pr",
+      "rich-text#communication--5"
+    ],
+    "props": {
+      "blockClass": "textColumn",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "flex-layout.col#content-communication": {
+    "children": [
+      "rich-text#communication--title",
+      "image#communication-1",
+      "rich-text#communication--1",
+      "rich-text#communication--2",
+      "flex-layout.col#communication-table",
+      "rich-text#communication--3",
+      "rich-text#communication--4",
+      "flex-layout.row#communication--titulo",
+      "flex-layout.row#communication--sc",
+      "flex-layout.row#communication--rs",
+      "flex-layout.row#communication--pr",
+      "rich-text#communication--5"
+    ],
+    "props": {
+      "blockClass": "textColumn",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "rich-text#communication--title": {
+    "props": {
+      "text": "### **Comunicado Cassol** \n \n",
+      "blockClass": "aboutContent"
+    }
+  },
+
+  "image#communication-1": {
+    "props": {
+      "src": "https://cassol.vtexassets.com/arquivos/comunicado.png"
+    }
+  },
+
+  "rich-text#communication--1": {
+    "props": {
+      "text": "### **Prezados clientes** \n \n Permanecemos atentos aos decretos e pronunciamentos das autoridades públicas em relação à COVID-19 (Coronavírus). Nesse sentido, a Cassol segue tomando as medidas necessárias para manter nosso compromisso com a sua saúde e dos nossos colaboradores, cumprindo a lei a partir dos decretos municipais, estaduais e federais. \n \n Esta página visa informar de forma clara e direta todas as informações pertinentes a clientes. Lembrando que pode ser atualizada a qualquer momento, conforme data informada ao final da página.",
+      "blockClass": "aboutContent"
+    }
+  },
+  "rich-text#communication--2": {
+    "props": {
+      "text": "**Horário de Funcionamento de Lojas**",
+      "blockClass": ["aboutContent", "title-tabela"]
+    }
+  },
+
+  "flex-layout.col#communication-table": {
+    "children": [
+      "rich-text#our-stores--sc",
+      "flex-layout.row#our-stores--sc-store-1",
+      "flex-layout.row#our-stores--sc-store-2",
+      "flex-layout.row#our-stores--sc-store-4",
+      "flex-layout.row#our-stores--sc-store-5",
+      "flex-layout.row#our-stores--sc-store-6",
+      "flex-layout.row#our-stores--sc-store-7",
+      "flex-layout.row#our-stores--sc-store-8",
+      "flex-layout.row#our-stores--sc-store-9",
+      "flex-layout.row#our-stores--sc-store-10",
+      "flex-layout.row#our-stores--sc-store-11",
+      "flex-layout.row#our-stores--sc-store-12",
+      "flex-layout.row#our-stores--sc-store-13",
+      "flex-layout.row#our-stores--sc-store-14",
+      "rich-text#our-stores--rs",
+      "flex-layout.row#our-stores--rs-store-1",
+      "flex-layout.row#our-stores--rs-store-2",
+      "flex-layout.row#our-stores--rs-store-3",
+      "flex-layout.row#our-stores--rs-store-4",
+      "flex-layout.row#our-stores--rs-store-5",
+      "rich-text#our-stores--pr",
+      "flex-layout.row#our-stores--pr-store-1",
+      "flex-layout.row#our-stores--pr-store-2",
+      "flex-layout.row#our-stores--pr-store-3",
+      "flex-layout.row#our-stores--pr-store-4"
+    ],
+    "props": {
+      "blockClass": "communication-table",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "rich-text#communication--3": {
+    "props": {
+      "text": "Todas as operações abertas estão com horário e número de colaboradores reduzido, além de seguir todas as medidas de prevenção necessárias, entre elas: \n \n - Número limitado de clientes por m² de loja e ambientes demarcados para que clientes mantenham distanciamento; \n - Instalação de dispenser com álcool em gel 70% na entrada de cada unidade e a cada 30-40 metros nas lojas; \n - Orientação aos colaboradores para higienização pessoal e das superfícies de maneira intensificada.\n \n \n O atendimento para clientes pertencentes a algum grupo de risco (idosos, diabéticos, hipertensos, com doença cardiovascular, com insuficiência renal crônica ou doença respiratória crônica) acontecerá diariamente das 8h às 9h, obedecendo o número máximo de cliente em cada loja. \n \n **• Horário do Televendas** (Telefone e WhatsApp 4001-1515 ou E-mail vendas@cassol.com.br) \n De segunda a sábado das 8h às 20h. No feriado de 02/11 funcionará das 09h às 17h.",
+      "blockClass": ["aboutContent", "title-tabela"]
+    }
+  },
+
+  "rich-text#communication--4": {
+    "props": {
+      "text": "**Horário de Centros de Distribuições**",
+      "blockClass": ["aboutContent", "title-tabela"]
+    }
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  "flex-layout.row#communication--titulo": {
+    "children": [
+      "rich-text#communication--titulo",
+      "rich-text#communication--titulo-horarios-centro-distribuicao",
+      "rich-text#communication--titulo-retirada-posterior"
+    ],
+    "props": {
+      "blockClass": "communication-distruibucao",
+      "preventVerticalStretch": true
+    }
+  },
+  "flex-layout.col#communication--titulo": {
+    "children": [
+      "rich-text#communication--titulo",
+      "rich-text#communication--titulo-horarios-centro-distribuicao",
+      "rich-text#communication--titulo-retirada-posterior"
+    ],
+    "props": {
+      "blockClass": "communication-distruibucao",
+      "preventVerticalStretch": true
+    }
+  },
+
+
+
+  "rich-text#communication--titulo": {
+    "props": {
+      "text": "**Cidade**",
+      "blockClass": ["aboutContent", "cidade"]
+    }
+  },
+
+  "rich-text#communication--titulo-horarios-centro-distribuicao": {
+    "props": {
+      "text": "**Horário Centro de Distribuição**",
+      "blockClass": ["aboutContent","horarios"]
+    }
+  },
+
+  "rich-text#communication--titulo-retirada-posterior": {
+    "props": {
+      "text": "**Horário Retira Posterior**",
+      "blockClass": ["aboutContent","horarios"]
+    }
+  },
+
+
+
+
+
+
+
+
+
+
+
+  "flex-layout.row#communication--sc": {
+    "children": [
+      "rich-text#communication--sc",
+      "rich-text#communication--sc-horarios-centro-distribuicao",
+      "rich-text#communication--sc-retirada-posterior"
+    ],
+    "props": {
+      "blockClass": "communication-distruibucao",
+      "preventVerticalStretch": true
+    }
+  },
+  "flex-layout.col#communication--sc": {
+    "children": [
+      "rich-text#communication--sc",
+      "rich-text#communication--sc-horarios-centro-distribuicao",
+      "rich-text#communication--sc-retirada-posterior"
+    ],
+    "props": {
+      "blockClass": "communication-distruibucao",
+      "preventVerticalStretch": true
+    }
+  },
+
+
+
+  "rich-text#communication--sc": {
+    "props": {
+      "text": "**SC - São José**",
+      "blockClass": ["aboutContent", "cidade"]
+    }
+  },
+
+  "rich-text#communication--sc-horarios-centro-distribuicao": {
+    "props": {
+      "text": "Segunda à Sexta - 8h às 18h | Sábado - 8h às 12h| Domingos e Feriados - Fechada",
+      "blockClass": ["aboutContent","horarios"]
+    }
+  },
+
+  "rich-text#communication--sc-retirada-posterior": {
+    "props": {
+      "text": "Segunda à Sexta - 8h às 17h | Sábado - 8h às 12h | Domingos e Feriados - Fechada",
+      "blockClass": ["aboutContent","horarios"]
+    }
+  },
+
+
+
+
+
+
+
+
+
+
+
+  "flex-layout.row#communication--rs": {
+    "children": [
+      "rich-text#communication--rs",
+      "rich-text#communication--rs-horarios-centro-distribuicao",
+      "rich-text#communication--rs-retirada-posterior"
+    ],
+    "props": {
+      "blockClass": "communication-distruibucao",
+      "preventVerticalStretch": true
+    }
+  },
+  "flex-layout.col#communication--rs": {
+    "children": [
+      "rich-text#communication--rs",
+      "rich-text#communication--rs-horarios-centro-distribuicao",
+      "rich-text#communication--rs-retirada-posterior"
+    ],
+    "props": {
+      "blockClass": "communication-distruibucao",
+      "preventVerticalStretch": true
+    }
+  },
+
+
+
+  "rich-text#communication--rs": {
+    "props": {
+      "text": "**RS - Canoas**",
+      "blockClass": ["aboutContent","cidade"]
+    }
+  },
+
+  "rich-text#communication--rs-horarios-centro-distribuicao": {
+    "props": {
+      "text": "Segunda à Sexta - 8h às 18h | Sábado - 8h às 12h | Domingos e Feriados - Fechada",
+      "blockClass": ["aboutContent","horarios"]
+    }
+  },
+
+  "rich-text#communication--rs-retirada-posterior": {
+    "props": {
+      "text": "Segunda à Sexta - 8h às 18h | Sábado - 8h às 12h | Domingos e Feriados - Fechada",
+      "blockClass": ["aboutContent","horarios"]
+    }
+  },
+
+  "flex-layout.row#communication--pr": {
+    "children": [
+      "rich-text#communication--pr",
+      "rich-text#communication--pr-horarios-centro-distribuicao",
+      "rich-text#communication--pr-retirada-posterior"
+    ],
+    "props": {
+      "blockClass": "communication-distruibucao",
+      "preventVerticalStretch": true
+    }
+  },
+  "flex-layout.col#communication--pr": {
+    "children": [
+      "rich-text#communication--pr",
+      "rich-text#communication--pr-horarios-centro-distribuicao",
+      "rich-text#communication--pr-retirada-posterior"
+    ],
+    "props": {
+      "blockClass": "communication-distruibucao",
+      "preventVerticalStretch": true
+    }
+  },
+
+
+
+  "rich-text#communication--pr": {
+    "props": {
+      "text": "**PR - Curitiba**",
+      "blockClass": ["aboutContent","cidade"]
+    }
+  },
+
+  "rich-text#communication--pr-horarios-centro-distribuicao": {
+    "props": {
+      "text": "Segunda à Sexta - 8h às 18h | Sábado - 8h às 12h| Domingos e Feriados - Fechada",
+      "blockClass": ["aboutContent","horarios"]
+    }
+  },
+
+  "rich-text#communication--pr-retirada-posterior": {
+    "props": {
+      "text": "Segunda à Sexta - 8h às 18h | Sábado - 8h às 12h | Domingos e Feriados - Fechada",
+      "blockClass": ["aboutContent","horarios"]
+    }
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  "rich-text#communication--5": {
+    "props": {
+      "text": "O Serviço de entrega e retira posterior estão operando nos três estados. \n\n O serviço de Retira nas Lojas Cassol está funcionando normalmente nas lojas abertas, inclusive nas de Santa Catarina. \n \n \n ###### **•  Venda online** \n Nosso site continua a operar normalmente, contudo com as restrições de entrega, o prazo dependerá dos decretos estaduais para os Estados que trabalhamos.\n\n ###### **•  Horário do SAC** (4007-2022 ou atendimento.sac@cassol.com.br) \n De segunda a sexta, das 9h às 19h - sábados das 9h às 18h. Domingos e Feriados - não haverá atendimento.\n \n ###### **•  Horário do Centro Administrativo** \n Todos os atendimentos presenciais estão cancelados. Estamos trabalho no sistema de Home Office. Atendimentos apenas por e-mail direto ao seu contato.\n \n ###### **•  Cartão Cassol** \n **- Pagamentos:** \n Por mais que nossas lojas estejam fechadas, e eventualmente o atendimento bancário presencial também, pode-se efetuar o pagamento da fatura do Cartão Cassol no site do próprio banco e/ou em caixas eletrônicos, além de correspondentes bancários.\n \n **- Consulta e Impressão de Fatura:** [CLIQUE AQUI](https://www.dmcardweb.com.br/cassol/Associados/login.aspx?cod=015&LIB=TRUE) ou Baixe o aplicativo: [IOS](https://apps.apple.com/br/app/cart%C3%A3o-cassol/id1499882196) ou [Android](https://play.google.com/store/apps/details?id=com.DMCard.cassolplApp)\n \n Cobrança (Segunda a Sexta – 8h às 20h e Sábado - 8hs às 14:40) - Caso você queira entrar em contato conosco para pagamentos em atraso, (48) 4007-2018, por telefone ou Whatsapp e/ou e-mail - atendimentocobranca@cassol.com.br \n \n **- Mais informações:** [CLIQUE AQUI](/cartao-cassol) \n \n **Última atualização: 07/12/2020 – 15h**",
+      "blockClass": ["aboutContent", "title-tabela"]
+    }
+  }
+}

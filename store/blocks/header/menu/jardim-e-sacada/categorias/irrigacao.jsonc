@@ -1,0 +1,132 @@
+{
+  "menu-item#irrigacao": {
+    "props": {
+      "id": "menu-item-irrigacao",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/jardim-e-sacada/irrigacao",
+        "noFollow": true,
+        "tagTitle": "Irrigação",
+        "text": "Irrigação"
+      },
+      "blockClass": ["childSub", "have-children"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#irrigacao"]
+  },
+
+  "vtex.menu@2.x:submenu#irrigacao": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#irrigacao"]
+  },
+
+  "vtex.menu@2.x:menu#irrigacao": {
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-irrigacao-ver-todos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/jardim-e-sacada/irrigacao",
+            "noFollow": true,
+            "tagTitle": "Ver todos os produtos",
+            "text": "Ver todos os produtos"
+          },
+          "blockClass": ["ver-todos"]
+        },
+        {
+          "id": "menu-item-irrigacao-acessorios",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/jardim-e-sacada/irrigacao/acessorios",
+            "noFollow": true,
+            "tagTitle": "Acessórios",
+            "text": "Acessórios"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-engate-rapido",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/jardim-e-sacada/irrigacao/engate-rapido",
+            "noFollow": true,
+            "tagTitle": "Engate Rápido",
+            "text": "Engate Rápido"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-mangueira",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/jardim-e-sacada/irrigacao/mangueira",
+            "noFollow": true,
+            "tagTitle": "Mangueira",
+            "text": "Mangueira"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-pulverizador",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/jardim-e-sacada/irrigacao/pulverizador",
+            "noFollow": true,
+            "tagTitle": "Pulverizador",
+            "text": "Pulverizador"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-regador",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/jardim-e-sacada/irrigacao/regador",
+            "noFollow": true,
+            "tagTitle": "Regador",
+            "text": "Regador"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-suporte-para-mangueiras",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/jardim-e-sacada/irrigacao/suporte-para-mangueiras",
+            "noFollow": true,
+            "tagTitle": "Suporte para Mangueiras",
+            "text": "Suporte para Mangueiras"
+          },
+          "blockClass": "child"
+        }
+      ]
+    }
+  }
+}

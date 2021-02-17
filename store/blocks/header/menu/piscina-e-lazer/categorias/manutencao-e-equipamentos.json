@@ -1,0 +1,18 @@
+{
+  "menu-item#manutencao-e-equipamentos": {
+    "props": {
+      "id": "menu-item-manutencao-e-equipamentos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/piscina-e-lazer/manutencao-e-equipamentos",
+        "noFollow": true,
+        "tagTitle": "Manutenção e Equipamentos",
+        "text": "Manutenção e Equipamentos"
+      },
+      "blockClass": "childSub"
+    }
+  }
+}

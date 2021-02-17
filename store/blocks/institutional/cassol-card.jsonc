@@ -1,0 +1,277 @@
+{
+  "store.custom#cassol-card": {
+    "blocks": [
+      "responsive-layout.desktop#cassol-card",
+      "responsive-layout.tablet#cassol-card",
+      "responsive-layout.phone#cassol-card"
+    ]
+  },
+
+  "responsive-layout.desktop#cassol-card": {
+    "children": [
+      "breadcrumb",
+      "flex-layout.row#cassol-card-desktop"
+    ]
+  },
+
+  "responsive-layout.tablet#cassol-card": {
+    "children": [
+      "breadcrumb",
+      "flex-layout.row#cassol-card-menu-mobile",
+      "flex-layout.row#cassol-card-mobile"
+    ]
+  },
+
+  "responsive-layout.phone#cassol-card": {
+    "children": [
+      "breadcrumb",
+      "flex-layout.row#cassol-card-menu-mobile",
+      "flex-layout.row#cassol-card-mobile"
+    ]
+  },
+
+  "flex-layout.row#cassol-card-desktop": {
+    "children": [
+      "flex-layout.col#institutional-sidebar-desktop",
+      "flex-layout.col#content-cassol-card"
+    ],
+    "props": {
+      "blockClass": "institutionalContainer"
+    }
+  },
+
+  "flex-layout.row#cassol-card-menu-mobile": {
+    "children": [
+      "flex-layout.col#institutional-sidebar-mobile"
+    ],
+    "props": {
+      "blockClass": "institutionalContainer"
+    }
+  },
+
+  "flex-layout.row#cassol-card-mobile": {
+    "children": [
+      "flex-layout.col#content-cassol-card-mobile"
+    ],
+    "props": {
+      "blockClass": "institutionalContainer"
+    }
+  },
+
+  "flex-layout.col#content-cassol-card-mobile": {
+    "children": [
+      "image#cassol-card--banner-principal",
+      "flex-layout.col#option",
+      "rich-text#cassol-card",
+      "rich-text#cassol-card--acesse-fatura",
+      "rich-text#cassol-card--vantagens-titulo",
+      "flex-layout.col#content-cassol-card---vantagens",
+      "rich-text#cassol-card--app-titulo",
+      "flex-layout.col#content-cassol-card---app",
+      "image#cassol-card--footer-principal"
+    ],
+    "props": {
+      "blockClass": "textColumn",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "flex-layout.col#content-cassol-card": {
+    "children": [
+      "image#cassol-card--banner-principal",
+      "flex-layout.row#option",
+      "rich-text#cassol-card",
+      "rich-text#cassol-card--acesse-fatura",
+      "rich-text#cassol-card--vantagens-titulo",
+      "flex-layout.row#content-cassol-card---vantagens",
+      "rich-text#cassol-card--app-titulo",
+      "flex-layout.row#content-cassol-card---app",
+      "image#cassol-card--footer-principal"
+    ],
+    "props": {
+      "blockClass": "textColumn",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "rich-text#cassol-card": {
+    "props": {
+      "text": "### **Cartão cassol** \n \n O **Cartão Cassol** tem condições de pagamento exclusivas e ainda ajuda você a controlar os seus gastos, que ficam centralizados na sua fatura. Tudo para facilitar ainda mais as suas compras sempre que você quiser construir, reformar e deixar a casa mais bonita.\n\n\n **Por que escolher o cartão Cassol?**\n\n Para você construir, reformar e decorar com toda a comodidade e as vantagens de um cartão exclusivo para suas compras na Cassol Centerlar. Aproveite e faça suas compras com mais prazos e facilidades através do Cartão Cassol, especial como você!\n\n Está com dúvidas sobre seu Cartão Cassol? [Acesse nossas FAQs](/faq-cartao-cassol) ou entre em contato com nossos atendentes em loja.",
+      "blockClass": "aboutContent"
+    }
+  },
+
+  "flex-layout.col#option": {
+    "children": [
+      "rich-text#cassol-card--option-1",
+      "rich-text#cassol-card--option-2",
+      "rich-text#cassol-card--option-3",
+      "rich-text#cassol-card--option-4"
+    ],
+    "props": {
+      "blockClass": "card-option",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "flex-layout.row#option": {
+    "children": [
+      "rich-text#cassol-card--option-1",
+      "rich-text#cassol-card--option-2",
+      "rich-text#cassol-card--option-3",
+      "rich-text#cassol-card--option-4"
+    ],
+    "props": {
+      "blockClass": "card-option",
+      "preventVerticalStretch": true
+    }
+  },
+
+
+  "rich-text#cassol-card--option-1": {
+    "props": {
+      "text": "<a target='_blank' class='vtex-rich-text-0-x-option' href='https://drive.google.com/file/d/1KFK3dhTo4MrthER45RQ1MWABy7b2h3kM/view?usp=sharing'>Cartao mais seguro</a>",
+      "blockClass": ["card-option"]
+    }
+  },
+
+  "rich-text#cassol-card--option-2": {
+    "props": {
+      "text": "<a target='_blank' class='vtex-rich-text-0-x-option' href='https://drive.google.com/file/d/1mf0X0J98pVljgb56MmsUBklqKsu_sSxR/view?usp=sharing'>Compra mais segura</a>",
+      "blockClass": ["card-option"]
+    }
+  },
+
+  "rich-text#cassol-card--option-3": {
+    "props": {
+      "text": "<a target='_blank' class='vtex-rich-text-0-x-option' href='https://drive.google.com/file/d/1vXlyQ9wGJ_z0SwLeq5V_DZUWacJdgy_2/view?usp=sharing'>Contrato Cartão Cassol</a>",
+      "blockClass": ["card-option"]
+    }
+  },
+
+  "rich-text#cassol-card--option-4": {
+    "props": {
+      "text": "<a target='_blank' class='vtex-rich-text-0-x-option' href='https://cassol.vtexassets.com/arquivos/ajustado-10-2019-AF-CAS_0071_19_Tabela_Taxas_Tarifas_Cartao_Cassol.jpg'>Tarifas</a>",
+      "blockClass": ["card-option"]
+    }
+  },
+
+
+
+
+
+
+  "flex-layout.row#content-cassol-card---vantagens": {
+    "children": [
+      "rich-text#cassol-card--vantagens-1",
+      "rich-text#cassol-card--vantagens-2",
+      "rich-text#cassol-card--vantagens-3"
+    ],
+    "props": {
+      "blockClass": "textColumn",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "flex-layout.col#content-cassol-card---vantagens": {
+    "children": [
+      "rich-text#cassol-card--vantagens-1",
+      "rich-text#cassol-card--vantagens-2",
+      "rich-text#cassol-card--vantagens-3"
+    ],
+    "props": {
+      "blockClass": "textColumn",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "rich-text#cassol-card--acesse-fatura": {
+    "props": {
+      "text": "<a target='_blank' class='vtex-rich-text-0-x-list-cassol-card' href='https://www.dmcardweb.com.br/cassol/Associados/login.aspx?cod=015&LIB=TRUE'>Acesse sua fatura online aqui</a>",
+      "blockClass": ["aboutContent","acesse-fatura"]
+    }
+  },
+
+  "rich-text#cassol-card--vantagens-titulo": {
+    "props": {
+      "text": "### **VANTAGENS DO CARTÃO CASSOL** \n \n",
+      "blockClass": ["aboutContent","list-cassol-card"]
+    }
+  },
+  "rich-text#cassol-card--vantagens-1": {
+    "props": {
+      "text": "- Fatura Unificada \n- Parcelamento diferenciado \n- Escolha da data de vencimento (até 06 datas) \n- Opção de receber as faturas por e-mail (Eco-Fatura) \n- Comodidade para pagar as faturas: Bancos, lotéricas, internet, Loja Cassol \n",
+      "blockClass": ["aboutContent", "list-cassol-card"]
+    }
+  },
+  "rich-text#cassol-card--vantagens-2": {
+    "props": {
+      "text": "- Cartão sai na hora \n- Até 40 dias para começar a pagar \n- Portal para consultar as faturas \n- Maior segurança e comodidade nas compras \n- Acompanhe sua fatura pelo online ou pelo aplicativo. Baixe agora: App store ou Google Play \n",
+      "blockClass": ["aboutContent", "list-cassol-card"]
+    }
+  },
+  "rich-text#cassol-card--vantagens-3": {
+    "props": {
+      "text": "- Atendimento personalizado \n- Atendimento especializado \n- Mais prazo para trocar mercadorias \n- Até 02 cartões adicionais para você presentear alguém \n- Cartão protegido contra perda/roubo e perda de renda através dos produtos financeiros Cassol² \n",
+      "blockClass": ["aboutContent", "list-cassol-card"]
+    }
+  },
+
+  "flex-layout.row#content-cassol-card---app": {
+    "children": [
+      "rich-text#cassol-card--app-1",
+      "rich-text#cassol-card--app-2"
+    ],
+    "props": {
+      "blockClass": "textColumn",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "flex-layout.col#content-cassol-card---app": {
+    "children": [
+      "rich-text#cassol-card--app-1",
+      "rich-text#cassol-card--app-2"
+    ],
+    "props": {
+      "blockClass": "textColumn",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "rich-text#cassol-card--app-titulo": {
+    "props": {
+      "text": "### **COM O APP DO CARTAO CASSOL VOCÊ PODE:** \n \n",
+      "blockClass": ["aboutContent","list-cassol-card"]
+    }
+  },
+
+  "rich-text#cassol-card--app-1": {
+    "props": {
+      "text": " - Consultar seu limite para compras \n - Verificar o melhor dia para comprar \n - Visualizar suas faturas e código de barras \n - Alterar data de vencimento \n - Atualizar dados cadastrais \n - Definir e alterar senhas \n - Bloquear seu cartão temporariamente \n",
+      "blockClass": ["aboutContent", "list-cassol-card"]
+    }
+  },
+
+  "rich-text#cassol-card--app-2": {
+    "props": {
+      "text": "<a target='_blank' href='https://apps.apple.com/br/app/cart%C3%A3o-cassol/id1499882196' ><img src='https://cassol.vtexassets.com/arquivos/app-ios.png' /></a> \n <a target='_blank' href='https://play.google.com/store/apps/details?id=com.DMCard.cassolplApp&hl=pt' ><img src='https://cassol.vtexassets.com/arquivos/app-android.png' /></a> ",
+      "blockClass": ["aboutContent", "cassol-card-app"]
+    }
+  },
+
+  "image#cassol-card--banner-principal": {
+    "props": {
+      "src": "https://cassol.vtexassets.com/arquivos/banner-cartao-cassol.png",
+      "blockClass": ["aboutContent", "banner-budgets"]
+    }
+  },
+
+  "image#cassol-card--footer-principal": {
+    "props": {
+      "src": "https://cassol.vtexassets.com/arquivos/faca-um-cartao-cassol.png",
+      "blockClass": ["aboutContent", "banner-budgets"]
+    }
+  }
+}
+

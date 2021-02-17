@@ -1,0 +1,138 @@
+{
+  "store.custom#about-us": {
+    "blocks": [
+      "responsive-layout.desktop#about",
+      "responsive-layout.tablet#about",
+      "responsive-layout.phone#about"
+    ]
+  },
+
+  "responsive-layout.desktop#about": {
+    "children": [
+      "breadcrumb",
+      "flex-layout.row#about-us-desktop"
+    ]
+  },
+
+  "responsive-layout.tablet#about": {
+    "children": [
+      "breadcrumb",
+      "flex-layout.row#about-us-menu-mobile",
+      "flex-layout.row#about-us-mobile"
+    ]
+  },
+
+  "responsive-layout.phone#about": {
+    "children": [
+      "breadcrumb",
+      "flex-layout.row#about-us-menu-mobile",
+      "flex-layout.row#about-us-mobile"
+    ]
+  },
+
+  "flex-layout.row#about-us-desktop": {
+    "children": [
+      "flex-layout.col#institutional-sidebar-desktop",
+      "flex-layout.col#content-about-us"
+    ],
+    "props": {
+      "blockClass": "institutionalContainer"
+    }
+  },
+
+  "flex-layout.row#about-us-menu-mobile": {
+    "children": [
+      "flex-layout.col#institutional-sidebar-mobile"
+    ],
+    "props": {
+      "blockClass": "institutionalContainer"
+    }
+  },
+
+  "flex-layout.row#about-us-mobile": {
+    "children": [
+      "flex-layout.col#content-about-us-mobile"
+    ],
+    "props": {
+      "blockClass": "institutionalContainer"
+    }
+  },
+
+  "flex-layout.col#content-about-us-mobile": {
+    "children": [
+      "rich-text#about-us",
+      "rich-text#about-us-group",
+      "rich-text#about-us-centerlar",
+      "rich-text#about-us-numbers-mobile",
+      "rich-text#about-us-brands-mobile"
+    ],
+    "props": {
+      "blockClass": "textColumn",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "flex-layout.col#content-about-us": {
+    "children": [
+      "rich-text#about-us",
+      "__fold__",
+      "rich-text#about-us-group",
+      "rich-text#about-us-centerlar",
+      "rich-text#about-us-numbers", 
+      "rich-text#about-us-brands"
+    ],
+    "props": {
+      "blockClass": "textColumn",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "rich-text#about-us": {
+    "props": {
+      "text": "### **Quem somos** \n \n ![Grupo cassol](https://cassol.vtexassets.com/arquivos/banner-institucional.png) \n \n Tudo começou em 1958 em Urubici (SC) com uma serraria. Alguns anos depois, em São José (SC), foi criada a Madeireira Cassol. Desde então, a empresa não parou de crescer. Hoje estamos presentes também no Rio Grande do Sul, Paraná, São Paulo, Rio de Janeiro e Distrito Federal e atuamos em quatro segmentos - comércio de materiais de construção e decoração; industrialização e montagem de pré-fabricados de concreto; imobiliário na construção e comercialização de imóveis e reflorestamento.",
+      "blockClass": "aboutContent"
+    }
+  },
+
+  "rich-text#about-us-group": {
+    "props": {
+      "text": "### **O Grupo Cassol atua em quatro ramos:** \n \n **Cassol Investimentos e Participações** \n \n Fundada em 1999 e com sede em São José, Santa Catarina, a Cassol Investimentos e Participações tem como principais atividades a construção e locação de imóveis próprios. A empresa também possui fazendas nos municípios catarinenses de Alfredo Wagner e Anitápolis para o cultivo de pinus. \n \n **Kobrasol Empreendimentos Imobiliários** \n \n A Kobrasol Empreendimentos Imobiliários foi fundada em 1975, através da parceria entre as empresas Cassol, Koerich e Brasilpinho. \n \n A empresa desenvolveu um grande projeto de loteamento que, recebendo o nome de Kobrasol, veio a tornar-se o mais importante bairro residencial e comercial do município de São José, Santa Catarina. \n \n Seguiram-se também os loteamentos Floresta, Flor do Sol e Kobrasol II, além da construção de casas e edifícios residenciais e comerciais. \n \n **Cassol Centerlar** \n \n Oferece o maior estoque de produtos à pronta entrega da região Sul, com 45 mil itens, sendo 14 linhas de marca própria. São 18 lojas em Santa Catarina, Rio Grande do Sul e Paraná e três Centros de Distribuição, além de contar com os serviços de e-Commerce, Televendas e Venda Direta. \n \n **Cassol Pré-Fabricados** \n \n De pioneira na região Sul, a Cassol se transformou no maior complexo industrial de pré-fabricados da América Latina. \n \n Com aproximadamente 120 mil m² de área coberta nas fábricas situadas nos estados do Paraná, Santa Catarina, Rio Grande do Sul, Rio de Janeiro, São Paulo e atuando na região Centro-Oeste, com a obra de ampliação do Aeroporto de Brasília, Distrito Federal. \n \n Possui capacidade de produção superior a 20 mil metros cúbicos por mês, o equivalente a 2.000 carretas.",
+      "blockClass": "aboutContentGroup"
+    }
+  },
+
+  "rich-text#about-us-centerlar": {
+    "props": {
+      "text": "### **O Grupo Cassol atua em quatro ramos:** \n \n ![A cassol centerlar](https://cassol.vtexassets.com/arquivos/cassol-centerlar.png) \n \n Buscamos orientar as escolhas e facilitar a vida dos nossos clientes, reunindo, em um só lugar, tudo aquilo que eles precisam para transformar uma casa em um lar. Acreditamos que o lar expressa o momento da vida e a personalidade de cada indivíduo. E é isso que nos move todos os dias: colaborar com as pessoas entregando soluções para deixar o lar como elas imaginam. \n \n A Cassol entende que os consumidores evoluem passando por diferentes momentos em suas vidas, nos quais o seu lar os acompanha e, ao mesmo tempo, também evolui. Para acompanhar esses momentos a empresa está em constante movimento, se atualizando e reinventando formas de melhor receber seus clientes. Nossos números refletem esse constante desenvolvimento.",
+      "blockClass": "aboutContentCenterlar"
+    }
+  },
+
+  "rich-text#about-us-numbers": {
+    "props": {
+      "text": "### **Cassol Centerlar em Números** \n \n ![A cassol centerlar em números](https://cassol.vtexassets.com/arquivos/cassol-numeros.png)",
+      "blockClass": "aboutContentNumbers"
+    }
+  },
+
+  "rich-text#about-us-numbers-mobile": {
+    "props": {
+      "text": "### **Cassol Centerlar em Números** \n \n ![A cassol centerlar em números](https://cassol.vtexassets.com/arquivos/cassol-numeros-mobile.png)",
+      "blockClass": "aboutContentNumbers"
+    }
+  },
+
+  "rich-text#about-us-brands": {
+    "props": {
+      "text": "### **Marca Própria** \n \n A Cassol trabalha com uma linha completa de marcas exclusivas. A empresa que hoje possui mais de 45 mil itens, tem em seu mix de produtos marcas diferenciadas e o maior estoque a pronta entrega no Sul do Brasil. Entregar tudo que o cliente precisa para transformar sua casa em um lar faz da empresa uma realizadora de sonhos. \n \n Cassol você imagina, a gente tem. \n \n ![Marca própria cassol](https://cassol.vtexassets.com/arquivos/cassol-marcas.png)",
+      "blockClass": "aboutContentNumbers"
+    }
+  },
+
+  "rich-text#about-us-brands-mobile": {
+    "props": {
+      "text": "### **Marca Própria** \n \n A Cassol trabalha com uma linha completa de marcas exclusivas. A empresa que hoje possui mais de 45 mil itens, tem em seu mix de produtos marcas diferenciadas e o maior estoque a pronta entrega no Sul do Brasil. Entregar tudo que o cliente precisa para transformar sua casa em um lar faz da empresa uma realizadora de sonhos. \n \n Cassol você imagina, a gente tem. \n \n ![Marca própria cassol](https://cassol.vtexassets.com/arquivos/cassol-marcas-mobile.png)",
+      "blockClass": "aboutContentNumbers"
+    }
+  }
+}

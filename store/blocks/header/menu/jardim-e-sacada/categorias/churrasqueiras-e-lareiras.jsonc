@@ -1,0 +1,104 @@
+{
+  "menu-item#churrasqueiras-e-lareiras": {
+    "props": {
+      "id": "menu-item-churrasqueiras-e-lareiras",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/jardim-e-sacada/churrasqueiras-e-lareiras",
+        "noFollow": true,
+        "tagTitle": "Churrasqueiras e Lareiras",
+        "text": "Churrasqueiras e Lareiras"
+      },
+      "blockClass": ["childSub", "have-children"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#churrasqueiras-e-lareiras"]
+  },
+
+  "vtex.menu@2.x:submenu#churrasqueiras-e-lareiras": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#churrasqueiras-e-lareiras"]
+  },
+
+  "vtex.menu@2.x:menu#churrasqueiras-e-lareiras": {
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-churrasqueiras-e-lareiras-ver-todos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/jardim-e-sacada/churrasqueiras-e-lareiras",
+            "noFollow": true,
+            "tagTitle": "Ver todos os produtos",
+            "text": "Ver todos os produtos"
+          },
+          "blockClass": ["ver-todos"]
+        },
+        {
+          "id": "menu-item-acessorios",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/jardim-e-sacada/churrasqueiras-e-lareiras/acessorios",
+            "noFollow": true,
+            "tagTitle": "Acessórios",
+            "text": "Acessórios"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-churrasqueira",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/jardim-e-sacada/churrasqueiras-e-lareiras/churrasqueira",
+            "noFollow": true,
+            "tagTitle": "Churrasqueira",
+            "text": "Churrasqueira"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-fogao-a-lenha",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/jardim-e-sacada/churrasqueiras-e-lareiras/fogao-a-lenha",
+            "noFollow": true,
+            "tagTitle": "Fogão a Lenha",
+            "text": "Fogão a Lenha"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-lareira",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/jardim-e-sacada/churrasqueiras-e-lareiras/lareira",
+            "noFollow": true,
+            "tagTitle": "Lareira",
+            "text": "Lareira"
+          },
+          "blockClass": "child"
+        }
+      ]
+    }
+  }
+}

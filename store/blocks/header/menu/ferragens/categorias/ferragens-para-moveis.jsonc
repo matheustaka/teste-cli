@@ -1,0 +1,314 @@
+{
+  "menu-item#ferragens-para-moveis": {
+    "props": {
+      "id": "menu-item-ferragens-para-moveis",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/ferragens/ferragens-para-moveis",
+        "noFollow": true,
+        "tagTitle": "Ferragens para Móveis",
+        "text": "Ferragens para Móveis"
+      },
+      "blockClass": ["childSub", "have-children"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#ferragens-para-moveis"]
+  },
+
+  "vtex.menu@2.x:submenu#ferragens-para-moveis": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#ferragens-para-moveis"]
+  },
+
+  "vtex.menu@2.x:menu#ferragens-para-moveis": {
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-ferragens-para-moveis-ver-todos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferragens/ferragens-para-moveis",
+            "noFollow": true,
+            "tagTitle": "Ver todos os produtos",
+            "text": "Ver todos os produtos"
+          },
+          "blockClass": ["ver-todos"]
+        },
+        {
+          "id": "menu-item-cabide-para-porta",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferragens/ferragens-para-moveis/cabide-para-porta",
+            "noFollow": true,
+            "tagTitle": "Cabide para Porta",
+            "text": "Cabide para Porta"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-cantoneira",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferragens/ferragens-para-moveis/cantoneira",
+            "noFollow": true,
+            "tagTitle": "Cantoneira",
+            "text": "Cantoneira"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-cavilha",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferragens/ferragens-para-moveis/cavilha",
+            "noFollow": true,
+            "tagTitle": "Cavilha",
+            "text": "Cavilha"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-corredica",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferragens/ferragens-para-moveis/corredica",
+            "noFollow": true,
+            "tagTitle": "Corrediça",
+            "text": "Corrediça"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-dobradica",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferragens/ferragens-para-moveis/dobradica",
+            "noFollow": true,
+            "tagTitle": "Dobradiça",
+            "text": "Dobradiça"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-esquadro",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferragens/ferragens-para-moveis/esquadro",
+            "noFollow": true,
+            "tagTitle": "Esquadro",
+            "text": "Esquadro"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-fecho",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferragens/ferragens-para-moveis/fecho",
+            "noFollow": true,
+            "tagTitle": "Fecho",
+            "text": "Fecho"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-feltro-adesivo",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferragens/ferragens-para-moveis/feltro-adesivo",
+            "noFollow": true,
+            "tagTitle": "Feltro Adesivo",
+            "text": "Feltro Adesivo"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-passa-fio-para-mesa",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferragens/ferragens-para-moveis/passa-fio-para-mesa",
+            "noFollow": true,
+            "tagTitle": "Passa fio para Mesa",
+            "text": "Passa fio para Mesa"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-pe-para-moveis",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferragens/ferragens-para-moveis/pe-para-moveis",
+            "noFollow": true,
+            "tagTitle": "Pé para Móveis",
+            "text": "Pé para Móveis"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-pistao-a-gas",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferragens/ferragens-para-moveis/pistao-a-gas",
+            "noFollow": true,
+            "tagTitle": "Pistão a Gás",
+            "text": "Pistão a Gás"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-ponteira",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferragens/ferragens-para-moveis/ponteira",
+            "noFollow": true,
+            "tagTitle": "Ponteira",
+            "text": "Ponteira"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-protetor",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferragens/ferragens-para-moveis/protetor",
+            "noFollow": true,
+            "tagTitle": "Protetor",
+            "text": "Protetor"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-puxadores",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferragens/ferragens-para-moveis/puxadores",
+            "noFollow": true,
+            "tagTitle": "Puxadores",
+            "text": "Puxadores"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-rodizio",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferragens/ferragens-para-moveis/rodizio",
+            "noFollow": true,
+            "tagTitle": "Rodízio",
+            "text": "Rodízio"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-suporte",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferragens/ferragens-para-moveis/suporte",
+            "noFollow": true,
+            "tagTitle": "Suporte",
+            "text": "Suporte"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-tapa-furo",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferragens/ferragens-para-moveis/tapa-furo",
+            "noFollow": true,
+            "tagTitle": "Tapa Furo",
+            "text": "Tapa Furo"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-tapa-parafuso",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferragens/ferragens-para-moveis/tapa-parafuso",
+            "noFollow": true,
+            "tagTitle": "Tapa Parafuso",
+            "text": "Tapa Parafuso"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-uniao-reta",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferragens/ferragens-para-moveis/uniao-reta",
+            "noFollow": true,
+            "tagTitle": "União Reta",
+            "text": "União Reta"
+          },
+          "blockClass": "child"
+        }
+      ]
+    }
+  }
+}

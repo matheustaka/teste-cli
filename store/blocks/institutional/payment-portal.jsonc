@@ -1,0 +1,87 @@
+{
+  "store.custom#payment-portal": {
+    "blocks": [
+      "responsive-layout.desktop#payment-portal",
+      "responsive-layout.tablet#payment-portal",
+      "responsive-layout.phone#payment-portal"
+    ]
+  },
+
+  "responsive-layout.desktop#payment-portal": {
+    "children": [
+      "breadcrumb",
+      "flex-layout.row#payment-portal-desktop"
+    ]
+  },
+
+  "responsive-layout.tablet#payment-portal": {
+    "children": [
+      "breadcrumb",
+      "flex-layout.row#payment-portal-menu-mobile",
+      "flex-layout.row#payment-portal-mobile"
+    ]
+  },
+
+  "responsive-layout.phone#payment-portal": {
+    "children": [
+      "breadcrumb",
+      "flex-layout.row#payment-portal-menu-mobile",
+      "flex-layout.row#payment-portal-mobile"
+    ]
+  },
+
+  "flex-layout.row#payment-portal-desktop": {
+    "children": [
+      "flex-layout.col#institutional-sidebar-desktop",
+      "flex-layout.col#content-payment-portal"
+    ],
+    "props": {
+      "blockClass": "institutionalContainer"
+    }
+  },
+
+  "flex-layout.row#payment-portal-menu-mobile": {
+    "children": [
+      "flex-layout.col#institutional-sidebar-mobile"
+    ],
+    "props": {
+      "blockClass": "institutionalContainer"
+    }
+  },
+
+  "flex-layout.row#payment-portal-mobile": {
+    "children": [
+      "flex-layout.col#content-payment-portal-mobile"
+    ],
+    "props": {
+      "blockClass": "institutionalContainer"
+    }
+  },
+
+  "flex-layout.col#content-payment-portal-mobile": {
+    "children": [
+      "rich-text#payment-portal"
+    ],
+    "props": {
+      "blockClass": "textColumn",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "flex-layout.col#content-payment-portal": {
+    "children": [
+      "rich-text#payment-portal"
+    ],
+    "props": {
+      "blockClass": "textColumn",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "rich-text#payment-portal": {
+    "props": {
+      "text": "### **Portal de pagamentos** \n \n Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit ipsam unde nisi explicabo neque sapiente cumque doloremque animi suscipit, ullam dolorum et vero ut dolor voluptatibus delectus, laboriosam molestias minima? \n \n Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit ipsam unde nisi explicabo neque sapiente cumque doloremque animi suscipit, ullam dolorum et vero ut dolor voluptatibus delectus, laboriosam molestias minima? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit ipsam unde nisi explicabo neque sapiente cumque doloremque animi suscipit, ullam dolorum et vero ut dolor voluptatibus delectus, laboriosam molestias minima? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit ipsam unde nisi explicabo neque sapiente cumque doloremque animi suscipit, ullam dolorum et vero ut dolor voluptatibus delectus, laboriosam molestias minima?",
+      "blockClass": "aboutContent"
+    }
+  }
+}

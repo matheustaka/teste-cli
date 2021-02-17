@@ -1,0 +1,18 @@
+{
+  "menu-item#painel-led": {
+    "props": {
+      "id": "menu-item-painel-led",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/iluminacao/painel-led",
+        "noFollow": true,
+        "tagTitle": "Painel LED",
+        "text": "Painel LED"
+      },
+      "blockClass": "childSub"
+    }
+  }
+}

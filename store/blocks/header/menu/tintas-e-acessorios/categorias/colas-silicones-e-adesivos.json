@@ -1,0 +1,122 @@
+{
+  "menu-item#colas-silicones-e-adesivos": {
+    "props": {
+      "id": "menu-item-colas-silicones-e-adesivos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/tintas-e-acessorios/colas-silicones-e-adesivos",
+        "noFollow": true,
+        "tagTitle": "Colas, Silicones e Adesivos",
+        "text": "Colas, Silicones e Adesivos"
+      },
+      "blockClass": ["childSub", "have-children"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#colas-silicones-e-adesivos"]
+  },
+
+  "vtex.menu@2.x:submenu#colas-silicones-e-adesivos": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#colas-silicones-e-adesivos"]
+  },
+
+  "vtex.menu@2.x:menu#colas-silicones-e-adesivos": {
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-colas-silicones-e-adesivos-ver-todos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/tintas-e-acessorios/colas-silicones-e-adesivos",
+            "noFollow": true,
+            "tagTitle": "Ver todos os produtos",
+            "text": "Ver todos os produtos"
+          },
+          "blockClass": ["ver-todos"]
+        },
+        {
+          "id": "menu-item-adesivo",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/tintas-e-acessorios/colas-silicones-e-adesivos/adesivo",
+            "noFollow": true,
+            "tagTitle": "Adesivo",
+            "text": "Adesivo"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-cola",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/tintas-e-acessorios/colas-silicones-e-adesivos/cola",
+            "noFollow": true,
+            "tagTitle": "Cola",
+            "text": "Cola"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-espuma-expansiva",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/tintas-e-acessorios/colas-silicones-e-adesivos/espuma-expansiva",
+            "noFollow": true,
+            "tagTitle": "Espuma Expansiva",
+            "text": "Espuma Expansiva"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-selante",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/tintas-e-acessorios/colas-silicones-e-adesivos/selante",
+            "noFollow": true,
+            "tagTitle": "Selante",
+            "text": "Selante"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-silicone",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/tintas-e-acessorios/colas-silicones-e-adesivos/silicone",
+            "noFollow": true,
+            "tagTitle": "Silicone",
+            "text": "Silicone"
+          },
+          "blockClass": "child"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,188 @@
+{
+  "store.custom#budgets": {
+    "blocks": [
+      "responsive-layout.desktop#budgets",
+      "responsive-layout.tablet#budgets",
+      "responsive-layout.phone#budgets"
+    ]
+  },
+
+  "responsive-layout.desktop#budgets": {
+    "children": [
+      "breadcrumb",
+      "flex-layout.row#budgets-desktop"
+    ]
+  },
+
+  "responsive-layout.tablet#budgets": {
+    "children": [
+      "breadcrumb",
+      "flex-layout.row#budgets-menu-mobile",
+      "flex-layout.row#budgets-mobile"
+    ]
+  },
+
+  "responsive-layout.phone#budgets": {
+    "children": [
+      "breadcrumb",
+      "flex-layout.row#budgets-menu-mobile",
+      "flex-layout.row#budgets-mobile"
+    ]
+  },
+
+  "flex-layout.row#budgets-desktop": {
+    "children": [
+      "flex-layout.col#institutional-sidebar-desktop",
+      "flex-layout.col#content-budgets"
+    ],
+    "props": {
+      "blockClass": "institutionalContainer"
+    }
+  },
+
+  "flex-layout.row#budgets-menu-mobile": {
+    "children": [
+      "flex-layout.col#institutional-sidebar-mobile"
+    ],
+    "props": {
+      "blockClass": "institutionalContainer"
+    }
+  },
+
+  "flex-layout.row#budgets-mobile": {
+    "children": [
+      "rich-text#budgets",
+      "flex-layout.col#content-budgets-mobile"
+    ],
+    "props": {
+      "blockClass": "institutionalContainer"
+    }
+  },
+
+  "flex-layout.col#content-budgets-mobile": {
+    "children": [
+      "flex-layout.row#content-budgets--lojas",
+      "flex-layout.row#content-budgets--televendas",
+      "flex-layout.row#content-budgets--vendas-diretas"
+    ],
+    "props": {
+      "blockClass": "textColumn",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "flex-layout.col#content-budgets": {
+    "children": [
+      "rich-text#budgets",
+      "flex-layout.row#content-budgets-container"
+    ],
+    "props": {
+      "blockClass": "textColumn",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "rich-text#budgets": {
+    "props": {
+      "text": "### **Orçamentos** \n \n O cliente Cassol pode contar com mais esta facilidade. Para um atendimento diferenciado a fim de orçamentos, o cliente pode contatar nossa equipe nas:",
+      "blockClass": "aboutContent"
+    }
+  },
+
+  "flex-layout.row#content-budgets-container": {
+    "children": [
+      "flex-layout.row#content-budgets--lojas",
+      "flex-layout.row#content-budgets--televendas",
+      "flex-layout.row#content-budgets--vendas-diretas"
+    ],
+    "props": {
+      "blockClass": ["textColumn", "content-budgets-container"],
+      "preventVerticalStretch": true
+    }
+  },
+
+  "flex-layout.row#content-budgets--lojas": {
+    "children": [
+      "image#content-budgets--lojas",
+      "rich-text#content-budgets--lojas"
+    ],
+    "props": {
+      "blockClass": "textColumn",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "image#content-budgets--lojas": {
+    "props": {
+      "src": "https://cassol.vtexassets.com/arquivos/sales-channels--lojas.png",
+      "maxWidth": 86,
+      "maxHeight": 83,
+      "blockClass": ["imageAboutContent", "budgets"]
+    }
+  },
+
+  "rich-text#content-budgets--lojas": {
+    "props": {
+      "text": "##### **Lojas** \n O cliente pode solicitar orçamentos diretamente com um vendedor em lojas, vendo cada item pessoalmente e retirando suas dúvidas. \n\n [**Confira nossas lojas**](/nossas-lojas)",
+      "blockClass": "aboutContent"
+    }
+  },
+
+  "flex-layout.row#content-budgets--televendas": {
+    "children": [
+      "image#content-budgets--televendas",
+      "rich-text#content-budgets--televendas"
+    ],
+    "props": {
+      "blockClass": "textColumn",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "image#content-budgets--televendas": {
+    "props": {
+      "src": "https://cassol.vtexassets.com/arquivos/sales-channels--televendas.png",
+      "maxWidth": 86,
+      "maxHeight": 83,
+      "blockClass": ["imageAboutContent", "budgets"]
+    }
+  },
+
+  "rich-text#content-budgets--televendas": {
+    "props": {
+      "text": "##### **Televendas** \n O cliente Cassol pode solicitar orçamentos sem sair de casa, contando com um atendimento profissional e seguro.\n [**Ligue: 4001 1515**](tel:+5540011515) \n\n [**vendas@cassol.com.br**](mailto:vendas@cassol.com.br)",
+      "blockClass": "aboutContent"
+    }
+  },
+
+
+  "flex-layout.row#content-budgets--vendas-diretas": {
+    "children": [
+      "image#content-budgets--vendas-diretas",
+      "rich-text#content-budgets--vendas-diretas"
+    ],
+    "props": {
+      "blockClass": "textColumn",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "image#content-budgets--vendas-diretas": {
+    "props": {
+      "src": "https://cassol.vtexassets.com/arquivos/sales-channels--vendas-diretas.png",
+      "maxWidth": 86,
+      "maxHeight": 83,
+      "blockClass": ["imageAboutContent", "budgets"]
+    }
+  },
+
+  "rich-text#content-budgets--vendas-diretas": {
+    "props": {
+      "text": "##### **Vendas Diretas** \n Empresas, empreiteiras, condomínios, construtoras e profissionais da área podem orçar direto com nossa equipe.\n [**Ligue: 48 3035-8088**](tel:+554830358088) \n\n [**venda.direta@cassol.com.br**](mailto:venda.direta@cassol.com.br)",
+      "blockClass": "aboutContent"
+    }
+  }
+
+
+
+}

@@ -1,0 +1,28 @@
+:global(.vtex-account) {
+  max-width: 1250px;
+  margin: 0 auto;
+}
+
+:global(.vtex-account) :global(.vtex-my-account-1-x-menuLink) {
+  margin-top: 65px;
+}
+
+:global(.vtex-account__page) {
+  background: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.userGreeting {
+  margin-top:10px;
+  font-size: 12px;
+}
+
+.userName {
+  font-size: 12px;
+}
+
+.userImage {
+  display: block;
+  width: 100%;
+}

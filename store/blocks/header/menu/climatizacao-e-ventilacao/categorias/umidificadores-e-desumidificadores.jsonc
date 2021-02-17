@@ -1,0 +1,76 @@
+{
+  "menu-item#umidificadores-e-desumidificadores": {
+    "props": {
+      "id": "menu-item-umidificadores-e-desumidificadores",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/climatizacao-e-ventilacao/umidificadores-e-desumidificadores",
+        "noFollow": true,
+        "tagTitle": "Umidificadores e Desumidificadores",
+        "text": "Umidificadores e Desumidificadores"
+      },
+      "blockClass": ["childSub", "have-children"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#umidificadores-e-desumidificadores"]
+  },
+
+  "vtex.menu@2.x:submenu#umidificadores-e-desumidificadores": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#umidificadores-e-desumidificadores"]
+  },
+
+  "vtex.menu@2.x:menu#umidificadores-e-desumidificadores": {
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-umidificadores-e-desumidificadores-ver-todos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/climatizacao-e-ventilacao/umidificadores-e-desumidificadores",
+            "noFollow": true,
+            "tagTitle": "Ver todos os produtos",
+            "text": "Ver todos os produtos"
+          },
+          "blockClass": ["ver-todos"]
+        },
+        {
+          "id": "menu-item-desumidificador",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/climatizacao-e-ventilacao/umidificadores-e-desumidificadores/desumidificador",
+            "noFollow": true,
+            "tagTitle": "Desumidificador",
+            "text": "Desumidificador"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-umidificador",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/climatizacao-e-ventilacao/umidificadores-e-desumidificadores/umidificador",
+            "noFollow": true,
+            "tagTitle": "Umidificador",
+            "text": "Umidificador"
+          },
+          "blockClass": "child"
+        }
+      ]
+    }
+  }
+}

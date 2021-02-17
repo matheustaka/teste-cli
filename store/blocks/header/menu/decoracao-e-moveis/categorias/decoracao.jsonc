@@ -1,0 +1,342 @@
+{
+  "menu-item#decoracao": {
+    "props": {
+      "id": "menu-item-decoracao",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/decoracao-e-moveis/decoracao",
+        "noFollow": true,
+        "tagTitle": "Decoração",
+        "text": "Decoração"
+      },
+      "blockClass": ["childSub", "have-children"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#decoracao"]
+  },
+
+  "vtex.menu@2.x:submenu#decoracao": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#decoracao"]
+  },
+
+  "vtex.menu@2.x:menu#decoracao": {
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-decoracao-ver-todos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/decoracao-e-moveis/decoracao",
+            "noFollow": true,
+            "tagTitle": "Ver todos os produtos",
+            "text": "Ver todos os produtos"
+          },
+          "blockClass": ["ver-todos"]
+        },
+        {
+          "id": "menu-item-adorno",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/decoracao-e-moveis/decoracao/adorno",
+            "noFollow": true,
+            "tagTitle": "Adorno",
+            "text": "Adorno"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-almofada",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/decoracao-e-moveis/decoracao/almofada",
+            "noFollow": true,
+            "tagTitle": "Almofada",
+            "text": "Almofada"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-bandeja",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/decoracao-e-moveis/decoracao/bandeja",
+            "noFollow": true,
+            "tagTitle": "Bandeja",
+            "text": "Bandeja"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-caixa-decorativa",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/decoracao-e-moveis/decoracao/caixa-decorativa",
+            "noFollow": true,
+            "tagTitle": "Caixa Decorativa",
+            "text": "Caixa Decorativa"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-capa-de-almofada",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/decoracao-e-moveis/decoracao/capa-de-almofada",
+            "noFollow": true,
+            "tagTitle": "Capa de Almofada",
+            "text": "Capa de Almofada"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-caixa-decorativa",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/decoracao-e-moveis/decoracao/caixa-decorativa",
+            "noFollow": true,
+            "tagTitle": "Caixa Decorativa",
+            "text": "Caixa Decorativa"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-cestas-decorativas",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/decoracao-e-moveis/decoracao/cestas-decorativas",
+            "noFollow": true,
+            "tagTitle": "Cestas Decorativas",
+            "text": "Cestas Decorativas"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-difusor-de-aromas",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/decoracao-e-moveis/decoracao/difusor-de-aromas",
+            "noFollow": true,
+            "tagTitle": "Difusor de Aromas",
+            "text": "Difusor de Aromas"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-enfeites-natalinos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/decoracao-e-moveis/decoracao/enfeites-natalinos",
+            "noFollow": true,
+            "tagTitle": "Enfeites Natalinos",
+            "text": "Enfeites Natalinos"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-espelho",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/decoracao-e-moveis/decoracao/espelho",
+            "noFollow": true,
+            "tagTitle": "Espelho",
+            "text": "Espelho"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-garrafa-de-vidro",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/decoracao-e-moveis/decoracao/garrafa-de-vidro",
+            "noFollow": true,
+            "tagTitle": "Garrafa de Vidro",
+            "text": "Garrafa de Vidro"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-mantas-para-sofa",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/decoracao-e-moveis/decoracao/mantas-para-sofa",
+            "noFollow": true,
+            "tagTitle": "Mantas para Sofá",
+            "text": "Mantas para Sofá"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-moldura",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/decoracao-e-moveis/decoracao/moldura",
+            "noFollow": true,
+            "tagTitle": "Moldura",
+            "text": "Moldura"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-placa-decorativa",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/decoracao-e-moveis/decoracao/placa-decorativa",
+            "noFollow": true,
+            "tagTitle": "Placa Decorativa",
+            "text": "Placa Decorativa"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-porta-retrato",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/decoracao-e-moveis/decoracao/porta-retrato",
+            "noFollow": true,
+            "tagTitle": "Porta Retrato",
+            "text": "Porta Retrato"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-puff",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/decoracao-e-moveis/decoracao/puff",
+            "noFollow": true,
+            "tagTitle": "Puff",
+            "text": "Puff"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-quadros",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/decoracao-e-moveis/decoracao/quadros",
+            "noFollow": true,
+            "tagTitle": "Quadros",
+            "text": "Quadros"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-relogio",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/decoracao-e-moveis/decoracao/relogio",
+            "noFollow": true,
+            "tagTitle": "Relógio",
+            "text": "Relógio"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-spray",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/decoracao-e-moveis/decoracao/spray",
+            "noFollow": true,
+            "tagTitle": "Spray",
+            "text": "Spray"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-vaso",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/decoracao-e-moveis/decoracao/vaso",
+            "noFollow": true,
+            "tagTitle": "Vaso",
+            "text": "Vaso"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-velas",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/decoracao-e-moveis/decoracao/velas",
+            "noFollow": true,
+            "tagTitle": "Velas",
+            "text": "Velas"
+          },
+          "blockClass": "child"
+        }
+      ]
+    }
+  }
+}

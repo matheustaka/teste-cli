@@ -1,0 +1,138 @@
+{
+  "menu-item#tubos-e-eletrodutos": {
+    "props": {
+      "id": "menu-item-tubos-e-eletrodutos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/materiais-eletricos/tubos-e-eletrodutos",
+        "noFollow": true,
+        "tagTitle": "Tubos e Eletrodutos",
+        "text": "Tubos e Eletrodutos"
+      },
+      "blockClass": ["childSub", "have-children"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#tubos-e-eletrodutos"]
+  },
+
+  "vtex.menu@2.x:submenu#tubos-e-eletrodutos": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#tubos-e-eletrodutos"]
+  },
+
+  "vtex.menu@2.x:menu#tubos-e-eletrodutos": {
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-caixa-de-luz",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-eletricos/tubos-e-eletrodutos/caixa-de-luz",
+            "noFollow": true,
+            "tagTitle": "Caixa de Luz",
+            "text": "Caixa de Luz"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-caixa-de-passagem",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-eletricos/tubos-e-eletrodutos/caixa-de-passagem",
+            "noFollow": true,
+            "tagTitle": "Caixa de Passagem",
+            "text": "Caixa de Passagem"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-canaleta-e-acessorios",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-eletricos/tubos-e-eletrodutos/canaleta-e-acessorios",
+            "noFollow": true,
+            "tagTitle": "Canaleta e Acessórios",
+            "text": "Canaleta e Acessórios"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-condulete-e-acessorios",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-eletricos/tubos-e-eletrodutos/condulete-e-acessorios",
+            "noFollow": true,
+            "tagTitle": "Condulete e Acessórios",
+            "text": "Condulete e Acessórios"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-duto-corrugado",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-eletricos/tubos-e-eletrodutos/duto-corrugado",
+            "noFollow": true,
+            "tagTitle": "Duto Corrugado",
+            "text": "Duto Corrugado"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-eletroduto-corrugado",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-eletricos/tubos-e-eletrodutos/eletroduto-corrugado",
+            "noFollow": true,
+            "tagTitle": "Eletroduto Corrugado",
+            "text": "Eletroduto Corrugado"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-eletroduto-rigido",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-eletricos/tubos-e-eletrodutos/eletroduto-rigido",
+            "noFollow": true,
+            "tagTitle": "Eletroduto Rígido",
+            "text": "Eletroduto Rígido"
+          },
+          "blockClass": "child"
+        }
+      ]
+    }
+  }
+}

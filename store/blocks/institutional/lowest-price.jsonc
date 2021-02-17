@@ -1,0 +1,96 @@
+{
+  "store.custom#lowest-price": {
+    "blocks": [
+      "responsive-layout.desktop#lowest-price",
+      "responsive-layout.tablet#lowest-price",
+      "responsive-layout.phone#lowest-price"
+    ]
+  },
+
+  "responsive-layout.desktop#lowest-price": {
+    "children": [
+      "breadcrumb",
+      "flex-layout.row#lowest-price-desktop"
+    ]
+  },
+
+  "responsive-layout.tablet#lowest-price": {
+    "children": [
+      "breadcrumb",
+      "flex-layout.row#lowest-price-menu-mobile",
+      "flex-layout.row#lowest-price-mobile"
+    ]
+  },
+
+  "responsive-layout.phone#lowest-price": {
+    "children": [
+      "breadcrumb",
+      "flex-layout.row#lowest-price-menu-mobile",
+      "flex-layout.row#lowest-price-mobile"
+    ]
+  },
+
+  "flex-layout.row#lowest-price-desktop": {
+    "children": [
+      "flex-layout.col#institutional-sidebar-desktop",
+      "flex-layout.col#content-lowest-price"
+    ],
+    "props": {
+      "blockClass": "institutionalContainer"
+    }
+  },
+
+  "flex-layout.row#lowest-price-menu-mobile": {
+    "children": [
+      "flex-layout.col#institutional-sidebar-mobile"
+    ],
+    "props": {
+      "blockClass": "institutionalContainer"
+    }
+  },
+
+  "flex-layout.row#lowest-price-mobile": {
+    "children": [
+      "flex-layout.col#content-lowest-price-mobile"
+    ],
+    "props": {
+      "blockClass": "institutionalContainer"
+    }
+  },
+
+  "flex-layout.col#content-lowest-price-mobile": {
+    "children": [
+      "rich-text#lowest-price--1",
+      "rich-text#lowest-price--2"
+    ],
+    "props": {
+      "blockClass": "textColumn",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "flex-layout.col#content-lowest-price": {
+    "children": [
+      "rich-text#lowest-price--1",
+      "rich-text#lowest-price--2"
+    ],
+    "props": {
+      "blockClass": "textColumn",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "rich-text#lowest-price--1": {
+    "props": {
+      "text": "### **Menor preço** \n \n ##### **COMPROMISSO DE MENOR PREÇO GARANTIDO CASSOL** \n ***IMPORTANTE***: Política válida apenas para as Lojas Físicas da Cassol. \n \n Aqui na Cassol, fazemos tudo para garantir que você tenha sempre as melhores condições. Por isso, negociamos com nossos fornecedores \n  diariamente, garantindo os melhores produtos e preços.\n \n Porém, se você encontrar um produto anunciado com valor menor do que o da nossa loja, nós cobrimos essa oferta e baixamos o preço do \n produto na hora. \n \n \n",
+      "blockClass": "aboutContent"
+    }
+  },
+
+  "rich-text#lowest-price--2": {
+    "props": {
+      "text": "##### **É SIMPLES E PRÁTICO:** \n \n • Traga o anúncio da concorrência e apresente ao vendedor ou caixa. \n \n • São válidos anúncios em TV ou jornais, lâminas, orçamentos impressos e tabloides com data de vigência atual. \n \n • O anúncio do concorrente deverá ser obrigatoriamente da mesma cidade da loja da Cassol.\n \n • Os produtos devem ser idênticos aos anunciados pelo concorrente, com as mesmas especificações (marca, modelo, cor, tamanho e peso) e \n com as mesmas condições de pagamento.\n \n • Não acompanhamos preços de saldos e lojas online.",
+      "blockClass": "aboutContent"
+    }
+  }
+}

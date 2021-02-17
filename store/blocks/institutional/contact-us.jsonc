@@ -1,0 +1,198 @@
+{
+  "store.custom#contact-us": {
+    "blocks": [
+      "responsive-layout.desktop#contact",
+      "responsive-layout.tablet#contact",
+      "responsive-layout.phone#contact"
+    ]
+  },
+
+  "responsive-layout.desktop#contact": {
+    "children": [
+      "breadcrumb",
+      "flex-layout.row#contact-us-desktop"
+    ],
+    "props": {
+      "blockClass": "institutionalContainerDesktop"
+    }
+  },
+
+  "flex-layout.row#contact-us-desktop": {
+    "children": [
+      "flex-layout.col#institutional-sidebar-desktop",
+      "flex-layout.row#form"
+    ],
+    "props": {
+      "blockClass": "institutionalContainerDesktop"
+    }
+  },
+
+  "flex-layout.row#form": {
+    "children": [
+      "flex-layout.col#form",
+      "flex-layout.col#contact-infos"
+    ]
+  },
+
+  "iframe": {
+    "props": {
+      "src": "https://homologacao.isocrm.com.br/isohomolmodern/#isoformularios/&form=6",
+      "width":"1920",
+      "height":"1000"
+    }
+  },
+
+  "flex-layout.col#contact-infos": {
+    "children": [
+      "rich-text#contact-infos-text"
+    ]
+  },
+
+  "rich-text#contact-infos-text": {
+    "props": {
+      "text": "**Televendas** \n #### **4001-1515** \n Segunda a Sábado \n 08h às 20h \n E-mail: [vendas@cassol.com.br](mailto:vendas@cassol.com.br) \n \n **Cartão Cassol** \n #### **4007-2018** \n Segunda a Sexta - 08h às 20h \n Sábado - 08h às 14h \n E-mail: atendimentocobranca@cassol.com.br \n \n **Atendimento ao Cliente** \n #### **4007-2022** \n Segunda a Sábado \n 09h às 17h \n E-mail: atendimento.sac@cassol.com.br",
+      "blockClass": "contactInfoContent"
+    }
+  },
+
+  "flex-layout.col#form": {
+    "children": [
+      // "form",
+      "rich-text#formTitle",
+      "iframe"
+    ],
+    "props": {
+      "blockClass": "contactUsForm"
+    }
+  },
+
+  "form": {
+    "props": {
+      "entity": "contact",
+      "schema": "Contato"
+    },
+    "children": [
+      "rich-text#formTitle",
+      "rich-text#formName",
+      "form-input.text#name",
+      "rich-text#formEmail",
+      "form-input.text#email",
+      "rich-text#formTelefone",
+      "form-input.text#telefone",
+      "rich-text#formAssunto",
+      "form-input.text#assunto",
+      "rich-text#formMensagem",
+      "form-input.textarea#mensagem",
+      "form-submit"
+    ],
+    "blocks": ["form-success"]
+  },
+
+  "rich-text#formTitle": {
+    "props": {
+      "text": "### **Fale conosco**",
+      "blockClass": "contactTitle"
+    }
+  },
+
+  "form-success": {
+    "children": [
+      "rich-text#successSubmit"
+    ]
+  },
+
+  "rich-text#successSubmit": {
+    "props": {
+      "text": "Seu cadastro foi realizado com sucesso.",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+
+  "rich-text#formName": {
+    "props": {
+      "text": "**Nome:**",
+      "blockClass": "formTitleInputs"
+    }
+  },
+
+  "rich-text#formEmail": {
+    "props": {
+      "text": "**E-mail:**",
+      "blockClass": "formTitleInputs"
+    }
+  },
+
+  "rich-text#formTelefone": {
+    "props": {
+      "text": "**Telefone:**",
+      "blockClass": "formTitleInputs"
+    }
+  },
+
+  "form-input.text#telefone": {
+    "props": {
+      "label": "",
+      "pointer": "#/properties/telefone"
+    }
+  },
+
+  "rich-text#formAssunto": {
+    "props": {
+      "text": "**Assunto:**",
+      "blockClass": "formTitleInputs"
+    }
+  },
+
+  "form-input.text#assunto": {
+    "props": {
+      "label": "",
+      "pointer": "#/properties/assunto"
+    }
+  },
+
+  "rich-text#formMensagem": {
+    "props": {
+      "text": "**Mensagem:**",
+      "blockClass": "formTitleInputs"
+    }
+  },
+
+  "form-input.textarea#mensagem": {
+    "props": {
+      "label": "",
+      "pointer": "#/properties/mensagem"
+    }
+  },
+
+  "form-submit": {
+    "props": {
+      "label": "Enviar"
+    }
+  },
+
+  "responsive-layout.tablet#contact": {
+    "children": [
+      "breadcrumb",
+      "flex-layout.row#contact-us-mobile"
+    ]
+  },
+
+  "responsive-layout.phone#contact": {
+    "children": [
+      "breadcrumb",
+      "flex-layout.row#contact-us-mobile"
+    ]
+  },
+
+  "flex-layout.row#contact-us-mobile": {
+    "children": [
+      "flex-layout.col#institutional-sidebar-mobile",
+      "flex-layout.col#form",
+      "flex-layout.col#contact-infos"
+    ],
+    "props": {
+      "blockClass": "institutionalContainerMobile"
+    }
+  }
+}

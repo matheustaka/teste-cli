@@ -1,0 +1,177 @@
+{
+  "store.custom#return-or-exchange": {
+    "blocks": [
+      "responsive-layout.desktop#return-or-exchange",
+      "responsive-layout.tablet#return-or-exchange",
+      "responsive-layout.phone#return-or-exchange"
+    ]
+  },
+
+  "responsive-layout.desktop#return-or-exchange": {
+    "children": [
+      "breadcrumb",
+      "flex-layout.row#return-or-exchange-desktop"
+    ]
+  },
+
+  "responsive-layout.tablet#return-or-exchange": {
+    "children": [
+      "breadcrumb",
+      "flex-layout.row#return-or-exchange-menu-mobile",
+      "flex-layout.row#return-or-exchange-mobile"
+    ]
+  },
+
+  "responsive-layout.phone#return-or-exchange": {
+    "children": [
+      "breadcrumb",
+      "flex-layout.row#return-or-exchange-menu-mobile",
+      "flex-layout.row#return-or-exchange-mobile"
+    ]
+  },
+
+  "flex-layout.row#return-or-exchange-desktop": {
+    "children": [
+      "flex-layout.col#institutional-sidebar-desktop",
+      "flex-layout.col#content-return-or-exchange"
+    ],
+    "props": {
+      "blockClass": "institutionalContainer"
+    }
+  },
+
+  "flex-layout.row#return-or-exchange-menu-mobile": {
+    "children": [
+      "flex-layout.col#institutional-sidebar-mobile"
+    ],
+    "props": {
+      "blockClass": "institutionalContainer"
+    }
+  },
+
+  "flex-layout.row#return-or-exchange-mobile": {
+    "children": [
+      "flex-layout.col#content-return-or-exchange-mobile"
+    ],
+    "props": {
+      "blockClass": "institutionalContainer"
+    }
+  },
+
+  "flex-layout.col#content-return-or-exchange-mobile": {
+    "children": [
+      "rich-text#return-or-exchange--primeiro-conteudo",
+      "rich-text#return-or-exchange--compra",
+      "rich-text#return-or-exchange--recebimento",
+      "rich-text#return-or-exchange--troca-devolucao",
+      "rich-text#return-or-exchange--situacao-dos-produtos",
+      "rich-text#return-or-exchange--documentacao-necessarios",
+      "rich-text#return-or-exchange--produtos-elegiveis",
+      "rich-text#return-or-exchange--produtos-marca-propria",
+      "rich-text#return-or-exchange--ressarcimento-valores",
+      "rich-text#return-or-exchange--pedido-presente",
+      "rich-text#return-or-exchange--coleta-produto"
+    ],
+    "props": {
+      "blockClass": "textColumn",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "flex-layout.col#content-return-or-exchange": {
+    "children": [
+      "rich-text#return-or-exchange--primeiro-conteudo",
+      "rich-text#return-or-exchange--compra",
+      "rich-text#return-or-exchange--recebimento",
+      "rich-text#return-or-exchange--troca-devolucao",
+      "rich-text#return-or-exchange--situacao-dos-produtos",
+      "rich-text#return-or-exchange--documentacao-necessarios",
+      "rich-text#return-or-exchange--produtos-elegiveis",
+      "rich-text#return-or-exchange--produtos-marca-propria",
+      "rich-text#return-or-exchange--ressarcimento-valores",
+      "rich-text#return-or-exchange--pedido-presente",
+      "rich-text#return-or-exchange--coleta-produto"
+    ],
+    "props": {
+      "blockClass": "textColumn",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "rich-text#return-or-exchange--primeiro-conteudo": {
+    "props": {
+      "text": "### **Devolução ou troca** \n \n A Cassol preza sempre pelo excelente atendimento a seus clientes e para isso, traz definições que facilitam o entendimento no que diz respeito\n  a Trocas e Devoluções de produtos comprados na Rede Cassol. \n \n O processo de troca e devolução pode acontecer em qualquer Canal de Venda Cassol (Lojas, Televendas, Vendas Diretas e e-Commerce). \n \n Não realizamos venda por atacado. Sendo assim, a quantidade máxima permitida por CPF ou CNPJ é de 10 itens de cada produto. Pedidos \n acima dessa quantidade serão analisados e poderão ser cancelados.",
+      "blockClass": "aboutContent"
+    }
+  },
+
+  "rich-text#return-or-exchange--compra": {
+    "props": {
+      "text": "##### **COMPRA:** \n \n No MOMENTO DA COMPRA, é importante que o cliente esteja atendo à; \n \n • Descrição e ficha técnica do produto; \n \n • Voltagem do produto (verificar se corresponde à região onde será utilizado); \n \n • Cor do produto; \n \n • Metragem e textura onde o produto será aplicado; \n \n • Dimensões do produto (verificar se há espaço para montagem/ instalação/ aplicação do produto).",
+      "blockClass": "aboutContent"
+    }
+  },
+  
+  "rich-text#return-or-exchange--recebimento": {
+    "props": {
+      "text": "##### **RECEBIMENTO:** \n \n Para o MOMENTO DO RECEBIMENTO é importante que o Cliente esteja atendo a conferência do pedido devendo recusar o recebimento nos \n casos em que o produto se apresentar: \n \n •  Avariado devido ao transporte; \n \n •  Embalagem violada; \n \n •  Acessórios ou itens faltantes; \n \n •  Produto em desacordo com o pedido; \n \n •  Falta da nota fiscal ou discrepância entre a descrição da nota fiscal e o produto recebido. \n \n Ao conferir a integridade do produto, o cliente deve assinar de forma legível seu nome e sobrenome, além de informar número do documento \n de identificação no canhoto da própria nota fiscal. Esse canhoto será destacado pelo entregador que atestará o recebimento e conferência do(s)\n produto(s) por parte do Cliente. \n \n Caso algum dos pontos citados acima esteja em desacordo no MOMENTO DO RECEBIMENTO, o Cliente tem o direito de recusar a entrega. A \n partir desse instante, nova entrega será executada em prazo a ser combinado com o Cliente em ligação que será realizada pelo SAC Cassol ao \n Cliente.",
+      "blockClass": "aboutContent"
+    }
+  },
+
+  "rich-text#return-or-exchange--troca-devolucao": {
+    "props": {
+      "text": "##### **TROCA/DEVOLUÇÃO:** \n \n Para que o processo de Troca/Devolução de produtos comprados na Cassol possa acontecer, as orientações são as seguintes: \n \n ",
+      "blockClass": "aboutContent"
+    }
+  },
+
+  "rich-text#return-or-exchange--situacao-dos-produtos": {
+    "props": {
+      "text": "###### **SITUAÇÃO DOS PRODUTOS** \n \n A Cassol receberá mercadorias compradas em sua Rede em até 180 dias corridos contados da data do recebimento do produto, desde que obedecidos as seguintes condições: \n \n  • Mercadorias acompanhadas da nota fiscal ou cupom fiscal, emitidos pela Cassol; \n \n • Embalagem original, lacrada, com todos os acessórios, manual de instrução e que não apresente sinais de uso, ou danificadas por má \n instalação ou manuseio inadequado. Os produtos das categorias de Eletrônicos, Informática e Telefonia, devem estar com a etiqueta interna \n (lacre de garantia) original do fabricante intacta; \n \n • Em condições de revenda.  \n \n ***IMPORTANTE:*** A Cassol fará uma auditoria no produto recebido pra validar a troca/devolução, e não aceitará a devolução de produto que o \n defeito tenha ocorrido por mau uso por parte do cliente ou em casos de reclamações efetuadas fora dos prazos estabelecidos. Se o produto \n analisado não estiver de acordo com as regras citadas acima, o mesmo poderá ser devolvido ao Cliente sem aviso prévio.",
+      "blockClass": "aboutContent"
+    }
+  },
+
+  "rich-text#return-or-exchange--documentacao-necessarios": {
+    "props": {
+      "text": "###### **DOCUMENTOS NECESSÁRIOS:** \n \n • Informar o CPF do titular da compra e o número da nota fiscal ou pedido.",
+      "blockClass": "aboutContent"
+    }
+  },
+
+  "rich-text#return-or-exchange--produtos-elegiveis": {
+    "props": {
+      "text": "###### **PRODUTOS ELEGÍVEIS** \n \n São elegíveis para devolução/troca os produtos comprados nas Lojas Cassol: \n \n • Produtos com defeito ou vício de fabricação, e que possuam cobertura de Assistência Técnica poderão ser trocados/devolvidos nas Lojas da \n Cassol em até 7 dias corridos após o recebimento da mercadoria, quando o produto não for reparado pela Assistência Técnica dentro do prazo \n de 30 dias. Exceto no caso de ar condicionado, aquecedores de água a gás e televisores; \n \n • Demais produtos com defeito ou vício de fabricação, sem cobertura de Assistência Técnica, serão aceitos pela Cassol em até 90 dias corridos \n contados a partir da data do recebimento do produto. \n \n Não são elegíveis para devolução/troca os produtos comprados nas Lojas Cassol: \n \n • Tintas personalizada (Produtos pigmentados no sistema tintométrico) \n \n • Produtos vendidos com código de Pontas-de-estoque e saldo \n \n • Produtos sob encomenda \n \n • Plantas naturais \n \n • Revestimento cerâmico em quantidade inferior a 15 m². \n \n",
+      "blockClass": "aboutContent"
+    }
+  },
+
+  "rich-text#return-or-exchange--produtos-marca-propria": {
+    "props": {
+      "text": "###### **PRODUTOS DE MARCA PRÓPRIA** \n \n Ao efetuar a devolução de um ou mais produtos comprados na Cassol, será disponibilizado ao cliente um bônus de devolução. A utilização do \n bônus de devolução deve seguir as regras abaixo: \n\n • O bônus será gerado para o titular da compra, só podendo ser utilizado por ele; \n\n • O bônus pode ser utilizado como forma de pagamento, de novas compras, conforme; \n\n - Lojas: diretamente no caixa de qualquer loja Cassol \n\n - e-Commerce: no fechamento do pedido possui um campo para a adição do bônus \n\n - Televendas e Venda Direta: informar ao vendedor durante o atendimento \n\n• O bônus tem validade de até 90 (noventa) dias corridos após a emissão. Ultrapassado o prazo de 90 dias corridos, o Bônus é desabilitado pelo \n sistema e o cliente deverá solicitar nova emissão ao atendimento Cassol. \n\n • O Bônus poderá ser utilizado em qualquer loja da rede Cassol CenterLar. \n\n ***IMPORTANTE***: O bônus de devolução não pode ser utilizado como forma de pagamento de títulos vencidos no Cartão Cassol ou a vencer.",
+      "blockClass": "aboutContent"
+    }
+  },
+
+  "rich-text#return-or-exchange--ressarcimento-valores": {
+    "props": {
+      "text": "###### **RESSARCIMENTO DE VALORES** \n \n • Para compras realizadas no e-commerce, vendas diretas ou televendas, o cancelamento ou desistência da compra efetuada na Cassol com \n devolução do valor pago ao cliente, ao invés de bônus, poderá ser efetuado em até 7 dias após o recebimento, desde que atenda aos critérios \n estabelecidos conforme Tópico 2.2 – Devolução ou Troca. \n \n• O ressarcimento será efetuado conforme; \n \n• Pagamento efetuado por BOLETO BANCÁRIO: será realizado o depósito na conta corrente do titular do pedido em até 4 dias corridos. \n \n• Pagamento realizado em DEPÓSITO IDENTIFICADO em conta: será feito o estorno para o titular da respectivo conta em até 4 dias corridos \n \n• Pagamento realizado em CARTÃO DE CRÉDITO OU CARTÃO CASSOL: será acionada a administradora do cartão de crédito utilizado para a \n compra em até 4 dias corridos. O prazo de efetivação do estorno ao Cliente é de exclusiva responsabilidade da administradora do cartão e \n poderá ocorrer em até duas faturas, de acordo com a política de cancelamento da mesma.",
+      "blockClass": "aboutContent"
+    }
+  },
+
+  "rich-text#return-or-exchange--pedido-presente": {
+    "props": {
+      "text": "###### **PEDIDO PARA PRESENTE** \n \n • Produtos adquiridos com a finalidade de presente só poderão ser trocados desde que atendam aos critérios estabelecidos conforme \n item 1, 2 e 3. \n \n• Para devolução, somente será efetuada, conforme as políticas descritas em “RESSARCIMENTO DE VALORES”. No caso de devolução de \n presente, será gerado um bônus no valor do produto na época da compra, não havendo a possibilidade de ressarcimento de valores.",
+      "blockClass": "aboutContent"
+    }
+  },
+
+  "rich-text#return-or-exchange--coleta-produto": {
+    "props": {
+      "text": "###### **COLETA DO PRODUTO** \n \n • O cliente poderá apresentar o produto em qualquer loja Cassol para dar início ao processo de devolução e/ou troca. \n \n • Para a Cassol fazer a coleta do produto, o cliente deverá entrar em contato com o SAC a fim de ajustar a melhor data e horário. \n \n • A partir da segunda coleta, será gerada uma cobrança de frete no mesmo valor cobrado no anteriormente no respectivo pedido.",
+      "blockClass": "aboutContent"
+    }
+  }
+}

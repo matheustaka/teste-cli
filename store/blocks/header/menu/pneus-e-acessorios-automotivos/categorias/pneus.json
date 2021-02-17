@@ -1,0 +1,18 @@
+{
+  "menu-item#pneus": {
+    "props": {
+      "id": "menu-item-pneus",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/pneus-e-acessorios-automotivos/pneus",
+        "noFollow": true,
+        "tagTitle": "Pneus",
+        "text": "Pneus"
+      },
+      "blockClass": "childSub"
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "menu-item#ferragens": {
+    "props": {
+      "id": "menu-item-ferragens",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/ferragens",
+        "noFollow": true,
+        "tagTitle": "Ferragens",
+        "text": "Ferragens"
+      },
+      "blockClass": ["department", "have-children"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#ferragens"]
+  },
+
+  "vtex.menu@2.x:submenu#ferragens": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#ferragens"]
+  },
+
+  "vtex.menu@2.x:menu#ferragens": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "drop-category"
+    },
+    "children": [
+      "rich-text#department-ferragens",
+      "menu-item#ferragens-ver-todos",
+      "menu-item#fechaduras",
+      "menu-item#ferragens-para-moveis",
+      "menu-item#ferragens-para-portas-e-janelas",
+      "menu-item#fixacao",
+      "menu-item#grade-de-protecao",
+      "menu-item#movimentacao-de-carga",
+      "menu-item#organizacao-e-protecao",
+      "menu-item#suporte-de-tv"
+    ]
+  },
+  "rich-text#department-ferragens": {
+    "props": {
+      "text": "Ferragens",
+      "blockClass": "titulo-menu-department"
+    }
+  },
+
+  "menu-item#ferragens-ver-todos": {
+    "props": {
+      "id": "menu-item-ferragens-ver-todos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/ferragens",
+        "noFollow": true,
+        "tagTitle": "Ver todos os produtos",
+        "text": "Ver todos os produtos"
+      },
+      "blockClass": [ "ver-todos"]
+    }
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "store.custom#extended-warranty": {
+    "blocks": [
+      "responsive-layout.desktop#extended-warranty",
+      "responsive-layout.tablet#extended-warranty",
+      "responsive-layout.phone#extended-warranty"
+    ]
+  },
+
+  "responsive-layout.desktop#extended-warranty": {
+    "children": [
+      "breadcrumb",
+      "flex-layout.row#extended-warranty-desktop"
+    ]
+  },
+
+  "responsive-layout.tablet#extended-warranty": {
+    "children": [
+      "breadcrumb",
+      "flex-layout.row#extended-warranty-menu-mobile",
+      "flex-layout.row#extended-warranty-mobile"
+    ]
+  },
+
+  "responsive-layout.phone#extended-warranty": {
+    "children": [
+      "breadcrumb",
+      "flex-layout.row#extended-warranty-menu-mobile",
+      "flex-layout.row#extended-warranty-mobile"
+    ]
+  },
+
+  "flex-layout.row#extended-warranty-desktop": {
+    "children": [
+      "flex-layout.col#institutional-sidebar-desktop",
+      "flex-layout.col#content-extended-warranty"
+    ],
+    "props": {
+      "blockClass": "institutionalContainer"
+    }
+  },
+
+  "flex-layout.row#extended-warranty-menu-mobile": {
+    "children": [
+      "flex-layout.col#institutional-sidebar-mobile"
+    ],
+    "props": {
+      "blockClass": "institutionalContainer"
+    }
+  },
+
+  "flex-layout.row#extended-warranty-mobile": {
+    "children": [
+      "flex-layout.col#content-extended-warranty-mobile"
+    ],
+    "props": {
+      "blockClass": "institutionalContainer"
+    }
+  },
+
+  "flex-layout.col#content-extended-warranty-mobile": {
+    "children": [
+      "rich-text#extended-warranty",
+      "rich-text#extended-warranty--sinistro",
+      "rich-text#extended-warranty--informacoes-reclamacoes",
+      "rich-text#extended-warranty--deficiente-audiotivo-fala",
+      "rich-text#extended-warranty--ouvidoria"
+    ],
+    "props": {
+      "blockClass": "textColumn",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "flex-layout.col#content-extended-warranty": {
+    "children": [
+      "rich-text#extended-warranty",
+      "rich-text#extended-warranty--sinistro",
+      "rich-text#extended-warranty--informacoes-reclamacoes",
+      "rich-text#extended-warranty--deficiente-audiotivo-fala",
+      "rich-text#extended-warranty--ouvidoria"
+    ],
+    "props": {
+      "blockClass": "textColumn",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "rich-text#extended-warranty": {
+    "props": {
+      "text": "### **Garantia estendida** \n \n Imprevistos acontecem, mas aqui na Cassol você pode se prevenir. Conte com o Seguro Garantia Estendida para os produtos comprados com a \n gente. \n \n Com o Seguro Garantia Estendida o cliente pode contar com 12 ou 24 meses extras de proteção para o item adquirido na Cassol Centerlar. \n \n O Seguro Garantia Estendida Original abarca defeitos funcionais elétricos ou mecânicos que ocorram após o término da garantia do fabricante,  \n cobrindo os custos de mão-de-obra e de peças que forem necessários para o reparo do aparelho. \n \n Conheça um pouco mais sobre o Seguro Garantia Estendida \n \n [***Confira as Condições Gerais da Assurant Seguradors S.A***](/faltalink) \n \n Para acionar o seu SEGURO DE GARANTIA ESTENDIDA ORIGINAL ligue: \n \n",
+      "blockClass": "aboutContent"
+    }
+  },
+
+  "rich-text#extended-warranty--sinistro": {
+    "props": {
+      "text": "##### **ABERTURA DE SINISTRO** \n \n 3003 0956 (capitais e regiões metropolitanas) ou 0800 773 3588 (demais regiões) \n Segunda a Sábado das 08hs às 20hs",
+      "blockClass": "aboutContent"
+    }
+  },
+
+  "rich-text#extended-warranty--informacoes-reclamacoes": {
+    "props": {
+      "text": "##### **INFORMAÇÕES, RECLAMAÇÕES, DÚVIDAS OU CANCELAMENTOS** \n \n 0800 773 5077 \n 24 horas, 7 dias por semana",
+      "blockClass": "aboutContent"
+    }
+  },
+
+  "rich-text#extended-warranty--deficiente-audiotivo-fala": {
+    "props": {
+      "text": "##### **DEFICIENTE AUDITIVO OU DE FALA** \n \n 0800 726 6363 \n 24 horas, 7 dias por semana",
+      "blockClass": "aboutContent"
+    }
+  },
+
+  "rich-text#extended-warranty--ouvidoria": {
+    "props": {
+      "text": "##### **OUVIDORIA** \n \n 0800 771 7266 \n Segunda a Sexta das 09hs às 18hs \n E-mail: ouvidoria@assurant.com",
+      "blockClass": "aboutContent"
+    }
+  }
+}

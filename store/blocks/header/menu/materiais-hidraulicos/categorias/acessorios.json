@@ -1,0 +1,122 @@
+{
+  "menu-item#acessorios": {
+    "props": {
+      "id": "menu-item-acessorios",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/materiais-hidraulicos/acessorios",
+        "noFollow": true,
+        "tagTitle": "Acessórios",
+        "text": "Acessórios"
+      },
+      "blockClass": ["childSub", "have-children"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#acessorios"]
+  },
+
+  "vtex.menu@2.x:submenu#acessorios": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#acessorios"]
+  },
+
+  "vtex.menu@2.x:menu#acessorios": {
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-acessorios-ver-todos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-hidraulicos/acessorios",
+            "noFollow": true,
+            "tagTitle": "Ver todos os produtos",
+            "text": "Ver todos os produtos"
+          },
+          "blockClass": [ "ver-todos"]
+        },
+        {
+          "id": "menu-item-adesivo",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-hidraulicos/acessorios/adesivo",
+            "noFollow": true,
+            "tagTitle": "Adesivo",
+            "text": "Adesivo"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-fio-para-encanador",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-hidraulicos/acessorios/fio-para-encanador",
+            "noFollow": true,
+            "tagTitle": "Fio para Encanador",
+            "text": "Fio para Encanador"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-pasta-lubrificante",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-hidraulicos/acessorios/pasta-lubrificante",
+            "noFollow": true,
+            "tagTitle": "Pasta Lubrificante",
+            "text": "Pasta Lubrificante"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-solucao-preparadora",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-hidraulicos/acessorios/solucao-preparadora",
+            "noFollow": true,
+            "tagTitle": "Solução Preparadora",
+            "text": "Solução Preparadora"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-veda-rosca",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-hidraulicos/acessorios/veda-rosca",
+            "noFollow": true,
+            "tagTitle": "Veda Rosca",
+            "text": "Veda Rosca"
+          },
+          "blockClass": "child"
+        }
+      ]
+    }
+  }
+}

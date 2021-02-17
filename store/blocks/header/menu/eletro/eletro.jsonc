@@ -1,0 +1,64 @@
+{
+  "menu-item#eletro": {
+    "props": {
+      "id": "menu-item-eletro",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/eletro",
+        "noFollow": true,
+        "tagTitle": "Eletro",
+        "text": "Eletro"
+      },
+      "blockClass": ["department", "have-children"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#eletro"]
+  },
+
+  "vtex.menu@2.x:submenu#eletro": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#eletro"]
+  },
+
+  "vtex.menu@2.x:menu#eletro": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "drop-category"
+    },
+    "children": [
+      "rich-text#department-eletro",
+      "menu-item#eletro-ver-todos",
+      "menu-item#cuidados-pessoais",
+      "menu-item#eletrodomesticos",
+      "menu-item#eletroportateis",
+      "menu-item#tecnologia",
+      "menu-item#tvs"
+    ]
+  },
+  "rich-text#department-eletro": {
+    "props": {
+      "text": "Eletro",
+      "blockClass": "titulo-menu-department"
+    }
+  },
+  "menu-item#eletro-ver-todos": {
+    "props": {
+      "id": "menu-item-eletro-ver-todos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/eletro",
+        "noFollow": true,
+        "tagTitle": "Ver todos os produtos",
+        "text": "Ver todos os produtos"
+      },
+      "blockClass": [ "ver-todos"]
+    }
+  }
+}

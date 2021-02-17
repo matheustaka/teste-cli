@@ -1,0 +1,118 @@
+{
+  "menu-item#chuveiros-e-duchas": {
+    "props": {
+      "id": "menu-item-chuveiros-e-duchas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/banheiros/chuveiros-e-duchas",
+        "noFollow": true,
+        "tagTitle": "Chuveiros e Duchas",
+        "text": "Chuveiros e Duchas"
+      },
+      "blockClass": ["childSub", "have-children"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#chuveiros-e-duchas"]
+  },
+
+  "vtex.menu@2.x:submenu#chuveiros-e-duchas": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#chuveiros-e-duchas"]
+  },
+
+  "vtex.menu@2.x:menu#chuveiros-e-duchas": {
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-chuveiros-e-duchas-ver-todos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/banheiros/chuveiros-e-duchas",
+            "noFollow": true,
+            "tagTitle": "Ver todos os produtos",
+            "text": "Ver todos os produtos"
+          },
+          "blockClass": ["ver-todos"]
+        },
+        {
+          "id": "menu-item-chuveiro-eletrico",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/banheiros/chuveiros-e-duchas/chuveiro-eletrico",
+            "noFollow": true,
+            "tagTitle": "Chuveiro Elétrico",
+            "text": "Chuveiro Elétrico"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-desviadores",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/banheiros/chuveiros-e-duchas/desviadores",
+            "noFollow": true,
+            "tagTitle": "Desviadores",
+            "text": "Desviadores"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-ducha-manual",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/banheiros/chuveiros-e-duchas/ducha-manual",
+            "noFollow": true,
+            "tagTitle": "Ducha Manual",
+            "text": "Ducha Manual"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-duchas",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/banheiros/chuveiros-e-duchas/duchas",
+            "noFollow": true,
+            "tagTitle": "Duchas",
+            "text": "Duchas"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-resistência",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/banheiros/chuveiros-e-duchas/resistência",
+            "noFollow": true,
+            "tagTitle": "Resistência",
+            "text": "Resistência"
+          },
+          "blockClass": "child"
+        }
+      ]
+    }
+  }
+}

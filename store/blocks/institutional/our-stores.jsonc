@@ -1,0 +1,1403 @@
+{
+  "store.custom#our-stores": {
+    "blocks": [
+      "responsive-layout.desktop#our-stores",
+      "responsive-layout.tablet#our-stores",
+      "responsive-layout.phone#our-stores"
+    ]
+  },
+
+  "responsive-layout.desktop#our-stores": {
+    "children": ["breadcrumb", "flex-layout.row#our-stores-desktop"]
+  },
+
+  "responsive-layout.tablet#our-stores": {
+    "children": [
+      "breadcrumb",
+      "flex-layout.row#our-stores-menu-mobile",
+      "flex-layout.row#our-stores-mobile"
+    ]
+  },
+
+  "responsive-layout.phone#our-stores": {
+    "children": [
+      "breadcrumb",
+      "flex-layout.row#our-stores-menu-mobile",
+      "flex-layout.row#our-stores-mobile"
+    ]
+  },
+
+  "flex-layout.row#our-stores-desktop": {
+    "children": [
+      "flex-layout.col#institutional-sidebar-desktop",
+      "flex-layout.col#content-our-stores"
+    ],
+    "props": {
+      "blockClass": "institutionalContainer"
+    }
+  },
+
+  "flex-layout.row#our-stores-menu-mobile": {
+    "children": ["flex-layout.col#institutional-sidebar-mobile"],
+    "props": {
+      "blockClass": "institutionalContainer"
+    }
+  },
+
+  "flex-layout.row#our-stores-mobile": {
+    "children": ["flex-layout.col#content-our-stores-mobile"],
+    "props": {
+      "blockClass": "institutionalContainer"
+    }
+  },
+
+  "flex-layout.col#content-our-stores-mobile": {
+    "children": [
+      "rich-text#our-stores",
+      "image#our-stores--banner-full",
+      "rich-text#our-stores--sc",
+      "flex-layout.col#our-stores--sc-store-1",
+      "flex-layout.col#our-stores--sc-store-2",
+      "flex-layout.col#our-stores--sc-store-4",
+      "flex-layout.col#our-stores--sc-store-5",
+      "flex-layout.col#our-stores--sc-store-6",
+      "flex-layout.col#our-stores--sc-store-7",
+      "flex-layout.col#our-stores--sc-store-8",
+      "flex-layout.col#our-stores--sc-store-9",
+      "flex-layout.col#our-stores--sc-store-10",
+      "flex-layout.col#our-stores--sc-store-11",
+      "flex-layout.col#our-stores--sc-store-12",
+      "flex-layout.col#our-stores--sc-store-13",
+      "flex-layout.col#our-stores--sc-store-14",
+      "rich-text#our-stores--rs",
+      "flex-layout.col#our-stores--rs-store-1",
+      "flex-layout.col#our-stores--rs-store-2",
+      "flex-layout.col#our-stores--rs-store-3",
+      "flex-layout.col#our-stores--rs-store-4",
+      "flex-layout.col#our-stores--rs-store-5",
+      "rich-text#our-stores--pr",
+      "flex-layout.col#our-stores--pr-store-1",
+      "flex-layout.col#our-stores--pr-store-2",
+      "flex-layout.col#our-stores--pr-store-3",
+      "flex-layout.col#our-stores--pr-store-4"
+    ],
+    "props": {
+      "blockClass": "textColumn",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "flex-layout.col#content-our-stores": {
+    "children": [
+      "rich-text#our-stores",
+      "image#our-stores--banner-full",
+      "rich-text#our-stores--sc",
+      "flex-layout.row#our-stores--sc-store-1",
+      "flex-layout.row#our-stores--sc-store-2",
+      "flex-layout.row#our-stores--sc-store-4",
+      "flex-layout.row#our-stores--sc-store-5",
+      "flex-layout.row#our-stores--sc-store-6",
+      "flex-layout.row#our-stores--sc-store-7",
+      "flex-layout.row#our-stores--sc-store-8",
+      "flex-layout.row#our-stores--sc-store-9",
+      "flex-layout.row#our-stores--sc-store-10",
+      "flex-layout.row#our-stores--sc-store-11",
+      "flex-layout.row#our-stores--sc-store-12",
+      "flex-layout.row#our-stores--sc-store-13",
+      "flex-layout.row#our-stores--sc-store-14",
+      "rich-text#our-stores--rs",
+      "flex-layout.row#our-stores--rs-store-1",
+      "flex-layout.row#our-stores--rs-store-2",
+      "flex-layout.row#our-stores--rs-store-3",
+      "flex-layout.row#our-stores--rs-store-4",
+      "flex-layout.row#our-stores--rs-store-5",
+      "rich-text#our-stores--pr",
+      "flex-layout.row#our-stores--pr-store-1",
+      "flex-layout.row#our-stores--pr-store-2",
+      "flex-layout.row#our-stores--pr-store-3",
+      "flex-layout.row#our-stores--pr-store-4"
+    ],
+    "props": {
+      "blockClass": "textColumn",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "rich-text#our-stores": {
+    "props": {
+      "text": "### **Nossas lojas** \n \n ",
+      "blockClass": "aboutContent"
+    }
+  },
+
+  "image#our-stores--banner-full": {
+    "props": {
+      "src": "https://cassol.vtexassets.com/arquivos/cassol-porto-bolo.png",
+      "blockClass": ["banner-nossas-lojas"]
+    }
+  },
+
+  "rich-text#our-stores--sc": {
+    "props": {
+      "text": "### **SANTA CATARINA** \n \n",
+      "blockClass": "aboutContent"
+    }
+  },
+  "rich-text#our-stores--rs": {
+    "props": {
+      "text": "### **RIO GRANDE DO SUL** \n \n",
+      "blockClass": "aboutContent"
+    }
+  },
+  "rich-text#our-stores--pr": {
+    "props": {
+      "text": "### **PARANÁ** \n \n",
+      "blockClass": "aboutContent"
+    }
+  },
+
+  "flex-layout.row#our-stores--sc-store-1": {
+    "children": [
+      "image#our-stores--sc-logo-1",
+      "rich-text#our-stores--sc-funcionamento-1",
+      "rich-text#our-stores--sc-endereco-1",
+      "rich-text#our-stores--sc-google-1"
+    ],
+    "props": {
+      "blockClass": "lojas",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "flex-layout.col#our-stores--sc-store-1": {
+    "children": [
+      "rich-text#our-stores--sc-funcionamento-1",
+      "rich-text#our-stores--sc-endereco-1",
+      "rich-text#our-stores--sc-google-1"
+    ],
+    "props": {
+      "blockClass": "lojas",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "image#our-stores--sc-logo-1": {
+    "props": {
+      "src": "https://cassol.vtexassets.com/arquivos/nossas-lojas.png",
+      "blockClass": ["icon-nossas-lojas"],
+      "maxWidth": 22,
+      "maxHeight": 27
+    }
+  },
+
+  "rich-text#our-stores--sc-funcionamento-1": {
+    "props": {
+      "text": "**Campinas - São José** \n 2ª a 6ª - 8h às 21h | Sábados - 8h às 20h \n Domingos e Feriados - 9h às 19h",
+      "blockClass": ["aboutContent", "funcionamento"]
+    }
+  },
+
+  "rich-text#our-stores--sc-endereco-1": {
+    "props": {
+      "text": "**(48) 4001-1515** \n Av. Presidente Kennedy, 1953 - Campinas, São José - SC, \n CEP: 88102-401",
+      "blockClass": ["aboutContent", "endereco"]
+    }
+  },
+
+  "rich-text#our-stores--sc-google-1": {
+    "props": {
+      "text": "<a href='https://goo.gl/maps/k2tcv2kVbbvGbVt77' target='_blank'>abrir no google</a>",
+      "blockClass": "google-button"
+    }
+  },
+
+  "flex-layout.row#our-stores--sc-store-2": {
+    "children": [
+      "image#our-stores--sc-logo-2",
+      "rich-text#our-stores--sc-funcionamento-2",
+      "rich-text#our-stores--sc-endereco-2",
+      "rich-text#our-stores--sc-google-2"
+    ],
+    "props": {
+      "blockClass": "lojas",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "flex-layout.col#our-stores--sc-store-2": {
+    "children": [
+      "rich-text#our-stores--sc-funcionamento-2",
+      "rich-text#our-stores--sc-endereco-2",
+      "rich-text#our-stores--sc-google-2"
+    ],
+    "props": {
+      "blockClass": "lojas",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "image#our-stores--sc-logo-2": {
+    "props": {
+      "src": "https://cassol.vtexassets.com/arquivos/nossas-lojas.png",
+      "blockClass": ["icon-nossas-lojas"],
+      "maxWidth": 22,
+      "maxHeight": 27
+    }
+  },
+
+  "rich-text#our-stores--sc-funcionamento-2": {
+    "props": {
+      "text": "**Barreiros - São José** \n 2ª a 6ª - 8h às 18h | Sábados - 8h às 13h \n Domingos e Feriados - Fechada",
+      "blockClass": ["aboutContent", "funcionamento"]
+    }
+  },
+
+  "rich-text#our-stores--sc-endereco-2": {
+    "props": {
+      "text": "**(48) 4001-1515** \n Av. Leoberto Leal, 1241 - Barreiros, São José - SC, \n CEP: 88110-000",
+      "blockClass": ["aboutContent", "endereco"]
+    }
+  },
+
+  "rich-text#our-stores--sc-google-2": {
+    "props": {
+      "text": "<a href='https://goo.gl/maps/vKr64zDSysmxFrn6A' target='_blank'>abrir no google</a>",
+      "blockClass": "google-button"
+    }
+  },
+
+  "flex-layout.row#our-stores--sc-store-4": {
+    "children": [
+      "image#our-stores--sc-logo-4",
+      "rich-text#our-stores--sc-funcionamento-4",
+      "rich-text#our-stores--sc-endereco-4",
+      "rich-text#our-stores--sc-google-4"
+    ],
+    "props": {
+      "blockClass": "lojas",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "flex-layout.col#our-stores--sc-store-4": {
+    "children": [
+      "rich-text#our-stores--sc-funcionamento-4",
+      "rich-text#our-stores--sc-endereco-4",
+      "rich-text#our-stores--sc-google-4"
+    ],
+    "props": {
+      "blockClass": "lojas",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "image#our-stores--sc-logo-4": {
+    "props": {
+      "src": "https://cassol.vtexassets.com/arquivos/nossas-lojas.png",
+      "blockClass": ["icon-nossas-lojas"],
+      "maxWidth": 22,
+      "maxHeight": 27
+    }
+  },
+
+  "rich-text#our-stores--sc-funcionamento-4": {
+    "props": {
+      "text": "**SC-401 - Florianópolis** \n 2ª a 6ª 8h às 20h | Sábado - 8h às 20h \n Domingos e Feriados - 10h às 19h",
+      "blockClass": ["aboutContent", "funcionamento"]
+    }
+  },
+
+  "rich-text#our-stores--sc-endereco-4": {
+    "props": {
+      "text": "**(48) 4001-1515** \n Rod. José Carlos Daux, 1953 - João Paulo, Florianópolis - SC, \n CEP: 88030-000",
+      "blockClass": ["aboutContent", "endereco"]
+    }
+  },
+
+  "rich-text#our-stores--sc-google-4": {
+    "props": {
+      "text": "<a href='https://goo.gl/maps/NyFemkwk9kJzHciY7' target='_blank'>abrir no google</a>",
+      "blockClass": "google-button"
+    }
+  },
+
+  "flex-layout.row#our-stores--sc-store-5": {
+    "children": [
+      "image#our-stores--sc-logo-5",
+      "rich-text#our-stores--sc-funcionamento-5",
+      "rich-text#our-stores--sc-endereco-5",
+      "rich-text#our-stores--sc-google-5"
+    ],
+    "props": {
+      "blockClass": "lojas",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "flex-layout.col#our-stores--sc-store-5": {
+    "children": [
+      "rich-text#our-stores--sc-funcionamento-5",
+      "rich-text#our-stores--sc-endereco-5",
+      "rich-text#our-stores--sc-google-5"
+    ],
+    "props": {
+      "blockClass": "lojas",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "image#our-stores--sc-logo-5": {
+    "props": {
+      "src": "https://cassol.vtexassets.com/arquivos/nossas-lojas.png",
+      "blockClass": ["icon-nossas-lojas"],
+      "maxWidth": 22,
+      "maxHeight": 27
+    }
+  },
+
+  "rich-text#our-stores--sc-funcionamento-5": {
+    "props": {
+      "text": "**Campeche - Florianópolis** \n 2ª a Sábado 8h às 19h | Domingo - 10h às 19h",
+      "blockClass": ["aboutContent", "funcionamento"]
+    }
+  },
+
+  "rich-text#our-stores--sc-endereco-5": {
+    "props": {
+      "text": "**(48) 4001-1515** \n SC-405, 2705 - Campeche, Florianópolis - SC, \n CEP: 88063-700",
+      "blockClass": ["aboutContent", "endereco"]
+    }
+  },
+
+  "rich-text#our-stores--sc-google-5": {
+    "props": {
+      "text": "<a href='https://goo.gl/maps/Em6oz2DRTxFNXDdD6' target='_blank'>abrir no google</a>",
+      "blockClass": "google-button"
+    }
+  },
+
+  "flex-layout.row#our-stores--sc-store-6": {
+    "children": [
+      "image#our-stores--sc-logo-6",
+      "rich-text#our-stores--sc-funcionamento-6",
+      "rich-text#our-stores--sc-endereco-6",
+      "rich-text#our-stores--sc-google-6"
+    ],
+    "props": {
+      "blockClass": "lojas",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "flex-layout.col#our-stores--sc-store-6": {
+    "children": [
+      "rich-text#our-stores--sc-funcionamento-6",
+      "rich-text#our-stores--sc-endereco-6",
+      "rich-text#our-stores--sc-google-6"
+    ],
+    "props": {
+      "blockClass": "lojas",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "image#our-stores--sc-logo-6": {
+    "props": {
+      "src": "https://cassol.vtexassets.com/arquivos/nossas-lojas.png",
+      "blockClass": ["icon-nossas-lojas"],
+      "maxWidth": 22,
+      "maxHeight": 27
+    }
+  },
+
+  "rich-text#our-stores--sc-funcionamento-6": {
+    "props": {
+      "text": "**Palhoça** \n 2ª a Sábado - 8h às 20h \n Domingos e Feriados - 9h às 19h",
+      "blockClass": ["aboutContent", "funcionamento"]
+    }
+  },
+
+  "rich-text#our-stores--sc-endereco-6": {
+    "props": {
+      "text": "**(48) 4001-1515** \n Rodovia BR 101 km 212 - Passa Vinte, Palhoça - SC, 88132-010",
+      "blockClass": ["aboutContent", "endereco"]
+    }
+  },
+
+  "rich-text#our-stores--sc-google-6": {
+    "props": {
+      "text": "<a href='https://www.google.com/maps/place/Cassol+Centerlar+Palhoca/@-27.63624,-48.6653993,15z/data=!4m5!3m4!1s0x0:0x822aa3040eb8ae65!8m2!3d-27.63624!4d-48.6653993' target='_blank'>abrir no google</a>",
+      "blockClass": "google-button"
+    }
+  },
+
+  "flex-layout.row#our-stores--sc-store-7": {
+    "children": [
+      "image#our-stores--sc-logo-7",
+      "rich-text#our-stores--sc-funcionamento-7",
+      "rich-text#our-stores--sc-endereco-7",
+      "rich-text#our-stores--sc-google-7"
+    ],
+    "props": {
+      "blockClass": "lojas",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "flex-layout.col#our-stores--sc-store-7": {
+    "children": [
+      "rich-text#our-stores--sc-funcionamento-7",
+      "rich-text#our-stores--sc-endereco-7",
+      "rich-text#our-stores--sc-google-7"
+    ],
+    "props": {
+      "blockClass": "lojas",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "image#our-stores--sc-logo-7": {
+    "props": {
+      "src": "https://cassol.vtexassets.com/arquivos/nossas-lojas.png",
+      "blockClass": ["icon-nossas-lojas"],
+      "maxWidth": 22,
+      "maxHeight": 27
+    }
+  },
+
+  "rich-text#our-stores--sc-funcionamento-7": {
+    "props": {
+      "text": "**Porto Belo - Porto Belo** \n 2ª a Sábado - 8h às 20h \n Domingos e Feriados- 10h às 19h",
+      "blockClass": ["aboutContent", "funcionamento"]
+    }
+  },
+
+  "rich-text#our-stores--sc-endereco-7": {
+    "props": {
+      "text": "**(48) 4001-1515** \n Av. Marginal Leste, BR 101 - Km 153, Porto Belo - SC, \n CEP: 88210-000",
+      "blockClass": ["aboutContent", "endereco"]
+    }
+  },
+
+  "rich-text#our-stores--sc-google-7": {
+    "props": {
+      "text": "<a href='https://goo.gl/maps/HGvT2U8UGgdp98977' target='_blank'>abrir no google</a>",
+      "blockClass": "google-button"
+    }
+  },
+
+  "flex-layout.row#our-stores--sc-store-8": {
+    "children": [
+      "image#our-stores--sc-logo-8",
+      "rich-text#our-stores--sc-funcionamento-8",
+      "rich-text#our-stores--sc-endereco-8",
+      "rich-text#our-stores--sc-google-8"
+    ],
+    "props": {
+      "blockClass": "lojas",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "flex-layout.col#our-stores--sc-store-8": {
+    "children": [
+      "rich-text#our-stores--sc-funcionamento-8",
+      "rich-text#our-stores--sc-endereco-8",
+      "rich-text#our-stores--sc-google-8"
+    ],
+    "props": {
+      "blockClass": "lojas",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "image#our-stores--sc-logo-8": {
+    "props": {
+      "src": "https://cassol.vtexassets.com/arquivos/nossas-lojas.png",
+      "blockClass": ["icon-nossas-lojas"],
+      "maxWidth": 22,
+      "maxHeight": 27
+    }
+  },
+
+  "rich-text#our-stores--sc-funcionamento-8": {
+    "props": {
+      "text": "**Itajaí** \n 2ª a 6ª - 8h às 18h | Sábados – 8h às 13h \n Domingos e Feriados - Fechada",
+      "blockClass": ["aboutContent", "funcionamento"]
+    }
+  },
+
+  "rich-text#our-stores--sc-endereco-8": {
+    "props": {
+      "text": "**(48) 4001-1515** \n Av. Sete de Setembro, 90 - Centro, Itajaí - SC, \n CEP: 88301-200",
+      "blockClass": ["aboutContent", "endereco"]
+    }
+  },
+
+  "rich-text#our-stores--sc-google-8": {
+    "props": {
+      "text": "<a href='https://goo.gl/maps/5HjM7PCAermH3uPq7' target='_blank'>abrir no google</a>",
+      "blockClass": "google-button"
+    }
+  },
+
+  "flex-layout.row#our-stores--sc-store-9": {
+    "children": [
+      "image#our-stores--sc-logo-9",
+      "rich-text#our-stores--sc-funcionamento-9",
+      "rich-text#our-stores--sc-endereco-9",
+      "rich-text#our-stores--sc-google-9"
+    ],
+    "props": {
+      "blockClass": "lojas",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "flex-layout.col#our-stores--sc-store-9": {
+    "children": [
+      "rich-text#our-stores--sc-funcionamento-9",
+      "rich-text#our-stores--sc-endereco-9",
+      "rich-text#our-stores--sc-google-9"
+    ],
+    "props": {
+      "blockClass": "lojas",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "image#our-stores--sc-logo-9": {
+    "props": {
+      "src": "https://cassol.vtexassets.com/arquivos/nossas-lojas.png",
+      "blockClass": ["icon-nossas-lojas"],
+      "maxWidth": 22,
+      "maxHeight": 27
+    }
+  },
+
+  "rich-text#our-stores--sc-funcionamento-9": {
+    "props": {
+      "text": "**Praia Brava - Itajaí** \n 2ª a 6ª  8h às 21h | Sábado - 8h às 20h  \n Domingos e Feriados - 9h às 19h",
+      "blockClass": ["aboutContent", "funcionamento"]
+    }
+  },
+
+  "rich-text#our-stores--sc-endereco-9": {
+    "props": {
+      "text": "**(48) 4001-1515** \n Av. Osvaldo Reis, 3277 - Santa Clara, Itajaí - SC, \n CEP: 88306-003",
+      "blockClass": ["aboutContent", "endereco"]
+    }
+  },
+
+  "rich-text#our-stores--sc-google-9": {
+    "props": {
+      "text": "<a href='https://goo.gl/maps/K7M1xxot6UhP2MEh8' target='_blank'>abrir no google</a>",
+      "blockClass": "google-button"
+    }
+  },
+
+  "flex-layout.row#our-stores--sc-store-10": {
+    "children": [
+      "image#our-stores--sc-logo-10",
+      "rich-text#our-stores--sc-funcionamento-10",
+      "rich-text#our-stores--sc-endereco-10",
+      "rich-text#our-stores--sc-google-10"
+    ],
+    "props": {
+      "blockClass": "lojas",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "flex-layout.col#our-stores--sc-store-10": {
+    "children": [
+      "rich-text#our-stores--sc-funcionamento-10",
+      "rich-text#our-stores--sc-endereco-10",
+      "rich-text#our-stores--sc-google-10"
+    ],
+    "props": {
+      "blockClass": "lojas",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "image#our-stores--sc-logo-10": {
+    "props": {
+      "src": "https://cassol.vtexassets.com/arquivos/nossas-lojas.png",
+      "blockClass": ["icon-nossas-lojas"],
+      "maxWidth": 22,
+      "maxHeight": 27
+    }
+  },
+
+  "rich-text#our-stores--sc-funcionamento-10": {
+    "props": {
+      "text": "**Shopping Muller - Joinville** \n 2ª a Sábado – 10h às 22h \n Domingos e Feriados - 14h às 20h",
+      "blockClass": ["aboutContent", "funcionamento"]
+    }
+  },
+
+  "rich-text#our-stores--sc-endereco-10": {
+    "props": {
+      "text": "**(48) 4001-1515** \n  A01, Mueller, R. Sen. Felipe Schmidt, 149 - L1 - Centro, Joinville - SC, \n CEP: 89201-420",
+      "blockClass": ["aboutContent", "endereco"]
+    }
+  },
+
+  "rich-text#our-stores--sc-google-10": {
+    "props": {
+      "text": "<a href='https://goo.gl/maps/47U8CA8QhdmCA3co9' target='_blank'>abrir no google</a>",
+      "blockClass": "google-button"
+    }
+  },
+
+  "flex-layout.row#our-stores--sc-store-11": {
+    "children": [
+      "image#our-stores--sc-logo-11",
+      "rich-text#our-stores--sc-funcionamento-11",
+      "rich-text#our-stores--sc-endereco-11",
+      "rich-text#our-stores--sc-google-11"
+    ],
+    "props": {
+      "blockClass": "lojas",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "flex-layout.col#our-stores--sc-store-11": {
+    "children": [
+      "rich-text#our-stores--sc-funcionamento-11",
+      "rich-text#our-stores--sc-endereco-11",
+      "rich-text#our-stores--sc-google-11"
+    ],
+    "props": {
+      "blockClass": "lojas",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "image#our-stores--sc-logo-11": {
+    "props": {
+      "src": "https://cassol.vtexassets.com/arquivos/nossas-lojas.png",
+      "blockClass": ["icon-nossas-lojas"],
+      "maxWidth": 22,
+      "maxHeight": 27
+    }
+  },
+
+  "rich-text#our-stores--sc-funcionamento-11": {
+    "props": {
+      "text": "**Shopping Garten - Joinville** \n 2ª a Sábado - 10h às 20h \n Domingos e Feriados- 14h às 20h",
+      "blockClass": ["aboutContent", "funcionamento"]
+    }
+  },
+
+  "rich-text#our-stores--sc-endereco-11": {
+    "props": {
+      "text": "**(48) 4001-1515** \n  Av. Rolf Wiest, 333 - Bom Retiro, Joinville - SC, \n CEP: 89223-005",
+      "blockClass": ["aboutContent", "endereco"]
+    }
+  },
+
+  "rich-text#our-stores--sc-google-11": {
+    "props": {
+      "text": "<a href='https://goo.gl/maps/12LSnC1QS9vmoZ9b8' target='_blank'>abrir no google</a>",
+      "blockClass": "google-button"
+    }
+  },
+
+  "flex-layout.row#our-stores--sc-store-12": {
+    "children": [
+      "image#our-stores--sc-logo-12",
+      "rich-text#our-stores--sc-funcionamento-12",
+      "rich-text#our-stores--sc-endereco-12",
+      "rich-text#our-stores--sc-google-12"
+    ],
+    "props": {
+      "blockClass": "lojas",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "flex-layout.col#our-stores--sc-store-12": {
+    "children": [
+      "rich-text#our-stores--sc-funcionamento-12",
+      "rich-text#our-stores--sc-endereco-12",
+      "rich-text#our-stores--sc-google-12"
+    ],
+    "props": {
+      "blockClass": "lojas",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "image#our-stores--sc-logo-12": {
+    "props": {
+      "src": "https://cassol.vtexassets.com/arquivos/nossas-lojas.png",
+      "blockClass": ["icon-nossas-lojas"],
+      "maxWidth": 22,
+      "maxHeight": 27
+    }
+  },
+
+  "rich-text#our-stores--sc-funcionamento-12": {
+    "props": {
+      "text": "**Shopping Park Europeu - Blumenau** \n 2ª a Sábado – 10h às 22h \n Domingos e Feriados - 14h às 20h",
+      "blockClass": ["aboutContent", "funcionamento"]
+    }
+  },
+
+  "rich-text#our-stores--sc-endereco-12": {
+    "props": {
+      "text": "**(48) 4001-1515** \n  Via Expressa, Rodovia Paul Fritz Kuehnrich, 1600 - L10 - Itoupava Norte, Blumenau - SC, \n CEP: 89052-050",
+      "blockClass": ["aboutContent", "endereco"]
+    }
+  },
+
+  "rich-text#our-stores--sc-google-12": {
+    "props": {
+      "text": "<a href='https://goo.gl/maps/DS1uEgM7etUpaWAC8' target='_blank'>abrir no google</a>",
+      "blockClass": "google-button"
+    }
+  },
+
+  "flex-layout.row#our-stores--sc-store-13": {
+    "children": [
+      "image#our-stores--sc-logo-13",
+      "rich-text#our-stores--sc-funcionamento-13",
+      "rich-text#our-stores--sc-endereco-13",
+      "rich-text#our-stores--sc-google-13"
+    ],
+    "props": {
+      "blockClass": "lojas",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "flex-layout.col#our-stores--sc-store-13": {
+    "children": [
+      "rich-text#our-stores--sc-funcionamento-13",
+      "rich-text#our-stores--sc-endereco-13",
+      "rich-text#our-stores--sc-google-13"
+    ],
+    "props": {
+      "blockClass": "lojas",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "image#our-stores--sc-logo-13": {
+    "props": {
+      "src": "https://cassol.vtexassets.com/arquivos/nossas-lojas.png",
+      "blockClass": ["icon-nossas-lojas"],
+      "maxWidth": 22,
+      "maxHeight": 27
+    }
+  },
+
+  "rich-text#our-stores--sc-funcionamento-13": {
+    "props": {
+      "text": "**Criciúma** \n 2ª a Sábado – 10h às 22h \n Domingos e Feriados - 14h às 20h",
+      "blockClass": ["aboutContent", "funcionamento"]
+    }
+  },
+
+  "rich-text#our-stores--sc-endereco-13": {
+    "props": {
+      "text": "**(48) 4001-1515** \n  Nações Shopping, Av. Jorge Elias de Lucca, 677 - Nossa Sra. da Salete, Criciúma - SC, \n CEP: 88813-390",
+      "blockClass": ["aboutContent", "endereco"]
+    }
+  },
+
+  "rich-text#our-stores--sc-google-13": {
+    "props": {
+      "text": "<a href='https://goo.gl/maps/4FDHQm4zx2QqNrCy7' target='_blank'>abrir no google</a>",
+      "blockClass": "google-button"
+    }
+  },
+
+  "flex-layout.row#our-stores--sc-store-14": {
+    "children": [
+      "image#our-stores--sc-logo-14",
+      "rich-text#our-stores--sc-funcionamento-14",
+      "rich-text#our-stores--sc-endereco-14",
+      "rich-text#our-stores--sc-google-14"
+    ],
+    "props": {
+      "blockClass": "lojas",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "flex-layout.col#our-stores--sc-store-14": {
+    "children": [
+      "rich-text#our-stores--sc-funcionamento-14",
+      "rich-text#our-stores--sc-endereco-14",
+      "rich-text#our-stores--sc-google-14"
+    ],
+    "props": {
+      "blockClass": "lojas",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "image#our-stores--sc-logo-14": {
+    "props": {
+      "src": "https://cassol.vtexassets.com/arquivos/nossas-lojas.png",
+      "blockClass": ["icon-nossas-lojas"],
+      "maxWidth": 22,
+      "maxHeight": 27
+    }
+  },
+
+  "rich-text#our-stores--sc-funcionamento-14": {
+    "props": {
+      "text": "**Centro de Distribuição - São José** \n 2ª a Sexta – 8h às 18h \n Sábado - 8h às 14h",
+      "blockClass": ["aboutContent", "funcionamento"]
+    }
+  },
+
+  "rich-text#our-stores--sc-endereco-14": {
+    "props": {
+      "text": "**(48) 4001-1515** \n  R. Valdemar Avelino Mafra, 969 - Kobrasol, São José - SC, \n CEP: 88102-300",
+      "blockClass": ["aboutContent", "endereco"]
+    }
+  },
+
+  "rich-text#our-stores--sc-google-14": {
+    "props": {
+      "text": "<a href='https://goo.gl/maps/oe78ZVAXQMQA6osw7' target='_blank'>abrir no google</a>",
+      "blockClass": "google-button"
+    }
+  },
+
+  "flex-layout.row#our-stores--rs-store-1": {
+    "children": [
+      "image#our-stores--rs-logo-1",
+      "rich-text#our-stores--rs-funcionamento-1",
+      "rich-text#our-stores--rs-endereco-1",
+      "rich-text#our-stores--rs-google-1"
+    ],
+    "props": {
+      "blockClass": "lojas",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "flex-layout.col#our-stores--rs-store-1": {
+    "children": [
+      "rich-text#our-stores--rs-funcionamento-1",
+      "rich-text#our-stores--rs-endereco-1",
+      "rich-text#our-stores--rs-google-1"
+    ],
+    "props": {
+      "blockClass": "lojas",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "image#our-stores--rs-logo-1": {
+    "props": {
+      "src": "https://cassol.vtexassets.com/arquivos/nossas-lojas.png",
+      "blockClass": ["icon-nossas-lojas"],
+      "maxWidth": 22,
+      "maxHeight": 27
+    }
+  },
+
+  "rich-text#our-stores--rs-funcionamento-1": {
+    "props": {
+      "text": "**Zona Norte - Porto Alegre** \n 2ª a Sábado – 8h às 22h \n Domingos e Feriados - 10h às 20h",
+      "blockClass": ["aboutContent", "funcionamento"]
+    }
+  },
+
+  "rich-text#our-stores--rs-endereco-1": {
+    "props": {
+      "text": "**(48) 4001-1515** \n Av. Sertório, 8000 - Sarandi, Porto Alegre - RS, \n CEP: 91130-721",
+      "blockClass": ["aboutContent", "endereco"]
+    }
+  },
+
+  "rich-text#our-stores--rs-google-1": {
+    "props": {
+      "text": "<a href='https://goo.gl/maps/EH8epDP4P9PJxXNN8' target='_blank'>abrir no google</a>",
+      "blockClass": "google-button"
+    }
+  },
+
+  "flex-layout.row#our-stores--rs-store-2": {
+    "children": [
+      "image#our-stores--rs-logo-2",
+      "rich-text#our-stores--rs-funcionamento-2",
+      "rich-text#our-stores--rs-endereco-2",
+      "rich-text#our-stores--rs-google-2"
+    ],
+    "props": {
+      "blockClass": "lojas",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "flex-layout.col#our-stores--rs-store-2": {
+    "children": [
+      "rich-text#our-stores--rs-funcionamento-2",
+      "rich-text#our-stores--rs-endereco-2",
+      "rich-text#our-stores--rs-google-2"
+    ],
+    "props": {
+      "blockClass": "lojas",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "image#our-stores--rs-logo-2": {
+    "props": {
+      "src": "https://cassol.vtexassets.com/arquivos/nossas-lojas.png",
+      "blockClass": ["icon-nossas-lojas"],
+      "maxWidth": 22,
+      "maxHeight": 27
+    }
+  },
+
+  "rich-text#our-stores--rs-funcionamento-2": {
+    "props": {
+      "text": "**Zona Sul - Porto Alegre** \n 2ª a Sábado - 8h às 21h \n Domingos e Feriados- 9h às 19h",
+      "blockClass": ["aboutContent", "funcionamento"]
+    }
+  },
+
+  "rich-text#our-stores--rs-endereco-2": {
+    "props": {
+      "text": "**(48) 4001-1515** \n Av. Eduardo Prado, 415, esquina com Av, R. Déa Coufal - Cavalhada, Porto Alegre - RS, \n CEP: 91751-000",
+      "blockClass": ["aboutContent", "endereco"]
+    }
+  },
+
+  "rich-text#our-stores--rs-google-2": {
+    "props": {
+      "text": "<a href='https://goo.gl/maps/RKs2R5JbXHJiiczs9' target='_blank'>abrir no google</a>",
+      "blockClass": "google-button"
+    }
+  },
+
+  "flex-layout.row#our-stores--rs-store-3": {
+    "children": [
+      "image#our-stores--rs-logo-3",
+      "rich-text#our-stores--rs-funcionamento-3",
+      "rich-text#our-stores--rs-endereco-3",
+      "rich-text#our-stores--rs-google-3"
+    ],
+    "props": {
+      "blockClass": "lojas",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "flex-layout.col#our-stores--rs-store-3": {
+    "children": [
+      "rich-text#our-stores--rs-funcionamento-3",
+      "rich-text#our-stores--rs-endereco-3",
+      "rich-text#our-stores--rs-google-3"
+    ],
+    "props": {
+      "blockClass": "lojas",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "image#our-stores--rs-logo-3": {
+    "props": {
+      "src": "https://cassol.vtexassets.com/arquivos/nossas-lojas.png",
+      "blockClass": ["icon-nossas-lojas"],
+      "maxWidth": 22,
+      "maxHeight": 27
+    }
+  },
+
+  "rich-text#our-stores--rs-funcionamento-3": {
+    "props": {
+      "text": "**Jardim Botânico - Porto Alegre** \n 2ª a Sábado - 8h às 21h \n Domingos e Feriados- 10h às 19h",
+      "blockClass": ["aboutContent", "funcionamento"]
+    }
+  },
+
+  "rich-text#our-stores--rs-endereco-3": {
+    "props": {
+      "text": "**(48) 4001-1515** \n Av. Sen. Tarso Dutra, 665 - Petrópolis, Porto Alegre - RS, \n CEP: 90690-140",
+      "blockClass": ["aboutContent", "endereco"]
+    }
+  },
+
+  "rich-text#our-stores--rs-google-3": {
+    "props": {
+      "text": "<a href='https://goo.gl/maps/UyUEFmqzBds28mMQA' target='_blank'>abrir no google</a>",
+      "blockClass": "google-button"
+    }
+  },
+
+  "flex-layout.row#our-stores--rs-store-4": {
+    "children": [
+      "image#our-stores--rs-logo-4",
+      "rich-text#our-stores--rs-funcionamento-4",
+      "rich-text#our-stores--rs-endereco-4",
+      "rich-text#our-stores--rs-google-4"
+    ],
+    "props": {
+      "blockClass": "lojas",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "flex-layout.col#our-stores--rs-store-4": {
+    "children": [
+      "rich-text#our-stores--rs-funcionamento-4",
+      "rich-text#our-stores--rs-endereco-4",
+      "rich-text#our-stores--rs-google-4"
+    ],
+    "props": {
+      "blockClass": "lojas",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "image#our-stores--rs-logo-4": {
+    "props": {
+      "src": "https://cassol.vtexassets.com/arquivos/nossas-lojas.png",
+      "blockClass": ["icon-nossas-lojas"],
+      "maxWidth": 22,
+      "maxHeight": 27
+    }
+  },
+
+  "rich-text#our-stores--rs-funcionamento-4": {
+    "props": {
+      "text": "**Caxias do Su**l \n2ª a Sábados - 8h às 20h \n Domingos e Feriados- 14 às 20",
+      "blockClass": ["aboutContent", "funcionamento"]
+    }
+  },
+
+  "rich-text#our-stores--rs-endereco-4": {
+    "props": {
+      "text": "**(48) 4001-1515** \n R. Carlos Cesa, 3218 - Sanvitto, Caxias do Sul - RS, \n CEP: 95110-258",
+      "blockClass": ["aboutContent", "endereco"]
+    }
+  },
+
+  "rich-text#our-stores--rs-google-4": {
+    "props": {
+      "text": "<a href='https://goo.gl/maps/VXeYL4aEdL2BnUa78' target='_blank'>abrir no google</a>",
+      "blockClass": "google-button"
+    }
+  },
+
+
+
+
+
+
+
+
+  "flex-layout.row#our-stores--rs-store-5": {
+    "children": [
+      "image#our-stores--rs-logo-5",
+      "rich-text#our-stores--rs-funcionamento-5",
+      "rich-text#our-stores--rs-endereco-5",
+      "rich-text#our-stores--rs-google-5"
+    ],
+    "props": {
+      "blockClass": "lojas",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "flex-layout.col#our-stores--rs-store-5": {
+    "children": [
+      "rich-text#our-stores--rs-funcionamento-5",
+      "rich-text#our-stores--rs-endereco-5",
+      "rich-text#our-stores--rs-google-5"
+    ],
+    "props": {
+      "blockClass": "lojas",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "image#our-stores--rs-logo-5": {
+    "props": {
+      "src": "https://cassol.vtexassets.com/arquivos/nossas-lojas.png",
+      "blockClass": ["icon-nossas-lojas"],
+      "maxWidth": 22,
+      "maxHeight": 27
+    }
+  },
+
+  "rich-text#our-stores--rs-funcionamento-5": {
+    "props": {
+      "text": "**Centro de Distribuição - Canoas** \n 2ª a Sexta - 8h às 18h \n Sábado - 8h às 14h",
+      "blockClass": ["aboutContent", "funcionamento"]
+    }
+  },
+
+  "rich-text#our-stores--rs-endereco-5": {
+    "props": {
+      "text": "**(48) 4001-1515** \n Av. Guilherme Schell, 130 - Rio Branco, Canoas - RS, \n CEP: 92200-140",
+      "blockClass": ["aboutContent", "endereco"]
+    }
+  },
+
+  "rich-text#our-stores--rs-google-5": {
+    "props": {
+      "text": "<a href='https://goo.gl/maps/dWZGCt6pcWsxiLCw9' target='_blank'>abrir no google</a>",
+      "blockClass": "google-button"
+    }
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  "flex-layout.row#our-stores--pr-store-1": {
+    "children": [
+      "image#our-stores--pr-logo-1",
+      "rich-text#our-stores--pr-funcionamento-1",
+      "rich-text#our-stores--pr-endereco-1",
+      "rich-text#our-stores--pr-google-1"
+    ],
+    "props": {
+      "blockClass": "lojas",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "flex-layout.col#our-stores--pr-store-1": {
+    "children": [
+      "rich-text#our-stores--pr-funcionamento-1",
+      "rich-text#our-stores--pr-endereco-1",
+      "rich-text#our-stores--pr-google-1"
+    ],
+    "props": {
+      "blockClass": "lojas",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "image#our-stores--pr-logo-1": {
+    "props": {
+      "src": "https://cassol.vtexassets.com/arquivos/nossas-lojas.png",
+      "blockClass": ["icon-nossas-lojas"],
+      "maxWidth": 22,
+      "maxHeight": 27
+    }
+  },
+
+  "rich-text#our-stores--pr-funcionamento-1": {
+    "props": {
+      "text": "**Santa Cândida - Curitiba** \n 2ª a 6ª - 8h às 18h | Sábados – 8h às 13h \n Domingos e Feriados - Fechada",
+      "blockClass": ["aboutContent", "funcionamento"]
+    }
+  },
+
+  "rich-text#our-stores--pr-endereco-1": {
+    "props": {
+      "text": "**(48) 4001-1515** \n Estr. Nova de Colombo, 5886 - Santa Cândida, Curitiba - PR, \n CEP: 82720-010",
+      "blockClass": ["aboutContent", "endereco"]
+    }
+  },
+
+  "rich-text#our-stores--pr-google-1": {
+    "props": {
+      "text": "<a href='https://goo.gl/maps/dnP5jDzyY2GvmD8X6' target='_blank'>abrir no google</a>",
+      "blockClass": "google-button"
+    }
+  },
+
+  "flex-layout.row#our-stores--pr-store-2": {
+    "children": [
+      "image#our-stores--pr-logo-2",
+      "rich-text#our-stores--pr-funcionamento-2",
+      "rich-text#our-stores--pr-endereco-2",
+      "rich-text#our-stores--pr-google-2"
+    ],
+    "props": {
+      "blockClass": "lojas",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "flex-layout.col#our-stores--pr-store-2": {
+    "children": [
+      "rich-text#our-stores--pr-funcionamento-2",
+      "rich-text#our-stores--pr-endereco-2",
+      "rich-text#our-stores--pr-google-2"
+    ],
+    "props": {
+      "blockClass": "lojas",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "image#our-stores--pr-logo-2": {
+    "props": {
+      "src": "https://cassol.vtexassets.com/arquivos/nossas-lojas.png",
+      "blockClass": ["icon-nossas-lojas"],
+      "maxWidth": 22,
+      "maxHeight": 27
+    }
+  },
+
+  "rich-text#our-stores--pr-funcionamento-2": {
+    "props": {
+      "text": "**Rebouças - Curitiba** \n 2ª a Sábado - 8h às 21h \n Domingos - Fechada | Feriado de 02/11 - 10h às 19h",
+      "blockClass": ["aboutContent", "funcionamento"]
+    }
+  },
+
+  "rich-text#our-stores--pr-endereco-2": {
+    "props": {
+      "text": "**(48) 4001-1515** \n Av. Sete de Setembro, 2331 - Rebouças, Curitiba - PR, \n CEP: 80040-220",
+      "blockClass": ["aboutContent", "endereco"]
+    }
+  },
+
+  "rich-text#our-stores--pr-google-2": {
+    "props": {
+      "text": "<a href='https://goo.gl/maps/ZVhw199QYcgyfeLt9' target='_blank'>abrir no google</a>",
+      "blockClass": "google-button"
+    }
+  },
+
+  "flex-layout.row#our-stores--pr-store-3": {
+    "children": [
+      "image#our-stores--pr-logo-3",
+      "rich-text#our-stores--pr-funcionamento-3",
+      "rich-text#our-stores--pr-endereco-3",
+      "rich-text#our-stores--pr-google-3"
+    ],
+    "props": {
+      "blockClass": "lojas",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "flex-layout.col#our-stores--pr-store-3": {
+    "children": [
+      "rich-text#our-stores--pr-funcionamento-3",
+      "rich-text#our-stores--pr-endereco-3",
+      "rich-text#our-stores--pr-google-3"
+    ],
+    "props": {
+      "blockClass": "lojas",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "image#our-stores--pr-logo-3": {
+    "props": {
+      "src": "https://cassol.vtexassets.com/arquivos/nossas-lojas.png",
+      "blockClass": ["icon-nossas-lojas"],
+      "maxWidth": 22,
+      "maxHeight": 27
+    }
+  },
+
+  "rich-text#our-stores--pr-funcionamento-3": {
+    "props": {
+      "text": "**Linha Verde  - Curitiba** \n 2ª a Sábado - 8h às 21h \n Domingos - Fechada | Feriado de 02/11 - 9h às 19h",
+      "blockClass": ["aboutContent", "funcionamento"]
+    }
+  },
+
+  "rich-text#our-stores--pr-endereco-3": {
+    "props": {
+      "text": "**(48) 4001-1515** \n Av. Mal. Floriano Peixoto, 4742 - Hauer, Curitiba - PR, \n CEP: 81270-410",
+      "blockClass": ["aboutContent", "endereco"]
+    }
+  },
+
+  "rich-text#our-stores--pr-google-3": {
+    "props": {
+      "text": "<a href='https://goo.gl/maps/cBq2NpdTMZKTJiVZ8' target='_blank'>abrir no google</a>",
+      "blockClass": "google-button"
+    }
+  },
+
+
+  "flex-layout.row#our-stores--pr-store-4": {
+    "children": [
+      "image#our-stores--pr-logo-4",
+      "rich-text#our-stores--pr-funcionamento-4",
+      "rich-text#our-stores--pr-endereco-4",
+      "rich-text#our-stores--pr-google-4"
+    ],
+    "props": {
+      "blockClass": "lojas",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "flex-layout.col#our-stores--pr-store-4": {
+    "children": [
+      "rich-text#our-stores--pr-funcionamento-4",
+      "rich-text#our-stores--pr-endereco-4",
+      "rich-text#our-stores--pr-google-4"
+    ],
+    "props": {
+      "blockClass": "lojas",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "image#our-stores--pr-logo-4": {
+    "props": {
+      "src": "https://cassol.vtexassets.com/arquivos/nossas-lojas.png",
+      "blockClass": ["icon-nossas-lojas"],
+      "maxWidth": 22,
+      "maxHeight": 27
+    }
+  },
+
+  "rich-text#our-stores--pr-funcionamento-4": {
+    "props": {
+      "text": "**Centro de Distribuição - Curitiba** \n 2ª a Sábado - 8h às 22h \n Domingos e Feriados - 9h às 19h",
+      "blockClass": ["aboutContent", "funcionamento"]
+    }
+  },
+
+  "rich-text#our-stores--pr-endereco-4": {
+    "props": {
+      "text": "**(48) 4001-1515** \n Rua Professora Maria de Assumpção, 215 - Hauer, Curitiba - PR, \n CEP: 81630-040",
+      "blockClass": ["aboutContent", "endereco"]
+    }
+  },
+
+  "rich-text#our-stores--pr-google-4": {
+    "props": {
+      "text": "<a href='https://goo.gl/maps/Xb6TuuRdr5LSr3KS7' target='_blank'>abrir no google</a>",
+      "blockClass": "google-button"
+    }
+  }
+}

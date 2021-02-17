@@ -1,0 +1,317 @@
+{
+  "menu-item#acessorios-automotivos": {
+    "props": {
+      "id": "menu-item-acessorios-automotivos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/pneus-e-acessorios-automotivos/acessorios-automotivos",
+        "noFollow": true,
+        "tagTitle": "Acessórios Automotivos",
+        "text": "Acessórios Automotivos"
+      },
+      "blockClass": ["childSub", "have-children"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#acessorios-automotivos"]
+  },
+
+  "vtex.menu@2.x:submenu#acessorios-automotivos": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#acessorios-automotivos"]
+  },
+
+  "vtex.menu@2.x:menu#acessorios-automotivos": {
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-acessorios-automotivos-ver-todos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/pneus-e-acessorios-automotivos/acessorios-automotivos",
+            "noFollow": true,
+            "tagTitle": "Ver todos os produtos",
+            "text": "Ver todos os produtos"
+          },
+          "blockClass": ["ver-todos"]
+        },
+        {
+          "id": "menu-item-aspirador",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/pneus-e-acessorios-automotivos/acessorios-automotivos/aspirador",
+            "noFollow": true,
+            "tagTitle": "Aspirador",
+            "text": "Aspirador"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-bomba-de-ar",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/pneus-e-acessorios-automotivos/acessorios-automotivos/bomba-de-ar",
+            "noFollow": true,
+            "tagTitle": "Bomba de Ar",
+            "text": "Bomba de Ar"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-cabo-para-bateria",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/pneus-e-acessorios-automotivos/acessorios-automotivos/cabo-para-bateria",
+            "noFollow": true,
+            "tagTitle": "Cabo para Bateria",
+            "text": "Cabo para Bateria"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-calota",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/pneus-e-acessorios-automotivos/acessorios-automotivos/calota",
+            "noFollow": true,
+            "tagTitle": "Calota",
+            "text": "Calota"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-capa",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/pneus-e-acessorios-automotivos/acessorios-automotivos/capa",
+            "noFollow": true,
+            "tagTitle": "Capa",
+            "text": "Capa"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-carregador-de-bateria",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/pneus-e-acessorios-automotivos/acessorios-automotivos/carregador-de-bateria",
+            "noFollow": true,
+            "tagTitle": "Carregador de Bateria",
+            "text": "Carregador de Bateria"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-chave-de-roda",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/pneus-e-acessorios-automotivos/acessorios-automotivos/chave-de-roda",
+            "noFollow": true,
+            "tagTitle": "Chave de Roda",
+            "text": "Chave de Roda"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-compressor-de-ar",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/pneus-e-acessorios-automotivos/acessorios-automotivos/compressor-de-ar",
+            "noFollow": true,
+            "tagTitle": "Compressor de Ar",
+            "text": "Compressor de Ar"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-funil",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/pneus-e-acessorios-automotivos/acessorios-automotivos/funil",
+            "noFollow": true,
+            "tagTitle": "Funil",
+            "text": "Funil"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-galao",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/pneus-e-acessorios-automotivos/acessorios-automotivos/galao",
+            "noFollow": true,
+            "tagTitle": "Galão",
+            "text": "Galão"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-jogo-de-cabos-extensores",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/pneus-e-acessorios-automotivos/acessorios-automotivos/jogo-de-cabos-extensores",
+            "noFollow": true,
+            "tagTitle": "Jogo de Cabos Extensores",
+            "text": "Jogo de Cabos Extensores"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-luva",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/pneus-e-acessorios-automotivos/acessorios-automotivos/luva",
+            "noFollow": true,
+            "tagTitle": "Luva",
+            "text": "Luva"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-macaco",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/pneus-e-acessorios-automotivos/acessorios-automotivos/macaco",
+            "noFollow": true,
+            "tagTitle": "Macaco",
+            "text": "Macaco"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-palheta",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/pneus-e-acessorios-automotivos/acessorios-automotivos/palheta",
+            "noFollow": true,
+            "tagTitle": "Palheta",
+            "text": "Palheta"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-para-sol",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/pneus-e-acessorios-automotivos/acessorios-automotivos/para-sol",
+            "noFollow": true,
+            "tagTitle": "Para Sol",
+            "text": "Para Sol"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-suporte",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/pneus-e-acessorios-automotivos/acessorios-automotivos/suporte",
+            "noFollow": true,
+            "tagTitle": "Suporte",
+            "text": "Suporte"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-tapete",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/pneus-e-acessorios-automotivos/acessorios-automotivos/tapete",
+            "noFollow": true,
+            "tagTitle": "Tapete",
+            "text": "Tapete"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-triângulo-de-seguranca",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/pneus-e-acessorios-automotivos/acessorios-automotivos/triângulo-de-seguranca",
+            "noFollow": true,
+            "tagTitle": "Triângulo de Segurança",
+            "text": "Triângulo de Segurança"
+          },
+          "blockClass": "child"
+        }
+      ]
+    }
+  }
+}

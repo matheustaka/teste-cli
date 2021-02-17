@@ -1,0 +1,19 @@
+{
+  "menu-item#assentos-sanitarios": {
+    "props": {
+      "id": "menu-item-assentos-sanitarios",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/banheiros/assentos-sanitarios",
+        "noFollow": true,
+        "tagTitle": "Assentos Sanitários",
+        "text": "Assentos Sanitários"
+      },
+      "blockClass": "childSub"
+    }
+  }
+}
+

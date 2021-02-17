@@ -1,0 +1,40 @@
+{
+  "store.custom#calculadora": {
+    "blocks": [
+      "responsive-layout.desktop#calculator",
+      "responsive-layout.tablet#calculator",
+      "responsive-layout.phone#calculator"
+    ]
+  },
+
+  "responsive-layout.desktop#calculator": {
+    "children": [
+      "breadcrumb",
+      "rich-text#text-calculator",
+      "calculator"
+    ]
+  },
+
+  "responsive-layout.tablet#calculator": {
+    "children": [
+      "breadcrumb",
+      "rich-text#text-calculator",
+      "calculator"
+    ]
+  },
+
+  "responsive-layout.phone#calculator": {
+    "children": [
+      "breadcrumb",
+      "rich-text#text-calculator",
+      "calculator"
+    ]
+  },
+
+  "rich-text#text-calculator": {
+    "props": {
+      "text": "### **Calculadora de BTU's** \n \n O investimento em um aparelho de ar condicionado não pode ocorrer de forma impulsiva. O dimensionamento do ambiente assim como a potência exigida do aparelho para cada ambiente deve ser levado em consideração para quem deseja fazer uma compra assertiva, garantindo um rendimento apropriado e o correto consumo de energia. \n Se você está com dúvidas sobre qual potência é a ideal para o seu ambiente, experimente nossa calculadora.",
+      "blockClass": "textCalculator"
+    }
+  }
+}

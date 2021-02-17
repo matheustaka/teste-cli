@@ -1,0 +1,132 @@
+{
+  "menu-item#decoracao-de-jardim": {
+    "props": {
+      "id": "menu-item-decoracao-de-jardim",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/jardim-e-sacada/decoracao-de-jardim",
+        "noFollow": true,
+        "tagTitle": "Decoração de Jardim",
+        "text": "Decoração de Jardim"
+      },
+      "blockClass": ["childSub", "have-children"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#decoracao-de-jardim"]
+  },
+
+  "vtex.menu@2.x:submenu#decoracao-de-jardim": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#decoracao-de-jardim"]
+  },
+
+  "vtex.menu@2.x:menu#decoracao-de-jardim": {
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-decoracao-de-jardim-ver-todos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/jardim-e-sacada/decoracao-de-jardim",
+            "noFollow": true,
+            "tagTitle": "Ver todos os produtos",
+            "text": "Ver todos os produtos"
+          },
+          "blockClass": ["ver-todos"]
+        },
+        {
+          "id": "menu-item-acessorios",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/jardim-e-sacada/decoracao-de-jardim/acessorios",
+            "noFollow": true,
+            "tagTitle": "Acessórios",
+            "text": "Acessórios"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-cachepots",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/jardim-e-sacada/decoracao-de-jardim/cachepots",
+            "noFollow": true,
+            "tagTitle": "Cachepots",
+            "text": "Cachepots"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-fonte",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/jardim-e-sacada/decoracao-de-jardim/fonte",
+            "noFollow": true,
+            "tagTitle": "Fonte",
+            "text": "Fonte"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-pergolado",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/jardim-e-sacada/decoracao-de-jardim/pergolado",
+            "noFollow": true,
+            "tagTitle": "Pergolado",
+            "text": "Pergolado"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-trelica",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/jardim-e-sacada/decoracao-de-jardim/trelica",
+            "noFollow": true,
+            "tagTitle": "Treliça",
+            "text": "Treliça"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-vasos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/jardim-e-sacada/decoracao-de-jardim/vasos",
+            "noFollow": true,
+            "tagTitle": "Vasos",
+            "text": "Vasos"
+          },
+          "blockClass": "child"
+        }
+      ]
+    }
+  }
+}

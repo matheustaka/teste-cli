@@ -1,0 +1,144 @@
+{
+  "store.custom#brand-manifest": {
+    "blocks": [
+      "responsive-layout.desktop#manifest",
+      "responsive-layout.tablet#manifest",
+      "responsive-layout.phone#manifest"
+    ]
+  },
+
+  "responsive-layout.desktop#manifest": {
+    "children": [
+      "breadcrumb",
+      "flex-layout.row#brand-manifest-desktop"
+    ]
+  },
+
+  "responsive-layout.tablet#manifest": {
+    "children": [
+      "breadcrumb",
+      "flex-layout.row#brand-manifest-menu-mobile",
+      "flex-layout.row#brand-manifest-mobile"
+    ]
+  },
+
+  "responsive-layout.phone#manifest": {
+    "children": [
+      "breadcrumb",
+      "flex-layout.row#brand-manifest-menu-mobile",
+      "flex-layout.row#brand-manifest-mobile"
+    ]
+  },
+
+  "flex-layout.row#brand-manifest-desktop": {
+    "children": [
+      "flex-layout.col#institutional-sidebar-desktop",
+      "flex-layout.col#content-brand-manifest"
+    ],
+    "props": {
+      "blockClass": "institutionalContainer"
+    }
+  },
+
+  "flex-layout.row#brand-manifest-menu-mobile": {
+    "children": [
+      "flex-layout.col#institutional-sidebar-mobile"
+    ],
+    "props": {
+      "blockClass": "institutionalContainer"
+    }
+  },
+
+  "flex-layout.row#brand-manifest-mobile": {
+    "children": [
+      "flex-layout.col#content-brand-manifest-mobile"
+    ],
+    "props": {
+      "blockClass": "institutionalContainer"
+    }
+  },
+
+  "flex-layout.col#content-brand-manifest-mobile": {
+    "children": [
+      "rich-text#brand-manifest",
+      "rich-text#brand-manifest--nosso-proposito",
+      "flex-layout.col#content-brand--valor-cassol"
+    ],
+    "props": {
+      "blockClass": "textColumn",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "flex-layout.col#content-brand-manifest": {
+    "children": [
+      "rich-text#brand-manifest",
+      "rich-text#brand-manifest--nosso-proposito",
+      "flex-layout.row#content-brand--valor-cassol"
+    ],
+    "props": {
+      "blockClass": "textColumn",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "rich-text#brand-manifest": {
+    "props": {
+      "text": "### **Manifesto da Marca** \n \n Aqui na Cassol, **a gente acredita em colaboração**. Em trabalhar junto, cooperar. Queremos estar sempre próximos, ajudando nas suas decisões, facilitando a sua vida. Para isso, reunimos, em um só lugar, tudo o que você precisa para transformar a sua casa em um lar. Um lar com a sua identidade, sob medida para o seu momento de vida. É isso que nos move todos os dias: colaborar com você. Porque a gente sabe que uma casa é um conjunto. Um conjunto de escolhas, de pessoas, de bons momentos. E é em conjunto que a gente constrói o seu sonho. Do jeito que você imaginou.\n\n Você imagina, a gente tem.",
+      "blockClass": "aboutContent"
+    }
+  },
+
+  "rich-text#brand-manifest--nosso-proposito": {
+    "props": {
+      "text": "### **Nosso propósito** \n \n Colaborar com as pessoas para transformar a casa em um lar.\n Acreditamos que a casa é o lugar em que as pessoas se sentem bem, reúnem os amigos, a família e vivem bons momentos. Por isso, nossa razão de ser é colaborar com as pessoas, entregando o que elas precisam para que o lar fique do jeito delas.",
+      "blockClass": "aboutContent"
+    }
+  },
+
+  "flex-layout.row#content-brand--valor-cassol": {
+    "children": [
+      "rich-text#brand-manifest--valor-cassol",
+      "rich-text#brand-manifest--cliente",
+      "rich-text#brand-manifest--simplicidade"
+    ],
+    "props": {
+      "blockClass": ["textColumn", "valor-cassol"],
+      "preventVerticalStretch": true
+    }
+  },
+
+  "flex-layout.col#content-brand--valor-cassol": {
+    "children": [
+      "rich-text#brand-manifest--valor-cassol",
+      "rich-text#brand-manifest--cliente",
+      "rich-text#brand-manifest--simplicidade"
+    ],
+    "props": {
+      "blockClass": ["textColumn", "valor-cassol"],
+      "preventVerticalStretch": true
+    }
+  },
+
+  "rich-text#brand-manifest--valor-cassol": {
+    "props": {
+      "text": "#### **O valor da Cassol** \n \n Valorizar os relacionamentos sólidos e duradouros, de forma positiva e produtiva em busca de resultados comuns.\n\n Oferecemos todas as soluções em produtos e serviços para construção, reforma e decoração, com diferencial na experiência de compra.\n\n Nós reunimos os melhores produtos de todos os lugares do mundo em um só lugar, com preço competitivo para todas as classes sociais, com diversos estilos e para todas as fases da vida. São produtos de qualidade, alinhados às tendências, com preços justos e garantia Cassol. Tomamos cuidado de oferecer uma amplitude de produtos que gerem solução para facilitar no momento da compra.",
+      "blockClass": ["aboutContent", "valor-cassol"]
+    }
+  },
+
+  "rich-text#brand-manifest--cliente": {
+    "props": {
+      "text": "**Foco no cliente –** Fazemos a diferença oferecendo as melhores soluções para garantir a satisfação das necessidades de nossos clientes.\n\n **Relacionamento –** Valorizamos os relacionamentos sólidos e duradouros, de forma positiva e produtiva, em busca de resultados comuns.\n\n **Ética –** Fazemos do comportamento ético uma regra. Nossas normas, diretrizes e atitudes são norteadas por princípios de transparência, honestidade, respeito à sociedade, responsabilidade e sustentabilidade.",
+      "blockClass": "aboutContent"
+    }
+  },
+
+  "rich-text#brand-manifest--simplicidade": {
+    "props": {
+      "text": "**Simplicidade e Humildade –** Acreditamos na força das pequenas atitudes e respeitamos todas as formas de pensar. \n \n **Empreendedorismo –** Construímos nosso futuro criando tendências de mercado e inovando em conceitos de varejo. \n \n **Foco em resultados –** Incentivamos a geração de valor como forma de garantir o crescimento sustentável da organização. \n \n **Nossa gente –** Nossa essência, acreditamos e valorizamos as pessoas, pois elas que fazem a grande diferença.",
+      "blockClass": "aboutContent"
+    }
+  }
+
+}

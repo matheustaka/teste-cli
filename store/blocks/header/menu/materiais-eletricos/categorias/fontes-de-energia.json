@@ -1,0 +1,91 @@
+{
+  "menu-item#fontes-de-energia": {
+    "props": {
+      "id": "menu-item-fontes-de-energia",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/materiais-eletricos/fontes-de-energia",
+        "noFollow": true,
+        "tagTitle": "Fontes de Energia",
+        "text": "Fontes de Energia"
+      },
+      "blockClass": ["childSub", "have-children"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#fontes-de-energia"]
+  },
+
+  "vtex.menu@2.x:submenu#fontes-de-energia": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#fontes-de-energia"]
+  },
+
+  "vtex.menu@2.x:menu#fontes-de-energia": {
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-estabilizador",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-eletricos/fontes-de-energia/estabilizador",
+            "noFollow": true,
+            "tagTitle": "Estabilizador",
+            "text": "Estabilizador"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-fonte-de-alimentacao",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-eletricos/fontes-de-energia/fonte-de-alimentacao",
+            "noFollow": true,
+            "tagTitle": "Fonte de Alimentação",
+            "text": "Fonte de Alimentação"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-Kkt -eergia -slar",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-eletricos/fontes-de-energia/kit-energia-sola",
+            "noFollow": true,
+            "tagTitle": "Kit Energia Solar",
+            "text": "Kit Energia Solar"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-nobreak",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-eletricos/fontes-de-energia/nobreak",
+            "noFollow": true,
+            "tagTitle": "Nobreak",
+            "text": "Nobreak"
+          },
+          "blockClass": "child"
+        }
+      ]
+    }
+  }
+}

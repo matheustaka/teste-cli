@@ -1,0 +1,69 @@
+{
+  "menu-item#piscina-e-lazer": {
+    "props": {
+      "id": "menu-item-piscina-e-lazer",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/piscina-e-lazer",
+        "noFollow": true,
+        "tagTitle": "Piscina e Lazer",
+        "text": "Piscina e Lazer"
+      },
+      "blockClass": ["department", "have-children"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#piscina-e-lazer"]
+  },
+
+  "vtex.menu@2.x:submenu#piscina-e-lazer": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#piscina-e-lazer"]
+  },
+
+  "vtex.menu@2.x:menu#piscina-e-lazer": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "drop-category"
+    },
+    "children": [
+      "rich-text#department-piscina-e-lazer",
+      "menu-item#camping",
+      "menu-item#piscina-e-lazer-ver-todos",
+      "menu-item#gazebo",
+      "menu-item#inflaveis-e-acessorios",
+      "menu-item#manutencao-e-equipamentos",
+      "menu-item#piscinas",
+      "menu-item#praia",
+      "menu-item#termicas",
+      "menu-item#tratamento-de-piscina"
+    ]
+  },
+  "rich-text#department-piscina-e-lazer": {
+    "props": {
+      "text": "Piscina e Lazer",
+      "blockClass": "titulo-menu-department"
+    }
+  },
+  "menu-item#piscina-e-lazer-ver-todos": {
+    "props": {
+      "id": "menu-item-piscina-e-lazer-ver-todos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/piscina-e-lazer",
+        "noFollow": true,
+        "tagTitle": "Ver todos os produtos",
+        "text": "Ver todos os produtos"
+      },
+      "blockClass": [ "ver-todos"]
+    }
+  }
+}
+
+

@@ -1,0 +1,39 @@
+{
+  "store.custom#tabloide-pr": {
+    "blocks": [
+      "responsive-layout.desktop#tabloide-pr",
+      "responsive-layout.tablet#tabloide-pr",
+      "responsive-layout.phone#tabloide-pr"
+    ]
+  },
+
+  "responsive-layout.desktop#tabloide-pr": {
+    "children": [
+      "breadcrumb",
+      "iframe#tabloide-pr"
+    ]
+  },
+
+  "responsive-layout.tablet#tabloide-pr": {
+    "children": [
+      "breadcrumb",
+      "iframe#tabloide-pr"
+    ]
+  },
+
+  "responsive-layout.phone#tabloide-pr": {
+    "children": [
+      "breadcrumb",
+      "iframe#tabloide-pr"
+    ]
+  },
+
+  "iframe#tabloide-pr": {
+    "props": {
+      "src": "https://tdzain.io/accounts/cassol/rs/index.html",
+      "width":"1250px",
+      "height":"800px",
+      "blockClass": "tabloideContainer"
+    }
+  }
+}

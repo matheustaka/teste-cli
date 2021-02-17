@@ -1,0 +1,174 @@
+{
+  "menu-item#filtros-bebedouros-e-purificadores": {
+    "props": {
+      "id": "menu-item-filtros-bebedouros-e-purificadores",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cozinha-e-lavanderia/filtros-bebedouros-e-purificadores",
+        "noFollow": true,
+        "tagTitle": "Filtros, Bebedouros e Purificadores",
+        "text": "Filtros, Bebedouros e Purificadores"
+      },
+      "blockClass": ["childSub", "have-children"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#filtros-bebedouros-e-purificadores"]
+  },
+
+  "vtex.menu@2.x:submenu#filtros-bebedouros-e-purificadores": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#filtros-bebedouros-e-purificadores"]
+  },
+
+  "vtex.menu@2.x:menu#filtros-bebedouros-e-purificadores": {
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-filtros-bebedouros-e-purificadores-ver-todos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinha-e-lavanderia/filtros-bebedouros-e-purificadores",
+            "noFollow": true,
+            "tagTitle": "Ver todos os produtos",
+            "text": "Ver todos os produtos"
+          },
+          "blockClass": ["ver-todos"]
+        },
+        {
+          "id": "menu-item-alca-plastica-para-galao",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinha-e-lavanderia/filtros-bebedouros-e-purificadores/alca-plastica-para-galao",
+            "noFollow": true,
+            "tagTitle": "Alça Plástica para Galão",
+            "text": "Alça Plástica para Galão"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-bebedouro",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinha-e-lavanderia/filtros-bebedouros-e-purificadores/bebedouro",
+            "noFollow": true,
+            "tagTitle": "Bebedouro",
+            "text": "Bebedouro"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-bomba-para-galao",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinha-e-lavanderia/filtros-bebedouros-e-purificadores/bomba-para-galao",
+            "noFollow": true,
+            "tagTitle": "Bomba para Galão",
+            "text": "Bomba para Galão"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-filtro",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinha-e-lavanderia/filtros-bebedouros-e-purificadores/filtro",
+            "noFollow": true,
+            "tagTitle": "Filtro",
+            "text": "Filtroda"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-purificador-de-agua",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinha-e-lavanderia/filtros-bebedouros-e-purificadores/purificador-de-agua",
+            "noFollow": true,
+            "tagTitle": "Purificador de Água",
+            "text": "Purificador de Água"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-purificador-de-agua-com-Torneira",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinha-e-lavanderia/filtros-bebedouros-e-purificadores/purificador-de-agua-com-Torneira",
+            "noFollow": true,
+            "tagTitle": "Purificador de Água com Torneira",
+            "text": "Purificador de Água com Torneira"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-refil-para-filtro",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinha-e-lavanderia/filtros-bebedouros-e-purificadores/refil-para-filtro",
+            "noFollow": true,
+            "tagTitle": "Refil para Filtro",
+            "text": "Refil para Filtro"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-suporte-para-galao",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinha-e-lavanderia/filtros-bebedouros-e-purificadores/suporte-para-galao",
+            "noFollow": true,
+            "tagTitle": "Suporte para Galão",
+            "text": "Suporte para Galão"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-torneira-para-bica",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cozinha-e-lavanderia/filtros-bebedouros-e-purificadores/torneira-para-bica",
+            "noFollow": true,
+            "tagTitle": "Torneira para Bica",
+            "text": "Torneira para Bica"
+          },
+          "blockClass": "child"
+        }
+      ]
+    }
+  }
+}

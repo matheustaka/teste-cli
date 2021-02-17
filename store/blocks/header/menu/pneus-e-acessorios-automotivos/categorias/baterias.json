@@ -1,0 +1,18 @@
+{
+  "menu-item#baterias": {
+    "props": {
+      "id": "menu-item-baterias",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/pneus-e-acessorios-automotivos/baterias",
+        "noFollow": true,
+        "tagTitle": "Baterias",
+        "text": "Baterias"
+      },
+      "blockClass": "childSub"
+    }
+  }
+}

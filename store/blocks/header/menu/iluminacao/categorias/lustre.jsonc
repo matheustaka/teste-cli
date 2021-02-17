@@ -1,0 +1,18 @@
+{
+  "menu-item#lustre": {
+    "props": {
+      "id": "menu-item-lustre",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/iluminacao/lustre",
+        "noFollow": true,
+        "tagTitle": "Lustre",
+        "text": "Lustre"
+      },
+      "blockClass": "childSub"
+    }
+  }
+}

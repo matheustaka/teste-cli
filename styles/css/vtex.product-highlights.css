@@ -1,0 +1,25 @@
+.productHighlightWrapper--collection {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 5px;
+}
+
+.productHighlightText--summary {
+  align-items: center;
+  background: #184077;
+  border-radius: 5px;
+  color: #fff;
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 700;
+  height: 40px;
+  justify-content: center;
+  line-height: 40px;
+  margin-right: 5px;
+  margin-left: 0;
+  min-width: 45px;
+  padding: 0 5px;
+  text-align: center;
+  width: auto !important;
+  z-index: 10;
+}

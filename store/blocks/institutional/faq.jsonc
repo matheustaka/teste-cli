@@ -1,0 +1,955 @@
+{
+  "store.custom#faq": {
+    "blocks": [
+      "responsive-layout.desktop#faq",
+      "responsive-layout.phone#faq"
+    ]
+  },
+
+  "responsive-layout.desktop#faq": {
+    "props": {
+      "blockClass": "faq"
+    },
+    "children": ["breadcrumb", "flex-layout.row#faq-desktop"]
+  },
+
+  "responsive-layout.phone#faq": {
+    "children": [
+      "breadcrumb",
+      "flex-layout.row#faq-menu-mobile",
+      "flex-layout.row#faq-mobile"
+    ]
+  },
+
+  "flex-layout.row#faq-desktop": {
+    "children": [
+      "flex-layout.col#institutional-sidebar-desktop",
+      "flex-layout.col#faq"
+    ],
+    "props": {
+      "blockClass": "institutionalContainer"
+    }
+  },
+
+  "flex-layout.row#faq-menu-mobile": {
+    "children": ["flex-layout.col#institutional-sidebar-mobile"],
+    "props": {
+      "blockClass": "institutionalContainer"
+    }
+  },
+
+  "flex-layout.row#faq-mobile": {
+    "children": [
+      "rich-text#faq--meus-pedidos",
+      "disclosure-layout#faq--meus-pedidos-1",
+      "disclosure-layout#faq--meus-pedidos-2",
+      "disclosure-layout#faq--meus-pedidos-3",
+      "disclosure-layout#faq--meus-pedidos-4",
+      "rich-text#faq--entregas",
+      "disclosure-layout#faq--entrega-1",
+      "disclosure-layout#faq--entrega-2",
+      "disclosure-layout#faq--entrega-3",
+      "disclosure-layout#faq--entrega-4",
+      "disclosure-layout#faq--entrega-5",
+      "disclosure-layout#faq--entrega-6",
+      "disclosure-layout#faq--entrega-7",
+      "disclosure-layout#faq--entrega-8",
+      "disclosure-layout#faq--entrega-9",
+      "disclosure-layout#faq--entrega-10",
+      "disclosure-layout#faq--entrega-11",
+      "rich-text#faq--cancelamento",
+      "disclosure-layout#faq--cancelamento-1",
+      "disclosure-layout#faq--cancelamento-2",
+      "disclosure-layout#faq--cancelamento-3",
+      "disclosure-layout#faq--cancelamento-4",
+      "disclosure-layout#faq--cancelamento-5",
+      "disclosure-layout#faq--cancelamento-6",
+      "disclosure-layout#faq--cancelamento-7"
+    ],
+    "props": {
+      "blockClass": ["institutionalContainer", "faq"]
+    }
+  },
+
+  "flex-layout.col#faq": {
+    "children": ["rich-text#faq", "disclosure-layout-group#group"]
+  },
+  "rich-text#faq": {
+    "props": {
+      "text": "## FAQ",
+      "blockClass": "textColumn"
+    }
+  },
+
+  "disclosure-state-indicator": {
+    "props": {
+      "Show": "icon-caret#down",
+      "Hide": "icon-caret#up"
+    }
+  },
+  "icon-caret#down": {
+    "props": {
+      "orientation": "down"
+    }
+  },
+  "icon-caret#up": {
+    "props": {
+      "orientation": "up"
+    }
+  },
+
+  "rich-text#faq--meus-pedidos": {
+    "props": {
+      "text": "### 1. MEUS PEDIDOS",
+      "blockClass": "subTitle"
+    }
+  },
+
+  "rich-text#faq--entregas": {
+    "props": {
+      "text": "### 2. ENTREGAS",
+      "blockClass": "subTitle"
+    }
+  },
+
+  "rich-text#faq--cancelamento": {
+    "props": {
+      "text": "### 3. CANCELAMENTO, ARREPENDIMENTO, TROCAS E DEVOLUÇÕES",
+      "blockClass": "subTitle"
+    }
+  },
+
+  "disclosure-layout-group#group": {
+    "children": [
+      "rich-text#faq--meus-pedidos",
+      "disclosure-layout#faq--meus-pedidos-1",
+      "disclosure-layout#faq--meus-pedidos-2",
+      "disclosure-layout#faq--meus-pedidos-3",
+      "disclosure-layout#faq--meus-pedidos-4",
+      "rich-text#faq--entregas",
+      "disclosure-layout#faq--entrega-1",
+      "disclosure-layout#faq--entrega-2",
+      "disclosure-layout#faq--entrega-3",
+      "disclosure-layout#faq--entrega-4",
+      "disclosure-layout#faq--entrega-5",
+      "disclosure-layout#faq--entrega-6",
+      "disclosure-layout#faq--entrega-7",
+      "disclosure-layout#faq--entrega-8",
+      "disclosure-layout#faq--entrega-9",
+      "disclosure-layout#faq--entrega-10",
+      "disclosure-layout#faq--entrega-11",
+      "rich-text#faq--cancelamento",
+      "disclosure-layout#faq--cancelamento-1",
+      "disclosure-layout#faq--cancelamento-2",
+      "disclosure-layout#faq--cancelamento-3",
+      "disclosure-layout#faq--cancelamento-4",
+      "disclosure-layout#faq--cancelamento-5",
+      "disclosure-layout#faq--cancelamento-6",
+      "disclosure-layout#faq--cancelamento-7"
+    ]
+  },
+
+  "disclosure-layout#faq--meus-pedidos-1": {
+    "props": {
+      "animated": true
+    },
+    "children": [
+      "disclosure-trigger#faq--meus-pedidos-1",
+      "disclosure-content#faq--meus-pedidos-1"
+    ]
+  },
+
+  "disclosure-trigger#faq--meus-pedidos-1": {
+    "props": {
+      "blockClass": "question",
+      "as": "div"
+    },
+    "children": ["rich-text#faq--meus-pedidos-1", "disclosure-state-indicator"]
+  },
+
+  "rich-text#faq--meus-pedidos-1": {
+    "props": {
+      "text": "• Consigo rastrear meus pedidos?"
+    }
+  },
+
+  "disclosure-content#faq--meus-pedidos-1": {
+    "props": {
+      "blockClass": "answer"
+    },
+    "children": ["rich-text#faq-content--meus-pedidos-1"]
+  },
+
+  "rich-text#faq-content--meus-pedidos-1": {
+    "props": {
+      "text": "Sim, nas compras realizadas no site o cliente pode acessar “meus pedidos” e acompanhar o status de cada pedido realizado."
+    }
+  },
+
+  "disclosure-layout#faq--meus-pedidos-2": {
+    "props": {
+      "animated": true
+    },
+    "children": [
+      "disclosure-trigger#faq--meus-pedidos-2",
+      "disclosure-content#faq--meus-pedidos-2"
+    ]
+  },
+
+  "disclosure-trigger#faq--meus-pedidos-2": {
+    "props": {
+      "blockClass": "question",
+      "as": "div"
+    },
+    "children": ["rich-text#faq--meus-pedidos-2", "disclosure-state-indicator"]
+  },
+
+  "rich-text#faq--meus-pedidos-2": {
+    "props": {
+      "text": "• Posso adicionar outro produto a uma compra finalizada?"
+    }
+  },
+
+  "disclosure-content#faq--meus-pedidos-2": {
+    "props": {
+      "blockClass": "answer"
+    },
+    "children": ["rich-text#faq-content--meus-pedidos-2"]
+  },
+
+  "rich-text#faq-content--meus-pedidos-2": {
+    "props": {
+      "text": "Não. Após finalizada a compra não será possível adicionar mais produtos ao mesmo pedido. Você poderá realiza uma nova compra."
+    }
+  },
+
+  "disclosure-layout#faq--meus-pedidos-3": {
+    "props": {
+      "animated": true
+    },
+    "children": [
+      "disclosure-trigger#faq--meus-pedidos-3",
+      "disclosure-content#faq--meus-pedidos-3"
+    ]
+  },
+
+  "disclosure-trigger#faq--meus-pedidos-3": {
+    "props": {
+      "blockClass": "question",
+      "as": "div"
+    },
+    "children": ["rich-text#faq--meus-pedidos-3", "disclosure-state-indicator"]
+  },
+
+  "rich-text#faq--meus-pedidos-3": {
+    "props": {
+      "text": "• Posso comprar no site e retirar na loja física?"
+    }
+  },
+
+  "disclosure-content#faq--meus-pedidos-3": {
+    "props": {
+      "blockClass": "answer"
+    },
+    "children": ["rich-text#faq-content--meus-pedidos-3"]
+  },
+
+  "rich-text#faq-content--meus-pedidos-3": {
+    "props": {
+      "text": "Sim, desde que atendidos os requisitos rescritos na [**Política Retirada em Loja**](/retire-na-loja)"
+    }
+  },
+
+  "disclosure-layout#faq--meus-pedidos-4": {
+    "props": {
+      "animated": true
+    },
+    "children": [
+      "disclosure-trigger#faq--meus-pedidos-4",
+      "disclosure-content#faq--meus-pedidos-4"
+    ]
+  },
+
+  "disclosure-trigger#faq--meus-pedidos-4": {
+    "props": {
+      "blockClass": "question",
+      "as": "div"
+    },
+    "children": ["rich-text#faq--meus-pedidos-4", "disclosure-state-indicator"]
+  },
+
+  "rich-text#faq--meus-pedidos-4": {
+    "props": {
+      "text": "• Meu produto estava indisponível no momento do Retira. O que devo fazer?"
+    }
+  },
+
+  "disclosure-content#faq--meus-pedidos-4": {
+    "props": {
+      "blockClass": "answer"
+    },
+    "children": ["rich-text#faq-content--meus-pedidos-4"]
+  },
+
+  "rich-text#faq-content--meus-pedidos-4": {
+    "props": {
+      "text": "Ao cliente que comprar pelo site será enviado um e-mail “Pedido disponível para Retirada” informando o local, o horário de funcionamento da loja, os produtos a serem retirados e o prazo-limite para retirada. \n O cliente pode ligar antecipadamente para o SAC (4007-2022) para confirmar que seu pedido já está disponível em loja. \n No caso em que o pedido não estiver disponível, dentro do prazo estipulado, no Retira na Loja, o cliente deve acionar o SAC (4007-2022) para saber mais informações. \n Confira mais informações em nossas Política Retirada em Loja"
+    }
+  },
+
+  "disclosure-layout#faq--entrega-1": {
+    "props": {
+      "animated": true
+    },
+    "children": [
+      "disclosure-trigger#faq--entrega-1",
+      "disclosure-content#faq--entrega-1"
+    ]
+  },
+
+  "disclosure-trigger#faq--entrega-1": {
+    "props": {
+      "blockClass": "question",
+      "as": "div"
+    },
+    "children": ["rich-text#faq--entrega-1", "disclosure-state-indicator"]
+  },
+
+  "rich-text#faq--entrega-1": {
+    "props": {
+      "text": "• Posso alterar o endereço de entrega?"
+    }
+  },
+
+  "disclosure-content#faq--entrega-1": {
+    "props": {
+      "blockClass": "answer"
+    },
+    "children": ["rich-text#faq-content--entrega-1"]
+  },
+
+  "rich-text#faq-content--entrega-1": {
+    "props": {
+      "text": "Assim que finalizar a compra em loja, televendas e Vendas Diretas, o cliente Cassol receberá um SMS com a confirmação do endereço de entrega e a data prevista. \n Para as compras realizadas pelo site, o cliente deve conferir o endereço de entrega antes de finalizar o pedido. \n Nos casos em que a Nota fiscal ainda não foi emitida, o cliente pode: ligar para o SAC (4007-2022) ou responder o SMS notificando o erro e sinalizando o novo endereço. \n Nos casos em que a Nota fiscal já foi emitida o cliente deve ligar para o SAC (4007-2022) para mais informações."
+    }
+  },
+
+  "disclosure-layout#faq--entrega-2": {
+    "props": {
+      "animated": true
+    },
+    "children": [
+      "disclosure-trigger#faq--entrega-2",
+      "disclosure-content#faq--entrega-2"
+    ]
+  },
+
+  "disclosure-trigger#faq--entrega-2": {
+    "props": {
+      "blockClass": "question",
+      "as": "div"
+    },
+    "children": ["rich-text#faq--entrega-2", "disclosure-state-indicator"]
+  },
+
+  "rich-text#faq--entrega-2": {
+    "props": {
+      "text": "• Não recebi minha compra na data prevista. O que devo fazer?"
+    }
+  },
+
+  "disclosure-content#faq--entrega-2": {
+    "props": {
+      "blockClass": "answer"
+    },
+    "children": ["rich-text#faq-content--entrega-2"]
+  },
+
+  "rich-text#faq-content--entrega-2": {
+    "props": {
+      "text": "Nos casos em que, até a data prevista da entrega o cliente não recebeu um SMS notificando nova data, ou nos casos de atraso, o cliente deve entrar em contato com o SAC (4007-2022) para mais informações."
+    }
+  },
+
+  "disclosure-content#faq--entrega-3": {
+    "props": {
+      "blockClass": "answer"
+    },
+    "children": ["rich-text#faq-content--entrega-3"]
+  },
+
+  "rich-text#faq-content--entrega-3": {
+    "props": {
+      "text": "No ato da entrega, o cliente deve verificar se o pedido está completo. Caso exista pendência na entrega, deve notificar o entregador, que fará uma solicitação de verificação. O mais breve possível o serviço de atendimento ao cliente irá contatá-lo para mais informações. \n Nos casos em que o cliente não conseguiu conferir no ato da entrega o mesmo pode ligar para o SAC (4007-2022) para orientações."
+    }
+  },
+  "disclosure-layout#faq--entrega-3": {
+    "props": {
+      "animated": true
+    },
+    "children": [
+      "disclosure-trigger#faq--entrega-3",
+      "disclosure-content#faq--entrega-3"
+    ]
+  },
+
+  "disclosure-trigger#faq--entrega-3": {
+    "props": {
+      "blockClass": "question",
+      "as": "div"
+    },
+    "children": ["rich-text#faq--entrega-3", "disclosure-state-indicator"]
+  },
+
+  "rich-text#faq--entrega-3": {
+    "props": {
+      "text": "• Não recebi todos os meus produtos. O que faço?"
+    }
+  },
+
+  "disclosure-content#faq--entrega-4": {
+    "props": {
+      "blockClass": "answer"
+    },
+    "children": ["rich-text#faq-content--entrega-4"]
+  },
+
+  "rich-text#faq-content--entrega-4": {
+    "props": {
+      "text": "Não. Você pode retirar uma parte da compra na loja e outra parte receber em casa. Para aderir a esse modelo de retirada, o cliente deve optar por essa modalidade antes de finalizar a compra, ainda no ambiente virtual do carrinho de compras."
+    }
+  },
+  "disclosure-layout#faq--entrega-4": {
+    "props": {
+      "animated": true
+    },
+    "children": [
+      "disclosure-trigger#faq--entrega-4",
+      "disclosure-content#faq--entrega-4"
+    ]
+  },
+
+  "disclosure-trigger#faq--entrega-4": {
+    "props": {
+      "blockClass": "question",
+      "as": "div"
+    },
+    "children": ["rich-text#faq--entrega-4", "disclosure-state-indicator"]
+  },
+
+  "rich-text#faq--entrega-4": {
+    "props": {
+      "text": "• Posso mandar uma parte da compra para um endereço e outra parte para outro?"
+    }
+  },
+
+  "disclosure-content#faq--entrega-5": {
+    "props": {
+      "blockClass": "answer"
+    },
+    "children": ["rich-text#faq-content--entrega-5"]
+  },
+
+  "rich-text#faq-content--entrega-5": {
+    "props": {
+      "text": "A Cassol possui Políticas de Entrega de Pedidos, verifique-as para mais informações."
+    }
+  },
+  "disclosure-layout#faq--entrega-5": {
+    "props": {
+      "animated": true
+    },
+    "children": [
+      "disclosure-trigger#faq--entrega-5",
+      "disclosure-content#faq--entrega-5"
+    ]
+  },
+
+  "disclosure-trigger#faq--entrega-5": {
+    "props": {
+      "blockClass": "question",
+      "as": "div"
+    },
+    "children": ["rich-text#faq--entrega-5", "disclosure-state-indicator"]
+  },
+
+  "rich-text#faq--entrega-5": {
+    "props": {
+      "text": "• Como é calculado o frete do meu pedido?"
+    }
+  },
+
+  "disclosure-content#faq--entrega-6": {
+    "props": {
+      "blockClass": "answer"
+    },
+    "children": ["rich-text#faq-content--entrega-6"]
+  },
+
+  "rich-text#faq-content--entrega-6": {
+    "props": {
+      "text": "A Cassol possui Políticas de Entrega de Pedidos, verifique-as para mais informações. \n As datas de entrega são fornecidas na simulação do frete e assim que finalizada a compra. \n O cliente Cassol também conta com o serviço de SMS que é ativado assim que finalizada a compra, enviando ao cliente o endereço de entrega a data para confirmação."
+    }
+  },
+  "disclosure-layout#faq--entrega-6": {
+    "props": {
+      "animated": true
+    },
+    "children": [
+      "disclosure-trigger#faq--entrega-6",
+      "disclosure-content#faq--entrega-6"
+    ]
+  },
+
+  "disclosure-trigger#faq--entrega-6": {
+    "props": {
+      "blockClass": "question",
+      "as": "div"
+    },
+    "children": ["rich-text#faq--entrega-6", "disclosure-state-indicator"]
+  },
+
+  "rich-text#faq--entrega-6": {
+    "props": {
+      "text": "• Qual o prazo de entrega?"
+    }
+  },
+
+  "disclosure-content#faq--entrega-7": {
+    "props": {
+      "blockClass": "answer"
+    },
+    "children": ["rich-text#faq-content--entrega-7"]
+  },
+
+  "rich-text#faq-content--entrega-7": {
+    "props": {
+      "text": "Serão feitas até 3 tentativas de entrega. Caso não tenha sido efetivada a entrega em nenhuma das tentativas o cliente deve ligar para o SAC (4007-2022) para negociação."
+    }
+  },
+  "disclosure-layout#faq--entrega-7": {
+    "props": {
+      "animated": true
+    },
+    "children": [
+      "disclosure-trigger#faq--entrega-7",
+      "disclosure-content#faq--entrega-7"
+    ]
+  },
+
+  "disclosure-trigger#faq--entrega-7": {
+    "props": {
+      "blockClass": "question",
+      "as": "div"
+    },
+    "children": ["rich-text#faq--entrega-7", "disclosure-state-indicator"]
+  },
+
+  "rich-text#faq--entrega-7": {
+    "props": {
+      "text": "• Quantas tentativas de entrega serão feitas?"
+    }
+  },
+
+  "disclosure-content#faq--entrega-8": {
+    "props": {
+      "blockClass": "answer"
+    },
+    "children": ["rich-text#faq-content--entrega-8"]
+  },
+
+  "rich-text#faq-content--entrega-8": {
+    "props": {
+      "text": "Sim, nos casos de compras realizadas em loja física, vendas diretas ou pelo Televendas e nas quais o cliente solicitar ao vendedor o agendamento da data de entrega."
+    }
+  },
+  "disclosure-layout#faq--entrega-8": {
+    "props": {
+      "animated": true
+    },
+    "children": [
+      "disclosure-trigger#faq--entrega-8",
+      "disclosure-content#faq--entrega-8"
+    ]
+  },
+
+  "disclosure-trigger#faq--entrega-8": {
+    "props": {
+      "blockClass": "question",
+      "as": "div"
+    },
+    "children": ["rich-text#faq--entrega-8", "disclosure-state-indicator"]
+  },
+
+  "rich-text#faq--entrega-8": {
+    "props": {
+      "text": "• Posso agendar minha entrega?"
+    }
+  },
+
+  "disclosure-content#faq--entrega-9": {
+    "props": {
+      "blockClass": "answer"
+    },
+    "children": ["rich-text#faq-content--entrega-9"]
+  },
+
+  "rich-text#faq-content--entrega-9": {
+    "props": {
+      "text": "As entregas serão feitas de segunda a sexta das 08:00h ás 18:00h. Não serão entregues pedidos aos domingos e feriados. \n Confira nossas Políticas de Entrega."
+    }
+  },
+  "disclosure-layout#faq--entrega-9": {
+    "props": {
+      "animated": true
+    },
+    "children": [
+      "disclosure-trigger#faq--entrega-9",
+      "disclosure-content#faq--entrega-9"
+    ]
+  },
+
+  "disclosure-trigger#faq--entrega-9": {
+    "props": {
+      "blockClass": "question",
+      "as": "div"
+    },
+    "children": ["rich-text#faq--entrega-9", "disclosure-state-indicator"]
+  },
+
+  "rich-text#faq--entrega-9": {
+    "props": {
+      "text": "• As entregas poderão ser feitas nos finais de semana e feriados?"
+    }
+  },
+
+  "disclosure-content#faq--entrega-10": {
+    "props": {
+      "blockClass": "answer"
+    },
+    "children": ["rich-text#faq-content--entrega-10"]
+  },
+
+  "rich-text#faq-content--entrega-10": {
+    "props": {
+      "text": "A Cassol possui Políticas de Devolução ou Trocas, verifique-as para mais informações."
+    }
+  },
+  "disclosure-layout#faq--entrega-10": {
+    "props": {
+      "animated": true
+    },
+    "children": [
+      "disclosure-trigger#faq--entrega-10",
+      "disclosure-content#faq--entrega-10"
+    ]
+  },
+
+  "disclosure-trigger#faq--entrega-10": {
+    "props": {
+      "blockClass": "question",
+      "as": "div"
+    },
+    "children": ["rich-text#faq--entrega-10", "disclosure-state-indicator"]
+  },
+
+  "rich-text#faq--entrega-10": {
+    "props": {
+      "text": "• Meu pedido veio errado, como proceder?"
+    }
+  },
+
+  "disclosure-content#faq--entrega-11": {
+    "props": {
+      "blockClass": "answer"
+    },
+    "children": ["rich-text#faq-content--entrega-11"]
+  },
+
+  "rich-text#faq-content--entrega-11": {
+    "props": {
+      "text": "A Cassol possui uma lista de fornecedores e ASSISTÊNCIAS TÉCNICAS, que o cliente pode consultar. \n Para mais informações sobre trocas e devoluções confira nossas Políticas de Devolução ou Trocas."
+    }
+  },
+  "disclosure-layout#faq--entrega-11": {
+    "props": {
+      "animated": true
+    },
+    "children": [
+      "disclosure-trigger#faq--entrega-11",
+      "disclosure-content#faq--entrega-11"
+    ]
+  },
+
+  "disclosure-trigger#faq--entrega-11": {
+    "props": {
+      "blockClass": "question",
+      "as": "div"
+    },
+    "children": ["rich-text#faq--entrega-11", "disclosure-state-indicator"]
+  },
+
+  "rich-text#faq--entrega-11": {
+    "props": {
+      "text": "• Meu produto não funciona ou está avariado. O que fazer?"
+    }
+  },
+
+  "disclosure-layout#faq--cancelamento-1": {
+    "props": {
+      "animated": true
+    },
+    "children": [
+      "disclosure-trigger#faq--cancelamento-1",
+      "disclosure-content#faq--cancelamento-1"
+    ]
+  },
+
+  "disclosure-trigger#faq--cancelamento-1": {
+    "props": {
+      "blockClass": "question",
+      "as": "div"
+    },
+    "children": ["rich-text#faq--cancelamento-1", "disclosure-state-indicator"]
+  },
+
+  "rich-text#faq--cancelamento-1": {
+    "props": {
+      "text": "• Como posso trocar meus produtos?"
+    }
+  },
+
+  "disclosure-content#faq--cancelamento-1": {
+    "props": {
+      "blockClass": "answer"
+    },
+    "children": ["rich-text#faq-content--cancelamento-1"]
+  },
+
+  "rich-text#faq-content--cancelamento-1": {
+    "props": {
+      "text": "A Cassol possui Políticas de Devolução ou Trocas, verifique-as para mais informações."
+    }
+  },
+
+  "disclosure-layout#faq--cancelamento-2": {
+    "props": {
+      "animated": true
+    },
+    "children": [
+      "disclosure-trigger#faq--cancelamento-2",
+      "disclosure-content#faq--cancelamento-2"
+    ]
+  },
+
+  "disclosure-trigger#faq--cancelamento-2": {
+    "props": {
+      "blockClass": "question",
+      "as": "div"
+    },
+    "children": ["rich-text#faq--cancelamento-2", "disclosure-state-indicator"]
+  },
+
+  "rich-text#faq--cancelamento-2": {
+    "props": {
+      "text": "• Posso trocar um produto via Televenda?"
+    }
+  },
+
+  "disclosure-content#faq--cancelamento-2": {
+    "props": {
+      "blockClass": "answer"
+    },
+    "children": ["rich-text#faq-content--cancelamento-2"]
+  },
+
+  "rich-text#faq-content--cancelamento-2": {
+    "props": {
+      "text": "Sim. Desde que atendidos os quesitos e procedimentos descritos em nossas Políticas de Devolução ou Trocas."
+    }
+  },
+
+  "disclosure-layout#faq--cancelamento-3": {
+    "props": {
+      "animated": true
+    },
+    "children": [
+      "disclosure-trigger#faq--cancelamento-3",
+      "disclosure-content#faq--cancelamento-3"
+    ]
+  },
+
+  "disclosure-trigger#faq--cancelamento-3": {
+    "props": {
+      "blockClass": "question",
+      "as": "div"
+    },
+    "children": ["rich-text#faq--cancelamento-3", "disclosure-state-indicator"]
+  },
+
+  "rich-text#faq--cancelamento-3": {
+    "props": {
+      "text": "• Posso trocar produtos comprados pelo e-commerce na loja física?"
+    }
+  },
+
+  "disclosure-content#faq--cancelamento-3": {
+    "props": {
+      "blockClass": "answer"
+    },
+    "children": ["rich-text#faq-content--cancelamento-3"]
+  },
+
+  "rich-text#faq-content--cancelamento-3": {
+    "props": {
+      "text": "Sim. Desde que atendidos os quesitos e procedimentos descritos em nossas Políticas de Devolução ou Trocas."
+    }
+  },
+
+  "disclosure-layout#faq--cancelamento-4": {
+    "props": {
+      "animated": true
+    },
+    "children": [
+      "disclosure-trigger#faq--cancelamento-4",
+      "disclosure-content#faq--cancelamento-4"
+    ]
+  },
+
+  "disclosure-trigger#faq--cancelamento-4": {
+    "props": {
+      "blockClass": "question",
+      "as": "div"
+    },
+    "children": ["rich-text#faq--cancelamento-4", "disclosure-state-indicator"]
+  },
+
+  "rich-text#faq--cancelamento-4": {
+    "props": {
+      "text": "• E se o produto que eu desejo trocar não estiver mais disponível?"
+    }
+  },
+
+  "disclosure-content#faq--cancelamento-4": {
+    "props": {
+      "blockClass": "answer"
+    },
+    "children": ["rich-text#faq-content--cancelamento-4"]
+  },
+
+  "rich-text#faq-content--cancelamento-4": {
+    "props": {
+      "text": "Nos casos em que o produto não estiver mais disponível, a Cassol poderá conceder um crédito no valor do produto ou o ressarcimento do valor, desde que atendidos os quesitos e procedimentos descritos em nossas Políticas de Devolução ou Trocas."
+    }
+  },
+
+  "disclosure-layout#faq--cancelamento-5": {
+    "props": {
+      "animated": true
+    },
+    "children": [
+      "disclosure-trigger#faq--cancelamento-5",
+      "disclosure-content#faq--cancelamento-5"
+    ]
+  },
+
+  "disclosure-trigger#faq--cancelamento-5": {
+    "props": {
+      "blockClass": "question",
+      "as": "div"
+    },
+    "children": ["rich-text#faq--cancelamento-5", "disclosure-state-indicator"]
+  },
+
+  "rich-text#faq--cancelamento-5": {
+    "props": {
+      "text": "• Como devolver um produto?"
+    }
+  },
+
+  "disclosure-content#faq--cancelamento-5": {
+    "props": {
+      "blockClass": "answer"
+    },
+    "children": ["rich-text#faq-content--cancelamento-5"]
+  },
+
+  "rich-text#faq-content--cancelamento-5": {
+    "props": {
+      "text": "Nossas Políticas de Devolução ou Trocas descrevem os procedimentos e quesitos para a devolução de um produto."
+    }
+  },
+
+  "disclosure-layout#faq--cancelamento-6": {
+    "props": {
+      "animated": true
+    },
+    "children": [
+      "disclosure-trigger#faq--cancelamento-6",
+      "disclosure-content#faq--cancelamento-6"
+    ]
+  },
+
+  "disclosure-trigger#faq--cancelamento-6": {
+    "props": {
+      "blockClass": "question",
+      "as": "div"
+    },
+    "children": ["rich-text#faq--cancelamento-6", "disclosure-state-indicator"]
+  },
+
+  "rich-text#faq--cancelamento-6": {
+    "props": {
+      "text": "• Quero alterar a data da minha cancelamento, como faço?"
+    }
+  },
+
+  "disclosure-content#faq--cancelamento-6": {
+    "props": {
+      "blockClass": "answer"
+    },
+    "children": ["rich-text#faq-content--cancelamento-6"]
+  },
+
+  "rich-text#faq-content--cancelamento-6": {
+    "props": {
+      "text": "Você pode responder ao SMS recebido na confirmação da compra ou ligar para o SAC (4007-2022) para solicitar a alteração."
+    }
+  },
+  "disclosure-layout#faq--cancelamento-7": {
+    "props": {
+      "animated": true
+    },
+    "children": [
+      "disclosure-trigger#faq--cancelamento-7",
+      "disclosure-content#faq--cancelamento-7"
+    ]
+  },
+
+  "disclosure-trigger#faq--cancelamento-7": {
+    "props": {
+      "blockClass": "question",
+      "as": "div"
+    },
+    "children": ["rich-text#faq--cancelamento-7", "disclosure-state-indicator"]
+  },
+
+  "rich-text#faq--cancelamento-7": {
+    "props": {
+      "text": "• Como faço para solicitar o estorno de um pedido devolvido?"
+    }
+  },
+
+  "disclosure-content#faq--cancelamento-7": {
+    "props": {
+      "blockClass": "answer"
+    },
+    "children": ["rich-text#faq-content--cancelamento-7"]
+  },
+
+  "rich-text#faq-content--cancelamento-7": {
+    "props": {
+      "text": "Nos casos de bônus disponíveis, a solicitação de estorno deve ser feita junto ao crediário da loja, nos casos de pedidos gerados pela loja. No caso do e-comerce, será necessário definir."
+    }
+  }
+}

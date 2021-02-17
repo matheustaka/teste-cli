@@ -1,0 +1,168 @@
+{
+  "menu-item#fios-e-cabos": {
+    "props": {
+      "id": "menu-item-fios-e-cabos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/materiais-eletricos/fios-e-cabos",
+        "noFollow": true,
+        "tagTitle": "Fios e Cabos",
+        "text": "Fios e Cabos"
+      },
+      "blockClass": ["childSub", "have-children"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#fios-e-cabos"]
+  },
+
+  "vtex.menu@2.x:submenu#fios-e-cabos": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#fios-e-cabos"]
+  },
+
+  "vtex.menu@2.x:menu#fios-e-cabos": {
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-cabo-flexivel",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-eletricos/fios-e-cabos/cabo-flexivel",
+            "noFollow": true,
+            "tagTitle": "Cabo Flexível",
+            "text": "Cabo Flexível"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-cabo-para-tv-e-antena",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-eletricos/fios-e-cabos/cabo-para-tv-e-antena",
+            "noFollow": true,
+            "tagTitle": "Cabo para TV e Antena",
+            "text": "Cabo para TV e Antena"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-cabo-patch-cord",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-eletricos/fios-e-cabos/cabo-patch-cord",
+            "noFollow": true,
+            "tagTitle": "Cabo Patch Cord",
+            "text": "Cabo Patch Cord"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-cabo-rca",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-eletricos/fios-e-cabos/cabo-rca",
+            "noFollow": true,
+            "tagTitle": "Cabo RCA",
+            "text": "Cabo RCA"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-cabo-rigido",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-eletricos/fios-e-cabos/cabo-rigido",
+            "noFollow": true,
+            "tagTitle": "Cabo Rígido",
+            "text": "Cabo Rígido"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-cabo-rj11",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-eletricos/fios-e-cabos/cabo-rj11",
+            "noFollow": true,
+            "tagTitle": "Cabo RJ11",
+            "text": "Cabo RJ11"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-cabo-usb",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-eletricos/fios-e-cabos/cabo-usb",
+            "noFollow": true,
+            "tagTitle": "Cabo USB",
+            "text": "Cabo USB"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-fio",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-eletricos/fios-e-cabos/fio",
+            "noFollow": true,
+            "tagTitle": "Fio",
+            "text": "Fio"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-organizador-de-fios",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-eletricos/fios-e-cabos/organizador-de-fios",
+            "noFollow": true,
+            "tagTitle": "Organizador de Fios",
+            "text": "Organizador de Fios"
+          },
+          "blockClass": "child"
+        }
+      ]
+    }
+  }
+}

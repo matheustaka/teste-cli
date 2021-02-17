@@ -1,0 +1,482 @@
+{
+  "menu-item#acessorios-para-ferramentas-eletricas": {
+    "props": {
+      "id": "menu-item-acessorios-para-ferramentas-eletricas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/ferramentas/acessorios-para-ferramentas-eletricas",
+        "noFollow": true,
+        "tagTitle": "Acessórios para Ferramentas Elétricas",
+        "text": "Acessórios para Ferramentas Elétricas"
+      },
+      "blockClass": ["childSub", "have-children"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#acessorios-para-ferramentas-eletricas"]
+  },
+
+  "vtex.menu@2.x:submenu#acessorios-para-ferramentas-eletricas": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#acessorios-para-ferramentas-eletricas"]
+  },
+
+  "vtex.menu@2.x:menu#acessorios-para-ferramentas-eletricas": {
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-acessorios-para-ferramentas-eletricas-ver-todos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/acessorios-para-ferramentas-eletricas",
+            "noFollow": true,
+            "tagTitle": "Ver todos os produtos",
+            "text": "Ver todos os produtos"
+          },
+          "blockClass": "ver-todos"
+        },
+        {
+          "id": "menu-item-acessorios-microrretifica",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/acessorios-para-ferramentas-eletricas/acessorios-microrretifica",
+            "noFollow": true,
+            "tagTitle": "Acessórios Microrretífica",
+            "text": "Acessórios Microrretífica"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-adaptador-serracopo",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/acessorios-para-ferramentas-eletricas/adaptador-serracopo",
+            "noFollow": true,
+            "tagTitle": "Adaptador Serra Copo",
+            "text": "Adaptador Serra Copo"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-barra-misturadora",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/acessorios-para-ferramentas-eletricas/barra-misturadora",
+            "noFollow": true,
+            "tagTitle": "Barra Misturadora",
+            "text": "Barra Misturadora"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-bastao-de-cola-quente",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/acessorios-para-ferramentas-eletricas/bastao-de-cola-quente",
+            "noFollow": true,
+            "tagTitle": "Bastão de Cola Quente",
+            "text": "Bastão de Cola Quente"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-bateria",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/acessorios-para-ferramentas-eletricas/bateria",
+            "noFollow": true,
+            "tagTitle": "Bateria",
+            "text": "Bateria"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-boina-de-polimento",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/acessorios-para-ferramentas-eletricas/boina-de-polimento",
+            "noFollow": true,
+            "tagTitle": "Boina de Polimento",
+            "text": "Boina de Polimento"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-broca",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/acessorios-para-ferramentas-eletricas/broca",
+            "noFollow": true,
+            "tagTitle": "Broca",
+            "text": "Broca"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-cinta-de-lixa",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/acessorios-para-ferramentas-eletricas/cinta-de-lixa",
+            "noFollow": true,
+            "tagTitle": "Cinta de Lixa",
+            "text": "Cinta de Lixa"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-disco-de-corte",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/acessorios-para-ferramentas-eletricas/disco-de-corte",
+            "noFollow": true,
+            "tagTitle": "Disco de Corte",
+            "text": "Disco de Corte"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-disco-de-desbaste",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/acessorios-para-ferramentas-eletricas/disco-de-desbaste",
+            "noFollow": true,
+            "tagTitle": "Disco de Desbaste",
+            "text": "Disco de Desbaste"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-disco-de-lixa",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/acessorios-para-ferramendisco-de-lixa",
+            "noFollow": true,
+            "tagTitle": "Disco de Lixa",
+            "text": "Disco de Lixa"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-disco-de-serra",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/acessorios-para-ferramentas-eletricas/disco-de-serra",
+            "noFollow": true,
+            "tagTitle": "Disco de Serra",
+            "text": "Disco de Serra"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-disco-diamantado",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/acessorios-para-ferramentas-eletricas/disco-diamantado",
+            "noFollow": true,
+            "tagTitle": "Disco Diamantado",
+            "text": "Disco Diamantado"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-disco-flap",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/acessorios-para-ferramentas-eletricas/disco-flap",
+            "noFollow": true,
+            "tagTitle": "Disco Flap",
+            "text": "Disco Flap"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-disco-suporte-de-lixa",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/acessorios-para-ferramentas-eletricas/disco-suporte-de-lixa",
+            "noFollow": true,
+            "tagTitle": "Disco Suporte de Lixa",
+            "text": "Disco Suporte de Lixa"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-escova-circular",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/acessorios-para-ferramentas-eletricas/escova-circular",
+            "noFollow": true,
+            "tagTitle": "Escova Circular",
+            "text": "Escova Circular"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-escova-copo",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/acessorios-para-ferramentas-eletricas/escova-copo",
+            "noFollow": true,
+            "tagTitle": "Escova Copo",
+            "text": "Escova Copo"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-haste-adaptadora",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/acessorios-para-ferramentas-eletricas/haste-adaptadora",
+            "noFollow": true,
+            "tagTitle": "Haste Adaptadora",
+            "text": "Haste Adaptadora"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-jogo-de-bits",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/acessorios-para-ferramentas-eletricas/jogo-de-bits",
+            "noFollow": true,
+            "tagTitle": "Jogo de Bits",
+            "text": "Jogo de Bits"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-jogos-diversos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/acessorios-para-ferramentas-eletricas/jogos-diversos",
+            "noFollow": true,
+            "tagTitle": "Jogos Diversos",
+            "text": "Jogos Diversos"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-kit-de-ferramentas",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/acessorios-para-ferramentas-eletricas/kit-de-ferramentas",
+            "noFollow": true,
+            "tagTitle": "Kit de Ferramentas",
+            "text": "Kit de Ferramentas"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-kit-fresas",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/acessorios-para-ferramentas-eletricas/kit-fresas",
+            "noFollow": true,
+            "tagTitle": "Kit Fresas",
+            "text": "Kit Fresas"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-lamina-de-serra-sabre",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/acessorios-para-ferramentas-eletricas/lamina-de-serra-sabre",
+            "noFollow": true,
+            "tagTitle": "Lâmina de Serra Sabre",
+            "text": "Lâmina de Serra Sabre"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-lamina-de-serra-tico-tico",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/acessorios-para-ferramentas-eletricas/lamina-de-serra-tico-tico",
+            "noFollow": true,
+            "tagTitle": "Lâmina de Serra Tico-Tico",
+            "text": "Lâmina de Serra Tico-Tico"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-mandril",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/acessorios-para-ferramentas-eletricas/mandril",
+            "noFollow": true,
+            "tagTitle": "Mandril",
+            "text": "Mandril"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-ponteiro-sds-plus",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/acessorios-para-ferramentas-eletricas/ponteiro-sds-plus",
+            "noFollow": true,
+            "tagTitle": "Ponteiro SDS Plus",
+            "text": "Ponteiro SDS Plus"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-ponteiro-sextavado",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/acessorios-para-ferramentas-eletricas/ponteiro-sextavado",
+            "noFollow": true,
+            "tagTitle": "Ponteiro Sextavado",
+            "text": "Ponteiro Sextavado"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-rebolo",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/acessorios-para-ferramentas-eletricas/rebolo",
+            "noFollow": true,
+            "tagTitle": "Rebolo",
+            "text": "Rebolo"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-serra-copo",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/acessorios-para-ferramentas-eletricas/serra-copo",
+            "noFollow": true,
+            "tagTitle": "Serra Copo",
+            "text": "Serra Copo"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-talhadeira-sds-plus",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/acessorios-para-ferramentas-eletricas/talhadeira-sds-plus",
+            "noFollow": true,
+            "tagTitle": "Talhadeira SDS Plus",
+            "text": "Talhadeira SDS Plus"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-talhadeira-sextavada",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ferramentas/acessorios-para-ferramentas-eletricas/talhadeira-sextavada",
+            "noFollow": true,
+            "tagTitle": "Talhadeira Sextavada",
+            "text": "Talhadeira Sextavada"
+          },
+          "blockClass": "child"
+        }
+      ]
+    }
+  }
+}

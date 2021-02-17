@@ -1,0 +1,90 @@
+{
+  "menu-item#cercados-e-protecao": {
+    "props": {
+      "id": "menu-item-cercados-e-protecao",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/materiais-de-construcao/cercados-e-protecao",
+        "noFollow": true,
+        "tagTitle": "Cercados e Proteção",
+        "text": "Cercados e Proteção"
+      },
+      "blockClass": ["childSub", "have-children"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#cercados-e-protecao"]
+  },
+
+  "vtex.menu@2.x:submenu#cercados-e-protecao": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#cercados-e-protecao"]
+  },
+
+  "vtex.menu@2.x:menu#cercados-e-protecao": {
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-cercados-e-protecao-ver-todos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-de-construcao/cercados-e-protecao",
+            "noFollow": true,
+            "tagTitle": "Ver todos os produtos",
+            "text": "Ver todos os produtos"
+          },
+          "blockClass": ["ver-todos"]
+        },
+        {
+          "id": "menu-item-arame",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-de-construcao/cercados-e-protecao/arame",
+            "noFollow": true,
+            "tagTitle": "Arame",
+            "text": "Arame"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-kit-protetor-perimetral",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-de-construcao/cercados-e-protecao/kit-protetor-perimetral",
+            "noFollow": true,
+            "tagTitle": "Kit Protetor Perimetral",
+            "text": "Kit Protetor Perimetral"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-tela",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-de-construcao/cercados-e-protecao/tela",
+            "noFollow": true,
+            "tagTitle": "Tela",
+            "text": "Tela"
+          },
+          "blockClass": "child"
+        }
+      ]
+    }
+  }
+}

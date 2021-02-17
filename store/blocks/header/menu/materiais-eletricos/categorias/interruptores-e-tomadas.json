@@ -1,0 +1,183 @@
+{
+  "menu-item#interruptores-e-tomadas": {
+    "props": {
+      "id": "menu-item-interruptores-e-tomadas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/materiais-eletricos/interruptores-e-tomadas",
+        "noFollow": true,
+        "tagTitle": "Interruptores e Tomadas",
+        "text": "Interruptores e Tomadas"
+      },
+      "blockClass": ["childSub", "have-children"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#interruptores-e-tomadas"]
+  },
+
+  "vtex.menu@2.x:submenu#interruptores-e-tomadas": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#interruptores-e-tomadas"]
+  },
+
+  "vtex.menu@2.x:menu#interruptores-e-tomadas": {
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-caixa-com-tampa",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-eletricos/interruptores-e-tomadas/caixa-com-tampa",
+            "noFollow": true,
+            "tagTitle": "Caixa com Tampa",
+            "text": "Caixa com Tampa"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-campainha-cigarra",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-eletricos/interruptores-e-tomadas/campainha-cigarra",
+            "noFollow": true,
+            "tagTitle": "Campainha Cigarra",
+            "text": "Campainha Cigarra"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-conjunto-interruptor-e-tomada",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-eletricos/interruptores-e-tomadas/conjunto-interruptor-e-tomada",
+            "noFollow": true,
+            "tagTitle": "Conjunto Interruptor e Tomada",
+            "text": "Conjunto Interruptor e Tomada"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-conjunto-variador-de-luminosidade",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-eletricos/interruptores-e-tomadas/conjunto-variador-de-luminosidade",
+            "noFollow": true,
+            "tagTitle": "Conjunto Variador de Luminosidade",
+            "text": "Conjunto Variador de Luminosidade"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-dispositivo-de-protecao",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-eletricos/interruptores-e-tomadas/dispositivo-de-protecao",
+            "noFollow": true,
+            "tagTitle": "Dispositivo de Proteção",
+            "text": "Dispositivo de Proteção"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-interruptor",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-eletricos/interruptores-e-tomadas/interruptor",
+            "noFollow": true,
+            "tagTitle": "Interruptor",
+            "text": "Interruptor"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-modulo",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-eletricos/interruptores-e-tomadas/modulo",
+            "noFollow": true,
+            "tagTitle": "Módulo",
+            "text": "Módulo"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-placa",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-eletricos/interruptores-e-tomadas/placa",
+            "noFollow": true,
+            "tagTitle": "Placa",
+            "text": "Placa"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-suporte",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-eletricos/interruptores-e-tomadas/suporte",
+            "noFollow": true,
+            "tagTitle": "Suporte",
+            "text": "Suporte"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-tomada",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-eletricos/interruptores-e-tomadas/tomada",
+            "noFollow": true,
+            "tagTitle": "Tomada",
+            "text": "Tomada"
+          },
+          "blockClass": "child"
+        }
+      ]
+    }
+  }
+}

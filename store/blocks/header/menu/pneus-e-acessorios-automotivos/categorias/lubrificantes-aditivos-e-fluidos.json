@@ -1,0 +1,122 @@
+{
+  "menu-item#lubrificantes-aditivos-e-fluidos": {
+    "props": {
+      "id": "menu-item-lubrificantes-aditivos-e-fluidos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/pneus-e-acessorios-automotivos/lubrificantes-aditivos-e-fluidos",
+        "noFollow": true,
+        "tagTitle": "Lubrificantes, Aditivos e Fluídos",
+        "text": "Lubrificantes, Aditivos e Fluídos"
+      },
+      "blockClass": ["childSub", "have-children"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#lubrificantes-aditivos-e-fluidos"]
+  },
+
+  "vtex.menu@2.x:submenu#lubrificantes-aditivos-e-fluidos": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#lubrificantes-aditivos-e-fluidos"]
+  },
+
+  "vtex.menu@2.x:menu#lubrificantes-aditivos-e-fluidos": {
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-lubrificantes-aditivos-e-fluidos-ver-todos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/pneus-e-acessorios-automotivos/lubrificantes-aditivos-e-fluidos",
+            "noFollow": true,
+            "tagTitle": "Ver todos os produtos",
+            "text": "Ver todos os produtos"
+          },
+          "blockClass": ["ver-todos"]
+        },
+        {
+          "id": "menu-item-desengraxante",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/pneus-e-acessorios-automotivos/lubrificantes-aditivos-e-fluidos/desengraxante",
+            "noFollow": true,
+            "tagTitle": "Desengraxante",
+            "text": "Desengraxante"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-grafite",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/pneus-e-acessorios-automotivos/lubrificantes-aditivos-e-fluidos/grafite",
+            "noFollow": true,
+            "tagTitle": "Grafite",
+            "text": "Grafite"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-oleo-de-maquina",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/pneus-e-acessorios-automotivos/lubrificantes-aditivos-e-fluidos/oleo-de-maquina",
+            "noFollow": true,
+            "tagTitle": "Óleo de Máquina",
+            "text": "Óleo de Máquina"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-sos-pneus",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/pneus-e-acessorios-automotivos/lubrificantes-aditivos-e-fluidos/sos-pneus",
+            "noFollow": true,
+            "tagTitle": "SOS Pneus",
+            "text": "SOS Pneus"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-vaselina",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/pneus-e-acessorios-automotivos/lubrificantes-aditivos-e-fluidos/vaselina",
+            "noFollow": true,
+            "tagTitle": "Vaselina",
+            "text": "Vaselina"
+          },
+          "blockClass": "child"
+        }
+      ]
+    }
+  }
+}

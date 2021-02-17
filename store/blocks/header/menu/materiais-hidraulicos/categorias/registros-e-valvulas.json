@@ -1,0 +1,152 @@
+{
+  "menu-item#registros-e-valvulas": {
+    "props": {
+      "id": "menu-item-registros-e-valvulas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/materiais-hidraulicos/registros-e-valvulas",
+        "noFollow": true,
+        "tagTitle": "Registros e Válvulas",
+        "text": "Registros e Válvulas"
+      },
+      "blockClass": ["childSub", "have-children"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#registros-e-valvulas"]
+  },
+
+  "vtex.menu@2.x:submenu#registros-e-valvulas": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#registros-e-valvulas"]
+  },
+
+  "vtex.menu@2.x:menu#registros-e-valvulas": {
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-registros-e-valvulas-ver-todos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-hidraulicos/registros-e-valvulas",
+            "noFollow": true,
+            "tagTitle": "Ver todos os produtos",
+            "text": "Ver todos os produtos"
+          },
+          "blockClass": [ "ver-todos"]
+        },
+        {
+          "id": "menu-item-base-para-misturador",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-hidraulicos/registros-e-valvulas/base-para-misturador",
+            "noFollow": true,
+            "tagTitle": "Base para Misturador",
+            "text": "Base para Misturador"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-base-para-registro",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-hidraulicos/registros-e-valvulas/base-para-registro",
+            "noFollow": true,
+            "tagTitle": "Base para Registro",
+            "text": "Base para Registro"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-bloqueador-de-ar",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-hidraulicos/registros-e-valvulas/bloqueador-de-ar",
+            "noFollow": true,
+            "tagTitle": "Bloqueador de Ar",
+            "text": "Bloqueador de Ar"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-cartucho-base",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-hidraulicos/registros-e-valvulas/cartucho-base",
+            "noFollow": true,
+            "tagTitle": "Cartucho Base",
+            "text": "Cartucho Base"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-hidrometro-multijato",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-hidraulicos/registros-e-valvulas/hidrometro-multijato",
+            "noFollow": true,
+            "tagTitle": "Hidrômetro Multijato",
+            "text": "Hidrômetro Multijato"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-registro",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-hidraulicos/registros-e-valvulas/registro",
+            "noFollow": true,
+            "tagTitle": "Registro",
+            "text": "Registro"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-valvula",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-hidraulicos/registros-e-valvulas/valvula",
+            "noFollow": true,
+            "tagTitle": "Válvula",
+            "text": "Válvula"
+          },
+          "blockClass": "child"
+        }
+      ]
+    }
+  }
+}

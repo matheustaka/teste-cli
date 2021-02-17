@@ -1,0 +1,495 @@
+{
+  "menu-item#lavanderia-e-limpeza": {
+    "props": {
+      "id": "menu-item-lavanderia-e-limpeza",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/organizacao-da-casa/lavanderia-e-limpeza",
+        "noFollow": true,
+        "tagTitle": "Lavanderia e Limpeza",
+        "text": "Lavanderia e Limpeza"
+      },
+      "blockClass": ["childSub", "have-children"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#lavanderia-e-limpeza"]
+  },
+
+  "vtex.menu@2.x:submenu#lavanderia-e-limpeza": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#lavanderia-e-limpeza"]
+  },
+
+  "vtex.menu@2.x:menu#lavanderia-e-limpeza": {
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-lavanderia-e-limpeza-ver-todos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/organizacao-da-casa/lavanderia-e-limpeza",
+            "noFollow": true,
+            "tagTitle": "Ver todos os produtos",
+            "text": "Ver todos os produtos"
+          },
+          "blockClass": [ "ver-todos"]
+        },
+        {
+          "id": "menu-item-absorvedor-de-odores",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/organizacao-da-casa/lavanderia-e-limpeza/absorvedor-de-odores",
+            "noFollow": true,
+            "tagTitle": "Absorvedor de Odores",
+            "text": "Absorvedor de Odores"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-alcool",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/organizacao-da-casa/lavanderia-e-limpeza/alcool",
+            "noFollow": true,
+            "tagTitle": "Álcool",
+            "text": "Álcool"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-bisnaga",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/organizacao-da-casa/lavanderia-e-limpeza/bisnaga",
+            "noFollow": true,
+            "tagTitle": "Bisnaga",
+            "text": "Bisnaga"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-capa-para-maquina-de-lavar",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/organizacao-da-casa/lavanderia-e-limpeza/capa-para-maquina-de-lavar",
+            "noFollow": true,
+            "tagTitle": "Capa para Máquina de Lavar",
+            "text": "Capa para Máquina de Lavar"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-cesto",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/organizacao-da-casa/lavanderia-e-limpeza/cesto",
+            "noFollow": true,
+            "tagTitle": "Cesto",
+            "text": "Cesto"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-desumidificador",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/organizacao-da-casa/lavanderia-e-limpeza/desumidificador",
+            "noFollow": true,
+            "tagTitle": "Desumidificador",
+            "text": "Desumidificador"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-dispenser",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/organizacao-da-casa/lavanderia-e-limpeza/dispenser",
+            "noFollow": true,
+            "tagTitle": "Dispenser",
+            "text": "Dispenser"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-escova",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/organizacao-da-casa/lavanderia-e-limpeza/escova",
+            "noFollow": true,
+            "tagTitle": "Escova",
+            "text": "Escova"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-esponja",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/organizacao-da-casa/lavanderia-e-limpeza/esponja",
+            "noFollow": true,
+            "tagTitle": "Esponja",
+            "text": "Esponja"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-estopa",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/organizacao-da-casa/lavanderia-e-limpeza/estopa",
+            "noFollow": true,
+            "tagTitle": "Estopa",
+            "text": "Estopa"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-limpador",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/organizacao-da-casa/lavanderia-e-limpeza/limpador",
+            "noFollow": true,
+            "tagTitle": "Limpador",
+            "text": "Limpador"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-lixeira",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/organizacao-da-casa/lavanderia-e-limpeza/lixeira",
+            "noFollow": true,
+            "tagTitle": "Lixeira",
+            "text": "Lixeira"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-luva",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/organizacao-da-casa/lavanderia-e-limpeza/luva",
+            "noFollow": true,
+            "tagTitle": "Luva",
+            "text": "Luva"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-mesa-de-passar-roupa",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/organizacao-da-casa/lavanderia-e-limpeza/mesa-de-passar-roupa",
+            "noFollow": true,
+            "tagTitle": "Mesa de Passar Roupa",
+            "text": "Mesa de Passar Roupa"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-mop",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/organizacao-da-casa/lavanderia-e-limpeza/mop",
+            "noFollow": true,
+            "tagTitle": "Mop",
+            "text": "Mop"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-pano-de-limpeza",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/organizacao-da-casa/lavanderia-e-limpeza/pano-de-limpeza",
+            "noFollow": true,
+            "tagTitle": "Pano de Limpeza",
+            "text": "Pano de Limpeza"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-papel-higienico",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/organizacao-da-casa/lavanderia-e-limpeza/papel-higienico",
+            "noFollow": true,
+            "tagTitle": "Papel Higiênico",
+            "text": "Papel Higiênico"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-papel-toalha",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/organizacao-da-casa/lavanderia-e-limpeza/papel-toalha",
+            "noFollow": true,
+            "tagTitle": "Papel Toalha",
+            "text": "Papel Toalha"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-prendedor-de-roupas",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/organizacao-da-casa/lavanderia-e-limpeza/prendedor-de-roupas",
+            "noFollow": true,
+            "tagTitle": "Prendedor de Roupas",
+            "text": "Prendedor de Roupas"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-protetor-de-roupa",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/organizacao-da-casa/lavanderia-e-limpeza/protetor-de-roupa",
+            "noFollow": true,
+            "tagTitle": "Protetor de Roupa",
+            "text": "Protetor de Roupa"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-pulverizador",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/organizacao-da-casa/lavanderia-e-limpeza/pulverizador",
+            "noFollow": true,
+            "tagTitle": "Pulverizador",
+            "text": "Pulverizador"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-removedor",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/organizacao-da-casa/lavanderia-e-limpeza/removedor",
+            "noFollow": true,
+            "tagTitle": "Removedor",
+            "text": "Removedor"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-rodo",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/organizacao-da-casa/lavanderia-e-limpeza/rodo",
+            "noFollow": true,
+            "tagTitle": "Rodo",
+            "text": "Rodo"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-rolo-adesivo",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/organizacao-da-casa/lavanderia-e-limpeza/rolo-adesivo",
+            "noFollow": true,
+            "tagTitle": "Rolo Adesivo",
+            "text": "Rolo Adesivo"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-sabonete-liquido",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/organizacao-da-casa/lavanderia-e-limpeza/sabonete-liquido",
+            "noFollow": true,
+            "tagTitle": "Sabonete Líquido",
+            "text": "Sabonete Líquido"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-saco-de-lixo",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/organizacao-da-casa/lavanderia-e-limpeza/saco-de-lixo",
+            "noFollow": true,
+            "tagTitle": "Saco de Lixo",
+            "text": "Saco de Lixo"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-soda-caustica",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/organizacao-da-casa/lavanderia-e-limpeza/soda-caustica",
+            "noFollow": true,
+            "tagTitle": "Soda Cáustica",
+            "text": "Soda Cáustica"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-suportes-diversos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/organizacao-da-casa/lavanderia-e-limpeza/suportes-diversos",
+            "noFollow": true,
+            "tagTitle": "Suportes Diversos",
+            "text": "Suportes Diversos"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-varal",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/organizacao-da-casa/lavanderia-e-limpeza/varal",
+            "noFollow": true,
+            "tagTitle": "Varal",
+            "text": "Varal"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-vassoura",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/organizacao-da-casa/lavanderia-e-limpeza/vassoura",
+            "noFollow": true,
+            "tagTitle": "Vassoura",
+            "text": "Vassoura"
+          },
+          "blockClass": "child"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "menu-item#aditivos-e-adesivos": {
+    "props": {
+      "id": "menu-item-aditivos-e-adesivos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/materiais-de-construcao/aditivos-e-adesivos",
+        "noFollow": true,
+        "tagTitle": "Aditivos e Adesivos",
+        "text": "Aditivos e Adesivos"
+      },
+      "blockClass": ["childSub", "have-children"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#aditivos-e-adesivos"]
+  },
+
+  "vtex.menu@2.x:submenu#aditivos-e-adesivos": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#aditivos-e-adesivos"]
+  },
+
+  "vtex.menu@2.x:menu#aditivos-e-adesivos": {
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-aditivos-e-adesivos-ver-todos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-de-construcao/aditivos-e-adesivos",
+            "noFollow": true,
+            "tagTitle": "Ver todos os produtos",
+            "text": "Ver todos os produtos"
+          },
+          "blockClass": ["ver-todos"]
+        },
+        {
+          "id": "menu-item-adesivo",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-de-construcao/aditivos-e-adesivos/adesivo",
+            "noFollow": true,
+            "tagTitle": "Adesivo",
+            "text": "Adesivo"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-aditivo",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-de-construcao/aditivos-e-adesivos/aditivo",
+            "noFollow": true,
+            "tagTitle": "Aditivo",
+            "text": "Aditivo"
+          },
+          "blockClass": "child"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "menu-item#pastilhas": {
+    "props": {
+      "id": "menu-item-pastilhas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/pisos-e-revestimentos/pastilhas",
+        "noFollow": true,
+        "tagTitle": "Pastilhas",
+        "text": "Pastilhas"
+      },
+      "blockClass": ["childSub", "have-children"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#pastilhas"]
+  },
+
+  "vtex.menu@2.x:submenu#pastilhas": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#pastilhas"]
+  },
+
+  "vtex.menu@2.x:menu#pastilhas": {
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-pastilhas-ver-todos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/pisos-e-revestimentos/pastilhas",
+            "noFollow": true,
+            "tagTitle": "Ver todos os produtos",
+            "text": "Ver todos os produtos"
+          },
+          "blockClass": ["ver-todos"]
+        },
+        {
+          "id": "menu-item-pastilha-de-porcelana",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/pisos-e-revestimentos/pastilhas/pastilha-de-porcelana",
+            "noFollow": true,
+            "tagTitle": "Pastilha de Porcelana",
+            "text": "Pastilha de Porcelana"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-pastilha-de-vidro",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/pisos-e-revestimentos/pastilhas/pastilha-de-vidro",
+            "noFollow": true,
+            "tagTitle": "Pastilha de Vidro",
+            "text": "Pastilha de Vidro"
+          },
+          "blockClass": "child"
+        }
+      ]
+    }
+  }
+}

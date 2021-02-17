@@ -1,0 +1,90 @@
+{
+  "menu-item#papel-e-adesivo-de-parede": {
+    "props": {
+      "id": "menu-item-papel-e-adesivo-de-parede",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/decoracao-e-moveis/papel-e-adesivo-de-parede",
+        "noFollow": true,
+        "tagTitle": "Papel e Adesivo de Parede",
+        "text": "Papel e Adesivo de Parede"
+      },
+      "blockClass": ["childSub", "have-children"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#papel-e-adesivo-de-parede"]
+  },
+
+  "vtex.menu@2.x:submenu#papel-e-adesivo-de-parede": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#papel-e-adesivo-de-parede"]
+  },
+
+  "vtex.menu@2.x:menu#papel-e-adesivo-de-parede": {
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-papel-e-adesivo-de-parede-ver-todos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/decoracao-e-moveis/papel-e-adesivo-de-parede",
+            "noFollow": true,
+            "tagTitle": "Ver todos os produtos",
+            "text": "Ver todos os produtos"
+          },
+          "blockClass": ["ver-todos"]
+        },
+        {
+          "id": "menu-item-adesivo-de-parede",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/decoracao-e-moveis/adesivo-e-adesivo-de-parede/papel-de-parede",
+            "noFollow": true,
+            "tagTitle": "Adesivo de Parede",
+            "text": "Adesivo de Parede"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-papel-de-parede",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/decoracao-e-moveis/papel-e-adesivo-de-parede/papel-de-parede",
+            "noFollow": true,
+            "tagTitle": "Papel de Parede",
+            "text": "Papel de Parede"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-tecido-de-parede",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/decoracao-e-moveis/papel-e-adesivo-de-parede/tecido-de-parede",
+            "noFollow": true,
+            "tagTitle": "Tecido de Parede",
+            "text": "Tecido de Parede"
+          },
+          "blockClass": "child"
+        }
+      ]
+    }
+  }
+}

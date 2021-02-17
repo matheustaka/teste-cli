@@ -1,0 +1,331 @@
+{
+  "menu-item#acessorios-e-complementos": {
+    "props": {
+      "id": "menu-item-acessorios-e-complementos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/tintas-e-acessorios/acessorios-e-complementos",
+        "noFollow": true,
+        "tagTitle": "Acessórios e Complementos",
+        "text": "Acessórios e Complementos"
+      },
+      "blockClass": ["childSub", "have-children"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#acessorios-e-complementos"]
+  },
+
+  "vtex.menu@2.x:submenu#acessorios-e-complementos": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#acessorios-e-complementos"]
+  },
+
+  "vtex.menu@2.x:menu#acessorios-e-complementos": {
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-acessorios-e-complementos-ver-todos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/tintas-e-acessorios/acessorios-e-complementos",
+            "noFollow": true,
+            "tagTitle": "Ver todos os produtos",
+            "text": "Ver todos os produtos"
+          },
+          "blockClass": ["ver-todos"]
+        },
+        {
+          "id": "menu-item-abre-trinca",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/tintas-e-acessorios/acessorios-e-complementos/abre-trinca",
+            "noFollow": true,
+            "tagTitle": "Abre Trinca",
+            "text": "Abre Trinca"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-bandeja",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/tintas-e-acessorios/acessorios-e-complementos/bandeja",
+            "noFollow": true,
+            "tagTitle": "Bandeja",
+            "text": "Bandeja"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-broxa",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/tintas-e-acessorios/acessorios-e-complementos/broxa",
+            "noFollow": true,
+            "tagTitle": "Broxa",
+            "text": "Broxa"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-cacamba",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/tintas-e-acessorios/acessorios-e-complementos/cacamba",
+            "noFollow": true,
+            "tagTitle": "Caçamba",
+            "text": "Caçamba"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-conjunto-para-pintura",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/tintas-e-acessorios/acessorios-e-complementos/conjunto-para-pintura",
+            "noFollow": true,
+            "tagTitle": "Conjunto para Pintura",
+            "text": "Conjunto para Pintura"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-desempenadeira",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/tintas-e-acessorios/acessorios-e-complementos/desempenadeira",
+            "noFollow": true,
+            "tagTitle": "Desempenadeira",
+            "text": "Desempenadeira"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-escova",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/tintas-e-acessorios/acessorios-e-complementos/escova",
+            "noFollow": true,
+            "tagTitle": "Escova",
+            "text": "Escova"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-espatula",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/tintas-e-acessorios/acessorios-e-complementos/espatula",
+            "noFollow": true,
+            "tagTitle": "Espátula",
+            "text": "Espátula"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-fibra-abrasiva",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/tintas-e-acessorios/acessorios-e-complementos/fibra-abrasiva",
+            "noFollow": true,
+            "tagTitle": "Fibra Abrasiva",
+            "text": "Fibra Abrasiva"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-fita",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/tintas-e-acessorios/acessorios-e-complementos/fita",
+            "noFollow": true,
+            "tagTitle": "Fita",
+            "text": "Fita"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-lixa",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/tintas-e-acessorios/acessorios-e-complementos/lixa",
+            "noFollow": true,
+            "tagTitle": "Lixa",
+            "text": "Lixa"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-misturador",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/tintas-e-acessorios/acessorios-e-complementos/misturador",
+            "noFollow": true,
+            "tagTitle": "Misturador",
+            "text": "Misturador"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-pad",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/tintas-e-acessorios/acessorios-e-complementos/pad",
+            "noFollow": true,
+            "tagTitle": "Pad",
+            "text": "Pad"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-pincel",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/tintas-e-acessorios/acessorios-e-complementos/pincel",
+            "noFollow": true,
+            "tagTitle": "Pincel",
+            "text": "Pincel"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-prolongador",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/tintas-e-acessorios/acessorios-e-complementos/prolongador",
+            "noFollow": true,
+            "tagTitle": "Prolongador",
+            "text": "Prolongador"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-respirador",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/tintas-e-acessorios/acessorios-e-complementos/respirador",
+            "noFollow": true,
+            "tagTitle": "Respirador",
+            "text": "Respirador"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-rolo",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/tintas-e-acessorios/acessorios-e-complementos/rolo",
+            "noFollow": true,
+            "tagTitle": "Rolo",
+            "text": "Rolo"
+          },
+          "blockClass": "child"
+        },
+
+        {
+          "id": "menu-item-suporte-para-pincel",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/tintas-e-acessorios/acessorios-e-complementos/suporte-para-pincel",
+            "noFollow": true,
+            "tagTitle": "Suporte para Pincel",
+            "text": "Suporte para Pincel"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-suporte-para-rolo",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/tintas-e-acessorios/acessorios-e-complementos/suporte-para-rolo",
+            "noFollow": true,
+            "tagTitle": "Suporte para Rolo",
+            "text": "Suporte para Rolo"
+          },
+          "blockClass": "child"
+        }
+      ]
+    }
+  }
+}

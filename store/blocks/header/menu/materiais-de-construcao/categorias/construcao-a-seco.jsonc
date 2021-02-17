@@ -1,0 +1,188 @@
+{
+  "menu-item#construcao-a-seco": {
+    "props": {
+      "id": "menu-item-construcao-a-seco",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/materiais-de-construcao/construcao-a-seco",
+        "noFollow": true,
+        "tagTitle": "Construção a Seco",
+        "text": "Construção a Seco"
+      },
+      "blockClass": ["childSub", "have-children"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#construcao-a-seco"]
+  },
+
+  "vtex.menu@2.x:submenu#construcao-a-seco": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#construcao-a-seco"]
+  },
+
+  "vtex.menu@2.x:menu#construcao-a-seco": {
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-construcao-a-seco-ver-todos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-de-construcao/construcao-a-seco",
+            "noFollow": true,
+            "tagTitle": "Ver todos os produtos",
+            "text": "Ver todos os produtos"
+          },
+          "blockClass": ["ver-todos"]
+        },
+        {
+          "id": "menu-item-cantoneira",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-de-construcao/construcao-a-seco/cantoneira",
+            "noFollow": true,
+            "tagTitle": "Cantoneira",
+            "text": "Cantoneira"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-chapa-de-drywall-e-acessorios",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-de-construcao/construcao-a-seco/chapa-de-drywall-e-acessorios",
+            "noFollow": true,
+            "tagTitle": "Chapa de Drywall e Acessórios",
+            "text": "Chapa de Drywall e Acessórios"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-conector",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-de-construcao/construcao-a-seco/conector",
+            "noFollow": true,
+            "tagTitle": "Conector",
+            "text": "Conector"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-fita",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-de-construcao/construcao-a-seco/fita",
+            "noFollow": true,
+            "tagTitle": "Fita",
+            "text": "Fita"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-massa",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-de-construcao/construcao-a-seco/massa",
+            "noFollow": true,
+            "tagTitle": "Massa",
+            "text": "Massa"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-mezanino",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-de-construcao/construcao-a-seco/mezanino",
+            "noFollow": true,
+            "tagTitle": "Mezanino",
+            "text": "Mezanino"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-parafuso",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-de-construcao/construcao-a-seco/parafuso",
+            "noFollow": true,
+            "tagTitle": "Parafuso",
+            "text": "Parafuso"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-perfil",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-de-construcao/construcao-a-seco/perfil",
+            "noFollow": true,
+            "tagTitle": "Perfil",
+            "text": "Perfil"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-placa-cimenticia",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-de-construcao/construcao-a-seco/placa-cimenticia",
+            "noFollow": true,
+            "tagTitle": "Placa Cimentícia",
+            "text": "Placa Cimentícia"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-suporte",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-de-construcao/construcao-a-seco/suporte",
+            "noFollow": true,
+            "tagTitle": "Suporte",
+            "text": "Suporte"
+          },
+          "blockClass": "child"
+        }
+      ]
+    }
+  }
+}

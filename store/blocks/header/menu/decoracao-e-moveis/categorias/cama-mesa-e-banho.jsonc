@@ -1,0 +1,300 @@
+{
+  "menu-item#cama-mesa-e-banho": {
+    "props": {
+      "id": "menu-item-cama-mesa-e-banho",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/decoracao-e-moveis/cama-mesa-e-banho",
+        "noFollow": true,
+        "tagTitle": "Cama, Mesa e Banho",
+        "text": "Cama, Mesa e Banho"
+      },
+      "blockClass": ["childSub", "have-children"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#cama-mesa-e-banho"]
+  },
+
+  "vtex.menu@2.x:submenu#cama-mesa-e-banho": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#cama-mesa-e-banho"]
+  },
+
+  "vtex.menu@2.x:menu#cama-mesa-e-banho": {
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-cama-mesa-e-banho-ver-todos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/decoracao-e-moveis/cama-mesa-e-banho",
+            "noFollow": true,
+            "tagTitle": "Ver todos os produtos",
+            "text": "Ver todos os produtos"
+          },
+          "blockClass": ["ver-todos"]
+        },
+        {
+          "id": "menu-item-cobertor",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/decoracao-e-moveis/cama-mesa-e-banho/cobertor",
+            "noFollow": true,
+            "tagTitle": "Cobertor",
+            "text": "Cobertor"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-cobre-leito",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/decoracao-e-moveis/cama-mesa-e-banho/cobre-leito",
+            "noFollow": true,
+            "tagTitle": "Cobre Leito",
+            "text": "Cobre Leito"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-edredom",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/decoracao-e-moveis/cama-mesa-e-banho/edredom",
+            "noFollow": true,
+            "tagTitle": "Edredom",
+            "text": "Edredom"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-fronha",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/decoracao-e-moveis/cama-mesa-e-banho/fronha",
+            "noFollow": true,
+            "tagTitle": "Fronha",
+            "text": "Fronha"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-jogo-de-cama",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/decoracao-e-moveis/cama-mesa-e-banho/jogo-de-cama",
+            "noFollow": true,
+            "tagTitle": "Jogo de Cama",
+            "text": "Jogo de Cama"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-kit-cozinha",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/decoracao-e-moveis/cama-mesa-e-banho/kit-cozinha",
+            "noFollow": true,
+            "tagTitle": "Kit Cozinha",
+            "text": "Kit Cozinha"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-lencol",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/decoracao-e-moveis/cama-mesa-e-banho/lencol",
+            "noFollow": true,
+            "tagTitle": "Lençol",
+            "text": "Lençol"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-lugar-americano",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/decoracao-e-moveis/cama-mesa-e-banho/lugar-americano",
+            "noFollow": true,
+            "tagTitle": "Lugar Americano",
+            "text": "Lugar Americano"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-manta",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/decoracao-e-moveis/cama-mesa-e-banho/manta",
+            "noFollow": true,
+            "tagTitle": "Manta",
+            "text": "Manta"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-pano-de-copa",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/decoracao-e-moveis/cama-mesa-e-banho/pano-de-copa",
+            "noFollow": true,
+            "tagTitle": "Pano de Copa",
+            "text": "Pano de Copa"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-porta-travesseiro",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/decoracao-e-moveis/cama-mesa-e-banho/porta-travesseiro",
+            "noFollow": true,
+            "tagTitle": "Porta Travesseiro",
+            "text": "Porta Travesseiro"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-protetor-e-saia-para-colchao",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/decoracao-e-moveis/cama-mesa-e-banho/protetor-e-saia-para-colchao",
+            "noFollow": true,
+            "tagTitle": "Protetor e Saia para Colchão",
+            "text": "Protetor e Saia para Colchão"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-toalha-de-banho",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/decoracao-e-moveis/cama-mesa-e-banho/toalha-de-banho",
+            "noFollow": true,
+            "tagTitle": "Toalha de Banho",
+            "text": "Toalha de Banho"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-toalha-de-mesa",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/decoracao-e-moveis/cama-mesa-e-banho/toalha-de-mesa",
+            "noFollow": true,
+            "tagTitle": "Toalha de Mesa",
+            "text": "Toalha de Mesa"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-toalha-de-piso",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/decoracao-e-moveis/cama-mesa-e-banho/toalha-de-piso",
+            "noFollow": true,
+            "tagTitle": "Toalha de Piso",
+            "text": "Toalha de Piso"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-toalha-de-rosto",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/decoracao-e-moveis/cama-mesa-e-banho/toalha-de-rosto",
+            "noFollow": true,
+            "tagTitle": "Toalha de Rosto",
+            "text": "Toalha de Rosto"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-toalha-lavabo",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/decoracao-e-moveis/cama-mesa-e-banho/toalha-lavabo",
+            "noFollow": true,
+            "tagTitle": "Toalha Lavabo",
+            "text": "Toalha Lavabo"
+          },
+          "blockClass": "child"
+        },
+        {
+          "id": "menu-item-travesseiro",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/decoracao-e-moveis/cama-mesa-e-banho/travesseiro",
+            "noFollow": true,
+            "tagTitle": "Travesseiro",
+            "text": "Travesseiro"
+          },
+          "blockClass": "child"
+        }
+      ]
+    }
+  }
+}

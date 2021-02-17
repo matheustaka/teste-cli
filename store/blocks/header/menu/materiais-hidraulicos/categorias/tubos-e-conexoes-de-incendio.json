@@ -1,0 +1,62 @@
+{
+  "menu-item#tubos-e-conexoes-de-incendio": {
+    "props": {
+      "id": "menu-item-tubos-e-conexoes-de-incendio",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/materiais-hidraulicos/tubos-e-conexoes-de-incendio",
+        "noFollow": true,
+        "tagTitle": "Tubos e Conexões de Incêndio",
+        "text": "Tubos e Conexões de Incêndio"
+      },
+      "blockClass": ["childSub", "have-children"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#tubos-e-conexoes-de-incendio"]
+  },
+
+  "vtex.menu@2.x:submenu#tubos-e-conexoes-de-incendio": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#tubos-e-conexoes-de-incendio"]
+  },
+
+  "vtex.menu@2.x:menu#tubos-e-conexoes-de-incendio": {
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-tubos-e-conexoes-de-incendio-ver-todos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-hidraulicos/tubos-e-conexoes-de-incendio",
+            "noFollow": true,
+            "tagTitle": "Ver todos os produtos",
+            "text": "Ver todos os produtos"
+          },
+          "blockClass": [ "ver-todos"]
+        },
+        {
+          "id": "menu-item-valvula",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/materiais-hidraulicos/tubos-e-conexoes-de-incendio/valvula",
+            "noFollow": true,
+            "tagTitle": "Válvula",
+            "text": "Válvula"
+          },
+          "blockClass": "child"
+        }
+      ]
+    }
+  }
+}

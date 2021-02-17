@@ -1,0 +1,108 @@
+{
+    "menu-item#camping": {
+      "props": {
+        "id": "menu-item-camping",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/piscina-e-lazer/camping",
+          "noFollow": true,
+          "tagTitle": "Camping",
+          "text": "Camping"
+        },
+        "blockClass": ["childSub", "have-children"]
+      },
+      "blocks": ["vtex.menu@2.x:submenu#camping"]
+    },
+  
+    "vtex.menu@2.x:submenu#camping": {
+      "props": {
+        "width": "auto"
+      },
+      "children": ["vtex.menu@2.x:menu#camping"]
+    },
+  
+    "vtex.menu@2.x:menu#camping": {
+      "props": {
+        "orientation": "vertical",
+        "items": [
+          {
+            "id": "menu-item-camping-ver-todos",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+              "type": "internal",
+              "href": "/piscina-e-lazer/camping",
+              "noFollow": true,
+              "tagTitle": "Ver todos os produtos",
+              "text": "Ver todos os produtos"
+            },
+            "blockClass": ["ver-todos"]
+          },
+          {
+            "id": "menu-item-camping-barraca",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+              "type": "internal",
+              "href": "/piscina-e-lazer/camping/barraca",
+              "noFollow": true,
+              "tagTitle": "Barraca",
+              "text": "Barraca"
+            },
+            "blockClass": "child"
+          },
+  
+          {
+            "id": "menu-item-camping-bomba-de-ar",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+              "type": "internal",
+              "href": "/piscina-e-lazer/camping/bomba-de-ar",
+              "noFollow": true,
+              "tagTitle": "Bomba de Ar",
+              "text": "Bomba de Ar"
+            },
+            "blockClass": "child"
+          },
+  
+          {
+            "id": "menu-item-camping-colchao-inflavel",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+              "type": "internal",
+              "href": "/piscina-e-lazer/camping/colchao-inflavel",
+              "noFollow": true,
+              "tagTitle": "Colchão Inflável",
+              "text": "Colchão Inflável"
+            },
+            "blockClass": "child"
+          },
+  
+          {
+            "id": "menu-item-camping-mesas-e-bancos",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+              "type": "internal",
+              "href": "/piscina-e-lazer/camping/mesas-e-bancos",
+              "noFollow": true,
+              "tagTitle": "Mesas e Bancos",
+              "text": "Mesas e Bancos"
+            },
+            "blockClass": "child"
+          }
+        ]
+      }
+    }
+  }
+  

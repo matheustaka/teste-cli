@@ -1,0 +1,18 @@
+{
+  "menu-item#lavadora-de-alta-pressao": {
+    "props": {
+      "id": "menu-item-lavadora-de-alta-pressao",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/jardim-e-sacada/lavadora-de-alta-pressao",
+        "noFollow": true,
+        "tagTitle": "Lavadora de Alta Pressão",
+        "text": "Lavadora de Alta Pressão"
+      },
+      "blockClass": "childSub"
+    }
+  }
+}

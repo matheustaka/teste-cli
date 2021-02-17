@@ -1,0 +1,63 @@
+{
+  "menu-item#climatizacao-e-ventilacao": {
+    "props": {
+      "id": "menu-item-climatizacao-e-ventilacao",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/climatizacao-e-ventilacao",
+        "noFollow": true,
+        "tagTitle": "Climatização e Ventilação",
+        "text": "Climatização e Ventilação"
+      },
+      "blockClass": ["department", "have-children"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#climatizacao-e-ventilacao"]
+  },
+
+  "vtex.menu@2.x:submenu#climatizacao-e-ventilacao": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#climatizacao-e-ventilacao"]
+  },
+
+  "vtex.menu@2.x:menu#climatizacao-e-ventilacao": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "drop-category"
+    },
+    "children": [
+      "rich-text#department-climatizacao-e-ventilacao",
+      "menu-item#climatizacao-e-ventilacao-ver-todos",
+      "menu-item#aquecedores-de-ambiente",
+      "menu-item#ar-condicionado",
+      "menu-item#umidificadores-e-desumidificadores",
+      "menu-item#ventiladores-e-circuladores"
+    ]
+  },
+  "rich-text#department-climatizacao-e-ventilacao": {
+    "props": {
+      "text": "Climatização e Ventilação",
+      "blockClass": "titulo-menu-department"
+    }
+  },
+  "menu-item#climatizacao-e-ventilacao-ver-todos": {
+    "props": {
+      "id": "menu-item-climatizacao-e-ventilacao-ver-todos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/climatizacao-e-ventilacao",
+        "noFollow": true,
+        "tagTitle": "Ver todos os produtos",
+        "text": "Ver todos os produtos"
+      },
+      "blockClass": ["ver-todos"]
+    }
+  }
+}

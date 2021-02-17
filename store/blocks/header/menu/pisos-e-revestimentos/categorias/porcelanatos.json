@@ -1,0 +1,18 @@
+{
+  "menu-item#porcelanatos": {
+    "props": {
+      "id": "menu-item-porcelanatos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/pisos-e-revestimentos/porcelanatos",
+        "noFollow": true,
+        "tagTitle": "Porcelanatos",
+        "text": "Porcelanatos"
+      },
+      "blockClass": "childSub"
+    }
+  }
+}
