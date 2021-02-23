@@ -1,8 +1,8 @@
 {
   "form#newsletter": {
     "props": {
-      "entity": "FN",
-      "schema": "formNewsletter"
+      "entity": "newsletter",
+      "schema": "Newsletter"
     },
     "children": [
       "rich-text#tituloNewsletter",
