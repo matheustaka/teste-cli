@@ -10,21 +10,24 @@
   "responsive-layout.desktop#tabloide": {
     "children": [
       "breadcrumb",
-      "iframe#tabloide"
+      "iframe#tabloide",
+      "flex-layout.row#openFullPageRow"
     ]
   },
 
   "responsive-layout.tablet#tabloide": {
     "children": [
       "breadcrumb",
-      "iframe#tabloide"
+      "iframe#tabloide",
+      "flex-layout.row#openFullPageRow"
     ]
   },
 
   "responsive-layout.phone#tabloide": {
     "children": [
       "breadcrumb",
-      "iframe#tabloide"
+      "iframe#tabloide",
+      "flex-layout.row#openFullPageRow"
     ]
   },
 
@@ -34,6 +37,31 @@
       "width":"100%",
       "height":"100%",
       "blockClass": "tabloideContainer"
+    }
+  },
+
+  "flex-layout.row#openFullPageRow": {
+    "children" : ["flex-layout.col#openFullPageCol"],
+    "props" : {
+      "horizontalAlign" : "center"
+    }
+  },
+
+  "flex-layout.col#openFullPageCol" : {
+    "children" : ["link#openFullPage"],
+    "props" : {
+      "horizontalAlign" : "center"
+    }
+  },
+  "link#openFullPage" : {
+    "props" : {
+      "label" : "Abrir em uma nova guia",
+      "displayMode" : "button",
+      "href" : "https://tdzain.net/cassol/tabloide.pdf",
+      "target" : "_blank",
+      "buttonProps" : {
+        "size" : "regular"
+      }
     }
   }
 }
