@@ -27,6 +27,21 @@
       "newsletter-submit"
     ]
   },
+  "newsletter-input-email" : {
+    "props" : {
+      "placeholderText" : "Digite seu e-mail"
+    }
+  },
+  "newsletter-input-name" : {
+    "props" : {
+      "placeholderText" : "Digite seu nome"
+    }
+  },
+  "newsletter-submit" : {
+    "props" : {
+      "placeholderText" : "Inscrever-se"
+    }
+  },
 
   "rich-text#newsletter": {
     "props": {
