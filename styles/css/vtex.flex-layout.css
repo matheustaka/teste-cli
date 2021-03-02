@@ -367,6 +367,11 @@
   border-radius: 3px;
 }
 
+.flexRow--newsletterRow {
+  background: #F3F3F3;
+  border-radius: 3px;
+}
+
 .flexRow--newsletter :global(.vtex-input-prefix__group) {
   margin: 10px 0;
   border-radius: 0;

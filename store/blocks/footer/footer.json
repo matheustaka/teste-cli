@@ -4,6 +4,7 @@
   },
   "footer-layout.desktop": {
     "children": [
+      "flex-layout.row#footer-newsletter",
       "flex-layout.row#footer-1-desktop",
       "flex-layout.row#footer-2-desktop",
       "flex-layout.row#footer-3-desktop",
@@ -11,6 +12,28 @@
     ]
   },
 
+  "flex-layout.row#footer-newsletter" : {
+    "children" : ["newsletter-form"],
+    "props" : {
+      "blockClass" : "newsletterRow"
+    }
+  },
+  
+  "newsletter-form": {
+    "children": [
+      "rich-text#newsletter",
+      "newsletter-input-email",
+      "newsletter-input-name",
+      "newsletter-submit"
+    ]
+  },
+
+  "rich-text#newsletter": {
+    "props": {
+      "text": "# Receba as melhores ofertas Cassol!",
+      "blockClass" : ["newsTitle"]
+    }
+  },
   "flex-layout.row#footer-1-desktop": {
     "children": [
       "vtex.menu@2.x:menu#Institucional",
@@ -269,6 +292,7 @@
 
   "footer-layout.mobile": {
     "children": [
+      "flex-layout.row#footer-newsletter",
       "flex-layout.row#footer-1-mobile",
       "flex-layout.row#socialNetworks-mobile",
       "flex-layout.row#footer-2-mobile",

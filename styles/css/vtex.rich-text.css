@@ -377,6 +377,19 @@
   text-align: center;
 }
 
+.headingLevel1--newsTitle {
+  color: #184077;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 25px;
+  text-align: center;
+}
+
+.container--newsTitle {
+  width: 25%;
+}
+
+
 .headingLevel2--seo-subtitulo {
   font-weight: 600;
   font-size: 14px;
@@ -643,6 +656,9 @@
 @media (max-width: 767.98px) {
   .container--textSpecification {
     margin: 0 20px;
+  }
+  .container--newsTitle {
+    width: 60%;
   }
 }
 
