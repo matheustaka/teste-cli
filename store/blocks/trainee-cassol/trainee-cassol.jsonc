@@ -1,0 +1,182 @@
+{
+    "store.custom#traineeCassol": {
+        "parent": {
+            "header": "flex-layout.row#traineeHeader"
+        },
+        "blocks": [
+            "responsive-layout.desktop#traineeCassolDesk",
+            "responsive-layout.tablet#traineeCassolTablet",
+            "responsive-layout.phone#traineeCassolPhone"
+        ]
+    },
+    "responsive-layout.desktop#traineeCassolDesk": {
+        "children": [
+            "list-context.image-list#traineeMainBanner",
+            "flex-layout.row#traineeGoogle",
+            "flex-layout.row#traineeFeatures",
+            "flex-layout.row#traineeSteps"
+        ]
+    },
+    "flex-layout.row#traineeHeader": {
+        "children": [
+            "flex-layout.col#logo-desktop"
+        ],
+        "props": {}
+    },
+    "list-context.image-list#traineeMainBanner": {
+        "children": [
+            "slider-layout#traineeMainBanner"
+        ],
+        "props": {
+            "height": 720,
+            "images": [
+                {
+                    "image": "https://cassol.vtexassets.com/arquivos/banner-principal-desk.png",
+                    "mobileImage": "https://cassol.vtexassets.com/arquivos/banner-principal-mobile.png"
+                }
+            ]
+        }
+    },
+    "slider-layout#traineeMainBanner": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 1,
+                "tablet": 1,
+                "phone": 1
+            },
+            "autoplay": {
+                "timeout": 5000
+            },
+            "stopOnHover": true,
+            "infinite": true,
+            "showNavigationArrows": "never",
+            "blockClass": "banner-principal"
+        }
+    },
+    "flex-layout.row#traineeGoogle": {
+        "children": [
+            "flex-layout.col#traineeBrand"
+        ],
+        "props": {
+            "horizontalAlign": "center"
+        }
+    },
+    "flex-layout.col#traineeBrand": {
+        "children": [
+            "image#icon1",
+            "rich-text#traineeText"
+        ],
+        "props": {
+            "horizontalAlign": "center"
+        }
+    },
+
+    "rich-text#traineeText": {
+        "props": {
+            "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+            "textAlignment":"center"
+        }
+    },
+    "flex-layout.row#traineeFeatures": {
+        "children": [
+            "flex-layout.col#traineeFeature",
+            "flex-layout.col#traineeFeature2",
+            "flex-layout.col#traineeFeature3"
+        ]
+    },
+    "flex-layout.col#traineeFeature": {
+        "children" : [
+            "image#icon1",
+            "rich-text#traineeFeatureText"
+        ]
+    },
+    "flex-layout.col#traineeFeature2": {
+        "children" : [
+            "image#icon2",
+            "rich-text#traineeFeatureText2"
+        ]
+    },
+    "flex-layout.col#traineeFeature3": {
+        "children" : [
+            "image#icon3",
+            "rich-text#traineeFeatureText3"
+        ]
+    },
+
+    "image#icon1" : {
+        "props" : {
+            "src" : ""
+        }
+    },
+
+    "image#icon2" : {
+        "props" : {
+            "src" : ""
+        }
+    },
+
+    "image#icon3" : {
+        "props" : {
+            "src" : ""
+        }
+    },
+
+    "rich-text#traineeFeatureText" : {
+        "props" : {
+            "text" :"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        }
+    },
+
+    "rich-text#traineeFeatureText2" : {
+        "props" : {
+            "text" :"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        }
+    },
+
+    "rich-text#traineeFeatureText3" : {
+        "props" : {
+            "text" :"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        }
+    },
+
+    "flex-layout.row#traineeStepsContainer" : {
+        "children" : [
+            "flex-layout.row#traineeSteps"
+        ]
+    },
+
+    "flex-layout.row#traineeSteps" : {
+        "children" : [
+            "flex-layout.col#traineeSteps" 
+        ],
+
+        "props" : {
+            "blockClass" : ["stepsRow"]
+        }
+    },
+
+    "flex-layout.col#traineeSteps" : {
+        "children" : [
+            "rich-text#traineeStepTitle",
+            "rich-text#traineeStepDescription"
+        ],
+
+        "props" : {
+            "horizontalAlign" : "center"
+        }
+    },
+    "rich-text#traineeStepTitle" : {
+        "props" :{
+            "text" : "# Etapas do processo"
+        }
+    },
+    "rich-text#traineeStepDescription" : {
+        "props" : {
+            "text" :"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer tooksss a galley of type and scrambled it to make a type specimen book."
+        }
+    },
+
+
+    "responsive-layout.tablet#traineeCassolTablet": {},
+    "responsive-layout.phone#traineeCassolPhone": {}
+}

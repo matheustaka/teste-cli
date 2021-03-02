@@ -62,7 +62,8 @@
     "vtex.store-form": "0.x",
     "vtex.product-highlights": "2.x",
     "vtex.iframe": "0.x",
-    "cassol.btucalculator": "1.x"
+    "cassol.btucalculator": "1.x",
+    "vtex.sandbox" : "0.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }

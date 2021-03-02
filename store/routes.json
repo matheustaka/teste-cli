@@ -118,5 +118,8 @@
   "store.custom#tabloide-sc": {
     "path": "/tabloide_sc",
     "isSitemapEntry": true
+  },
+  "store.custom#traineeCassol": {
+    "path": "/trainee-cassol"
   }
 }

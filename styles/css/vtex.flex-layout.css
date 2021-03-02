@@ -895,3 +895,9 @@
 .flexRow--payment-methods-mobile {
   width: auto !important;
 }
+
+
+/* Trainee Cassol */
+.flexRow--stepsRow {
+  background-color: #b0308f;
+}
