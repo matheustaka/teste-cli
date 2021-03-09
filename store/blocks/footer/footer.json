@@ -22,10 +22,31 @@
   "newsletter-form": {
     "children": [
       "rich-text#newsletter",
-      "newsletter-input-email",
       "newsletter-input-name",
+      "newsletter-input-email",
       "newsletter-submit"
+    ],
+
+    "props" : {
+      "SuccessState" : "flex-layout.row#newsletterThanks"
+    }
+  },
+
+  "flex-layout.row#newsletterThanks" : {
+    "props": {
+      "horizontalAlign" : "center"
+    },
+    "children" : [
+      "rich-text#thanks"
     ]
+  },
+
+  "rich-text#thanks" : {
+    "props" : {
+      "text": "Obrigado!",
+      "textPosition" : "CENTER",
+      "textAlignment" : "CENTER"
+    }
   },
   "newsletter-input-email" : {
     "props" : {
