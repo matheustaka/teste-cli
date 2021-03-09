@@ -45,7 +45,8 @@
     "props" : {
       "text": "Obrigado!",
       "textPosition" : "CENTER",
-      "textAlignment" : "CENTER"
+      "textAlignment" : "CENTER",
+      "blockClass" : ["newsTitle"]
     }
   },
   "newsletter-input-email" : {
