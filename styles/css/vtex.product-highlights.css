@@ -1,7 +1,12 @@
 .productHighlightWrapper--collection {
   display: flex;
   justify-content: flex-end;
-  margin-right: 5px;
+  margin-right: 0;
+  width: 74px !important;
+}
+
+.productHighlightWrapper--collection [data-highlight-name="Frete Grátis"]{
+  width: 74px !important;
 }
 
 .productHighlightText--summary {
@@ -10,12 +15,12 @@
   border-radius: 5px;
   color: #fff;
   display: inline-block;
-  font-size: 12px;
+  font-size: .7rem;
   font-weight: 700;
   height: 40px;
   justify-content: center;
   line-height: 40px;
-  margin-right: 5px;
+  margin-right: 0px;
   margin-left: 0;
   min-width: 45px;
   padding: 0 5px;
