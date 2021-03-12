@@ -15,6 +15,18 @@
   font-weight: 700;
 }
 
+.sellingPrice--summary {
+  color: #fff;
+}
+.measurementUnit--summary {
+  font-size: .9rem;
+  color: #d61016;
+}
+.measurementUnit--summary::before {
+  content: "/";
+  color: #d61016;
+}
+
 .installments {
   display: block;
   color: #385A83;
