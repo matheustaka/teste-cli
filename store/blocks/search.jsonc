@@ -271,9 +271,14 @@
   },
 
   "flex-layout.col#filterMobile": {
-    "children": ["filter-navigator.v3"],
+    "children": ["filter-navigator.v3#mobile"],
     "props": {
       "blockClass": "filterMobileCol"
+    }
+  },
+  "filter-navigator.v3#mobile": {
+    "props" : {
+      "navigationTypeOnMobile" : "collapsible"
     }
   },
   "search-not-found-layout": {
