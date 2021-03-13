@@ -2,11 +2,11 @@
   display: flex;
   justify-content: flex-end;
   margin-right: 0;
-  width: 74px !important;
+  width: 76px !important;
 }
 
 .productHighlightWrapper--collection [data-highlight-name="Frete Grátis"]{
-  width: 74px !important;
+  width: 76px !important;
 }
 
 .productHighlightText--summary {

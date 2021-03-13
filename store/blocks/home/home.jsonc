@@ -74,7 +74,7 @@
         "phone": 1
       },
       "autoplay": {
-        "timeout": 5000
+        "timeout": 8000
       },
       "stopOnHover": true,
       "infinite": true,
