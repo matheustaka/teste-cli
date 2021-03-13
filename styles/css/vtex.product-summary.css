@@ -123,7 +123,7 @@
 }
 
 .element :global(.vtex-flex-layout-0-x-flexRow--group-price) {
-  height: 60px;
+  height: inherit;
 }
 
 .element :global(.vtex-flex-layout-0-x-flexRowContent--group-price) {
@@ -133,11 +133,11 @@
 .element :global(.vtex-flex-layout-0-x-flexRowContent--group-price) :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
   width: 100% !important;
   text-align: center;
-  max-height: 25px;
+  max-height: inherit;
 }
 
 .element :global(.vtex-flex-layout-0-x-flexRowContent--group-price) :first-child:global(.vtex-flex-layout-0-x-stretchChildrenWidth){  
-  height: 15px;
+  height: inherit;
 }
 
 .element :global(.vtex-flex-layout-0-x-flexRow) :global(.vtex-flex-layout-0-x-flexRowContent) {

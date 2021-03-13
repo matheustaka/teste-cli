@@ -96,7 +96,8 @@
       "blockClass": "list-price-saving-container"
     },
     "children": [
-      "product-selling-price#summary"
+      // "product-selling-price#summary"
+      "ProductPriceVitrine"
     ]
   },
   "product-installments#summary": {

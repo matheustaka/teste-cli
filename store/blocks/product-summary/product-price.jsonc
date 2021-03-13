@@ -8,7 +8,7 @@
       "blockClass": "sellingPriceContainer"
     },
     "children": [
-      "product-selling-price",
+      "ProductPrice",
       "installment-methods"
     ]
   },
