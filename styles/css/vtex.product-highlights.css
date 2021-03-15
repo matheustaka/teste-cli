@@ -2,11 +2,6 @@
   display: flex;
   justify-content: flex-end;
   margin-right: 0;
-  width: 76px !important;
-}
-
-.productHighlightWrapper--collection [data-highlight-name="Frete Grátis"]{
-  width: 76px !important;
 }
 
 .productHighlightText--summary {
@@ -15,16 +10,29 @@
   border-radius: 5px;
   color: #fff;
   display: inline-block;
-  font-size: .7rem;
+  font-size: 0.7rem;
   font-weight: 700;
   height: 40px;
   justify-content: center;
   line-height: 40px;
-  margin-right: 0px;
+
+  margin-right: 5px;
   margin-left: 0;
-  min-width: 45px;
+  margin-bottom: 2px;
   padding: 0 5px;
+
+  min-width: 45px;
   text-align: center;
   width: auto !important;
   z-index: 10;
+}
+
+@media (max-width: 600px) {
+
+  .productHighlightText--summary {
+    display: flex;
+    height: 25px;
+    padding: 0 2px;
+    margin-right: 5px;
+  }
 }

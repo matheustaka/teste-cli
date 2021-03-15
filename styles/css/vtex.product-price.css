@@ -64,8 +64,8 @@
   height: 40px;
   justify-content: center;
   line-height: 40px;
-  margin-left: 5px;
-  margin-right: 0;
+  margin-right: 5px;
+  margin-bottom: 2px;
   text-align: center;
   width: 50px !important;
   z-index: 800;
@@ -152,4 +152,14 @@
 }
 .installmentsNumber--summary {
   font-weight: 700;
+}
+
+
+@media (max-width:600px) {
+  .savings--summary{
+    margin-left: 0;
+    height: 25px;
+    display: inline-flex;
+
+  }
 }
