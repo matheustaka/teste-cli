@@ -254,9 +254,7 @@
 
   "add-to-cart-button": {
     "props": {
-      "text": "COMPRAR",
-      "isOneClickBuy": true,
-      "customOneClickBuyLink": "/checkout/#/cart"
+      "text": "COMPRAR"
     }
   },
 

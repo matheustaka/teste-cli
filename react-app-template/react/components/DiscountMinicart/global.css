@@ -1,0 +1,18 @@
+.discount-minicart {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.discount-minicart span{
+    font-weight: 700;
+    font-size: 12px;
+    color: #385a83;
+}
+
+.discount-minicart  p {
+    font-weight: 700;
+    margin: 0;
+    font-size: 12px;
+    color: #385a83;
+}
