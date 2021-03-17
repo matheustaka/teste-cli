@@ -1,12 +1,12 @@
 {
     "store.custom#traineeCassol": {
         "parent": {
-            "header": "flex-layout.row#traineeHeader",
+            "header": "header#empty",
             "footer" : "flex-layout.row#traineeFooter"
         },
         "blocks": [
             "responsive-layout.desktop#traineeCassolDesk",
-            "responsive-layout.tablet#traineeCassolTablet",
+            // "responsive-layout.tablet#traineeCassolTablet",
             "responsive-layout.phone#traineeCassolPhone"
         ]
     },
@@ -72,8 +72,6 @@
         ],
         "props": {
             "horizontalAlign": "center",
-            "paddingBottom": 10,
-            "paddingTop" : 10,
             "blockClass" : "traineeMainPadding"
         }
     },
@@ -83,11 +81,7 @@
             "rich-text#traineeText"
         ],
         "props": {
-            "horizontalAlign": "center",
-            "marginRight" : "10",
-            "marginLeft" : "10",
-            "paddingLeft" : "10",
-            "paddingRight" : "10"
+            "horizontalAlign": "center"
         }
     },
 
@@ -171,8 +165,6 @@
             "flex-layout.col#traineeSteps"
         ],
         "props": {
-            "paddingTop" : 8,
-            "paddingBottom" : 8,
             "blockClass": [
                 "stepsRow",
                 "traineeMainPadding"
@@ -320,8 +312,6 @@
     // Development
     "flex-layout.row#development" : {
         "props" : {
-            "paddingTop" :8,
-            "paddingBottom" : 8,
             "blockClass" : ["developmentSection", "traineeMainPadding"]
         },
         "children" : [
@@ -368,8 +358,6 @@
     "flex-layout.row#expectation" : {
         "props" : {
             "horizontalAlign" : "middle",
-            "paddingBottom" : 10,
-            "paddingTop" : 10,
             "blockClass" : "expectationSection"
         },
 
@@ -586,21 +574,29 @@
         "children" : ["flex-layout.col#logo"]
     },
     // Tablet
-    "responsive-layout.tablet#traineeCassolTablet": {
-        "children": [
-            "list-context.image-list#traineeMainBanner",
-            "flex-layout.row#traineeBrand",
-            "flex-layout.row#traineeFeatures",
-            "flex-layout.row#traineeSteps"
-        ]
-    },
+    // "responsive-layout.tablet#traineeCassolTablet": {
+    //     "children": [
+    //         "list-context.image-list#traineeMainBanner",
+    //         "flex-layout.row#traineeBrand",
+    //         "flex-layout.row#traineeFeatures",
+    //         "flex-layout.row#traineeSteps"
+    //     ]
+    // },
     // Mobile
     "responsive-layout.phone#traineeCassolPhone": {
         "children": [
             "list-context.image-list#traineeMainBanner",
+            "flex-layout.row#pattern",
             "flex-layout.row#traineeBrand",
             "flex-layout.row#traineeFeatures",
-            "flex-layout.row#traineeSteps"
+            "flex-layout.row#traineeSteps",
+            "flex-layout.row#development",
+            "flex-layout.row#expectation",
+            "flex-layout.row#actingAreas",
+            "flex-layout.row#requisites",
+            "flex-layout.row#infoRow",
+            "flex-layout.row#benefits",
+            "list-context.image-list#traineeEndBanner"
         ]
     }
 }

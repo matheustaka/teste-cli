@@ -1,4 +1,16 @@
 {
+    "header#empty" : {
+        "blocks" : [
+            "header-layout.desktop#headerTrainee",
+            "header-layout.mobile#headerTraineeMobile"
+        ]
+    },
+
+    "header-layout.desktop#headerTrainee" : {
+        "children" : [
+            "flex-layout.row#traineeHeader"
+        ]
+    },
     "flex-layout.row#traineeHeader": {
         "children": [
             "flex-layout.col#logo",
@@ -181,5 +193,9 @@
         "props": {
             "text": "<a href='https://www.instagram.com/cassolcenterlar/' target='_blank'><img class='vtex-rich-text-0-x-image--social-networks--youtube' src='https://cassol.vtexassets.com/arquivos/social-networks--instagram.png'></a>"
         }
+    },
+
+    "header-layout.mobile#headerTraineeMobile" : {
+
     }
 }
