@@ -60,6 +60,15 @@
   outline: none;
 }
 
+.minicartCheckoutButton :global(.vtex-button__label) {
+  font-size: 0;
+}
+.minicartCheckoutButton :global(.vtex-button__label)::after {
+  content: "Ir para o  Carrinho";
+  font-size: 12px;
+}
+
+
 .minicartContainer :global(.vtex-button) {
   background: #fff;
   outline: none;

@@ -1,0 +1,26 @@
+{
+  "calculator": {
+    "component": "Calculator"
+  },
+  "old-orders": {
+    "component": "OldOrders"
+  },
+  "floor-calculator": {
+    "component": "FloorCalculator"
+  },
+  "message-calculator": {
+    "component": "MessageCalculator"
+  },
+  "installment-methods": {
+    "component": "InstallmentMethods"
+  },
+  "ProductPrice": {
+    "component": "ProductPrice"
+  },
+  "ProductPriceVitrine": {
+    "component": "ProductPriceVitrine"
+  },
+  "DiscountMinicart": {
+    "component": "DiscountMinicart"
+  }
+}
