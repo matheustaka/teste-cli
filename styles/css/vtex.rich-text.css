@@ -683,7 +683,7 @@
 .paragraph--expectationText {
   font-size: 1.2rem;
 }
-.heading--areasRightTitle, .paragraph--areasRightText, .heading--areasLeftTitle{
+.heading--areasRightTitle, .paragraph--areasRightText, .heading--areasLeftTitle, .paragraph--infoText, .heading--benefitsTitle, .paragraph--benefitsText{
   color: #fff;
 }
 .paragraph--areasRightText {
@@ -701,4 +701,7 @@
   color: #22648d;
   
   max-width: 65%;
+}
+.heading--benefitsTitle { 
+  font-size: 5rem;
 }

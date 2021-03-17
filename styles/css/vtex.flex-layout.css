@@ -935,7 +935,7 @@
 .flexRow--developmentSection, .flexRow--requisitesSection {
   background-color: #edeced;
 }
-.flexRow--expectationSection {
+.flexRow--expectationSection, .flexRow--benefitsSection {
   background-color: #3e94ca;
 }
 .flexRowContent--turnColumn {
@@ -946,3 +946,15 @@
   background-color: #3e6687;
 }
 
+.flexRow--moveAside {
+  margin-left: -30%;
+}
+
+.flexRow--textRow {
+  background-color: #b2b2b2;
+  align-items: center;
+}
+
+.flexRowContent--benefitsFirstCol {
+  justify-content: space-evenly;
+}

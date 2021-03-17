@@ -226,7 +226,7 @@
 
   "checkout-summary.compact#minicart": {
     "children": [
-      "DiscountMinicart",
+      // "DiscountMinicart",
       "summary-totalizers#minicart"
     ],
     "props": {

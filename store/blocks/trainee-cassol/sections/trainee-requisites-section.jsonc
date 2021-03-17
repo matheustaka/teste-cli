@@ -3,7 +3,6 @@
         "props" :{
             "paddingTop" : 10,
             "paddingBottom" : 10,
-            "" :    true,
             "blockClass": ["requisitesSection", "traineeMainPadding"]
         },
         "children" : [
@@ -31,13 +30,16 @@
     "flex-layout.col#requisitesRight" : {
         "children" : [
             "flex-layout.row#reqRightFirst",
-            "flex-layout.row#reqRightSecond"
+            "flex-layout.row#reqRightSecond",
+            "flex-layout.row#reqRightThird"
         ]
     },
 
     // First
     "flex-layout.row#reqRightFirst" : {
         "props" : {
+            "paddingBottom": 6,
+            "paddingTop": 6,
             "colSizing" : "auto",
             "blockClass" : ["turnColumn"]
         },
@@ -62,8 +64,10 @@
     // Second
     "flex-layout.row#reqRightSecond" : {
         "props" : {
+            "paddingBottom": 6,
+            "paddingTop": 6,
             "colSizing" : "auto",
-            "blockClass" : ["turnColumn"]
+            "blockClass" : ["turnColumn", "moveAside"]
         },
         "children" : [
             "rich-text#reqSecondTitle",
@@ -78,7 +82,7 @@
     },
     "rich-text#reqSecondText" : {
         "props" : {
-            "text" : "Formatura em GraduaçãoFormatura em GraduaçãoFormatura em GraduaçãoFormatura em GraduaçãoFormatura em GraduaçãoFormatura em GraduaçãoFormatura em GraduaçãoFormatura em GraduaçãoFormatura em GraduaçãoFormatura em GraduaçãoFormatura em GraduaçãoFormatura em GraduaçãoFormatura em GraduaçãoFormatura em GraduaçãoFormatura em GraduaçãoFormatura em GraduaçãoFormatura em Graduação",
+            "text" : "For",
             "blockClass" : "requisitesText"
         }
     },
@@ -86,6 +90,8 @@
     // Third
     "flex-layout.row#reqRightThird" : {
         "props" : {
+            "paddingBottom": 6,
+            "paddingTop": 6,
             "colSizing" : "auto",
             "blockClass" : ["turnColumn"]
         },
@@ -102,7 +108,7 @@
     },
     "rich-text#reqThirdText" : {
         "props" : {
-            "text" : "Formatura em GraduaçãoFormatura em GraduaçãoFormatura em GraduaçãoFormatura em GraduaçãoFormatura em GraduaçãoFormatura em GraduaçãoFormatura em GraduaçãoFormatura em GraduaçãoFormatura em GraduaçãoFormatura em GraduaçãoFormatura em GraduaçãoFormatura em GraduaçãoFormatura em GraduaçãoFormatura em GraduaçãoFormatura em GraduaçãoFormatura em GraduaçãoFormatura em Graduação",
+            "text" : "Fo",
             "blockClass" : "requisitesText"
         }
     }

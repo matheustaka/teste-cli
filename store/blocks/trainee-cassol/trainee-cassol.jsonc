@@ -1,7 +1,8 @@
 {
     "store.custom#traineeCassol": {
         "parent": {
-            "header": "flex-layout.row#traineeHeader"
+            "header": "flex-layout.row#traineeHeader",
+            "footer" : "flex-layout.row#traineeFooter"
         },
         "blocks": [
             "responsive-layout.desktop#traineeCassolDesk",
@@ -19,7 +20,11 @@
             "flex-layout.row#development",
             "flex-layout.row#expectation",
             "flex-layout.row#actingAreas",
-            "flex-layout.row#requisites"
+            "flex-layout.row#requisites",
+            "flex-layout.row#infoRow",
+            "flex-layout.row#benefits",
+            "list-context.image-list#traineeEndBanner"
+
         ]
     },
 
@@ -392,7 +397,194 @@
             "textAlignment" : "center"
         }
     },
-    
+
+    // Info texts
+    "flex-layout.row#infoRow" : {
+        "props" : {
+            "rowGap" : 10,
+            "horizontalAlign": "center",
+            "colSizing" : "auto",
+            "blockClass" : ["textRow", "turnColumn", "traineeMainPadding"]
+        },
+
+        "children" : [
+            "rich-text#info1",
+            "rich-text#info2"
+        ]
+    },
+    "rich-text#info1" : {
+        "props" :{
+            "text" : "O que você pode esperar",
+            "blockClass" : "infoText",
+            "textAlignment" : "center",
+            "textPosition" : "center"
+        }
+    },
+    "rich-text#info2" : {
+        "props" :{
+            "text" : "O que você pode esperar",
+            "blockClass" : "infoText",
+            "textAlignment" : "center"
+        }
+    },
+
+    // Benefits
+
+    "flex-layout.row#benefits" : {
+        "props" : {
+            "colSizing" : "auto",
+            "blockClass" : ["benefitsSection", "turnColumn", "traineeMainPadding"]
+        },
+
+        "children" : [
+            "flex-layout.col#benefitsTitleCol",
+            "flex-layout.col#benefitsCol"
+        ]
+    },
+    "flex-layout.col#benefitsTitleCol" : {
+        "props" : {
+            "width" : "auto",
+            "horizontalAlign" : "center",
+            "blockClass" : ["benefitsSection", "turnColumn"]
+        },
+
+        "children" : [
+            "rich-text#benefitsTitle"
+        ]
+    },
+    "rich-text#benefitsTitle" : {
+        "props" :{
+            "text" : "## benefícios",
+            "blockClass" : "benefitsTitle",
+            "textAlignment" : "center"
+        }
+    },
+
+    "flex-layout.col#benefitsCol" : {
+        "props" : {
+            "width" : "auto"
+        },
+        "children" : [
+            "flex-layout.row#benefitsFirstCol",
+            "flex-layout.row#benefitsSecondCol"
+        ]
+    },
+    "flex-layout.row#benefitsFirstCol" : {
+        "props" : {
+            "colSizing" : "auto",
+            "blockClass" : ["benefitsFirstCol"]
+        },
+        "children" : [
+            "rich-text#benefitsItem1",
+            "rich-text#benefitsItem2",
+            "rich-text#benefitsItem3",
+            "rich-text#benefitsItem4"
+        ]
+    },
+
+    "flex-layout.row#benefitsSecondCol" : {
+        "props" : {
+            "colSizing" : "auto",
+            "blockClass" : ["benefitsSecondCol"]
+        },
+        "children" :[
+            "rich-text#benefitsItem5",
+            "rich-text#benefitsItem6",
+            "rich-text#benefitsItem7"
+        ]
+    },
+    "rich-text#benefitsItem1" : {
+        "props" :{
+            "text" : "Texto Qualquer",
+            "textAlignment" : "center",
+            "textPosition" : "center",
+            "blockClass" : "benefitsText"
+        }
+    },
+    "rich-text#benefitsItem2" : {
+        "props" :{
+            "text" : "Texto Qualquer",
+            "textAlignment" : "center",
+            "textPosition" : "center",
+            "blockClass" : "benefitsText"
+        }
+    },
+    "rich-text#benefitsItem3" : {
+        "props" :{
+            "text" : "Texto Qualquer",
+            "textAlignment" : "center",
+            "textPosition" : "center",
+            "blockClass" : "benefitsText"
+        }
+    },
+    "rich-text#benefitsItem4" : {
+        "props" :{
+            "text" : "Texto Qualquer",
+            "textAlignment" : "center",
+            "textPosition" : "center",
+            "blockClass" : "benefitsText"
+        }
+    },
+    "rich-text#benefitsItem5" : {
+        "props" :{
+            "text" : "Texto Qualquer",
+            "textAlignment" : "center",
+            "textPosition" : "center",
+            "blockClass" : "benefitsText"
+        }
+    },
+    "rich-text#benefitsItem6" : {
+        "props" :{
+            "text" : "Texto Qualquer",
+            "textAlignment" : "center",
+            "textPosition" : "center",
+            "blockClass" : "benefitsText"
+        }
+    },
+    "rich-text#benefitsItem7" : {
+        "props" :{
+            "text" : "Texto Qualquer",
+            "textAlignment" : "center",
+            "textPosition" : "center",
+            "blockClass" : "benefitsText"
+        }
+    },
+
+    "list-context.image-list#traineeEndBanner": {
+        "children": [
+            "slider-layout#traineeEndBanner"
+        ],
+        "props": {
+            "height": 720,
+            "images": [
+                {
+                    "image": "https://cassol.vtexassets.com/arquivos/banner-principal-desk.png",
+                    "mobileImage": "https://cassol.vtexassets.com/arquivos/banner-principal-mobile.png"
+                }
+            ]
+        }
+    },
+    "slider-layout#traineeEndBanner": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 1,
+                "tablet": 1,
+                "phone": 1
+            },
+            "stopOnHover": true,
+            "infinite": true,
+            "showNavigationArrows": "never",
+            "blockClass": "banner-principal"
+        }
+    },
+
+    "flex-layout.row#traineeFooter" : {
+        "props" : {
+            "horizontalAlign" : "center",
+            "blockClass" :"traineeMainPadding"
+        },
+        "children" : ["flex-layout.col#logo"]
+    },
     // Tablet
     "responsive-layout.tablet#traineeCassolTablet": {
         "children": [
