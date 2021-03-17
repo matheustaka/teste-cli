@@ -925,6 +925,23 @@
 }
 
 /* Trainee Cassol */
-.flexRow--stepsRow {
-  background-color: #b0308f;
+.flexRow--traineeMainPadding {
+  padding: 2vh 4vw;
 }
+.flexRow--stepsRow {
+  background-color: #ce2c93;
+}
+.flexRow--developmentSection, .flexRow--requisitesSection {
+  background-color: #edeced;
+}
+.flexRow--expectationSection {
+  background-color: #3e94ca;
+}
+.flexRowContent--turnColumn {
+  flex-direction: column;
+}
+
+.flexCol--actingAreasRightSection {
+  background-color: #3e6687;
+}
+

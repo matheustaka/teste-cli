@@ -582,3 +582,11 @@
     top: 3px;
   }
 }
+
+/* Trainee */
+.styledLinkContent--traineeHeaderLink {
+  color: #266f9d;
+  font-weight:bold;
+  font-size: .8rem;
+  text-transform: uppercase;
+}

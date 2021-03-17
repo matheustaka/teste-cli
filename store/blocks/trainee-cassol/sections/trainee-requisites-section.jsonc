@@ -1,0 +1,110 @@
+{
+    "flex-layout.row#requisites" : {
+        "props" :{
+            "paddingTop" : 10,
+            "paddingBottom" : 10,
+            "" :    true,
+            "blockClass": ["requisitesSection", "traineeMainPadding"]
+        },
+        "children" : [
+            "flex-layout.col#requisitesLeft",
+            "flex-layout.col#requisitesRight"
+        ]
+    },
+    
+    "flex-layout.col#requisitesLeft" : {
+        "props" : {
+            "verticalAlign" : "middle"
+        },
+        "children" : [
+            "rich-text#requisitesTitle"
+        ]
+    },
+    "rich-text#requisitesTitle" : {
+        "props" : {
+            "text" : "## requisitos",
+            "blockClass" : "requisitesTitle"
+        }
+    },
+
+    // Right Side
+    "flex-layout.col#requisitesRight" : {
+        "children" : [
+            "flex-layout.row#reqRightFirst",
+            "flex-layout.row#reqRightSecond"
+        ]
+    },
+
+    // First
+    "flex-layout.row#reqRightFirst" : {
+        "props" : {
+            "colSizing" : "auto",
+            "blockClass" : ["turnColumn"]
+        },
+        "children" : [
+            "rich-text#reqFirstTitle",
+            "rich-text#reqFirstText"
+        ]
+    },
+    "rich-text#reqFirstTitle" : {
+        "props" : {
+            "text" : "## Comercial, Áreas Administrativas e Logística Planejamento e Abastecimento",
+            "blockClass" : "requisitesRightTitle"
+        }
+    },
+    "rich-text#reqFirstText" : {
+        "props" : {
+            "text" : "Formatura em GraduaçãoFormatura em GraduaçãoFormatura em GraduaçãoFormatura em GraduaçãoFormatura em GraduaçãoFormatura em GraduaçãoFormatura em GraduaçãoFormatura em GraduaçãoFormatura em GraduaçãoFormatura em GraduaçãoFormatura em GraduaçãoFormatura em GraduaçãoFormatura em GraduaçãoFormatura em GraduaçãoFormatura em GraduaçãoFormatura em GraduaçãoFormatura em Graduação",
+            "blockClass" : "requisitesText"
+        }
+    },
+
+    // Second
+    "flex-layout.row#reqRightSecond" : {
+        "props" : {
+            "colSizing" : "auto",
+            "blockClass" : ["turnColumn"]
+        },
+        "children" : [
+            "rich-text#reqSecondTitle",
+            "rich-text#reqSecondText"
+        ]
+    },
+    "rich-text#reqSecondTitle" : {
+        "props" : {
+            "text" : "## Comercial, Áreas Administrativas e Logística Planejamento e Abastecimento",
+            "blockClass" : "requisitesRightTitle"
+        }
+    },
+    "rich-text#reqSecondText" : {
+        "props" : {
+            "text" : "Formatura em GraduaçãoFormatura em GraduaçãoFormatura em GraduaçãoFormatura em GraduaçãoFormatura em GraduaçãoFormatura em GraduaçãoFormatura em GraduaçãoFormatura em GraduaçãoFormatura em GraduaçãoFormatura em GraduaçãoFormatura em GraduaçãoFormatura em GraduaçãoFormatura em GraduaçãoFormatura em GraduaçãoFormatura em GraduaçãoFormatura em GraduaçãoFormatura em Graduação",
+            "blockClass" : "requisitesText"
+        }
+    },
+
+    // Third
+    "flex-layout.row#reqRightThird" : {
+        "props" : {
+            "colSizing" : "auto",
+            "blockClass" : ["turnColumn"]
+        },
+        "children" : [
+            "rich-text#reqThirdTitle",
+            "rich-text#reqThirdText"
+        ]
+    },
+    "rich-text#reqThirdTitle" : {
+        "props" : {
+            "text" : "## Comercial, Áreas Administrativas e Logística Planejamento e Abastecimento",
+            "blockClass" : "requisitesRightTitle"
+        }
+    },
+    "rich-text#reqThirdText" : {
+        "props" : {
+            "text" : "Formatura em GraduaçãoFormatura em GraduaçãoFormatura em GraduaçãoFormatura em GraduaçãoFormatura em GraduaçãoFormatura em GraduaçãoFormatura em GraduaçãoFormatura em GraduaçãoFormatura em GraduaçãoFormatura em GraduaçãoFormatura em GraduaçãoFormatura em GraduaçãoFormatura em GraduaçãoFormatura em GraduaçãoFormatura em GraduaçãoFormatura em GraduaçãoFormatura em Graduação",
+            "blockClass" : "requisitesText"
+        }
+    }
+    
+}

@@ -1,0 +1,226 @@
+{
+    // Acting Areas
+    "flex-layout.row#actingAreas": {
+        "children": [
+            "flex-layout.col#actingAreasLeft",
+            "flex-layout.col#actingAreasRight"
+        ]
+    },
+    "flex-layout.col#actingAreasLeft": {
+        "props": {
+            "horizontalAlign": "center",
+            "verticalAlign": "middle"
+        },
+        "children": [
+            "rich-text#actingAreasTitle"
+        ]
+    },
+    "rich-text#actingAreasTitle": {
+        "props": {
+            "text": "## Áreas de Atuação",
+            "blockClass": "areasLeftTitle"
+        }
+    },
+    "flex-layout.col#actingAreasRight": {
+        "props": {
+            "blockClass": "actingAreasRightSection"
+        },
+        "children": [
+            "flex-layout.row#areasRightFirst",
+            "flex-layout.row#areasRightSecond",
+            "flex-layout.row#areasRightThird",
+            "flex-layout.row#areasRightFourth",
+            "flex-layout.row#areasRightFifth"
+        ]
+    },
+    "flex-layout.row#areasRightFirst": {
+        "props": {
+            "preventHorizontalStretch": true,
+            "blockClass": [
+                "traineeMainPadding",
+                "turnColumn"
+            ]
+        },
+        "children": [
+            "rich-text#rightFirstTitle",
+            "rich-text#rightFirstText",
+            "link#rightFirstSubscription"
+        ]
+    },
+    "rich-text#rightFirstTitle": {
+        "props": {
+            "text": "## Comercial",
+            "blockClass": "areasRightTitle"
+        }
+    },
+    "rich-text#rightFirstText": {
+        "props": {
+            "text": "Programa com duração de um ano e 6 meses",
+            "blockClass": "areasRightText"
+        }
+    },
+    "link#rightFirstSubscription": {
+        "props": {
+            "label": "Inscreva-se já",
+            "href": "#",
+            "displayMode": "button",
+            "buttonProps": {
+                "variant": "secondary",
+                "size": "small"
+            },
+            "blockClass": "traineeSubscribe"
+        }
+    },
+    "flex-layout.row#areasRightSecond": {
+        "props": {
+            "preventHorizontalStretch": true,
+            "blockClass": [
+                "traineeMainPadding",
+                "turnColumn"
+            ]
+        },
+        "children": [
+            "rich-text#rightSecondTitle",
+            "rich-text#rightSecondText",
+            "link#rightSecondSubscription"
+        ]
+    },
+    "rich-text#rightSecondTitle": {
+        "props": {
+            "text": "## Comercial",
+            "blockClass": "areasRightTitle"
+        }
+    },
+    "rich-text#rightSecondText": {
+        "props": {
+            "text": "Programa com duração de um ano e 6 meses",
+            "blockClass": "areasRightText"
+        }
+    },
+    "link#rightSecondSubscription": {
+        "props": {
+            "label": "Inscreva-se já",
+            "href": "#",
+            "displayMode": "button",
+            "buttonProps": {
+                "variant": "secondary",
+                "size": "small"
+            },
+            "blockClass": "traineeSubscribe"
+        }
+    },
+    "flex-layout.row#areasRightThird": {
+        "props": {
+            "preventHorizontalStretch": true,
+            "blockClass": [
+                "traineeMainPadding",
+                "turnColumn"
+            ]
+        },
+        "children": [
+            "rich-text#rightThirdTitle",
+            "rich-text#rightThirdText",
+            "link#rightThirdSubscription"
+        ]
+    },
+    "rich-text#rightThirdTitle": {
+        "props": {
+            "text": "## Comercial",
+            "blockClass": "areasRightTitle"
+        }
+    },
+    "rich-text#rightThirdText": {
+        "props": {
+            "text": "Programa com duração de um ano e 6 meses",
+            "blockClass": "areasRightText"
+        }
+    },
+    "link#rightThirdSubscription": {
+        "props": {
+            "label": "Inscreva-se já",
+            "href": "#",
+            "displayMode": "button",
+            "buttonProps": {
+                "variant": "secondary",
+                "size": "small"
+            },
+            "blockClass": "traineeSubscribe"
+        }
+    },
+    "flex-layout.row#areasRightFourth": {
+        "props": {
+            "preventHorizontalStretch": true,
+            "blockClass": [
+                "traineeMainPadding",
+                "turnColumn"
+            ]
+        },
+        "children": [
+            "rich-text#rightFourthTitle",
+            "rich-text#rightFourthText",
+            "link#rightFourthSubscription"
+        ]
+    },
+    "rich-text#rightFourthTitle": {
+        "props": {
+            "text": "## Comercial",
+            "blockClass": "areasRightTitle"
+        }
+    },
+    "rich-text#rightFourthText": {
+        "props": {
+            "text": "Programa com duração de um ano e 6 meses",
+            "blockClass": "areasRightText"
+        }
+    },
+    "link#rightFourthSubscription": {
+        "props": {
+            "label": "Inscreva-se já",
+            "href": "#",
+            "displayMode": "button",
+            "buttonProps": {
+                "variant": "secondary",
+                "size": "small"
+            },
+            "blockClass": "traineeSubscribe"
+        }
+    },
+    "flex-layout.row#areasRightFifth": {
+        "props": {
+            "preventHorizontalStretch": true,
+            "blockClass": [
+                "traineeMainPadding",
+                "turnColumn"
+            ]
+        },
+        "children": [
+            "rich-text#rightFifthTitle",
+            "rich-text#rightFifthText",
+            "link#rightFifthSubscription"
+        ]
+    },
+    "rich-text#rightFifthTitle": {
+        "props": {
+            "text": "## Comercial",
+            "blockClass": "areasRightTitle"
+        }
+    },
+    "rich-text#rightFifthText": {
+        "props": {
+            "text": "Programa com duração de um ano e 6 meses",
+            "blockClass": "areasRightText"
+        }
+    },
+    "link#rightFifthSubscription": {
+        "props": {
+            "label": "Inscreva-se já",
+            "href": "#",
+            "displayMode": "button",
+            "buttonProps": {
+                "variant": "secondary",
+                "size": "small"
+            },
+            "blockClass": "traineeSubscribe"
+        }
+    }
+}

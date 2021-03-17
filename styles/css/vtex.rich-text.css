@@ -670,3 +670,35 @@
   margin-bottom: 30px;
   font-size: 24px;
 }
+
+/* Trainee */
+.paragraph--traineePresentationText {
+  font-size: 1.2rem;
+}
+
+.heading--stepsText, .heading--stepsTitle, .paragraph--expectationText{
+  color: #fff;
+  text-align: center;
+}
+.paragraph--expectationText {
+  font-size: 1.2rem;
+}
+.heading--areasRightTitle, .paragraph--areasRightText, .heading--areasLeftTitle{
+  color: #fff;
+}
+.paragraph--areasRightText {
+  font-size: 1.5rem;
+}
+
+.heading--requisitesTitle {
+  color: #3e94ca;
+  font-size: 5rem;
+
+  transform: rotate(-90deg);
+}
+
+.heading--requisitesRightTitle {
+  color: #22648d;
+  
+  max-width: 65%;
+}

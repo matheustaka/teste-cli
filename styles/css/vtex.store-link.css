@@ -1,0 +1,14 @@
+.buttonLink--traineeSubscribe {
+    width: auto;
+    padding: 1.4rem 1.2rem;
+    border-radius: 20px;
+    border: none;
+
+    letter-spacing: .3rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    height: 35px;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: #da3135;
+}

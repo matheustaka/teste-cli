@@ -12,17 +12,17 @@
     "responsive-layout.desktop#traineeCassolDesk": {
         "children": [
             "list-context.image-list#traineeMainBanner",
-            "flex-layout.row#traineeGoogle",
+            "flex-layout.row#pattern",
+            "flex-layout.row#traineeBrand",
             "flex-layout.row#traineeFeatures",
-            "flex-layout.row#traineeSteps"
+            "flex-layout.row#traineeSteps",
+            "flex-layout.row#development",
+            "flex-layout.row#expectation",
+            "flex-layout.row#actingAreas",
+            "flex-layout.row#requisites"
         ]
     },
-    "flex-layout.row#traineeHeader": {
-        "children": [
-            "flex-layout.col#logo-desktop"
-        ],
-        "props": {}
-    },
+
     "list-context.image-list#traineeMainBanner": {
         "children": [
             "slider-layout#traineeMainBanner"
@@ -44,37 +44,59 @@
                 "tablet": 1,
                 "phone": 1
             },
-            "autoplay": {
-                "timeout": 5000
-            },
             "stopOnHover": true,
             "infinite": true,
             "showNavigationArrows": "never",
             "blockClass": "banner-principal"
         }
     },
-    "flex-layout.row#traineeGoogle": {
+
+    "flex-layout.row#pattern" : {
+        "children":[
+            "image#pattern"
+        ]
+    },
+    "image#pattern" : {
+        "props" : {
+            "src" : "https://cassol.vteximg.com.br/arquivos/cassol-pattern.jpg"
+        }
+    },
+    "flex-layout.row#traineeBrand": {
         "children": [
             "flex-layout.col#traineeBrand"
         ],
         "props": {
-            "horizontalAlign": "center"
+            "horizontalAlign": "center",
+            "paddingBottom": 10,
+            "paddingTop" : 10,
+            "blockClass" : "traineeMainPadding"
         }
     },
     "flex-layout.col#traineeBrand": {
         "children": [
-            "image#icon1",
+            "image#letterLogo",
             "rich-text#traineeText"
         ],
         "props": {
-            "horizontalAlign": "center"
+            "horizontalAlign": "center",
+            "marginRight" : "10",
+            "marginLeft" : "10",
+            "paddingLeft" : "10",
+            "paddingRight" : "10"
         }
     },
 
+    "image#letterLogo" : {
+        "props" : {
+            "src" : "https://cassol.vteximg.com.br/arquivos/cassol-letter-logo.jpg",
+            "maxHeight" : 100
+        }
+    },
     "rich-text#traineeText": {
         "props": {
-            "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-            "textAlignment":"center"
+            "text": "A Cassol é líder no segmento de materiais de construção do Sul do Brasil. Nossa história é baseada em muito trabalho e cooperação, desde a fundação de nossa primeira serraria, em 1958, que anos mais tarde viria a se tornar a Madeireira Cassol. A partir daí, não paramos mais de crescer. Hoje já são 19 lojas em Santa Catarina, Rio Grande do Sul e Paraná e três Centros de Distribuição, além de serviços de e-Commerce, Televendas e Venda Direta. E é assim que escrevemos uma história marcada pelo empreeendedorismo há mais de 60 anos: oferecendo o melhor para transformar e deixar o lar de cada pessoa como ela imagina.",
+            "textAlignment": "center",
+            "blockClass" : "traineePresentationText"
         }
     },
     "flex-layout.row#traineeFeatures": {
@@ -82,101 +104,311 @@
             "flex-layout.col#traineeFeature",
             "flex-layout.col#traineeFeature2",
             "flex-layout.col#traineeFeature3"
-        ]
+        ],
+
+        "props" : {
+            "blockClass": "traineeMainPadding"
+        }
     },
     "flex-layout.col#traineeFeature": {
-        "children" : [
+        "children": [
             "image#icon1",
             "rich-text#traineeFeatureText"
         ]
     },
     "flex-layout.col#traineeFeature2": {
-        "children" : [
+        "children": [
             "image#icon2",
             "rich-text#traineeFeatureText2"
         ]
     },
     "flex-layout.col#traineeFeature3": {
-        "children" : [
+        "children": [
             "image#icon3",
             "rich-text#traineeFeatureText3"
         ]
     },
-
-    "image#icon1" : {
-        "props" : {
-            "src" : ""
+    "image#icon1": {
+        "props": {
+            "src": ""
         }
     },
-
-    "image#icon2" : {
-        "props" : {
-            "src" : ""
+    "image#icon2": {
+        "props": {
+            "src": ""
         }
     },
-
-    "image#icon3" : {
-        "props" : {
-            "src" : ""
+    "image#icon3": {
+        "props": {
+            "src": ""
         }
     },
-
-    "rich-text#traineeFeatureText" : {
-        "props" : {
-            "text" :"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+    "rich-text#traineeFeatureText": {
+        "props": {
+            "text": "Hoje já somos a 5<sup>a</sup> maior rede de lojas de materiais de construção do país e já disponibilizamos mais de 50 mil produtos e possuímos mais de 85 mil m<sup>2</sup> de área de vendas.",
+            "textAlignment": "left"
         }
     },
-
-    "rich-text#traineeFeatureText2" : {
-        "props" : {
-            "text" :"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+    "rich-text#traineeFeatureText2": {
+        "props": {
+            "text": "Em 2020, a Cassol foi reconhecida pelo prêmio Top of Mind pelas soluções digitais criadas para nos aproximar de nossos clientes, uma estratégia fundamental para o sucesso dos nossos canais de vendas e para manter a marca relevante para os consumidores durante o período de isolamento social.",
+            "textAlignment": "left"
         }
     },
-
-    "rich-text#traineeFeatureText3" : {
-        "props" : {
-            "text" :"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+    "rich-text#traineeFeatureText3": {
+        "props": {
+            "text": "É assim que encaramos os desafios: com dedicação, coragem, transparência e trabalho. E, há mais de 60 anos, sabemos que reconhecer e valorizar nossos colaboradores é fundamental para o nosso crescimento.",
+            "textAlignment": "left"
         }
     },
-
-    "flex-layout.row#traineeStepsContainer" : {
+    "flex-layout.row#traineeSteps": {
+        "children": [
+            "flex-layout.col#traineeSteps"
+        ],
+        "props": {
+            "paddingTop" : 8,
+            "paddingBottom" : 8,
+            "blockClass": [
+                "stepsRow",
+                "traineeMainPadding"
+            ]
+        }
+    },
+    "flex-layout.col#traineeSteps": {
+        "children": [
+            "rich-text#traineeStepTitle",
+            "flex-layout.row#sequenceSteps"
+        ],
+        "props": {
+            "horizontalAlign": "center"
+        }
+    },
+    "rich-text#traineeStepTitle": {
+        "props": {
+            "text": "# Etapas do processo",
+            "blockClass" :["stepsTitle"]
+        }
+    },
+    "flex-layout.row#sequenceSteps": {
         "children" : [
+            "flex-layout.col#step1",
+            "flex-layout.col#step2",
+            "flex-layout.col#step3",
+            "flex-layout.col#step4",
+            "flex-layout.col#step5"
+        ],
+        "props": {
+        }
+    },
+
+    "flex-layout.col#step1" : {
+        "props" : {
+            "horizontalAlign" : "center"
+        },
+        "children" : [
+            "image#step1Image",
+            "rich-text#step1Text"
+        ]
+    },
+    "image#step1Image" : {
+        "props" : {
+            "src" : "https://cassol.vteximg.com.br/arquivos/step2.jpg",
+            "maxHeight" : 55,
+            "maxWidth" : 55
+        }
+    },
+    "rich-text#step1Text": {
+        "props" : {
+            "text": "#### Inscrições e realização dos testes <br> 15/03 a 15/04",
+            "blockClass": "stepsText"
+        }
+    },
+    "flex-layout.col#step2" : {
+        "props" : {
+            "horizontalAlign" : "center"
+        },
+        "children" : [
+            "image#step2Image",
+            "rich-text#step2Text"
+        ]
+    },
+    "image#step2Image" : {
+        "props" : {
+            "src" : "https://cassol.vteximg.com.br/arquivos/step3.jpg",
+            "maxHeight" : 55,
+            "maxWidth" : 55
+        }
+    },
+    "rich-text#step2Text": {
+        "props" : {
+            "text": "#### Inscrições e realização dos testes <br> 15/03 a 15/04",
+            "blockClass": "stepsText"
+        }
+    },
+    "flex-layout.col#step3" : {
+        "props" : {
+            "horizontalAlign" : "center"
+        },
+        "children" : [
+            "image#step3Image",
+            "rich-text#step3Text"
+        ]
+    },
+    "image#step3Image" : {
+        "props" : {
+            "src" : "https://cassol.vteximg.com.br/arquivos/step4.jpg",
+            "maxHeight" : 55,
+            "maxWidth" : 55
+        }
+    },
+    "rich-text#step3Text": {
+        "props" : {
+            "text": "#### Inscrições e realização dos testes <br> 15/03 a 15/04",
+            "blockClass": "stepsText"
+        }
+    },
+    "flex-layout.col#step4" : {
+        "props" : {
+            "horizontalAlign" : "center"
+        },
+        "children" : [
+            "image#step4Image",
+            "rich-text#step4Text"
+        ]
+    },
+    "image#step4Image" : {
+        "props" : {
+            "src" : "https://cassol.vteximg.com.br/arquivos/step5.jpg",
+            "maxHeight" : 55,
+            "maxWidth" : 55
+        }
+    },
+    "rich-text#step4Text": {
+        "props" : {
+            "text": "#### Inscrições e realização dos testes <br> 15/03 a 15/04",
+            "blockClass": "stepsText"
+        }
+    },
+    "flex-layout.col#step5" : {
+        "props" : {
+            "horizontalAlign" : "center"
+        },
+        "children" : [
+            "image#step5Image",
+            "rich-text#step5Text"
+        ]
+    },
+    "image#step5Image" : {
+        "props" : {
+            "src" : "https://cassol.vteximg.com.br/arquivos/step1.jpg",
+            "maxHeight" : 55,
+            "maxWidth" : 55
+        }
+    },
+    "rich-text#step5Text": {
+        "props" : {
+            "text": "#### Inscrições e realização dos testes <br> 15/03 a 15/04",
+            "blockClass": "stepsText"
+        }
+    },
+
+    // Development
+    "flex-layout.row#development" : {
+        "props" : {
+            "paddingTop" :8,
+            "paddingBottom" : 8,
+            "blockClass" : ["developmentSection", "traineeMainPadding"]
+        },
+        "children" : [
+            "flex-layout.col#developmentImage",
+            "flex-layout.col#developmentTexts"
+        ]
+    },
+    "flex-layout.col#developmentImage" : {
+        "props" : {
+            "horizontalAlign" : "center"
+        },
+        "children" :["image#developmentImage"]
+    },
+    "image#developmentImage" : {
+        "props" : {
+            "src" : ""
+        }
+    },
+    "flex-layout.col#developmentTexts" : {
+        "children" : [
+            "flex-layout.row#developmentTitle",
+            "flex-layout.row#developmentDescription"
+        ]
+    },
+    "flex-layout.row#developmentTitle" : {
+        "children": ["rich-text#devTitle"]
+    },
+    "rich-text#devTitle" : {
+        "props" : {
+            "text":"# Etapas de desenvolvimento"
+        }
+    },
+
+    "flex-layout.row#developmentDescription": {
+        "children" : ["rich-text#devDescription"]
+    },
+    "rich-text#devDescription" : {
+        "props" : {
+            "text" : "Em 2020, a Cassol foi reconhecida pelo prêmio Top of Mind pelas soluções digitais criadas para nos aproximar de nossos clientes, uma estratégia fundamental para o sucesso dos nossos canais de vendas e para manter a marca relevante para os consumidores durante o período de isolamento social."
+        }
+    },
+
+    // expectation
+    "flex-layout.row#expectation" : {
+        "props" : {
+            "horizontalAlign" : "middle",
+            "paddingBottom" : 10,
+            "paddingTop" : 10,
+            "blockClass" : "expectationSection"
+        },
+
+        "children" : [
+            "flex-layout.col#expectationText"
+        ]
+    },
+    "flex-layout.col#expectationText" : {
+        "props" : {
+            "horizontalAlign" : "center"
+        },
+        "children" : ["rich-text#expectationTitle", "rich-text#expectationText"]
+    },
+    "rich-text#expectationTitle" : {
+        "props" :{
+            "text" : "# O que você pode esperar",
+            "blockClass" : "stepsTitle",
+            "textAlignment" : "center"
+        }
+    },
+    "rich-text#expectationText" : {
+        "props" :{
+            "text" : "Visão sistêmica dos processos da empresa, desenvolvimento de conhecimentos ligados ao negócio da Cassol e à área de atuação do Trainee e acompanhamento durante todo o processo.",
+            "blockClass" : "expectationText",
+            "textAlignment" : "center"
+        }
+    },
+    
+    // Tablet
+    "responsive-layout.tablet#traineeCassolTablet": {
+        "children": [
+            "list-context.image-list#traineeMainBanner",
+            "flex-layout.row#traineeBrand",
+            "flex-layout.row#traineeFeatures",
             "flex-layout.row#traineeSteps"
         ]
     },
-
-    "flex-layout.row#traineeSteps" : {
-        "children" : [
-            "flex-layout.col#traineeSteps" 
-        ],
-
-        "props" : {
-            "blockClass" : ["stepsRow"]
-        }
-    },
-
-    "flex-layout.col#traineeSteps" : {
-        "children" : [
-            "rich-text#traineeStepTitle",
-            "rich-text#traineeStepDescription"
-        ],
-
-        "props" : {
-            "horizontalAlign" : "center"
-        }
-    },
-    "rich-text#traineeStepTitle" : {
-        "props" :{
-            "text" : "# Etapas do processo"
-        }
-    },
-    "rich-text#traineeStepDescription" : {
-        "props" : {
-            "text" :"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer tooksss a galley of type and scrambled it to make a type specimen book."
-        }
-    },
-
-
-    "responsive-layout.tablet#traineeCassolTablet": {},
-    "responsive-layout.phone#traineeCassolPhone": {}
+    // Mobile
+    "responsive-layout.phone#traineeCassolPhone": {
+        "children": [
+            "list-context.image-list#traineeMainBanner",
+            "flex-layout.row#traineeBrand",
+            "flex-layout.row#traineeFeatures",
+            "flex-layout.row#traineeSteps"
+        ]
+    }
 }

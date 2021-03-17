@@ -1,0 +1,185 @@
+{
+    "flex-layout.row#traineeHeader": {
+        "children": [
+            "flex-layout.col#logo",
+            "flex-layout.col#menuCol",
+            "flex-layout.col#socialNetworks"
+        ],
+        "props": {
+            "fullwidth": true,
+            "horizontalAlign": "center",
+            "colSizing": "auto",
+            "colGap": 2,
+            "blockClass": "traineeMainPadding"
+        }
+    },
+    "flex-layout.col#logo": {
+        "props": {
+            "verticalAlign": "middle",
+            "horizontalAlign": "center",
+            "width": "grow"
+        },
+        "children": [
+            "logo#header"
+        ]
+    },
+    "logo#header": {
+        "props": {
+            "title": "Logo",
+            "href": "/",
+            "url": "https://cassol.vteximg.com.br/arquivos/logo-desktop.png",
+            "width": "169.63"
+        }
+    },
+    "flex-layout.col#menuCol": {
+        "props": {
+            "width": "60%",
+            "horizontalAlign": "center",
+            "verticalAlign": "middle"
+        },
+        "children": [
+            "vtex.menu@2.x:menu#trainee"
+        ]
+    },
+    "vtex.menu@2.x:menu#trainee": {
+        "props": {
+            "items": [
+                {
+                    "id": "menu-item-subscription",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "#subscription",
+                        "noFollow": false,
+                        "tagTitle": "Inscrição",
+                        "text": "Inscrição"
+                    }
+                },
+                {
+                    "id": "menu-item-about",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "#about",
+                        "noFollow": false,
+                        "tagTitle": "Sobre",
+                        "text": "Sobre"
+                    }
+                },
+                {
+                    "id": "menu-item-steps",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "#steps",
+                        "noFollow": false,
+                        "tagTitle": "Etapas",
+                        "text": "Etapas"
+                    }
+                },
+                {
+                    "id": "menu-item-acting",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "#acting",
+                        "noFollow": false,
+                        "tagTitle": "Atuação",
+                        "text": "Atuação"
+                    }
+                },
+                {
+                    "id": "menu-item-requisites",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "#requisites",
+                        "noFollow": false,
+                        "tagTitle": "Requisitos",
+                        "text": "Requisitos"
+                    }
+                },
+                {
+                    "id": "menu-item-benefits",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "#benefits",
+                        "noFollow": false,
+                        "tagTitle": "Benefícios",
+                        "text": "Benefícios"
+                    }
+                }
+            ],
+            "blockClass" : "traineeHeaderLink"
+        }
+    },
+    "flex-layout.col#socialNetworks": {
+        "props": {
+            "width": "10%",
+            "verticalAlign": "middle"
+        },
+        "children": [
+            "flex-layout.col#socialNetworksCol"
+        ]
+    },
+    "flex-layout.col#socialNetworksCol": {
+        "children": [
+            "flex-layout.row#socialNetworksCol"
+        ],
+        "props": {
+            "blockClass": "footer-socialNetworks",
+            "paddingTop": 6,
+            "paddingBottom": 3
+        }
+    },
+    "flex-layout.row#socialNetworksCol": {
+        "children": [
+            "flex-layout.col#facebookCol",
+            "flex-layout.col#youtubeCol",
+            "flex-layout.col#instagramCol"
+        ]
+    },
+    "flex-layout.col#facebookCol": {
+        "children": [
+            "rich-text#facebookIcon"
+        ]
+    },
+    "flex-layout.col#youtubeCol": {
+        "children": [
+            "rich-text#youtubeIcon"
+        ]
+    },
+    "flex-layout.col#instagramCol": {
+        "children": [
+            "rich-text#instagramIcon"
+        ]
+    },
+    "rich-text#facebookIcon": {
+        "props": {
+            "text": "<a href='https://pt-br.facebook.com/CassolCenterlar' target='_blank'><img class='vtex-rich-text-0-x-image--social-networks--youtube' src='https://cassol.vtexassets.com/arquivos/social-networks--facebook.png'></a>"
+        }
+    },
+    "rich-text#youtubeIcon": {
+        "props": {
+            "text": "<a href='https://www.youtube.com/user/CassolCenterlar' target='_blank'><img class='vtex-rich-text-0-x-image--social-networks--youtube' src='https://cassol.vtexassets.com/arquivos/social-networks--youtube.png'></a>"
+        }
+    },
+    "rich-text#instagramIcon": {
+        "props": {
+            "text": "<a href='https://www.instagram.com/cassolcenterlar/' target='_blank'><img class='vtex-rich-text-0-x-image--social-networks--youtube' src='https://cassol.vtexassets.com/arquivos/social-networks--instagram.png'></a>"
+        }
+    }
+}
