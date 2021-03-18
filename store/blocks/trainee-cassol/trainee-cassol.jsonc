@@ -99,29 +99,39 @@
         }
     },
     "flex-layout.row#traineeFeatures": {
+        "props" : {
+            "colSizing":"auto",
+            "blockClass": ["traineeMainPadding", "featuresSection"]
+        },
+        
         "children": [
             "flex-layout.col#traineeFeature",
             "flex-layout.col#traineeFeature2",
             "flex-layout.col#traineeFeature3"
-        ],
-
-        "props" : {
-            "blockClass": "traineeMainPadding"
-        }
+        ]
     },
     "flex-layout.col#traineeFeature": {
+        "props" : {
+            "preventVerticalStretch" : true
+        },
         "children": [
             "image#icon1",
             "rich-text#traineeFeatureText"
         ]
     },
     "flex-layout.col#traineeFeature2": {
+        "props" : {
+            "preventVerticalStretch" : true
+        },
         "children": [
             "image#icon2",
             "rich-text#traineeFeatureText2"
         ]
     },
     "flex-layout.col#traineeFeature3": {
+        "props" : {
+            "preventVerticalStretch" : true
+        },
         "children": [
             "image#icon3",
             "rich-text#traineeFeatureText3"
@@ -129,17 +139,24 @@
     },
     "image#icon1": {
         "props": {
-            "src": ""
+            "src": "",
+            "maxWidth" : 60,
+            "maxHeigth" : 60
+
         }
     },
     "image#icon2": {
         "props": {
-            "src": ""
+            "src": "",
+            "maxWidth" : 60,
+            "maxHeigth" : 60
         }
     },
     "image#icon3": {
         "props": {
-            "src": ""
+            "src": "",
+            "maxWidth" : 60,
+            "maxHeigth" : 60
         }
     },
     "rich-text#traineeFeatureText": {
@@ -195,6 +212,7 @@
             "flex-layout.col#step5"
         ],
         "props": {
+            "id":"subscription"
         }
     },
 
@@ -358,7 +376,7 @@
     "flex-layout.row#expectation" : {
         "props" : {
             "horizontalAlign" : "middle",
-            "blockClass" : "expectationSection"
+            "blockClass" : ["expectationSection", "traineeMainPadding"]
         },
 
         "children" : [

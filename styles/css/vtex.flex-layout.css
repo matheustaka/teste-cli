@@ -929,10 +929,11 @@
 .flexRow--traineeMainPadding {
   padding: 2vh 4vw;
 }
+
 .flexRow--stepsRow {
   background-color: #ce2c93;
 }
-.flexRow--developmentSection, .flexRow--requisitesSection {
+.flexRow--developmentSection, .flexRow--requisitesSection,.flexRow--featuresSection {
   background-color: #edeced;
 }
 .flexRow--expectationSection, .flexRow--benefitsSection {
@@ -940,6 +941,18 @@
 }
 .flexRowContent--turnColumn {
   flex-direction: column;
+}
+
+.flexCol--areasLeftCol {
+  position: relative;
+}
+.flexCol--areasLeftCol::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+
+  background-image: url("https://cassol.vteximg.com.br/arquivos/trainee-gradient.jpg");
+  position: absolute;
 }
 
 .flexCol--actingAreasRightSection {
