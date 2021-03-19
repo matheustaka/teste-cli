@@ -191,7 +191,8 @@
   "minicart.v2": {
     "props": {
       "MinicartIcon": "icon-cart#minicart-icon",
-      "itemCountMode": "totalAvailable"
+      "itemCountMode": "totalAvailable",
+      "customPixelEventId": "example-add-to-cart"
     },
     "children": ["minicart-base-content"]
   },

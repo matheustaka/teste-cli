@@ -249,12 +249,13 @@
       "marginBottom": 7,
       "blockClass": "buyButton"
     },
-    "children": ["add-to-cart-button"]
+    "children": ["add-to-cart-button#example"]
   },
 
-  "add-to-cart-button": {
+  "add-to-cart-button#example": {
     "props": {
-      "text": "COMPRAR"
+      "text": "COMPRAR",
+      "customPixelEventId" : "example-add-to-cart"
     }
   },
 
