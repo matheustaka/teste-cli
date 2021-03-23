@@ -971,3 +971,7 @@
 .flexRowContent--benefitsFirstCol {
   justify-content: space-evenly;
 }
+/* LP - Pilot */
+.flexRowContent--pilotPadding {
+  padding: 0 6.25vw
+}

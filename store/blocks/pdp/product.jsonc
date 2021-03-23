@@ -247,15 +247,16 @@
     "props": {
       "marginTop": 4,
       "marginBottom": 7,
-      "blockClass": "buyButton"
+      "blockClass": "buyButton",
+      "customPixelEventId": "example-add-to-cart"
     },
     "children": ["add-to-cart-button#example"]
   },
 
   "add-to-cart-button#example": {
     "props": {
-      "text": "COMPRAR",
-      "customPixelEventId" : "example-add-to-cart"
+      "customPixelEventId": "example-add-to-cart",
+      "text": "COMPRAR"
     }
   },
 

@@ -121,5 +121,8 @@
   },
   "store.custom#traineeCassol": {
     "path": "/trainee-cassol"
+  },
+  "store.custom#pilot": {
+    "path": "/pilot"
   }
 }

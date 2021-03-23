@@ -1,0 +1,310 @@
+{
+  "store.custom#pilot": {
+    "blocks": [
+      "list-context.image-list#pilotMainList",
+      "flex-layout.row#pilotTextContent",
+      "flex-layout.row#responsiveBanners01",
+      "flex-layout.row#pilotShelf01",
+      "flex-layout.row#responsiveBanners02",
+      "flex-layout.row#pilotShelf02",
+      "flex-layout.row#responsiveBanners03",
+      "flex-layout.row#pilotShelf03"
+    ]
+  },
+  "list-context.image-list#pilotMainList": {
+    "children": [
+      "slider-layout#pilotMainSlider"
+    ],
+    "props": {
+      "height": 720,
+      "images": [
+        {
+          "image": "https://cassol.vtexassets.com/arquivos/banner-principal-desk.png",
+          "mobileImage": "https://cassol.vtexassets.com/arquivos/banner-principal-mobile.png"
+        }
+      ]
+    }
+  },
+  "slider-layout#pilotMainSlider": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "stopOnHover": true,
+      "infinite": true,
+      "showNavigationArrows": "never",
+      "blockClass": "banner-principal"
+    }
+  },
+  // Rich Text
+  "flex-layout.row#pilotTextContent": {
+    "props" : {
+      "blockClass" : ["pilotPadding"]
+    },
+    "children": [
+      "flex-layout.col#pilotTextContent"
+    ]
+  },
+  "flex-layout.col#pilotTextContent": {
+    "children": [
+      "rich-text#pilotTitle",
+      "rich-text#pilotTextContent"
+    ]
+  },
+  "rich-text#pilotTitle": {
+    "props": {
+      "text": "## Esse é o modelo Piloto de LP da Cassol ;) "
+    }
+  },
+  "rich-text#pilotTextContent": {
+    "props": {
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quis lectus eu nisl porttitor mattis. Pellentesque in nisi a nulla consequat mollis eu ac dolor. Aenean vel gravida sem. Nunc pharetra pulvinar nulla ut varius. Cras suscipit erat et magna eleifend viverra. Maecenas a vulputate ligula. Praesent ut iaculis ex. Nulla eu eros ipsum. Phasellus efficitur accumsan augue eu egestas. Phasellus dapibus convallis ipsum eu dapibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    }
+  },
+
+  // Responsive Banners
+  "flex-layout.row#responsiveBanners01" : {
+    "props" : {
+      "colSizing" : "auto",
+      "horizontalAlign" : "center",
+      "blockClass" : ["pilotPadding"]
+    },
+    "children" : [
+      "flex-layout.col#banners01left",
+      "flex-layout.col#banners01right"
+    ]
+  },
+
+  "flex-layout.col#banners01left" : {
+    "props" : {
+      "horizontalAlign" : "center",
+      "verticalAlign" : "middle"
+    },
+    "children" : [
+      "image#banner01"
+    ]
+  },
+  "flex-layout.col#banners01right" : {
+    "props" : {
+      "horizontalAlign" : "center",
+      "verticalAlign" : "middle"
+    },
+    "children" : [
+      "image#banner02"
+    ]
+  },
+  "image#banner01": {
+    "props" : {
+      "src": ""
+    }
+  },
+  "image#banner02": {
+    "props" : {
+      "src": ""
+    }
+  },
+
+  // Shelf
+  "flex-layout.row#pilotShelf01": {
+    "props": {
+      "blockClass": ["shelf-container"]
+    },
+    "children": [
+      "list-context.product-list#pilotShelf01"
+    ]
+  },
+  "list-context.product-list#pilotShelf01": {
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "children": [
+      "slider-layout#pilotShelf01"
+    ],
+    "props": {
+      "orderBy": "OrderByBestDiscountDESC",
+      "hideUnavailableItems": true
+    }
+  },
+  "slider-layout#pilotShelf01": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 1
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf"
+    }
+  },
+
+  // Responsive Banners
+  "flex-layout.row#responsiveBanners02" : {
+    "props" : {
+      "colSizing" : "auto",
+      "horizontalAlign" : "center",
+      "blockClass" : ["pilotPadding"]
+    },
+    "children" : [
+      "flex-layout.col#banners02left",
+      "flex-layout.col#banners02right"
+    ]
+  },
+
+  "flex-layout.col#banners02left" : {
+    "props" : {
+      "horizontalAlign" : "center",
+      "verticalAlign" : "middle"
+    },
+    "children" : [
+      "image#banner03"
+    ]
+  },
+  "flex-layout.col#banners02right" : {
+    "props" : {
+      "horizontalAlign" : "center",
+      "verticalAlign" : "middle"
+    },
+    "children" : [
+      "image#banner04"
+    ]
+  },
+  "image#banner03": {
+    "props" : {
+      "src": ""
+    }
+  },
+  "image#banner04": {
+    "props" : {
+      "src": ""
+    }
+  },
+
+  // Shelf
+  "flex-layout.row#pilotShelf02": {
+    "props": {
+      "blockClass": ["shelf-container"]
+    },
+    "children": [
+      "list-context.product-list#pilotShelf02"
+    ]
+  },
+  "list-context.product-list#pilotShelf02": {
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "children": [
+      "slider-layout#pilotShelf02"
+    ],
+    "props": {
+      "orderBy": "OrderByBestDiscountDESC",
+      "hideUnavailableItems": true
+    }
+  },
+  "slider-layout#pilotShelf02": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 1
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf"
+    }
+  },
+
+  // Responsive Banners
+  "flex-layout.row#responsiveBanners03" : {
+    "props" : {
+      "colSizing" : "auto",
+      "horizontalAlign" : "center",
+      "blockClass" : ["pilotPadding"]
+    },
+    "children" : [
+      "flex-layout.col#banners03left",
+      "flex-layout.col#banners03middle",
+      "flex-layout.col#banners03right"
+    ]
+  },
+
+  "flex-layout.col#banners03left" : {
+    "props" : {
+      "horizontalAlign" : "center",
+      "verticalAlign" : "middle"
+    },
+    "children" : [
+      "image#banner05"
+    ]
+  },
+  "flex-layout.col#banners03middle" : {
+    "props" : {
+      "horizontalAlign" : "center",
+      "verticalAlign" : "middle"
+    },
+    "children" : [
+      "image#banner06"
+    ]
+  },
+  "flex-layout.col#banners03right" : {
+    "props" : {
+      "horizontalAlign" : "center",
+      "verticalAlign" : "middle"
+    },
+    "children" : [
+      "image#banner06"
+    ]
+  },
+  
+  "image#banner05": {
+    "props" : {
+      "src": ""
+    }
+  },
+  "image#banner06": {
+    "props" : {
+      "src": ""
+    }
+  },
+  "image#banner07": {
+    "props" : {
+      "src": ""
+    }
+  },
+
+  // Shelf
+  "flex-layout.row#pilotShelf03": {
+    "props": {
+      "blockClass": ["shelf-container"]
+    },
+    "children": [
+      "list-context.product-list#pilotShelf03"
+    ]
+  },
+  "list-context.product-list#pilotShelf03": {
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "children": [
+      "slider-layout#pilotShelf03"
+    ],
+    "props": {
+      "orderBy": "OrderByBestDiscountDESC",
+      "hideUnavailableItems": true
+    }
+  },
+  "slider-layout#pilotShelf03": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 1
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf"
+    }
+  }
+}
