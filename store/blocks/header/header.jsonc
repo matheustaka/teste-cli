@@ -187,15 +187,7 @@
       "width": "143.5"
     }
   },
-
-  "minicart.v2": {
-    "props": {
-      "MinicartIcon": "icon-cart#minicart-icon",
-      "itemCountMode": "totalAvailable",
-      "customPixelEventId": "example-add-to-cart"
-    },
-    "children": ["minicart-base-content"]
-  },
+  
   "icon-cart#minicart-icon": {
     "props": {
       "size": 24
