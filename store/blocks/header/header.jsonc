@@ -17,7 +17,7 @@
   },
 
   "flex-layout.row#1-desktop": {
-    "children": ["rich-text#notification-bar", "rich-text#tabloide-link"],
+    "children": ["rich-text#notification-bar"],
     "props": {
       "fullWidth": "true"
     }
@@ -30,14 +30,7 @@
       "blockClass": "notification-bar"
     }
   },
-  "rich-text#tabloide-link": {
-    "props": {
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "text": "<a class='vtex-rich-text-0-x-link--tabloide-link' target='_blank' href='https://tdzain.net/cassol/tabloide.pdf'>Acesse nosso tabloide</a>",
-      "blockClass": ["notification-bar", "tabloide-link"]
-    }
-  },
+  
   "flex-layout.col#spacer": {
     "props": {
       "width": "grow"
