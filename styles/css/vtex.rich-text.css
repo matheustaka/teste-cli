@@ -59,6 +59,7 @@
   font-weight: 700;
 }
 
+
 .container--notification-bar {
   background: #ececec;
 }
@@ -82,6 +83,16 @@
   font-size: 12px;
   font-weight: 700;
   text-decoration: none;
+}
+
+.paragraph--tabloide-link{
+  color: #184077;
+  text-decoration: none;
+}
+
+.link--tabloide-link{
+  text-decoration: none;
+  color: #184077;
 }
 
 @media only screen and (min-width: 640px) {

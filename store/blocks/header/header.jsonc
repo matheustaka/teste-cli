@@ -17,7 +17,7 @@
   },
 
   "flex-layout.row#1-desktop": {
-    "children": ["rich-text#notification-bar"],
+    "children": ["rich-text#notification-bar", "rich-text#tabloide-link"],
     "props": {
       "fullWidth": "true"
     }
@@ -28,6 +28,14 @@
       "textPosition": "CENTER",
       "text": "![WhatApp Cassol](https://cassol.vtexassets.com/arquivos/icon-whatsapp.png) Compre pelo WhatsApp: <a class='vtex-rich-text-0-x-link--notification-bar' href='https://api.whatsapp.com/send?phone=5540011515&text=Ol%C3%A1' target='_blank'>4001-1515</a>",
       "blockClass": "notification-bar"
+    }
+  },
+  "rich-text#tabloide-link": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "<a class='vtex-rich-text-0-x-link--tabloide-link' target='_blank' href='https://tdzain.net/cassol/tabloide.pdf'>Acesse nosso tabloide</a>",
+      "blockClass": ["notification-bar", "tabloide-link"]
     }
   },
   "flex-layout.col#spacer": {
