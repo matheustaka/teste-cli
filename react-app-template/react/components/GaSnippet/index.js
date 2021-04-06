@@ -1,8 +1,7 @@
 import React from 'react';
 import Helmet from 'react-helmet'
 
-export default class GaSnippet {
-  render() {
+function GaSnippet() {
     return (
       <Helmet>
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-55735548-1"></script>
@@ -16,4 +15,4 @@ export default class GaSnippet {
     );
   }
 
-}
+export default GaSnippet;
