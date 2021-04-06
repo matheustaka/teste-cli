@@ -22,7 +22,7 @@ function ProductPrice() {
     return <div className="product-price">
         {measurementUnit === "m²" ? 
         <div className="product-price-calc">
-            <p><FormattedPrice value={productContext?.product?.priceRange?.sellingPrice?.lowPrice} />/m²</p>
+            <p><FormattedPrice value={productContext?.product?.priceRange?.sellingPrice?.lowPrice} /> <span className="product-price__measurementUnit">/m²</span> </p>
             <span className="caixa"><FormattedPrice value={priceCaixa} />/caixa</span>
         </div>
          : <div>

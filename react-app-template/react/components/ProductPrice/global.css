@@ -15,3 +15,7 @@
     display: flex;
     margin: 0;
 }
+
+.product-price__measurementUnit, .product-price .product-price-calc .caixa {
+    display: none;
+}

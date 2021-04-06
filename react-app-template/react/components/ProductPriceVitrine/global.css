@@ -1,23 +1,23 @@
-.product-price .product-price-calc, .product-price {
+.product-price .product-price-calc-shelf, .product-price {
     color: #d61016;
-    font-size: 18px !important;
+    font-size: 18px;
     font-weight: 700;
     line-height: 18px;
     text-align: center;
     margin-top: 5px;
 } 
-.product-price-calc .caixa {
+.product-price-calc-shelf .caixa {
     font-size: 13px;
     display: flex;
     margin: 3px 0 10px;
     color: #707070;
 }
 
-.product-price-calc p {
+.product-price-calc-shelf p {
     display: flex;
     margin: 0;
 }
 
-.product-price__measurementUnit, .product-price .product-price-calc .caixa {
+.product-price__measurementUnit, .product-price .product-price-calc-shelf .caixa {
     display: none;
 }
