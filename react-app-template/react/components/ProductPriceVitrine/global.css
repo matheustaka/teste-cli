@@ -1,6 +1,6 @@
-.product-price-calc, .product-price {
+.product-price .product-price-calc, .product-price {
     color: #d61016;
-    font-size: 16px;
+    font-size: 18px !important;
     font-weight: 700;
     line-height: 18px;
     text-align: center;
@@ -16,4 +16,8 @@
 .product-price-calc p {
     display: flex;
     margin: 0;
+}
+
+.product-price__measurementUnit, .product-price .product-price-calc .caixa {
+    display: none;
 }
