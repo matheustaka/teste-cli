@@ -55,7 +55,7 @@
   },
   "rich-text#pilotTitle": {
     "props": {
-      "text": "## Esse é o modelo Piloto de LP da Cassol ;) "
+      "text": "## Esse é o modelo Pilotooo de LP da Cassol ;) "
     }
   },
   "rich-text#pilotTextContent": {
@@ -80,10 +80,12 @@
   "flex-layout.col#banners01left" : {
     "props" : {
       "horizontalAlign" : "center",
-      "verticalAlign" : "middle"
+      "verticalAlign" : "middle",
+      "blockClass":["banner" ,"borda"]
     },
     "children" : [
-      "image#banner01"
+      "image#banner01",
+      "image#banner01-sup"
     ]
   },
   "flex-layout.col#banners01right" : {
@@ -92,17 +94,32 @@
       "verticalAlign" : "middle"
     },
     "children" : [
-      "image#banner02"
+      "image#banner02",
+      "image#banner01-sup"
     ]
   },
   "image#banner01": {
     "props" : {
-      "src": ""
+      "src": "https://cassol.vteximg.com.br/arquivos/img_580x190.jpg",
+      "blockClass":["borda" ,"parent-img"]
+    }
+  },
+  "image#banner01-sup": {
+    "props" : {
+      "src": "https://cassol.vteximg.com.br/arquivos/pngvazio.png",
+      "blockClass":"sup"
     }
   },
   "image#banner02": {
     "props" : {
-      "src": ""
+      "src": "https://cassol.vteximg.com.br/arquivos/img_580x190.jpg",
+      "blockClass":["borda" ,"parent-img"]
+    }
+  },
+  "image#banner02-sup": {
+    "props" : {
+      "src": "https://cassol.vteximg.com.br/arquivos/pngvazio.png",
+      "blockClass":"sup"
     }
   },
 
@@ -159,7 +176,8 @@
       "verticalAlign" : "middle"
     },
     "children" : [
-      "image#banner03"
+      "image#banner03",
+      "image#banner03-sup"
     ]
   },
   "flex-layout.col#banners02right" : {
@@ -168,17 +186,33 @@
       "verticalAlign" : "middle"
     },
     "children" : [
-      "image#banner04"
+      "image#banner04",
+      "image#banner04-sup"
     ]
   },
   "image#banner03": {
     "props" : {
-      "src": ""
+      "src": "https://cassol.vteximg.com.br/arquivos/img_580x190.jpg",
+      "blockClass":["borda" ,"parent-img"]
     }
   },
+  "image#banner03-sup": {
+    "props" : {
+      "src": "https://cassol.vteximg.com.br/arquivos/pngvazio.png",
+      "blockClass":"sup"
+    }
+  },
+  
   "image#banner04": {
     "props" : {
-      "src": ""
+      "src": "https://cassol.vteximg.com.br/arquivos/img_580x190.jpg",
+      "blockClass":["borda" ,"parent-img"]
+    }
+  },
+  "image#banner04-sup": {
+    "props" : {
+      "src": "https://cassol.vteximg.com.br/arquivos/pngvazio.png",
+      "blockClass":"sup"
     }
   },
 
@@ -260,17 +294,20 @@
   
   "image#banner05": {
     "props" : {
-      "src": ""
+      "src": "https://cassol.vteximg.com.br/arquivos/img_380x400.jpg",
+      "blockClass":"borda"
     }
   },
   "image#banner06": {
     "props" : {
-      "src": ""
+      "src": "https://cassol.vteximg.com.br/arquivos/img_380x400.jpg",
+      "blockClass":"borda"
     }
   },
   "image#banner07": {
     "props" : {
-      "src": ""
+      "src": "https://cassol.vteximg.com.br/arquivos/img_380x400.jpg",
+      "blockClass":"borda"
     }
   },
 

@@ -81,6 +81,17 @@
   margin-bottom: 20px;
 }
 
+.imageElement--borda{
+  border: solid;
+}
+.imageElement--borda .imageElement--parent-img{
+  border: solid;
+  position: relative;
+}
+
+.imageElement.imageElement--sup{
+  display: none;
+}
 .skuSelectorContainer {
   margin: 1rem 0;
 }
