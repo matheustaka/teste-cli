@@ -4,11 +4,12 @@
       "list-context.image-list#pilotMainList",
       "flex-layout.row#pilotTextContent",
       "flex-layout.row#responsiveBanners01",
-      "flex-layout.row#pilotShelf01",
+      "flex-layout.row#product-shelf-01",
       "flex-layout.row#responsiveBanners02",
-      "flex-layout.row#pilotShelf02",
+      "flex-layout.row#product-shelf-02",
       "flex-layout.row#responsiveBanners03",
-      "flex-layout.row#pilotShelf03"
+      "flex-layout.row#product-shelf-03",
+      "flex-layout.row#product-shelf-04"
     ]
   },
   "list-context.image-list#pilotMainList": {
@@ -124,20 +125,20 @@
   },
 
   // Shelf
-  "flex-layout.row#pilotShelf01": {
+  "flex-layout.row#product-shelf-01": {
     "props": {
       "blockClass": ["shelf-container"]
     },
     "children": [
-      "list-context.product-list#pilotShelf01"
+      "list-context.product-list#product-shelf-01"
     ]
   },
-  "list-context.product-list#pilotShelf01": {
+  "list-context.product-list#product-shelf-01": {
     "blocks": [
       "product-summary.shelf"
     ],
     "children": [
-      "slider-layout#pilotShelf01"
+      "slider-layout#product-shelf-01"
     ],
     "props": {
       "collection":"636",
@@ -145,7 +146,7 @@
       "hideUnavailableItems": true
     }
   },
-  "slider-layout#pilotShelf01": {
+  "slider-layout#product-shelf-01": {
     "props": {
       "itemsPerPage": {
         "desktop": 4,
@@ -218,20 +219,20 @@
   },
 
   // Shelf
-  "flex-layout.row#pilotShelf02": {
+  "flex-layout.row#product-shelf-02": {
     "props": {
       "blockClass": ["shelf-container"]
     },
     "children": [
-      "list-context.product-list#pilotShelf02"
+      "list-context.product-list#product-shelf-02"
     ]
   },
-  "list-context.product-list#pilotShelf02": {
+  "list-context.product-list#product-shelf-02": {
     "blocks": [
       "product-summary.shelf"
     ],
     "children": [
-      "slider-layout#pilotShelf02"
+      "slider-layout#product-shelf-02"
     ],
     "props": {
       "collection":"637",
@@ -239,7 +240,7 @@
       "hideUnavailableItems": true
     }
   },
-  "slider-layout#pilotShelf02": {
+  "slider-layout#product-shelf-02": {
     "props": {
       "itemsPerPage": {
         "desktop": 4,
@@ -314,20 +315,20 @@
   },
 
   // Shelf
-  "flex-layout.row#pilotShelf03": {
+  "flex-layout.row#product-shelf-03": {
     "props": {
       "blockClass": ["shelf-container"]
     },
     "children": [
-      "list-context.product-list#pilotShelf03"
+      "list-context.product-list#product-shelf-03"
     ]
   },
-  "list-context.product-list#pilotShelf03": {
+  "list-context.product-list#product-shelf-03": {
     "blocks": [
       "product-summary.shelf"
     ],
     "children": [
-      "slider-layout#pilotShelf03"
+      "slider-layout#product-shelf-03"
     ],
     "props": {
       "collection":"638",
@@ -335,7 +336,43 @@
       "hideUnavailableItems": true
     }
   },
-  "slider-layout#pilotShelf03": {
+  "slider-layout#product-shelf-03": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 1
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf"
+    }
+  },
+
+  // Shelf
+
+  "flex-layout.row#product-shelf-04": {
+    "props": {
+      "blockClass": ["shelf-container"]
+    },
+    "children": [
+      "list-context.product-list#product-shelf-04"
+    ]
+  },
+  "list-context.product-list#product-shelf-04": {
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "children": [
+      "slider-layout#product-shelf-04"
+    ],
+    "props": {
+      "collection":"639",
+      "orderBy": "OrderByBestDiscountDESC",
+      "hideUnavailableItems": true
+    }
+  },
+  "slider-layout#product-shelf-04": {
     "props": {
       "itemsPerPage": {
         "desktop": 4,
@@ -347,4 +384,5 @@
       "blockClass": "shelf"
     }
   }
+
 }
