@@ -140,6 +140,7 @@
       "slider-layout#pilotShelf01"
     ],
     "props": {
+      "collection":"636",
       "orderBy": "OrderByBestDiscountDESC",
       "hideUnavailableItems": true
     }
@@ -233,6 +234,7 @@
       "slider-layout#pilotShelf02"
     ],
     "props": {
+      "collection":"637",
       "orderBy": "OrderByBestDiscountDESC",
       "hideUnavailableItems": true
     }
@@ -328,6 +330,7 @@
       "slider-layout#pilotShelf03"
     ],
     "props": {
+      "collection":"638",
       "orderBy": "OrderByBestDiscountDESC",
       "hideUnavailableItems": true
     }
