@@ -6,13 +6,11 @@
         "tablet": 2,
         "phone": 1
       },
-      "infinite": true,
+      "infinite": false, 
       "showNavigationArrows": "desktopOnly",
       "showPaginationDots": "desktopOnly",
       "blockClass": ["deals"],
-      "autoplay": {
-        "timeout": 4000
-      },
+      "autoplay": false,
       "stopOnHover": true
     },
     "children": [
