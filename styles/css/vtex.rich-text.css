@@ -95,6 +95,10 @@
   color: #184077;
 }
 
+.container--pilotPadding{
+  padding: 0 3vw
+}
+
 @media only screen and (min-width: 640px) {
   .container--question .strong {
     font-size: 40px;
@@ -627,7 +631,6 @@
 @media(min-width: 1025px) {
   .container--shelfTitle {
     max-width: 1250px;
-    padding: 0;
   }
   .wrapper--shelfTitle .heading--shelfTitle {
     width: 100%;

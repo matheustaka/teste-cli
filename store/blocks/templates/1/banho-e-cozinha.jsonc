@@ -4,12 +4,14 @@
       "list-context.image-list#pilotMainList",
       "flex-layout.row#pilotTextContent",
       "flex-layout.row#responsiveBanners01",
+      "rich-text#product-shelf-title-01",
       "flex-layout.row#product-shelf-01",
       "flex-layout.row#responsiveBanners02",
+      "rich-text#product-shelf-title-02",
       "flex-layout.row#product-shelf-02",
       "flex-layout.row#responsiveBanners03",
-      "flex-layout.row#product-shelf-03",
-      "flex-layout.row#product-shelf-04"
+      "rich-text#product-shelf-title-03",
+      "flex-layout.row#product-shelf-03"
     ]
   },
   "list-context.image-list#pilotMainList": {
@@ -133,6 +135,12 @@
       "list-context.product-list#product-shelf-01"
     ]
   },
+  "rich-text#product-shelf-title-01": {
+    "props": {
+      "text": " # Exemplo",
+      "blockClass": ["shelfTitle", "pilotPadding"]
+    }
+  },
   "list-context.product-list#product-shelf-01": {
     "blocks": [
       "product-summary.shelf"
@@ -226,6 +234,13 @@
     "children": [
       "list-context.product-list#product-shelf-02"
     ]
+  },
+
+  "rich-text#product-shelf-title-02": {
+    "props": {
+      "text": " # Exemplo 2",
+      "blockClass": ["shelfTitle", "pilotPadding"]
+    }
   },
   "list-context.product-list#product-shelf-02": {
     "blocks": [
@@ -323,6 +338,12 @@
       "list-context.product-list#product-shelf-03"
     ]
   },
+  "rich-text#product-shelf-title-03": {
+    "props": {
+      "text": " # Exemplo 3",
+      "blockClass": ["shelfTitle", "pilotPadding"]
+    }
+  },
   "list-context.product-list#product-shelf-03": {
     "blocks": [
       "product-summary.shelf"
@@ -347,42 +368,5 @@
       "fullWidth": false,
       "blockClass": "shelf"
     }
-  },
-
-  // Shelf
-
-  "flex-layout.row#product-shelf-04": {
-    "props": {
-      "blockClass": ["shelf-container"]
-    },
-    "children": [
-      "list-context.product-list#product-shelf-04"
-    ]
-  },
-  "list-context.product-list#product-shelf-04": {
-    "blocks": [
-      "product-summary.shelf"
-    ],
-    "children": [
-      "slider-layout#product-shelf-04"
-    ],
-    "props": {
-      "collection":"639",
-      "orderBy": "OrderByBestDiscountDESC",
-      "hideUnavailableItems": true
-    }
-  },
-  "slider-layout#product-shelf-04": {
-    "props": {
-      "itemsPerPage": {
-        "desktop": 4,
-        "tablet": 3,
-        "phone": 1
-      },
-      "infinite": true,
-      "fullWidth": false,
-      "blockClass": "shelf"
-    }
   }
-
 }
