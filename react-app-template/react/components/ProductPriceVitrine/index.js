@@ -24,11 +24,11 @@ function ProductPriceVitrine() {
     return <div className="product-price">
         {measurementUnit === "m²" ? 
         <div className="product-price-calc-shelf">
-            <p><FormattedPrice value={product?.priceRange?.sellingPrice?.lowPrice} /> <span className="product-price__measurementUnit">/m²</span> </p>
+            <p><FormattedPrice value={product?.priceRange?.sellingPrice?.highPrice} /> <span className="product-price__measurementUnit">/m²</span> </p>
             <span className="caixa"><FormattedPrice value={priceCaixa} /> <span>/caixa</span> </span>
         </div>
          : 
-         <div className="product-price-calc-shelf"><FormattedPrice value={product?.priceRange?.sellingPrice?.lowPrice} /></div>}
+         <div className="product-price-calc-shelf"><FormattedPrice value={product?.priceRange?.sellingPrice?.highPrice} /></div>}
     </div>; 
 }
  
