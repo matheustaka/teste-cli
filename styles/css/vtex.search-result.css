@@ -298,3 +298,7 @@
 .orderByOptionsContainer {
   z-index: 11;
 }
+
+.filter__container--selectedFilters {
+  display: none;
+}
