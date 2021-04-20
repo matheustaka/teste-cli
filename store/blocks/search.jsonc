@@ -81,7 +81,7 @@
     "children": [
       "flex-layout.row#did-you-mean",
       "flex-layout.row#suggestion",
-      "flex-layout.row#banner-department",
+      "flex-layout.row#slider-departamento",
       "flex-layout.row#searchbread",
       "flex-layout.row#searchtitle",
       "flex-layout.row#result",
@@ -110,16 +110,16 @@
     }
   },
 
-  "flex-layout.row#banner-department": {
+  "flex-layout.row#slider-departamento": {
     "children": [
-      "search-banner#banner-department"
+      "search-banner#banner-departamento"
     ],
     "props": {
       "blockClass": "banner-department"
     }
   },
 
-  "search-banner#banner-department": {
+  "search-banner#banner-departamento": {
     "props": {
       "area": "one",
       "blockClass": "banner-department",
@@ -204,7 +204,7 @@
 
   "search-result-layout.mobile": {
     "children": [
-      "flex-layout.row#banner-department",
+      "flex-layout.row#slider-departamento",
       "flex-layout.row#did-you-mean",
       "flex-layout.row#suggestion",
       "flex-layout.row#searchtitle",
