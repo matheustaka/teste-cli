@@ -1,7 +1,7 @@
 {
   "vendor": "cassol",
   "name": "store-theme",
-  "version": "0.0.113",
+  "version": "1.0.0",
   "builders": {
     "assets": "0.x",
     "styles": "2.x",
@@ -13,7 +13,6 @@
   "scripts": {
     "postreleasy": "vtex publish --verbose"
   },
-  
   "dependencies": {
     "vtex.store": "2.x",
     "vtex.store-newsletter": "1.x",
