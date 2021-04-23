@@ -66,8 +66,5 @@
     "cassol.btucalculator": "1.x",
     "vtex.sandbox": "0.x"
   },
-  "peerDependencies": {
-    "vtex.google-customer-reviews": "1.x"
-  },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }
