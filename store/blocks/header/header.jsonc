@@ -103,7 +103,7 @@
   "header-layout.mobile": {
     "children": [
       "flex-layout.row#1-mobile",
-      "flex-layout.row#2-mobile",
+      "flex-layout.row#2-main-mobile-bar",
       "flex-layout.row#3-mobile"
     ]
   },
@@ -111,7 +111,7 @@
     "children": ["flex-layout.row#1-mobile"]
   },
   "sticky-layout#2-mobile": {
-    "children": ["flex-layout.row#2-mobile"],
+    "children": ["flex-layout.row#2-main-mobile-bar"],
     "props": {
       "blockClass": "main-header-mobile-center"
     }
@@ -128,7 +128,7 @@
     }
   },
 
-  "flex-layout.row#2-mobile": {
+  "flex-layout.row#2-main-mobile-bar": {
     "children": ["drawer", "logo#mobile", "minicart.v2"],
     "props": {
       "blockClass": ["main-header-mobile", "main-header-mob-log"],
