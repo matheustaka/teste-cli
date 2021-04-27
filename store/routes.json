@@ -122,7 +122,10 @@
   "store.custom#traineeCassol": {
     "path": "/trainee-cassol"
   },
-  "store.custom#banho-e-cozinha": {
-    "path": "/especial-banho-e-cozinha"
+  "store.custom#dia-das-maes": {
+    "path": "/especial-dia-das-maes"
+  },
+  "store.custom#cassol-conecta": {
+    "path": "/cassol-conecta"
   }
 }

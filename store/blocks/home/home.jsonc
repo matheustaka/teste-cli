@@ -15,16 +15,19 @@
       "list-context.image-list#mini-banners",
       "rich-text#shelf-03",
       "flex-layout.row#vitrine-03",
-      "flex-layout.row#seo-container"
+      "flex-layout.row#seo-container",
+      "back-to-top-button"
     ]
   },
-
   "shelf#home": {
-    "blocks": ["product-summary.shelf"]
+    "blocks": [
+      "product-summary.shelf"
+    ]
   },
-
   "list-context.image-list#banner-topo": {
-    "children": ["slider-layout#banner-topo"],
+    "children": [
+      "slider-layout#banner-topo"
+    ],
     "props": {
       "height": 60,
       "images": [
@@ -35,7 +38,6 @@
       ]
     }
   },
-
   "slider-layout#banner-topo": {
     "props": {
       "itemsPerPage": {
@@ -48,9 +50,10 @@
       "blockClass": "banner-topo"
     }
   },
-
   "list-context.image-list#banner-principal": {
-    "children": ["slider-layout#banner-principal"],
+    "children": [
+      "slider-layout#banner-principal"
+    ],
     "props": {
       "height": 720,
       "images": [
@@ -81,7 +84,6 @@
       "blockClass": "banner-principal"
     }
   },
-
   "rich-text#shelf-01": {
     "props": {
       "text": "## Produtos em Destaque",
@@ -92,25 +94,30 @@
     "props": {
       "blockClass": "shelf-container"
     },
-    "children": ["list-context.product-list#shelf-01"]
+    "children": [
+      "list-context.product-list#shelf-01"
+    ]
   },
-
   "flex-layout.row#newsletter-home": {
     "props": {
       "blockClass": "newsletter-home"
     },
-    "children": ["flex-layout.row#newsletter"]
+    "children": [
+      "flex-layout.row#newsletter"
+    ]
   },
-
   "list-context.product-list#shelf-01": {
-    "blocks": ["product-summary.shelf"],
-    "children": ["slider-layout#shelf-01"],
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "children": [
+      "slider-layout#shelf-01"
+    ],
     "props": {
       "orderBy": "OrderByBestDiscountDESC",
       "hideUnavailableItems": true
     }
   },
-
   "slider-layout#shelf-01": {
     "props": {
       "itemsPerPage": {
@@ -123,7 +130,6 @@
       "blockClass": "shelf"
     }
   },
-
   "flex-layout.row#banners-home--01": {
     "props": {
       "blockClass": "banners-home--01"
@@ -134,14 +140,15 @@
       "image#banners-home--03"
     ]
   },
-
   "flex-layout.row#banners-home--02": {
     "props": {
       "blockClass": "banners-home--02"
     },
-    "children": ["image#banners-home--04", "image#banners-home--05"]
+    "children": [
+      "image#banners-home--04",
+      "image#banners-home--05"
+    ]
   },
-
   "image#banners-home--01": {
     "props": {
       "src": "https://cassol.vtexassets.com/arquivos/banners-01.png"
@@ -168,7 +175,6 @@
       "src": "https://cassol.vtexassets.com/arquivos/banners-05.png"
     }
   },
-
   "rich-text#shelf-02": {
     "props": {
       "text": "## Acabaram de Chegar",
@@ -179,17 +185,21 @@
     "props": {
       "blockClass": "shelf-container"
     },
-    "children": ["list-context.product-list#shelf-02"]
+    "children": [
+      "list-context.product-list#shelf-02"
+    ]
   },
-
   "list-context.product-list#shelf-02": {
-    "blocks": ["product-summary.shelf"],
-    "children": ["slider-layout#shelf-02"],
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "children": [
+      "slider-layout#shelf-02"
+    ],
     "props": {
       "orderBy": "OrderByTopSaleDESC"
     }
   },
-
   "slider-layout#shelf-02": {
     "props": {
       "itemsPerPage": {
@@ -197,14 +207,24 @@
         "tablet": 3,
         "phone": 1
       },
+      "centerMode":{
+        "desktop":"disabled",
+        "mobile":"to-the-left",
+        "phone":"to-the-left"
+      },
+      "slideTransition":{
+        "speed": 200,
+        "delay": 200
+      },
       "infinite": true,
       "fullWidth": false,
       "blockClass": "shelf"
     }
   },
-
   "list-context.image-list#mini-banners": {
-    "children": ["slider-layout#mini-banners"],
+    "children": [
+      "slider-layout#mini-banners"
+    ],
     "props": {
       "height": 200,
       "images": [
@@ -259,7 +279,6 @@
       ]
     }
   },
-
   "slider-layout#mini-banners": {
     "props": {
       "itemsPerPage": {
@@ -269,10 +288,18 @@
       },
       "infinite": false,
       "showNavigationArrows": "desktopOnly",
-      "blockClass": "mini-banners"
+      "blockClass": "mini-banners",
+      "centerMode":{
+        "desktop":"disabled",
+        "mobile":"to-the-left",
+        "phone":"to-the-left"
+      },
+      "slideTransition":{
+        "speed": 200,
+        "delay": 200
+      }
     }
   },
-
   "rich-text#shelf-03": {
     "props": {
       "text": "## Última Oportunidade",
@@ -283,17 +310,21 @@
     "props": {
       "blockClass": "shelf-container"
     },
-    "children": ["list-context.product-list#vitrine-03"]
+    "children": [
+      "list-context.product-list#vitrine-03"
+    ]
   },
-
   "list-context.product-list#vitrine-03": {
-    "blocks": ["product-summary.shelf"],
-    "children": ["slider-layout#vitrine-03"],
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "children": [
+      "slider-layout#vitrine-03"
+    ],
     "props": {
       "orderBy": "OrderByTopSaleDESC"
     }
   },
-
   "slider-layout#vitrine-03": {
     "props": {
       "itemsPerPage": {
@@ -306,7 +337,6 @@
       "blockClass": "shelf"
     }
   },
-
   "info-card#home": {
     "props": {
       "id": "info-card-home",
@@ -320,7 +350,6 @@
       "textAlignment": "center"
     }
   },
-
   "flex-layout.row#seo-container": {
     "props": {
       "blockClass": "seo-container"
@@ -331,25 +360,29 @@
       "rich-text#seo-texto"
     ]
   },
-
   "rich-text#seo-titulo": {
     "props": {
       "text": "# Cassol - você imagina, a gente tem!",
       "blockClass": "seo-titulo"
     }
   },
-
   "rich-text#seo-subtitulo": {
     "props": {
       "text": "## Subtítulo de SEO",
       "blockClass": "seo-subtitulo"
     }
   },
-
   "rich-text#seo-texto": {
     "props": {
       "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad  minim  veniam,  quis  nostrud  exercitation  ullamco  laboris nisi  ut  aliquip ex  ea  commodo  consequat. Duis   aute  irure dolor  in reprehenderit   in   voluptate  velit   esse   cillum   dolore   eu fugiat   nulla    pariatur.   Excepteur   sint   occaecat   cupidatat   non pent. ",
       "blockClass": "seo-texto"
+    }
+  },
+  "back-to-top-button": {
+    "props": {
+      "displayThreshold": 100,
+      "display": "caret-icon",
+      "blockClass":["scrollTopButton"]
     }
   }
 }

@@ -987,3 +987,7 @@
 .flexColChild--banner{
   position: relative;
 }
+
+.flexRow--vacancy-section{
+  background-color: #dd1a22
+}

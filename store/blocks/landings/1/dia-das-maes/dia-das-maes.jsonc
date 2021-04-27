@@ -1,5 +1,5 @@
 {
-  "store.custom#banho-e-cozinha": {
+  "store.custom#dia-das-maes": {
     "blocks": [
       "list-context.image-list#pilotMainList",
       "flex-layout.row#pilotTextContent",

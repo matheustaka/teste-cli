@@ -1,0 +1,186 @@
+{
+    "store.custom#cassol-conecta": {
+        "parent": {
+            "header": "header#empty",
+            "footer": "footer#empty"
+        },
+        "blocks": [
+            "flex-layout.row#hero",
+            "flex-layout.row#pattern-section",
+            "flex-layout.row#about-section-text",
+            "flex-layout.row#vacancy-section",
+            "flex-layout.row#believes-section"
+
+        ]
+    },
+    "header#empty": {
+        "blocks": [
+            "header-layout.desktop#empty",
+            "header-layout.mobile#empty"
+        ]
+    },
+    "header-layout.desktop#empty": {
+        "children": []
+    },
+    "header-layout.mobile#empty": {
+        "children": []
+    },
+    "footer#empty": {
+        "blocks": [
+            "footer-layout.desktop#empty",
+            "footer-layout.mobile#empty"
+        ]
+    },
+    "footer-layout.desktop#empty": {
+        "children": []
+    },
+    "footer-layout.mobile#empty": {
+        "children": []
+    },
+    "flex-layout.row#hero": {
+        "props": {
+            "fullWidth": true,
+            "blockClass": [
+                "hero-section"
+            ]
+        },
+        "children": [
+            "list-context.image-list#hero-banner"
+        ]
+    },
+    "list-context.image-list#hero-banner": {
+        "children": [
+            "slider-layout#hero-banner"
+        ],
+        "props": {
+            "blockClass": [
+                "hero-banner"
+            ],
+            "images": [
+                {
+                    "image": "https://cassol.vtexassets.com/arquivos/comunicado.png",
+                    "mobileImage": ""
+                }
+            ]
+        }
+    },
+    "slider-layout#hero-banner": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 1,
+                "tablet": 1,
+                "phone": 1
+            },
+            "infinite": true,
+            "fullWidth": true,
+            "showNavigationArrows": "never"
+        }
+    },
+    "flex-layout.row#pattern-section": {
+        "props": {
+            "fullWidth": true,
+            "blockClass": [
+                "pattern-section"
+            ]
+        },
+        "children": [
+            "image#pattern-section"
+        ]
+    },
+    "image#pattern-section": {
+        "props": {
+            "src": "https://cassol.vtexassets.com/assets/vtex.file-manager-graphql/images/5189a304-36ed-451d-8647-ce643d6091c1___38cf675ccf2bcf5f70f4a97518aa2b6b.png"
+        }
+    },
+    "flex-layout.row#about-section-text": {
+        "props": {
+            "horizontalAlign": "center"
+        },
+        "children": [
+            "rich-text#about-text"
+        ]
+    },
+    "rich-text#about-text": {
+        "props": {
+            "text": "Somos líderes no segmento de materiais de construção do Sul do Brasil. Estamos presentes nos três estados, com 19 lojas, 3 Centros de Distribuição, além do atendimento via  e-Commerce, Televendas e Venda Direta. Já são seis décadas de muito trabalho e cooperação, que tiveram início com a fundação de uma serraria, em 1958, que depois se tornaria a Madeireira Cassol. Uma história de dedicação e empreendedorismo motivada por um desejo: permitir que cada pessoa transforme sua casa em um verdadeiro lar."
+        }
+    },
+    "flex-layout.row#vacancy-section": {
+        "props": {
+            "blockClass": [
+                "vacancy-section"
+            ]
+        },
+        "children": [
+            "flex-layout.col#vacancy-section-left",
+            "flex-layout.col#vacancy-section-right"
+        ]
+    },
+    "flex-layout.col#vacancy-section-left": {
+        "props": {},
+        "children": [
+            "rich-text#vacancy-section-left-text"
+        ]
+    },
+    "flex-layout.col#vacancy-section-right": {
+        "props": {},
+        "children": [
+            "rich-text#vacancy-section-right-text"
+        ]
+    },
+    "rich-text#vacancy-section-left-text": {
+        "props": {
+            "text": "A Cassol está em plena expansão e também temos diversas oportunidades para você em nossas novas lojas."
+        }
+    },
+    "rich-text#vacancy-section-right-text": {
+        "props": {
+            "text": "<a href='#'>Vagas disponíveis em novas lojas</a>"
+        }
+    },
+    "flex-layout.row#believes-section": {
+        "props": {
+            "blockClass": [
+                "believes-section"
+            ]
+        },
+        "children": [
+            "flex-layout.col#believes-section-left",
+            "flex-layout.col#believes-section-right"
+        ]
+    },
+    "flex-layout.col#believes-section-left": {
+        "children":["rich-text#vacancy-section-left-text"]
+    },
+    "flex-layout.col#believes-section-right": {
+        "children":["rich-text#vacancy-section-right-text"]
+    },
+
+    "rich-text#believes-section-left-text":{
+        "props":{
+            "text":"## É nisso que a Cassol acredita"
+        }
+    },
+    "rich-text#believes-section-right-text":{
+        "props":{
+            "text":"Lorem aosdiakdoas dasdas d"
+        }
+    },
+
+    "flex-layout.row#numbers-section":{
+        "children":[
+            "flex-layout.col#numbers-section-title"
+        ]
+    },
+
+    "flex-layout.col#numbers-section-title":{
+        "children":[
+            "rich-text#numbers-section-title"
+        ]
+    },
+    "rich-text#numbers-section-title":{
+        "props":{
+            "text":"# A Cassol em números"
+        }
+    }
+}
