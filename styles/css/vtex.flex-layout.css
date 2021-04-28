@@ -1020,11 +1020,15 @@
 }
 
 .flexRow--numbers-section,.flexRow--data-section, .flexRow--logo-section,.flexRow--about-section-text, .flexRow--jointeam-section{
-  background-color: #013459
+  background-color: #01315a
 }
 
 .flexColChild--data-col{
   text-align: center;
+}
+
+.flexRowContent--logo-section{
+  justify-content: center;
 }
 
 .flexCol--data-col{

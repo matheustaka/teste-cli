@@ -99,7 +99,7 @@
     },
     "image#pattern-section": {
         "props": {
-            "src": "https://cassol.vtexassets.com/assets/vtex.file-manager-graphql/images/5189a304-36ed-451d-8647-ce643d6091c1___38cf675ccf2bcf5f70f4a97518aa2b6b.png"
+            "src": "https://cassol.vtexassets.com/assets/vtex.file-manager-graphql/images/9c972af5-a896-426e-bdee-bc8e0b349f84___db4e1b6cacf9ca49a74a92fb50359a4f.jpg"
         }
     },
     "flex-layout.row#about-section-text": {
@@ -127,13 +127,12 @@
             ]
         },
         "children": [
-            "image#jointeam"
+            "image#team"
         ]
     },
-    "image#jointeam":{
+    "image#team":{
         "props":{
-            "src":"https://cassol.vtexassets.com/assets/vtex.file-manager-graphql/images/ea752713-0cb5-4116-8e04-d7f85a4a4a0c___cfe89e16deb7bfd6f20078c5acd75ef2.jpg",
-            "maxHeight":125
+            "src":"https://cassol.vtexassets.com/assets/vtex.file-manager-graphql/images/a72a9fc3-4734-4f8c-ac59-dabcbfb050a9___bcf230d4d77401d783893f4a8ab13557.jpg"
         }
     },
     "list-context.image-list#jointeam-banner": {
@@ -167,6 +166,7 @@
     "flex-layout.row#vacancy-section": {
         "props": {
             "preventHorizontalStretch":true,
+            "fullWidth": true,
             "blockClass": [
                 "vacancy-section"
             ]
@@ -492,13 +492,20 @@
     },
     "flex-layout.row#logo-section": {
         "props": {
+            "colSizing":"auto",
             "horizontalAlign": "center",
             "fullWidth": true,
             "blockClass":["logo-section"]
         },
         "children": [
-            "list-context.image-list#logo-banner"
+            "image#logo-cassol-conecta"
         ]
+    },
+
+    "image#logo-cassol-conecta":{
+        "props":{
+            "src":"https://cassol.vtexassets.com/assets/vtex.file-manager-graphql/images/635491ee-8c74-4f66-80ff-6ba6fd4475aa___4e29cdd7875c88128dfcf5be7d0f972e.png"
+        }
     },
     "list-context.image-list#logo-banner": {
         "children": [
