@@ -48,8 +48,15 @@
             ]
         },
         "children": [
-            "list-context.image-list#hero-banner"
+            "image#hero"
         ]
+    },
+
+    "image#hero":{
+        "props":{
+            "src":"https://cassol.vtexassets.com/assets/vtex.file-manager-graphql/images/59c94ee2-66ca-4376-bcb4-a55954893a5c___71f022b6bf4dea01a14decb27b52d076.jpg",
+            "maxHeight":700
+        }
     },
     "list-context.image-list#hero-banner": {
         "children": [
@@ -108,6 +115,7 @@
     "rich-text#about-text": {
         "props": {
             "text": "Somos líderes no segmento de materiais de construção do Sul do Brasil. Estamos presentes nos três estados, com 19 lojas, 3 Centros de Distribuição, além do atendimento via  e-Commerce, Televendas e Venda Direta. Já são seis décadas de muito trabalho e cooperação, que tiveram início com a fundação de uma serraria, em 1958, que depois se tornaria a Madeireira Cassol. Uma história de dedicação e empreendedorismo motivada por um desejo: permitir que cada pessoa transforme sua casa em um verdadeiro lar.",
+            "blockClass":["about-section-text"],
             "textPosition":"CENTER"
         }
     },
@@ -119,8 +127,14 @@
             ]
         },
         "children": [
-            "list-context.image-list#jointeam-banner"
+            "image#jointeam"
         ]
+    },
+    "image#jointeam":{
+        "props":{
+            "src":"https://cassol.vtexassets.com/assets/vtex.file-manager-graphql/images/ea752713-0cb5-4116-8e04-d7f85a4a4a0c___cfe89e16deb7bfd6f20078c5acd75ef2.jpg",
+            "maxHeight":125
+        }
     },
     "list-context.image-list#jointeam-banner": {
         "children": [
@@ -163,13 +177,21 @@
         ]
     },
     "flex-layout.col#vacancy-section-left": {
-        "props": {},
+        "props": {
+            "verticalAlign":"center",
+            "preventVerticalStretch": true,
+            "blockClass":["vacancy-section-left"]
+        },
         "children": [
             "rich-text#vacancy-section-left-text"
         ]
     },
     "flex-layout.col#vacancy-section-right": {
-        "props": {},
+        "props": {
+            "verticalAlign":"center",
+            "preventVerticalStretch": true,
+            "blockClass":["vacancy-section-right"]
+        },
         "children": [
             "rich-text#vacancy-section-right-text"
         ]
@@ -182,7 +204,8 @@
     },
     "rich-text#vacancy-section-right-text": {
         "props": {
-            "text": "<a href='#' class='vacancy-link'>Vagas disponíveis em novas lojas</a>"
+            "text": "Vagas disponíveis em novas lojas",
+            "blockClass":["vacancy-link"]
         }
     },
     "flex-layout.row#believes-section": {
@@ -199,11 +222,19 @@
         ]
     },
     "flex-layout.col#believes-section-left": {
+        "props":{
+            "verticalAlign":"middle",
+            "preventVerticalStretch":true
+        },
         "children": [
             "rich-text#believes-section-left-text"
         ]
     },
     "flex-layout.col#believes-section-right": {
+        "props":{
+            "verticalAlign":"middle",
+            "preventVerticalStretch":true
+        },
         "children": [
             "rich-text#believes-section-right-text"
         ]
@@ -219,7 +250,8 @@
     },
     "rich-text#believes-section-right-text": {
         "props": {
-            "text": "Lorem aosdiakdoas dasdas d"
+            "text": "Lorem aosdiakdoas dasdas d",
+            "blockClass":["jointeam-list"]
         }
     },
     "flex-layout.row#numbers-section": {
@@ -271,6 +303,7 @@
     "flex-layout.col#data-section-col1": {
         "props": {
             "preventVerticalStretch": true,
+            "verticalAlign":"center",
             "width": "33%",
             "blockClass": [
                 "data-col"
@@ -284,6 +317,7 @@
     "rich-text#col1-title": {
         "props": {
             "text": "# 1",
+            "textPosition":"CENTER",
             "blockClass": [
                 "white-bold"
             ]
@@ -292,6 +326,7 @@
     "rich-text#col1-desc": {
         "props": {
             "text": "na região sul no segmento de materiais de construção",
+            "textPosition":"CENTER",
             "blockClass": [
                 "white"
             ]
@@ -300,6 +335,7 @@
     "flex-layout.col#data-section-col2": {
         "props": {
             "preventVerticalStretch": true,
+            "verticalAlign":"center",
             "width": "33%",
             "blockClass": [
                 "data-col"
@@ -313,6 +349,7 @@
     "rich-text#col2-title": {
         "props": {
             "text": "# 5",
+            "textPosition":"CENTER",
             "blockClass": [
                 "white-bold"
             ]
@@ -321,6 +358,8 @@
     "rich-text#col2-desc": {
         "props": {
             "text": "maior no segmento de materiais de construção",
+            "textPosition":"CENTER",
+            "textAlignment":"CENTER",
             "blockClass": [
                 "white"
             ]
@@ -329,6 +368,7 @@
     "flex-layout.col#data-section-col3": {
         "props": {
             "preventVerticalStretch": true,
+            "verticalAlign":"center",
             "width": "33%",
             "blockClass": [
                 "data-col"
@@ -342,6 +382,8 @@
     "rich-text#col3-title": {
         "props": {
             "text": "# 4 MIL",
+            "textPosition":"CENTER",
+            "textAlignment":"CENTER",
             "blockClass": [
                 "white-bold"
             ]
@@ -350,6 +392,7 @@
     "rich-text#col3-desc": {
         "props": {
             "text": "empregos gerados diretamente no sul do Brasil, São Paulo, Rio de Janeiro e DF",
+            "textPosition":"CENTER",
             "blockClass": ["white"]
         }
     },
@@ -369,6 +412,7 @@
     "rich-text#col4-title": {
         "props": {
             "text": "# Mais de 90",
+            "textPosition":"CENTER",
             "blockClass": [
                 "white-bold"
             ]
@@ -377,6 +421,8 @@
     "rich-text#col4-desc": {
         "props": {
             "text": "fornecedores internacionais",
+            "textPosition":"CENTER",
+            "textAlignment":"CENTER",
             "blockClass": [
                 "white"
             ]
@@ -398,6 +444,7 @@
     "rich-text#col5-title": {
         "props": {
             "text": "# Mais de 45 mil",
+            "textPosition":"CENTER",
             "blockClass": [
                 "white-bold"
             ]
@@ -406,6 +453,7 @@
     "rich-text#col5-desc": {
         "props": {
             "text": "itens em loja",
+            "textPosition":"CENTER",
             "blockClass": [
                 "white"
             ]
@@ -427,6 +475,7 @@
     "rich-text#col6-title": {
         "props": {
             "text": "# Maior",
+            "textPosition":"CENTER",
             "blockClass": [
                 "white-bold"
             ]
@@ -435,6 +484,7 @@
     "rich-text#col6-desc": {
         "props": {
             "text": "estoque a pronta entrega do Sul do Brasil",
+            "textPosition":"CENTER",
             "blockClass": [
                 "white"
             ]

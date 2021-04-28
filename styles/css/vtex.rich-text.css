@@ -59,7 +59,6 @@
   font-weight: 700;
 }
 
-
 .container--notification-bar {
   background: #ececec;
 }
@@ -85,18 +84,18 @@
   text-decoration: none;
 }
 
-.paragraph--tabloide-link{
+.paragraph--tabloide-link {
   color: #184077;
   text-decoration: none;
 }
 
-.link--tabloide-link{
+.link--tabloide-link {
   text-decoration: none;
   color: #184077;
 }
 
-.container--pilotPadding{
-  padding: 0 3vw
+.container--pilotPadding {
+  padding: 0 3vw;
 }
 
 @media only screen and (min-width: 640px) {
@@ -155,7 +154,7 @@
 .wrapper--contactInfoContent {
   padding: 20px;
   border-radius: 5px;
-  background-color: #EEEEEE;
+  background-color: #eeeeee;
 }
 
 @media (min-width: 992px) {
@@ -227,7 +226,7 @@
 }
 
 .heading--shelfTitleSearchNotFound {
-  color: #2D2E3A;
+  color: #2d2e3a;
   font-size: 24px;
   font-weight: 700;
   position: relative;
@@ -240,13 +239,13 @@
 }
 
 .heading--shelfTitleSearchNotFound::after {
-  content: '';
+  content: "";
   width: 45px;
   height: 1px;
   position: absolute;
   bottom: 10px;
   margin-left: 20px;
-  background: #B9B9B9;
+  background: #b9b9b9;
 }
 
 @media (min-width: 992px) {
@@ -268,11 +267,11 @@
 .paragraph--textCalculator {
   font-size: 14px;
   font-weight: 400;
-  color: #2E2E2E;
+  color: #2e2e2e;
   line-height: 20px;
 }
 
-.container--textCalculator  {
+.container--textCalculator {
   padding: 0 20px;
 }
 
@@ -366,7 +365,7 @@
   display: block;
   width: 100%;
   height: 1px;
-  background: #B9B9B9;
+  background: #b9b9b9;
   margin-top: 5px;
 }
 
@@ -403,7 +402,6 @@
 .container--newsTitle {
   width: 25%;
 }
-
 
 .headingLevel2--seo-subtitulo {
   font-weight: 600;
@@ -456,7 +454,7 @@
   margin-top: 0;
   font-size: 12px;
   line-height: 18px;
-  color: #2D2E3A;
+  color: #2d2e3a;
 }
 
 .paragraph--aboutContent--frase-motivacional {
@@ -566,14 +564,13 @@
   text-decoration: none;
 }
 
-
-@media(max-width: 400px) {
+@media (max-width: 400px) {
   .wrapper--shelfTitle .heading--shelfTitle {
     font-size: 19px;
   }
 }
 
-@media(max-width: 1024px) {
+@media (max-width: 1024px) {
   .wrapper--shelfTitle .heading--shelfTitle {
     width: 85ch;
   }
@@ -628,7 +625,7 @@
   }
 }
 
-@media(min-width: 1025px) {
+@media (min-width: 1025px) {
   .container--shelfTitle {
     max-width: 1250px;
   }
@@ -652,8 +649,8 @@
 }
 
 .paragraph--textConsult::before {
-  background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAbCAMAAAC3FHQgAAAAk1BMVEUAAADILTPILTPILTPILTPILTPILTPILTPILTPILTPILTPILTPILTPILTPILTPILTPILTPILTPILTPILTPILTPILTPILTPILTPILTPILTPILTPILTPILTPILTPILTPILTPILTPILTPILTPILTPILTPILTPILTPILTPILTPILTPILTPILTPILTPILTPILTPILTPILTPt9jxxAAAAMHRSTlMA7fom9pHn3g0G4tm5soV+cjAfw76ki21RPjcXEu/TyZxlXFZFFASurJRNSTXNGXg/6Zw2AAABR0lEQVQoz3WQV5LCMAxAFTs9pEI6KaRRl9X9T7cKWiYEhvdjS0/2SIIXbt7OVgw3iOATGQtkqmT/LnsFF5xiLQNOiyOfavYqU2Ras/nXwyIvyJwsiH74qsinvOuc0SYKRpeDrQVMy9UdMD43fwAm3FKwk/Akd5Cw57myXZNKofoWLIyt4MfXR5XiwZoNpTd8VHtde7M/81QR2Oicg7twrPVaVSQuUNMHIX3Qr+wZZ1LQUMhfuhklLOQ8kwehQNfS5+kXXTy3A+Ai3oKt56KTsTNTFbWkYZvTIigFHmLjZ9cuMVDpJwuGGhOqjRELWcVWcRK8UW0MHf1cTq7P3dsGYgxmmR/S7mZGmpiLLhABceAGI/0UZNfe36j4QAxAyH1HT49TjG/YI9ljHZqhNH38IAAoK5o1aQ38hGYp8CsGwPDd6gC58pX6D6A8RiodRInYAAAAAElFTkSuQmCC');
-  content: '';
+  background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAbCAMAAAC3FHQgAAAAk1BMVEUAAADILTPILTPILTPILTPILTPILTPILTPILTPILTPILTPILTPILTPILTPILTPILTPILTPILTPILTPILTPILTPILTPILTPILTPILTPILTPILTPILTPILTPILTPILTPILTPILTPILTPILTPILTPILTPILTPILTPILTPILTPILTPILTPILTPILTPILTPILTPILTPILTPt9jxxAAAAMHRSTlMA7fom9pHn3g0G4tm5soV+cjAfw76ki21RPjcXEu/TyZxlXFZFFASurJRNSTXNGXg/6Zw2AAABR0lEQVQoz3WQV5LCMAxAFTs9pEI6KaRRl9X9T7cKWiYEhvdjS0/2SIIXbt7OVgw3iOATGQtkqmT/LnsFF5xiLQNOiyOfavYqU2Ras/nXwyIvyJwsiH74qsinvOuc0SYKRpeDrQVMy9UdMD43fwAm3FKwk/Akd5Cw57myXZNKofoWLIyt4MfXR5XiwZoNpTd8VHtde7M/81QR2Oicg7twrPVaVSQuUNMHIX3Qr+wZZ1LQUMhfuhklLOQ8kwehQNfS5+kXXTy3A+Ai3oKt56KTsTNTFbWkYZvTIigFHmLjZ9cuMVDpJwuGGhOqjRELWcVWcRK8UW0MHf1cTq7P3dsGYgxmmR/S7mZGmpiLLhABceAGI/0UZNfe36j4QAxAyH1HT49TjG/YI9ljHZqhNH38IAAoK5o1aQ38hGYp8CsGwPDd6gC58pX6D6A8RiodRInYAAAAAElFTkSuQmCC");
+  content: "";
   display: inline-block;
   height: 27px;
   left: -45px;
@@ -690,14 +687,21 @@
   font-size: 1.2rem;
 }
 
-.heading--stepsText, .heading--stepsTitle, .paragraph--expectationText{
+.heading--stepsText,
+.heading--stepsTitle,
+.paragraph--expectationText {
   color: #fff;
   text-align: center;
 }
 .paragraph--expectationText {
   font-size: 1.2rem;
 }
-.heading--areasRightTitle, .paragraph--areasRightText, .heading--areasLeftTitle, .paragraph--infoText, .heading--benefitsTitle, .paragraph--benefitsText{
+.heading--areasRightTitle,
+.paragraph--areasRightText,
+.heading--areasLeftTitle,
+.paragraph--infoText,
+.heading--benefitsTitle,
+.paragraph--benefitsText {
   color: #fff;
 }
 .paragraph--areasRightText {
@@ -713,23 +717,81 @@
 
 .heading--requisitesRightTitle {
   color: #22648d;
-  
+
   max-width: 65%;
 }
-.heading--benefitsTitle { 
+.heading--benefitsTitle {
   font-size: 5rem;
 }
 
-.heading--white-bold{
+.heading--white-bold {
   color: #fff;
   font-weight: bold;
   font-size: 4rem;
+  max-height: 80px;
+  margin: 0;
+  text-align: center;
 }
-.heading--believes-title{
+.heading--believes-title {
   color: #003459;
-  font-weight: bold,
+  font-weight: bold;
+  max-width: 300px;
+  font-size: 5rem;
+  text-align: end;
 }
 
-.paragraph--white{
+.wrapper--white {
+  text-align: center;
+}
+
+.paragraph--vacancy-link {
+  background: #fff;
+  color: #dd1a22;
+  padding: 1.5rem;
+  border-radius: 60px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 1.2em;
+}
+
+.listItem--jointeam-list::marker{
+  color: #003459;
+}
+
+.paragraph--white,
+.paragraph--white-bold {
   color: #fff;
+  letter-spacing: 2px;
+  text-align: center;
+  margin: 0;
+  font-size: 22px;
+}
+.paragraph--about-section-text {
+  color: #fff;
+  max-width: 70%;
+  margin: 0 auto;
+  font-size: 1.5rem;
+}
+
+.paragraph--white {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.3rem;
+}
+
+.list--jointeam-list {
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+}
+
+@media screen and (max-width:767px) {
+  .heading--believes-title{
+    max-width: none;
+    text-align: left;
+    margin-left: 3vw;
+    margin-right: 3vw;
+  }
+  .heading--white-bold{
+    max-height:none;
+  }
 }

@@ -27,3 +27,7 @@
     width: 100%;
   }
 }
+
+[data-hydration-id='store.custom#cassol-conecta/$after_footer#empty']{
+  display: none !important;
+}

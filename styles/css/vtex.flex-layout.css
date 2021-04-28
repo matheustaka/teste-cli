@@ -259,19 +259,7 @@
   width: 100%;
 }
 
-@media (max-width: 767.98px) {
-  .flexRowContent--suggestionContainer,
-  .flexRowContent--didYouMeanContainer {
-    text-align: center;
-  }
-}
 
-@media (max-width: 767.98px) {
-  .flexRow--productBreadcrumb {
-    display: block;
-    max-width: 375px;
-  }
-}
 
 .flexRow--shelfNotFound {
   margin-bottom: 20px;
@@ -988,24 +976,89 @@
   position: relative;
 }
 /* Cassol conecta */
+.flexRowContent--pattern-section{
+  max-height: 85px;
+}
+
+.flexRow--about-section-text{
+  padding: 10vh 0;
+}
+
 .flexRow--vacancy-section{
-  background-color: #dd1a22
+  background-color: #dd1a22;
+  padding: 3rem 0;
+}
+.flexRowContent--vacancy-section {
+  justify-content: space-evenly;
+  align-items: center;
+}
+.flexCol--vacancy-section-right{
+  justify-content: center;
+}
+
+.flexRowContent--believes-section{
+  justify-content: space-evenly;
+}
+.flexRow--believes-section{
+  background-color: #d5d5d5;
+}
+
+
+.flexRow--numbers-section{
+  padding: 12vh 0 5vh 0;
 }
 
 .flexRow--believes-section{
-  background-color: #d5d5d5;
+  padding: 10vh 0;
+}
+
+.flexRowContent--believes-section .flexCol{
+  margin-left: 3vw;
+}
+.flexRow--logo-section{
+  padding: 8vh 0 0 0;
 }
 
 .flexRow--numbers-section,.flexRow--data-section, .flexRow--logo-section,.flexRow--about-section-text, .flexRow--jointeam-section{
   background-color: #013459
 }
 
-.flexRowContent--data-section{
-  flex-wrap: wrap;
+.flexColChild--data-col{
+  text-align: center;
 }
 
 .flexCol--data-col{
+  padding: 2vh 0;
+}
+.flexRowContent--data-section{
+  flex-wrap: wrap;
+}
+.flexCol--data-col{
   flex: 1 1 300px;
-  padding: 0 20px;
+  padding: 4vh 2vw;
   width: 400px;
+  margin: 0 1rem;
+}
+
+@media (max-width: 767.98px) {
+  .flexRowContent--suggestionContainer,
+  .flexRowContent--didYouMeanContainer {
+    text-align: center;
+  }
+
+  .flexRow--vacancy-section{
+    padding: 10vh 3vw;
+  }
+  .flexColChild--vacancy-section-right{
+    display: flex;
+    justify-content: center;
+  }
+
+  .flexCol--data-col{
+    margin: 0 3vw;
+  }
+  .flexRow--productBreadcrumb {
+    display: block;
+    max-width: 375px;
+  }
 }
