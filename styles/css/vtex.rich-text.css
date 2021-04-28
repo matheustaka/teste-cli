@@ -719,3 +719,17 @@
 .heading--benefitsTitle { 
   font-size: 5rem;
 }
+
+.heading--white-bold{
+  color: #fff;
+  font-weight: bold;
+  font-size: 4rem;
+}
+.heading--believes-title{
+  color: #003459;
+  font-weight: bold,
+}
+
+.paragraph--white{
+  color: #fff;
+}

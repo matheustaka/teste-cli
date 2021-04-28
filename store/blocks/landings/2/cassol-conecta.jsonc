@@ -97,7 +97,9 @@
     },
     "flex-layout.row#about-section-text": {
         "props": {
-            "horizontalAlign": "center"
+            "horizontalAlign": "center",
+            "preventHorizontalStretch":true,
+            "blockClass":["about-section-text"]
         },
         "children": [
             "rich-text#about-text"
@@ -105,7 +107,8 @@
     },
     "rich-text#about-text": {
         "props": {
-            "text": "Somos líderes no segmento de materiais de construção do Sul do Brasil. Estamos presentes nos três estados, com 19 lojas, 3 Centros de Distribuição, além do atendimento via  e-Commerce, Televendas e Venda Direta. Já são seis décadas de muito trabalho e cooperação, que tiveram início com a fundação de uma serraria, em 1958, que depois se tornaria a Madeireira Cassol. Uma história de dedicação e empreendedorismo motivada por um desejo: permitir que cada pessoa transforme sua casa em um verdadeiro lar."
+            "text": "Somos líderes no segmento de materiais de construção do Sul do Brasil. Estamos presentes nos três estados, com 19 lojas, 3 Centros de Distribuição, além do atendimento via  e-Commerce, Televendas e Venda Direta. Já são seis décadas de muito trabalho e cooperação, que tiveram início com a fundação de uma serraria, em 1958, que depois se tornaria a Madeireira Cassol. Uma história de dedicação e empreendedorismo motivada por um desejo: permitir que cada pessoa transforme sua casa em um verdadeiro lar.",
+            "textPosition":"CENTER"
         }
     },
     "flex-layout.row#jointeam-section": {
@@ -149,6 +152,7 @@
     },
     "flex-layout.row#vacancy-section": {
         "props": {
+            "preventHorizontalStretch":true,
             "blockClass": [
                 "vacancy-section"
             ]
@@ -172,7 +176,8 @@
     },
     "rich-text#vacancy-section-left-text": {
         "props": {
-            "text": "A Cassol está em plena expansão e também temos diversas oportunidades para você em nossas novas lojas."
+            "text": "A Cassol está em plena expansão e também temos diversas oportunidades para você em nossas novas lojas.",
+            "blockClass":["white"]
         }
     },
     "rich-text#vacancy-section-right-text": {
@@ -182,6 +187,8 @@
     },
     "flex-layout.row#believes-section": {
         "props": {
+            "horizontalAlign":"center",
+            "preventHorizontalStretch":true,
             "blockClass": [
                 "believes-section"
             ]
@@ -203,7 +210,11 @@
     },
     "rich-text#believes-section-left-text": {
         "props": {
-            "text": "## É nisso que a Cassol acredita"
+
+            "textAlignment":"right",
+            "textPosition":"right",
+            "text": "## É nisso que a Cassol acredita",
+            "blockClass":["believes-title"]
         }
     },
     "rich-text#believes-section-right-text": {
@@ -232,7 +243,10 @@
         "props": {
             "text": "# A Cassol em números.",
             "textAlignment": "CENTER",
-            "textPosition": "CENTER"
+            "textPosition": "CENTER",
+            "blockClass": [
+                "white-bold"
+            ]
         }
     },
     "flex-layout.row#data-section": {
@@ -269,12 +283,18 @@
     },
     "rich-text#col1-title": {
         "props": {
-            "text": "# 1"
+            "text": "# 1",
+            "blockClass": [
+                "white-bold"
+            ]
         }
     },
     "rich-text#col1-desc": {
         "props": {
-            "text": "na região sul no segmento de materiais de construção"
+            "text": "na região sul no segmento de materiais de construção",
+            "blockClass": [
+                "white"
+            ]
         }
     },
     "flex-layout.col#data-section-col2": {
@@ -292,12 +312,18 @@
     },
     "rich-text#col2-title": {
         "props": {
-            "text": "# 5"
+            "text": "# 5",
+            "blockClass": [
+                "white-bold"
+            ]
         }
     },
     "rich-text#col2-desc": {
         "props": {
-            "text": "maior no segmento de materiais de construção"
+            "text": "maior no segmento de materiais de construção",
+            "blockClass": [
+                "white"
+            ]
         }
     },
     "flex-layout.col#data-section-col3": {
@@ -315,12 +341,16 @@
     },
     "rich-text#col3-title": {
         "props": {
-            "text": "# 4 MIL"
+            "text": "# 4 MIL",
+            "blockClass": [
+                "white-bold"
+            ]
         }
     },
     "rich-text#col3-desc": {
         "props": {
-            "text": "empregos gerados diretamente no sul do Brasil, São Paulo, Rio de Janeiro e DF"
+            "text": "empregos gerados diretamente no sul do Brasil, São Paulo, Rio de Janeiro e DF",
+            "blockClass": ["white"]
         }
     },
     "flex-layout.col#data-section-col4": {
@@ -338,12 +368,18 @@
     },
     "rich-text#col4-title": {
         "props": {
-            "text": "# Mais de 90"
+            "text": "# Mais de 90",
+            "blockClass": [
+                "white-bold"
+            ]
         }
     },
     "rich-text#col4-desc": {
         "props": {
-            "text": "fornecedores internacionais"
+            "text": "fornecedores internacionais",
+            "blockClass": [
+                "white"
+            ]
         }
     },
     "flex-layout.col#data-section-col5": {
@@ -361,12 +397,18 @@
     },
     "rich-text#col5-title": {
         "props": {
-            "text": "# Mais de 45 mil"
+            "text": "# Mais de 45 mil",
+            "blockClass": [
+                "white-bold"
+            ]
         }
     },
     "rich-text#col5-desc": {
         "props": {
-            "text": "itens em loja"
+            "text": "itens em loja",
+            "blockClass": [
+                "white"
+            ]
         }
     },
     "flex-layout.col#data-section-col6": {
@@ -384,22 +426,28 @@
     },
     "rich-text#col6-title": {
         "props": {
-            "text": "# Maior"
+            "text": "# Maior",
+            "blockClass": [
+                "white-bold"
+            ]
         }
     },
     "rich-text#col6-desc": {
         "props": {
-            "text": "estoque a pronta entrega do Sul do Brasil"
+            "text": "estoque a pronta entrega do Sul do Brasil",
+            "blockClass": [
+                "white"
+            ]
         }
     },
     "flex-layout.row#logo-section": {
         "props": {
-            "horizontalAlign":"center",
-            "fullWidth": true
+            "horizontalAlign": "center",
+            "fullWidth": true,
+            "blockClass":["logo-section"]
         },
         "children": [
-            "list-context.image-list#logo-banner",
-            "slider-layout#logo-banner"
+            "list-context.image-list#logo-banner"
         ]
     },
     "list-context.image-list#logo-banner": {

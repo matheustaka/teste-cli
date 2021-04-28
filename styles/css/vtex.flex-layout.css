@@ -992,10 +992,14 @@
   background-color: #dd1a22
 }
 
+.flexRow--believes-section{
+  background-color: #d5d5d5;
+}
 
-.flexRow--numbers-section{
+.flexRow--numbers-section,.flexRow--data-section, .flexRow--logo-section,.flexRow--about-section-text, .flexRow--jointeam-section{
   background-color: #013459
 }
+
 .flexRowContent--data-section{
   flex-wrap: wrap;
 }
