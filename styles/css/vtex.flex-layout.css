@@ -987,7 +987,21 @@
 .flexColChild--banner{
   position: relative;
 }
-
+/* Cassol conecta */
 .flexRow--vacancy-section{
   background-color: #dd1a22
+}
+
+
+.flexRow--numbers-section{
+  background-color: #013459
+}
+.flexRowContent--data-section{
+  flex-wrap: wrap;
+}
+
+.flexCol--data-col{
+  flex: 1 1 300px;
+  padding: 0 20px;
+  width: 400px;
 }

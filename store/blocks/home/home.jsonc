@@ -207,15 +207,6 @@
         "tablet": 3,
         "phone": 1
       },
-      "centerMode":{
-        "desktop":"disabled",
-        "mobile":"to-the-left",
-        "phone":"to-the-left"
-      },
-      "slideTransition":{
-        "speed": 200,
-        "delay": 200
-      },
       "infinite": true,
       "fullWidth": false,
       "blockClass": "shelf"

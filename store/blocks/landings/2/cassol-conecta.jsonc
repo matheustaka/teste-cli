@@ -8,9 +8,12 @@
             "flex-layout.row#hero",
             "flex-layout.row#pattern-section",
             "flex-layout.row#about-section-text",
+            "flex-layout.row#jointeam-section",
             "flex-layout.row#vacancy-section",
-            "flex-layout.row#believes-section"
-
+            "flex-layout.row#believes-section",
+            "flex-layout.row#numbers-section",
+            "flex-layout.row#data-section",
+            "flex-layout.row#logo-section"
         ]
     },
     "header#empty": {
@@ -105,6 +108,45 @@
             "text": "Somos líderes no segmento de materiais de construção do Sul do Brasil. Estamos presentes nos três estados, com 19 lojas, 3 Centros de Distribuição, além do atendimento via  e-Commerce, Televendas e Venda Direta. Já são seis décadas de muito trabalho e cooperação, que tiveram início com a fundação de uma serraria, em 1958, que depois se tornaria a Madeireira Cassol. Uma história de dedicação e empreendedorismo motivada por um desejo: permitir que cada pessoa transforme sua casa em um verdadeiro lar."
         }
     },
+    "flex-layout.row#jointeam-section": {
+        "props": {
+            "fullWidth": true,
+            "blockClass": [
+                "jointeam-section"
+            ]
+        },
+        "children": [
+            "list-context.image-list#jointeam-banner"
+        ]
+    },
+    "list-context.image-list#jointeam-banner": {
+        "children": [
+            "slider-layout#jointeam-banner"
+        ],
+        "props": {
+            "blockClass": [
+                "jointeam-banner"
+            ],
+            "images": [
+                {
+                    "image": "https://cassol.vtexassets.com/arquivos/comunicado.png",
+                    "mobileImage": ""
+                }
+            ]
+        }
+    },
+    "slider-layout#jointeam-banner": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 1,
+                "tablet": 1,
+                "phone": 1
+            },
+            "infinite": true,
+            "fullWidth": true,
+            "showNavigationArrows": "never"
+        }
+    },
     "flex-layout.row#vacancy-section": {
         "props": {
             "blockClass": [
@@ -135,7 +177,7 @@
     },
     "rich-text#vacancy-section-right-text": {
         "props": {
-            "text": "<a href='#'>Vagas disponíveis em novas lojas</a>"
+            "text": "<a href='#' class='vacancy-link'>Vagas disponíveis em novas lojas</a>"
         }
     },
     "flex-layout.row#believes-section": {
@@ -150,37 +192,242 @@
         ]
     },
     "flex-layout.col#believes-section-left": {
-        "children":["rich-text#vacancy-section-left-text"]
+        "children": [
+            "rich-text#believes-section-left-text"
+        ]
     },
     "flex-layout.col#believes-section-right": {
-        "children":["rich-text#vacancy-section-right-text"]
+        "children": [
+            "rich-text#believes-section-right-text"
+        ]
     },
-
-    "rich-text#believes-section-left-text":{
-        "props":{
-            "text":"## É nisso que a Cassol acredita"
+    "rich-text#believes-section-left-text": {
+        "props": {
+            "text": "## É nisso que a Cassol acredita"
         }
     },
-    "rich-text#believes-section-right-text":{
-        "props":{
-            "text":"Lorem aosdiakdoas dasdas d"
+    "rich-text#believes-section-right-text": {
+        "props": {
+            "text": "Lorem aosdiakdoas dasdas d"
         }
     },
-
-    "flex-layout.row#numbers-section":{
-        "children":[
+    "flex-layout.row#numbers-section": {
+        "props": {
+            "fullWidth": true,
+            "horizontalAlign": "middle",
+            "blockClass": [
+                "numbers-section"
+            ]
+        },
+        "children": [
             "flex-layout.col#numbers-section-title"
         ]
     },
-
-    "flex-layout.col#numbers-section-title":{
-        "children":[
+    "flex-layout.col#numbers-section-title": {
+        "children": [
             "rich-text#numbers-section-title"
         ]
     },
-    "rich-text#numbers-section-title":{
-        "props":{
-            "text":"# A Cassol em números"
+    "rich-text#numbers-section-title": {
+        "props": {
+            "text": "# A Cassol em números.",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+    "flex-layout.row#data-section": {
+        "props": {
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "colSizing": "33%",
+            "horizontalAlign": "center",
+            "blockClass": [
+                "data-section"
+            ]
+        },
+        "children": [
+            "flex-layout.col#data-section-col1",
+            "flex-layout.col#data-section-col2",
+            "flex-layout.col#data-section-col3",
+            "flex-layout.col#data-section-col4",
+            "flex-layout.col#data-section-col5",
+            "flex-layout.col#data-section-col6"
+        ]
+    },
+    "flex-layout.col#data-section-col1": {
+        "props": {
+            "preventVerticalStretch": true,
+            "width": "33%",
+            "blockClass": [
+                "data-col"
+            ]
+        },
+        "children": [
+            "rich-text#col1-title",
+            "rich-text#col1-desc"
+        ]
+    },
+    "rich-text#col1-title": {
+        "props": {
+            "text": "# 1"
+        }
+    },
+    "rich-text#col1-desc": {
+        "props": {
+            "text": "na região sul no segmento de materiais de construção"
+        }
+    },
+    "flex-layout.col#data-section-col2": {
+        "props": {
+            "preventVerticalStretch": true,
+            "width": "33%",
+            "blockClass": [
+                "data-col"
+            ]
+        },
+        "children": [
+            "rich-text#col2-title",
+            "rich-text#col2-desc"
+        ]
+    },
+    "rich-text#col2-title": {
+        "props": {
+            "text": "# 5"
+        }
+    },
+    "rich-text#col2-desc": {
+        "props": {
+            "text": "maior no segmento de materiais de construção"
+        }
+    },
+    "flex-layout.col#data-section-col3": {
+        "props": {
+            "preventVerticalStretch": true,
+            "width": "33%",
+            "blockClass": [
+                "data-col"
+            ]
+        },
+        "children": [
+            "rich-text#col3-title",
+            "rich-text#col3-desc"
+        ]
+    },
+    "rich-text#col3-title": {
+        "props": {
+            "text": "# 4 MIL"
+        }
+    },
+    "rich-text#col3-desc": {
+        "props": {
+            "text": "empregos gerados diretamente no sul do Brasil, São Paulo, Rio de Janeiro e DF"
+        }
+    },
+    "flex-layout.col#data-section-col4": {
+        "props": {
+            "preventVerticalStretch": true,
+            "width": "33%",
+            "blockClass": [
+                "data-col"
+            ]
+        },
+        "children": [
+            "rich-text#col4-title",
+            "rich-text#col4-desc"
+        ]
+    },
+    "rich-text#col4-title": {
+        "props": {
+            "text": "# Mais de 90"
+        }
+    },
+    "rich-text#col4-desc": {
+        "props": {
+            "text": "fornecedores internacionais"
+        }
+    },
+    "flex-layout.col#data-section-col5": {
+        "props": {
+            "preventVerticalStretch": true,
+            "width": "33%",
+            "blockClass": [
+                "data-col"
+            ]
+        },
+        "children": [
+            "rich-text#col5-title",
+            "rich-text#col5-desc"
+        ]
+    },
+    "rich-text#col5-title": {
+        "props": {
+            "text": "# Mais de 45 mil"
+        }
+    },
+    "rich-text#col5-desc": {
+        "props": {
+            "text": "itens em loja"
+        }
+    },
+    "flex-layout.col#data-section-col6": {
+        "props": {
+            "preventVerticalStretch": true,
+            "width": "100%",
+            "blockClass": [
+                "data-col"
+            ]
+        },
+        "children": [
+            "rich-text#col6-title",
+            "rich-text#col6-desc"
+        ]
+    },
+    "rich-text#col6-title": {
+        "props": {
+            "text": "# Maior"
+        }
+    },
+    "rich-text#col6-desc": {
+        "props": {
+            "text": "estoque a pronta entrega do Sul do Brasil"
+        }
+    },
+    "flex-layout.row#logo-section": {
+        "props": {
+            "horizontalAlign":"center",
+            "fullWidth": true
+        },
+        "children": [
+            "list-context.image-list#logo-banner",
+            "slider-layout#logo-banner"
+        ]
+    },
+    "list-context.image-list#logo-banner": {
+        "children": [
+            "slider-layout#logo-banner"
+        ],
+        "props": {
+            "blockClass": [
+                "logo-banner"
+            ],
+            "images": [
+                {
+                    "image": "https://cassol.vtexassets.com/arquivos/comunicado.png",
+                    "mobileImage": ""
+                }
+            ]
+        }
+    },
+    "slider-layout#logo-banner": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 1,
+                "tablet": 1,
+                "phone": 1
+            },
+            "infinite": true,
+            "fullWidth": true,
+            "showNavigationArrows": "never"
         }
     }
 }
