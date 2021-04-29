@@ -6,11 +6,39 @@
         "tablet": 2,
         "phone": 1
       },
-      "infinite": false, 
+      "infinite": false,
       "showNavigationArrows": "desktopOnly",
       "showPaginationDots": "desktopOnly",
-      "blockClass": ["deals"],
+      "blockClass": [
+        "deals"
+      ],
       "autoplay": false,
+      "stopOnHover": true
+    },
+    "children": [
+      "image#deal1",
+      "image#deal2",
+      "image#deal3",
+      "image#deal4"
+    ]
+  },
+  "slider-layout#deals-phone": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 2,
+        "phone": 1
+      },
+      "infinite": false,
+      "showNavigationArrows": "desktopOnly",
+      "showPaginationDots": "desktopOnly",
+      "blockClass": [
+        "deals-phone"
+      ],
+      "autoplay": {
+        "timeout":3000
+      },
+      "fullWidth":false,
       "stopOnHover": true
     },
     "children": [
@@ -22,22 +50,26 @@
   },
   "image#deal1": {
     "props": {
-      "src": "https://cassol.vtexassets.com/arquivos/barra-beneficios-1.png"
+      "src": "https://cassol.vtexassets.com/assets/vtex.file-manager-graphql/images/618d465a-cfbd-4480-bd2b-0457a7dd13a4___db0629e053acb47261b8658b63daf8fa.png",
+      "blockClass":["deals-phone"]
     }
   },
   "image#deal2": {
     "props": {
-      "src": "https://cassol.vtexassets.com/arquivos/barra-beneficios-2.png"
+      "src": "https://cassol.vtexassets.com/assets/vtex.file-manager-graphql/images/e0a28d4f-a77b-492f-856b-39494058e4eb___649a263a7631eb6c7f5f19c6cb4d3357.png",
+      "blockClass":["deals-phone"]
     }
   },
   "image#deal3": {
     "props": {
-      "src": "https://cassol.vtexassets.com/arquivos/barra-beneficios-3.png"
+      "src": "https://cassol.vtexassets.com/assets/vtex.file-manager-graphql/images/8c08a427-7841-4e15-9f52-f968cf97246b___028ff8f80b22989898885cb14ee2659b.png",
+      "blockClass":["deals-phone"]
     }
   },
   "image#deal4": {
     "props": {
-      "src": "https://cassol.vtexassets.com/arquivos/barra-beneficios-4.png"
+      "src": "https://cassol.vtexassets.com/assets/vtex.file-manager-graphql/images/105f2990-c81a-42db-9703-18ae3dc87063___892269b4b10626a07694b97f44c00dee.png",
+      "blockClass":["deals-phone"]
     }
   }
 }

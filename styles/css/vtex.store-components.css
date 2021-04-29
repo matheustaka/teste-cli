@@ -612,3 +612,6 @@
 .imageElement--budgets {
   min-width: 86px;
 }
+.imageElement--deals-phone{
+  width: auto;
+}

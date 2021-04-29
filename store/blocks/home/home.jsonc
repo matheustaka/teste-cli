@@ -3,7 +3,8 @@
     "blocks": [
       "list-context.image-list#banner-topo",
       "list-context.image-list#banner-principal",
-      "slider-layout#deals",
+      "responsive-layout.phone",
+      "responsive-layout.desktop",
       "rich-text#shelf-01",
       "__fold__.mobile",
       "flex-layout.row#shelf-01",
@@ -83,6 +84,13 @@
       "showNavigationArrows": "desktopOnly",
       "blockClass": "banner-principal"
     }
+  },
+
+  "responsive-layout.desktop": {
+    "children": ["slider-layout#deals"]
+  },
+  "responsive-layout.phone": {
+    "children": ["slider-layout#deals-phone"]
   },
   "rich-text#shelf-01": {
     "props": {
