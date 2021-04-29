@@ -504,7 +504,8 @@
 
     "image#logo-cassol-conecta":{
         "props":{
-            "src":"https://cassol.vtexassets.com/assets/vtex.file-manager-graphql/images/635491ee-8c74-4f66-80ff-6ba6fd4475aa___4e29cdd7875c88128dfcf5be7d0f972e.png"
+            "src":"https://cassol.vtexassets.com/assets/vtex.file-manager-graphql/images/635491ee-8c74-4f66-80ff-6ba6fd4475aa___4e29cdd7875c88128dfcf5be7d0f972e.png",
+            "maxWidth":300
         }
     },
     "list-context.image-list#logo-banner": {

@@ -976,9 +976,6 @@
   position: relative;
 }
 /* Cassol conecta */
-.flexRowContent--pattern-section{
-  max-height: 85px;
-}
 
 .flexRow--about-section-text{
   padding: 10vh 0;
