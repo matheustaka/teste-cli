@@ -1,9 +1,6 @@
 {
     "store.custom#cassol-conecta": {
-        "parent": {
-            "header": "header#empty",
-            "footer": "footer#empty"
-        },
+        
         "blocks": [
             "flex-layout.row#hero",
             "flex-layout.row#pattern-section",

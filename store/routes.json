@@ -20,7 +20,7 @@
     "isSitemapEntry": true
   },
   "store.custom#work-with-us": {
-    "path": "/trabalhe-conosco",
+    "path": "/work-with-us",
     "isSitemapEntry": true
   },
   "store.custom#be-a-supplier": {
@@ -126,6 +126,6 @@
     "path": "/especial-dia-das-maes"
   },
   "store.custom#cassol-conecta": {
-    "path": "/cassol-conecta"
+    "path": "/trabalhe-conosco"
   }
 }

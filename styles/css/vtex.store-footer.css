@@ -11,7 +11,7 @@
 }
 
 .footerLayout {
-  margin-top: 50px;
+  margin-top: 0px;
 }
 
 .footerLayout :global(.vtex-rich-text-0-x-paragraph--menu-footer-titulo) {

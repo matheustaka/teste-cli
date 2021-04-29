@@ -795,4 +795,8 @@
   .heading--white-bold{
     max-height:none;
   }
+
+  .paragraph--vacancy-link{
+    font-size: 16px;
+  }
 }
