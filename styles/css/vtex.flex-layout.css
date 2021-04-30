@@ -515,6 +515,12 @@
   .flexRowContent--banners-home--01 {
     margin-top: 30px;
   }
+
+  .flexRow--content-trabalhe-conosco{
+    max-width: 1250px;
+    margin: 0 auto;
+  }
+  
 }
 
 .flexRow--newsletter-home :global(.vtex-store-components-3-x-container) {
@@ -978,7 +984,7 @@
 /* Cassol conecta */
 
 .flexRow--about-section-text{
-  padding: 10vh 0;
+  padding: 3vh 0;
 }
 
 .flexRow--vacancy-section{
@@ -994,7 +1000,7 @@
 }
 
 .flexRowContent--believes-section{
-  justify-content: space-evenly;
+  justify-content: center;
 }
 .flexRow--believes-section{
   background-color: #d5d5d5;
@@ -1002,7 +1008,7 @@
 
 
 .flexRow--numbers-section{
-  padding: 12vh 0 5vh 0;
+  padding: 6vh 0 5vh 0;
 }
 
 .flexRow--believes-section{
@@ -1012,9 +1018,6 @@
 .flexRowContent--believes-section .flexCol{
   margin-left: 3vw;
 }
-.flexRow--logo-section{
-  padding: 8vh 0 0 0;
-}
 
 .flexRow--numbers-section,.flexRow--data-section, .flexRow--logo-section,.flexRow--about-section-text, .flexRow--jointeam-section{
   background-color: #01315a
@@ -1022,6 +1025,7 @@
 
 .flexColChild--data-col{
   text-align: center;
+  justify-content: center;
 }
 
 .flexRowContent--logo-section{
@@ -1039,7 +1043,10 @@
   padding: 4vh 2vw;
   width: 400px;
   margin: 0 1rem;
+  justify-content: center;
 }
+
+
 
 @media (max-width: 767.98px) {
   .flexRowContent--suggestionContainer,
@@ -1061,5 +1068,9 @@
   .flexRow--productBreadcrumb {
     display: block;
     max-width: 375px;
+  }
+
+  .flexCol--institucionalSidebar{
+    display:  none;
   }
 }

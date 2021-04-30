@@ -1,7 +1,42 @@
 {
     "store.custom#cassol-conecta": {
-        
         "blocks": [
+            "responsive-layout.desktop#trabalhe-conosco",
+            "responsive-layout.tablet#trabalhe-conosco",
+            "responsive-layout.phone#trabalhe-conosco"
+        ]
+    },
+    "responsive-layout.phone#trabalhe-conosco": {
+        "children": [
+            "breadcrumb",
+            "flex-layout.row#work-with-us-menu-mobile",
+            "flex-layout.row#content-trabalhe-conosco"
+        ]
+    },
+    "responsive-layout.tablet#trabalhe-conosco": {
+        "children": [
+            "breadcrumb",
+            "flex-layout.row#work-with-us-menu-mobile",
+            "flex-layout.row#content-trabalhe-conosco"
+        ]
+    },
+    "responsive-layout.desktop#trabalhe-conosco": {
+        "children": [
+            "breadcrumb",
+            "flex-layout.row#content-trabalhe-conosco"
+        ]
+    },
+    "flex-layout.row#content-trabalhe-conosco": {
+        "props":{
+            "blockClass":["content-trabalhe-conosco"]
+        },
+        "children": [
+            "flex-layout.col#institutional-sidebar-desktop",
+            "flex-layout.col#content-trabalhe-conosco"
+        ]
+    },
+    "flex-layout.col#content-trabalhe-conosco": {
+        "children": [
             "flex-layout.row#hero",
             "flex-layout.row#pattern-section",
             "flex-layout.row#about-section-text",
@@ -12,30 +47,6 @@
             "flex-layout.row#data-section",
             "flex-layout.row#logo-section"
         ]
-    },
-    "header#empty": {
-        "blocks": [
-            "header-layout.desktop#empty",
-            "header-layout.mobile#empty"
-        ]
-    },
-    "header-layout.desktop#empty": {
-        "children": []
-    },
-    "header-layout.mobile#empty": {
-        "children": []
-    },
-    "footer#empty": {
-        "blocks": [
-            "footer-layout.desktop#empty",
-            "footer-layout.mobile#empty"
-        ]
-    },
-    "footer-layout.desktop#empty": {
-        "children": []
-    },
-    "footer-layout.mobile#empty": {
-        "children": []
     },
     "flex-layout.row#hero": {
         "props": {
@@ -48,11 +59,10 @@
             "image#hero"
         ]
     },
-
-    "image#hero":{
-        "props":{
-            "src":"https://cassol.vtexassets.com/assets/vtex.file-manager-graphql/images/59c94ee2-66ca-4376-bcb4-a55954893a5c___71f022b6bf4dea01a14decb27b52d076.jpg",
-            "maxHeight":700
+    "image#hero": {
+        "props": {
+            "src": "https://cassol.vtexassets.com/assets/vtex.file-manager-graphql/images/0cf4c443-0f42-4c52-acef-0955a5be78e0___65d7a286db1701f517a9b49b782a91a8.jpg",
+            "maxHeight": 500
         }
     },
     "list-context.image-list#hero-banner": {
@@ -102,8 +112,10 @@
     "flex-layout.row#about-section-text": {
         "props": {
             "horizontalAlign": "center",
-            "preventHorizontalStretch":true,
-            "blockClass":["about-section-text"]
+            "preventHorizontalStretch": true,
+            "blockClass": [
+                "about-section-text"
+            ]
         },
         "children": [
             "rich-text#about-text"
@@ -112,8 +124,10 @@
     "rich-text#about-text": {
         "props": {
             "text": "Somos líderes no segmento de materiais de construção do Sul do Brasil. Estamos presentes nos três estados, com 19 lojas, 3 Centros de Distribuição, além do atendimento via  e-Commerce, Televendas e Venda Direta. Já são seis décadas de muito trabalho e cooperação, que tiveram início com a fundação de uma serraria, em 1958, que depois se tornaria a Madeireira Cassol. Uma história de dedicação e empreendedorismo motivada por um desejo: permitir que cada pessoa transforme sua casa em um verdadeiro lar.",
-            "blockClass":["about-section-text"],
-            "textPosition":"CENTER"
+            "blockClass": [
+                "about-section-text"
+            ],
+            "textPosition": "CENTER"
         }
     },
     "flex-layout.row#jointeam-section": {
@@ -127,9 +141,9 @@
             "image#team"
         ]
     },
-    "image#team":{
-        "props":{
-            "src":"https://cassol.vtexassets.com/assets/vtex.file-manager-graphql/images/a72a9fc3-4734-4f8c-ac59-dabcbfb050a9___bcf230d4d77401d783893f4a8ab13557.jpg"
+    "image#team": {
+        "props": {
+            "src": "https://cassol.vtexassets.com/assets/vtex.file-manager-graphql/images/a72a9fc3-4734-4f8c-ac59-dabcbfb050a9___bcf230d4d77401d783893f4a8ab13557.jpg"
         }
     },
     "list-context.image-list#jointeam-banner": {
@@ -162,8 +176,8 @@
     },
     "flex-layout.row#vacancy-section": {
         "props": {
-            "preventHorizontalStretch":true,
-            "fullWidth": true,
+            "fullWidth": false,
+            "colSizing":"equal",
             "blockClass": [
                 "vacancy-section"
             ]
@@ -175,9 +189,12 @@
     },
     "flex-layout.col#vacancy-section-left": {
         "props": {
-            "verticalAlign":"center",
-            "preventVerticalStretch": true,
-            "blockClass":["vacancy-section-left"]
+            "width":"60%",
+            "verticalAlign": "center",
+            "preventVerticalStretch":true,
+            "blockClass": [
+                "vacancy-section-left"
+            ]
         },
         "children": [
             "rich-text#vacancy-section-left-text"
@@ -185,9 +202,13 @@
     },
     "flex-layout.col#vacancy-section-right": {
         "props": {
-            "verticalAlign":"center",
-            "preventVerticalStretch": true,
-            "blockClass":["vacancy-section-right"]
+            "width":"40%",
+            "verticalAlign": "center",
+            "horizontalAlign":"center",
+            "preventVerticalStretch":true,
+            "blockClass": [
+                "vacancy-section-right"
+            ]
         },
         "children": [
             "rich-text#vacancy-section-right-text"
@@ -196,19 +217,24 @@
     "rich-text#vacancy-section-left-text": {
         "props": {
             "text": "A Cassol está em plena expansão e também temos diversas oportunidades para você em nossas novas lojas.",
-            "blockClass":["white"]
+            "blockClass": [
+                "white",
+                "vacancy-left-text"
+            ]
         }
     },
     "rich-text#vacancy-section-right-text": {
         "props": {
-            "text": "Vagas disponíveis em novas lojas",
-            "blockClass":["vacancy-link"]
+            "text": "[Vagas disponíveis em novas lojas](https://www.reachr.com.br/cassol/#/vagas/novas-lojas)",
+            "blockClass": [
+                "vacancy-link"
+            ]
         }
     },
     "flex-layout.row#believes-section": {
         "props": {
-            "horizontalAlign":"center",
-            "preventHorizontalStretch":true,
+            "horizontalAlign": "center",
+            "preventHorizontalStretch": true,
             "blockClass": [
                 "believes-section"
             ]
@@ -219,18 +245,18 @@
         ]
     },
     "flex-layout.col#believes-section-left": {
-        "props":{
-            "verticalAlign":"middle",
-            "preventVerticalStretch":true
+        "props": {
+            "verticalAlign": "middle",
+            "preventVerticalStretch": true
         },
         "children": [
             "rich-text#believes-section-left-text"
         ]
     },
     "flex-layout.col#believes-section-right": {
-        "props":{
-            "verticalAlign":"middle",
-            "preventVerticalStretch":true
+        "props": {
+            "verticalAlign": "middle",
+            "preventVerticalStretch": true
         },
         "children": [
             "rich-text#believes-section-right-text"
@@ -238,17 +264,20 @@
     },
     "rich-text#believes-section-left-text": {
         "props": {
-
-            "textAlignment":"right",
-            "textPosition":"right",
+            "textAlignment": "right",
+            "textPosition": "right",
             "text": "## É nisso que a Cassol acredita",
-            "blockClass":["believes-title"]
+            "blockClass": [
+                "believes-title"
+            ]
         }
     },
     "rich-text#believes-section-right-text": {
         "props": {
-            "text": "Lorem aosdiakdoas dasdas d",
-            "blockClass":["jointeam-list"]
+            "text": "- Temos senso de urgência\n- Fazemos o que é certo\n- Atendemos com o coração \n- Assumimos responsabilidades pelo que fazemos\n- Acreditamos que o sucesso é o resultado de trabalho árduo e muita dedicação (meritocracia) \n- Somos empreendedores, somos simples e humildes",
+            "blockClass": [
+                "jointeam-list"
+            ]
         }
     },
     "flex-layout.row#numbers-section": {
@@ -300,10 +329,11 @@
     "flex-layout.col#data-section-col1": {
         "props": {
             "preventVerticalStretch": true,
-            "verticalAlign":"center",
+            "verticalAlign": "center",
             "width": "33%",
             "blockClass": [
-                "data-col"
+                "data-col",
+                "sup-col"
             ]
         },
         "children": [
@@ -311,10 +341,16 @@
             "rich-text#col1-desc"
         ]
     },
+    "rich-text#supLetter":{
+        "props":{
+            "text":"",
+            "blockClass":["white","sup-col"]
+        }
+    },
     "rich-text#col1-title": {
         "props": {
             "text": "# 1",
-            "textPosition":"CENTER",
+            "textPosition": "CENTER",
             "blockClass": [
                 "white-bold"
             ]
@@ -323,7 +359,7 @@
     "rich-text#col1-desc": {
         "props": {
             "text": "na região sul no segmento de materiais de construção",
-            "textPosition":"CENTER",
+            "textPosition": "CENTER",
             "blockClass": [
                 "white"
             ]
@@ -332,10 +368,10 @@
     "flex-layout.col#data-section-col2": {
         "props": {
             "preventVerticalStretch": true,
-            "verticalAlign":"center",
+            "verticalAlign": "center",
             "width": "33%",
             "blockClass": [
-                "data-col"
+                "data-col","sup-col"
             ]
         },
         "children": [
@@ -346,7 +382,7 @@
     "rich-text#col2-title": {
         "props": {
             "text": "# 5",
-            "textPosition":"CENTER",
+            "textPosition": "CENTER",
             "blockClass": [
                 "white-bold"
             ]
@@ -355,8 +391,8 @@
     "rich-text#col2-desc": {
         "props": {
             "text": "maior no segmento de materiais de construção",
-            "textPosition":"CENTER",
-            "textAlignment":"CENTER",
+            "textPosition": "CENTER",
+            "textAlignment": "CENTER",
             "blockClass": [
                 "white"
             ]
@@ -365,7 +401,7 @@
     "flex-layout.col#data-section-col3": {
         "props": {
             "preventVerticalStretch": true,
-            "verticalAlign":"center",
+            "verticalAlign": "center",
             "width": "33%",
             "blockClass": [
                 "data-col"
@@ -379,8 +415,8 @@
     "rich-text#col3-title": {
         "props": {
             "text": "# 4 MIL",
-            "textPosition":"CENTER",
-            "textAlignment":"CENTER",
+            "textPosition": "CENTER",
+            "textAlignment": "CENTER",
             "blockClass": [
                 "white-bold"
             ]
@@ -389,8 +425,10 @@
     "rich-text#col3-desc": {
         "props": {
             "text": "empregos gerados diretamente no sul do Brasil, São Paulo, Rio de Janeiro e DF",
-            "textPosition":"CENTER",
-            "blockClass": ["white"]
+            "textPosition": "CENTER",
+            "blockClass": [
+                "white"
+            ]
         }
     },
     "flex-layout.col#data-section-col4": {
@@ -409,7 +447,7 @@
     "rich-text#col4-title": {
         "props": {
             "text": "# Mais de 90",
-            "textPosition":"CENTER",
+            "textPosition": "CENTER",
             "blockClass": [
                 "white-bold"
             ]
@@ -418,8 +456,8 @@
     "rich-text#col4-desc": {
         "props": {
             "text": "fornecedores internacionais",
-            "textPosition":"CENTER",
-            "textAlignment":"CENTER",
+            "textPosition": "CENTER",
+            "textAlignment": "CENTER",
             "blockClass": [
                 "white"
             ]
@@ -441,7 +479,7 @@
     "rich-text#col5-title": {
         "props": {
             "text": "# Mais de 45 mil",
-            "textPosition":"CENTER",
+            "textPosition": "CENTER",
             "blockClass": [
                 "white-bold"
             ]
@@ -450,7 +488,7 @@
     "rich-text#col5-desc": {
         "props": {
             "text": "itens em loja",
-            "textPosition":"CENTER",
+            "textPosition": "CENTER",
             "blockClass": [
                 "white"
             ]
@@ -472,7 +510,7 @@
     "rich-text#col6-title": {
         "props": {
             "text": "# Maior",
-            "textPosition":"CENTER",
+            "textPosition": "CENTER",
             "blockClass": [
                 "white-bold"
             ]
@@ -481,7 +519,7 @@
     "rich-text#col6-desc": {
         "props": {
             "text": "estoque a pronta entrega do Sul do Brasil",
-            "textPosition":"CENTER",
+            "textPosition": "CENTER",
             "blockClass": [
                 "white"
             ]
@@ -489,20 +527,21 @@
     },
     "flex-layout.row#logo-section": {
         "props": {
-            "colSizing":"auto",
+            "colSizing": "auto",
             "horizontalAlign": "center",
             "fullWidth": true,
-            "blockClass":["logo-section"]
+            "blockClass": [
+                "logo-section"
+            ]
         },
         "children": [
             "image#logo-cassol-conecta"
         ]
     },
-
-    "image#logo-cassol-conecta":{
-        "props":{
-            "src":"https://cassol.vtexassets.com/assets/vtex.file-manager-graphql/images/635491ee-8c74-4f66-80ff-6ba6fd4475aa___4e29cdd7875c88128dfcf5be7d0f972e.png",
-            "maxWidth":300
+    "image#logo-cassol-conecta": {
+        "props": {
+            "src": "https://cassol.vtexassets.com/assets/vtex.file-manager-graphql/images/635491ee-8c74-4f66-80ff-6ba6fd4475aa___4e29cdd7875c88128dfcf5be7d0f972e.png",
+            "maxWidth": 220
         }
     },
     "list-context.image-list#logo-banner": {
