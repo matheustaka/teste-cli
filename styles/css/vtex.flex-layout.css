@@ -1046,8 +1046,17 @@
   justify-content: center;
 }
 
+/* tabloide */
+.flexRow--worlds-row {
+  background-image: url(https://cassol.vtexassets.com/assets/vtex.file-manager-graphql/images/9c972af5-a896-426e-bdee-bc8e0b349f84___db4e1b6….jpg);
+  background-attachment: fixed;
+}
 
-
+.flexRowContent--worlds-row{
+  flex-wrap: wrap;
+  justify-content: center;
+}
+/* !tabloide */
 @media (max-width: 767.98px) {
   .flexRowContent--suggestionContainer,
   .flexRowContent--didYouMeanContainer {

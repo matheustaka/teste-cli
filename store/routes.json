@@ -127,5 +127,12 @@
   },
   "store.custom#cassol-conecta": {
     "path": "/trabalhe-conosco"
+  },
+
+  "store.custom#tabloide2021":{
+    "path":"/tabloide2021"
+  },
+  "store.custom#world":{
+    "path":"/pisos-e-revestimentos/t"
   }
 }

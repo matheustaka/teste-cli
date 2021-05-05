@@ -793,6 +793,10 @@
   margin: 0 0 0 10px;
   font-size: 18px;
 }
+
+.heading--worldTitle{
+  color: #003459;
+}
 @media screen and (max-width:767px) {
   .heading--believes-title{
     max-width: none;
@@ -826,4 +830,6 @@
     max-width: 80%;
     text-align: justify;
   }
+
+  
 }

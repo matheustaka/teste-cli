@@ -1,0 +1,214 @@
+{
+    "store.custom#world": {
+        "blocks": [
+            "list-context.image-list#banner-principal-world",
+            "search-result-layout.customQuery#world"
+        ]
+    },
+    "search-result-layout.customQuery#world": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByReleaseDateDESC",
+                "hideUnavailableItems": true,
+                "maxItemsPerPage": 8,
+                "queryField": "Pisos e Revestimentos",
+                "mapField": "ft"
+            }
+        },
+        "blocks": [
+            "search-result-layout.desktop#world",
+            "search-result-layout.mobile#world-mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.desktop#world": {
+        "children": [
+            "flex-layout.row#world",
+            "flex-layout.row#world-shelf",
+            "flex-layout.row#top",
+            "flex-layout.row#results"
+        ],
+        "props": {
+            "preventRouteChange": true
+        }
+    },
+    "flex-layout.row#top": {
+        "children": [
+            "total-products.v2",
+            "order-by.v2"
+        ]
+    },
+    "flex-layout.row#results": {
+        "children": [
+            "flex-layout.col#filter#world",
+            "flex-layout.col#search-world"
+        ]
+    },
+    "flex-layout.col#filter#world": {
+        "props": {
+            "width": "15%"
+        },
+        "children": [
+            "filter-navigator.v3"
+        ]
+    },
+    "flex-layout.col#search-world": {
+        "children": [
+            "flex-layout.row#advertising",
+            "search-content#world",
+            "search-products-count-per-page",
+            "search-products-progress-bar",
+            "search-fetch-more#world"
+        ]
+    },
+    "search-fetch-more#world": {
+        "props": {
+            "blockClass": [
+                "world-show-more"
+            ]
+        }
+    },
+    "flex-layout.row#world": {
+        "children": [
+            "rich-text#world-title"
+        ]
+    },
+    "rich-text#world-title": {
+        "props": {
+            "text": "## Pisos e Revestimentos",
+            "blockClass":["worldTitle"]
+        }
+    },
+    "flex-layout.row#world-shelf": {
+        "children": [
+            "list-context.product-list#world-shelf"
+        ]
+    },
+    "list-context.product-list#world-shelf": {
+        "blocks": [
+            "product-summary.shelf"
+        ],
+        "children": [
+            "slider-layout#world-shelf"
+        ],
+        "props": {
+            "orderBy": "OrderByBestDiscountDESC",
+            "hideUnavailableItems": true
+        }
+    },
+    "slider-layout#world-shelf": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 6,
+                "tablet": 4,
+                "phone": 2
+            },
+            "infinite": true,
+            "fullWidth": true,
+            "blockClass": [
+                "shelf",
+                "world-shelf"
+            ]
+        }
+    },
+    "list-context.image-list#banner-principal-world": {
+        "children": [
+            "slider-layout#banner-principal-world"
+        ],
+        "props": {
+            "height": 720,
+            "width": "100%",
+            "images": [
+                {
+                    "image": "https://cassol.vtexassets.com/arquivos/banner-principal-desk.png",
+                    "mobileImage": "https://cassol.vtexassets.com/arquivos/banner-principal-mobile.png"
+                }
+            ]
+        }
+    },
+    "slider-layout#banner-principal-world": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 1,
+                "tablet": 1,
+                "phone": 1
+            },
+            "stopOnHover": true,
+            "infinite": true,
+            "fullWidth": true,
+            "showNavigationArrows": "desktopOnly",
+            "blockClass": "banner-principal"
+        }
+    },
+    "flex-layout.row#advertising": {
+        "props": {},
+        "children": [
+            "list-context.image-list#advertising"
+        ]
+    },
+    "list-context.image-list#advertising": {
+        "children": [
+            "slider-layout#advertising"
+        ],
+        "props": {
+            "height": 720,
+            "width": "100%",
+            "images": [
+                {
+                    "image": "https://cassol.vtexassets.com/arquivos/banner-principal-desk.png",
+                    "mobileImage": "https://cassol.vtexassets.com/arquivos/banner-principal-mobile.png"
+                }
+            ]
+        }
+    },
+    "slider-layout#advertising": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 1,
+                "tablet": 1,
+                "phone": 1
+            },
+            "stopOnHover": true,
+            "infinite": true,
+            "fullWidth": true,
+            "showNavigationArrows": "desktopOnly",
+            "blockClass": [
+                "world-adverstising"
+            ]
+        }
+    },
+    // Mobile
+    "search-result-layout.mobile#world-mobile": {
+        "children": [
+            "rich-text#world-title",
+            "list-context.product-list#world-shelf",
+            "list-context.image-list#advertising",
+            "flex-layout.row#searchinfomobile",
+            "search-content#world",
+            "search-products-count-per-page",
+            "search-products-progress-bar",
+            "search-fetch-more#world"
+        ]
+    },
+    "search-content#world": {
+        "blocks": [
+            "gallery#world",
+            "not-found"
+        ]
+    },
+    "gallery#world": {
+        "props": {
+            "layouts": [
+                {
+                    "name": "default-grid",
+                    "component": "OneOrTwoLineSummary",
+                    "itemsPerRow": {
+                        "desktop":4,
+                        "mobile":2
+                    }
+                }
+            ],
+            "OneOrTwoLineSummary": "product-summary.shelf"
+        }
+    }
+}
