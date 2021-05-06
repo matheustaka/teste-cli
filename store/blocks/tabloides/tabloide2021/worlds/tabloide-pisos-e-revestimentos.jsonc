@@ -53,6 +53,9 @@
         ]
     },
     "flex-layout.col#search-world": {
+        "props":{
+            "preventVerticalStretch":true
+        },
         "children": [
             "flex-layout.row#advertising",
             "search-content#world",
