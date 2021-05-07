@@ -121,6 +121,10 @@
   padding: 0 10px;
 }
 
+.slide--visible{
+  margin-right: 5px !important;
+}
+
 .sliderLayoutContainer--world-adverstising{
   justify-content: flex-end;
   padding: 0 0 4vh 3.6vw;
@@ -131,7 +135,7 @@
     padding: 0 10px;
   }
   .sliderLayoutContainer--shelf {
-    padding: 0 30px 15px 30px !important;
+    padding: 0 !important;
   }
 }
 
@@ -171,4 +175,7 @@
   .sliderLayoutContainer--shelf {
     margin-bottom: 20px;
   }
+}
+
+@media screen and (max-width:767px) {
 }

@@ -85,12 +85,15 @@
       "blockClass": "banner-principal"
     }
   },
-
   "responsive-layout.desktop": {
-    "children": ["slider-layout#deals"]
+    "children": [
+      "slider-layout#deals"
+    ]
   },
   "responsive-layout.phone": {
-    "children": ["slider-layout#deals-phone"]
+    "children": [
+      "slider-layout#deals-phone"
+    ]
   },
   "rich-text#shelf-01": {
     "props": {
@@ -130,11 +133,18 @@
     "props": {
       "itemsPerPage": {
         "desktop": 4,
-        "tablet": 3,
+        "tablet": 2,
         "phone": 1
       },
+      "showNavigationArrows": "desktopOnly",
       "infinite": true,
       "fullWidth": false,
+      "usePagination": true,
+      "centerMode": {
+        "desktop": "disabled",
+        "phone": "to-the-left",
+        "mobile": "to-the-left"
+      },
       "blockClass": "shelf"
     }
   },
@@ -212,11 +222,18 @@
     "props": {
       "itemsPerPage": {
         "desktop": 4,
-        "tablet": 3,
+        "tablet": 2,
         "phone": 1
       },
+      "showNavigationArrows": "desktopOnly",
       "infinite": true,
       "fullWidth": false,
+      "usePagination": true,
+      "centerMode": {
+        "desktop": "disabled",
+        "phone": "to-the-left",
+        "mobile": "to-the-left"
+      },
       "blockClass": "shelf"
     }
   },
@@ -288,14 +305,10 @@
       "infinite": false,
       "showNavigationArrows": "desktopOnly",
       "blockClass": "mini-banners",
-      "centerMode":{
-        "desktop":"disabled",
-        "mobile":"to-the-left",
-        "phone":"to-the-left"
-      },
-      "slideTransition":{
-        "speed": 200,
-        "delay": 200
+      "centerMode": {
+        "desktop": "disabled",
+        "mobile": "to-the-left",
+        "phone": "to-the-left"
       }
     }
   },
@@ -328,11 +341,18 @@
     "props": {
       "itemsPerPage": {
         "desktop": 4,
-        "tablet": 3,
+        "tablet": 2,
         "phone": 1
       },
+      "showNavigationArrows": "desktopOnly",
       "infinite": true,
       "fullWidth": false,
+      "usePagination": true,
+      "centerMode": {
+        "desktop": "disabled",
+        "phone": "to-the-left",
+        "mobile": "to-the-left"
+      },
       "blockClass": "shelf"
     }
   },
@@ -381,7 +401,9 @@
     "props": {
       "displayThreshold": 100,
       "display": "caret-icon",
-      "blockClass":["scrollTopButton"]
+      "blockClass": [
+        "scrollTopButton"
+      ]
     }
   }
 }

@@ -47,7 +47,7 @@
 
 .minicartProductListContainer
   :global(.vtex-product-list-0-x-unitPriceMeasurementUnit)::before {
-  content: " por uinidade.";
+  content: " por unidade.";
   font-size: 10px;
 }
 

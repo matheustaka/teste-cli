@@ -545,7 +545,7 @@
 
 :global(.vtex-reviews-and-ratings-2-x-star--empty),
 :global(.vtex-reviews-and-ratings-2-x-star--filled){
-  font-size: 19px !important;
+  font-size: 16px !important;
 }
 
 :global(.vtex-reviews-and-ratings-2-x-container) :last-child:global(.vtex-reviews-and-ratings-2-x-reviewCommentsContainer) :global(.vtex-button) {

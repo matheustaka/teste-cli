@@ -1,6 +1,9 @@
 .quantitySelector {
   width: auto;
 }
+.quantityDropdownContainer :global(.vtex-styleguide-9-x-container) {
+  font-size: 12px !important;
+}
 
 @media screen and (max-width: 39.9em) {
   .quantitySelector {
