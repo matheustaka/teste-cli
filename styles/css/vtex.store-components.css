@@ -382,7 +382,7 @@
 .skuSelectorSubcontainer--voltagem-v .skuSelectorItem .skuSelectorInternalBox  {
   border: 2px solid #E9E9E9;
   height: 44px;
-  width: 75px;
+  width: auto;
 }
 
 @media (max-width: 767.98px) {
