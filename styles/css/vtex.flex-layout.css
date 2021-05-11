@@ -1051,7 +1051,7 @@
   background-image: url(https://cassol.vteximg.com.br/arquivos/backgroundtabloidecassol.jpg);
   background-attachment: fixed;
 }
-
+.flexColChild--banner-advertising{max-width: 1160px;}
 .flexRowContent--worlds-row{
   flex-wrap: wrap;
   justify-content: center;

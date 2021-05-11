@@ -41,7 +41,7 @@
             "flex-layout.row#pattern-section",
             "flex-layout.row#about-section-text",
             "flex-layout.row#jointeam-section",
-            "flex-layout.row#vacancy-section",
+            "list-context.image-list#vacancy-banner",
             "flex-layout.row#believes-section",
             "flex-layout.row#numbers-section",
             "flex-layout.row#data-section",
@@ -138,7 +138,7 @@
             ]
         },
         "children": [
-            "image#team"
+            "list-context.image-list#jointeam-banner"
         ]
     },
     "image#team": {
@@ -156,7 +156,7 @@
             ],
             "images": [
                 {
-                    "image": "https://cassol.vtexassets.com/arquivos/comunicado.png",
+                    "image": "https://cassol.vtexassets.com/assets/vtex.file-manager-graphql/images/a72a9fc3-4734-4f8c-ac59-dabcbfb050a9___bcf230d4d77401d783893f4a8ab13557.jpg",
                     "mobileImage": ""
                 }
             ]
@@ -171,7 +171,8 @@
             },
             "infinite": true,
             "fullWidth": true,
-            "showNavigationArrows": "never"
+            "showNavigationArrows": "never",
+            "blockClass":["jointeam"]
         }
     },
     "flex-layout.row#vacancy-section": {
@@ -186,6 +187,36 @@
             "flex-layout.col#vacancy-section-left",
             "flex-layout.col#vacancy-section-right"
         ]
+    },
+
+    "list-context.image-list#vacancy-banner": {
+        "children": [
+            "slider-layout#vacancy-banner"
+        ],
+        "props": {
+            "blockClass": [
+                "vacancy-banner"
+            ],
+            "images": [
+                {
+                    "image": "https://cassol.vteximg.com.br/arquivos/04.jpg",
+                    "mobileImage": "https://cassol.vteximg.com.br/arquivos/04-mobile.jpg"
+                }
+            ]
+        }
+    },
+    "slider-layout#vacancy-banner": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 1,
+                "tablet": 1,
+                "phone": 1
+            },
+            "infinite": true,
+            "fullWidth": true,
+            "showNavigationArrows": "never",
+            "blockClass":["vacancy-banner"]
+        }
     },
     "flex-layout.col#vacancy-section-left": {
         "props": {

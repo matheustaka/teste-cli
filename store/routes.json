@@ -104,8 +104,7 @@
     "isSitemapEntry": true
   },
   "store.custom#tabloide": {
-    "path": "/tabloide",
-    "isSitemapEntry": true
+    "path": "/revista-cassol"
   },
   "store.custom#tabloide-rs": {
     "path": "/tabloide_rs",
@@ -130,7 +129,8 @@
   },
 
   "store.custom#tabloide2021":{
-    "path":"/tabloide2021"
+    "path":"/tabloide",
+    "isSitemapEntry": true
   },
   "store.custom#world":{
     "path":"/tabloide/pisos-e-revestimentos"

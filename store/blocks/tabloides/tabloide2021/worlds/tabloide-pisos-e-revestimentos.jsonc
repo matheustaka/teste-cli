@@ -2,6 +2,7 @@
     "store.custom#world": {
         "blocks": [
             "list-context.image-list#banner-principal-world",
+            "list-context.image-list#banner-back",
             "search-result-layout.customQuery#world"
         ]
     },
@@ -104,12 +105,16 @@
             "itemsPerPage": {
                 "desktop": 6,
                 "tablet": 4,
-                "phone": 2
+                "phone": 1
             },
+            "centerMode": {
+                "desktop": "disabled",
+                "phone": "to-the-left",
+                "mobile": "to-the-left"
+              },
             "infinite": true,
             "fullWidth": true,
             "blockClass": [
-                "shelf",
                 "world-shelf"
             ]
         }
@@ -130,6 +135,34 @@
         }
     },
     "slider-layout#banner-principal-world": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 1,
+                "tablet": 1,
+                "phone": 1
+            },
+            "stopOnHover": true,
+            "infinite": true,
+            "fullWidth": true,
+            "showNavigationArrows": "desktopOnly",
+            "blockClass": "banner-principal"
+        }
+    },
+    "list-context.image-list#banner-back": {
+        "children": [
+            "slider-layout#banner-back"
+        ],
+        "props": {
+            "height": 200,
+            "width": "100%",
+            "images": [
+                {
+                    "image": "https://cassol.vtexassets.com/arquivos/banner-principal-desk.png"
+                }
+            ]
+        }
+    },
+    "slider-layout#banner-back": {
         "props": {
             "itemsPerPage": {
                 "desktop": 1,

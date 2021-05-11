@@ -121,8 +121,12 @@
   padding: 0 10px;
 }
 
-.slide--visible{
-  margin-right: 5px !important;
+.slide--shelf--visible{
+  margin-right: 0px !important;
+}
+
+.sliderLayoutContainer--vacancy-banner , .sliderLayoutContainer--jointeam{
+  padding: 0;
 }
 
 .sliderLayoutContainer--world-adverstising{
