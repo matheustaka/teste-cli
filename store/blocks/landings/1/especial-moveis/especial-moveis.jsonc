@@ -1,5 +1,5 @@
 {
-  "store.custom#dia-das-maes": {
+  "store.custom#especial-moveis": {
     "blocks": [
       "list-context.image-list#pilotMainList",
       "flex-layout.row#pilotTextContent",

@@ -285,7 +285,21 @@
       "preventHorizontalStretch":true,
       "blockClass":["share-row"]
     },
-    "children":[ "sandbox#home"]
+    "children":["info-card#share"]
+  },
+
+  "info-card#share":{
+    "props": {
+      "id": "info-card-share",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://cassol.vteximg.com.br/arquivos/whatsapp.png",
+      "headline": "Compre pelo telefone <a href='https://api.whatsapp.com/send?phone=554840011515&text=Ol%C3%A1' style='text-decoration:none;color:#184077'> (48) 4001-1515</a>",
+      "blockClass": "info-card-share",
+      "callToActionMode": {
+        "None": "none"
+      }
+    }
   },
   
   "sandbox#home": {

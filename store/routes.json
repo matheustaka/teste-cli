@@ -121,8 +121,8 @@
   "store.custom#traineeCassol": {
     "path": "/trainee-cassol"
   },
-  "store.custom#dia-das-maes": {
-    "path": "/especial-dia-das-maes"
+  "store.custom#especial-moveis": {
+    "path": "/especial-moveis"
   },
   "store.custom#cassol-conecta": {
     "path": "/trabalhe-conosco"
