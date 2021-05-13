@@ -965,6 +965,11 @@
 .flexRowContent--benefitsFirstCol {
   justify-content: space-evenly;
 }
+
+/* Share Whatsapp- Product */
+.flexRow--share-row{
+  margin-top: 10px;
+}
 /* LP - Pilot */
 .flexRowContent--pilotPadding {
   padding: 0 6.25vw
