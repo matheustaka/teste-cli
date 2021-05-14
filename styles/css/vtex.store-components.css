@@ -633,9 +633,14 @@
 
 .infoCardContainer--info-card-share {
   padding: 0;
+  display: flex;
 }
 .infoCardHeadline--info-card-share {
   font-size: 16px;
+}
+
+.infoCardHeadline--info-card-share .link-whats{
+  text-decoration: none;
 }
 
 .infoCardImageContainer--info-card-share{
@@ -645,6 +650,7 @@
 .infoCardTextContainer--info-card-share {
   width: auto;
     display: inline;
+    padding: 0 10px 0 0;
 }
 
 .infoCardImage--info-card-share {
