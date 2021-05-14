@@ -639,20 +639,36 @@
   font-size: 16px;
 }
 
-.infoCardHeadline--info-card-share .link-whats{
+.infoCardHeadline--info-card-share .link-whats {
   text-decoration: none;
 }
 
-.infoCardImageContainer--info-card-share{
+.infoCardImageContainer--info-card-share {
   display: inline;
   width: auto;
 }
 .infoCardTextContainer--info-card-share {
   width: auto;
-    display: inline;
-    padding: 0 10px 0 0;
+  display: inline;
+  padding: 0 10px 0 0;
 }
 
 .infoCardImage--info-card-share {
   width: 30px;
+}
+@media (max-width: 359px) {
+  .infoCardHeadline--info-card-share {
+    font-size: 13px;
+  }
+}
+@media (min-width: 640px) {
+  .infoCardHeadline--info-card-share {
+    font-size: 13px;
+  }
+}
+
+@media (min-width: 800px) {
+  .infoCardHeadline--info-card-share {
+    font-size: 16px;
+  }
 }
