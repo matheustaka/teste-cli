@@ -1018,6 +1018,7 @@
 
 .flexRow--believes-section{
   padding: 10vh 0;
+  margin-top: -5px;
 }
 
 .flexRowContent--believes-section .flexCol{
