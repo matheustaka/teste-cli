@@ -269,6 +269,13 @@
     ]
   },
 
+  "availability-subscriber":{
+    "props":{
+      "name": "NomeCliente",
+      "email": "EmailCliente"
+    }
+  },
+
   "shelf.relatedProducts": {
     "blocks": ["product-summary.shelf"],
       "props": {

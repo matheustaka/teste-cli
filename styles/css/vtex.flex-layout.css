@@ -1061,6 +1061,10 @@
   flex-wrap: wrap;
   justify-content: center;
 }
+
+.flexCol--world-col, .flexColChild--world-col{
+  max-height: 195px;
+}
 /* !tabloide */
 @media (max-width: 767.98px) {
   .flexRowContent--suggestionContainer,

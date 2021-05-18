@@ -26,7 +26,6 @@
         "children": [
             "flex-layout.row#world",
             "flex-layout.row#world-shelf",
-            "flex-layout.row#top",
             "flex-layout.row#results"
         ],
         "props": {
@@ -40,24 +39,32 @@
         ]
     },
     "flex-layout.row#results": {
+        "props": {
+            "preventHorizontalStretch": true,
+            "fullWidth": true,
+            "blockClass": "flex-layout-result"
+        },
         "children": [
-            "flex-layout.col#filter#world",
+            "flex-layout.col#filter-world",
             "flex-layout.col#search-world"
         ]
     },
-    "flex-layout.col#filter#world": {
+    "flex-layout.col#filter-world": {
         "props": {
-            "width": "15%"
+            "blockClass": [
+                "filterCol"
+            ]
         },
         "children": [
             "filter-navigator.v3"
         ]
     },
     "flex-layout.col#search-world": {
-        "props":{
-            "preventVerticalStretch":true
+        "props": {
+            "preventVerticalStretch": true
         },
         "children": [
+            "flex-layout.row#top",
             "flex-layout.row#advertising",
             "search-content#world",
             "search-products-count-per-page",
@@ -80,7 +87,9 @@
     "rich-text#world-title": {
         "props": {
             "text": "## Pisos e Revestimentos",
-            "blockClass":["worldTitle"]
+            "blockClass": [
+                "worldTitle"
+            ]
         }
     },
     "flex-layout.row#world-shelf": {
@@ -111,9 +120,10 @@
                 "desktop": "disabled",
                 "phone": "to-the-left",
                 "mobile": "to-the-left"
-              },
+            },
+            "usePagination": true,
             "infinite": true,
-            "fullWidth": true,
+            "fullWidth": false,
             "blockClass": [
                 "world-shelf"
             ]
@@ -239,8 +249,8 @@
                     "name": "default-grid",
                     "component": "OneOrTwoLineSummary",
                     "itemsPerRow": {
-                        "desktop":4,
-                        "mobile":2
+                        "desktop": 4,
+                        "mobile": 2
                     }
                 }
             ],
