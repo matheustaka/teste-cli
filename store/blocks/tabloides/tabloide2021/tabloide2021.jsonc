@@ -20,7 +20,7 @@
             ]
         },
         "children": [
-            "flex-layout.col#worlds-grid1",
+            "flex-layout.col#worlds-grid-first",
             "flex-layout.col#worlds-grid2",
             "flex-layout.col#worlds-grid3",
             "flex-layout.col#worlds-grid4",
@@ -34,7 +34,7 @@
         ]
     },
     // Item do grid
-    "flex-layout.col#worlds-grid1": {
+    "flex-layout.col#worlds-grid-first": {
         "props": {
             "blockClass": [
                 "world-col"
@@ -46,7 +46,7 @@
     },
     "image#world-image": {
         "props": {
-            "src": "https://cassol.vteximg.com.br/arquivos/img_580x190.jpg"
+            "src": "https://cassol.vtexassets.com/assets/vtex.file-manager-graphql/images/0779239a-2b48-4057-a09a-e3e472492a3f___ae03b91a121a0dd26c22ff89f26e1169.png"
         }
     },
     // item do grid
