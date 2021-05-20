@@ -1,0 +1,108 @@
+{
+    "store.custom#inverno": {
+        "blocks": [
+            "list-context.image-list#winter-main-banner",
+            "list-context.image-list#winter-banner-slides",
+            "list-context.product-list#winter-shelf-01"
+        ]
+    },
+    "list-context.image-list#winter-main-banner": {
+        "children": [
+            "slider-layout#winter-main-banner"
+        ],
+        "props": {
+            "height": 720,
+            "images": [
+                {
+                    "image": "https://cassol.vtexassets.com/arquivos/banner-principal-desk.png",
+                    "mobileImage": "https://cassol.vtexassets.com/arquivos/banner-principal-mobile.png"
+                },
+                {
+                    "image": "https://cassol.vtexassets.com/arquivos/banner-principal-desk.png",
+                    "mobileImage": "https://cassol.vtexassets.com/arquivos/banner-principal-mobile.png"
+                }
+            ]
+        }
+    },
+    "slider-layout#winter-main-banner": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 1,
+                "tablet": 1,
+                "phone": 1
+            },
+            "autoplay": {
+                "timeout": 4000
+            },
+            "stopOnHover": true,
+            "infinite": true,
+            "showNavigationArrows": "desktopOnly",
+            "blockClass": "banner-principal"
+        }
+    },
+    "list-context.image-list#winter-banner-slides": {
+        "props": {
+            "images": [
+                {
+                    "image": "assets/images/500x238.png"
+                },
+                {
+                    "image": "assets/images/500x238.png"
+                }
+            ]
+        },
+        "children": [
+            "slider-layout#winter-banner-slides"
+        ]
+    },
+    "slider-layout#winter-banner-slides": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 2,
+                "tablet": 2,
+                "phone": 1
+            },
+            "infinite": true,
+            "showNavigationArrows": "always",
+            "blockClass": "carousel",
+            "centerMode": {
+                "desktop": "disabled",
+                "mobile": "to-the-left",
+                "phone": "to-the-left"
+            },
+            "usePagination": true
+        }
+    },
+    "list-context.product-list#winter-shelf-01": {
+        "blocks": [
+          "product-summary.shelf"
+        ],
+        "children": [
+          "slider-layout#winter-shelf-01"
+        ],
+        "props": {
+          "orderBy": "OrderByBestDiscountDESC",
+          "hideUnavailableItems": true
+        }
+      },
+      "slider-layout#winter-shelf-01": {
+        "props": {
+          "itemsPerPage": {
+            "desktop": 4,
+            "tablet": 2,
+            "phone": 1
+          },
+          "showNavigationArrows": "desktopOnly",
+          "infinite": true,
+          "fullWidth": false,
+          "usePagination": true,
+          "centerMode": {
+            "desktop": "disabled",
+            "phone": "to-the-left",
+            "mobile": "to-the-left"
+          },
+          "blockClass": "shelf"
+        },
+        "children":[]
+      }
+}
