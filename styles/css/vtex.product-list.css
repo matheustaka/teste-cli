@@ -11,6 +11,16 @@
   }
 }
 
+@media screen and (max-width: 767px){
+  .quantitySelectorContainer{
+    margin-right: 10px;
+  }
+
+  .productPriceContainer .productPrice .price {
+    font-size: 13px;
+  }
+}
+
 .productImage {
   max-height: 165px;
   width: auto;

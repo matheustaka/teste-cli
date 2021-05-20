@@ -225,7 +225,7 @@
 }
 
 .buttonShowMore {
-  margin-top: 30px;
+  margin-top: 10px;
 }
 
 .buttonShowMore :global(.vtex-button):hover {

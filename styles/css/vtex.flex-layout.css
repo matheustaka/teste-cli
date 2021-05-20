@@ -252,6 +252,14 @@
   }
 }
 
+
+.flexRow--listItem{
+  border-bottom: 1px solid #e9e9e9;
+}
+
+.flexRowContent--productListQuantity {
+  display: flex;
+}
 .productBreadcrumb.categoryBreadcrumb,
 .flexRow--searchtitle {
   max-width: 1250px;
@@ -445,6 +453,10 @@
   display: flex;
 }
 
+.flexRowContent--productListQuantity{
+  align-items: center;
+}
+
 .flexRowContent--payment-methods-desktop
   :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
   width: auto !important;
@@ -604,6 +616,9 @@
   padding: 0;
 }
 
+.flexRowContent--fetchMore{
+  flex-direction: column;
+}
 .flexCol--spacer-2 {
   width: 215px;
 }

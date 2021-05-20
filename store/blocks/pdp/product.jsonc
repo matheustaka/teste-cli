@@ -29,6 +29,13 @@
     "children": ["product-description"]
   },
 
+  "product-description": {
+    "props": {
+      // Se definido como true, o conteúdo será colapsado
+      "collapseContent": false
+    }
+  },
+
   "flex-layout.row#specification": {
     "props": {
       "marginBottom": 7
@@ -38,7 +45,8 @@
 
   "product-specifications": {
     "props": {
-      "collapsible": "always"
+      // Definir 'always' para aparecer o Ver Mais
+      "collapsible": "never"
     }
   },
 
@@ -267,13 +275,6 @@
     "children": [
       "availability-subscriber"
     ]
-  },
-
-  "availability-subscriber":{
-    "props":{
-      "name": "NomeCliente",
-      "email": "EmailCliente"
-    }
   },
 
   "shelf.relatedProducts": {
