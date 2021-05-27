@@ -1,108 +1,318 @@
 {
-    "store.custom#inverno": {
-        "blocks": [
-            "list-context.image-list#winter-main-banner",
-            "list-context.image-list#winter-banner-slides",
-            "list-context.product-list#winter-shelf-01"
-        ]
+  "store.custom#especial-inverno": {
+    "blocks": [
+      "list-context.image-list#winter-main-banner",
+      "flex-layout.row#winter-title-row",
+      "list-context.image-list#winter-banner-slides",
+      "flex-layout.row#winter-shelf-row",
+      "list-context.image-list#winter-banner-slides-2",
+      "flex-layout.row#winter-shelf-row-02",
+      "list-context.image-list#winter-banner-slides-03",
+      "flex-layout.row#winter-shelf-row-03"
+    ]
+  },
+
+  "flex-layout.row#winter-title-row" : {
+    "props":{
+      "horizontalAlign": "center"
     },
-    "list-context.image-list#winter-main-banner": {
-        "children": [
-            "slider-layout#winter-main-banner"
-        ],
-        "props": {
-            "height": 720,
-            "images": [
-                {
-                    "image": "https://cassol.vtexassets.com/arquivos/banner-principal-desk.png",
-                    "mobileImage": "https://cassol.vtexassets.com/arquivos/banner-principal-mobile.png"
-                },
-                {
-                    "image": "https://cassol.vtexassets.com/arquivos/banner-principal-desk.png",
-                    "mobileImage": "https://cassol.vtexassets.com/arquivos/banner-principal-mobile.png"
-                }
-            ]
-        }
-    },
-    "slider-layout#winter-main-banner": {
-        "props": {
-            "itemsPerPage": {
-                "desktop": 1,
-                "tablet": 1,
-                "phone": 1
-            },
-            "autoplay": {
-                "timeout": 4000
-            },
-            "stopOnHover": true,
-            "infinite": true,
-            "showNavigationArrows": "desktopOnly",
-            "blockClass": "banner-principal"
-        }
-    },
-    "list-context.image-list#winter-banner-slides": {
-        "props": {
-            "images": [
-                {
-                    "image": "assets/images/500x238.png"
-                },
-                {
-                    "image": "assets/images/500x238.png"
-                }
-            ]
+    "children": ["rich-text#winter-title"]
+  },
+  "rich-text#winter-title": {
+    "props": {
+      "text": "# Ofertas especiais de inverno",
+      "textPosition":"center",
+      "textAlignment":"center",
+      "blockClass": "winterTitle"
+    }
+  },
+  "list-context.image-list#winter-main-banner": {
+    "children": [
+      "slider-layout#winter-main-banner"
+    ],
+    "props": {
+      "height": 720,
+      "images": [
+        {
+          "image": "https://cassol.vtexassets.com/arquivos/banner-principal-desk.png",
+          "mobileImage": "https://cassol.vtexassets.com/arquivos/banner-principal-mobile.png"
         },
-        "children": [
-            "slider-layout#winter-banner-slides"
-        ]
-    },
-    "slider-layout#winter-banner-slides": {
-        "props": {
-            "itemsPerPage": {
-                "desktop": 2,
-                "tablet": 2,
-                "phone": 1
-            },
-            "infinite": true,
-            "showNavigationArrows": "always",
-            "blockClass": "carousel",
-            "centerMode": {
-                "desktop": "disabled",
-                "mobile": "to-the-left",
-                "phone": "to-the-left"
-            },
-            "usePagination": true
+        {
+          "image": "https://cassol.vtexassets.com/arquivos/banner-principal-desk.png",
+          "mobileImage": "https://cassol.vtexassets.com/arquivos/banner-principal-mobile.png"
         }
-    },
-    "list-context.product-list#winter-shelf-01": {
-        "blocks": [
-          "product-summary.shelf"
-        ],
-        "children": [
-          "slider-layout#winter-shelf-01"
-        ],
-        "props": {
-          "orderBy": "OrderByBestDiscountDESC",
-          "hideUnavailableItems": true
-        }
+      ]
+    }
+  },
+  "slider-layout#winter-main-banner": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
       },
-      "slider-layout#winter-shelf-01": {
-        "props": {
-          "itemsPerPage": {
-            "desktop": 4,
-            "tablet": 2,
-            "phone": 1
-          },
-          "showNavigationArrows": "desktopOnly",
-          "infinite": true,
-          "fullWidth": false,
-          "usePagination": true,
-          "centerMode": {
-            "desktop": "disabled",
-            "phone": "to-the-left",
-            "mobile": "to-the-left"
-          },
-          "blockClass": "shelf"
+      "autoplay": {
+        "timeout": 4000
+      },
+      "stopOnHover": true,
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "banner-principal"
+    }
+  },
+  "list-context.image-list#winter-banner-slides": {
+    "props": {
+      "height": 360,
+      "images": [
+        {
+          "image": "assets/images/whatislove610-360.jpg",
+          "width":"610px"
         },
-        "children":[]
-      }
+        {
+          "image": "assets/images/whatislove610-360.jpg",
+          "width":"610px"
+        }
+      ]
+    },
+    "children": [
+      "slider-layout#winter-banner-slides"
+    ]
+  },
+  "slider-layout#winter-banner-slides": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 2,
+        "tablet": 2,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "never",
+      "showPaginationDots": "desktopOnly",
+      "centerMode": {
+        "desktop": "disabled",
+        "mobile": "disabled",
+        "phone": "to-the-left"
+      },
+      "usePagination": true
+    }
+  },
+
+  "flex-layout.row#winter-shelf-row" : {
+    "props" : {
+      "blockClass": ["shelf-block"],
+      "colSizing": "auto"
+    },
+    "children" : ["rich-text#shelf-title-01","list-context.product-list#winter-shelf-01"]
+  },
+
+  "rich-text#shelf-title-01": {
+    "props": {
+      "text": "## Vitrine",
+      "blockClass" :["winter-shelf-title"]
+    }
+  },
+  "list-context.product-list#winter-shelf-01": {
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "children": [
+      "slider-layout#winter-shelf-01"
+    ],
+    "props": {
+      "orderBy": "OrderByBestDiscountDESC",
+      "hideUnavailableItems": true
+    }
+  },
+  "slider-layout#winter-shelf-01": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 2,
+        "phone": 1
+      },
+      "showNavigationArrows": "desktopOnly",
+      "infinite": true,
+      "fullWidth": false,
+      "usePagination": true,
+      "centerMode": {
+        "desktop": "disabled",
+        "phone": "to-the-left",
+        "mobile": "to-the-left"
+      },
+      "blockClass": "shelf"
+    },
+    "children": []
+  },
+
+  "flex-layout.row#winter-shelf-row-02" : {
+    "props" : {
+      "blockClass": ["shelf-block"],
+      "colSizing": "auto"
+    },
+    "children" : ["rich-text#shelf-title-02","list-context.product-list#winter-shelf-02"]
+  },
+
+  "rich-text#shelf-title-02": {
+    "props": {
+      "text": "## Vitrine",
+      "blockClass": ["winter-shelf-title"]
+    }
+  },
+  "list-context.product-list#winter-shelf-02": {
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "children": [
+      "slider-layout#winter-shelf-02"
+    ],
+    "props": {
+      "orderBy": "OrderByBestDiscountDESC",
+      "hideUnavailableItems": true
+    }
+  },
+  "slider-layout#winter-shelf-02": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 2,
+        "phone": 1
+      },
+      "showNavigationArrows": "desktopOnly",
+      "infinite": true,
+      "fullWidth": false,
+      "usePagination": true,
+      "centerMode": {
+        "desktop": "disabled",
+        "phone": "to-the-left",
+        "mobile": "to-the-left"
+      },
+      "blockClass": "shelf"
+    },
+    "children": []
+  },
+  "list-context.image-list#winter-banner-slides-2": {
+    "props": {
+      "height" : 400,
+      "images": [
+        
+        {
+          "image": "assets/images/bird-380-400.jpg",
+          "width" : "380px"
+        },
+        {
+          "image": "assets/images/bird-380-400.jpg",
+          "width" : "380px"
+        },
+        {
+          "image": "assets/images/bird-380-400.jpg",
+          "width" : "380px"
+        }
+      ]
+    },
+    "children": [
+      "slider-layout#winter-banner-slides-2"
+    ]
+  },
+  "slider-layout#winter-banner-slides-2": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 2,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "showPaginationDots": "desktopOnly",
+      "centerMode": {
+        "desktop": "disabled",
+        "mobile": "to-the-left",
+        "phone": "to-the-left"
+      },
+      "usePagination": true
+    }
+  },
+  "list-context.image-list#winter-banner-slides-03": {
+    "props": {
+      "height": 360,
+      "images": [
+        {
+          "image": "assets/images/whatislove610-360.jpg",
+          "width":"610px"
+        },
+        {
+          "image": "assets/images/whatislove610-360.jpg",
+          "width":"610px"
+        }
+      ]
+    },
+    "children": [
+      "slider-layout#winter-banner-slides"
+    ]
+  },
+  "slider-layout#winter-banner-slides-03": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 2,
+        "tablet": 2,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "never",
+      "showPaginationDots": "desktopOnly",
+      "centerMode": {
+        "desktop": "disabled",
+        "mobile": "to-the-left",
+        "phone": "to-the-left"
+      },
+      "usePagination": true
+    }
+  },
+
+  "flex-layout.row#winter-shelf-row-03" : {
+    "props": {
+      "blockClass": ["shelf-block"],
+      "colSizing": "auto"
+    },
+    "children": ["rich-text#shelf-title-03","list-context.product-list#winter-shelf-03"]
+  },
+
+  "rich-text#shelf-title-03": {
+    "props": {
+      "text": "## Vitrine",
+      "blockClass": ["winter-shelf-title"]
+    }
+  },
+  "list-context.product-list#winter-shelf-03": {
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "children": [
+      "slider-layout#winter-shelf-02"
+    ],
+    "props": {
+      "orderBy": "OrderByBestDiscountDESC",
+      "hideUnavailableItems": true
+    }
+  },
+  "slider-layout#winter-shelf-03": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 2,
+        "phone": 1
+      },
+      "showNavigationArrows": "desktopOnly",
+      "showPaginationDots" : "desktopOnly",
+      "infinite": true,
+      "fullWidth": true,
+      "usePagination": true,
+      "centerMode": {
+        "desktop": "disabled",
+        "phone": "to-the-left",
+        "mobile": "to-the-left"
+      },
+      "blockClass": "shelf"
+    },
+    "children": []
+  }
 }

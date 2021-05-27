@@ -797,6 +797,14 @@
 .heading--worldTitle{
   color: #003459;
 }
+
+/* LP´s */
+
+.heading--winter-shelf-title { 
+  margin-left: 7.5vw;
+  color: #184077;
+}
+.container--winterTitle{justify-content: center;}
 @media screen and (max-width:767px) {
   .heading--believes-title{
     max-width: none;
@@ -806,6 +814,11 @@
   }
   .heading--white-bold{
     max-height:none;
+  }
+
+  .heading--winterTitle{
+    margin-left: 6vw;
+    margin-right: 6vw;
   }
 
   .link--vacancy-link {
@@ -831,5 +844,5 @@
     text-align: justify;
   }
 
-  
+
 }

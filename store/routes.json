@@ -135,7 +135,7 @@
   "store.custom#world":{
     "path":"/tabloide/pisos-e-revestimentos"
   },
-  "store.custom#inverno":{
-    "path":"/inverno"
+  "store.custom#especial-inverno":{
+    "path":"/especial-inverno"
   }
 }
