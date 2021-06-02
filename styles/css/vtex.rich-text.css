@@ -843,6 +843,11 @@
     max-width: 80%;
     text-align: justify;
   }
-
-
+  /* Valentines */
+  .heading--valentinesTitle, .heading--valentines-shelf-title{
+    text-align: center;
+  }
+  .container--valentines-shelf-title{justify-content: center;}
 }
+/* Valentine´s  */
+.container--valentinesTitle{justify-content: center;}

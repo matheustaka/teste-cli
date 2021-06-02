@@ -10,7 +10,8 @@
       "product-reviews",
       "__fold__",
       "product-questions-and-answers",
-      "shelf.relatedProducts"
+      "shelf.relatedProducts#UpSelling",
+      "shelf.relatedProducts#CrossSelling"
     ]
   },
 
@@ -277,15 +278,45 @@
     ]
   },
 
-  "shelf.relatedProducts": {
-    "blocks": ["product-summary.shelf"],
+  "shelf.relatedProducts#UpSelling": {
+    "blocks": ["product-summary.shelf#CrossSelling"],
       "props": {
-        "recommendation": "similars",
+        "recommendation": "suggestions",
         "blockClass": "ShelfQuemViuViuTambem",
         "productList": {
-            "titleText": "Related Products",
+            "titleText": "Você pode gostar de",
             "itemsPerPage": 4
         }
+    }
+  },
+  "shelf.relatedProducts#CrossSelling": {
+    "blocks": ["product-summary.shelf#CrossSelling"],
+      "props": {
+        "recommendation": "buy",
+        "blockClass": "ShelfQuemViuViuTambem",
+        "productList": {
+            "titleText": "Quem comprou, comprou também",
+            "itemsPerPage": 4
+        }
+    }
+  },
+
+  "product-summary.shelf#CrossSelling": {
+    "props": {},
+    "children": [
+      "flex-layout.row#highlights",
+      "stack-layout#prodsum",
+      "product-summary-name",
+      "product-rating-inline",
+      "condition-layout.product#product",
+      "product-summary-sku-selector",
+      "add-to-cart-button#CrossSelling"
+    ]
+  },
+
+  "add-to-cart-button#CrossSelling": {
+    "props": {
+      "text": "Adicionar ao carrinho"
     }
   },
   "flex-layout.row#share":{

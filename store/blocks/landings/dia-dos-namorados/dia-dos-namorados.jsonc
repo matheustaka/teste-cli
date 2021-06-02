@@ -1,0 +1,281 @@
+{
+    "store.custom#especial-dia-dos-namorados": {
+      "blocks": [
+        "list-context.image-list#valentines-main-banner",
+        "flex-layout.row#valentines-title-row",
+        "flex-layout.row#valentines-shelf-row",
+        "list-context.image-list#valentines-banner-slides-2",
+        "flex-layout.row#valentines-shelf-row-02"
+      ]
+    },
+  
+    "flex-layout.row#valentines-title-row" : {
+      "props":{
+        "horizontalAlign": "center"
+      },
+      "children": ["rich-text#valentines-title"]
+    },
+    "rich-text#valentines-title": {
+      "props": {
+        "text": "# Dia dos Namorados",
+        "textPosition":"center",
+        "textAlignment":"center",
+        "blockClass": "valentinesTitle"
+      }
+    },
+    "list-context.image-list#valentines-main-banner": {
+      "children": [
+        "slider-layout#valentines-main-banner"
+      ],
+      "props": {
+        "height": 720,
+        "images": [
+          {
+            "image": "assets/images/sunflower.jpg"
+          }
+        ]
+      }
+    },
+    "slider-layout#valentines-main-banner": {
+      "props": {
+        "itemsPerPage": {
+          "desktop": 1,
+          "tablet": 1,
+          "phone": 1
+        },
+        "autoplay": {
+          "timeout": 4000
+        },
+        "stopOnHover": true,
+        "infinite": true,
+        "showNavigationArrows": "desktopOnly",
+        "blockClass": "banner-principal"
+      }
+    },
+    "slider-layout#valentines-banner-slides": {
+      "props": {
+        "itemsPerPage": {
+          "desktop": 2,
+          "tablet": 2,
+          "phone": 1
+        },
+        "infinite": true,
+        "showNavigationArrows": "never",
+        "showPaginationDots": "always",
+        "centerMode": {
+          "desktop": "disabled",
+          "mobile": "disabled",
+          "phone": "disabled"
+        },
+        "autoplay" :{
+          "timeout": 2800
+        },
+        "usePagination": true,
+        "blockClass": ["valentines-banner-slides"]
+      }
+    },
+  
+    "flex-layout.row#valentines-shelf-row" : {
+      "props" : {
+        "blockClass": ["shelf-block"],
+        "colSizing": "auto"
+      },
+      "children" : ["rich-text#valentine-shelf-title-01","list-context.product-list#valentines-shelf-01"]
+    },
+  
+    "rich-text#valentine-shelf-title-01": {
+      "props": {
+        "text": "## Vitrine",
+        "blockClass" :["valentines-shelf-title"]
+      }
+    },
+    "list-context.product-list#valentines-shelf-01": {
+      "blocks": [
+        "product-summary.shelf"
+      ],
+      "children": [
+        "slider-layout#valentines-shelf-01"
+      ],
+      "props": {
+        "orderBy": "OrderByBestDiscountDESC",
+        "hideUnavailableItems": true
+      }
+    },
+    "slider-layout#valentines-shelf-01": {
+      "props": {
+        "itemsPerPage": {
+          "desktop": 4,
+          "tablet": 2,
+          "phone": 1
+        },
+        "showNavigationArrows": "desktopOnly",
+        "infinite": true,
+        "fullWidth": false,
+        "usePagination": true,
+        "centerMode": {
+          "desktop": "disabled",
+          "phone": "to-the-left",
+          "mobile": "to-the-left"
+        },
+        "blockClass": "shelf"
+      },
+      "children": []
+    },
+  
+    "flex-layout.row#valentines-shelf-row-02" : {
+      "props" : {
+        "blockClass": ["shelf-block"],
+        "colSizing": "auto"
+      },
+      "children" : ["rich-text#valentine-shelf-title-02","list-context.product-list#valentines-shelf-02"]
+    },
+  
+    "rich-text#valentine-shelf-title-02": {
+      "props": {
+        "text": "## Vitrine",
+        "blockClass": ["valentines-shelf-title"]
+      }
+    },
+    "list-context.product-list#valentines-shelf-02": {
+      "blocks": [
+        "product-summary.shelf"
+      ],
+      "children": [
+        "slider-layout#valentines-shelf-02"
+      ],
+      "props": {
+        "orderBy": "OrderByBestDiscountDESC",
+        "hideUnavailableItems": true
+      }
+    },
+    "slider-layout#valentines-shelf-02": {
+      "props": {
+        "itemsPerPage": {
+          "desktop": 4,
+          "tablet": 2,
+          "phone": 1
+        },
+        "showNavigationArrows": "desktopOnly",
+        "infinite": true,
+        "fullWidth": false,
+        "usePagination": true,
+        "centerMode": {
+          "desktop": "disabled",
+          "phone": "to-the-left",
+          "mobile": "to-the-left"
+        },
+        "blockClass": "shelf"
+      },
+      "children": []
+    },
+    "list-context.image-list#valentines-banner-slides-2": {
+      "props": {
+        "height" : 400,
+        "images": [
+          
+          {
+            "image": "assets/images/rose.jpg",
+            "width" : "380px"
+          },
+          {
+            "image": "assets/images/orchid.jpg",
+            "width" : "380px"
+          },
+          {
+            "image": "assets/images/lion-teeth.jpg",
+            "width" : "380px"
+          }
+        ]
+      },
+      "children": [
+        "slider-layout#valentines-banner-slides-2"
+      ]
+    },
+    "slider-layout#valentines-banner-slides-2": {
+      "props": {
+        "itemsPerPage": {
+          "desktop": 3,
+          "tablet": 2,
+          "phone": 1
+        },
+        "infinite": true,
+        "showNavigationArrows": "desktopOnly",
+        "showPaginationDots": "always",
+        "centerMode": {
+          "desktop": "disabled",
+          "mobile": "to-the-left",
+          "phone": "to-the-left"
+        },
+        "usePagination": true,
+        "autoplay" :{
+          "timeout": 2800
+        }
+      }
+    },
+    "slider-layout#valentines-banner-slides-03": {
+      "props": {
+        "itemsPerPage": {
+          "desktop": 2,
+          "tablet": 2,
+          "phone": 1
+        },
+        "infinite": true,
+        "showNavigationArrows": "never",
+        "showPaginationDots": "desktopOnly",
+        "centerMode": {
+          "desktop": "disabled",
+          "mobile": "to-the-left",
+          "phone": "to-the-left"
+        },
+        "usePagination": true
+      }
+    },
+  
+    "flex-layout.row#valentines-shelf-row-03" : {
+      "props": {
+        "blockClass": ["shelf-block"],
+        "colSizing": "auto"
+      },
+      "children": ["rich-text#valentine-shelf-title-03","list-context.product-list#valentines-shelf-03"]
+    },
+  
+    "rich-text#valentine-shelf-title-03": {
+      "props": {
+        "text": "## Vitrine",
+        "blockClass": ["valentines-shelf-title"]
+      }
+    },
+    "list-context.product-list#valentines-shelf-03": {
+      "blocks": [
+        "product-summary.shelf"
+      ],
+      "children": [
+        "slider-layout#valentines-shelf-02"
+      ],
+      "props": {
+        "orderBy": "OrderByBestDiscountDESC",
+        "hideUnavailableItems": true
+      }
+    },
+    "slider-layout#valentines-shelf-03": {
+      "props": {
+        "itemsPerPage": {
+          "desktop": 4,
+          "tablet": 2,
+          "phone": 1
+        },
+        "showNavigationArrows": "desktopOnly",
+        "showPaginationDots" : "desktopOnly",
+        "infinite": true,
+        "fullWidth": true,
+        "usePagination": true,
+        "centerMode": {
+          "desktop": "disabled",
+          "phone": "to-the-left",
+          "mobile": "to-the-left"
+        },
+        "blockClass": "shelf"
+      },
+      "children": []
+    }
+  }

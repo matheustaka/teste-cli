@@ -308,7 +308,9 @@
 .filter__container--selectedFilters {
   display: none;
 }
-
+.filter__container--promocao{
+  display: none;
+}
 @media screen and (max-width:767px) {
   .gallery--default-grid{
     margin: 0px;

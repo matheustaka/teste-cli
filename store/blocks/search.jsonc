@@ -79,7 +79,18 @@
       "search-result-layout.desktop",
       "search-result-layout.mobile",
       "search-not-found-layout"
-    ]
+    ],
+    "props": {
+      "hiddenFacets": {
+        "specificationFilters": {
+          "hiddenFilters": [
+            {
+              "name": "PROMOÇÂO"
+            }
+          ]
+        }
+      }
+    }
   },
   "search-result-layout.desktop": {
     "children": [
@@ -97,6 +108,15 @@
       "mobileLayout": {
         "mode1": "small",
         "mode2": "normal"
+      },
+      "hiddenFacets": {
+        "specificationFilters": {
+          "hiddenFilters": [
+            {
+              "name": "PROMOÇÂO"
+            }
+          ]
+        }
       }
     }
   },
@@ -206,7 +226,9 @@
     "props": {
       "marginTop": 3,
       "colSizing": "auto",
-      "blockClass":["fetchMore"]
+      "blockClass": [
+        "fetchMore"
+      ]
     },
     "children": [
       "search-products-count-per-page",

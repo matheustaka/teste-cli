@@ -137,5 +137,8 @@
   },
   "store.custom#especial-inverno":{
     "path":"/especial-inverno"
+  },
+  "store.custom#especial-dia-dos-namorados":{
+    "path":"/especial-dia-dos-namorados"
   }
 }
