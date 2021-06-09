@@ -629,6 +629,8 @@
 .imageElement--deals-phone {
   width: auto;
   height: auto;
+  min-width: 200px;
+  min-height: 30px;
 }
 
 .infoCardContainer--info-card-share {
