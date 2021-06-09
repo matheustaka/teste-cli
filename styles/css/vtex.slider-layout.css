@@ -134,12 +134,18 @@
   padding: 0 0 4vh 3.6vw;
 }
 @media (max-width: 1024px) {
-  .slide--mini-banners {
+  /* .slide--mini-banners {
     width: 263px !important;
     padding: 0 10px;
-  }
+  } */
   .sliderLayoutContainer--shelf {
     padding: 0 !important;
+  }
+  .sliderLayoutContainer--lp-shelf {
+    padding: 0 4%!important;
+  }
+  .slide--mini-banners--visible{
+    margin: 0 !important;
   }
 }
 

@@ -17,7 +17,7 @@
     },
     "rich-text#valentines-title": {
       "props": {
-        "text": "# Dia dos Namorados",
+        "text": "# Outlet Casa & Decoração",
         "textPosition":"center",
         "textAlignment":"center",
         "blockClass": "valentinesTitle"
@@ -117,7 +117,7 @@
           "phone": "to-the-left",
           "mobile": "to-the-left"
         },
-        "blockClass": "shelf"
+        "blockClass": ["shelf", "lp-shelf"]
       },
       "children": []
     },
@@ -164,7 +164,7 @@
           "phone": "to-the-left",
           "mobile": "to-the-left"
         },
-        "blockClass": "shelf"
+        "blockClass": ["shelf", "lp-shelf"]
       },
       "children": []
     },
