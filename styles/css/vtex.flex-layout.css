@@ -619,6 +619,16 @@
   width: 215px;
 }
 
+
+.flexColChild--categoryBanners{
+  padding: .3rem ;
+}
+.flexRowContent--categoryBanners{
+  justify-content: space-evenly;
+  display: flex;
+  padding: 10px 0;
+}
+
 @media (max-width: 767.98px) {
   .flexRow--productContainer,
   .flexRow--productBreadcrumb,
@@ -694,6 +704,7 @@
     padding: 0 20px;
   }
 
+  
   .flexRowContent--searchinfomobile .stretchChildrenWidth {
     width: 50% !important;
     margin: auto;
@@ -703,6 +714,7 @@
   .flexRow--banners-home--02 {
     margin: auto 20px;
   }
+  
   .flexRowContent--seo-container {
     padding: 0 20px;
   }
@@ -823,6 +835,11 @@
   .flexRow--banners-home--02 {
     max-width: 1250px;
     margin: 20px auto;
+  }
+
+  .flexCol--btnSeeAll{
+    align-items: flex-end;
+    margin-top: -65px;
   }
 
   .flexRowContent--banners-home--01,
@@ -1130,4 +1147,5 @@
   .flexCol--institucionalSidebar {
     display: none;
   }
+
 }

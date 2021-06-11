@@ -133,6 +133,14 @@
   justify-content: flex-end;
   padding: 0 0 4vh 3.6vw;
 }
+
+
+.sliderLayoutContainer--categoryBanners{
+  padding: 5px 0;
+}
+.slide--categoryBanners{
+  padding: .3rem;
+}
 @media (max-width: 1024px) {
   /* .slide--mini-banners {
     width: 263px !important;
@@ -143,9 +151,6 @@
   }
   .sliderLayoutContainer--lp-shelf {
     padding: 0 4%!important;
-  }
-  .slide--mini-banners--visible{
-    margin: 0 !important;
   }
 }
 
@@ -172,6 +177,10 @@
     left: 0;
   }
 
+  .slide--categoryBanners {
+    max-width: 400px;
+  }
+
   .slideChildrenContainer--shelf:global(.vtex-product-summary-2-x-imageContainer) {
     width: 268px;
     height: 100%;
@@ -188,4 +197,11 @@
 }
 
 @media screen and (max-width:767px) {
+  .slide--valentine-banner-slides--visible{
+    width: 12.5% !important;
+  }
+
+  .imageElement--categoryBanners{
+    height:120px !important;
+  }
 }

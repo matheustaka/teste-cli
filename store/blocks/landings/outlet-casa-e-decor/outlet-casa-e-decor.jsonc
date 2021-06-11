@@ -31,7 +31,7 @@
         "height": 720,
         "images": [
           {
-            "image": "assets/images/sunflower.jpg"
+            "image": "https://cassol.vtexassets.com/assets/vtex.file-manager-graphql/images/aa166a1f-ea11-4106-8df1-569ddf7d0b71___ea24e032afefbec6d51a00dc47c4efd5.png"
           }
         ]
       }
@@ -174,15 +174,15 @@
         "images": [
           
           {
-            "image": "assets/images/rose.jpg",
+            "image": "https://cassol.vtexassets.com/assets/vtex.file-manager-graphql/images/4168fcc2-dcd3-42e7-a109-3a1e6be6cfd4___6c0cfdbbf804e51e6cba798abf5e1744.png",
             "width" : "380px"
           },
           {
-            "image": "assets/images/orchid.jpg",
+            "image": "https://cassol.vtexassets.com/assets/vtex.file-manager-graphql/images/e7eea6c3-d01b-4a8e-b531-8616207544e4___ea276b5db69e73612e82eae689319acc.png",
             "width" : "380px"
           },
           {
-            "image": "assets/images/lion-teeth.jpg",
+            "image": "https://cassol.vtexassets.com/assets/vtex.file-manager-graphql/images/d3603fef-4754-49c0-9fe8-11307d2b0bea___df7a7366adec6068102e13fe4315fb00.png",
             "width" : "380px"
           }
         ]
@@ -207,9 +207,7 @@
           "phone": "to-the-left"
         },
         "usePagination": true,
-        "autoplay" :{
-          "timeout": 2800
-        }
+        "blockClass": "valentine-banner-slides"
       }
     },
     "slider-layout#valentines-banner-slides-03": {

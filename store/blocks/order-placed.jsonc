@@ -1,0 +1,194 @@
+{
+    "order-placed": {
+        "blocks": [
+            "op-header",
+            "op-order"
+        ]
+    },
+    "op-header": {
+        "children": [
+            "op-section#confirmation",
+
+            // Default block of informations
+            // "op-section#notices",
+
+            // Custom block of informations
+            "flex-layout.row#container-notices",
+            "op-summary-section",
+            "op-bank-invoice-section"
+        ]
+    },
+    "op-section#confirmation": {
+        "props": {
+            "name": "confirmation",
+            "marginBottom": 9,
+            "borderless": true
+        },
+        "children": [
+            "op-confirmation-icon",
+            "op-confirmation-title",
+            "op-confirmation-message",
+            "flex-layout.row#confirmation-buttons"
+        ]
+    },
+    "flex-layout.row#confirmation-buttons": {
+        "props": {
+            "blockClass": "confirmationButtons",
+            "marginTop": 8,
+            "marginBottom": 8,
+            "horizontalAlign": "center",
+            "preventHorizontalStretch": true
+        },
+        "children": [
+            "flex-layout.col#confirmation-buttons"
+        ]
+    },
+    "flex-layout.col#confirmation-buttons": {
+        "children": [
+            "op-print-button"
+        ]
+    },
+    "op-section#notices": {
+        "props": {
+            "name": "notices",
+            "marginBottom": 9,
+            "borderless": true
+        },
+        "children": [
+            "op-notices"
+        ]
+    },
+    "flex-layout.row#container-notices": {
+        "props": {
+            "blockClass": [
+                "orderPlacedContainer"
+            ]
+        },
+        "children": [
+            "flex-layout.col#container-notices"
+        ]
+    },
+    "flex-layout.col#container-notices": {
+        "props": {
+            "horizontalAlign": "center",
+            "blockClass": [
+                ""
+            ]
+        },
+        "children": [
+            "rich-text#notice-1",
+            "rich-text#notice-2",
+            "rich-text#notice-3",
+            "rich-text#notice-4"
+        ]
+    },
+    "rich-text#notice-1": {
+        "props": {
+            "text": "Fique atento às informações abaixo:",
+            "textAlignment": "center",
+            "textPosition": "center"
+        }
+    },
+    "rich-text#notice-2": {
+        "props": {
+            "text": "Compras com **CARTÃO DE CRÉDITO** ou **CARTÃO CASSOL**: Aprovação pode levar até 48h.",
+            "textAlignment": "center",
+            "textPosition": "center"
+        }
+    },
+    "rich-text#notice-3": {
+        "props": {
+            "text": "Pagamentos com **BOLETO BANCÁRIO**: A identificação do pagamento pode ocorrer em até 2 dias úteis.",
+            "textAlignment": "center",
+            "textPosition": "center"
+        }
+    },
+    "rich-text#notice-4": {
+        "props": {
+            "text": "Enviaremos um e-mail assim que o pagamento for confirmado. O prazo de entrega passa a contar a partir da confirmação do pagamento.",
+            "textAlignment": "center",
+            "textPosition": "center"
+        }
+    },
+    // each order section
+    "op-order": {
+        "children": [
+            "flex-layout.row#order-header",
+            "op-order-split-notice",
+            "op-order-customer",
+            "op-section#payments",
+            "op-section#pickup-packages",
+            "op-section#delivery-packages",
+            "op-order-takeaway-packages",
+            "op-order-total"
+        ]
+    },
+    // each order header
+    "flex-layout.row#order-header": {
+        "props": {
+            "fullWidth": true,
+            "colSizing": "auto",
+            "colGap": 5,
+            "marginBottom": 5
+        },
+        "children": [
+            "flex-layout.col#order-header-info",
+            "flex-layout.col#order-header-options"
+        ]
+    },
+    "flex-layout.col#order-header-info": {
+        "children": [
+            "op-order-number",
+            "op-order-datetime",
+            "op-order-seller"
+        ]
+    },
+    "flex-layout.col#order-header-options": {
+        "children": [
+            "responsive-layout.desktop#order-options-desktop"
+        ]
+    },
+    "responsive-layout.desktop#order-options-desktop": {
+        "children": [
+            "op-order-options"
+        ]
+    },
+    // payment section
+    "op-section#payments": {
+        "props": {
+            "name": "paymentMethods"
+        },
+        "children": [
+            "op-order-payment",
+            "responsive-layout.mobile#order-options-mobile"
+        ]
+    },
+    // bottom of top section of order header
+    "responsive-layout.mobile#order-options-mobile": {
+        "children": [
+            "op-order-options#mobile"
+        ]
+    },
+    "op-order-options#mobile": {
+        "props": {
+            "blockClass": "mobile",
+            "fullWidth": true
+        }
+    },
+    "op-section#pickup-packages": {
+        "props": {
+            "name": "pickupPackages"
+        },
+        "children": [
+            "op-order-pickup-packages"
+        ]
+    },
+    "op-section#delivery-packages": {
+        "props": {
+            "name": "deliveryPackages"
+        },
+        "children": [
+            "op-order-delivery-packages"
+        ]
+    }
+}
