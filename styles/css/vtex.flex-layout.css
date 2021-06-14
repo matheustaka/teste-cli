@@ -995,6 +995,12 @@
 .flexRowContent--orderPlacedContainer .flexColChild{
   padding: .6rem 0;
 }
+
+.flexCol--orderPlacedContent{
+  max-width: 90%;
+  margin: 0 auto;
+}
+
 .flexRow--textRow {
   background-color: #b2b2b2;
   align-items: center;

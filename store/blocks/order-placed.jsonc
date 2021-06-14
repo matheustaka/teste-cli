@@ -72,7 +72,7 @@
         "props": {
             "horizontalAlign": "center",
             "blockClass": [
-                ""
+                "orderPlacedContent"
             ]
         },
         "children": [
