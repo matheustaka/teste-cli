@@ -10,10 +10,10 @@
             "op-section#confirmation",
 
             // Default block of informations
-            // "op-section#notices",
+            "op-section#notices",
 
             // Custom block of informations
-            "flex-layout.row#container-notices",
+            // "flex-layout.row#container-notices",
             "op-summary-section",
             "op-bank-invoice-section"
         ]
