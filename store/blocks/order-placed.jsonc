@@ -9,11 +9,9 @@
         "children": [
             "op-section#confirmation",
 
-            // Default block of informations
-            "op-section#notices",
-
-            // Custom block of informations
-            // "flex-layout.row#container-notices",
+            
+            // "op-section#notices"         // Default block of informations  
+            "flex-layout.row#container-notices", // Custom block of informations
             "op-summary-section",
             "op-bank-invoice-section"
         ]
