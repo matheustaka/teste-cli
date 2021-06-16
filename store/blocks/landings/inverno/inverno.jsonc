@@ -86,9 +86,6 @@
         "mobile": "disabled",
         "phone": "disabled"
       },
-      "autoplay" :{
-        "timeout": 2800
-      },
       "usePagination": true,
       "blockClass": ["winter-banner-slides"]
     }
@@ -225,10 +222,7 @@
         "mobile": "disabled",
         "phone": "disabled"
       },
-      "usePagination": true,
-      "autoplay" :{
-        "timeout": 2800
-      }
+      "usePagination": true
     }
   },
   "list-context.image-list#winter-banner-slides-03": {
