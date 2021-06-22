@@ -97,6 +97,9 @@
         "tagTitle": "Minha Conta",
         "text": "Minha Conta"
       },
+      "iconProps": {
+        "id": "hpa-profile"
+      },
       "blockClass": [ "department", "first-department"]
     }
   },

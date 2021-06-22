@@ -105,10 +105,11 @@
   border: 1px solid #e9e9e9;
   padding: 7px 4px;
 }
-.slideChildrenContainer--shelf :global(.vtex-product-summary-2-x-containerNormal)
-:global(.vtex-product-summary-2-x-element)
-:global(.vtex-flex-layout-0-x-flexRow)
-:global(.vtex-flex-layout-0-x-flexRowContent) {
+.slideChildrenContainer--shelf
+  :global(.vtex-product-summary-2-x-containerNormal)
+  :global(.vtex-product-summary-2-x-element)
+  :global(.vtex-flex-layout-0-x-flexRow)
+  :global(.vtex-flex-layout-0-x-flexRowContent) {
   margin-bottom: 0;
 }
 
@@ -117,29 +118,25 @@
   height: 8px !important;
 }
 
-.sliderLayoutContainer--world-adverstising{
+.sliderLayoutContainer--world-adverstising {
   padding: 0 10px;
 }
 
-.slide--shelf--visible{
-  margin-right: 0px !important;
-}
-
-.sliderLayoutContainer--vacancy-banner , .sliderLayoutContainer--jointeam{
+.sliderLayoutContainer--vacancy-banner,
+.sliderLayoutContainer--jointeam {
   padding: 0;
 }
 
-.sliderLayoutContainer--world-adverstising{
+.sliderLayoutContainer--world-adverstising {
   justify-content: flex-end;
   padding: 0 0 4vh 3.6vw;
 }
 
-
-.sliderLayoutContainer--categoryBanners{
+.sliderLayoutContainer--categoryBanners {
   padding: 5px 0;
 }
-.slide--categoryBanners{
-  padding: .3rem;
+.slide--categoryBanners {
+  padding: 0.3rem;
 }
 @media (max-width: 1024px) {
   /* .slide--mini-banners {
@@ -150,7 +147,7 @@
     padding: 0 !important;
   }
   .sliderLayoutContainer--lp-shelf {
-    padding: 0 4%!important;
+    padding: 0 4% !important;
   }
 }
 
@@ -167,7 +164,7 @@
   }
 
   .sliderLayoutContainer--shelf {
-    padding: 0 30px 30px 30px!important;
+    padding: 0 30px 30px 30px !important;
   }
 
   .sliderRightArrow--shelf {
@@ -196,12 +193,38 @@
   }
 }
 
-@media screen and (max-width:767px) {
-  .slide--valentine-banner-slides--visible{
+@media screen and (max-width: 767px) {
+  .slide--banner-principal {
+    max-height: 300px;
+  }
+  .slide--valentine-banner-slides--visible {
     width: 12.5% !important;
   }
 
-  .imageElement--categoryBanners{
-    height:120px !important;
+  .imageElement--categoryBanners {
+    height: 120px !important;
+  }
+
+  .slide--mini-banners--visible {
+    width: 17% !important;
+    margin-right: 0 !important;
+  }
+
+  .slide--shelf--visible {
+    margin-right: 10px !important;
+    min-width: 50vw;
+    padding: 0.1%;
+    margin-left: 0 !important;
+  }
+
+  .sliderRightArrow--shelf{
+    right: -35px;
+  }
+  .sliderLeftArrow--shelf{
+    left: -25px;
+  }
+
+  .paginationDotsContainer--banner-principal{
+    bottom: -25px;
   }
 }

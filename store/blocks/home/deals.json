@@ -1,3 +1,4 @@
+
 {
   "slider-layout#deals": {
     "props": {
@@ -35,11 +36,11 @@
       "blockClass": [
         "deals-phone"
       ],
-      "autoplay": {
-        "timeout":3000
-      },
       "fullWidth":false,
-      "stopOnHover": true
+      "stopOnHover": true,
+      "centerMode": {
+        "phone": "to-the-left"
+      }
     },
     "children": [
       "image#deal1",

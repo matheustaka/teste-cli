@@ -27,6 +27,15 @@
     margin-right: 0;
     margin-left: 0;
   }
+
+  .styledLinkContent--first-department{
+    justify-content: flex-start;
+  }
+
+  .styledLinkIcon--first-department{
+    margin-right: 10px;
+  }
+  
 }
 
 @media (min-width: 767.99px) {
@@ -145,6 +154,7 @@
 .styledLinkContent--first-department {
   font-weight: 900;
 }
+
 
 @media (max-width: 1024px) {
   .menuContainerNav--drawer {

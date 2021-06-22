@@ -125,6 +125,19 @@
   color: #2d2e3a;
 }
 
+.backToTopButtonContainer :global(.vtex-button) {
+  background-color: #96969647;
+  border: none;
+  color: white;
+  width: 45px;
+}
+.backToTopButtonContainer :global(.vtex-button) :global(.vtex-button__label) {
+  width: 100%;
+  max-width: 80%;
+  padding: 0;
+  margin: 0 auto;
+  color: white;
+}
 @media only screen and (min-width: 640px) {
   .newsletter .container {
     padding: 140px;
@@ -629,7 +642,8 @@
 .imageElement--deals-phone {
   width: auto;
   height: auto;
-  min-width: 200px;
+  min-width: 205px;
+  max-width: 235px;
   min-height: 30px;
 }
 

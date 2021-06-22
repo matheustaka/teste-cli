@@ -704,6 +704,10 @@
     padding: 0 20px;
   }
 
+  .flexRow--shelf-container{
+    padding: 0 35px 0 30px;
+  }
+
   
   .flexRowContent--searchinfomobile .stretchChildrenWidth {
     width: 50% !important;
@@ -713,10 +717,6 @@
   .flexRow--banners-home--01,
   .flexRow--banners-home--02 {
     margin: auto 20px;
-  }
-  
-  .flexRowContent--seo-container {
-    padding: 0 20px;
   }
 
   .flexRowContent--socialNetworks-mobile
