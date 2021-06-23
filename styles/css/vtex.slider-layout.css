@@ -227,4 +227,8 @@
   .paginationDotsContainer--banner-principal{
     bottom: -25px;
   }
+
+  .slideChildrenContainer--mini-banners{
+    min-width: 230px;
+  }
 }
