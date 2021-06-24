@@ -169,6 +169,14 @@
   color: #707070;
 }
 
+.flexRowContent--minicartPrices{
+  display: flex;
+  justify-content: space-between;
+}
+
+.flexRowContent--productListQuantity{
+  max-width: 90%;
+}
 .flexRow--minicart-footer
   :global(.vtex-checkout-summary-0-x-summarySmallDisclaimer)::after {
   content: "Frete calculado no carrinho";

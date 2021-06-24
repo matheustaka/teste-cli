@@ -226,6 +226,7 @@
 
   .paginationDotsContainer--banner-principal{
     bottom: -25px;
+    z-index: 30;
   }
 
   .slideChildrenContainer--mini-banners{

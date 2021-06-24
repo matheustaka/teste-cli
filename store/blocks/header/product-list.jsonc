@@ -144,8 +144,10 @@
             "paddingBottom": "6",
             "paddingTop": "5",
             "colSizing": "auto",
-            "preserveLayoutOnMobile": "true",
-            "blockClass": ["listItem"]
+            "preserveLayoutOnMobile": "false",
+            "blockClass": [
+                "listItem"
+            ]
         }
     },
     "flex-layout.col#image.mobile": {
@@ -160,7 +162,7 @@
         "children": [
             "flex-layout.row#top.mobile",
             "flex-layout.row#quantity-selector.mobile",
-            "flex-layout.row#unit-price.mobile",
+            "flex-layout.row#prices.mobile",
             "flex-layout.row#message.mobile"
         ],
         "props": {
@@ -179,22 +181,31 @@
     },
     "flex-layout.row#quantity-selector.mobile": {
         "children": [
-            "quantity-selector",
-            "flex-layout.col#price.mobile"
+            "quantity-selector"
         ],
         "props": {
             "marginTop": "5",
             "preventHorizontalStretch": "true",
-
-            "blockClass":["productListQuantity"]
+            "blockClass": [
+                "productListQuantity"
+            ]
         }
     },
-    "flex-layout.row#unit-price.mobile": {
+
+    "quantity-selector": {
+        "props": {
+            "mode": "stepper"
+        }
+    },
+    "flex-layout.row#prices.mobile": {
         "children": [
-            "unit-price"
+            "flex-layout.col#price.mobile",
+            "flex-layout.col#unit-price.mobile"
         ],
         "props": {
-            "marginTop": "3"
+            "marginTop": "3",
+            "blockClass": "minicartPrices",
+            "colSizing": "auto"
         }
     },
     "flex-layout.col#price.mobile": {
@@ -202,11 +213,28 @@
             "price#mobile"
         ],
         "props": {
-            "horizontalAlign":"center",
+            "horizontalAlign": "left",
             "verticalAlign": "bottom",
-            "width": "grow",
             "marginTop": "5",
-            "preventHorizontalStretch": "true"
+            "preventHorizontalStretch": "true",
+            "preventVerticalStretch": "true"
+        }
+    },
+    "flex-layout.col#unit-price.mobile": {
+        "children": [
+            "unit-price#mobile"
+        ],
+        "props": {
+            "horizontalAlign": "center",
+            "verticalAlign": "bottom",
+            "marginTop": "5",
+            "preventHorizontalStretch": "true",
+            "preventVerticalStretch": "true"
+        }
+    },
+    "unit-price#mobile": {
+        "props": {
+            "unitPriceDisplay": "always"
         }
     },
     "price#mobile": {

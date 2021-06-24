@@ -21,6 +21,12 @@
   }
 }
 
+.quantitySelectorContainer :global(.vtex-product-list-0-x-inputContainer){
+  max-width: 90px;
+}
+.quantityStepper{
+  max-width: 80%;
+}
 .productImage {
   max-height: 165px;
   width: auto;
