@@ -140,5 +140,8 @@
   },
   "store.custom#outlet-casa-e-decor":{
     "path":"/outlet-casa-e-decor"
+  },
+  "store.custom#aniver-cassol":{
+    "path":"/aniver-cassol"
   }
 }

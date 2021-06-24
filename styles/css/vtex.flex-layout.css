@@ -1133,6 +1133,10 @@
 
 .flexRow--shelf-block{margin: 10px 0;}
 
+/* Aniver Cassol */
+.flexCol--aniverCol{
+  padding: 10px;
+}
 @media (max-width: 767.98px) {
   .flexRowContent--suggestionContainer,
   .flexRowContent--didYouMeanContainer {

@@ -1,0 +1,68 @@
+{
+    "store.custom#aniver-cassol": {
+        "blocks": [
+            "flex-layout.row#first",
+            "flex-layout.row#second"
+        ]
+    },
+    "flex-layout.row#first": {
+        "props": {
+            "preventVerticalStretch" : true
+        },
+        "children": [
+            "flex-layout.col#first-left",
+            "flex-layout.col#first-right"
+        ]
+    },
+    "flex-layout.row#second": {
+        "children": [
+            "flex-layout.col#second-left",
+            "flex-layout.col#second-right"
+        ]
+    },
+
+    "flex-layout.col#first-left": {
+        "props": {
+            "blockClass": "aniverCol"
+        },
+        "children": ["image#1"]
+    },
+    "flex-layout.col#first-right": {
+        "props": {
+            "blockClass": "aniverCol"
+        },
+        "children": ["image#2"]
+    },
+    "flex-layout.col#second-left": {
+        "props": {
+            "blockClass": "aniverCol"
+        },
+        "children": ["image#3"]
+    },
+    "flex-layout.col#second-right": {
+        "props": {
+            "blockClass": "aniverCol"
+        },
+        "children": ["image#4"]
+    },
+    "image#1": {
+        "props": {
+            "src": "assets/images/exemplo-aniver-cassol.jpg"
+        }
+    },
+    "image#2": {
+        "props": {
+            "src": "assets/images/exemplo-aniver-cassol.jpg"
+        }
+    },
+    "image#3": {
+        "props": {
+            "src": "assets/images/exemplo-aniver-cassol.jpg"
+        }
+    },
+    "image#4": {
+        "props": {
+            "src": "assets/images/exemplo-aniver-cassol.jpg"
+        }
+    }
+}
