@@ -1137,6 +1137,9 @@
 .flexCol--aniverCol{
   padding: 10px;
 }
+.flexRowContent--aniverRowFirst {
+  margin-bottom: 2rem;
+}
 @media (max-width: 767.98px) {
   .flexRowContent--suggestionContainer,
   .flexRowContent--didYouMeanContainer {

@@ -7,7 +7,10 @@
     },
     "flex-layout.row#first": {
         "props": {
-            "preventVerticalStretch" : true
+            "preventHorizontalStretch":true,
+            "preventVerticalStretch" : true,
+            "horizontalAlign":"center",
+            "blockClass": ["aniverRow","aniverRowFirst"]
         },
         "children": [
             "flex-layout.col#first-left",
@@ -15,6 +18,12 @@
         ]
     },
     "flex-layout.row#second": {
+        "props": {
+            "preventHorizontalStretch":true,
+            "preventVerticalStretch" : true,
+            "horizontalAlign":"center",
+            "blockClass": "aniverRow"
+        },
         "children": [
             "flex-layout.col#second-left",
             "flex-layout.col#second-right"
@@ -47,22 +56,30 @@
     },
     "image#1": {
         "props": {
-            "src": "assets/images/exemplo-aniver-cassol.jpg"
+            "src": "assets/images/exemplo-aniver-cassol.jpg",
+            "maxWidth": "610px",
+            "maxHeight": "360px"
         }
     },
     "image#2": {
         "props": {
-            "src": "assets/images/exemplo-aniver-cassol.jpg"
+            "src": "assets/images/exemplo-aniver-cassol.jpg",
+            "maxWidth": "610px",
+            "maxHeight": "360px"
         }
     },
     "image#3": {
         "props": {
-            "src": "assets/images/exemplo-aniver-cassol.jpg"
+            "src": "assets/images/exemplo-aniver-cassol.jpg",
+            "maxWidth": "610px",
+            "maxHeight": "360px"
         }
     },
     "image#4": {
         "props": {
-            "src": "assets/images/exemplo-aniver-cassol.jpg"
+            "src": "assets/images/exemplo-aniver-cassol.jpg",
+            "maxWidth": "610px",
+            "maxHeight": "360px"
         }
     }
 }
