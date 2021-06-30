@@ -247,8 +247,14 @@
             ]
         },
         "children": [
-            "list-context.image-list#banner-advertising"
+            "image#ads"
         ]
+    },
+    
+    "image#ads": {
+        "props": {
+            "src": "assets/images/placeholdertb.jpg"
+        }
     },
     "list-context.image-list#banner-advertising": {
         "children": [

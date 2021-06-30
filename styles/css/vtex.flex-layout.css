@@ -1109,11 +1109,11 @@
 
 /* tabloide */
 .flexRow--worlds-row {
-  background-image: url(https://cassol.vteximg.com.br/arquivos/backgroundtabloidecassol.jpg);
-  background-attachment: fixed;
+  margin: 10px 0;
 }
 .flexColChild--banner-advertising {
-  max-width: 1160px;
+  max-width: 1180px;
+  margin-top: 10px;
 }
 .flexRowContent--worlds-row {
   flex-wrap: wrap;
@@ -1123,6 +1123,9 @@
 .flexCol--world-col,
 .flexColChild--world-col {
   max-height: 195px;
+}
+.flexCol--world-col{
+  margin: 10px;
 }
 /* !tabloide */
 
