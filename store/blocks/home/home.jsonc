@@ -23,7 +23,6 @@
       "responsive-layout.tablet#shelf-02",
       "responsive-layout.phone#mobile-shelf-02",
       // Mini banners
-      "rich-text#categoryHeadingText",
       "responsive-layout.desktop#mini-banners-desk",
       "responsive-layout.tablet#mini-banners-tablet",
       "responsive-layout.phone#mini-banners-mobile",
@@ -318,6 +317,7 @@
   "responsive-layout.desktop#mini-banners-desk": {
     "children": [
       "list-context.image-list#slide-2",
+      "rich-text#categoryHeadingText",
       "list-context.image-list#mini-banners-desk"
     ]
   },
@@ -395,6 +395,7 @@
   "responsive-layout.phone#mini-banners-mobile": {
     "children": [
       "list-context.image-list#slide-2",
+      "rich-text#categoryHeadingText",
       "list-context.image-list#mini-banners-2",
       "list-context.image-list#mini-banners-3",
       "list-context.image-list#mini-banners-4"
