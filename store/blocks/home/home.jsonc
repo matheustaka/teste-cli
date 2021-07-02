@@ -16,8 +16,7 @@
       "__fold__.mobile",
       "__fold__.desktop",
       // Banners
-      "flex-layout.row#banners-home--01",
-      "flex-layout.row#banners-home--02",
+      "list-context.image-list#slide",
       // Vitrine
       "rich-text#shelf-02",
       "responsive-layout.desktop#shelf-02",
@@ -73,12 +72,11 @@
       "height": 720,
       "images": [
         {
-          "image": "",
-          "mobileImage": "https://cassol.vtexassets.com/assets/vtex.file-manager-graphql/images/8cde7117-1fc7-4c5e-aa21-6750abffab75___d3668cff9becc163930da66641b1ad0c.png"
+          "image": "https://cassol.vtexassets.com/assets/vtex.file-manager-graphql/images/8cde7117-1fc7-4c5e-aa21-6750abffab75___d3668cff9becc163930da66641b1ad0c.png",
+          "mobileImage": ""
         },
         {
-          "image": "",
-          "mobileImage": "assets/images/500x300.jpg"
+          "image": "https://cassol.vtexassets.com/assets/vtex.file-manager-graphql/images/8cde7117-1fc7-4c5e-aa21-6750abffab75___d3668cff9becc163930da66641b1ad0c.png"
         }
       ]
     }
@@ -100,6 +98,86 @@
     "children": [
       "slider-layout#deals"
     ]
+  },
+
+  "list-context.image-list#slide": {
+    "props": {
+      "height" : 400,
+      "images": [
+        
+        {
+          "image": "https://cassol.vtexassets.com/assets/vtex.file-manager-graphql/images/e172e684-f7a0-4805-91b6-2f88df02e21a___72620b8a029f509c02ecee4ca202687e.png"
+        },
+        {
+          "image": "https://cassol.vtexassets.com/assets/vtex.file-manager-graphql/images/83655681-1c59-4c18-ad28-fe7334d471ed___2efaf83cbaf1b12842bb0592fdf4a825.png"
+        },
+        {
+          "image": "https://cassol.vtexassets.com/assets/vtex.file-manager-graphql/images/7592fedf-4bd2-4075-8334-267735da69c0___605c734eb0d5bce6566a1d421026891a.png"
+        }
+      ],
+      "blockClass": ["responsiveBanners"]
+    },
+    "children": [
+      "slider-layout#slide"
+    ]
+  },
+  "slider-layout#slide": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 2,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "showPaginationDots": "always",
+      "centerMode": {
+        "desktop": "disabled",
+        "mobile": "disabled",
+        "phone": "disabled"
+      },
+      "usePagination": true,
+      "blockClass": ["responsiveBanners"]
+    }
+  },
+  "list-context.image-list#slide-2": {
+    "props": {
+      "height" : 360,
+      "images": [
+        
+        {
+          "image": "https://cassol.vtexassets.com/assets/vtex.file-manager-graphql/images/071557cd-3a95-4a3e-8065-e8bf0a14b5b2___65d87b3f0073efefe63d26f32c2be38f.png",
+          "width":"616px"
+        },
+        {
+          "image": "https://cassol.vtexassets.com/assets/vtex.file-manager-graphql/images/8c70a750-a719-42a9-8748-a8f08410bfbd___b388973825dc0db4a3820ec755a01bd5.png",
+          "width":"616px"
+        }
+      ],
+      "blockClass": ["example"]
+    },
+    "children": [
+      "slider-layout#slide-2"
+    ]
+  },
+  "slider-layout#slide-2": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 2,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "showPaginationDots": "always",
+      "centerMode": {
+        "desktop": "disabled",
+        "mobile": "disabled",
+        "phone": "disabled"
+      },
+      "usePagination": true,
+      "blockClass": ["example"]
+    }
   },
   "responsive-layout.tablet#deals-tablet": {
     "children": [
@@ -239,6 +317,7 @@
 
   "responsive-layout.desktop#mini-banners-desk": {
     "children": [
+      "list-context.image-list#slide-2",
       "list-context.image-list#mini-banners-desk"
     ]
   },
@@ -251,52 +330,40 @@
       "height": 200,
       "images": [
         {
-          "image": "https://cassol.vtexassets.com/arquivos/miniBanners-01.png",
-          "mobileImage": "https://cassol.vtexassets.com/arquivos/miniBanners-01.png"
+          "image": "https://cassol.vtexassets.com/assets/vtex.file-manager-graphql/images/ccb5b36f-4ba5-41a9-9376-dc3bc7a3cb78___d806c1bd1cecbb7b414e5658d8915e03.jpg"
         },
         {
-          "image": "https://cassol.vtexassets.com/arquivos/miniBanners-02.png",
-          "mobileImage": "https://cassol.vtexassets.com/arquivos/miniBanners-02.png"
+          "image": "https://cassol.vtexassets.com/assets/vtex.file-manager-graphql/images/0aabaf85-1960-49fe-a1a5-7f160df3cc0c___7843e83c65d0009daf809cb8919a750d.jpg"
         },
         {
-          "image": "https://cassol.vtexassets.com/arquivos/miniBanners-03.png",
-          "mobileImage": "https://cassol.vtexassets.com/arquivos/miniBanners-03.png"
+          "image": "https://cassol.vtexassets.com/assets/vtex.file-manager-graphql/images/8e688995-897c-447c-97ab-451d7f9eeb5e___1144c2fca0ddeff991a55e4b6dd5c8b3.jpg"
         },
         {
-          "image": "https://cassol.vtexassets.com/arquivos/miniBanners-04.png",
-          "mobileImage": "https://cassol.vtexassets.com/arquivos/miniBanners-04.png"
+          "image": "https://cassol.vtexassets.com/assets/vtex.file-manager-graphql/images/6871a6fd-ab5b-42c2-9ca5-ec900e865a4e___9881e0671f12b411bc3d27fdc3cbd648.jpg"
         },
         {
-          "image": "https://cassol.vtexassets.com/arquivos/miniBanners-01.png",
-          "mobileImage": "https://cassol.vtexassets.com/arquivos/miniBanners-01.png"
+          "image": "https://cassol.vtexassets.com/assets/vtex.file-manager-graphql/images/c40c5b78-9b9a-4900-9f32-e0ff836651b6___d0d736bcbe6faf9a953ea6c927ecf420.jpg"
         },
         {
-          "image": "https://cassol.vtexassets.com/arquivos/miniBanners-02.png",
-          "mobileImage": "https://cassol.vtexassets.com/arquivos/miniBanners-02.png"
+          "image": "https://cassol.vtexassets.com/assets/vtex.file-manager-graphql/images/87622a35-9f1a-4623-9236-724592b2e523___1234b53ccbfc5b8375bac38fe2e6121a.jpg"
         },
         {
-          "image": "https://cassol.vtexassets.com/arquivos/miniBanners-03.png",
-          "mobileImage": "https://cassol.vtexassets.com/arquivos/miniBanners-03.png"
+          "image": "https://cassol.vtexassets.com/assets/vtex.file-manager-graphql/images/625ff938-eb29-4179-a45a-049413b7cf54___b3bff77ecfb6758054dc0579d71078ac.jpg"
         },
         {
-          "image": "https://cassol.vtexassets.com/arquivos/miniBanners-04.png",
-          "mobileImage": "https://cassol.vtexassets.com/arquivos/miniBanners-04.png"
+          "image": "https://cassol.vtexassets.com/assets/vtex.file-manager-graphql/images/9cb9653a-ecdc-49c5-871b-65d58bc1430b___4cc0a14f4ab48a1bb71909c61973b046.jpg"
         },
         {
-          "image": "https://cassol.vtexassets.com/arquivos/miniBanners-01.png",
-          "mobileImage": "https://cassol.vtexassets.com/arquivos/miniBanners-01.png"
+          "image": "https://cassol.vtexassets.com/assets/vtex.file-manager-graphql/images/854c4728-97b0-4773-a587-b04389db683c___3d71f017755082e950a2d572e97009c9.jpg"
         },
         {
-          "image": "https://cassol.vtexassets.com/arquivos/miniBanners-02.png",
-          "mobileImage": "https://cassol.vtexassets.com/arquivos/miniBanners-02.png"
+          "image": "https://cassol.vtexassets.com/assets/vtex.file-manager-graphql/images/b018c1b9-6e2d-4c2a-a8fe-77d14ef171cc___2647d515fc57431fbe793b87604c9a3a.jpg"
         },
         {
-          "image": "https://cassol.vtexassets.com/arquivos/miniBanners-03.png",
-          "mobileImage": "https://cassol.vtexassets.com/arquivos/miniBanners-03.png"
+          "image": "https://cassol.vtexassets.com/assets/vtex.file-manager-graphql/images/972a14fa-3954-4522-82dc-973e28702c20___dc3bde82f136b8dcab53cc01d283fe94.jpg"
         },
         {
-          "image": "https://cassol.vtexassets.com/arquivos/miniBanners-04.png",
-          "mobileImage": "https://cassol.vtexassets.com/arquivos/miniBanners-04.png"
+          "image": "https://cassol.vtexassets.com/assets/vtex.file-manager-graphql/images/f156d1f6-9a17-4d25-9eb5-321278b10c8f___1501fd7298de71870f1539e7e14ce323.jpg"
         }
       ]
     }
@@ -327,6 +394,7 @@
   },
   "responsive-layout.phone#mini-banners-mobile": {
     "children": [
+      "list-context.image-list#slide-2",
       "list-context.image-list#mini-banners-2",
       "list-context.image-list#mini-banners-3",
       "list-context.image-list#mini-banners-4"
@@ -425,7 +493,8 @@
       "slider-layout#shelf-02"
     ],
     "props": {
-      "orderBy": "OrderByTopSaleDESC"
+      "orderBy": "OrderByTopSaleDESC",
+      "collection" : "807"
     }
   },
   "slider-layout#shelf-02": {
@@ -579,7 +648,8 @@
       "slider-layout#vitrine-03"
     ],
     "props": {
-      "orderBy": "OrderByTopSaleDESC"
+      "orderBy": "OrderByTopSaleDESC",
+      "collection": "808"
     }
   },
   "slider-layout#vitrine-03": {

@@ -144,6 +144,7 @@
 .slide--categoryBanners {
   padding: 0.3rem;
 }
+
 @media (max-width: 1024px) {
   .sliderLayoutContainer--shelf {
     padding: 0 !important;
@@ -160,7 +161,9 @@
   .sliderRightArrow--mini-banners {
     margin-right: 0;
   }
-
+  .slide--responsiveBanners{ 
+    margin: 0 4.5px !important;
+  }
   .sliderLeftArrow--mini-banners {
     margin-left: 0;
   }
@@ -196,8 +199,6 @@
 }
 
 @media screen and (max-width: 767px) {
-  .slide--banner-principal {
-  }
   .slide--valentine-banner-slides--visible {
     width: 12.5% !important;
   }

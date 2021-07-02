@@ -59,7 +59,7 @@
       "images": [
         {
           "image": "https://cassol.vtexassets.com/assets/vtex.file-manager-graphql/images/bc824d9c-85a7-4da4-a396-62989dd67f28___d0bee515fca6bb058f74e46fd6b2a58f.png",
-          "width":"610px"
+          "width":"500px"
         },
         {
           "image": "https://cassol.vtexassets.com/assets/vtex.file-manager-graphql/images/f27d58da-8a85-4399-a463-848105bb7e1e___ed617c8515bcaea50dc6681529a5aa00.png",
@@ -201,7 +201,8 @@
           "image": "https://cassol.vtexassets.com/assets/vtex.file-manager-graphql/images/e1b2f329-8f98-4ba7-820c-e47117158caf___0dc9f5e150067a4d31df57b98aa18c53.png",
           "width" : "380px"
         }
-      ]
+      ],
+      "blockClass": ["example"]
     },
     "children": [
       "slider-layout#winter-banner-slides-2"
@@ -222,7 +223,8 @@
         "mobile": "disabled",
         "phone": "disabled"
       },
-      "usePagination": true
+      "usePagination": true,
+      "blockClass": ["example"]
     }
   },
   "list-context.image-list#winter-banner-slides-03": {
