@@ -174,9 +174,6 @@
   justify-content: space-between;
 }
 
-.flexRowContent--productListQuantity{
-  max-width: 90%;
-}
 .flexRow--minicart-footer
   :global(.vtex-checkout-summary-0-x-summarySmallDisclaimer)::after {
   content: "Frete calculado no carrinho";
@@ -266,7 +263,9 @@
 
 .flexRowContent--productListQuantity {
   display: flex;
+  align-items: center;
 }
+
 .productBreadcrumb.categoryBreadcrumb,
 .flexRow--searchtitle {
   max-width: 1250px;
@@ -458,9 +457,6 @@
   display: flex;
 }
 
-.flexRowContent--productListQuantity {
-  align-items: center;
-}
 
 .flexRowContent--payment-methods-desktop
   :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {

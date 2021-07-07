@@ -158,6 +158,12 @@
             "marginRight": "5"
         }
     },
+
+    "product-list-image": {
+        "props": {
+            "width": 86
+        }
+    },
     "flex-layout.col#main-container.mobile": {
         "children": [
             "flex-layout.row#top.mobile",
@@ -185,7 +191,8 @@
         ],
         "props": {
             "marginTop": "5",
-            "preventHorizontalStretch": "true",
+            "preventHorizontalStretch":true,
+            "preventVerticalStretch": true,
             "blockClass": [
                 "productListQuantity"
             ]

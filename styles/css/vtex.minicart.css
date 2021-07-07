@@ -114,11 +114,6 @@
     margin-top: -6px;
   }
 
-  .minicartProductListContainer :global(.vtex-product-list-0-x-quantitySelectorContainer) {
-    margin-top: 10px;
-    margin-bottom: 8px;
-    width: auto !important;
-  }
   .minicartProductListContainer :global(.vtex-product-list-0-x-productImage) {
     max-width: 73px;
   }
@@ -134,5 +129,11 @@
 
   .openIconContainer {
     padding: 0;
+  }
+}
+
+@media (max-width: 560px) {
+  .minicartProductListContainer{
+    padding: 0 10px;
   }
 }
