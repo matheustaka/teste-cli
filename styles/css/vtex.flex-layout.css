@@ -171,15 +171,6 @@
 
 .flexRowContent--minicartPrices{
   display: flex;
-  justify-content: space-between;
-}
-
-.flexRowContent--productListQuantity{
-  max-width: 90%;
-}
-.flexRow--minicart-footer
-  :global(.vtex-checkout-summary-0-x-summarySmallDisclaimer)::after {
-  content: "Frete calculado no carrinho";
   font-weight: 400;
   font-size: 12px;
   color: #707070;
@@ -262,16 +253,6 @@
 
 .flexRow--listItem {
   border-bottom: 1px solid #e9e9e9;
-}
-
-.flexRowContent--productListQuantity {
-  display: flex;
-}
-.productBreadcrumb.categoryBreadcrumb,
-.flexRow--searchtitle {
-  max-width: 1250px;
-  margin: auto;
-  width: 100%;
 }
 
 .flexRow--shelfNotFound {
@@ -455,15 +436,6 @@
 
 .flexRow--payment-methods-desktop {
   align-items: center;
-  display: flex;
-}
-
-.flexRowContent--productListQuantity {
-  align-items: center;
-}
-
-.flexRowContent--payment-methods-desktop
-  :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
   width: auto !important;
   min-width: 32px;
   align-items: center;

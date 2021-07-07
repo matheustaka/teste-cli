@@ -181,15 +181,19 @@
     },
     "flex-layout.row#quantity-selector.mobile": {
         "children": [
-            "quantity-selector"
+            "flex-layout.col#quantity-selector"
         ],
         "props": {
             "marginTop": "5",
+            "preventVerticalStretch": true,
             "preventHorizontalStretch": "true",
             "blockClass": [
                 "productListQuantity"
             ]
         }
+    },
+    "flex-layout.col#quantity-selector": {
+        "children": ["quantity-selector"]
     },
 
     "quantity-selector": {
