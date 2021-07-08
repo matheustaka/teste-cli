@@ -25,5 +25,8 @@
     },
     "GaSnippet": {
         "component": "GaSnippet"
-    }
+    },
+    "FormRD": {
+        "component": "FormRD"
+      }
 }
