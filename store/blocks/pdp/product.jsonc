@@ -29,7 +29,26 @@
     },
     "children": ["product-description"]
   },
+  "flex-layout.row#syndigo-content": {
+    "props": {
+      "marginBottom": 7
+    },
+    "children": ["flex-layout.col#syndigo-content"]
 
+  },
+
+  // Conteudo Syndigo
+  "flex-layout.col#syndigo-content": {
+    "props": {
+      "blockClass": "syndigoContent"
+    },
+    "children": ["sandbox#syndigo"]
+  },
+  "sandbox#syndigo": {
+    "props": {
+      "text": "<div id='syndi_inline'>a</div>"
+    }
+  },
   "product-description": {
     "props": {
       // Se definido como true, o conteúdo será colapsado
