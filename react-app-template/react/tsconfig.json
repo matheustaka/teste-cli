@@ -19,6 +19,7 @@
   "include": [
     "./typings/*.d.ts",
     "./**/*.tsx",
-    "./**/*.ts"
+    "./**/*.ts",
+    "FormRD.jsx"
   ]
 }

@@ -7,7 +7,34 @@
 
 .emailInputContainer, .nameInputContainer {width: 20%;margin: 0 10px;}
 
+.newsletterForm--modalNewsletter {
+    background-color: white;
+}
+.newsletterForm--modalNewsletter .labelsContainer {
+    display: flex;
+    flex-direction: column;
+}
 
+.newsletterForm--modalNewsletter .nameInputContainer :global(.vtex-input__label), .newsletterForm--modalNewsletter .emailInputContainer :global(.vtex-input__label){
+    color: #184077;
+    font-weight: bold;
+    font-size: 1rem;
+}
+.newsletterForm--modalNewsletter :global(.vtex-rich-text-0-x-heading--newsTitle){
+    font-size: 2rem;
+}
+
+.newsletterForm--modalNewsletter .nameInputContainer, .newsletterForm--modalNewsletter .emailInputContainer{
+    width: 100%;
+    max-width: 400px;
+
+    margin: 10px 0;
+}
+.newsletterForm--modalNewsletter{
+    flex-direction: column;
+    max-width: 45rem;
+    padding: 4vh 2vw;
+}
 @media (max-width: 767.98px) {
     .newsletterForm {
         flex-direction: column;

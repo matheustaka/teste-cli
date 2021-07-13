@@ -15,7 +15,7 @@ const ListOrders: StorefrontFunctionComponent= () => {
   )
 }
 
-const Content = styled.div`
+const Content = styled.Div`
   @media (max-width: 575.98px) {
     margin: 0 20px;
   }

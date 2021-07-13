@@ -200,7 +200,7 @@ const Item = styled.li`
   }
 `
 
-const Header = styled.div`
+const Header = styled.Div`
   align-items: flex-start;
   background-color: #f5f5f5;
   border-radius: 10px;
@@ -296,7 +296,7 @@ const Cancelad = styled.span`
   text-transform: uppercase;
 `
 
-const ItemContent = styled.div`
+const ItemContent = styled.Div`
   display: flex;
   justify-content: space-between;
   padding: 30px 20px;
@@ -307,7 +307,7 @@ const ItemContent = styled.div`
   }
 `
 
-const ContentInform = styled.div`
+const ContentInform = styled.Div`
   display: flex;
 
   @media (max-width: 575.98px) {
@@ -317,7 +317,7 @@ const ContentInform = styled.div`
   }
 `
 
-const ItemContentText = styled.div`
+const ItemContentText = styled.Div`
   display: block;
   width: 270px;
 
@@ -347,7 +347,7 @@ const Quantity = styled.p`
   font-weight: 700;
 `
 
-const Price = styled.div`
+const Price = styled.Div`
   color: #707070;
   font-size: 11px;
   font-weight: 400;
@@ -363,7 +363,7 @@ const Price = styled.div`
   }
 `
 
-const More = styled.div`
+const More = styled.Div`
   font-size: 10px;
   font-weight: 400;
 
@@ -378,7 +378,7 @@ const More = styled.div`
   }
 `
 
-const Payment = styled.div`
+const Payment = styled.Div`
   display: block;
   width: 225px;
 

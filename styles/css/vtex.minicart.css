@@ -64,10 +64,9 @@
   font-size: 0;
 }
 .minicartCheckoutButton :global(.vtex-button__label)::after {
-  content: "Ir para o  Carrinho";
+  content: "Ir para o  Carrinho";
   font-size: 12px;
 }
-
 
 .minicartContainer :global(.vtex-button) {
   background: #fff;
@@ -75,7 +74,6 @@
 }
 
 @media (min-width: 1025px) {
-
   .openIconContainer {
     padding: 0;
   }
@@ -98,7 +96,7 @@
 }
 
 .minicartQuantityBadgeDefault {
-  background: #D61016;
+  background: #d61016;
   top: -5px;
   right: -6px;
 }
@@ -111,7 +109,6 @@
     -webkit-box-orient: vertical;
     overflow: hidden;
     text-overflow: ellipsis;
-    margin-top: -6px;
   }
 
   .minicartProductListContainer :global(.vtex-product-list-0-x-productImage) {
@@ -120,15 +117,21 @@
   .minicartProductListContainer :global(.vtex-flex-layout-0-x-flexRow) :global(.vtex-flex-layout-0-x-flexRowContent) :first-child :global(.vtex-flex-layout-0-x-flexCol) {
     margin: 0;
   }
-  .minicartProductListContainer :global(.vtex-flex-layout-0-x-flexRow) :global(.vtex-flex-layout-0-x-flexRowContent) :last-child :global(.vtex-flex-layout-0-x-flexRowContent) {
+  .minicartProductListContainer
+    :global(.vtex-flex-layout-0-x-flexRow)
+    :global(.vtex-flex-layout-0-x-flexRowContent)
+    :last-child
+    :global(.vtex-flex-layout-0-x-flexRowContent) {
     margin-top: 0;
   }
-  .minicartProductListContainer :global(.vtex-product-list-0-x-productName ) {
+  .minicartProductListContainer :global(.vtex-product-list-0-x-productName) {
     margin-bottom: 4px;
   }
+}
 
-  .openIconContainer {
-    padding: 0;
+@media (max-width: 560px) {
+  .minicartProductListContainer {
+    padding: 0 10px;
   }
 }
 

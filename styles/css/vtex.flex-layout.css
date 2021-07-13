@@ -633,6 +633,11 @@
   padding: 10px 0;
 }
 
+.flexCol--syndigoContent {
+  max-width: 1250px;
+  margin: 0 auto;
+}
+
 @media (max-width: 767.98px) {
   .flexRow--productContainer,
   .flexRow--productBreadcrumb,

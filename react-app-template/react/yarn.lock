@@ -2241,6 +2241,10 @@ caseless@~0.12.0:
   resolved "https://registry.yarnpkg.com/caseless/-/caseless-0.12.0.tgz#1b681c21ff84033c826543090689420d187151dc"
   integrity sha1-G2gcIf+EAzyCZUMJBolCDRhxUdw=
 
+"cassol.btucalculator@http://cassol.vtexassets.com/_v/public/typings/v1/cassol.btucalculator@1.0.32/public/@types/cassol.btucalculator":
+  version "1.0.32"
+  resolved "http://cassol.vtexassets.com/_v/public/typings/v1/cassol.btucalculator@1.0.32/public/@types/cassol.btucalculator#c8c217a91a98488a57d5ed060d66801507acc889"
+
 chalk@^2.0.0:
   version "2.4.2"
   resolved "https://registry.yarnpkg.com/chalk/-/chalk-2.4.2.tgz#cd42541677a54333cf541a49108c1432b44c9424"
@@ -5329,21 +5333,29 @@ verror@1.10.0:
   version "0.4.4"
   resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.css-handles@0.4.4/public/@types/vtex.css-handles#8c45c6decf9acd2b944e07261686decff93d6422"
 
-"vtex.product-context@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.product-context@0.9.5/public/@types/vtex.product-context":
-  version "0.9.5"
-  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.product-context@0.9.5/public/@types/vtex.product-context#f1d24eb63d973af4b57a146685ba9f3c391759d8"
+"vtex.formatted-price@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.formatted-price@0.4.0/public/@types/vtex.formatted-price":
+  version "0.4.0"
+  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.formatted-price@0.4.0/public/@types/vtex.formatted-price#821e3f087065704d02ee28e4f41aada3d6cb46da"
 
-"vtex.render-runtime@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.render-runtime@8.126.4/public/@types/vtex.render-runtime":
-  version "8.126.4"
-  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.render-runtime@8.126.4/public/@types/vtex.render-runtime#40d7ad8a7b04c50e61ff84a1089dcf7045efd548"
+"vtex.order-manager@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.order-manager@0.11.1/public/@types/vtex.order-manager":
+  version "0.11.1"
+  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.order-manager@0.11.1/public/@types/vtex.order-manager#cc658148c5e054900c0d692a26d1ac7c872d9262"
 
-"vtex.search-graphql@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.search-graphql@0.37.0/public/@types/vtex.search-graphql":
-  version "0.37.0"
-  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.search-graphql@0.37.0/public/@types/vtex.search-graphql#c62dd40d8182ee14a554debeb31965d1b53a8783"
+"vtex.product-context@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.product-context@0.9.9/public/@types/vtex.product-context":
+  version "0.9.9"
+  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.product-context@0.9.9/public/@types/vtex.product-context#d9619a3365c1b04c1110c4beb11a53eae39aac75"
 
-"vtex.styleguide@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.styleguide@9.134.0/public/@types/vtex.styleguide":
-  version "9.134.0"
-  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.styleguide@9.134.0/public/@types/vtex.styleguide#9ce9062c2a0f9925d7a926a9c4d544b4f0409590"
+"vtex.render-runtime@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.render-runtime@8.130.0/public/@types/vtex.render-runtime":
+  version "8.130.0"
+  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.render-runtime@8.130.0/public/@types/vtex.render-runtime#6958e1017c423c0906eae3500bad70d3fb353a98"
+
+"vtex.search-graphql@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.search-graphql@0.45.0/public/@types/vtex.search-graphql":
+  version "0.45.0"
+  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.search-graphql@0.45.0/public/@types/vtex.search-graphql#63c3707b3bed4b7b364795a57ce858677f870e5c"
+
+"vtex.styleguide@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.styleguide@9.144.0/public/@types/vtex.styleguide":
+  version "9.144.0"
+  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.styleguide@9.144.0/public/@types/vtex.styleguide#74011eeba8d96b28526598be8ff1b093e10752f5"
 
 w3c-hr-time@^1.0.1:
   version "1.0.2"

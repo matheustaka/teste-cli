@@ -23,7 +23,10 @@
   "DiscountMinicart": {
     "component": "DiscountMinicart"
   },
-  "GaSnippet" : {
+  "GaSnippet": {
     "component": "GaSnippet"
+  },
+  "FormRD": {
+    "component": "FormRD"
   }
 }
