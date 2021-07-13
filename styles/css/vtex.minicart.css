@@ -111,11 +111,10 @@
     text-overflow: ellipsis;
   }
 
-  .minicartProductListContainer
-    :global(.vtex-flex-layout-0-x-flexRow)
-    :global(.vtex-flex-layout-0-x-flexRowContent)
-    :first-child
-    :global(.vtex-flex-layout-0-x-flexCol) {
+  .minicartProductListContainer :global(.vtex-product-list-0-x-productImage) {
+    max-width: 73px;
+  }
+  .minicartProductListContainer :global(.vtex-flex-layout-0-x-flexRow) :global(.vtex-flex-layout-0-x-flexRowContent) :first-child :global(.vtex-flex-layout-0-x-flexCol) {
     margin: 0;
   }
   .minicartProductListContainer
@@ -132,6 +131,12 @@
 
 @media (max-width: 560px) {
   .minicartProductListContainer {
+    padding: 0 10px;
+  }
+}
+
+@media (max-width: 560px) {
+  .minicartProductListContainer{
     padding: 0 10px;
   }
 }
