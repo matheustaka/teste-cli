@@ -45,7 +45,7 @@ const OldOrdersMenu: StorefrontFunctionComponent = () => {
   )
 }
 
-const Menu = styled.div`
+const Menu = styled.Div`
   width: 230px;
 
   @media (max-width: 575.98px) {
@@ -53,7 +53,7 @@ const Menu = styled.div`
   }
 `
 
-const MenuInfo = styled.div`
+const MenuInfo = styled.Div`
   align-items: center;
   display: flex;
   justify-content: flex-start;

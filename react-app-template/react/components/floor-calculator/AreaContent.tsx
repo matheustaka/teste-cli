@@ -27,9 +27,9 @@ const AreaContent: StorefrontFunctionComponent<Default> = ({sizes, handleChangeI
   )
 }
 
-const BoxContainer = styled.div``
+const BoxContainer = styled.Div``
 
-const BoxContent = styled.div`
+const BoxContent = styled.Div`
   display: flex;
   align-items: flex-end;
 
@@ -39,7 +39,7 @@ const BoxContent = styled.div`
   }
 `
 
-const BoxInputGroup = styled.div`
+const BoxInputGroup = styled.Div`
   margin-right: 15px;
 
   @media (max-width: 767.98px) {
@@ -70,7 +70,7 @@ const BoxButton = styled.button`
   }
 `
 
-const LabelBoxAreaTotal = styled.label`
+const LabelBoxAreaTotal = styled.Label`
   display: block;
   font-size: 14px;
   font-weight: 500;
