@@ -34,24 +34,37 @@
       "modal-layout#newsletter"
     ]
   },
+
+  "modal-header#newsletterHeader": {
+    "props": {
+      "showCloseButton": true
+    },
+    "children": [
+      "rich-text#newsletter"
+    ]
+  },
   "modal-layout#newsletter": {
     "props": {
-      "fullWidth": "load",
+
+      "props": {
+        "scroll": "body",
+        "backdrop": "none"
+
+      },
       "blockClass": [
         "modalNewsletter"
       ]
     },
     "children": [
+      "modal-header#newsletterHeader",
       "newsletter-form#modal"
     ]
   },
   "newsletter-form#modal": {
     "children": [
-      "rich-text#newsletter",
       "newsletter-input-name",
       "newsletter-input-email",
-      "newsletter-submit",
-      "FormRD"
+      "newsletter-submit"
     ],
     "props": {
       "SuccessState": "flex-layout.row#newsletterThanks",
@@ -89,11 +102,13 @@
   },
   "newsletter-input-email": {
     "props": {
-      "placeholderText": "Digite seu e-mail"
+      "inputLabel": "E-mail",
+      "placeholderText": "Digite seu melhor e-mail"
     }
   },
   "newsletter-input-name": {
     "props": {
+      "inputLabel": "Nome",
       "placeholderText": "Digite seu nome"
     }
   },

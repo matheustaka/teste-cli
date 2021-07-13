@@ -15,8 +15,10 @@
     flex-direction: column;
 }
 
-.newsletterForm--modalNewsletter :global(.vtex-rich-text-0-x-container--newsTitle){
-    width: auto;
+.newsletterForm--modalNewsletter .nameInputContainer :global(.vtex-input__label), .newsletterForm--modalNewsletter .emailInputContainer :global(.vtex-input__label){
+    color: #184077;
+    font-weight: bold;
+    font-size: 1rem;
 }
 .newsletterForm--modalNewsletter :global(.vtex-rich-text-0-x-heading--newsTitle){
     font-size: 2rem;
