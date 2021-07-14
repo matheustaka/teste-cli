@@ -305,7 +305,6 @@
   },
   "footer-layout.mobile": {
     "children": [
-      "flex-layout.row#footer-newsletter",
       "flex-layout.row#footer-1-mobile",
       "flex-layout.row#socialNetworks-mobile",
       "flex-layout.row#footer-2-mobile",
