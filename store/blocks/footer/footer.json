@@ -42,7 +42,7 @@
       "colSizing": "auto",
       "blockClass": ["newsSuccessSubmit"]
     },
-    "children": ["CloseFormButton", "rich-text#thanks"]
+    "children": [ "rich-text#thanks", "CloseFormButton" ]
   },
 
   "flex-layout.col#formRD": {
@@ -53,7 +53,7 @@
   },
   "rich-text#thanks": {
     "props": {
-      "text": "Obrigado!",
+      "text": "Cadastro efetuado com sucesso!",
       "textPosition": "CENTER",
       "textAlignment": "CENTER",
       "blockClass": ["newsTitle"]
