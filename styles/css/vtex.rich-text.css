@@ -424,6 +424,11 @@
   line-height: 25px;
   text-align: center;
 }
+.paragraph--newsTitle {
+  color: #fff;
+  font-weight: 600;
+  font-size: 1rem;
+}
 .headingLevel2--seo-subtitulo {
   font-weight: 600;
   font-size: 14px;

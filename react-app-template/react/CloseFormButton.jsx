@@ -4,8 +4,8 @@ import styled from 'styled-components'
 const CloseButton = styled.a`
     width: 30px;
     height: 30px;
-    background-color: #184077c7;
-    left:-1px;
+    background-color: #d61016;
+    right:0px;
     top:0px;
     display: flex;
     justify-content: center;
