@@ -37,9 +37,9 @@ const MeasuresContent: StorefrontFunctionComponent<Default> = ({sizes, handleCha
   )
 }
 
-const BoxContainer = styled.Div``
+const BoxContainer = styled.div``
 
-const BoxContent = styled.Div`
+const BoxContent = styled.div`
   display: flex;
   align-items: flex-end;
 
@@ -49,14 +49,14 @@ const BoxContent = styled.Div`
   }
 `
 
-const LabelBox = styled.Label`
+const LabelBox = styled.label`
   display: block;
   font-size: 14px;
   font-weight: 500;
   text-align: center;
 `
 
-const BoxInputGroup = styled.Div`
+const BoxInputGroup = styled.div`
   margin-right: 15px;
 
   @media (max-width: 767.98px) {

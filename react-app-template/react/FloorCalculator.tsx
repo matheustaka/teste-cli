@@ -16,7 +16,7 @@ const FloorCalculator: StorefrontFunctionComponent = () => {
   )
 }
 
-const Container = styled.Div`
+const Container = styled.div`
   margin: 20px 0 10px 0;
 `
 

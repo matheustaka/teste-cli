@@ -15,6 +15,7 @@
       "responsive-layout.phone#mobile-shelf-01",
       "__fold__.mobile",
       "__fold__.desktop",
+      "sticky-layout#sticky-newsletter",
       // Banners
       "list-context.image-list#slide",
       // Vitrine
@@ -709,5 +710,12 @@
         "scrollTopButton"
       ]
     }
+  },
+  "sticky-layout#sticky-newsletter": {
+    "props": {
+      "position": "bottom",
+      "blockClass": "newsForm"
+    },
+    "children": ["flex-layout.row#footer-newsletter"]
   }
 }

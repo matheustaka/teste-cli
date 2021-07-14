@@ -368,11 +368,6 @@
   border-radius: 3px;
 }
 
-.flexRow--newsletterRow {
-  background: #f3f3f3;
-  border-radius: 3px;
-}
-
 .flexRow--newsletter :global(.vtex-input-prefix__group) {
   margin: 10px 0;
   border-radius: 0;
@@ -790,10 +785,27 @@
   text-align: center;
 }
 
+.flexCol--newsTexts {
+  width: auto;
+}
+.flexRow--newsletterRow {
+  width:100%;
+  margin: 0 auto;
+  position: relative;
+  background: #184077;
+  border-radius: 3px;
+}
+.flexRowContent--newsSuccessSubmit, .flexCol--newsTexts {
+  justify-content: center;
+}
 @media (max-width: 767.98px) {
   .flexRowContent--newsletter-input-name :global(.vtex-input-prefix__group),
   .flexRowContent--newsletter-input-email :global(.vtex-input-prefix__group) {
     margin: 5px 0;
+  }
+
+  .flexCol--newsTexts{
+    width: 80%;
   }
 }
 

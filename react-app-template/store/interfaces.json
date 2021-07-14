@@ -28,5 +28,8 @@
   },
   "FormRD": {
     "component": "FormRD"
+  },
+  "CloseFormButton": {
+    "component": "CloseFormButton"
   }
 }

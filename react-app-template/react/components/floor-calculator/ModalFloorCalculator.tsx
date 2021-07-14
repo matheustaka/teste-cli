@@ -251,7 +251,7 @@ const Strong = styled.strong`
   font-weight: 800;
 `
 
-const Modal = styled.Div`
+const Modal = styled.div`
   width: 100%;
   height: 100%;
   text-align: center;
@@ -275,7 +275,7 @@ const Modal = styled.Div`
   }
 `
 
-const ModalContent = styled.Div`
+const ModalContent = styled.div`
   width: 683px;
   height: auto;
   display: inline-block;
@@ -301,7 +301,7 @@ const Close = styled.span`
   background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAflJREFUSA2tlTFWAkEQRFlNDPEE7A3EjHANjcQMI9YbcAPxBtxAiDQTTwAhmUtm5noDPAH+WmdgGBuEp/1evZ2p7qma6V2YpLYjer1emiTJ1XK5zChLQRMoClCSm5J7GQwGpUgrEouUMPwdyME+MaTo3jL6YYB4m+IHUAeHxILiW0zG4aLjcIJ4zvwRnIT8nmOt6bRarY/ZbFb4NasTuJ0/+8Qfn9f+JJWB6/krooe2Zds+1K5zvZMjV9HnaYnP4T9djfVQTjVxSKsv8sjtvqtJFHN20ITLgGUiLnM1lklX2jpBG1jRoKCJQEEyA6GJFy9UQ64BrGjLILMycHUwMUxi8YmrtWQyGaRWxnGWidrid75LXBKNhB0udxj41ILBhWtXzbXlN/FqrU6wT6x+L0GxxQXp76EMrC8gLNzoufFOwtp4PJdBGbPBfEMcXm2xXnywZGNYymC6Qa0nlrheuvXiVWvFVAZjKwP3vuNriU3KLRpj/180pKBrFBVwKZCgFQvIEjSN5IgN5jqBog+sY2rhNnFSVc4Sl1ZfBZUBTiXjHPxX5E6ztrpwuCTedFng0P6ji261J6+xMhChmwiTOcNLcOitprbchOLM1yfQROFOoh2cAqu/KotjBNFBfBYnqq8oJv2cX23KWC3LQArOgEKnLMEUjBHW2IwvLCzMvLL1q6YAAAAASUVORK5CYII=');
 `
 
-const Option = styled.Div`
+const Option = styled.div`
   display: flex;
   margin: 30px 0;
   align-items: center;
@@ -312,7 +312,7 @@ const Option = styled.Div`
   }
 `
 
-const RadioGroup = styled.Div`
+const RadioGroup = styled.div`
   margin: 0 25px;
 
   @media (max-width: 767.98px) {
@@ -336,9 +336,9 @@ const InputRadio = styled.input`
   margin-right: 5px;
 `
 
-const Label = styled.Label``
+const Label = styled.label``
 
-const Result = styled.Div`
+const Result = styled.div`
   width: 100%;
   height: 100%;
   text-align: center;
@@ -358,7 +358,7 @@ const Result = styled.Div`
   }
 `
 
-const ResultContent = styled.Div`
+const ResultContent = styled.div`
   width: 683px;
   height: auto;
   display: inline-block;
@@ -395,13 +395,13 @@ const QuantityMin = styled.p`
   font-weight: 600;
 `
 
-const Content = styled.Div``
+const Content = styled.div``
 
-const SmashContent = styled.Div`
+const SmashContent = styled.div`
   margin: 20px 0;
 `
 
-const Smash = styled.Div`
+const Smash = styled.div`
   margin: 10px 0;
   display: flex;
   align-items: center;
@@ -409,7 +409,7 @@ const Smash = styled.Div`
 
 const InputSmash = styled.input``
 
-const SmashLabel = styled.Label`
+const SmashLabel = styled.label`
   color: #2e2e2e;
   font-size: 12px;
   font-weight: 400;
@@ -424,7 +424,7 @@ const Paragraph = styled.p`
   text-align: left;
 `
 
-const ResultButtons = styled.Div`
+const ResultButtons = styled.div`
   display: flex;
   margin-top: 40px;
   align-items: center;

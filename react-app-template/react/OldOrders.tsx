@@ -13,7 +13,7 @@ const OldOrders: StorefrontFunctionComponent = () => {
   )
 }
 
-const Container = styled.Div`
+const Container = styled.div`
   display: flex;
   margin: 30px auto;
   max-width: 1250px;

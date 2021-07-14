@@ -131,6 +131,10 @@
   color: white;
   width: 45px;
 }
+
+.backToTopButtonActive {
+  bottom: 10%;
+}
 .backToTopButtonContainer :global(.vtex-button) :global(.vtex-button__label) {
   width: 100%;
   max-width: 80%;

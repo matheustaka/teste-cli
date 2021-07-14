@@ -1,13 +1,25 @@
 .newsletterForm {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
     padding: 10px 0;
 }
 
-.emailInputContainer, .nameInputContainer {width: 20%;margin: 0 10px;}
+.emailInputContainer {width: 35%;margin: 0 10px;} 
+.emailInputLabel {
+    color: #184077;
+    font-weight: bold;
+}
 
-.newsletterForm--modalNewsletter {
+.emailInputContainer :global(.vtex-input-prefix__group){border: none;}
+.emailInputContainer :global(.vtex-input-prefix__group):focus{
+    border:solid 2px red;
+}
+.formSubmitContainer :global(.vtex-button){
+    background-color: #d61016;
+}
+
+.newsletterForm--modalNewsletetr {
     background-color: white;
 }
 .newsletterForm--modalNewsletter .labelsContainer {

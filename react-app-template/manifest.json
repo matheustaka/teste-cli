@@ -1,7 +1,7 @@
 {
   "vendor": "cassol",
   "name": "btucalculator",
-  "version": "1.0.33",
+  "version": "1.0.34",
   "title": "btu calculator",
   "description": "Application to calculate btu amount needed",
   "builders": {
@@ -16,7 +16,8 @@
     "vtex.css-handles": "0.x",
     "vtex.search-graphql": "0.x",
     "vtex.order-manager": "0.x",
-    "vtex.product-context": "0.x"
+    "vtex.product-context": "0.x",
+    "vtex.store-newsletter": "1.x"
   },
   "registries": [
     "smartcheckout"

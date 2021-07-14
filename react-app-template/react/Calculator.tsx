@@ -278,7 +278,7 @@ const Calculator: StorefrontFunctionComponent = () => {
   )
 }
 
-const Container = styled.Div`
+const Container = styled.div`
   margin: 20px auto;
   max-width: 1040px;
   padding: 10px 30px;
@@ -292,7 +292,7 @@ const Container = styled.Div`
   }
 `
 
-const Grid = styled.Div`
+const Grid = styled.div`
   display: flex;
   justify-content: space-between;
 
@@ -301,7 +301,7 @@ const Grid = styled.Div`
   }
 `
 
-const Content = styled.Div``
+const Content = styled.div``
 
 const Paragraph = styled.p`
   font-weight: 600;
@@ -309,7 +309,7 @@ const Paragraph = styled.p`
   color: #184077;
 `
 
-const InputArea = styled.Div`
+const InputArea = styled.div`
   display: flex;
   align-items: center;
 `
@@ -339,19 +339,19 @@ const InputRadio = styled.input`
   }
 `
 
-const Label = styled.Label`
+const Label = styled.label`
   font-size: 12px;
   font-weight: 400;
   color: #707070;
 `
 
-const AreaQuantity = styled.Div`
+const AreaQuantity = styled.div`
   @media (max-width: 767.98px) {
     margin: 30px 0;
   }
 `
 
-const BoxQuantity = styled.Div`
+const BoxQuantity = styled.div`
   height: 48px;
   width: 145px;
   display: flex;
@@ -388,16 +388,16 @@ const InputQuantity = styled.input`
   }
 `
 
-const InputAreaPeriod = styled.Div`
+const InputAreaPeriod = styled.div`
   display: block;
 `
 
-const Period = styled.Div`
+const Period = styled.div`
   display: flex;
   align-items: center;
 `
 
-const BoxButton = styled.Div`
+const BoxButton = styled.div`
   text-align: center;
 `
 
@@ -423,7 +423,7 @@ const ButtonCalculator = styled.button`
   }
 `
 
-const Result = styled.Div`
+const Result = styled.div`
   margin: 50px auto;
   max-width: 1040px;
   text-align: center;
@@ -434,7 +434,7 @@ const Result = styled.Div`
   }
 `
 
-const ResultGrid = styled.Div`
+const ResultGrid = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
@@ -477,7 +477,7 @@ const ResultCalc = styled.p`
   }
 `
 
-const ResultAlert = styled.Div`
+const ResultAlert = styled.div`
   margin: 30px 0;
   color: #707070;
   font-size: 12px;
