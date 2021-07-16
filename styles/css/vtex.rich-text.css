@@ -416,19 +416,19 @@
   line-height: 25px;
   text-align: center;
 }
-
-.headingLevel1--newsTitle {
-  color: #184077;
-  font-size: 20px;
+.heading--newsTitle {
+  color: #fff;
+  margin: 0;
+  font-size: 16px;
   font-weight: 600;
   line-height: 25px;
   text-align: center;
 }
-
-.container--newsTitle {
-  width: 25%;
+.paragraph--newsTitle {
+  color: #fff;
+  font-weight: 600;
+  font-size: 1rem;
 }
-
 .headingLevel2--seo-subtitulo {
   font-weight: 600;
   font-size: 14px;

@@ -15,6 +15,9 @@
       "responsive-layout.phone#mobile-shelf-01",
       "__fold__.mobile",
       "__fold__.desktop",
+
+      "responsive-layout.tablet#newsletter",
+      "responsive-layout.desktop#newsletter",
       // Banners
       "list-context.image-list#slide",
       // Vitrine
@@ -186,6 +189,18 @@
   "responsive-layout.phone#deals": {
     "children": [
       "slider-layout#deals-phone"
+    ]
+  },
+  // Newsletter bar tablet
+  "responsive-layout.tablet#newsletter": {
+    "children": [
+      "sticky-layout#sticky-newsletter"]
+  },
+
+  // Newsletter Bar desktop
+  "responsive-layout.desktop#newsletter": {
+    "children": [
+      "sticky-layout#sticky-newsletter"
     ]
   },
   "rich-text#shelf-01": {
@@ -709,5 +724,12 @@
         "scrollTopButton"
       ]
     }
+  },
+  "sticky-layout#sticky-newsletter": {
+    "props": {
+      "position": "bottom",
+      "blockClass": "newsForm"
+    },
+    "children": ["flex-layout.row#footer-newsletter"]
   }
 }

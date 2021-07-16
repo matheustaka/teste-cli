@@ -5353,9 +5353,9 @@ verror@1.10.0:
   version "0.45.0"
   resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.search-graphql@0.45.0/public/@types/vtex.search-graphql#63c3707b3bed4b7b364795a57ce858677f870e5c"
 
-"vtex.styleguide@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.styleguide@9.144.0/public/@types/vtex.styleguide":
-  version "9.144.0"
-  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.styleguide@9.144.0/public/@types/vtex.styleguide#74011eeba8d96b28526598be8ff1b093e10752f5"
+"vtex.styleguide@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.styleguide@9.145.0/public/@types/vtex.styleguide":
+  version "9.145.0"
+  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.styleguide@9.145.0/public/@types/vtex.styleguide#41dfb32af8756eb5528dbd452e47003a8f67fe8c"
 
 w3c-hr-time@^1.0.1:
   version "1.0.2"

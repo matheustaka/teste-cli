@@ -1,14 +1,9 @@
 {
   "footer": {
-    "blocks": [
-      "footer-layout.desktop",
-      "footer-layout.mobile"
-    ]
+    "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
   },
   "footer-layout.desktop": {
     "children": [
-      "modal-trigger#newsletter",
-      "flex-layout.row#footer-newsletter",
       "flex-layout.row#footer-1-desktop",
       "flex-layout.row#footer-2-desktop",
       "flex-layout.row#footer-3-desktop",
@@ -16,65 +11,16 @@
     ]
   },
   "flex-layout.row#footer-newsletter": {
-    "children": [
-      "newsletter-form"
-    ],
+    "children": ["newsletter-form"],
     "props": {
+      "preventVerticalStretch": true,
       "blockClass": "newsletterRow"
     }
   },
-  "modal-trigger#newsletter": {
-    "props": {
-      "trigger": "load",
-      "blockClass": [
-        "modalNewsletter"
-      ]
-    },
-    "children": [
-      "modal-layout#newsletter"
-    ]
-  },
 
-  "modal-header#newsletterHeader": {
-    "props": {
-      "showCloseButton": true
-    },
-    "children": [
-      "rich-text#newsletter"
-    ]
-  },
-  "modal-layout#newsletter": {
-    "props": {
-
-      "props": {
-        "scroll": "body",
-        "backdrop": "none"
-
-      },
-      "blockClass": [
-        "modalNewsletter"
-      ]
-    },
-    "children": [
-      "modal-header#newsletterHeader",
-      "newsletter-form#modal"
-    ]
-  },
-  "newsletter-form#modal": {
-    "children": [
-      "newsletter-input-name",
-      "newsletter-input-email",
-      "newsletter-submit"
-    ],
-    "props": {
-      "SuccessState": "flex-layout.row#newsletterThanks",
-      "blockClass": "modalNewsletter"
-    }
-  },
   "newsletter-form": {
     "children": [
-      "rich-text#newsletter",
-      "newsletter-input-name",
+      "flex-layout.col#newsletter-texts",
       "newsletter-input-email",
       "newsletter-submit"
     ],
@@ -82,27 +28,39 @@
       "SuccessState": "flex-layout.row#newsletterThanks"
     }
   },
+  "flex-layout.col#newsletter-texts": {
+    "props": {
+      "preventVerticalStretch": true,
+      "preventHorizontalStretch": true,
+      "blockClass": ["newsTexts"]
+    },
+    "children": ["rich-text#newsletter", "FormRD"]
+  },
   "flex-layout.row#newsletterThanks": {
     "props": {
-      "horizontalAlign": "center"
+      "horizontalAlign": "center",
+      "colSizing": "auto",
+      "blockClass": ["newsSuccessSubmit"]
     },
-    "children": [
-      "rich-text#thanks"
-    ]
+    "children": [ "rich-text#thanks", "CloseFormButton" ]
+  },
+
+  "flex-layout.col#formRD": {
+    "props": {
+      "blockClass": "newsSuccesState"
+    },
+    "children": ["FormRD"]
   },
   "rich-text#thanks": {
     "props": {
-      "text": "Obrigado!",
+      "text": "Cadastro efetuado com sucesso!",
       "textPosition": "CENTER",
       "textAlignment": "CENTER",
-      "blockClass": [
-        "newsTitle"
-      ]
+      "blockClass": ["newsTitle"]
     }
   },
   "newsletter-input-email": {
     "props": {
-      "inputLabel": "E-mail",
       "placeholderText": "Digite seu melhor e-mail"
     }
   },
@@ -114,15 +72,13 @@
   },
   "newsletter-submit": {
     "props": {
-      "placeholderText": "Inscrever-se"
+      "placeholderText": "Cadastre-se"
     }
   },
   "rich-text#newsletter": {
     "props": {
       "text": "# Receba as melhores ofertas Cassol!",
-      "blockClass": [
-        "newsTitle"
-      ]
+      "blockClass": ["newsTitle"]
     }
   },
   "flex-layout.row#footer-1-desktop": {
@@ -200,10 +156,7 @@
     }
   },
   "flex-layout.row#footer-2-desktop": {
-    "children": [
-      "flex-layout.row#payment-methods",
-      "flex-layout.row#security"
-    ],
+    "children": ["flex-layout.row#payment-methods", "flex-layout.row#security"],
     "props": {
       "blockClass": "payment-security-desktop"
     }
@@ -224,10 +177,7 @@
     }
   },
   "flex-layout.row#security": {
-    "children": [
-      "logo#footer-lets-encrypt",
-      "logo#footer-vtex-pci"
-    ],
+    "children": ["logo#footer-lets-encrypt", "logo#footer-vtex-pci"],
     "props": {
       "blockClass": "security-seals-desktop"
     }
@@ -323,9 +273,7 @@
     }
   },
   "flex-layout.row#footer-3-desktop": {
-    "children": [
-      "rich-text#footer"
-    ],
+    "children": ["rich-text#footer"],
     "props": {
       "blockClass": "text-footer"
     }
@@ -337,10 +285,7 @@
     }
   },
   "flex-layout.row#footer-4-desktop": {
-    "children": [
-      "rich-text#credits-avanti",
-      "rich-text#credits-vtex"
-    ],
+    "children": ["rich-text#credits-avanti", "rich-text#credits-vtex"],
     "props": {
       "colGap": 0,
       "blockClass": "credits"
@@ -360,7 +305,6 @@
   },
   "footer-layout.mobile": {
     "children": [
-      "flex-layout.row#footer-newsletter",
       "flex-layout.row#footer-1-mobile",
       "flex-layout.row#socialNetworks-mobile",
       "flex-layout.row#footer-2-mobile",
@@ -381,9 +325,7 @@
     }
   },
   "flex-layout.row#socialNetworks-mobile": {
-    "children": [
-      "flex-layout.col#footer-socialNetworks"
-    ],
+    "children": ["flex-layout.col#footer-socialNetworks"],
     "props": {
       "blockClass": "socialNetworks-mobile"
     }
@@ -412,104 +354,78 @@
     }
   },
   "flex-layout.row#mobile-payment-methods-row-2": {
-    "children": [
-      "logo#footer-cassolCard",
-      "logo#footer-boleto"
-    ],
+    "children": ["logo#footer-cassolCard", "logo#footer-boleto"],
     "props": {
       "blockClass": "payment-methods-mobile"
     }
   },
   "flex-layout.row#mobile-security": {
-    "children": [
-      "logo#footer-lets-encrypt",
-      "logo#footer-vtex-pci"
-    ],
+    "children": ["logo#footer-lets-encrypt", "logo#footer-vtex-pci"],
     "props": {
       "blockClass": "security-seals-mobile"
     }
   },
   "menu-item#footer-sidebar-accordion-mobile-Institucional": {
-    "blocks": [
-      "vtex.menu@2.x:submenu.accordion#sideBar-Institucional"
-    ],
+    "blocks": ["vtex.menu@2.x:submenu.accordion#sideBar-Institucional"],
     "props": {
       "text": "Institucional",
       "blockClass": "accordionFooter"
     }
   },
   "vtex.menu@2.x:submenu.accordion#sideBar-Institucional": {
-    "children": [
-      "vtex.menu@2.x:menu#Institucional"
-    ],
+    "children": ["vtex.menu@2.x:menu#Institucional"],
     "props": {
       "blockClass": "sideBarAccordionMobile"
     }
   },
   "menu-item#footer-sidebar-accordion-mobile-Politicas": {
-    "blocks": [
-      "vtex.menu@2.x:submenu.accordion#sideBar-Politicas"
-    ],
+    "blocks": ["vtex.menu@2.x:submenu.accordion#sideBar-Politicas"],
     "props": {
       "text": "Políticas",
       "blockClass": "accordionFooter"
     }
   },
   "vtex.menu@2.x:submenu.accordion#sideBar-Politicas": {
-    "children": [
-      "vtex.menu@2.x:menu#Politicas"
-    ],
+    "children": ["vtex.menu@2.x:menu#Politicas"],
     "props": {
       "blockClass": "sideBarAccordionMobile"
     }
   },
   "menu-item#footer-sidebar-accordion-mobile-Servicos": {
-    "blocks": [
-      "vtex.menu@2.x:submenu.accordion#sideBar-Servicos"
-    ],
+    "blocks": ["vtex.menu@2.x:submenu.accordion#sideBar-Servicos"],
     "props": {
       "text": "Serviços",
       "blockClass": "accordionFooter"
     }
   },
   "vtex.menu@2.x:submenu.accordion#sideBar-Servicos": {
-    "children": [
-      "vtex.menu@2.x:menu#Servicos"
-    ],
+    "children": ["vtex.menu@2.x:menu#Servicos"],
     "props": {
       "blockClass": "sideBarAccordionMobile"
     }
   },
   "menu-item#footer-sidebar-accordion-mobile-precisa-de-ajuda": {
-    "blocks": [
-      "vtex.menu@2.x:submenu.accordion#sideBar-precisa-de-ajuda"
-    ],
+    "blocks": ["vtex.menu@2.x:submenu.accordion#sideBar-precisa-de-ajuda"],
     "props": {
       "text": "Precisa de Ajuda?",
       "blockClass": "accordionFooter"
     }
   },
   "vtex.menu@2.x:submenu.accordion#sideBar-precisa-de-ajuda": {
-    "children": [
-      "vtex.menu@2.x:menu#precisa-de-ajuda"
-    ],
+    "children": ["vtex.menu@2.x:menu#precisa-de-ajuda"],
     "props": {
       "blockClass": "sideBarAccordionMobile"
     }
   },
   "menu-item#footer-sidebar-accordion-mobile-area-restrita": {
-    "blocks": [
-      "vtex.menu@2.x:submenu.accordion#sideBar-area-restrita"
-    ],
+    "blocks": ["vtex.menu@2.x:submenu.accordion#sideBar-area-restrita"],
     "props": {
       "text": "Área Restrita",
       "blockClass": "accordionFooter"
     }
   },
   "vtex.menu@2.x:submenu.accordion#sideBar-area-restrita": {
-    "children": [
-      "vtex.menu@2.x:menu#area-restrita"
-    ],
+    "children": ["vtex.menu@2.x:menu#area-restrita"],
     "props": {
       "blockClass": "sideBarAccordionMobile"
     }
