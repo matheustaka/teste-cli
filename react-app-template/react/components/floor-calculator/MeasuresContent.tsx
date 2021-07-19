@@ -16,7 +16,7 @@ const MeasuresContent: StorefrontFunctionComponent<Default> = ({sizes, handleCha
           <BoxInput
             type="text"
             name="length"
-            placeholder="Comprimento"
+            placeholder="Exemplo: 5"
             onChange={handleChangeInputs}
             value={sizes.length}
           />
@@ -26,7 +26,7 @@ const MeasuresContent: StorefrontFunctionComponent<Default> = ({sizes, handleCha
           <BoxInput
             type="text"
             name="width"
-            placeholder="Largura"
+            placeholder="Exemplo: 3.5"
             onChange={handleChangeInputs}
             value={sizes.width}
           />

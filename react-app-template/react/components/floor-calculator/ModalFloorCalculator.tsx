@@ -35,9 +35,11 @@ const ModalFloorCalculator: StorefrontFunctionComponent = () => {
   const handleChangeInputs = (evt) => {
     const { value } = evt.target
 
+    // Create a mask on the value of input to convert the comma to dot
+    const valueMasked = value.replace(/,/g , '.');
     setSizes({
       ...sizes,
-      [evt.target.name]: value,
+      [evt.target.name]: valueMasked
     })
   }
 
