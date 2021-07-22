@@ -194,7 +194,8 @@
   // Newsletter bar tablet
   "responsive-layout.tablet#newsletter": {
     "children": [
-      "sticky-layout#sticky-newsletter"]
+      "sticky-layout#sticky-newsletter"
+    ]
   },
 
   // Newsletter Bar desktop
