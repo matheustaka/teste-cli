@@ -59,7 +59,8 @@
       "vtex.product-highlights@2.x:product-highlights#collection", "product-price-savings#summary"
     ],
     "props": {
-      "blockClass": "highlightsAll"
+      "colSizing":"auto",
+      "blockClass": ["highlightsAll", "badges"]
     }
   },
 
