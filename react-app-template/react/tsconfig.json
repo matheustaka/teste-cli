@@ -20,6 +20,7 @@
     "./typings/*.d.ts",
     "./**/*.tsx",
     "./**/*.ts",
+    "components/FormRD/",
     "FormRD.jsx"
   ]
 }

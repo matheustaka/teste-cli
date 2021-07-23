@@ -11,7 +11,7 @@
     ]
   },
   "flex-layout.row#footer-newsletter": {
-    "children": ["newsletter-form"],
+    "children": ["FormularioRD"],
     "props": {
       "preventVerticalStretch": true,
       "blockClass": "newsletterRow"
@@ -34,7 +34,7 @@
       "preventHorizontalStretch": true,
       "blockClass": ["newsTexts"]
     },
-    "children": ["rich-text#newsletter", "FormRD"]
+    "children": ["rich-text#newsletter"]
   },
   "flex-layout.row#newsletterThanks": {
     "props": {
@@ -49,7 +49,7 @@
     "props": {
       "blockClass": "newsSuccesState"
     },
-    "children": ["FormRD"]
+    "children": []
   },
   "rich-text#thanks": {
     "props": {
