@@ -31,5 +31,8 @@
     },
     "CloseFormButton": {
         "component": "CloseFormButton"
-    }
+    },
+    "FormMarketplace": {
+        "component": "FormMarketplace"
+      }
 }

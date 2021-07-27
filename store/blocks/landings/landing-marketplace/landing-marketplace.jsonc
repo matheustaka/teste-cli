@@ -2,17 +2,26 @@
 
     "store.custom#landing-marketplace": {
         "blocks": [
-            "rich-text#Hello-World"
+            "rich-text#Hello-World",
+            "flex-layout.row#formMkt"
         ],
         "parent": {
             "header": "header#empty",
             "footer": "flex-layout.row#traineeFooter"
         }
     },
+
+    // "header-layout.desktop" : {
+    //     "children": []
+    // }
     "rich-text#Hello-World": {
         "props": {
             "text": "*Hello, World!*",
             "textPosition": "CENTER"
         }
+    },
+
+    "flex-layout.row#formMkt": {
+        "children": ["FormMarketplace"]
     }
 }
