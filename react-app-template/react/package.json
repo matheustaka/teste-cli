@@ -26,7 +26,7 @@
     "@vtex/test-tools": "^3.3.2",
     "@vtex/tsconfig": "^0.4.4",
     "apollo-cache-inmemory": "^1.6.5",
-    "cassol.btucalculator": "https://develop--cassol.myvtex.com/_v/private/typings/linked/v1/cassol.btucalculator@1.0.36+build1626891583/public/@types/cassol.btucalculator",
+    "cassol.btucalculator": "http://cassol.vtexassets.com/_v/public/typings/v1/cassol.btucalculator@1.0.36/public/@types/cassol.btucalculator",
     "graphql": "^14.6.0",
     "typescript": "3.9.7",
     "vtex.css-handles": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.css-handles@0.4.4/public/@types/vtex.css-handles",

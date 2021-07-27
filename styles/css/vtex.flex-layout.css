@@ -794,7 +794,6 @@
   position: relative;
   background: #184077;
   border-radius: 3px;
-  min-height: 70px;
 }
 .flexRowContent--newsSuccessSubmit, .flexCol--newsTexts {
   justify-content: center;
@@ -1156,6 +1155,26 @@
 }
 .flexRowContent--aniverRowFirst {
   margin-bottom: 2rem;
+}
+
+.flexCol--product--info {
+  padding-right: 0;
+}
+
+/* Cassol Marketplace */
+.flexCol--marketplace-menu {
+  flex-direction: row;
+}
+
+.flexCol--marketplace-advantages, .flexCol--marketplace-process, .flexCol--marketplace-numbers{
+  min-height: 60vh;
+  background-color: #e31e27;
+}
+.flexCol--marketplace-process{
+  background-color: #59b9df;
+}
+.flexCol--marketplace-numbers {
+  background-color: #396f9b;
 }
 @media (max-width: 767.98px) {
   .flexRowContent--suggestionContainer,

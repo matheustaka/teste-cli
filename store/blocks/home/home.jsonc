@@ -15,7 +15,6 @@
       "responsive-layout.phone#mobile-shelf-01",
       "__fold__.mobile",
       "__fold__.desktop",
-
       "responsive-layout.tablet#newsletter",
       "responsive-layout.desktop#newsletter",
       // Banners
@@ -29,7 +28,6 @@
       "responsive-layout.desktop#mini-banners-desk",
       "responsive-layout.tablet#mini-banners-tablet",
       "responsive-layout.phone#mini-banners-mobile",
-      
       // Vitrine
       "rich-text#shelf-03",
       "responsive-layout.desktop#shelf-03",
@@ -101,12 +99,10 @@
       "slider-layout#deals"
     ]
   },
-
   "list-context.image-list#slide": {
     "props": {
-      "height" : 400,
+      "height": 400,
       "images": [
-        
         {
           "image": "https://cassol.vtexassets.com/assets/vtex.file-manager-graphql/images/e172e684-f7a0-4805-91b6-2f88df02e21a___72620b8a029f509c02ecee4ca202687e.png"
         },
@@ -117,7 +113,9 @@
           "image": "https://cassol.vtexassets.com/assets/vtex.file-manager-graphql/images/7592fedf-4bd2-4075-8334-267735da69c0___605c734eb0d5bce6566a1d421026891a.png"
         }
       ],
-      "blockClass": ["responsiveBanners"]
+      "blockClass": [
+        "responsiveBanners"
+      ]
     },
     "children": [
       "slider-layout#slide"
@@ -139,24 +137,27 @@
         "phone": "disabled"
       },
       "usePagination": true,
-      "blockClass": ["responsiveBanners"]
+      "blockClass": [
+        "responsiveBanners"
+      ]
     }
   },
   "list-context.image-list#slide-2": {
     "props": {
-      "height" : 360,
+      "height": 360,
       "images": [
-        
         {
           "image": "https://cassol.vtexassets.com/assets/vtex.file-manager-graphql/images/071557cd-3a95-4a3e-8065-e8bf0a14b5b2___65d87b3f0073efefe63d26f32c2be38f.png",
-          "width":"616px"
+          "width": "616px"
         },
         {
           "image": "https://cassol.vtexassets.com/assets/vtex.file-manager-graphql/images/8c70a750-a719-42a9-8748-a8f08410bfbd___b388973825dc0db4a3820ec755a01bd5.png",
-          "width":"616px"
+          "width": "616px"
         }
       ],
-      "blockClass": ["example"]
+      "blockClass": [
+        "example"
+      ]
     },
     "children": [
       "slider-layout#slide-2"
@@ -178,7 +179,9 @@
         "phone": "disabled"
       },
       "usePagination": true,
-      "blockClass": ["example"]
+      "blockClass": [
+        "example"
+      ]
     }
   },
   "responsive-layout.tablet#deals-tablet": {
@@ -197,7 +200,6 @@
       "sticky-layout#sticky-newsletter"
     ]
   },
-
   // Newsletter Bar desktop
   "responsive-layout.desktop#newsletter": {
     "children": [
@@ -210,17 +212,21 @@
       "blockClass": "shelfTitle"
     }
   },
-
   "responsive-layout.desktop#shelf-01": {
-    "children": ["flex-layout.row#shelf-01"]
+    "children": [
+      "flex-layout.row#shelf-01"
+    ]
   },
   "responsive-layout.tablet#shelf-01": {
-    "children": ["flex-layout.row#shelf-01"]
+    "children": [
+      "flex-layout.row#shelf-01"
+    ]
   },
   "responsive-layout.phone#mobile-shelf-01": {
-    "children": ["flex-layout.row#mobile-shelf-01"]
+    "children": [
+      "flex-layout.row#mobile-shelf-01"
+    ]
   },
-
   "flex-layout.row#shelf-01": {
     "props": {
       "blockClass": "shelf-container",
@@ -233,19 +239,22 @@
   "flex-layout.row#mobile-shelf-01": {
     "props": {
       "blockClass": "shelf-container",
-      "colSizing":"auto",
+      "colSizing": "auto",
       "preventVerticalStretch": true
     },
     "children": [
       "list-context.product-list#shelf-01"
     ]
   },
-
   "flex-layout.col#btn-see-all": {
-    "children": ["rich-text#shelf-see-all"],
+    "children": [
+      "rich-text#shelf-see-all"
+    ],
     "props": {
       "horizontalAlign": "center",
-      "blockClass": ["btnSeeAll"]
+      "blockClass": [
+        "btnSeeAll"
+      ]
     }
   },
   "rich-text#shelf-see-all": {
@@ -288,7 +297,6 @@
     },
     "children": []
   },
-
   "list-context.image-list#mini-banners-1": {
     "children": [
       "slider-layout#mini-banners-1"
@@ -316,9 +324,9 @@
         "desktop": 4,
         "tablet": 2,
         "phone": 1,
-        "mobile" : 1
+        "mobile": 1
       },
-      "usePagination" : true,
+      "usePagination": true,
       "infinite": false,
       "showNavigationArrows": "desktopOnly",
       "blockClass": "mini-banners",
@@ -329,7 +337,6 @@
       }
     }
   },
-
   "responsive-layout.desktop#mini-banners-desk": {
     "children": [
       "list-context.image-list#slide-2",
@@ -337,7 +344,6 @@
       "list-context.image-list#mini-banners-desk"
     ]
   },
-
   "list-context.image-list#mini-banners-desk": {
     "children": [
       "slider-layout#mini-banners-desk"
@@ -417,7 +423,6 @@
       "list-context.image-list#mini-banners-4"
     ]
   },
-
   // Nao usar
   "flex-layout.row#banners-home--01": {
     "props": {
@@ -471,18 +476,21 @@
       "blockClass": "shelfTitle"
     }
   },
-
-
   "responsive-layout.desktop#shelf-02": {
-    "children": ["flex-layout.row#shelf-02"]
+    "children": [
+      "flex-layout.row#shelf-02"
+    ]
   },
   "responsive-layout.tablet#shelf-02": {
-    "children": ["flex-layout.row#shelf-02"]
+    "children": [
+      "flex-layout.row#shelf-02"
+    ]
   },
   "responsive-layout.phone#mobile-shelf-02": {
-    "children": ["flex-layout.row#mobile-shelf-02"]
+    "children": [
+      "flex-layout.row#mobile-shelf-02"
+    ]
   },
-
   "flex-layout.row#shelf-02": {
     "props": {
       "blockClass": "shelf-container",
@@ -511,7 +519,7 @@
     ],
     "props": {
       "orderBy": "OrderByTopSaleDESC",
-      "collection" : "807"
+      "collection": "807"
     }
   },
   "slider-layout#shelf-02": {
@@ -534,13 +542,14 @@
       "blockClass": "shelf"
     }
   },
-
   "rich-text#categoryHeadingText": {
     "props": {
       "text": "## Navegue pelas categorias mais acessadas",
-      "textAlignment":"center",
-      "textPosition":"center",
-      "blockClass": ["richTextContainer"]
+      "textAlignment": "center",
+      "textPosition": "center",
+      "blockClass": [
+        "richTextContainer"
+      ]
     }
   },
   "list-context.image-list#mini-banners-2": {
@@ -571,7 +580,6 @@
     "props": {
       "images": [
         {
-          
           "image": "https://cassol.vtexassets.com/assets/vtex.file-manager-graphql/images/1c1c2d86-7eb0-48eb-9a35-389c6e91748b___1144c2fca0ddeff991a55e4b6dd5c8b3.jpg",
           "mobileImage": "https://cassol.vtexassets.com/assets/vtex.file-manager-graphql/images/1c1c2d86-7eb0-48eb-9a35-389c6e91748b___1144c2fca0ddeff991a55e4b6dd5c8b3.jpg"
         },
@@ -621,7 +629,6 @@
       "blockClass": "categoryBanners"
     }
   },
-   
   "rich-text#shelf-03": {
     "props": {
       "text": "## Última Oportunidade",
@@ -629,13 +636,19 @@
     }
   },
   "responsive-layout.desktop#shelf-03": {
-    "children": ["flex-layout.row#vitrine-03"]
+    "children": [
+      "flex-layout.row#vitrine-03"
+    ]
   },
   "responsive-layout.tablet#shelf-03": {
-    "children": ["flex-layout.row#vitrine-03"]
+    "children": [
+      "flex-layout.row#vitrine-03"
+    ]
   },
   "responsive-layout.phone#mobile-shelf-03": {
-    "children": ["flex-layout.row#vitrine-03-mobile"]
+    "children": [
+      "flex-layout.row#vitrine-03-mobile"
+    ]
   },
   "flex-layout.row#vitrine-03": {
     "props": {
@@ -731,6 +744,8 @@
       "position": "bottom",
       "blockClass": "newsForm"
     },
-    "children": ["flex-layout.row#footer-newsletter"]
+    "children": [
+      "flex-layout.row#footer-newsletter"
+    ]
   }
 }

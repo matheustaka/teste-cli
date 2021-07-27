@@ -803,6 +803,24 @@
   font-size: 24px;
 }
 
+.heading--marketplace-advantages-title, .paragraph--marketplace-advantages-desc, .heading--marketplace-process-title, .paragraph--numbers-desc, .paragraph--marketplace-advantage-desc {
+  color: #fff;
+}
+
+
+.paragraph--marketplace-advantages-desc, .heading--marketplace-advantages-title{
+  text-align: center;
+}
+
+.paragraph--marketplace-advantages-desc, .paragraph--marketplace-advantage-desc{
+  letter-spacing: 1px;
+  font-size: 1.3rem;
+}
+
+.paragraph--numbers-desc {
+  font-style: italic;
+}
+
 @media (max-width: 400px) {
   .wrapper--shelfTitle .heading--shelfTitle, .heading--richTextContainer {
     font-size: 19px;
