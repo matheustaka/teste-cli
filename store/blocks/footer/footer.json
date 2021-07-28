@@ -34,7 +34,7 @@
       "preventHorizontalStretch": true,
       "blockClass": ["newsTexts"]
     },
-    "children": ["rich-text#newsletter"]
+    "children": ["rich-text#newsletter", "FormRD"]
   },
   "flex-layout.row#newsletterThanks": {
     "props": {
@@ -49,7 +49,7 @@
     "props": {
       "blockClass": "newsSuccesState"
     },
-    "children": []
+    "children": ["FormRD"]
   },
   "rich-text#thanks": {
     "props": {

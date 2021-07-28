@@ -1,6 +1,5 @@
 import React from 'react'
-import styled from 'styled-components';
-
+import styled from 'styled-components'
 
 const Div = styled.div`
     display: flex;
@@ -16,12 +15,7 @@ const Input = styled.input`
     margin-right: 10px;
     color:#fff;
 `
-const EmailInput = styled.input`
-    display: inline-block;
-    padding: 0 1rem;
-    
 
-    `
 const CloseButton = styled.a`
     width: 30px;
     height: 30px;
@@ -49,27 +43,6 @@ const CloseButton = styled.a`
         transform: rotate(-45deg);
     }
 `
-
-const FormWrapper = styled.form`
-    display:flex;
-    width: 100%;
-    height:inherit;
-    color: #fff
-`
-
-const Submit = styled.button`
-    background-color:#d61016;
-    border: none; 
-    color:#fff;
-    font-family: Montserrat,sans-serif;
-    font-weight: 500;
-    text-transform: uppercase;
-    letter-spacing: 0;
-    vertical-align: middle;
-
-    display:inline-block;
-`
-
 const FormRD = () => {
 
     const closeForm = () => {
@@ -78,17 +51,18 @@ const FormRD = () => {
     };
     return (
         <>
-            < FormWrapper name="newsletterForm">
-                < CloseButton onClick={closeForm}></ CloseButton>
-                < Label htmlFor="communications" className='newsLabel' />
-                < Input type="checkbox" data-privacy="true" name="communications" value="1" required />
-                Eu concordo em receber comunicações e ofertas.
-                <Input type="hidden" data-privacy="true" name="privacy_policy" value="1" />
+            <Div>
+                <CloseButton onClick={closeForm}></CloseButton>
+                <Label className='newsLabel'>
 
-                <EmailInput type="email" name="email" placeholder="Digite seu melhor e-mail"></EmailInput>
-                <Submit type="submit" value="Cadastrar">Cadastrar</Submit>
-            </ FormWrapper>
+                    <Input type="checkbox" data-privacy="true" name="communications" value="1" required />
 
+                    Eu concordo em receber comunicações e ofertas.
+                    <Input type="hidden" data-privacy="true" name="privacy_policy" value="1" />
+
+                </Label>
+
+            </Div>
         </>
     )
 }
