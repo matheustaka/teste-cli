@@ -145,6 +145,6 @@
         "path": "/aniver-cassol"
     },
     "store.custom#landing-marketplace": {
-        "path": "/landing-marketplace"
+        "path": "/marketplace"
     }
 }

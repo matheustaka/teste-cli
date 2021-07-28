@@ -803,6 +803,51 @@
   font-size: 24px;
 }
 
+.heading--marketplace-advantages-title, .paragraph--marketplace-advantages-desc, .heading--marketplace-process-title, .paragraph--numbers-desc, .paragraph--marketplace-advantage-desc, .paragraph--footer-marketplace{
+  color: #fff;
+}
+
+
+.paragraph--marketplace-advantages-desc, .heading--marketplace-advantages-title, .paragraph--marketplace-advantage-desc, .heading--marketplace-process-desc, .paragraph--footer-marketplace{
+  text-align: center;
+}
+
+.paragraph--footer-marketplace {
+  font-size: 1.25rem;
+}
+
+.container--marketplace-process-desc, .container--marketplace-process-icon, .container--marketplace-process-title { 
+  justify-content: center;
+}
+.paragraph--marketplace-process-icon { 
+  max-width: 100px;
+}
+
+.paragraph--marketplace-advantages-desc, .paragraph--marketplace-advantage-desc, .heading--marketplace-process-desc{
+  letter-spacing: 1px;
+  font-size: 1.3rem;
+  font-style: italic;
+  color: #fff;
+  font-weight: lighter;
+}
+
+.heading--numbers-title {
+  justify-content: center;
+  color: #fff;
+}
+.paragraph--numbers-title {
+  font-size: 5rem;
+  font-style: initial;
+  font-weight: bold;
+}
+
+
+.paragraph--numbers-desc {
+  font-style: italic;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
 @media (max-width: 400px) {
   .wrapper--shelfTitle .heading--shelfTitle, .heading--richTextContainer {
     font-size: 19px;

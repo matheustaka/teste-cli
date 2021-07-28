@@ -195,7 +195,18 @@
   },
   "flex-layout.row#product-image": {
     "children": [
-      "product-images"
+      "stack-layout#highlights"
+    ]
+  },
+  "stack-layout#highlights" : {
+    "props": {
+      "blockClass":[
+        "product-badges"
+      ]
+    },
+    "children":[
+      "product-images",
+      "flex-layout.row#highlights"
     ]
   },
   "product-images": {

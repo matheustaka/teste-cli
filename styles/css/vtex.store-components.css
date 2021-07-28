@@ -525,6 +525,10 @@
   margin-right: 20px;
 }
 
+.imageElement--advantages-icon {
+  max-width: 125px;
+}
+
 .imageElement {
   width: 100%;
   height: 100%;

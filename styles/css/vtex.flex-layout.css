@@ -1156,6 +1156,60 @@
 .flexRowContent--aniverRowFirst {
   margin-bottom: 2rem;
 }
+
+.flexCol--product--info {
+  padding-right: 0;
+}
+
+/* Cassol Marketplace */
+
+.flexRowContent--footerRow-marketplace { 
+  background-color: #396f9b;
+  justify-content: space-around;
+  align-items: center;
+}
+.flexRowContent--marketplace-social {
+  width: 125px;
+}
+.flexColChild--marketplace-menu {
+  display: flex;
+  align-items: center;
+}
+
+
+.flexColChild--marketplace-process { 
+  width: 85%;
+}
+
+.flexCol--marketplace-numbers, .flexCol--marketplace-process, .container--marketplace-process-title, .container--marketplace-process-title  {
+  justify-content: center;
+}
+.container--marketplace-process-title{
+  margin-bottom: 10vh;
+}
+.flexRowContent--numbers-title  {
+  margin-bottom: 10vh;
+}
+.flexRowContent--numbers-desc {
+  justify-content: space-around;
+}
+.flexCol--footer-social-marketplace {
+  flex-direction: row;
+}
+.flexCol--marketplace-menu {
+  flex-direction: row;
+}
+
+.flexCol--marketplace-advantages, .flexCol--marketplace-process, .flexCol--marketplace-numbers{
+  min-height: 60vh;
+  background-color: #e31e27;
+}
+.flexCol--marketplace-process{
+  background-color: #59b9df;
+}
+.flexCol--marketplace-numbers {
+  background-color: #396f9b;
+}
 @media (max-width: 767.98px) {
   .flexRowContent--suggestionContainer,
   .flexRowContent--didYouMeanContainer {
