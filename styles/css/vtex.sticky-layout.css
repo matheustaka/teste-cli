@@ -6,3 +6,6 @@
   :global(.vtex-flex-layout-0-x-flexRowContent--main-header) {
   padding-bottom: 8px;
 }
+.wrapper--newsForm {
+  height: 0 !important;
+}

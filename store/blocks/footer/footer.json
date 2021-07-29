@@ -170,7 +170,8 @@
       "logo#footer-hiperCard",
       "logo#footer-amex",
       "logo#footer-cassolCard",
-      "logo#footer-boleto"
+      "logo#footer-boleto",
+      "logo#footer-pix"
     ],
     "props": {
       "blockClass": "payment-methods-desktop"
@@ -222,6 +223,13 @@
       "title": "amex",
       "href": "/",
       "url": "https://cassol.vteximg.com.br/arquivos/footer-amex.png"
+    }
+  },
+  "logo#footer-pix": {
+    "props": {
+      "title": "pix",
+      "url": "assets/pix-logo.png",
+      "blockClass": ["pix-logo"]
     }
   },
   "logo#footer-aura": {
@@ -293,7 +301,7 @@
   },
   "rich-text#credits-avanti": {
     "props": {
-      "text": "<a href='https://penseavanti.com.br/' target='_blank'><img src='https://cassol.vtexassets.com/arquivos/avanti-logo-footer.png'></a>",
+      "text": "<a href='https://tdzain.com.br/' target='_blank'><img src='https://cassol.vtexassets.com/arquivos/logo-tdz-2.png'></a>",
       "blockClass": "credits-avanti"
     }
   },
