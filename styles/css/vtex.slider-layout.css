@@ -30,6 +30,9 @@
   margin: 0 auto 50px auto;
 }
 
+.slide--banner-topo {
+  max-width: 1920px;
+}
 .sliderArrows {
   border-radius: 3px;
   color: #184077;

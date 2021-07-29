@@ -16,6 +16,10 @@ const Input = styled.input`
     color:#fff;
 `
 
+const Link = styled.a`
+    color:#fff;
+`
+
 const CloseButton = styled.a`
     width: 30px;
     height: 30px;
@@ -57,7 +61,7 @@ const FormRD = () => {
 
                     <Input type="checkbox" data-privacy="true" name="communications" value="1" required />
 
-                    Eu concordo em receber comunicações e ofertas.
+                    Li e aceito os termos de uso e <Link href='https://www.cassol.com.br/privacidade'> política de privacidade</Link> da Cassol.
                     <Input type="hidden" data-privacy="true" name="privacy_policy" value="1" />
 
                 </Label>

@@ -2,7 +2,7 @@
   "store.home": {
     "blocks": [
       // Banners Principais
-      "list-context.image-list#banner-topo",
+      "list-context.image-list#banner-top",
       "list-context.image-list#banner-principal",
       // mini banners vantagens
       "responsive-layout.phone#deals",
@@ -38,16 +38,15 @@
       "back-to-top-button"
     ]
   },
-  "list-context.image-list#banner-topo": {
+  "list-context.image-list#banner-top": {
     "children": [
       "slider-layout#banner-topo"
     ],
     "props": {
-      "height": 60,
       "images": [
         {
-          "image": "https://cassol.vtexassets.com/arquivos/banner-topo-desk.png",
-          "mobileImage": "https://cassol.vtexassets.com/arquivos/banner-topo-mobile.png"
+          "image": "https://cassol.vtexassets.com/assets/vtex.file-manager-graphql/images/70d34285-bd39-42dc-8f63-d50946f13972___68b9b3c4daf70468fcdc17cc773fa075.png",
+          "mobileImage": "https://cassol.vtexassets.com/assets/vtex.file-manager-graphql/images/2adb7c58-93c4-4a8a-83ae-717a483d364f___3b1143fb31a965634ca2484405abd1d3.png"
         }
       ]
     }
