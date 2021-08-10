@@ -12,7 +12,7 @@ function ProductPrice() {
     useEffect(()=> {
         setUnitMultiplier(productContext.selectedItem.unitMultiplier)
         setMeasurementUnit(productContext.selectedItem.measurementUnit)
-        console.log("joaod", productContext?.product?.priceRange?.sellingPrice)
+        console.log("joaod", productContext)
     }, [productContext])
 
     useEffect(()=> {
@@ -23,11 +23,11 @@ function ProductPrice() {
     return <div className="product-price">
         {measurementUnit === "m²" ? 
         <div className="product-price-calc">
-            <p><FormattedPrice value={productContext?.product?.priceRange?.sellingPrice?.highPrice} /> <span className="product-price__measurementUnit">/m²</span> </p>
+            <p><FormattedPrice value={productContext?.selectedItem?.sellers[0]?.commertialOffer?.Price} /> <span className="product-price__measurementUnit">/m²</span> </p>
             <span className="caixa"><FormattedPrice value={priceCaixa} />/caixa</span>
         </div>
          : <div>
-         <FormattedPrice value={productContext?.product?.priceRange?.sellingPrice?.highPrice} /></div>}
+         <FormattedPrice value={productContext?.selectedItem?.sellers[0]?.commertialOffer?.Price} /></div>}
     </div>; 
 }
 
