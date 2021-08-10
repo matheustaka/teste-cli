@@ -712,7 +712,7 @@
     padding: 0 35px 0 30px;
   }
 
-  
+
   .flexRowContent--searchinfomobile .stretchChildrenWidth {
     width: 50% !important;
     margin: auto;
@@ -1013,9 +1013,6 @@
   background-color: #f2f4f5;
   margin-bottom: 4rem;
 }
-.flexRowContent--orderPlacedContainer .flexColChild{
-  padding: .6rem 0;
-}
 
 .flexCol--orderPlacedContent{
   max-width: 90%;
@@ -1163,7 +1160,7 @@
 
 /* Cassol Marketplace */
 
-.flexRowContent--footerRow-marketplace { 
+.flexRowContent--footerRow-marketplace {
   background-color: #396f9b;
   justify-content: space-around;
   align-items: center;
@@ -1177,7 +1174,7 @@
 }
 
 
-.flexColChild--marketplace-process { 
+.flexColChild--marketplace-process {
   width: 85%;
 }
 

@@ -362,7 +362,7 @@
     }
   },
   "flex-layout.row#mobile-payment-methods-row-2": {
-    "children": ["logo#footer-cassolCard", "logo#footer-boleto"],
+    "children": ["logo#footer-cassolCard", "logo#footer-boleto", "logo#footer-pix"],
     "props": {
       "blockClass": "payment-methods-mobile"
     }
