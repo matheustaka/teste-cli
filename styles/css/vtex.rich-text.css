@@ -816,17 +816,16 @@
   font-size: 1.25rem;
 }
 
-.container--marketplace-process-desc, .container--marketplace-process-icon, .container--marketplace-process-title { 
+.container--marketplace-process-desc, .container--marketplace-process-icon, .container--marketplace-process-title {
   justify-content: center;
 }
-.paragraph--marketplace-process-icon { 
+.paragraph--marketplace-process-icon {
   max-width: 100px;
 }
 
 .paragraph--marketplace-advantages-desc, .paragraph--marketplace-advantage-desc, .heading--marketplace-process-desc{
   letter-spacing: 1px;
   font-size: 1.3rem;
-  font-style: italic;
   color: #fff;
   font-weight: lighter;
 }
@@ -841,10 +840,22 @@
   font-weight: bold;
 }
 
+.paragraph--marketplace-copyright {
+  color: #fff;
+  font-size: 14px;
+}
 
+.heading--form-title, .paragraph--form-desc {
+  text-align: center;
+  color:  #396f9b;
+}
+
+.paragraph--form-desc {
+  font-size: 1.3rem;
+}
 .paragraph--numbers-desc {
   font-style: italic;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   text-align: center;
 }
 
@@ -852,7 +863,7 @@
   .wrapper--shelfTitle .heading--shelfTitle, .heading--richTextContainer {
     font-size: 19px;
   }
-  
+
 }
 @media (min-width: 1025px) {
   .container--shelfTitle,
@@ -932,7 +943,7 @@
 }
 
 @media screen and (min-width: 768px) {
-  
+
 }
 @media screen and (min-width: 640px) {
 }
