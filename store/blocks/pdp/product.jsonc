@@ -5,6 +5,7 @@
       "condition-layout.product#custom",
       "__fold__",
       "flex-layout.row#description",
+      "flex-layout.row#syndigo",
       "rich-text#title-specifications",
       "flex-layout.row#specification",
       "product-reviews",
@@ -370,7 +371,7 @@
       }
     }
   },
-  
+
   "sandbox#home": {
     "props": {
       "width": "400px",
