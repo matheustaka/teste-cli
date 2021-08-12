@@ -11,7 +11,7 @@
 }
 
 .footerLayout {
-  margin-top: 50px;
+  margin-top: 0px;
 }
 
 .footerLayout :global(.vtex-rich-text-0-x-paragraph--menu-footer-titulo) {
@@ -26,4 +26,8 @@
   .footerLayout :global(.vtex-flex-layout-0-x-flexRow--newsletter) :global(.vtex-store-components-3-x-container) {
     width: 100%;
   }
+}
+
+[data-hydration-id='store.custom#cassol-conecta/$after_footer#empty']{
+  display: none !important;
 }

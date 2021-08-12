@@ -1,7 +1,7 @@
 {
   "vendor": "cassol",
   "name": "store-theme",
-  "version": "0.0.110",
+  "version": "0.1.56",
   "builders": {
     "assets": "0.x",
     "styles": "2.x",
@@ -64,7 +64,8 @@
     "vtex.product-highlights": "2.x",
     "vtex.iframe": "0.x",
     "cassol.btucalculator": "1.x",
-    "vtex.sandbox": "0.x"
+    "vtex.sandbox": "0.x",
+    "vtex.tab-layout": "0.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }

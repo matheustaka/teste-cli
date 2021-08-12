@@ -4,71 +4,81 @@
   },
   "footer-layout.desktop": {
     "children": [
-      "flex-layout.row#footer-newsletter",
       "flex-layout.row#footer-1-desktop",
       "flex-layout.row#footer-2-desktop",
       "flex-layout.row#footer-3-desktop",
       "flex-layout.row#footer-4-desktop"
     ]
   },
-
-  "flex-layout.row#footer-newsletter" : {
-    "children" : ["newsletter-form"],
-    "props" : {
-      "blockClass" : "newsletterRow"
+  "flex-layout.row#footer-newsletter": {
+    "children": ["newsletter-form"],
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass": "newsletterRow"
     }
   },
-  
+
   "newsletter-form": {
     "children": [
-      "rich-text#newsletter",
-      "newsletter-input-name",
+      "flex-layout.col#newsletter-texts",
       "newsletter-input-email",
       "newsletter-submit"
     ],
-
-    "props" : {
-      "SuccessState" : "flex-layout.row#newsletterThanks"
-    }
-  },
-
-  "flex-layout.row#newsletterThanks" : {
     "props": {
-      "horizontalAlign" : "center"
+      "SuccessState": "flex-layout.row#newsletterThanks"
+    }
+  },
+  "flex-layout.col#newsletter-texts": {
+    "props": {
+      "preventVerticalStretch": true,
+      "preventHorizontalStretch": true,
+      "blockClass": ["newsTexts"]
     },
-    "children" : [
-      "rich-text#thanks"
-    ]
+    "children": ["rich-text#newsletter", "FormRD"]
+  },
+  "flex-layout.row#newsletterThanks": {
+    "props": {
+      "horizontalAlign": "center",
+      "colSizing": "auto",
+      "blockClass": ["newsSuccessSubmit"]
+    },
+    "children": [ "rich-text#thanks", "CloseFormButton" ]
   },
 
-  "rich-text#thanks" : {
-    "props" : {
-      "text": "Obrigado!",
-      "textPosition" : "CENTER",
-      "textAlignment" : "CENTER",
-      "blockClass" : ["newsTitle"]
+  "flex-layout.col#formRD": {
+    "props": {
+      "blockClass": "newsSuccesState"
+    },
+    "children": ["FormRD"]
+  },
+  "rich-text#thanks": {
+    "props": {
+      "text": "Cadastro efetuado com sucesso!",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "blockClass": ["newsTitle"]
     }
   },
-  "newsletter-input-email" : {
-    "props" : {
-      "placeholderText" : "Digite seu e-mail"
+  "newsletter-input-email": {
+    "props": {
+      "placeholderText": "Digite seu melhor e-mail"
     }
   },
-  "newsletter-input-name" : {
-    "props" : {
-      "placeholderText" : "Digite seu nome"
+  "newsletter-input-name": {
+    "props": {
+      "inputLabel": "Nome",
+      "placeholderText": "Digite seu nome"
     }
   },
-  "newsletter-submit" : {
-    "props" : {
-      "placeholderText" : "Inscrever-se"
+  "newsletter-submit": {
+    "props": {
+      "placeholderText": "Cadastre-se"
     }
   },
-
   "rich-text#newsletter": {
     "props": {
       "text": "# Receba as melhores ofertas Cassol!",
-      "blockClass" : ["newsTitle"]
+      "blockClass": ["newsTitle"]
     }
   },
   "flex-layout.row#footer-1-desktop": {
@@ -86,7 +96,6 @@
       "paddingBottom": 3
     }
   },
-
   "flex-layout.col#footer-itens-column": {
     "children": [
       "vtex.menu@2.x:menu#precisa-de-ajuda",
@@ -97,7 +106,6 @@
       "paddingBottom": 3
     }
   },
-
   "flex-layout.col#footer-socialNetworks": {
     "children": [
       "rich-text#social-networks",
@@ -117,53 +125,42 @@
       "rich-text#social-networks-youtube"
     ]
   },
-
   "rich-text#social-networks": {
     "props": {
       "text": "Siga Nossas Redes",
       "blockClass": "menu-footer-titulo"
     }
   },
-
   "rich-text#social-networks-facebook": {
     "props": {
       "text": "<a href='https://pt-br.facebook.com/CassolCenterlar' target='_blank'><img class='vtex-rich-text-0-x-image--social-networks--youtube' src='https://cassol.vtexassets.com/arquivos/social-networks--facebook.png'></a>",
       "blockClass": "social-networks--facebook"
     }
   },
-
   "rich-text#social-networks-instagram": {
     "props": {
       "text": "<a href='https://www.instagram.com/cassolcenterlar/' target='_blank'><img class='vtex-rich-text-0-x-image--social-networks--youtube' src='https://cassol.vtexassets.com/arquivos/social-networks--instagram.png'></a>",
       "blockClass": "social-networks--instagram"
     }
   },
-
   "rich-text#social-networks-pinterest": {
     "props": {
       "text": "<a href='https://br.pinterest.com/cassolcenterlar/' target='_blank'><img class='vtex-rich-text-0-x-image--social-networks--youtube' src='https://cassol.vtexassets.com/arquivos/social-networks--pinterest.png'></a>",
       "blockClass": "social-networks--pinterest"
     }
   },
-
   "rich-text#social-networks-youtube": {
     "props": {
       "text": "<a href='https://www.youtube.com/user/CassolCenterlar' target='_blank'><img class='vtex-rich-text-0-x-image--social-networks--youtube' src='https://cassol.vtexassets.com/arquivos/social-networks--youtube.png'></a>",
       "blockClass": "social-networks--youtube"
     }
   },
-
-
   "flex-layout.row#footer-2-desktop": {
-    "children": [
-      "flex-layout.row#payment-methods",
-      "flex-layout.row#security"
-    ],
+    "children": ["flex-layout.row#payment-methods", "flex-layout.row#security"],
     "props": {
       "blockClass": "payment-security-desktop"
     }
   },
-
   "flex-layout.row#payment-methods": {
     "children": [
       "logo#footer-visa",
@@ -173,22 +170,19 @@
       "logo#footer-hiperCard",
       "logo#footer-amex",
       "logo#footer-cassolCard",
-      "logo#footer-boleto"
+      "logo#footer-boleto",
+      "logo#footer-pix"
     ],
     "props": {
       "blockClass": "payment-methods-desktop"
     }
   },
   "flex-layout.row#security": {
-    "children": [
-      "logo#footer-lets-encrypt",
-      "logo#footer-vtex-pci"
-    ],
+    "children": ["logo#footer-lets-encrypt", "logo#footer-vtex-pci"],
     "props": {
       "blockClass": "security-seals-desktop"
     }
   },
-
   "logo#footer-visa": {
     "props": {
       "title": "visa",
@@ -196,7 +190,6 @@
       "url": "https://cassol.vteximg.com.br/arquivos/logo-footer-visa.png"
     }
   },
-
   "logo#footer-masterCard": {
     "props": {
       "title": "masterCard",
@@ -204,7 +197,6 @@
       "url": "https://cassol.vteximg.com.br/arquivos/footer-masterCard.png"
     }
   },
-
   "logo#footer-dinersClub": {
     "props": {
       "title": "dinersClub",
@@ -212,7 +204,6 @@
       "url": "https://cassol.vteximg.com.br/arquivos/footer-dinersClub.png"
     }
   },
-
   "logo#footer-elo": {
     "props": {
       "title": "elo",
@@ -220,7 +211,6 @@
       "url": "https://cassol.vteximg.com.br/arquivos/footer-elo.png"
     }
   },
-
   "logo#footer-hiperCard": {
     "props": {
       "title": "hiperCard",
@@ -228,7 +218,6 @@
       "url": "https://cassol.vteximg.com.br/arquivos/footer-hiperCard.png"
     }
   },
-
   "logo#footer-amex": {
     "props": {
       "title": "amex",
@@ -236,7 +225,13 @@
       "url": "https://cassol.vteximg.com.br/arquivos/footer-amex.png"
     }
   },
-
+  "logo#footer-pix": {
+    "props": {
+      "title": "pix",
+      "url": "assets/pix-logo.png",
+      "blockClass": ["pix-logo"]
+    }
+  },
   "logo#footer-aura": {
     "props": {
       "title": "aura",
@@ -244,7 +239,6 @@
       "url": "https://cassol.vteximg.com.br/arquivos/footer-aura.png"
     }
   },
-
   "logo#footer-cassolCard": {
     "props": {
       "title": "cassolCard",
@@ -252,7 +246,6 @@
       "url": "https://cassol.vteximg.com.br/arquivos/footer-cassolCard.png"
     }
   },
-
   "logo#footer-hiper": {
     "props": {
       "title": "hiper",
@@ -260,7 +253,6 @@
       "url": "https://cassol.vteximg.com.br/arquivos/footer-hiper.png"
     }
   },
-
   "logo#footer-discover": {
     "props": {
       "title": "discover",
@@ -268,7 +260,6 @@
       "url": "https://cassol.vteximg.com.br/arquivos/footer-discover.png"
     }
   },
-
   "logo#footer-boleto": {
     "props": {
       "title": "boleto",
@@ -276,14 +267,12 @@
       "url": "https://cassol.vteximg.com.br/arquivos/footer-boleto.png"
     }
   },
-
   "logo#footer-lets-encrypt": {
     "props": {
       "title": "boleto",
       "url": "https://cassol.vteximg.com.br/arquivos/footer-lets-encrypt.png"
     }
   },
-
   "logo#footer-vtex-pci": {
     "props": {
       "title": "boleto",
@@ -291,7 +280,6 @@
       "url": "https://cassol.vteximg.com.br/arquivos/footer-vtex-pci.png"
     }
   },
-
   "flex-layout.row#footer-3-desktop": {
     "children": ["rich-text#footer"],
     "props": {
@@ -304,7 +292,6 @@
       "blockClass": "footer"
     }
   },
-
   "flex-layout.row#footer-4-desktop": {
     "children": ["rich-text#credits-avanti", "rich-text#credits-vtex"],
     "props": {
@@ -312,24 +299,20 @@
       "blockClass": "credits"
     }
   },
-
   "rich-text#credits-avanti": {
     "props": {
-      "text": "<a href='https://penseavanti.com.br/' target='_blank'><img src='https://cassol.vtexassets.com/arquivos/avanti-logo-footer.png'></a>",
+      "text": "<a href='https://tdzain.com.br/' target='_blank'><img src='https://cassol.vtexassets.com/arquivos/logo-tdz-2.png'></a>",
       "blockClass": "credits-avanti"
     }
   },
-
   "rich-text#credits-vtex": {
     "props": {
       "text": "<a href='http:www.vtex.com' target='_blank'><img src='https://cassol.vtexassets.com/arquivos/vtex-logo-footer.png'></a>",
       "blockClass": "credits-vtex"
     }
   },
-
   "footer-layout.mobile": {
     "children": [
-      "flex-layout.row#footer-newsletter",
       "flex-layout.row#footer-1-mobile",
       "flex-layout.row#socialNetworks-mobile",
       "flex-layout.row#footer-2-mobile",
@@ -337,7 +320,6 @@
       "flex-layout.row#footer-4-desktop"
     ]
   },
-
   "flex-layout.row#footer-1-mobile": {
     "children": [
       "menu-item#footer-sidebar-accordion-mobile-Institucional",
@@ -350,16 +332,12 @@
       "blockClass": "footer-sidebar-accordion"
     }
   },
-
   "flex-layout.row#socialNetworks-mobile": {
-    "children": [
-      "flex-layout.col#footer-socialNetworks"
-    ],
+    "children": ["flex-layout.col#footer-socialNetworks"],
     "props": {
       "blockClass": "socialNetworks-mobile"
     }
   },
-
   "flex-layout.row#footer-2-mobile": {
     "children": [
       "flex-layout.row#mobile-payment-methods-row-1",
@@ -370,7 +348,6 @@
       "blockClass": "payment-security-mobile"
     }
   },
-
   "flex-layout.row#mobile-payment-methods-row-1": {
     "children": [
       "logo#footer-visa",
@@ -385,118 +362,80 @@
     }
   },
   "flex-layout.row#mobile-payment-methods-row-2": {
-    "children": [
-      "logo#footer-cassolCard",
-      "logo#footer-boleto"
-    ],
+    "children": ["logo#footer-cassolCard", "logo#footer-boleto"],
     "props": {
       "blockClass": "payment-methods-mobile"
     }
   },
   "flex-layout.row#mobile-security": {
-    "children": [
-      "logo#footer-lets-encrypt",
-      "logo#footer-vtex-pci"
-    ],
+    "children": ["logo#footer-lets-encrypt", "logo#footer-vtex-pci"],
     "props": {
       "blockClass": "security-seals-mobile"
     }
   },
-
   "menu-item#footer-sidebar-accordion-mobile-Institucional": {
-    "blocks": [
-      "vtex.menu@2.x:submenu.accordion#sideBar-Institucional"
-    ],
+    "blocks": ["vtex.menu@2.x:submenu.accordion#sideBar-Institucional"],
     "props": {
       "text": "Institucional",
       "blockClass": "accordionFooter"
     }
   },
   "vtex.menu@2.x:submenu.accordion#sideBar-Institucional": {
-    "children": [
-      "vtex.menu@2.x:menu#Institucional"
-    ],
+    "children": ["vtex.menu@2.x:menu#Institucional"],
     "props": {
       "blockClass": "sideBarAccordionMobile"
     }
   },
-
   "menu-item#footer-sidebar-accordion-mobile-Politicas": {
-    "blocks": [
-      "vtex.menu@2.x:submenu.accordion#sideBar-Politicas"
-    ],
+    "blocks": ["vtex.menu@2.x:submenu.accordion#sideBar-Politicas"],
     "props": {
       "text": "Políticas",
       "blockClass": "accordionFooter"
     }
   },
   "vtex.menu@2.x:submenu.accordion#sideBar-Politicas": {
-    "children": [
-      "vtex.menu@2.x:menu#Politicas"
-    ],
+    "children": ["vtex.menu@2.x:menu#Politicas"],
     "props": {
       "blockClass": "sideBarAccordionMobile"
     }
   },
-
-
   "menu-item#footer-sidebar-accordion-mobile-Servicos": {
-    "blocks": [
-      "vtex.menu@2.x:submenu.accordion#sideBar-Servicos"
-    ],
+    "blocks": ["vtex.menu@2.x:submenu.accordion#sideBar-Servicos"],
     "props": {
       "text": "Serviços",
       "blockClass": "accordionFooter"
     }
   },
   "vtex.menu@2.x:submenu.accordion#sideBar-Servicos": {
-    "children": [
-      "vtex.menu@2.x:menu#Servicos"
-    ],
+    "children": ["vtex.menu@2.x:menu#Servicos"],
     "props": {
       "blockClass": "sideBarAccordionMobile"
     }
   },
-
-
   "menu-item#footer-sidebar-accordion-mobile-precisa-de-ajuda": {
-    "blocks": [
-      "vtex.menu@2.x:submenu.accordion#sideBar-precisa-de-ajuda"
-    ],
+    "blocks": ["vtex.menu@2.x:submenu.accordion#sideBar-precisa-de-ajuda"],
     "props": {
       "text": "Precisa de Ajuda?",
       "blockClass": "accordionFooter"
     }
   },
   "vtex.menu@2.x:submenu.accordion#sideBar-precisa-de-ajuda": {
-    "children": [
-      "vtex.menu@2.x:menu#precisa-de-ajuda"
-    ],
+    "children": ["vtex.menu@2.x:menu#precisa-de-ajuda"],
     "props": {
       "blockClass": "sideBarAccordionMobile"
     }
   },
-
-
   "menu-item#footer-sidebar-accordion-mobile-area-restrita": {
-    "blocks": [
-      "vtex.menu@2.x:submenu.accordion#sideBar-area-restrita"
-    ],
+    "blocks": ["vtex.menu@2.x:submenu.accordion#sideBar-area-restrita"],
     "props": {
       "text": "Área Restrita",
       "blockClass": "accordionFooter"
     }
   },
   "vtex.menu@2.x:submenu.accordion#sideBar-area-restrita": {
-    "children": [
-      "vtex.menu@2.x:menu#area-restrita"
-    ],
+    "children": ["vtex.menu@2.x:menu#area-restrita"],
     "props": {
       "blockClass": "sideBarAccordionMobile"
     }
   }
-
-
-
-
 }

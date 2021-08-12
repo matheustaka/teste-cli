@@ -1,5 +1,5 @@
 {
-  "store.custom#banho-e-cozinha": {
+  "store.custom#especial-moveis": {
     "blocks": [
       "list-context.image-list#pilotMainList",
       "flex-layout.row#pilotTextContent",

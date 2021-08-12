@@ -69,6 +69,7 @@
       "flex-layout.col#our-stores--sc-store-12",
       "flex-layout.col#our-stores--sc-store-13",
       "flex-layout.col#our-stores--sc-store-14",
+      "flex-layout.col#our-stores--sc-store-15",
       "rich-text#our-stores--rs",
       "flex-layout.col#our-stores--rs-store-1",
       "flex-layout.col#our-stores--rs-store-2",
@@ -105,6 +106,7 @@
       "flex-layout.row#our-stores--sc-store-12",
       "flex-layout.row#our-stores--sc-store-13",
       "flex-layout.row#our-stores--sc-store-14",
+      "flex-layout.row#our-stores--sc-store-15",
       "rich-text#our-stores--rs",
       "flex-layout.row#our-stores--rs-store-1",
       "flex-layout.row#our-stores--rs-store-2",
@@ -828,12 +830,35 @@
       "preventVerticalStretch": true
     }
   },
+  "flex-layout.row#our-stores--sc-store-15": {
+    "children": [
+      "image#our-stores--sc-logo-15",
+      "rich-text#our-stores--sc-funcionamento-15",
+      "rich-text#our-stores--sc-endereco-15",
+      "rich-text#our-stores--sc-google-15"
+    ],
+    "props": {
+      "blockClass": "lojas",
+      "preventVerticalStretch": true
+    }
+  },
 
   "flex-layout.col#our-stores--sc-store-14": {
     "children": [
       "rich-text#our-stores--sc-funcionamento-14",
       "rich-text#our-stores--sc-endereco-14",
       "rich-text#our-stores--sc-google-14"
+    ],
+    "props": {
+      "blockClass": "lojas",
+      "preventVerticalStretch": true
+    }
+  },
+  "flex-layout.col#our-stores--sc-store-15": {
+    "children": [
+      "rich-text#our-stores--sc-funcionamento-15",
+      "rich-text#our-stores--sc-endereco-15",
+      "rich-text#our-stores--sc-google-15"
     ],
     "props": {
       "blockClass": "lojas",
@@ -849,10 +874,24 @@
       "maxHeight": 27
     }
   },
+  "image#our-stores--sc-logo-15": {
+    "props": {
+      "src": "https://cassol.vtexassets.com/arquivos/nossas-lojas.png",
+      "blockClass": ["icon-nossas-lojas"],
+      "maxWidth": 22,
+      "maxHeight": 27
+    }
+  },
 
   "rich-text#our-stores--sc-funcionamento-14": {
     "props": {
       "text": "**Centro de Distribuição - São José** \n 2ª a Sexta – 8h às 18h \n Sábado - 8h às 14h",
+      "blockClass": ["aboutContent", "funcionamento"]
+    }
+  },
+  "rich-text#our-stores--sc-funcionamento-15": {
+    "props": {
+      "text": "**Lages** \n Segunda a Sábado: 8h às 19h  \n Domingos e Feriados : 10h às 19h",
       "blockClass": ["aboutContent", "funcionamento"]
     }
   },
@@ -863,10 +902,22 @@
       "blockClass": ["aboutContent", "endereco"]
     }
   },
+  "rich-text#our-stores--sc-endereco-15": {
+    "props": {
+      "text": "**(48) 4001-1515** \n  Av. das Torres, 550 - Guarujá,\n CEP: 88521-098",
+      "blockClass": ["aboutContent", "endereco"]
+    }
+  },
 
   "rich-text#our-stores--sc-google-14": {
     "props": {
       "text": "<a href='https://goo.gl/maps/oe78ZVAXQMQA6osw7' target='_blank'>abrir no google</a>",
+      "blockClass": "google-button"
+    }
+  },
+  "rich-text#our-stores--sc-google-15": {
+    "props": {
+      "text": "<a href='https://goo.gl/maps/xJZwCD92R22EyWqZ8' target='_blank'>abrir no google</a>",
       "blockClass": "google-button"
     }
   },

@@ -27,6 +27,7 @@
 @media (max-width: 575.98px)  {
   .containerNormal {
     max-width: 300px;
+    margin: 0;
   }
 }
 
@@ -144,9 +145,16 @@
   justify-content: center;
 }
 
+
+
 @media (max-width: 1025px) {
   .containerNormal {
     box-shadow: 0px 3px 13px -7px;
+  }
+
+  .containerNormal{
+    max-width: none !important;
+    box-shadow: none;
   }
 }
 

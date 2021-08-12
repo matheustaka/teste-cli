@@ -1,5 +1,5 @@
 {
-    "header#empty" : {
+    "header" : {
         "blocks" : [
             "header-layout.desktop#headerTrainee",
             "header-layout.mobile#headerTraineeMobile"

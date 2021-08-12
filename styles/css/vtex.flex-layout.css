@@ -169,6 +169,11 @@
   color: #707070;
 }
 
+.flexRowContent--minicartPrices{
+  display: flex;
+  justify-content: space-between;
+}
+
 .flexRow--minicart-footer
   :global(.vtex-checkout-summary-0-x-summarySmallDisclaimer)::after {
   content: "Frete calculado no carrinho";
@@ -252,25 +257,20 @@
   }
 }
 
+.flexRow--listItem {
+  border-bottom: 1px solid #e9e9e9;
+}
+
+.flexRowContent--productListQuantity {
+  display: flex;
+  align-items: center;
+}
+
 .productBreadcrumb.categoryBreadcrumb,
 .flexRow--searchtitle {
   max-width: 1250px;
   margin: auto;
   width: 100%;
-}
-
-@media (max-width: 767.98px) {
-  .flexRowContent--suggestionContainer,
-  .flexRowContent--didYouMeanContainer {
-    text-align: center;
-  }
-}
-
-@media (max-width: 767.98px) {
-  .flexRow--productBreadcrumb {
-    display: block;
-    max-width: 375px;
-  }
 }
 
 .flexRow--shelfNotFound {
@@ -368,11 +368,6 @@
   border-radius: 3px;
 }
 
-.flexRow--newsletterRow {
-  background: #f3f3f3;
-  border-radius: 3px;
-}
-
 .flexRow--newsletter :global(.vtex-input-prefix__group) {
   margin: 10px 0;
   border-radius: 0;
@@ -457,6 +452,7 @@
   display: flex;
 }
 
+
 .flexRowContent--payment-methods-desktop
   :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
   width: auto !important;
@@ -526,6 +522,11 @@
 
   .flexRowContent--banners-home--01 {
     margin-top: 30px;
+  }
+
+  .flexRow--content-trabalhe-conosco {
+    max-width: 1250px;
+    margin: 0 auto;
   }
 }
 
@@ -610,8 +611,26 @@
   padding: 0;
 }
 
+.flexRowContent--fetchMore {
+  flex-direction: column;
+}
 .flexCol--spacer-2 {
   width: 215px;
+}
+
+
+.flexColChild--categoryBanners{
+  padding: .3rem ;
+}
+.flexRowContent--categoryBanners{
+  justify-content: space-evenly;
+  display: flex;
+  padding: 10px 0;
+}
+
+.flexCol--syndigoContent {
+  max-width: 1250px;
+  margin: 0 auto;
 }
 
 @media (max-width: 767.98px) {
@@ -689,6 +708,11 @@
     padding: 0 20px;
   }
 
+  .flexRow--shelf-container{
+    padding: 0 35px 0 30px;
+  }
+
+  
   .flexRowContent--searchinfomobile .stretchChildrenWidth {
     width: 50% !important;
     margin: auto;
@@ -697,9 +721,6 @@
   .flexRow--banners-home--01,
   .flexRow--banners-home--02 {
     margin: auto 20px;
-  }
-  .flexRowContent--seo-container {
-    padding: 0 20px;
   }
 
   .flexRowContent--socialNetworks-mobile
@@ -764,10 +785,27 @@
   text-align: center;
 }
 
+.flexCol--newsTexts {
+  width: auto;
+}
+.flexRow--newsletterRow {
+  width:100%;
+  margin: 0 auto;
+  position: relative;
+  background: #184077;
+  border-radius: 3px;
+}
+.flexRowContent--newsSuccessSubmit, .flexCol--newsTexts {
+  justify-content: center;
+}
 @media (max-width: 767.98px) {
   .flexRowContent--newsletter-input-name :global(.vtex-input-prefix__group),
   .flexRowContent--newsletter-input-email :global(.vtex-input-prefix__group) {
     margin: 5px 0;
+  }
+
+  .flexCol--newsTexts{
+    width: 80%;
   }
 }
 
@@ -818,6 +856,11 @@
   .flexRow--banners-home--02 {
     max-width: 1250px;
     margin: 20px auto;
+  }
+
+  .flexCol--btnSeeAll{
+    align-items: flex-end;
+    margin-top: -65px;
   }
 
   .flexRowContent--banners-home--01,
@@ -933,10 +976,13 @@
 .flexRow--stepsRow {
   background-color: #ce2c93;
 }
-.flexRow--developmentSection, .flexRow--requisitesSection,.flexRow--featuresSection {
+.flexRow--developmentSection,
+.flexRow--requisitesSection,
+.flexRow--featuresSection {
   background-color: #edeced;
 }
-.flexRow--expectationSection, .flexRow--benefitsSection {
+.flexRow--expectationSection,
+.flexRow--benefitsSection {
   background-color: #3e94ca;
 }
 .flexRowContent--turnColumn {
@@ -963,6 +1009,19 @@
   margin-left: -30%;
 }
 
+.flexRow--orderPlacedContainer {
+  background-color: #f2f4f5;
+  margin-bottom: 4rem;
+}
+.flexRowContent--orderPlacedContainer .flexColChild{
+  padding: .6rem 0;
+}
+
+.flexCol--orderPlacedContent{
+  max-width: 90%;
+  margin: 0 auto;
+}
+
 .flexRow--textRow {
   background-color: #b2b2b2;
   align-items: center;
@@ -971,19 +1030,213 @@
 .flexRowContent--benefitsFirstCol {
   justify-content: space-evenly;
 }
+
+/* Share Whatsapp- Product */
+.flexRow--share-row {
+  margin-top: 10px;
+}
 /* LP - Pilot */
 .flexRowContent--pilotPadding {
-  padding: 0 6.25vw
+  padding: 0 6.25vw;
 }
 
-.flexRow--pilotPadding{
+.flexRow--pilotPadding {
   padding: 1rem 0 1rem;
 }
 
-.flexCol--banner{
+.flexCol--banner {
   position: relative;
 }
 
-.flexColChild--banner{
+.flexColChild--banner {
   position: relative;
+}
+/* Cassol conecta */
+
+.flexRow--about-section-text {
+  padding: 3vh 0;
+}
+
+.flexRow--vacancy-section {
+  background-color: #dd1a22;
+  padding: 3rem 0;
+}
+.flexRowContent--vacancy-section {
+  justify-content: space-evenly;
+  align-items: center;
+}
+.flexCol--vacancy-section-right {
+  justify-content: center;
+}
+
+.flexRowContent--believes-section {
+  justify-content: center;
+}
+.flexRow--believes-section {
+  background-color: #d5d5d5;
+}
+
+.flexRow--numbers-section {
+  padding: 6vh 0 5vh 0;
+}
+
+.flexRow--believes-section {
+  padding: 10vh 0;
+  margin-top: -5px;
+}
+
+.flexRowContent--believes-section .flexCol {
+  margin-left: 3vw;
+}
+
+.flexRow--numbers-section,
+.flexRow--data-section,
+.flexRow--logo-section,
+.flexRow--about-section-text,
+.flexRow--jointeam-section {
+  background-color: #01315a;
+}
+
+.flexColChild--data-col {
+  text-align: center;
+  justify-content: center;
+}
+
+.flexRowContent--logo-section {
+  justify-content: center;
+}
+
+.flexCol--data-col {
+  padding: 2vh 0;
+}
+.flexRowContent--data-section {
+  flex-wrap: wrap;
+}
+.flexCol--data-col {
+  flex: 1 1 300px;
+  padding: 4vh 2vw;
+  width: 400px;
+  margin: 0 1rem;
+  justify-content: center;
+}
+
+/* tabloide */
+.flexRow--worlds-row {
+  margin: 10px 0;
+}
+.flexColChild--banner-advertising {
+  max-width: 1180px;
+  margin-top: 10px;
+}
+.flexRowContent--worlds-row {
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.flexCol--world-col,
+.flexColChild--world-col {
+  max-height: 195px;
+}
+.flexCol--world-col{
+  margin: 10px;
+}
+/* !tabloide */
+
+/* Especial Inverno */
+.flexRowContent--shelf-block {
+  flex-direction: column;
+}
+
+.flexRow--shelf-block{margin: 10px 0;}
+
+/* Aniver Cassol */
+.flexCol--aniverCol{
+  padding: 10px;
+}
+.flexRowContent--aniverRowFirst {
+  margin-bottom: 2rem;
+}
+
+.flexCol--product--info {
+  padding-right: 0;
+}
+
+/* Cassol Marketplace */
+
+.flexRowContent--footerRow-marketplace { 
+  background-color: #396f9b;
+  justify-content: space-around;
+  align-items: center;
+}
+.flexRowContent--marketplace-social {
+  width: 125px;
+}
+.flexColChild--marketplace-menu {
+  display: flex;
+  align-items: center;
+}
+
+
+.flexColChild--marketplace-process { 
+  width: 85%;
+}
+
+.flexCol--marketplace-numbers, .flexCol--marketplace-process, .container--marketplace-process-title, .container--marketplace-process-title  {
+  justify-content: center;
+}
+.container--marketplace-process-title{
+  margin-bottom: 10vh;
+}
+.flexRowContent--numbers-title  {
+  margin-bottom: 10vh;
+}
+.flexRowContent--numbers-desc {
+  justify-content: space-around;
+}
+.flexCol--footer-social-marketplace {
+  flex-direction: row;
+}
+.flexCol--marketplace-menu {
+  flex-direction: row;
+}
+
+.flexCol--marketplace-advantages, .flexCol--marketplace-process, .flexCol--marketplace-numbers{
+  min-height: 60vh;
+  background-color: #e31e27;
+}
+.flexCol--marketplace-process{
+  background-color: #59b9df;
+}
+.flexCol--marketplace-numbers {
+  background-color: #396f9b;
+}
+@media (max-width: 767.98px) {
+  .flexRowContent--suggestionContainer,
+  .flexRowContent--didYouMeanContainer {
+    text-align: center;
+  }
+  .flexRow--hero-section {
+    margin-top: 30px;
+  }
+
+  .flexRow--vacancy-section {
+    padding: 10vh 3vw;
+  }
+  .flexColChild--vacancy-section-right {
+    display: flex;
+    justify-content: center;
+  }
+
+  .flexCol--data-col {
+    margin: 0 3vw;
+  }
+  .flexRow--productBreadcrumb {
+    display: block;
+    max-width: 375px;
+  }
+
+  .flexCol--institucionalSidebar {
+    display: none;
+  }
+
 }

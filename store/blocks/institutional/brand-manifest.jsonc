@@ -122,7 +122,7 @@
 
   "rich-text#brand-manifest--valor-cassol": {
     "props": {
-      "text": "#### **O valor da Cassol** \n \n Valorizar os relacionamentos sólidos e duradouros, de forma positiva e produtiva em busca de resultados comuns.\n\n Oferecemos todas as soluções em produtos e serviços para construção, reforma e decoração, com diferencial na experiência de compra.\n\n Nós reunimos os melhores produtos de todos os lugares do mundo em um só lugar, com preço competitivo para todas as classes sociais, com diversos estilos e para todas as fases da vida. São produtos de qualidade, alinhados às tendências, com preços justos e garantia Cassol. Tomamos cuidado de oferecer uma amplitude de produtos que gerem solução para facilitar no momento da compra.",
+      "text": "#### **O valor da Cassol** \n \n Valorizar os relacionamentos sólidos e duradouros, de forma positiva e produtiva em busca de resultados comuns.\n\n Oferecemos todas as soluções em produtos e serviços para construção, reforma e decoração, com diferencial na experiência de compra.\n\n Nós reunimos os melhores produtos de todos os lugares do world em um só lugar, com preço competitivo para todas as classes sociais, com diversos estilos e para todas as fases da vida. São produtos de qualidade, alinhados às tendências, com preços justos e garantia Cassol. Tomamos cuidado de oferecer uma amplitude de produtos que gerem solução para facilitar no momento da compra.",
       "blockClass": ["aboutContent", "valor-cassol"]
     }
   },

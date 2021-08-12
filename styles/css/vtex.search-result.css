@@ -225,7 +225,7 @@
 }
 
 .buttonShowMore {
-  margin-top: 30px;
+  margin-top: 10px;
 }
 
 .buttonShowMore :global(.vtex-button):hover {
@@ -295,6 +295,24 @@
   font-weight: 400;
 }
 
+.showingProducts{
+  margin-top: 10px;
+}
+.buttonShowMore--world-show-more{
+  margin: 0 0 20px 0 ;
+}
 .orderByOptionsContainer {
   z-index: 11;
+}
+
+.filter__container--selectedFilters {
+  display: none;
+}
+.filter__container--promocao{
+  display: none;
+}
+@media screen and (max-width:767px) {
+  .gallery--default-grid{
+    margin: 0px;
+  }
 }

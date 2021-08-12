@@ -1,0 +1,314 @@
+{
+  "store.custom#especial-inverno": {
+    "blocks": [
+      "list-context.image-list#winter-main-banner",
+      "flex-layout.row#winter-title-row",
+      "list-context.image-list#winter-banner-slides",
+      "flex-layout.row#winter-shelf-row",
+      "list-context.image-list#winter-banner-slides-2",
+      "flex-layout.row#winter-shelf-row-02",
+      "list-context.image-list#winter-banner-slides-03",
+      "flex-layout.row#winter-shelf-row-03"
+    ]
+  },
+
+  "flex-layout.row#winter-title-row" : {
+    "props":{
+      "horizontalAlign": "center"
+    },
+    "children": ["rich-text#winter-title"]
+  },
+  "rich-text#winter-title": {
+    "props": {
+      "text": "# Ofertas especiais de inverno",
+      "textPosition":"center",
+      "textAlignment":"center",
+      "blockClass": "winterTitle"
+    }
+  },
+  "list-context.image-list#winter-main-banner": {
+    "children": [
+      "slider-layout#winter-main-banner"
+    ],
+    "props": {
+      "height": 720,
+      "images": [
+        {
+          "image": "https://cassol.vtexassets.com/assets/vtex.file-manager-graphql/images/63a7e4cd-61ae-4a83-993d-fd506ab789f7___7023558387c2f290421cf8520f3bd939.png",
+          "mobileImage": "https://cassol.vtexassets.com/assets/vtex.file-manager-graphql/images/fa81b195-1d65-4d0a-867f-ac14df8f659e___98a89d76e12813317ea42a2d5868e49e.png"
+        }
+      ]
+    }
+  },
+  "slider-layout#winter-main-banner": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "stopOnHover": true,
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "banner-principal"
+    }
+  },
+  "list-context.image-list#winter-banner-slides": {
+    "props": {
+      "height": 360,
+      "images": [
+        {
+          "image": "https://cassol.vtexassets.com/assets/vtex.file-manager-graphql/images/bc824d9c-85a7-4da4-a396-62989dd67f28___d0bee515fca6bb058f74e46fd6b2a58f.png",
+          "width":"500px"
+        },
+        {
+          "image": "https://cassol.vtexassets.com/assets/vtex.file-manager-graphql/images/f27d58da-8a85-4399-a463-848105bb7e1e___ed617c8515bcaea50dc6681529a5aa00.png",
+          "width":"610px"
+        }
+      ]
+    },
+    "children": [
+      "slider-layout#winter-banner-slides"
+    ]
+  },
+  "slider-layout#winter-banner-slides": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 2,
+        "tablet": 2,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "never",
+      "showPaginationDots": "always",
+      "centerMode": {
+        "desktop": "disabled",
+        "mobile": "disabled",
+        "phone": "disabled"
+      },
+      "usePagination": true,
+      "blockClass": ["winter-banner-slides"]
+    }
+  },
+
+  "flex-layout.row#winter-shelf-row" : {
+    "props" : {
+      "blockClass": ["shelf-block"],
+      "colSizing": "auto"
+    },
+    "children" : ["rich-text#shelf-title-01","list-context.product-list#winter-shelf-01"]
+  },
+
+  "rich-text#shelf-title-01": {
+    "props": {
+      "text": "## Vitrine",
+      "blockClass" :["winter-shelf-title"]
+    }
+  },
+  "list-context.product-list#winter-shelf-01": {
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "children": [
+      "slider-layout#winter-shelf-01"
+    ],
+    "props": {
+      "orderBy": "OrderByBestDiscountDESC",
+      "hideUnavailableItems": true
+    }
+  },
+  "slider-layout#winter-shelf-01": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 2,
+        "phone": 1
+      },
+      "showNavigationArrows": "desktopOnly",
+      "infinite": true,
+      "fullWidth": false,
+      "usePagination": true,
+      "centerMode": {
+        "desktop": "disabled",
+        "phone": "to-the-left",
+        "mobile": "to-the-left"
+      },
+      "blockClass": "shelf"
+    },
+    "children": []
+  },
+
+  "flex-layout.row#winter-shelf-row-02" : {
+    "props" : {
+      "blockClass": ["shelf-block"],
+      "colSizing": "auto"
+    },
+    "children" : ["rich-text#shelf-title-02","list-context.product-list#winter-shelf-02"]
+  },
+
+  "rich-text#shelf-title-02": {
+    "props": {
+      "text": "## Vitrine",
+      "blockClass": ["winter-shelf-title"]
+    }
+  },
+  "list-context.product-list#winter-shelf-02": {
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "children": [
+      "slider-layout#winter-shelf-02"
+    ],
+    "props": {
+      "orderBy": "OrderByBestDiscountDESC",
+      "hideUnavailableItems": true
+    }
+  },
+  "slider-layout#winter-shelf-02": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 2,
+        "phone": 1
+      },
+      "showNavigationArrows": "desktopOnly",
+      "infinite": true,
+      "fullWidth": false,
+      "usePagination": true,
+      "centerMode": {
+        "desktop": "disabled",
+        "phone": "to-the-left",
+        "mobile": "to-the-left"
+      },
+      "blockClass": "shelf"
+    },
+    "children": []
+  },
+  "list-context.image-list#winter-banner-slides-2": {
+    "props": {
+      "height" : 400,
+      "images": [
+        
+        {
+          "image": "https://cassol.vtexassets.com/assets/vtex.file-manager-graphql/images/4c8d0985-b134-4a6d-a880-0a678aa32c9d___7409968e8cc9bad738d59bc5f129f708.png",
+          "width" : "380px"
+        },
+        {
+          "image": "https://cassol.vtexassets.com/assets/vtex.file-manager-graphql/images/ca3756e7-c8fd-4050-a0b9-3bbf04015f1e___d31e1142cf9eba5cd53b3f7f6192443f.png",
+          "width" : "380px"
+        },
+        {
+          "image": "https://cassol.vtexassets.com/assets/vtex.file-manager-graphql/images/e1b2f329-8f98-4ba7-820c-e47117158caf___0dc9f5e150067a4d31df57b98aa18c53.png",
+          "width" : "380px"
+        }
+      ],
+      "blockClass": ["example"]
+    },
+    "children": [
+      "slider-layout#winter-banner-slides-2"
+    ]
+  },
+  "slider-layout#winter-banner-slides-2": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 2,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "showPaginationDots": "always",
+      "centerMode": {
+        "desktop": "disabled",
+        "mobile": "disabled",
+        "phone": "disabled"
+      },
+      "usePagination": true,
+      "blockClass": ["example"]
+    }
+  },
+  "list-context.image-list#winter-banner-slides-03": {
+    "props": {
+      "height": 360,
+      "images": [
+        {
+          "image": "https://cassol.vtexassets.com/assets/vtex.file-manager-graphql/images/44acd2b5-b79d-4ece-9b46-dfbc21b70cc3___c767bc053e72cf5748291a4c7f1378ca.png",
+          "width":"610px"
+        },
+        {
+          "image": "https://cassol.vtexassets.com/assets/vtex.file-manager-graphql/images/b03a0679-0ed7-4173-87b7-f1f8e08f7426___03ede6f54abe330deb6b372e0d93c8f6.png",
+          "width":"610px"
+        }
+      ]
+    },
+    "children": [
+      "slider-layout#winter-banner-slides"
+    ]
+  },
+  "slider-layout#winter-banner-slides-03": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 2,
+        "tablet": 2,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "never",
+      "showPaginationDots": "desktopOnly",
+      "centerMode": {
+        "desktop": "disabled",
+        "mobile": "to-the-left",
+        "phone": "to-the-left"
+      },
+      "usePagination": true
+    }
+  },
+
+  "flex-layout.row#winter-shelf-row-03" : {
+    "props": {
+      "blockClass": ["shelf-block"],
+      "colSizing": "auto"
+    },
+    "children": ["rich-text#shelf-title-03","list-context.product-list#winter-shelf-03"]
+  },
+
+  "rich-text#shelf-title-03": {
+    "props": {
+      "text": "## Vitrine",
+      "blockClass": ["winter-shelf-title"]
+    }
+  },
+  "list-context.product-list#winter-shelf-03": {
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "children": [
+      "slider-layout#winter-shelf-02"
+    ],
+    "props": {
+      "orderBy": "OrderByBestDiscountDESC",
+      "hideUnavailableItems": true
+    }
+  },
+  "slider-layout#winter-shelf-03": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 2,
+        "phone": 1
+      },
+      "showNavigationArrows": "desktopOnly",
+      "showPaginationDots" : "desktopOnly",
+      "infinite": true,
+      "fullWidth": true,
+      "usePagination": true,
+      "centerMode": {
+        "desktop": "disabled",
+        "phone": "to-the-left",
+        "mobile": "to-the-left"
+      },
+      "blockClass": "shelf"
+    },
+    "children": []
+  }
+}
