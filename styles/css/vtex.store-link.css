@@ -1,14 +1,33 @@
 .buttonLink--traineeSubscribe {
-    width: auto;
-    padding: 1.4rem 1.2rem;
-    border-radius: 20px;
-    border: none;
+  width: auto;
+  padding: 1.4rem 1.2rem;
+  border-radius: 20px;
+  border: none;
 
-    letter-spacing: .3rem;
-    font-size: 1.2rem;
-    font-weight: bold;
-    height: 35px;
-    color: #fff;
-    text-transform: uppercase;
-    background-color: #da3135;
+  letter-spacing: 0.3rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  height: 35px;
+  color: #fff;
+  text-transform: uppercase;
+  background-color: #da3135;
+}
+
+.link--cta-marketplace {
+  background-color: #e31e27;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 1.5rem;
+
+  padding: 1.3rem;
+  border-radius: 30px;
+}
+
+.link--mktplace-menu-link{
+  color: #0072a0;
+  font-weight: 600;
+
+  text-decoration: none;
+  text-transform: uppercase;
 }

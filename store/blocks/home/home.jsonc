@@ -10,29 +10,22 @@
       "responsive-layout.desktop#deals-desk",
       // Vitrine
       "rich-text#shelf-01",
-      "responsive-layout.desktop#shelf-01",
-      "responsive-layout.tablet#shelf-01",
-      "responsive-layout.phone#mobile-shelf-01",
+      "flex-layout.row#shelf-01",
       "__fold__.mobile",
       "__fold__.desktop",
-      "responsive-layout.tablet#newsletter",
-      "responsive-layout.desktop#newsletter",
+      "sticky-layout#sticky-newsletter",
       // Banners
       "list-context.image-list#slide",
       // Vitrine
       "rich-text#shelf-02",
-      "responsive-layout.desktop#shelf-02",
-      "responsive-layout.tablet#shelf-02",
-      "responsive-layout.phone#mobile-shelf-02",
+      "flex-layout.row#shelf-02",
       // Mini banners
       "responsive-layout.desktop#mini-banners-desk",
       "responsive-layout.tablet#mini-banners-tablet",
       "responsive-layout.phone#mini-banners-mobile",
       // Vitrine
       "rich-text#shelf-03",
-      "responsive-layout.desktop#shelf-03",
-      "responsive-layout.tablet#shelf-03",
-      "responsive-layout.phone#mobile-shelf-03",
+      "flex-layout.row#vitrine-03",
       // Texto Seo
       "flex-layout.row#seo-container",
       "back-to-top-button"
@@ -210,21 +203,6 @@
       "text": "## Produtos em Destaque",
       "blockClass": "shelfTitle"
     }
-  },
-  "responsive-layout.desktop#shelf-01": {
-    "children": [
-      "flex-layout.row#shelf-01"
-    ]
-  },
-  "responsive-layout.tablet#shelf-01": {
-    "children": [
-      "flex-layout.row#shelf-01"
-    ]
-  },
-  "responsive-layout.phone#mobile-shelf-01": {
-    "children": [
-      "flex-layout.row#mobile-shelf-01"
-    ]
   },
   "flex-layout.row#shelf-01": {
     "props": {
@@ -474,21 +452,6 @@
       "text": "## Acabaram de Chegar",
       "blockClass": "shelfTitle"
     }
-  },
-  "responsive-layout.desktop#shelf-02": {
-    "children": [
-      "flex-layout.row#shelf-02"
-    ]
-  },
-  "responsive-layout.tablet#shelf-02": {
-    "children": [
-      "flex-layout.row#shelf-02"
-    ]
-  },
-  "responsive-layout.phone#mobile-shelf-02": {
-    "children": [
-      "flex-layout.row#mobile-shelf-02"
-    ]
   },
   "flex-layout.row#shelf-02": {
     "props": {

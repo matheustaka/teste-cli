@@ -1,3 +1,7 @@
+
+:global(html) {
+  scroll-behavior: smooth;
+}
 :global(.vtex-account) {
   max-width: 1250px;
   margin: 0 auto;

@@ -4,6 +4,7 @@ let paymentForm = paymentSec.firstElementChild;
 
 // Quando estiver no pagamento
 if ($(paymentForm).hasClass('active')) {
+  // Pegue a listagem de sellers
     let orderSellers = vtexjs.checkout.orderForm.sellers;
     let pixLogo = $('[data-name = Pix]');
 
