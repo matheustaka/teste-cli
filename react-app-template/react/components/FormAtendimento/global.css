@@ -1,0 +1,128 @@
+.autorizada-form-title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 38px;
+    color: #434752;
+    text-align: center;
+    margin: 0 0 8px;
+    
+}
+
+.autorizada-form-description {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 20px;
+    text-align: center;
+    color: #4f4f4f;
+    margin: 0 0 24px;
+}
+
+.autorizada-form-content {
+    border: solid 3px #f4f4f4;
+    margin: 0 auto 50px;
+    padding: 30px 3%;
+    border-radius: 3px;
+    max-width: 1272px;
+}
+
+.form-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.form-content span {
+    text-align: center;
+    line-height: 3;
+    font-weight: 700;
+    color: #de0808;
+    width: 75%;
+    border: none;
+    height: 40px;
+    padding: 0 16px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-size: 14px;
+    /* margin-bottom: 12px; */
+}
+.form-content-input {
+    width: 48%;
+    margin: 10px 0 10px 0px;
+}
+.form-content-input.left {
+    margin-right: 50%;
+}
+.form-content-input label {
+    font: 14px Verdana, Geneva, Kalimati, sans-serif;
+    color: #8f8682;
+    margin-bottom: 15px;
+    display: block;
+}
+.form-content-input label input {
+    width: 20px;
+    height: 20px;
+}
+.form-content-input label span {
+    font: 14px Verdana, Geneva, Kalimati, sans-serif;
+    color: #8f8682;
+    width: auto;
+    padding: 0;
+    line-height: 20px;
+    height: 20px;
+    display: inline-block;
+    position: relative;
+    bottom: 5px;
+    margin-left: 10px;
+}
+.form-content input, .form-content select {
+    width: 100%;
+    border-radius: 2px;
+    padding: 16px;
+    border: 1px solid rgb(169, 169, 169);
+    text-transform: uppercase;
+    font: 10px Verdana, Geneva, Kalimati, sans-serif;
+    font-style: italic;
+    color: #939598;
+}
+
+.form-content button {
+    height: 50px;
+    background: #75a62a;
+    border-radius: 30px;
+    border: none;
+    color: #fff;
+    width: 20%;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    margin-top: 30px;
+    cursor: pointer;
+    margin-left: 0%;
+    margin-right: 50%;
+}
+
+.form-content input#Mensagem {
+    height: 80px;
+}
+
+.form-content.disabled input {
+    background: gainsboro;
+    pointer-events: none;
+}
+
+
+@media screen and (max-width: 768px) {
+    .autorizada-form-title {
+        margin-top: 20px;
+    }
+    .form-content button {
+        margin-bottom: 50px;
+    }
+    .vtex-rich-text-0-x-container--title-item-benefits {
+        margin: 0 20px;
+    }
+}
