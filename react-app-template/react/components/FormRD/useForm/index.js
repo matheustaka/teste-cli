@@ -1,23 +1,30 @@
-import { useState } from 'react'
+import { useState } from 'react';
 
-const useForm = (callback) => {
-  const [values, setValues] = useState({})
-  const [loading, setLoading] = useState(false)
-  const handleChange = (event) => {
-    const auxValues = { ...values }
+const useForm = callback => {
+  const [values, setValues] = useState({}),
+    [loading, setLoading] = useState(false),
 
-    auxValues[event.target.name] = event.target.value
-    setValues(auxValues)
-  }
 
-  const handleSubmit = (callback) => (event) => {
-    event.preventDefault()
-    setLoading(true)
-    callback()
-    setLoading(false)
-  }
+    // Guardar o estado das alterações dos inputs
+    handleChange = event => {
+      const auxValues = { ...values };
 
-  return [{ values, loading }, handleChange, handleSubmit]
-}
+      let target = event.target
+      // Estrutura os novos valores e valida se o input é um checkbox
+      auxValues[target.name] =  target.type === 'checkbox' ? target.checked : target.value;
+      // Define os novos valores de values com uma variavel auxiliar
+      setValues(auxValues);
+    },
 
-export default useForm
+    handleSubmit = callback => event => {
+      event.preventDefault();
+      setLoading(true);
+      callback();
+      setLoading(false);
+
+    };
+
+  return [{ values, loading }, handleChange, handleSubmit];
+};
+
+export default useForm;

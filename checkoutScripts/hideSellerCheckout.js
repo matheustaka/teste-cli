@@ -41,3 +41,26 @@ if ($(".client-profile-data").hasClass("active")) {
     isPhilco(orderSellers);
   });
 }
+
+let paymentSec = document.getElementById("payment-data");
+
+let paymentForm = paymentSec.firstElementChild;
+function checkSellerCassol(orderSellers) {
+  return orderSellers.name == "Cassol Centerlar";
+}
+// Quando estiver no pagamento
+if ($(paymentForm).hasClass("active")) {
+  // Pegue a listagem de sellers
+  var orderSellers = vtexjs.checkout.orderForm.sellers;
+  var pixLogo = $("[data-name = Pix]");
+
+
+  checkSellerCassol(orderSellers)
+
+  var findSellerCassol = orderSellers.find(checkSellerCassol);
+  if (findSellerCassol != 'Cassol Centerlar') {
+    pixLogo.remove();
+  } else {
+    0;
+  }
+}

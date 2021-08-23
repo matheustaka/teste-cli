@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, { useState } from 'react'
 import styled from 'styled-components'
 import useForm from './useForm'
 const Div = styled.div`
@@ -69,12 +69,9 @@ const EmailField = styled.input`
 `
 const FormRD = () => {
 
-  const [{ values, loading }, handleChange, handleSubmit] = useForm()
-  const [disabled, setDisabled] = useState('')
-  const [dialog, setDialog] = useState(false)
-
   const enviarContato = () => {
-    fetch('/api/dataentities/FL/documents', {
+    let API_KEY = '016cf0ef1ac5e4cb720c13c45b136e7c'
+    fetch('/api/dataentities/FR/documents', {
       method: 'POST',
       headers: {
         Accept: 'application/vnd.vtex.ds.v10+json',
@@ -89,31 +86,62 @@ const FormRD = () => {
         console.error(err)
       })
 
-    console.log(values)
+    console.log(values);
+
+    fetch(`https://api.rd.services/platform/conversions?api_key=${API_KEY}`, {
+      method: 'POST',
+      headers: {
+        Accept: 'application/json',
+        'Content-type': 'application/json'
+      },
+      body: {
+        event_type: 'CONVERSION',
+        payload: {
+          conversion_identifier: 'newsletter-form',
+          legal_bases: [
+            {
+              "category": "communications",
+              "type": "consent",
+              "status": "granted"
+            }
+          ],
+          email: JSON.stringify(values)
+        }
+      }
+    }).then((response) => {
+      console.log(response)
+    })
   }
-
-
 
   const closeForm = () => {
     let newsRow = document.querySelector('.vtex-flex-layout-0-x-flexRow--newsletterRow');
     newsRow.style.display = 'none'
   };
+
+  const [{ values }, handleChange, handleSubmit] = useForm()
+
   return (
     <>
       <Div>
+        <form id="form-rd" onSubmit={handleSubmit(enviarContato)}>
+
+          <Input onChange={handleChange} type="checkbox" data-privacy="true" id="agreeWithTerms" name="agreeWithTerms" value="1" required />
 
 
-        <form onSubmit={handleSubmit(enviarContato)} id="form-rd">
-          <Input type="checkbox" data-privacy="true" name="communications" value="1" required />
+          <Label htmlFor="agreeWithTerms">
+            Li e aceito os termos de uso e <Link href='https://www.cassol.com.br/privacidade'> política de privacidade</Link> da Cassol.
+          </Label>
 
-          Li e aceito os termos de uso e <Link href='https://www.cassol.com.br/privacidade'> política de privacidade</Link> da Cassol.
-          <Input type="hidden" data-privacy="true" name="privacy_policy" value="1" />
+          <Input type="hidden" data-privacy="true" id="privacy_policy" name="privacy_policy" value="1" />
 
-          <EmailField onChange={handleChange} type="email" placeholder="Digite seu melhor e-mail" />
-          <button>
-            {loading
+          <EmailField type="email" placeholder="Digite seu melhor e-mail" id="email" name="email" onChange={handleChange} />
+
+
+          <button type="submit">
+            enviar
+            {/* {loading
               ? 'Loading...'
-              : `${disabled == 'disabled' ? 'Enviado!' : 'Enviar'}`}
+              : `${disabled == 'disabled' ? 'Enviado!' : 'Enviar'}`} */}
           </button>
         </form>
 

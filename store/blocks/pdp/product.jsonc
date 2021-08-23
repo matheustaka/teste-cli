@@ -247,6 +247,11 @@
     ]
   },
 
+  "product-installments-list": {
+    "props": {
+      "paymentSystemName": "Boleto"
+    }
+  },
   "flex-layout.col#right-col-unavailable": {
     "props": {
       "preventVerticalStretch": true,
