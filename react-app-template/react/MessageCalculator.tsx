@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import styled from 'styled-components'
 import { useProduct } from 'vtex.product-context'
-
 const MessageCalculator: StorefrontFunctionComponent = () => {
   const productContextValue = useProduct()
   const [unitMultiplier, setUnitMultiplier] = useState() as any
@@ -9,9 +8,10 @@ const MessageCalculator: StorefrontFunctionComponent = () => {
 
   const [load, setLoad] = useState<boolean>(false)
 
-  const calculatePriceBox = (n: number, n2: number) => {
-    return n * n2
-  }
+  // Calcular o preço da caixa
+  // const calculatePriceBox = (n: number, n2: number) => {
+  //   return n * n2
+  // }
 
 
   const RenderPriceBox = () => {
@@ -19,7 +19,7 @@ const MessageCalculator: StorefrontFunctionComponent = () => {
       <>
         {productContextValue?.selectedItem?.measurementUnit === 'm²' ? (
           <Label>
-            Produto vendido por caixa. Cada caixa contém: {unitMultiplier} m². O preço da caixa custa <BoxPrice>{'R$ ' + calculatePriceBox(sellingPrice, unitMultiplier).toFixed(2)}</BoxPrice>
+            Este produto é vendido por caixa. Cada caixa contém: {unitMultiplier} m². O preço do m² custa <BoxPrice>{ sellingPrice }</BoxPrice>
           </Label>
         ) : null}
       </>
@@ -29,7 +29,9 @@ const MessageCalculator: StorefrontFunctionComponent = () => {
     const unit = productContextValue?.product?.items[0]?.unitMultiplier
     const selPrice = productContextValue?.product?.priceRange?.sellingPrice?.highPrice
     setUnitMultiplier(Number(unit));
-    setSellingPrice(Number(selPrice))
+    setSellingPrice(Number(selPrice).toFixed(2))
+
+    console.log(productContextValue);
 
     setLoad(true)
 

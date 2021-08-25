@@ -12,9 +12,9 @@ const PriceDiscount = () => {
   const productContext = useProduct();
   const [price, setPrice] = useState();
 
-  useEffect( () => {
-    setPrice(productContext.product.priceRange.sellingPrice.highPrice)
-  }, [productContext])
+  // useEffect( () => {
+  //   setPrice(productContext.product.priceRange.sellingPrice.highPrice)
+  // }, [productContext])
 
   return(
     <DiscountMessage> <strong>10%</strong> de desconto à vista </DiscountMessage>
