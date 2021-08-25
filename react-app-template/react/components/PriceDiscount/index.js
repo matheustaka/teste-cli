@@ -1,20 +1,23 @@
 import React, { useEffect, useState } from 'react';
 import { useProduct } from 'vtex.product-context';
+import styled from 'styled-components';
 
+const DiscountMessage = styled.p`
+  margin: 0 0 10px 0;
+  color: #385a83;
+  font-size: 14px;
+`
 const PriceDiscount = () => {
 
   const productContext = useProduct();
-
-  console.log('product context', productContext);
   const [price, setPrice] = useState();
 
   useEffect( () => {
     setPrice(productContext.product.priceRange.sellingPrice.highPrice)
   }, [productContext])
 
-  console.log(price);
   return(
-    <h1> PriceDiscount </h1>
+    <DiscountMessage> <strong>10%</strong> de desconto à vista </DiscountMessage>
   )
 }
 

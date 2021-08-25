@@ -5,21 +5,42 @@ import { useProduct } from 'vtex.product-context'
 const MessageCalculator: StorefrontFunctionComponent = () => {
   const productContextValue = useProduct()
   const [unitMultiplier, setUnitMultiplier] = useState() as any
+  const [sellingPrice, setSellingPrice] = useState() as any
 
+  const [load, setLoad] = useState<boolean>(false)
+
+  const calculatePriceBox = (n: number, n2: number) => {
+    return n * n2
+  }
+
+
+  const RenderPriceBox = () => {
+    return (
+      <>
+        {productContextValue?.selectedItem?.measurementUnit === 'm²' ? (
+          <Label>
+            Produto vendido por caixa. Cada caixa contém: {unitMultiplier} m². O preço da caixa custa <BoxPrice>{'R$ ' + calculatePriceBox(sellingPrice, unitMultiplier).toFixed(2)}</BoxPrice>
+          </Label>
+        ) : null}
+      </>
+    )
+  }
   useEffect(() => {
     const unit = productContextValue?.product?.items[0]?.unitMultiplier
+    const selPrice = productContextValue?.product?.priceRange?.sellingPrice?.highPrice
+    setUnitMultiplier(Number(unit));
+    setSellingPrice(Number(selPrice))
 
-    setUnitMultiplier(unit)
+    setLoad(true)
+
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
 
   return (
     <>
-      {productContextValue?.selectedItem?.measurementUnit === 'm²' ? (
-        <Label>
-          Produto vendido por caixa. Cada caixa contém: {unitMultiplier} m²
-        </Label>
-      ) : null}
+      {load ? <RenderPriceBox /> : null}
+
+
     </>
   )
 }
@@ -29,5 +50,7 @@ const Label = styled.p`
   font-size: 12px;
   line-height: 18px;
 `
-
+const BoxPrice = styled.strong`
+  color: #385a83;
+`
 export default MessageCalculator

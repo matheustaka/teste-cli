@@ -86,31 +86,29 @@ const FormRD = () => {
         console.error(err)
       })
 
-    console.log(values);
-
-    fetch(`https://api.rd.services/platform/conversions?api_key=${API_KEY}`, {
-      method: 'POST',
-      headers: {
-        Accept: 'application/json',
-        'Content-type': 'application/json'
-      },
-      body: {
-        event_type: 'CONVERSION',
-        payload: {
-          conversion_identifier: 'newsletter-form',
-          legal_bases: [
-            {
-              "category": "communications",
-              "type": "consent",
-              "status": "granted"
-            }
-          ],
-          email: JSON.stringify(values)
-        }
-      }
-    }).then((response) => {
-      console.log(response)
-    })
+    // fetch(`https://api.rd.services/platform/conversions?api_key=${API_KEY}`, {
+    //   method: 'POST',
+    //   headers: {
+    //     Accept: 'application/json',
+    //     'Content-type': 'application/json'
+    //   },
+    //   body: {
+    //     event_type: 'CONVERSION',
+    //     payload: {
+    //       conversion_identifier: 'newsletter-form',
+    //       legal_bases: [
+    //         {
+    //           "category": "communications",
+    //           "type": "consent",
+    //           "status": "granted"
+    //         }
+    //       ],
+    //       email: JSON.stringify(values)
+    //     }
+    //   }
+    // }).then((response) => {
+    //   console.log(response)
+    // })
   }
 
   const closeForm = () => {
@@ -134,15 +132,15 @@ const FormRD = () => {
 
           <Input type="hidden" data-privacy="true" id="privacy_policy" name="privacy_policy" value="1" />
 
-          <EmailField type="email" placeholder="Digite seu melhor e-mail" id="email" name="email" onChange={handleChange} />
+          {/* <EmailField type="email" placeholder="Digite seu melhor e-mail" id="email" name="email" onChange={handleChange} /> */}
 
 
-          <button type="submit">
-            enviar
+          {/* <button type="submit"> */}
+
             {/* {loading
               ? 'Loading...'
               : `${disabled == 'disabled' ? 'Enviado!' : 'Enviar'}`} */}
-          </button>
+          {/* </button> */}
         </form>
 
 
