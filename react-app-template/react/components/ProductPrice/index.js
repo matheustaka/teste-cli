@@ -15,12 +15,13 @@ function ProductPrice() {
   }, [productContext])
 
   useEffect(() => {
-    setPriceCaixa(productContext.product.priceRange.sellingPrice.lowPrice * unitMultiplier)
+    setPriceCaixa((productContext.product.priceRange.sellingPrice.lowPrice * unitMultiplier).toFixed(2))
   }, [unitMultiplier])
 
+  console.log(productContext);
 
   return <div className="product-price">
-    {measurementUnit === "m²" ?
+    {measurementUnit === "m²" ||  measurementUnit === "M2" ?
       <div className="product-price-calc">
         <p>
 

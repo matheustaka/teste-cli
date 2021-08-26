@@ -10,7 +10,8 @@
     "children": [
       "ProductPrice",
       // "product-selling-price",
-      "installment-methods"
+      // "installment-methods"
+      "condition-layout.product#custom-installment"
     ]
   },
 
@@ -26,5 +27,22 @@
       "product-list-price",
       "product-price-savings"
     ]
+  },
+  "condition-layout.product#custom-installment": {
+    "props": {
+      "conditions": [
+        {
+          "subject": "specificationProperties",
+          "arguments": {
+            "name":"Unidade de Venda",
+            "value": "m²"
+          },
+          "toBe": true
+        }
+      ],
+      "matchType":"any",
+      "Then": "rich-text#nohing",
+      "Else": "installment-methods"
+    }
   }
 }

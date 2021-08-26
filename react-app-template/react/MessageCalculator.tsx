@@ -3,7 +3,9 @@ import styled from 'styled-components'
 import { useProduct } from 'vtex.product-context'
 const MessageCalculator: StorefrontFunctionComponent = () => {
   const productContextValue = useProduct()
-  const [unitMultiplier, setUnitMultiplier] = useState() as any
+
+  // Multiplicador de unidade de m²
+  // const [unitMultiplier, setUnitMultiplier] = useState() as any
   const [sellingPrice, setSellingPrice] = useState() as any
 
   const [load, setLoad] = useState<boolean>(false)
@@ -17,21 +19,21 @@ const MessageCalculator: StorefrontFunctionComponent = () => {
   const RenderPriceBox = () => {
     return (
       <>
-        {productContextValue?.selectedItem?.measurementUnit === 'm²' ? (
+        {productContextValue?.selectedItem?.measurementUnit === 'm²' || productContextValue?.selectedItem?.measurementUnit === 'M2'  ? (
           <Label>
-            Este produto é vendido por caixa. Cada caixa contém: {unitMultiplier} m². O preço do m² custa <BoxPrice>{ sellingPrice }</BoxPrice>
+           Neste produto, o m² sai por <BoxPrice>{ sellingPrice }</BoxPrice>
           </Label>
         ) : null}
       </>
     )
   }
   useEffect(() => {
-    const unit = productContextValue?.product?.items[0]?.unitMultiplier
-    const selPrice = productContextValue?.product?.priceRange?.sellingPrice?.highPrice
-    setUnitMultiplier(Number(unit));
-    setSellingPrice(Number(selPrice).toFixed(2))
+    // const unit = productContextValue?.product?.items[0]?.unitMultiplier
+    // setUnitMultiplier(Number(unit));
 
-    console.log(productContextValue);
+
+    const selPrice = productContextValue?.product?.priceRange?.sellingPrice?.highPrice
+    setSellingPrice(Number(selPrice).toLocaleString('pt-BR' , {style: 'currency', currency: 'BRL'}))
 
     setLoad(true)
 
@@ -49,7 +51,7 @@ const MessageCalculator: StorefrontFunctionComponent = () => {
 
 const Label = styled.p`
   color: #2e2e2e;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 18px;
 `
 const BoxPrice = styled.strong`

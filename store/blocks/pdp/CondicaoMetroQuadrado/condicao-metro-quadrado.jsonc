@@ -1,0 +1,49 @@
+{ // Conditional layout para ocultar parcelamento em pisos e revestimentos
+  "condition-layout.product#oculta-parcelamentos": {
+    "props": {
+      "conditions": [
+        {
+          "subject": "specificationProperties",
+          "arguments": {
+            "name":"Unidade de Venda",
+            "value": "m²"
+          },
+          "toBe": true
+        }
+      ],
+      "matchType": "any",
+      "Then": "rich-text#nohing",
+      "Else": "flex-layout.row#installments"
+    }
+  },
+  "condition-layout.product#texto-caixa": {
+    "props": {
+      "conditions": [
+        {
+          "subject": "specificationProperties",
+          "arguments": {
+            "name":"Unidade de Venda",
+            "value": "m²"
+          },
+          "toBe": true
+        }
+      ],
+      "matchType": "any",
+      "Then": "rich-text#box-product",
+      "Else": "rich-text#nohing"
+    }
+  },
+  "rich-text#nohing": {
+    "props": {
+      "text": ""
+    }
+  },
+  "rich-text#box-product": {
+    "props": {
+      "text": "Este produto é vendido por caixa.",
+      "blockClass": [
+        "box-product"
+      ]
+    }
+  }
+}
