@@ -55,11 +55,15 @@ const ModalFloorCalculator: StorefrontFunctionComponent = () => {
     })
   }
 
-  const handleClickCalc = () => {
+  const handleClickCalc = (e) => {
+    e.preventDefault()
     setResult(true)
   }
 
-  const handleShowModal = () => setModal(true)
+  const handleShowModal = (e) => {
+    e.preventDefault()
+    setModal(true)
+  }
 
   const handleHideModal = () => {
     setModal(false)
