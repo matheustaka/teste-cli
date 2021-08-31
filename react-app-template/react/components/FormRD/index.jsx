@@ -5,6 +5,7 @@ const Div = styled.div`
     display: flex;
     flex-direction: column;
     margin: 0;
+    width: 100%;
 `
 
 const Label = styled.label`
@@ -67,6 +68,22 @@ const EmailField = styled.input`
   border-radius: .25rem;
   height: 40px;
 `
+
+const SubmitField = styled.input`
+  color: #fff;
+  background-color: #d61016;
+  text-transform: uppercase;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  font-weight: 500;
+  min-height: 2.5rem;
+  border: none;
+  border-radius: .25rem;
+
+  &:hover{
+    cursor: pointer;
+  }
+`
 const FormRD = () => {
 
   const enviarContato = () => {
@@ -122,25 +139,25 @@ const FormRD = () => {
     <>
       <Div>
         <form id="form-rd" onSubmit={handleSubmit(enviarContato)}>
+          <div>
+            <div>Receba as melhores ofertas Cassol!</div>
+            <Input onChange={handleChange} type="checkbox" data-privacy="true" id="agreeWithTerms" name="agreeWithTerms" value="1" required />
+            <Label htmlFor="agreeWithTerms">
+              Li e aceito os termos de uso e <Link href='https://www.cassol.com.br/privacidade'> política de privacidade</Link> da Cassol.
+            </Label>
+            <Input type="hidden" data-privacy="true" id="privacy_policy" name="privacy_policy" value="1" />
 
-          <Input onChange={handleChange} type="checkbox" data-privacy="true" id="agreeWithTerms" name="agreeWithTerms" value="1" required />
-
-
-          <Label htmlFor="agreeWithTerms">
-            Li e aceito os termos de uso e <Link href='https://www.cassol.com.br/privacidade'> política de privacidade</Link> da Cassol.
-          </Label>
-
-          <Input type="hidden" data-privacy="true" id="privacy_policy" name="privacy_policy" value="1" />
-
-          {/* <EmailField type="email" placeholder="Digite seu melhor e-mail" id="email" name="email" onChange={handleChange} /> */}
+          </div>
 
 
-          {/* <button type="submit"> */}
+          <div>
+            <EmailField type="email" placeholder="Digite seu melhor e-mail" id="email" name="email" onChange={handleChange} />
 
-            {/* {loading
-              ? 'Loading...'
-              : `${disabled == 'disabled' ? 'Enviado!' : 'Enviar'}`} */}
-          {/* </button> */}
+            <SubmitField type="submit" value="Inscrever-se" />
+          </div>
+
+
+
         </form>
 
 
