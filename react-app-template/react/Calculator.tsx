@@ -278,7 +278,7 @@ const Calculator: StorefrontFunctionComponent = () => {
   )
 }
 
-const Container = styled.div`
+const Container = styled.form`
   margin: 20px auto;
   max-width: 1040px;
   padding: 10px 30px;
@@ -292,7 +292,7 @@ const Container = styled.div`
   }
 `
 
-const Grid = styled.div`
+const Grid = styled.form`
   display: flex;
   justify-content: space-between;
 
@@ -301,7 +301,7 @@ const Grid = styled.div`
   }
 `
 
-const Content = styled.div``
+const Content = styled.form``
 
 const Paragraph = styled.p`
   font-weight: 600;
@@ -309,7 +309,7 @@ const Paragraph = styled.p`
   color: #184077;
 `
 
-const InputArea = styled.div`
+const InputArea = styled.form`
   display: flex;
   align-items: center;
 `
@@ -345,13 +345,13 @@ const Label = styled.label`
   color: #707070;
 `
 
-const AreaQuantity = styled.div`
+const AreaQuantity = styled.form`
   @media (max-width: 767.98px) {
     margin: 30px 0;
   }
 `
 
-const BoxQuantity = styled.div`
+const BoxQuantity = styled.form`
   height: 48px;
   width: 145px;
   display: flex;
@@ -388,16 +388,16 @@ const InputQuantity = styled.input`
   }
 `
 
-const InputAreaPeriod = styled.div`
+const InputAreaPeriod = styled.form`
   display: block;
 `
 
-const Period = styled.div`
+const Period = styled.form`
   display: flex;
   align-items: center;
 `
 
-const BoxButton = styled.div`
+const BoxButton = styled.form`
   text-align: center;
 `
 
@@ -423,7 +423,7 @@ const ButtonCalculator = styled.button`
   }
 `
 
-const Result = styled.div`
+const Result = styled.form`
   margin: 50px auto;
   max-width: 1040px;
   text-align: center;
@@ -434,7 +434,7 @@ const Result = styled.div`
   }
 `
 
-const ResultGrid = styled.div`
+const ResultGrid = styled.form`
   display: flex;
   align-items: center;
   justify-content: center;
@@ -477,7 +477,7 @@ const ResultCalc = styled.p`
   }
 `
 
-const ResultAlert = styled.div`
+const ResultAlert = styled.form`
   margin: 30px 0;
   color: #707070;
   font-size: 12px;

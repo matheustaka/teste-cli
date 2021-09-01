@@ -42,6 +42,7 @@
     "localeDirectory": "messages"
   },
   "dependencies": {
+    "@material-ui/core": "^4.12.3",
     "axios": "^0.21.0",
     "global": "^4.4.0",
     "graphql": "^15.5.1",

@@ -129,7 +129,7 @@ const Text = styled.p`
   }
 `
 
-const Modal = styled.div`
+const Modal = styled.form`
   background-color: rgba(0, 0, 0, 0.4);
   height: 100%;
   left: 0;
@@ -149,7 +149,7 @@ const Modal = styled.div`
   }
 `
 
-const ModalContent = styled.div`
+const ModalContent = styled.form`
   overflow: scroll;
   text-align: right;
   background-color: #fff;
@@ -176,7 +176,7 @@ const Close = styled.span`
   background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAflJREFUSA2tlTFWAkEQRFlNDPEE7A3EjHANjcQMI9YbcAPxBtxAiDQTTwAhmUtm5noDPAH+WmdgGBuEp/1evZ2p7qma6V2YpLYjer1emiTJ1XK5zChLQRMoClCSm5J7GQwGpUgrEouUMPwdyME+MaTo3jL6YYB4m+IHUAeHxILiW0zG4aLjcIJ4zvwRnIT8nmOt6bRarY/ZbFb4NasTuJ0/+8Qfn9f+JJWB6/krooe2Zds+1K5zvZMjV9HnaYnP4T9djfVQTjVxSKsv8sjtvqtJFHN20ITLgGUiLnM1lklX2jpBG1jRoKCJQEEyA6GJFy9UQ64BrGjLILMycHUwMUxi8YmrtWQyGaRWxnGWidrid75LXBKNhB0udxj41ILBhWtXzbXlN/FqrU6wT6x+L0GxxQXp76EMrC8gLNzoufFOwtp4PJdBGbPBfEMcXm2xXnywZGNYymC6Qa0nlrheuvXiVWvFVAZjKwP3vuNriU3KLRpj/180pKBrFBVwKZCgFQvIEjSN5IgN5jqBog+sY2rhNnFSVc4Sl1ZfBZUBTiXjHPxX5E6ztrpwuCTedFng0P6ji261J6+xMhChmwiTOcNLcOitprbchOLM1yfQROFOoh2cAqu/KotjBNFBfBYnqq8oJv2cX23KWC3LQArOgEKnLMEUjBHW2IwvLCzMvLL1q6YAAAAASUVORK5CYII=');
 `
 
-const Content = styled.div`
+const Content = styled.form`
   display: block;
   align-items: flex-start;
   justify-content: center;
@@ -186,7 +186,7 @@ const Content = styled.div`
   }
 `
 
-const Installment = styled.div`
+const Installment = styled.form`
   display: block;
 
   @media (max-width: 767.98px) {
@@ -277,7 +277,7 @@ const Billet = styled.h2`
   }
 `
 
-const InstallmentContent = styled.div`
+const InstallmentContent = styled.form`
   text-align: center;
   width: 250px;
 
@@ -286,7 +286,7 @@ const InstallmentContent = styled.div`
   }
 `
 
-const Index = styled.div``
+const Index = styled.form``
 
 const Quantity = styled.span`
   font-size: 14px;
@@ -312,7 +312,7 @@ const Strong = styled.strong`
   margin-bottom: 10px;
 `
 
-const Title = styled.div`
+const Title = styled.form`
   color: #184077;
   font-size: 21px;
   font-weight: 600;

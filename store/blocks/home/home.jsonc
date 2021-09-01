@@ -5,9 +5,9 @@
       "list-context.image-list#banner-top",
       "list-context.image-list#banner-principal",
       // mini banners vantagens
+      "responsive-layout.desktop#deals-desk",
       "responsive-layout.phone#deals",
       "responsive-layout.tablet#deals-tablet",
-      "responsive-layout.desktop#deals-desk",
       // Vitrine
       "rich-text#shelf-01",
       "flex-layout.row#shelf-01",
@@ -21,8 +21,8 @@
       "flex-layout.row#shelf-02",
       // Mini banners
       "responsive-layout.desktop#mini-banners-desk",
-      "responsive-layout.tablet#mini-banners-tablet",
       "responsive-layout.phone#mini-banners-mobile",
+      "responsive-layout.tablet#mini-banners-tablet",
       // Vitrine
       "rich-text#shelf-03",
       "flex-layout.row#vitrine-03",

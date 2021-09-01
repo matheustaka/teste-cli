@@ -21,6 +21,6 @@
     "./**/*.tsx",
     "./**/*.ts",
     "components/FormRD/",
-    "FormRD.jsx"
+    "components/FormRD/FormRD.jsx"
   ]
 }

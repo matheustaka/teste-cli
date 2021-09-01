@@ -11,7 +11,7 @@
     ]
   },
   "flex-layout.row#footer-newsletter": {
-    "children": ["newsletter-form"],
+    "children": ["FormRD"],
     "props": {
       "preventVerticalStretch": true,
       "blockClass": "newsletterRow"
@@ -20,9 +20,6 @@
 
   "newsletter-form": {
     "children": [
-      "flex-layout.col#newsletter-texts",
-      "newsletter-input-email",
-      "newsletter-submit"
     ],
     "props": {
       "SuccessState": "flex-layout.row#newsletterThanks"
