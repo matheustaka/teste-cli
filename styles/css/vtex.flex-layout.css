@@ -796,6 +796,11 @@
 .flexCol--newsTexts {
   justify-content: center;
 }
+
+.flexRowContent--row-a-vista {
+  color: #184077;
+  font-weight: 600;
+}
 @media (max-width: 767.98px) {
   .flexRowContent--newsletter-input-name :global(.vtex-input-prefix__group),
   .flexRowContent--newsletter-input-email :global(.vtex-input-prefix__group) {

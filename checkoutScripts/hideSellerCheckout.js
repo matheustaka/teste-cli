@@ -64,3 +64,38 @@ if ($(paymentForm).hasClass("active")) {
     0;
   }
 }
+
+
+
+/*
+
+========== VERSAO 2 - CONDICIONANTE SELLER DIFERENTE DE CASSOL OCULTA PIX =======
+
+*/
+// Nos dados de pagamento cliente
+//esconder pix para sellers que não são Cassol
+
+let paymentSec = document.getElementById("payment-data");
+let paymentForm = paymentSec.firstElementChild;
+
+function checkSellerCassol(orderSellers) {
+  return orderSellers.name == "Cassol Centerlar";
+}
+// Quando estiver no pagamento
+if (paymentForm.classList.contains('active')) {
+  // Pegue a listagem de sellers
+  var orderSellers = vtexjs.checkout.orderForm.sellers;
+  var pixLogo = $("[data-name = Pix]");
+
+
+  checkSellerCassol(orderSellers)
+
+  var findSellerCassol = orderSellers.find(checkSellerCassol);
+  if (findSellerCassol === undefined) {
+    pixLogo.remove();
+  } else {
+    0;
+  }
+}
+
+

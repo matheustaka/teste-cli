@@ -234,8 +234,9 @@
       "product-identifier.product",
       "product-seller-name",
       "product-rating-summary",
-      // "flex-layout.row#list-price-savings",
+      "flex-layout.row#list-price-savings",
       "flex-layout.row#selling-price",
+      "condition-layout.product#a-vista",
       "condition-layout.product#oculta-parcelamentos",
       "message-calculator",
       "floor-calculator",
@@ -249,6 +250,57 @@
       // "share#default"
       "flex-layout.row#share"
     ]
+  },
+  "condition-layout.product#a-vista": {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productClusters",
+          "arguments": {
+            "id": "1048"
+          },
+          "toBe": true
+        }
+      ],
+      "Then": "flex-layout.row#a-vista",
+      "Else": "rich-text#nohing"
+    }
+  },
+  "flex-layout.row#a-vista": {
+    "props": {
+      "preventHorizontalStretch":true,
+      "paddingTop":2,
+      "paddingBottom":2,
+
+      "blockClass": [
+        "row-a-vista"
+      ]
+    },
+    "children": [
+      "vtex.product-highlights@2.x:product-highlights#a-vista"
+    ]
+  },
+  "vtex.product-highlights@2.x:product-highlights#a-vista": {
+    "props": {
+      "type": "collection",
+      "blockClass": [
+        "container-a-vista"
+      ]
+    },
+    "children": [
+      "product-highlight-text#a-vista"
+    ]
+  },
+  "product-highlight-text#a-vista": {
+    "props": {
+      "message": "10%  de desconto à vista",
+      "markers": [
+        "a-vista"
+      ],
+      "blockClass": [
+        "a-vista"
+      ]
+    }
   },
   "product-installments-list": {
     "props": {
@@ -394,7 +446,6 @@
       ]
     }
   },
-
   "flex-layout.row#installments": {
     "children": [
       "product-installments"

@@ -140,7 +140,7 @@ const FormRD = () => {
       <Div>
         <form id="form-rd" onSubmit={handleSubmit(enviarContato)}>
           <div>
-            <div>Receba as melhores ofertas Cassol!</div>
+            {/* <div>Receba as melhores ofertas Cassol!</div> */}
             <Input onChange={handleChange} type="checkbox" data-privacy="true" id="agreeWithTerms" name="agreeWithTerms" value="1" required />
             <Label htmlFor="agreeWithTerms">
               Li e aceito os termos de uso e <Link href='https://www.cassol.com.br/privacidade'> política de privacidade</Link> da Cassol.
@@ -150,11 +150,11 @@ const FormRD = () => {
           </div>
 
 
-          <div>
+          {/* <div>
             <EmailField type="email" placeholder="Digite seu melhor e-mail" id="email" name="email" onChange={handleChange} />
 
             <SubmitField type="submit" value="Inscrever-se" />
-          </div>
+          </div> */}
 
 
 

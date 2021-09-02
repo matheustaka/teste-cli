@@ -12,6 +12,8 @@ const PriceDiscount = () => {
   const productContext = useProduct();
   const [price, setPrice] = useState();
 
+  const clusterValidate = productContext.product.items[0].unitMultiplier
+
   console.log( 'Comp' , productContext);
   // useEffect( () => {
   //   setPrice(productContext.product.priceRange.sellingPrice.highPrice)
