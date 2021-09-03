@@ -68,7 +68,7 @@
     "props": {
       "type": "collection",
       "filter": {
-        "highlightNames": "Coleção 10 produtos",
+        "highlightNames": ["Coleção 10 produtos", "10%", "5%"],
         "type": "hide"
       }
     },

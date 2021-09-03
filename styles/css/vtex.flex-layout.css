@@ -1263,4 +1263,9 @@
   .flexCol--institucionalSidebar {
     display: none;
   }
+  .flexRowContent--sellingPriceContainer{
+    align-items: flex-start;
+    margin-bottom: 0;
+    flex-direction: column;
+  }
 }

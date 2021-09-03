@@ -14,6 +14,7 @@
 .product-price-calc p {
     display: flex;
     margin: 0;
+    align-items: center;
 }
 
 span.product-price__measurementUnit {
@@ -26,3 +27,15 @@ span.product-price__measurementUnit {
 /* .product-price__measurementUnit, .product-price .product-price-calc .caixa {
     display: none;
 } */
+.spot-product-price {
+  position: relative;
+}
+.spot-message {
+  margin: 0 5px;
+}
+.spot-savings {
+  font-size: 10px;
+  color: #2a2a2a;
+  display: flex;
+  align-items: center;
+}
