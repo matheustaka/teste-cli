@@ -23,6 +23,8 @@ function ProductPrice() {
 
     setProductPrice(productContext.product.priceRange.sellingPrice.lowPrice)
 
+    // contexto
+    console.log('Contexto prod',productContext)
     // Defina descontos de 10% e 5%
     setTenSpot(productContext.product.priceRange.sellingPrice.lowPrice * 0.1)
     setFiveSpot(productContext.product.priceRange.sellingPrice.lowPrice * 0.05)
@@ -39,7 +41,7 @@ function ProductPrice() {
       return cluster.id
     })
 
-    // Função que encontra a coleção com desconto
+    // Função que encontra a coleção com desconto (10 ou 5%)
     const found = (clusterList) => {
       const discountElement = clusterList.find((cluster) => cluster == 1048 || cluster == 1049)
       return discountElement
@@ -84,8 +86,8 @@ function ProductPrice() {
             <p className="spot-product-price">
               <FormattedPrice value={productPrice - fiveSpot} />
               <span className="spot-message"> à vista</span>
+              <span className="spot-savings"> (5% de desconto)</span>
             </p>
-            <span className="spot-savings"> (5% de desconto)</span>
           </div>
         </div>
       )

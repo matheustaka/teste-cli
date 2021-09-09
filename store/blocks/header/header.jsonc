@@ -30,7 +30,7 @@
       "blockClass": "notification-bar"
     }
   },
-  
+
   "flex-layout.col#spacer": {
     "props": {
       "width": "grow"
@@ -188,7 +188,7 @@
       "width": "143.5"
     }
   },
-  
+
   "icon-cart#minicart-icon": {
     "props": {
       "size": 24
@@ -225,9 +225,9 @@
     ],
     "props": {
       "totalizersToShow": [
-        "Items", 
+        "Items",
         "Discounts"
-      ] 
+      ]
     }
   },
   "summary-totalizers#minicart": {

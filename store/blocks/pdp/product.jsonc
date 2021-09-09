@@ -466,5 +466,10 @@
     "children": [
       "product-installments"
     ]
+  },
+  "product-installments": {
+    "props": {
+      "installmentsCriteria": "max-quantity-without-interest"
+    }
   }
 }

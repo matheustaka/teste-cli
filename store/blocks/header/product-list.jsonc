@@ -220,7 +220,8 @@
     },
     "flex-layout.col#price.mobile": {
         "children": [
-            "price#mobile"
+          "ProductPrice"
+            // "price#mobile"
         ],
         "props": {
             "horizontalAlign": "left",
