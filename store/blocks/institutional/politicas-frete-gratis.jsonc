@@ -1,0 +1,88 @@
+{
+  "store.custom#politicas-frete-gratis": {
+    "blocks": [
+      "responsive-layout.desktop#politica-frete-gratis",
+      "responsive-layout.phone#frete-gratis-mobile"
+    ]
+  },
+  /*
+
+  ======== DESKTOP ============
+  */
+  "responsive-layout.desktop#politica-frete-gratis": {
+    "children": [
+      "breadcrumb",
+      "flex-layout.row#frete-gratis-desktop"
+    ]
+  },
+  "flex-layout.row#frete-gratis-desktop": {
+    "children": [
+      "flex-layout.col#institutional-sidebar-desktop",
+      "flex-layout.row#frete-gratis-policy"
+    ]
+  },
+  "flex-layout.row#frete-gratis-policy": {
+    "children": [
+      "flex-layout.col#frete-gratis-content"
+    ]
+  },
+  "flex-layout.col#frete-gratis-content": {
+    "children": [
+      "rich-text#frete-gratis-title",
+      "rich-text#frete-gratis-text"
+    ]
+  },
+  "rich-text#frete-gratis-title": {
+    "props": {
+      "text": "### **Políticas de frete grátis**",
+      "blockClass": "aboutContent"
+    }
+  },
+  "rich-text#frete-gratis-text": {
+    "props": {
+      "text": "##### **Nossas políticas** \n \n Nossas políticas de frete grátis",
+      "blockClass": "aboutContent"
+    }
+  },
+  /*
+
+  ========== TABLET =========
+
+  */
+  "responsive-layout.tablet#frete-gratis-mobile": {
+    "children": [
+      "breadcrumb",
+      "flex-layout.row#frete-gratis-menu-mobile",
+      "flex-layout.row#frete-gratis-mobile"
+    ]
+  },
+  /*
+
+  ========== MOBILE =========
+
+  */
+  "responsive-layout.phone#frete-gratis-mobile": {
+    "children": [
+      "breadcrumb",
+      "flex-layout.row#frete-gratis-menu-mobile",
+      "flex-layout.row#frete-gratis-mobile"
+    ]
+  },
+  "flex-layout.row#frete-gratis-menu-mobile": {
+    "children": [
+      "flex-layout.col#institutional-sidebar-mobile"
+    ],
+    "props": {
+      "blockClass": "institutionalContainer"
+    }
+  },
+  "flex-layout.row#frete-gratis-mobile": {
+    "props": {
+      "blockClass": "institutionalContainer"
+    },
+    "children": [
+      "rich-text#frete-gratis-title",
+      "rich-text#frete-gratis-text"
+    ]
+  }
+}

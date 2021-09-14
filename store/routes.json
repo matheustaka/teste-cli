@@ -146,5 +146,8 @@
     },
     "store.custom#landing-marketplace": {
         "path": "/marketplace"
+    },
+    "store.custom#politicas-frete-gratis": {
+        "path": "/politicas-frete-gratis"
     }
 }

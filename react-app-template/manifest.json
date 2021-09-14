@@ -1,7 +1,7 @@
 {
   "vendor": "cassol",
   "name": "btucalculator",
-  "version": "1.0.40",
+  "version": "1.0.53",
   "title": "btu calculator",
   "description": "Application to calculate btu amount needed",
   "builders": {

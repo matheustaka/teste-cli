@@ -18,7 +18,6 @@ const isPhilco = (list) => {
   if(found != undefined) {
     console.log(found.name);
   } else {
-    console.log('foi cariao');
   }
   // if(list.name === 'Philco'){
   //   console.log($`É ${list.name}`)

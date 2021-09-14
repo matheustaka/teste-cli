@@ -3,7 +3,7 @@ import { useOrderForm } from 'vtex.order-manager/OrderForm'
 import './global.css';
 
 function DiscountMinicart() {
-    const { orderForm } = useOrderForm() 
+    const { orderForm } = useOrderForm()
     const [items, setItems] = useState([])
     const [discountFinal, setDiscountFinal] = useState(0)
     let discount = 0;
@@ -13,7 +13,7 @@ function DiscountMinicart() {
 
     useEffect(() => {
         if (items[0]) {
-            discount = 0 
+            discount = 0
         }
         items.map((item)=> {
             const listPrice = item.listPrice;
@@ -24,7 +24,7 @@ function DiscountMinicart() {
                 const totalDiscount = (listPrice * unitMultiplier * quantity) - sellingPriceQuantity;
                 calculateDiscount(totalDiscount)
             } else if (item.measurementUnit === "Peça") {
-                const totalDiscount = (listPrice * quantity) - sellingPriceQuantity; 
+                const totalDiscount = (listPrice * quantity) - sellingPriceQuantity;
                 calculateDiscount(totalDiscount)
             }
         })
@@ -39,7 +39,7 @@ function DiscountMinicart() {
         return (price / 100).toLocaleString("pt-BR", { minimumFractionDigits: 2 , style: 'currency', currency: 'BRL' })
     }, [])
 
-    return discountFinal !== 0 &&    
+    return discountFinal !== 0 &&
         <div className="discount-minicart">
             <span>Descontos</span>
             <p>{formatedPrice(discountFinal)}</p>
