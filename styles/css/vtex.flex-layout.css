@@ -676,6 +676,10 @@
   .flexRowContent--payment-security-mobile {
     align-items: center;
   }
+
+  .flexRowContent--institutionalContent {
+    flex-direction: column;
+  }
 }
 
 @media (max-width: 1025px) {
@@ -1235,6 +1239,7 @@
 .flexColChild--footer-social-marketplace {
   margin: 0 10px;
 }
+
 @media (max-width: 767.98px) {
   .flexRowContent--suggestionContainer,
   .flexRowContent--didYouMeanContainer {
