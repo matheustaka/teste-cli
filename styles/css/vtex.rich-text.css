@@ -845,6 +845,10 @@
   font-size: 14px;
 }
 
+.paragraph--box-product {
+  font-size: 14px;
+}
+
 .heading--form-title, .paragraph--form-desc {
   text-align: center;
   color:  #396f9b;

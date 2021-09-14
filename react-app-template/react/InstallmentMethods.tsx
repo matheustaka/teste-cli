@@ -127,6 +127,9 @@ const Text = styled.p`
   @media (min-width: 992px) {
     margin-left: -70%;
   }
+  @media (max-width: 768px) {
+    margin-left: 0;
+  }
 `
 
 const Modal = styled.form`

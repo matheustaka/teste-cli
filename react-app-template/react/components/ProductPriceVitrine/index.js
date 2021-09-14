@@ -13,7 +13,6 @@ function ProductPriceVitrine() {
     useEffect(()=> {
         setUnitMultiplier(product.sku.unitMultiplier)
         setMeasurementUnit(product.sku.measurementUnit)
-        console.log(product)
     }, [product])
 
     useEffect(()=> {
@@ -22,14 +21,14 @@ function ProductPriceVitrine() {
 
 
     return <div className="product-price">
-        {measurementUnit === "m²" ? 
+        {measurementUnit === "m²" || measurementUnit === 'M2' ?
         <div className="product-price-calc-shelf">
             <p><FormattedPrice value={product?.priceRange?.sellingPrice?.lowPrice} /> <span className="product-price__measurementUnit">/m²</span> </p>
             <span className="caixa"><FormattedPrice value={priceCaixa} /> <span>/caixa</span> </span>
         </div>
-         : 
+         :
          <div className="product-price-calc-shelf"><FormattedPrice value={product?.priceRange?.sellingPrice?.lowPrice} /></div>}
-    </div>; 
+    </div>;
 }
- 
+
 export default ProductPriceVitrine;

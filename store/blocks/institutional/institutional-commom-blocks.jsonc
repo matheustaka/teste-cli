@@ -346,6 +346,19 @@
             "tagTitle": "Frete Expresso",
             "text": "Frete Expresso"
           }
+        },
+        {
+          "id": "menu-item-frete-gratis",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/frete-gratis",
+            "noFollow": true,
+            "tagTitle": "Frete Grátis",
+            "text": "Frete Grátis"
+          }
         }
       ],
       "blockClass": "sidebarMenu",

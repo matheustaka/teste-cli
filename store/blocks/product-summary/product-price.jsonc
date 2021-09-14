@@ -8,9 +8,10 @@
       "blockClass": "sellingPriceContainer"
     },
     "children": [
-      // "ProductPrice",
-      "product-selling-price",
+      "ProductPrice",
+      // "product-selling-price",
       "installment-methods"
+      // "condition-layout.product#custom-installment"
     ]
   },
 
@@ -26,5 +27,30 @@
       "product-list-price",
       "product-price-savings"
     ]
+  },
+  "condition-layout.product#custom-installment": {
+    "props": {
+      "conditions": [
+        {
+          "subject": "specificationProperties",
+          "arguments": {
+            "name":"Unidade de Venda",
+            "value": "m²"
+          },
+          "toBe": true
+        },
+        {
+          "subject": "specificationProperties",
+          "arguments": {
+            "name":"Unidade de Venda",
+            "value": "M2"
+          },
+          "toBe": true
+        }
+      ],
+      "matchType":"any",
+      "Then": "rich-text#nohing",
+      "Else": "installment-methods"
+    }
   }
 }

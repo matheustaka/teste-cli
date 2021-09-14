@@ -139,6 +139,7 @@
       "menu-item#retire-em-loja",
       "menu-item#privacidade",
       "menu-item#frete-expresso",
+      "menu-item#frete-gratis",
       "menu-item#marketplace-policies"
     ]
   },
@@ -267,6 +268,22 @@
         "noFollow": false,
         "tagTitle": "FreteExpresso",
         "text": "Frete Expresso"
+      }
+    }
+  },
+
+  "menu-item#frete-gratis": {
+    "props": {
+      "id": "menu-item-frete-gratis",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/frete-gratis",
+        "noFollow": false,
+        "tagTitle": "Frete Grátis",
+        "text": "Frete Grátis"
       }
     }
   },
