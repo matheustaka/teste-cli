@@ -103,29 +103,29 @@ const FormRD = () => {
         console.error(err)
       })
 
-    // fetch(`https://api.rd.services/platform/conversions?api_key=${API_KEY}`, {
-    //   method: 'POST',
-    //   headers: {
-    //     Accept: 'application/json',
-    //     'Content-type': 'application/json'
-    //   },
-    //   body: {
-    //     event_type: 'CONVERSION',
-    //     payload: {
-    //       conversion_identifier: 'newsletter-form',
-    //       legal_bases: [
-    //         {
-    //           "category": "communications",
-    //           "type": "consent",
-    //           "status": "granted"
-    //         }
-    //       ],
-    //       email: JSON.stringify(values)
-    //     }
-    //   }
-    // }).then((response) => {
-    //   console.log(response)
-    // })
+    fetch(`https://api.rd.services/platform/conversions?api_key=${API_KEY}`, {
+      method: 'POST',
+      headers: {
+        Accept: 'application/json',
+        'Content-type': 'application/json'
+      },
+      body: {
+        event_type: 'CONVERSION',
+        payload: {
+          conversion_identifier: 'newsletter-form',
+          legal_bases: [
+            {
+              "category": "communications",
+              "type": "consent",
+              "status": "granted"
+            }
+          ],
+          email: JSON.stringify(values)
+        }
+      }
+    }).then((response) => {
+      console.log(response)
+    })
   }
 
   const closeForm = () => {
@@ -140,7 +140,7 @@ const FormRD = () => {
       <Div>
         <form id="form-rd" onSubmit={handleSubmit(enviarContato)}>
           <div>
-            {/* <div>Receba as melhores ofertas Cassol!</div> */}
+            <div>Receba as melhores ofertas Cassol!</div>
             <Input onChange={handleChange} type="checkbox" data-privacy="true" id="agreeWithTerms" name="agreeWithTerms" value="1" required />
             <Label htmlFor="agreeWithTerms">
               Li e aceito os termos de uso e <Link href='https://www.cassol.com.br/privacidade'> política de privacidade</Link> da Cassol.
@@ -148,13 +148,11 @@ const FormRD = () => {
             <Input type="hidden" data-privacy="true" id="privacy_policy" name="privacy_policy" value="1" />
 
           </div>
-
-
-          {/* <div>
+          <div>
             <EmailField type="email" placeholder="Digite seu melhor e-mail" id="email" name="email" onChange={handleChange} />
 
             <SubmitField type="submit" value="Inscrever-se" />
-          </div> */}
+          </div>
 
 
 

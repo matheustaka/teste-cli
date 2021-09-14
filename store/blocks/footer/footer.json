@@ -11,7 +11,7 @@
     ]
   },
   "flex-layout.row#footer-newsletter": {
-    "children": ["newsletter-form"],
+    "children": ["FormRD"],
     "props": {
       "preventVerticalStretch": true,
       "blockClass": "newsletterRow"
