@@ -45,8 +45,8 @@
         }
       ],
       "matchType": "any",
-      "Then": "flex-layout.row#product-custom-price",
-      "Else": "flex-layout.row#selling-price"
+      "Then": "ProductPrice",
+      "Else": "condition-layout.product#preco-produto-a-vista"
     }
   },
   "condition-layout.product#preco-produto-a-vista": {
@@ -69,7 +69,8 @@
       ],
       "matchType": "any",
       "Then": "flex-layout.row#selling-price-spot",
-      "Else": "flex-layout.row#selling-price"
+      "Else":"flex-layout.row#selling-price"
+
     }
   },
   "condition-layout.product#oculta-parcelamentos": {

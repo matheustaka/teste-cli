@@ -37,14 +37,36 @@
     "props": {
       "colGap": 2,
       "preserveLayoutOnMobile": true,
-      "preventHorizontalStretch": true,
       "marginBottom": 4,
-      "blockClass": "sellingPriceContainer"
+      "blockClass": ["sellingPriceContainer", "sellingRow"]
+    },
+    "children": [
+      "flex-layout.col#selling-price"
+    ]
+  },
+  "flex-layout.col#selling-price": {
+    "props": {
+    },
+    "children": [
+      "flex-layout.row#selling-price-1",
+      // "condition-layout.product#custom-installment",
+      "flex-layout.row#selling-price-2"
+    ]
+  },
+  "flex-layout.row#selling-price-1": {
+    "props": {
+      "blockClass": ["mainPrice"]
     },
     "children": [
       "product-selling-price",
       "installment-methods"
-      // "condition-layout.product#custom-installment"
+    ]
+  },
+  "flex-layout.row#selling-price-2": {
+    "props": {
+    },
+    "children": [
+      "product-installments"
     ]
   },
 

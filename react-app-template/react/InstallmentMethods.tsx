@@ -125,7 +125,7 @@ const Text = styled.p`
   text-decoration: underline;
 
   @media (min-width: 992px) {
-    margin-left: -70%;
+    margin-left: 0%;
   }
   @media (max-width: 768px) {
     margin-left: 0;

@@ -235,7 +235,7 @@
       "product-seller-name",
       "product-rating-summary",
       "condition-layout.product#oculta-preco-lista",
-      "condition-layout.product#preco-produto-a-vista",
+      "condition-layout.product#preco-produto-metro-quadrado",
       "message-calculator",
       "floor-calculator",
       "sku-selector",
