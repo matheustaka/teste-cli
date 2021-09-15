@@ -2,7 +2,8 @@
   "store.custom#politicas-frete-gratis": {
     "blocks": [
       "responsive-layout.desktop#politica-frete-gratis",
-      "responsive-layout.phone#frete-gratis-mobile"
+      "responsive-layout.phone#frete-gratis-mobile",
+      "responsive-layout.tablet#frete-gratis-mobile"
     ]
   },
   /*
@@ -78,7 +79,8 @@
   },
   "flex-layout.row#frete-gratis-mobile": {
     "props": {
-      "blockClass": "institutionalContainer"
+      "colSizing": "auto",
+      "blockClass": ["institutionalContainer", "institutionalContent"]
     },
     "children": [
       "rich-text#frete-gratis-title",
