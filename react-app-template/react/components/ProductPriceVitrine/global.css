@@ -59,3 +59,14 @@
   margin-bottom: 15px;
   padding-bottom: 14px;
 }
+
+
+@media screen and (max-width:767px) {
+  .vtex-flex-layout-0-x-flexRowContent--minicartPrices .product-price .spot-savings {
+    display: block;
+  }
+  .vtex-minicart-2-x-minicartProductListContainer .vtex-flex-layout-0-x-flexRow .vtex-flex-layout-0-x-flexRowContent :last-child .vtex-flex-layout-0-x-flexRowContent {
+    flex-wrap: wrap;
+  }
+}
+
