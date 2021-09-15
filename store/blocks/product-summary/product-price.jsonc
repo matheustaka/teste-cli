@@ -1,4 +1,38 @@
 {
+  "flex-layout.row#selling-price-spot": {
+    "props": {
+      "colGap": 2,
+      "preserveLayoutOnMobile": true,
+      "verticalAlign":"center",
+      "marginBottom": 4,
+      "blockClass": "sellingPriceContainer"
+    },
+    "children": [
+      "flex-layout.col#selling-price-spot"
+      // "condition-layout.product#custom-installment"
+    ]
+  },
+  "flex-layout.col#selling-price-spot": {
+    "props": {
+    },
+    "children": [
+      "flex-layout.row#selling",
+      "condition-layout.product#oculta-parcelamentos",
+      "flex-layout.row#spot"
+      // "condition-layout.product#custom-installment"
+    ]
+  },
+  "flex-layout.row#selling": {
+    "children": [
+      "product-selling-price",
+      "installment-methods"
+    ]
+  },
+  "flex-layout.row#spot": {
+    "children": [
+      "product-spot-price"
+    ]
+  },
   "flex-layout.row#selling-price": {
     "props": {
       "colGap": 2,
@@ -8,11 +42,27 @@
       "blockClass": "sellingPriceContainer"
     },
     "children": [
-      "ProductPrice",
-      // "product-selling-price",
+      "product-selling-price",
       "installment-methods"
       // "condition-layout.product#custom-installment"
     ]
+  },
+
+  "flex-layout.row#product-custom-price": {
+    "children": [
+      "ProductPrice"
+    ]
+  },
+  "product-spot-price": {
+    "props": {
+      "markers":["preco-a-vista"],
+      "message": "Ou {spotPriceValue} à vista"
+    }
+  },
+  "product-spot-price-savings": {
+    "props": {
+      "message": "{previousPriceValue}"
+    }
   },
 
   "flex-layout.row#list-price-savings": {

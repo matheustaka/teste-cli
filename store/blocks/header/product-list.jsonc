@@ -220,7 +220,7 @@
     },
     "flex-layout.col#price.mobile": {
         "children": [
-          // "ProductPrice"
+          // "ProductPriceVitrine"
             "price#mobile"
         ],
         "props": {

@@ -5,7 +5,7 @@
         {
           "subject": "specificationProperties",
           "arguments": {
-            "name":"Unidade de Venda",
+            "name": "Unidade de Venda",
             "value": "m²"
           },
           "toBe": true
@@ -13,7 +13,7 @@
         {
           "subject": "specificationProperties",
           "arguments": {
-            "name":"Unidade de Venda",
+            "name": "Unidade de Venda",
             "value": "M2"
           },
           "toBe": true
@@ -24,13 +24,13 @@
       "Else": "flex-layout.row#list-price-savings"
     }
   },
-  "condition-layout.product#oculta-parcelamentos": {
+  "condition-layout.product#preco-produto-metro-quadrado": {
     "props": {
       "conditions": [
         {
           "subject": "specificationProperties",
           "arguments": {
-            "name":"Unidade de Venda",
+            "name": "Unidade de Venda",
             "value": "m²"
           },
           "toBe": true
@@ -38,7 +38,55 @@
         {
           "subject": "specificationProperties",
           "arguments": {
-            "name":"Unidade de Venda",
+            "name": "Unidade de Venda",
+            "value": "M2"
+          },
+          "toBe": true
+        }
+      ],
+      "matchType": "any",
+      "Then": "flex-layout.row#product-custom-price",
+      "Else": "flex-layout.row#selling-price"
+    }
+  },
+  "condition-layout.product#preco-produto-a-vista": {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productClusters",
+          "arguments": {
+            "id": "1049"
+          },
+          "toBe": true
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "1876826"
+          },
+          "toBe": true
+        }
+      ],
+      "matchType": "any",
+      "Then": "flex-layout.row#selling-price-spot",
+      "Else": "flex-layout.row#selling-price"
+    }
+  },
+  "condition-layout.product#oculta-parcelamentos": {
+    "props": {
+      "conditions": [
+        {
+          "subject": "specificationProperties",
+          "arguments": {
+            "name": "Unidade de Venda",
+            "value": "m²"
+          },
+          "toBe": true
+        },
+        {
+          "subject": "specificationProperties",
+          "arguments": {
+            "name": "Unidade de Venda",
             "value": "M2"
           },
           "toBe": true
@@ -55,7 +103,7 @@
         {
           "subject": "specificationProperties",
           "arguments": {
-            "name":"Unidade de Venda",
+            "name": "Unidade de Venda",
             "value": "m²"
           },
           "toBe": true
@@ -63,7 +111,7 @@
         {
           "subject": "specificationProperties",
           "arguments": {
-            "name":"Unidade de Venda",
+            "name": "Unidade de Venda",
             "value": "M2"
           },
           "toBe": true
