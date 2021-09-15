@@ -209,8 +209,8 @@
     },
     "flex-layout.row#prices.mobile": {
         "children": [
-            "flex-layout.col#price.mobile",
-            "flex-layout.col#unit-price.mobile"
+            "flex-layout.col#unit-price.mobile",
+            "flex-layout.col#price.mobile"
         ],
         "props": {
             "marginTop": "3",
@@ -220,8 +220,8 @@
     },
     "flex-layout.col#price.mobile": {
         "children": [
-          // "ProductPrice"
-            "price#mobile"
+          "ProductPriceVitrine"
+            // "price#mobile"
         ],
         "props": {
             "horizontalAlign": "left",
