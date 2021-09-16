@@ -9,12 +9,12 @@
   background: #184077;
   border-radius: 5px;
   color: #fff;
-  display: inline-block;
+  display: flex;
   font-size: 0.7rem;
   font-weight: 700;
   height: 40px;
   justify-content: center;
-  line-height: 40px;
+  line-height: 15px;
 
   margin-right: 5px;
   margin-left: 0;
