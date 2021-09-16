@@ -179,12 +179,12 @@
             ]
         },
         "children": [
-            "image#world-image10"
+          "image#world-superofertas"
         ]
     },
-    "image#world-image10": {
+    "image#world-superofertas": {
         "props": {
-            "src": "https://cassol.vteximg.com.br/arquivos/img_580x190.jpg"
+            "src": "assets/images/superofertas.png"
         }
     },
     "search-result-layout.customQuery#tabloide": {
@@ -250,7 +250,7 @@
             "image#ads"
         ]
     },
-    
+
     "image#ads": {
         "props": {
             "src": "assets/images/placeholdertb.jpg"
