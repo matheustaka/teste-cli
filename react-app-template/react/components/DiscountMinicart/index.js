@@ -1,14 +1,22 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import { useOrderForm } from 'vtex.order-manager/OrderForm'
+import { ProductContext } from 'vtex.product-context';
 import './global.css';
 
 function DiscountMinicart() {
+    const productContext = React.useContext(ProductContext)
     const { orderForm } = useOrderForm()
     const [items, setItems] = useState([])
     const [discountFinal, setDiscountFinal] = useState(0)
     let discount = 0;
+
+    useEffect(() => {
+      console.log(productContext, "ddeeee")
+  }, [productContext])
+
     useEffect(() => {
         setItems(orderForm?.items)
+        console.log(orderForm, "dd")
     }, [orderForm])
 
     useEffect(() => {
@@ -20,6 +28,7 @@ function DiscountMinicart() {
             const unitMultiplier = item.unitMultiplier;
             const quantity = item.quantity;
             const sellingPriceQuantity = item.sellingPrice * quantity;
+            console.log(item, "oi")
             if (item.measurementUnit === "m²") {
                 const totalDiscount = (listPrice * unitMultiplier * quantity) - sellingPriceQuantity;
                 calculateDiscount(totalDiscount)

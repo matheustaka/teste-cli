@@ -5,7 +5,7 @@
     line-height: 18px;
     text-align: center;
     margin-top: 5px;
-} 
+}
 .product-price-calc-shelf .caixa {
     font-size: 13px;
     display: flex;
@@ -27,3 +27,46 @@
         font-size: 16px;
     }
 }
+
+
+.vtex-flex-layout-0-x-flexRowContent--list-price-saving-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.cassol-btucalculator-1-x-price {
+  color: #d61016;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 18px;
+  text-align: center;
+}
+.spot-message {
+  color: #d61016;
+  font-weight: 700;
+  margin: 0 5px;
+  font-size: 14px;
+}
+.spot-savings {
+  font-size: 10px;
+  color: #2a2a2a;
+  display: flex;
+  align-items: center;
+}
+.product-price-calc p {
+
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 15px;
+  padding-bottom: 14px;
+}
+
+
+@media screen and (max-width:767px) {
+  .vtex-flex-layout-0-x-flexRowContent--minicartPrices .product-price .spot-savings {
+    display: block;
+  }
+  .vtex-minicart-2-x-minicartProductListContainer .vtex-flex-layout-0-x-flexRow .vtex-flex-layout-0-x-flexRowContent :last-child .vtex-flex-layout-0-x-flexRowContent {
+    flex-wrap: wrap;
+  }
+}
+

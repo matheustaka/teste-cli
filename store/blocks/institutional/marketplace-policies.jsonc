@@ -3,7 +3,8 @@
     "blocks": [
       "responsive-layout.desktop#marketplace-policies",
       "responsive-layout.tablet#marketplace-policies",
-      "responsive-layout.phone#marketplace-policies"
+      "responsive-layout.phone#marketplace-policies",
+      "FormMarketplace"
     ]
   },
 

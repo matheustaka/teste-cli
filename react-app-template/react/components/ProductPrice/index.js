@@ -17,104 +17,75 @@ function ProductPrice() {
 
   const [priceCaixa, setPriceCaixa] = useState(0)
   useEffect(() => {
-    setUnitMultiplier(productContext.selectedItem.unitMultiplier)
-    setMeasurementUnit(productContext.selectedItem.measurementUnit)
-    setDiscountSpot(productContext.product.productClusters)
+    setUnitMultiplier(productContext?.selectedItem?.unitMultiplier)
+    setMeasurementUnit(productContext?.selectedItem?.measurementUnit)
+    setDiscountSpot(productContext?.product?.productClusters)
 
-    setProductPrice(productContext.product.priceRange.sellingPrice.lowPrice)
+    setProductPrice(productContext?.product?.priceRange?.sellingPrice?.lowPrice)
 
     // Defina descontos de 10% e 5%
-    setTenSpot(productContext.product.priceRange.sellingPrice.lowPrice * 0.1)
-    setFiveSpot(productContext.product.priceRange.sellingPrice.lowPrice * 0.05)
+    setFiveSpot(productContext?.product?.priceRange?.sellingPrice?.lowPrice * 0.05)
+    console.log(productContext, "productContext")
   }, [productContext])
 
   useEffect(() => {
-    setPriceCaixa((productContext.product.priceRange.sellingPrice.lowPrice * unitMultiplier).toFixed(2))
+    setPriceCaixa((productContext?.product?.priceRange?.sellingPrice?.lowPrice * unitMultiplier).toFixed(2))
 
   }, [unitMultiplier])
 
   function renderPrice() {
 
     // Gerar um array com os id´s dos clusters
-    let clusterListIds = discountSpot.map((cluster) => {
+    let clusterListIds = discountSpot?.map((cluster) => {
       return cluster.id
     })
 
     // Função que encontra a coleção com desconto (10 ou 5%)
     const found = (clusterList) => {
-      const discountElement = clusterList.find((cluster) => cluster == 1048 || cluster == 1049)
+      const discountElement = clusterList?.find((cluster) => cluster == 1048 || cluster == 1049)
       return discountElement
     }
 
     let discountClusterId = found(clusterListIds)
 
-    // if (measurementUnit === "m²" || measurementUnit === "M2") {
-    //   return (
+    if (measurementUnit === "m²" || measurementUnit === "M2") {
+      return (
 
-    //     <div className="product-price">
-    //       <div className="product-price-calc">
-    //         <p>
+        <div className="product-price">
+          <div className="product-price-calc">
+            <p>
 
-    //           <FormattedPrice value={priceCaixa} />
-    //           <span className="product-price__measurementUnit">/caixa</span>
-    //         </p>
+              <FormattedPrice value={priceCaixa} />
+              <span className="product-price__measurementUnit">/caixa</span>
+            </p>
 
-    //       </div>
-    //     </div>
+          </div>
+        </div>
 
-    //   )
-    // } else if (discountClusterId == '1048') {
-    //   return (
-    //     // Preço com 10%
-    //     <div className="product-price">
-    //       <div className="product-price-calc">
-    //         <p className="spot-product-price">
-    //           <FormattedPrice value={productPrice - tenSpot} />
-    //           <span className="spot-message"> à vista</span>
-    //           <span className="spot-savings"> (10% de desconto)</span>
-    //         </p>
-    //       </div>
-    //     </div>
-
-    //   )
-    // } else if (discountClusterId == '1049') {
-    //   return (
-    //     // Preço com 5%
-    //     <div className="product-price">
-    //       <div className="product-price-calc">
-    //         <p className="spot-product-price">
-    //           <FormattedPrice value={productPrice - fiveSpot} />
-    //           <span className="spot-message"> à vista</span>
-    //           <span className="spot-savings"> (5% de desconto)</span>
-    //         </p>
-    //       </div>
-    //     </div>
-    //   )
-    // } else {
-    //   return (
-    //     <div>
-    //       <FormattedPrice value={productContext?.product?.priceRange?.sellingPrice?.lowPrice} />
-    //     </div>
-    //   )
-    // }
+      )
+    } else if (discountClusterId == '1049') {
+      return (
+        // Preço com 5%
+        <div className="product-price">
+          <div className="product-price-calc">
+            <p className="spot-product-price">
+              <FormattedPrice value={productPrice - fiveSpot} />
+              <span className="spot-message"> à vista</span>
+              <span className="spot-savings"> (5% de desconto)</span>
+            </p>
+          </div>
+        </div>
+      )
+    } else {
+      return (
+        <div>
+          <FormattedPrice value={productContext?.product?.priceRange?.sellingPrice?.lowPrice} />
+        </div>
+      )
+    }
   }
   return <div className="product-price">
-    {measurementUnit === "m²" || measurementUnit === "M2" ?
-      // TRUE RETURN
-
-      <div className="product-price-calc">
-        <p>
-
-          <FormattedPrice value={priceCaixa} />
-          <span className="product-price__measurementUnit">/caixa</span>
-        </p>
-      </div>
-      :
-      // FALSE
-
-      <div>
-        <FormattedPrice value={productContext?.product?.priceRange?.sellingPrice?.lowPrice} />
-      </div>}
+    {renderPrice()}
   </div>;
 }
 

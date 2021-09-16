@@ -220,7 +220,7 @@
 
   "checkout-summary.compact#minicart": {
     "children": [
-      "DiscountMinicart",
+      // "DiscountMinicart",
       "summary-totalizers#minicart"
     ],
     "props": {
@@ -232,7 +232,7 @@
   },
   "summary-totalizers#minicart": {
     "props": {
-      "showTotal": true,
+      "showTotal": false,
       "showDeliveryTotal": false
     }
   },
