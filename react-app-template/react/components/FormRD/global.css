@@ -22,7 +22,6 @@
 
   .newsletter-ct.reduzido {
     flex-direction: column;
-    height: 70px;
     transition: all 0.3s linear;
   }
 
