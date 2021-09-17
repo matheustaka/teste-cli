@@ -71,10 +71,6 @@
 .content--emailVerification .options {
   min-width: 100% !important;
 }
-.contentAlwaysWithOptions .options {
-  min-width: 20rem !important;
-}
-
 .contentAlwaysWithOptions .formTitle {
   text-align: center;
 }
@@ -107,17 +103,20 @@
   font-weight: normal;
   font-size: 15px;
   color: #2d2e3a;
-
 }
 
-@media(max-width: 1025px) {
+@media (max-width: 1025px) {
   .contentAlwaysWithOptions .options {
     min-width: 17rem !important;
   }
 }
 
-@media(min-width: 1025px) {
+@media (min-width: 1025px) {
   .contentContainer :global(.vtex-styleguide-9-x-input) {
     font-size: 12px;
+  }
+
+  .options {
+    min-width: auto ;
   }
 }
