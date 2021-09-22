@@ -84,9 +84,6 @@
   margin-bottom: 20px;
 }
 
-.imageElement--borda .imageElement--parent-img {
-  position: relative;
-}
 
 .imageElement.imageElement--sup {
   display: none;

@@ -82,6 +82,8 @@
 
   "flex-layout.col#banners01left" : {
     "props" : {
+      "marginLeft": 3,
+      "marginRight": 3,
       "horizontalAlign" : "center",
       "verticalAlign" : "middle",
       "blockClass":["banner" ,"borda"]
@@ -93,6 +95,8 @@
   },
   "flex-layout.col#banners01right" : {
     "props" : {
+      "marginLeft": 3,
+      "marginRight": 3,
       "horizontalAlign" : "center",
       "verticalAlign" : "middle"
     },
@@ -182,6 +186,8 @@
 
   "flex-layout.col#banners02left" : {
     "props" : {
+      "marginLeft": 3,
+      "marginRight": 3,
       "horizontalAlign" : "center",
       "verticalAlign" : "middle"
     },
@@ -192,6 +198,8 @@
   },
   "flex-layout.col#banners02right" : {
     "props" : {
+      "marginLeft": 3,
+      "marginRight": 3,
       "horizontalAlign" : "center",
       "verticalAlign" : "middle"
     },
@@ -212,7 +220,7 @@
       "blockClass":"sup"
     }
   },
-  
+
   "image#banner04": {
     "props" : {
       "src": "https://cassol.vteximg.com.br/arquivos/img_580x190.jpg",
@@ -284,6 +292,8 @@
 
   "flex-layout.col#banners03left" : {
     "props" : {
+      "marginLeft": 3,
+      "marginRight": 3,
       "horizontalAlign" : "center",
       "verticalAlign" : "middle"
     },
@@ -293,6 +303,8 @@
   },
   "flex-layout.col#banners03middle" : {
     "props" : {
+      "marginLeft": 3,
+      "marginRight": 3,
       "horizontalAlign" : "center",
       "verticalAlign" : "middle"
     },
@@ -302,6 +314,8 @@
   },
   "flex-layout.col#banners03right" : {
     "props" : {
+      "marginLeft": 3,
+      "marginRight": 3,
       "horizontalAlign" : "center",
       "verticalAlign" : "middle"
     },
@@ -309,7 +323,7 @@
       "image#banner06"
     ]
   },
-  
+
   "image#banner05": {
     "props" : {
       "src": "https://cassol.vteximg.com.br/arquivos/img_380x400.jpg",
