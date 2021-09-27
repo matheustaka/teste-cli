@@ -3,7 +3,7 @@
     "props": {
       "colGap": 2,
       "preserveLayoutOnMobile": true,
-      "verticalAlign":"center",
+      "verticalAlign": "center",
       "marginBottom": 4,
       "blockClass": "sellingPriceContainer"
     },
@@ -13,11 +13,9 @@
     ]
   },
   "flex-layout.col#selling-price-spot": {
-    "props": {
-    },
+    "props": {},
     "children": [
       "flex-layout.row#selling",
-      "condition-layout.product#oculta-parcelamentos",
       "flex-layout.row#spot"
       // "condition-layout.product#custom-installment"
     ]
@@ -38,15 +36,19 @@
       "colGap": 2,
       "preserveLayoutOnMobile": true,
       "marginBottom": 4,
-      "blockClass": ["sellingPriceContainer", "sellingRow"]
+      "blockClass": [
+        "sellingPriceContainer",
+        "sellingRow"
+      ]
     },
     "children": [
       "flex-layout.col#selling-price"
     ]
   },
+
+  // Preço de venda e parcelamentos
   "flex-layout.col#selling-price": {
-    "props": {
-    },
+    "props": {},
     "children": [
       "flex-layout.row#selling-price-1",
       // "condition-layout.product#custom-installment",
@@ -55,7 +57,9 @@
   },
   "flex-layout.row#selling-price-1": {
     "props": {
-      "blockClass": ["mainPrice"]
+      "blockClass": [
+        "mainPrice"
+      ]
     },
     "children": [
       "product-selling-price",
@@ -63,13 +67,11 @@
     ]
   },
   "flex-layout.row#selling-price-2": {
-    "props": {
-    },
+    "props": {},
     "children": [
       "product-installments"
     ]
   },
-
   "flex-layout.row#product-custom-price": {
     "children": [
       "ProductPrice"
@@ -77,7 +79,9 @@
   },
   "product-spot-price": {
     "props": {
-      "markers":["preco-a-vista"],
+      "markers": [
+        "preco-a-vista"
+      ],
       "message": "Ou {spotPriceValue} à vista"
     }
   },
@@ -87,6 +91,7 @@
     }
   },
 
+  // Preço riscado e savings
   "flex-layout.row#list-price-savings": {
     "props": {
       "colGap": 2,
@@ -106,7 +111,7 @@
         {
           "subject": "specificationProperties",
           "arguments": {
-            "name":"Unidade de Venda",
+            "name": "Unidade de Venda",
             "value": "m²"
           },
           "toBe": true
@@ -114,13 +119,13 @@
         {
           "subject": "specificationProperties",
           "arguments": {
-            "name":"Unidade de Venda",
+            "name": "Unidade de Venda",
             "value": "M2"
           },
           "toBe": true
         }
       ],
-      "matchType":"any",
+      "matchType": "any",
       "Then": "rich-text#nohing",
       "Else": "installment-methods"
     }
