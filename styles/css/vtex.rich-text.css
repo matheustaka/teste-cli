@@ -416,6 +416,14 @@
   line-height: 25px;
   text-align: center;
 }
+.heading--seoTrigger {
+  color: #184077;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 25px;
+}
+
+
 .heading--newsTitle {
   color: #fff;
   margin: 0;
