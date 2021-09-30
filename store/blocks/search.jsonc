@@ -98,8 +98,9 @@
       "flex-layout.row#suggestion",
       "flex-layout.row#slider-departamento",
       "flex-layout.row#searchbread",
-      "flex-layout.row#seoSearch",
-      "flex-layout.row#result"
+      "flex-layout.row#searchtitle",
+      "flex-layout.row#result",
+      "flex-layout.row#seo-container"
     ],
     "props": {
       "pagination": "show-more",

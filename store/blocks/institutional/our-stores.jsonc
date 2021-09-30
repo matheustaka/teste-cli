@@ -76,6 +76,7 @@
       "flex-layout.col#our-stores--rs-store-3",
       "flex-layout.col#our-stores--rs-store-4",
       "flex-layout.col#our-stores--rs-store-5",
+      "flex-layout.col#our-stores--rs-store-6",
       "rich-text#our-stores--pr",
       "flex-layout.col#our-stores--pr-store-1",
       "flex-layout.col#our-stores--pr-store-2",
@@ -113,6 +114,7 @@
       "flex-layout.row#our-stores--rs-store-3",
       "flex-layout.row#our-stores--rs-store-4",
       "flex-layout.row#our-stores--rs-store-5",
+      "flex-layout.row#our-stores--rs-store-6",
       "rich-text#our-stores--pr",
       "flex-layout.row#our-stores--pr-store-1",
       "flex-layout.row#our-stores--pr-store-2",
@@ -1147,7 +1149,7 @@
 
 
 
-
+  // New
 
   "flex-layout.row#our-stores--rs-store-5": {
     "children": [
@@ -1185,19 +1187,75 @@
 
   "rich-text#our-stores--rs-funcionamento-5": {
     "props": {
-      "text": "**Centro de Distribuição - Canoas** \n 2ª a Sexta - 8h às 18h \n Sábado - 8h às 14h",
+      "text": "**Cachoeirinha** \n De segunda a sábado  das 8 às 19 \n Domingos e feriados das 10 às 19",
       "blockClass": ["aboutContent", "funcionamento"]
     }
   },
 
   "rich-text#our-stores--rs-endereco-5": {
     "props": {
-      "text": "**(48) 4001-1515** \n Av. Guilherme Schell, 130 - Rio Branco, Canoas - RS, \n CEP: 92200-140",
+      "text": "**4001-1515** \n Av. Guilherme Schell, 130 - Rio Branco, Canoas - RS, \n CEP: 92200-140",
       "blockClass": ["aboutContent", "endereco"]
     }
   },
 
   "rich-text#our-stores--rs-google-5": {
+    "props": {
+      "text": "<a href='https://goo.gl/maps/8a1nkzAQhYEKyMVP9' target='_blank'>abrir no google</a>",
+      "blockClass": "google-button"
+    }
+  },
+
+
+  "flex-layout.row#our-stores--rs-store-6": {
+    "children": [
+      "image#our-stores--rs-logo-5",
+      "rich-text#our-stores--rs-funcionamento-6",
+      "rich-text#our-stores--rs-endereco-6",
+      "rich-text#our-stores--rs-google-6"
+    ],
+    "props": {
+      "blockClass": "lojas",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "flex-layout.col#our-stores--rs-store-6": {
+    "children": [
+      "rich-text#our-stores--rs-funcionamento-6",
+      "rich-text#our-stores--rs-endereco-6",
+      "rich-text#our-stores--rs-google-6"
+    ],
+    "props": {
+      "blockClass": "lojas",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "image#our-stores--rs-logo6": {
+    "props": {
+      "src": "https://cassol.vtexassets.com/arquivos/nossas-lojas.png",
+      "blockClass": ["icon-nossas-lojas"],
+      "maxWidth": 22,
+      "maxHeight": 27
+    }
+  },
+
+  "rich-text#our-stores--rs-funcionamento-6": {
+    "props": {
+      "text": "**Centro de Distribuição - Canoas** \n 2ª a Sexta - 8h às 18h \n Sábado - 8h às 14h",
+      "blockClass": ["aboutContent", "funcionamento"]
+    }
+  },
+
+  "rich-text#our-stores--rs-endereco-6": {
+    "props": {
+      "text": "**(48) 4001-1515** \n Av. Guilherme Schell, 130 - Rio Branco, Canoas - RS, \n CEP: 92200-140",
+      "blockClass": ["aboutContent", "endereco"]
+    }
+  },
+
+  "rich-text#our-stores--rs-google-6": {
     "props": {
       "text": "<a href='https://goo.gl/maps/dWZGCt6pcWsxiLCw9' target='_blank'>abrir no google</a>",
       "blockClass": "google-button"
