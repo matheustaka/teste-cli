@@ -13,7 +13,6 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [1.0.1] - 2021-09-29
 
-## [1.0.0] - 2021-09-29
 
 ## [0.1.83] - 2021-09-29
 
@@ -181,11 +180,6 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [0.0.114] - 2021-04-23
 
-## [1.0.0] - 2021-04-23
-
-## [0.0.114] - 2021-04-23
-
-## [1.0.0] - 2021-04-22
 
 ## [0.0.113] - 2021-04-20
 
