@@ -8,17 +8,17 @@
       "condition-layout.product#product"
     ]
   },
-
   "condition-layout.product#product": {
     "props": {
-      "conditions": [{
-        "subject": "isProductAvailable"
-      }],
+      "conditions": [
+        {
+          "subject": "isProductAvailable"
+        }
+      ],
       "Then": "flex-layout.row#group-price",
       "Else": "rich-text#indisponivel"
     }
   },
-
   "flex-layout.row#group-price": {
     "children": [
       "product-list-price#summary",
@@ -29,7 +29,6 @@
       "blockClass": "group-price"
     }
   },
-
   "rich-text#indisponivel": {
     "props": {
       "textAlignment": "CENTER",
@@ -39,13 +38,11 @@
       "blockClass": "help-message"
     }
   },
-
   "stack-layout#prodsum": {
     "children": [
       "product-summary-image#shelf"
     ]
   },
-
   "product-summary-image#shelf": {
     "props": {
       "showBadge": false,
@@ -53,32 +50,42 @@
       "maxHeight": 300
     }
   },
-
   "flex-layout.row#highlights": {
     "children": [
-      "vtex.product-highlights@2.x:product-highlights#collection", "product-price-savings#summary"
+      "vtex.product-highlights@2.x:product-highlights#collection",
+      "product-price-savings#summary"
     ],
     "props": {
-      "colSizing":"auto",
-      "blockClass": ["highlightsAll", "badges"]
+      "colSizing": "auto",
+      "blockClass": [
+        "highlightsAll",
+        "badges"
+      ]
     }
   },
-
   "vtex.product-highlights@2.x:product-highlights#collection": {
     "props": {
       "type": "collection",
       "filter": {
-        "highlightNames": ["Coleção 10 produtos", "10%", "5%"],
+        "highlightNames": [
+          "Coleção 10 produtos",
+          "10%",
+          "5%"
+        ],
         "type": "hide"
       }
     },
-    "children": ["product-highlight-wrapper"]
+    "children": [
+      "product-highlight-wrapper"
+    ]
   },
   "product-highlight-wrapper": {
     "props": {
       "blockClass": "collection"
     },
-    "children": ["product-highlight-text"]
+    "children": [
+      "product-highlight-text"
+    ]
   },
   "product-highlight-text": {
     "props": {
@@ -86,7 +93,6 @@
       "message": "{highlightName}"
     }
   },
-
   "product-list-price#summary": {
     "props": {
       "blockClass": "summary"

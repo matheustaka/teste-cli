@@ -1,4 +1,4 @@
-{ // Conditional layout para ocultar parcelamento em pisos e revestimentos
+{
   "condition-layout.product#oculta-preco-lista": {
     "props": {
       "conditions": [
@@ -24,6 +24,7 @@
       "Else": "flex-layout.row#list-price-savings"
     }
   },
+  // Condicionante que mostra o preço do metro e caixa em produtos vendidos por metro quadrado
   "condition-layout.product#preco-produto-metro-quadrado": {
     "props": {
       "conditions": [
@@ -49,30 +50,25 @@
       "Else": "condition-layout.product#preco-produto-a-vista"
     }
   },
+  // Condição de exibição do preço à vista para determinada coleção
   "condition-layout.product#preco-produto-a-vista": {
     "props": {
       "conditions": [
-        {
-          "subject": "productClusters",
-          "arguments": {
-            "id": "1049"
-          },
-          "toBe": true
-        },
+
         {
           "subject": "productId",
           "arguments": {
-            "id": "1876826"
+            "id": "36639"
           },
           "toBe": true
         }
       ],
       "matchType": "any",
       "Then": "flex-layout.row#selling-price-spot",
-      "Else":"flex-layout.row#selling-price"
-
+      "Else": "flex-layout.row#selling-price"
     }
   },
+  // Conditional layout para ocultar parcelamento em pisos e revestimentos
   "condition-layout.product#oculta-parcelamentos": {
     "props": {
       "conditions": [

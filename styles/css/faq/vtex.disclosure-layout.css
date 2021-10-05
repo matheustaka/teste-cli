@@ -11,7 +11,7 @@
 
 .trigger--question:focus,
 .trigger--question:focus :global(.vtex-rich-text-0-x-paragraph) {
-  color: #0F3E99;
+  color: #0f3e99;
 }
 
 .trigger :global(.vtex-store-icons-0-x-caretIcon) {
@@ -19,7 +19,8 @@
 }
 
 .content--answer {
-  transition: opacity 250ms ease-in-out, height 250ms ease-in-out, transform 250ms ease-in-out;
+  transition: opacity 250ms ease-in-out, height 250ms ease-in-out,
+    transform 250ms ease-in-out;
   opacity: 0;
   height: 0;
   transform: translate3d(0, -10%, 0);
@@ -34,4 +35,34 @@
 .content--answer[data-leave] {
   height: 0;
   overflow: hidden;
+}
+
+.content--seoDisclosure {
+  display: block !important;
+}
+.content--seoDisclosure :global(.vtex-rich-text-0-x-container--seo-subtitulo){
+  justify-content: flex-start;
+}
+.content--seoDisclosure--hidden {
+  max-height: 60px;
+  overflow: hidden;
+}
+.trigger--seoTrigger {
+  width: 100%;
+  border: none;
+  background-color: rgb(255 255 255 / 77%);
+  transition: all ease 0.3s;
+}
+.trigger--seoTrigger--hidden {
+  margin-top: -35px;
+
+  -webkit-box-shadow: 0px 0px 17px 17px rgba(245, 245, 245, 1);
+  -moz-box-shadow: 0px 0px 17px 17px rgba(245, 245, 245, 1);
+  box-shadow: 0px 0px 17px 17px rgb(255 255 255 / 77%);
+}
+.trigger--seoTrigger--visible {
+  margin: 0;
+}
+.trigger--seoTrigger:hover {
+  cursor: pointer;
 }

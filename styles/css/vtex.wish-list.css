@@ -1,0 +1,3 @@
+.wishlistIconContainer:hover :global(.vtex-button)  , .wishlistIconContainer:hover, .wishlistIconContainer:hover :global(.vtex-button)  :global(.vtex-button__label){
+  background-color: transparent;
+}

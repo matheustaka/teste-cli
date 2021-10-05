@@ -401,5 +401,128 @@
     "blocks": [
       "product-summary.shelf"
     ]
+  },
+  // TExto Categoria Colapsável
+  "flex-layout.row#seoSearch": {
+    "props": {
+      "blockClass": "seo-container"
+    },
+    "children": [
+      "flex-layout.col#seoSearch"
+    ]
+  },
+  "flex-layout.col#seoSearch": {
+    "props": {
+      "blockClass": [
+        "seoCol"
+      ]
+    },
+    "children": [
+      "flex-layout.row#searchtitle",
+      "disclosure-layout#seoSearch"
+    ]
+  },
+  "disclosure-layout#seoSearch": {
+    "props": {
+      "initialVisibility": "hidden",
+      "blockClass": [
+        "seoDisclosure"
+      ]
+    },
+    "children": [
+      "disclosure-content#seoSearch",
+      "disclosure-trigger#seoSearch"
+    ]
+  },
+  "disclosure-trigger#seoSearch": {
+    "props": {
+      "hide": "rich-text#esconder",
+      "blockClass": [
+        "seoTrigger"
+      ]
+    },
+    "children": [
+      "disclosure-state-indicator#seoSearch"
+    ]
+  },
+  "disclosure-state-indicator#seoSearch": {
+    "props": {
+      "Show": "flex-layout.row#searchShow",
+      "Hide": "flex-layout.row#searchHide"
+    }
+  },
+  "disclosure-content#seoSearch": {
+    "props": {
+      "blockClass": [
+        "seoDisclosure"
+      ]
+    },
+    "children": [
+      "rich-text#seo-texto"
+    ]
+  },
+  "flex-layout.row#title": {
+    "children": [
+      "rich-text#seo-titulo"
+    ]
+  },
+
+  "flex-layout.row#searchShow": {
+    "props": {
+      "colSizing": "auto",
+      "preventHorizontalStretch": true,
+      "verticalAlign": "middle",
+      "horizontalAlign": "left",
+      "colGap": 3,
+      "blockClass": ["searchTriggerRow"]
+    },
+    "children":[
+      "icon#angle--down",
+      "rich-text#mostrar"
+    ]
+  },
+  "icon#angle--down": {
+    "props": {
+      "id": "mpa-angle--down",
+      "size": 24,
+      "orientation": "down",
+      "blockClass": ["searchTrigger"]
+    }
+  },
+  "rich-text#mostrar": {
+    "props": {
+      "text": "# Leia mais",
+      "textPosition": "left",
+      "textAlignment": "left",
+      "blockClass": "seoTrigger"
+    }
+  },
+  "rich-text#esconder": {
+    "props": {
+      "text": "# Ocultar",
+      "blockClass": "seoTrigger"
+    }
+  },
+  "flex-layout.row#searchHide": {
+    "props": {
+      "colSizing": "auto",
+      "preventHorizontalStretch": true,
+      "verticalAlign": "middle",
+      "horizontalAlign": "left",
+      "colGap": 3,
+      "blockClass": ["searchTriggerRow"]
+    },
+    "children":[
+      "icon#angle--up",
+      "rich-text#esconder"
+    ]
+  },
+  "icon#angle--up": {
+    "props": {
+      "id": "mpa-angle--up",
+      "size": 24,
+      "orientation": "up",
+      "blockClass": ["searchTrigger"]
+    }
   }
 }
