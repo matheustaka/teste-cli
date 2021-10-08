@@ -53,7 +53,8 @@
   "flex-layout.row#highlights": {
     "children": [
       "vtex.product-highlights@2.x:product-highlights#collection",
-      "product-price-savings#summary"
+      "product-price-savings#summary",
+      "add-to-list-btn"
     ],
     "props": {
       "colSizing": "auto",
