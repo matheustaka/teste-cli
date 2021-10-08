@@ -99,8 +99,7 @@
       "flex-layout.row#slider-departamento",
       "flex-layout.row#searchbread",
       "flex-layout.row#seoSearch",
-      "flex-layout.row#result",
-      "flex-layout.row#seo-container"
+      "flex-layout.row#result"
     ],
     "props": {
       "pagination": "show-more",
