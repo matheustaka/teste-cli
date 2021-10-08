@@ -98,9 +98,8 @@
       "flex-layout.row#suggestion",
       "flex-layout.row#slider-departamento",
       "flex-layout.row#searchbread",
-      "flex-layout.row#searchtitle",
-      "flex-layout.row#result",
-      "flex-layout.row#seo-container"
+      "flex-layout.row#seoSearch",
+      "flex-layout.row#result"
     ],
     "props": {
       "pagination": "show-more",
@@ -252,12 +251,11 @@
       "flex-layout.row#slider-departamento",
       "flex-layout.row#did-you-mean",
       "flex-layout.row#suggestion",
-      "flex-layout.row#searchtitle",
+      "flex-layout.row#seoSearch",
       "flex-layout.row#searchinfomobile",
       "flex-layout.row#productCountMobile",
       "flex-layout.row#contentmobile",
-      "flex-layout.row#fetchmore",
-      "flex-layout.row#seo-container"
+      "flex-layout.row#fetchmore"
     ],
     "props": {
       "pagination": "show-more",
@@ -405,7 +403,7 @@
   // TExto Categoria Colapsável
   "flex-layout.row#seoSearch": {
     "props": {
-      "blockClass": "seo-container"
+      "blockClass": ["seo-container", "seoSearchContainer"]
     },
     "children": [
       "flex-layout.col#seoSearch"
@@ -458,13 +456,33 @@
       ]
     },
     "children": [
-      "rich-text#seo-texto"
+      "rich-text#seo-category-subheading",
+      "rich-text#seo-category-text"
     ]
   },
   "flex-layout.row#title": {
     "children": [
-      "rich-text#seo-titulo"
+      "rich-text#seo-category-heading"
     ]
+  },
+
+  "rich-text#seo-category-heading": {
+    "props": {
+      "text": "# Cassol - você imagina, a gente tem!",
+      "blockClass": "seo-titulo"
+    }
+  },
+  "rich-text#seo-category-subheading": {
+    "props": {
+      "text": "## Confira os preços dos melhores materiais de construção, acabamento, itens de decoração, entre outros!",
+      "blockClass": "seo-subtitulo"
+    }
+  },
+  "rich-text#seo-category-text": {
+    "props": {
+      "text": "Aqui na Cassol você encontra uma enorme variedade de produtos das melhores marcas além de condições de pagamentos diferenciadas e possibilidade de parcelamento em até 15x sem juros com o [Cartão Cassol](/cartao-cassol)! Queremos ajudar a transformar a sua casa em um lar! Confira nossas ofertas:",
+      "blockClass": ["seo-texto", "seoCategoryText"]
+    }
   },
 
   "flex-layout.row#searchShow": {

@@ -409,6 +409,9 @@
   justify-content: center;
 }
 
+.paragraph--seoCategoryText {
+  margin: 0;
+}
 .headingLevel1--seo-titulo {
   color: #184077;
   font-size: 20px;
@@ -437,7 +440,7 @@
   font-weight: 600;
   font-size: 1rem;
 }
-.headingLevel2--seo-subtitulo {
+.headingLevel2--seo-subtitulo, .heading--seo-subtitulo {
   font-weight: 600;
   font-size: 14px;
   line-height: 20px;
@@ -987,6 +990,14 @@
 
 }
 @media screen and (min-width: 640px) {
+}
+
+@media screen and (max-width: 640px) {
+
+  .heading--seoTrigger {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
 }
 /* Valentine´s  */
 .container--valentinesTitle {

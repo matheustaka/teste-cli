@@ -679,19 +679,19 @@
   },
   "rich-text#seo-titulo": {
     "props": {
-      "text": "# Cassol - você imagina, a gente tem!",
+      "text": "# Aqui você encontra os melhores preços e condições para construir, reformar ou decorar sua casa.",
       "blockClass": "seo-titulo"
     }
   },
   "rich-text#seo-subtitulo": {
     "props": {
-      "text": "## Subtítulo de SEO",
+      "text": "## Confira os preços dos melhores materiais de construção, acabamento, itens de decoração, entre outros!",
       "blockClass": "seo-subtitulo"
     }
   },
   "rich-text#seo-texto": {
     "props": {
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad  minim  veniam,  quis  nostrud  exercitation  ullamco  laboris nisi  ut  aliquip ex  ea  commodo  consequat. Duis   aute  irure dolor  in reprehenderit   in   voluptate  velit   esse   cillum   dolore   eu fugiat   nulla    pariatur.   Excepteur   sint   occaecat   cupidatat   non pent.",
+      "text": "Seja para **construir, reformar ou decorar, na Cassol, você irá encontrar** em um só lugar tudo o que você precisa para transformar a sua casa em um lar. Somos autoridade quando o assunto é [Materiais de Construção](/materiais-de-construcao), [Pisos e Revestimentos](/pisos-e-revestimentos), [Ferramentas](/ferramentas), [Eletro](/eletro), [Climatização e Ventilação](/climatizacao-e-ventilacao), [Banheiros](/banheiros) e diversos outros departamentos para você construir o seu sonho. Oferecemos o maior estoque de produtos à pronta entrega da região Sul, com mais de 45 mil itens, sendo 14 linhas de marca própria. São 19 lojas em Santa Catarina, Rio Grande do Sul e Paraná e três Centros de Distribuição, além de contar com os serviços de e-Commerce, Televendas e Venda Direta. Nosso propósito é de colaborar com as pessoas para transformar a casa em um lar.",
       "blockClass": "seo-texto"
     }
   },
