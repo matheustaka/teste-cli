@@ -68,7 +68,8 @@
     "vtex.iframe": "0.x",
     "cassol.btucalculator": "1.x",
     "vtex.sandbox": "0.x",
-    "vtex.tab-layout": "0.x"
+    "vtex.tab-layout": "0.x",
+    "vtex.list-context": "0.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }

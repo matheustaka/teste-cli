@@ -1,4 +1,9 @@
 {
+  "my-account-link.wishlist-link": {
+    "props": {
+      "label": "Lista de desejos"
+    }
+  },
   "my-account-page.wishlist-page": {
     "children": [
       "flex-layout.row#topo",
@@ -27,15 +32,19 @@
   },
   "rich-text#title": {
     "props": {
-      "text": "### Wishlist"
+      "text": "### Lista de Desejos"
     }
   },
   "list-context.wishlist": {
+    "props": {
+      "showViewEmptyList": true
+    },
     "blocks": [
+      "wishlist-empty-list",
       "product-summary.shelf#wishlist"
     ],
     "children": [
-      "slider-layout#wishlist"
+      "list-context.product-list#wishlist"
     ]
   },
   "product-summary.shelf#wishlist": {
@@ -60,6 +69,37 @@
       "infinite": false,
       "fullWidth": true,
       "blockClass": "shelf"
+    }
+  },
+  "list-context.product-list#wishlist": {
+    "blocks": [
+      "product-summary.shelf#wishlist"
+    ],
+    "children": [
+      "list-context-renderer#wrapped"
+    ],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC"
+    }
+  },
+  "list-context-renderer#wrapped": {
+    "props": {
+      "listElement": "ul",
+      "itemElement": "li"
+    }
+  },
+  // EMPTY VIEW OF WISHLSIT
+  "wishlist-empty-list": {
+    "children": [
+      "rich-text#empty-list-description"
+    ]
+  },
+  "rich-text#empty-list-description": {
+    "props": {
+      "text": "### Você ainda não tem produtos adicionados em sua lista",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-2"
     }
   }
 }

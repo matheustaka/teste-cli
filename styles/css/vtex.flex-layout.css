@@ -274,7 +274,7 @@
 }
 
 .flexRowContent--searchTriggerRow {
-  justify-content: flex-start;
+  justify-content: flex-end;
   align-items: center;
   color: #184077;
 }
