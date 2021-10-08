@@ -273,7 +273,7 @@
   width: 100%;
 }
 
-.flexRowContent--searchTriggerRow{
+.flexRowContent--searchTriggerRow {
   justify-content: flex-start;
   align-items: center;
   color: #184077;
@@ -544,6 +544,14 @@
   margin: auto;
   display: block;
   margin-top: 40px;
+}
+
+.flexRowContent--seoSearchContainer {
+  margin-top: 0;
+}
+
+.flexRow--searchTriggerRow {
+  margin-top: 35px;
 }
 .flexRowContent--highlightsAll
   :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
@@ -959,6 +967,12 @@
   }
 }
 
+@media screen and (max-width: 640px) {
+  .flexRowContent--searchTriggerRow {
+    display: flex;
+  }
+}
+
 .flexRowContent--sellingPriceContainer {
   align-items: center;
   display: flex;
@@ -1273,7 +1287,7 @@
   .flexCol--institucionalSidebar {
     display: none;
   }
-  .flexRowContent--sellingPriceContainer{
+  .flexRowContent--sellingPriceContainer {
     align-items: flex-start;
     margin-bottom: 0;
     flex-direction: column;

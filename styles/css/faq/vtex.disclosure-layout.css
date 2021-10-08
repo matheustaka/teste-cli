@@ -40,9 +40,7 @@
 .content--seoDisclosure {
   display: block !important;
 }
-.content--seoDisclosure :global(.vtex-rich-text-0-x-container--seo-subtitulo){
-  justify-content: flex-start;
-}
+
 .content--seoDisclosure--hidden {
   max-height: 60px;
   overflow: hidden;
