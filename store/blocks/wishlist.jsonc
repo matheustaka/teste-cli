@@ -12,8 +12,7 @@
   },
   "store.wishlist": {
     "blocks": [
-      "flex-layout.row#topo",
-      "list-context.wishlist"
+      "flex-layout.row#topo"
     ]
   },
   "flex-layout.row#topo": {
@@ -44,17 +43,16 @@
       "product-summary.shelf#wishlist"
     ],
     "children": [
-      "list-context.product-list#wishlist"
+      "list-context-renderer#wrapped"
     ]
   },
   "product-summary.shelf#wishlist": {
     "children": [
-      "add-to-list-btn",
-      "product-summary-image",
+      "flex-layout.row#highlights",
+      "stack-layout#prodsum",
       "product-summary-name",
-      "product-summary-space",
-      "product-summary-price",
-      "add-to-cart-button"
+      "product-rating-inline",
+      "condition-layout.product#product"
     ]
   },
   "slider-layout#wishlist": {
@@ -66,8 +64,8 @@
       },
       "showNavigationArrows": "desktopOnly",
       "showPaginationDots": "always",
-      "infinite": false,
-      "fullWidth": true,
+      "infinite": true,
+      "fullWidth": false,
       "blockClass": "shelf"
     }
   },
