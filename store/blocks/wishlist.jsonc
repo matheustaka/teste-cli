@@ -31,7 +31,12 @@
   },
   "rich-text#title": {
     "props": {
-      "text": "### Lista de Desejos"
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "### Minha lista de desejos",
+      "blockClass": [
+        "wishListTitle"
+      ]
     }
   },
   "list-context.wishlist": {

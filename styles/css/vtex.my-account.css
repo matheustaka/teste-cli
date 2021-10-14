@@ -32,3 +32,12 @@
 }
 
 .undefined{display: none;}
+
+@media screen and (max-width: 720) {
+  .userInfo {
+    justify-content: center;
+  }
+  .userImage {
+    text-align: center;
+  }
+}
