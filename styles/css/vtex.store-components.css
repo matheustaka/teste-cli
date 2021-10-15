@@ -638,6 +638,38 @@
   margin-top: -7px;
 }
 
+
+.infoCardHeadline--mktplaceInfoCard {
+  font-size: 2.5rem;
+  color: #fff;
+}
+.infoCardSubhead--mktplaceInfoCard{
+  color: #fff;
+}
+.infoCardCallActionContainer--mktplaceInfoCard :global(.vtex-button) {
+  background-color: #91272f;
+  border-color: #91272f;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+
+.infoCardTextContainer--mktplaceInfoCard {
+  z-index: 10;
+}
+
+.infoCardContainer--mktplaceInfoCard{
+  min-height: 600px;
+}
+
+.infoCardContainer--mktplaceInfoCard::before {
+  content: "";
+  width: 100%;
+  min-height: 600px;
+  position: absolute;
+  background-color: #1c1c1c75;
+
+}
+
 @media (max-width: 575.98px) {
   :global(.vtex-store__template) {
     overflow-wrap: anywhere;

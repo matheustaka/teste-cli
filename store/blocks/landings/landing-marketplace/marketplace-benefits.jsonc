@@ -1,0 +1,197 @@
+{
+  "flex-layout.row#mktplaceBenefits-3": {
+    "props": {
+      "fullWidth": true,
+      "colSizing": "auto",
+      "horizontalAlign": "center",
+      "blockClass":[
+        "benefitsItemsContainer"
+      ]
+    },
+    "children": [
+      "flex-layout.col#benefitsLeft",
+      "flex-layout.row#benefitsRight"
+    ]
+  },
+  "flex-layout.col#benefitsLeft": {
+    "props": {
+      "preventVerticalStretch": true
+    },
+
+    "children": [
+      "flex-layout.row#benefitsLeft-1",
+      "flex-layout.row#benefitsLeft-2"
+    ]
+  },
+  "flex-layout.row#benefitsLeft-1": {
+    "props": {
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "flex-layout.col#benefitSac",
+      "flex-layout.col#benefitDollar",
+      "flex-layout.col#benefitTornado"
+    ]
+  },
+  //  SAC
+  "flex-layout.col#benefitSac": {
+    "props": {
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "blockClass": "benefitCard"
+    },
+    "children": [
+      "rich-text#mktplaceSac",
+      "image#mktplaceSac"
+    ]
+  },
+  "rich-text#mktplaceSac": {
+    "props": {
+      "text": "**SAC** por nossa conta"
+    }
+  },
+  "image#mktplaceSac": {
+    "props": {
+      "src": "assets/cassol-marketplace/headphone.png"
+    }
+  },
+  // DOLLAR
+  "flex-layout.col#benefitDollar": {
+    "props": {
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "blockClass": "benefitCard"
+    },
+    "children": [
+      "rich-text#mktplaceDollar",
+      "image#mktplaceDollar"
+    ]
+  },
+  "rich-text#mktplaceDollar": {
+    "props": {
+      "text": "Diversos **meios de pagamento**"
+    }
+  },
+  "image#mktplaceDollar": {
+    "props": {
+      "src": "assets/cassol-marketplace/dollar.png"
+    }
+  },
+  // TORNADO
+  "flex-layout.col#benefitTornado": {
+    "props": {
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "blockClass": "benefitCard"
+    },
+    "children": [
+      "rich-text#mktplaceTornado",
+      "image#mktplaceTornado"
+    ]
+  },
+  "rich-text#mktplaceTornado": {
+    "props": {
+      "text": "**Parceria** com os principais integradores do mercado"
+    }
+  },
+  "image#mktplaceTornado": {
+    "props": {
+      "src": "assets/cassol-marketplace/tornado.png"
+    }
+  },
+  "flex-layout.row#benefitsLeft-2": {
+    "props": {
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "flex-layout.col#userSpider",
+      "flex-layout.col#benefitShield",
+      "flex-layout.col#benefitBag"
+    ]
+  },
+  //  UserSpider
+  "flex-layout.col#userSpider": {
+    "props": {
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "blockClass": "benefitCard"
+    },
+    "children": [
+      "rich-text#mktplaceuserSpider",
+      "image#mktplaceUserSpider"
+    ]
+  },
+  "rich-text#mktplaceuserSpider": {
+    "props": {
+      "text": "**Exposição** em todos os canais da Cassol"
+    }
+  },
+  "image#mktplaceUserSpider": {
+    "props": {
+      "src": "assets/cassol-marketplace/userSpider.png"
+    }
+  },
+  // SHIELD
+  "flex-layout.col#benefitShield": {
+    "props": {
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "blockClass": "benefitCard"
+    },
+    "children": [
+      "rich-text#mktplaceShield",
+      "image#mktplaceShield"
+    ]
+  },
+  "rich-text#mktplaceShield": {
+    "props": {
+      "text": "**Segurança** antifraude"
+    }
+  },
+  "image#mktplaceShield": {
+    "props": {
+      "src": "assets/cassol-marketplace/shield.png"
+    }
+  },
+  // BAG
+  "flex-layout.col#benefitBag": {
+    "props": {
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "blockClass": "benefitCard"
+    },
+    "children": [
+      "rich-text#mktplaceBag",
+      "image#mktplaceBag"
+    ]
+  },
+  "rich-text#mktplaceBag": {
+    "props": {
+      "text": "**Parceria** com os principais integradores do mercado"
+    }
+  },
+  "image#mktplaceBag": {
+    "props": {
+      "src": "assets/cassol-marketplace/bag.png"
+    }
+  },
+  "flex-layout.row#benefitsRight": {
+    "props": {
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "blockClass": [
+        "benefitsRight"
+      ]
+    },
+    "children": [
+      "image#starMan"
+    ]
+  },
+  "image#starMan": {
+    "props": {
+      "src": "assets/cassol-marketplace/starMan.png"
+    }
+  }
+}

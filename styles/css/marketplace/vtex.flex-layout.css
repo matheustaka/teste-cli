@@ -1,0 +1,73 @@
+.flexRow--mktplaceSection {
+  padding: 2.5rem 0;
+}
+.flexRow--diffSection {
+  background-color: #91272f;
+}
+.flexCol--diffRight {
+  flex-direction: row;
+}
+
+.flexRowContent--customBg {
+  position: relative;
+  z-index: 5;
+}
+
+.flexRowContent--customBg::before {
+  content: "";
+  position: absolute;
+  background-color: #2c79a7;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 87, 133, 0.8) 0%,
+    rgba(44, 121, 167, 0.8) 100%
+  );
+  width: 100%;
+  height: 30%;
+  z-index: -1;
+  top: 30%;
+}
+
+.flexCol--stepsDescContainer {
+  margin: 0 5%;
+  max-height: 590px;
+}
+
+.flexRow--mktplaceBenefits {
+  background-color: #f9f9f9;
+}
+
+/* Benefits */
+
+.flexRowContent--benefitsItemsContainer {
+  justify-content: space-around;
+  align-items: center;
+}
+.flexCol--benefitCard {
+  background-color: #fff;
+  position: relative;
+  border-radius: 15px;
+
+  justify-content: center;
+
+
+  width: 290px;
+  height: 140px;
+  max-width: 290px;
+  padding: 1.5rem;
+
+  margin: 10px;
+}
+
+.flexColChild--benefitCard :global(.vtex-store-components-3-x-imageElement) {
+  max-width: 55px;
+  max-height: 55px;
+
+  position: absolute;
+  top: -20px;
+  left: -10px;
+}
+.flexRowContent--benefitsRight
+  :global(.vtex-store-components-3-x-imageElement) {
+  max-height: 460px;
+}

@@ -1,0 +1,55 @@
+.heading--mktplaceTitleDiferencial,
+.paragraph--diffDesc,
+.heading--mktplaceSteps {
+  color: #fff;
+}
+
+.heading--mktplaceTitleComoFunciona {
+  color: #004061;
+  font-weight: 900;
+}
+
+.wrapper--diferencialDescLeft {
+  padding: 1.5rem;
+  background-color: #fff;
+  border-radius: 0 5px 5px 0;
+
+  max-width: 90%;
+}
+
+.paragraph--diffDesc {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.heading--mktplaceSteps {
+  margin: 10px 0;
+}
+
+.heading--mktplaceBenefitsTitle {
+  color: #b5474f;
+  font-weight: 900;
+  margin: 0;
+}
+
+.container--mktplaceBenefitsTitle {
+  position: relative;
+}
+.heading--mktplaceBenefitsTitle::before, .heading--mktplaceBenefitsTitle::after {
+  content: "";
+  background-color: #69141A;;
+  position: absolute;
+  width: 40%;
+  height: 17px;
+  top: 8px;
+}
+
+.heading--mktplaceBenefitsTitle::before{
+  left: 0;
+}
+.heading--mktplaceBenefitsTitle::after{
+  right: 0;
+}
