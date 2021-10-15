@@ -1,0 +1,46 @@
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  justify-content: flex-start;
+}
+
+.item {
+  max-width: 220px;
+  margin: 5px;
+}
+
+:global(.vtex-rich-text-0-x-link--menuAccount){
+  display: none;
+}
+@media screen and (max-width: 600px) {
+  .list {
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  :global(.vtex-rich-text-0-x-container--menuAccount)
+    :global(.vtex-rich-text-0-x-wrapper--menuAccount) {
+    position: static;
+  }
+
+  :global(.vtex-rich-text-0-x-paragraph):global(.vtex-rich-text-0-x-paragraph--menuAccount) {
+    margin: 0;
+  }
+
+  .item
+    :global(.vtex-product-summary-2-x-container):global(.vtex-product-summary-2-x-containerNormal) {
+    max-width: 200px !important;
+  }
+
+  .item {
+    max-width: 45%;
+  }
+}
+
+@media screen and (max-width: 720px) {
+ .list {
+   justify-content: center;
+ }
+}

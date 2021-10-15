@@ -9,3 +9,7 @@
 .wishlistIconContainer :global(.vtex-button) :global(.vtex-button__label) {
   padding: 0 10px !important;
 }
+
+.wishlistIconContainer .vtex-button:hover {
+  background-color: transparent;
+}
