@@ -5,7 +5,8 @@
       "flex-layout.row#diferencial",
       "flex-layout.row#como-funciona",
       "flex-layout.row#mktplaceBenefits",
-      "flex-layout.row#mktplaceFaq"
+      "flex-layout.row#mktplaceFaq",
+      "flex-layout.row#mktplaceLead"
     ],
     "parent": {
       "header": "header-layout.desktop#marketplace",
@@ -255,9 +256,6 @@
     ]
   },
   "flex-layout.col#comoFuncionaContainer": {
-    "props": {
-      "horizontalAlign": "center"
-    },
     "children": [
       "rich-text#funcionamentoTitle",
       "flex-layout.row#comoFunciona-2"
@@ -289,7 +287,8 @@
   },
   "image#como-funciona": {
     "props": {
-      "src": "assets/cassol-marketplace/pessoinha.png"
+      "src": "assets/cassol-marketplace/pessoinha.png",
+      "maxWidth": 600
     }
   },
   "flex-layout.col#2-right": {
@@ -322,8 +321,6 @@
       "blockClass": "mktplaceSteps"
     }
   },
-
-
   /*
   **************************
   **************************
@@ -353,7 +350,6 @@
     "children": [
       "flex-layout.row#mktplaceBenefits-1",
       "flex-layout.row#mktplaceBenefits-2",
-
       // this row is in another file : ./benefits.jsonc
       "flex-layout.row#mktplaceBenefits-3"
     ]
@@ -377,7 +373,6 @@
       "blockClass": "mktplaceBenefitsTitle"
     }
   },
-
   // FOOTER
   "flex-layout.row#footer-marketplace": {
     "props": {
@@ -449,5 +444,37 @@
       "text": "@ Todos os direitos reservados à Cassol 2021",
       "blockClass": "marketplace-copyright"
     }
+  },
+  "flex-layout.row#mktplaceLead": {
+    "props": {
+      "blockClass": [
+        "mktplaceLeadSection"
+      ]
+    },
+    "children": [
+      "flex-layout.col#mktplaceLead"
+    ]
+  },
+  "flex-layout.col#mktplaceLead": {
+    "children": [
+      "rich-text#mktplaceLeadTitle",
+      // FORM SECTION
+      "flex-layout.row#leadForm"
+    ]
+  },
+  "rich-text#mktplaceLeadTitle": {
+    "props": {
+      "text": "## FAÇA SEU CADASTRO!",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "blockClass": [
+        "leadTitle"
+      ]
+    }
+  },
+  "flex-layout.row#leadForm": {
+    "children": [
+      "LeadFormMarketplace"
+    ]
   }
 }

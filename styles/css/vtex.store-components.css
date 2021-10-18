@@ -712,6 +712,11 @@
 .infoCardImage--info-card-share {
   width: 30px;
 }
+
+/* LP MARKETPLACE */
+.imageElement--mktplaceFaqImage {
+  min-width: 200px;
+}
 @media (max-width: 359px) {
   .infoCardHeadline--info-card-share {
     font-size: 13px;

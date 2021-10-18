@@ -40,5 +40,8 @@
   },
   "PriceDiscount" : {
     "component" : "PriceDiscount"
+  },
+  "LeadFormMarketplace": {
+    "component": "LeadFormMarketplace"
   }
 }

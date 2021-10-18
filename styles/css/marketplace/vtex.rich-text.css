@@ -4,9 +4,14 @@
   color: #fff;
 }
 
-.heading--mktplaceTitleComoFunciona {
+.heading--mktplaceTitleComoFunciona,
+.heading--mktplaceTitleFaq {
   color: #004061;
   font-weight: 900;
+}
+
+.heading--leadTitle {
+  color: #003e5e;
 }
 
 .wrapper--diferencialDescLeft {
@@ -38,18 +43,19 @@
 .container--mktplaceBenefitsTitle {
   position: relative;
 }
-.heading--mktplaceBenefitsTitle::before, .heading--mktplaceBenefitsTitle::after {
+.heading--mktplaceBenefitsTitle::before,
+.heading--mktplaceBenefitsTitle::after {
   content: "";
-  background-color: #69141A;;
+  background-color: #69141a;
   position: absolute;
   width: 40%;
   height: 17px;
   top: 8px;
 }
 
-.heading--mktplaceBenefitsTitle::before{
+.heading--mktplaceBenefitsTitle::before {
   left: 0;
 }
-.heading--mktplaceBenefitsTitle::after{
+.heading--mktplaceBenefitsTitle::after {
   right: 0;
 }
