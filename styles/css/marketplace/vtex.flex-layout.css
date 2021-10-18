@@ -33,7 +33,8 @@
   max-height: 590px;
 }
 
-.flexRow--mktplaceBenefits, .flexRow--mktplaceLeadSection{
+.flexRow--mktplaceBenefits,
+.flexRow--mktplaceLeadSection {
   background-color: #f9f9f9;
 }
 
@@ -123,4 +124,30 @@
   background-image: url(assets/cassol-marketplace/pink-egg.png);
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 768px) {
+  .customBg::before {
+    content: "";
+    height: 55%;
+    top: 45%;
+  }
+
+  .flexRowContent--benefitsRight {
+    display: none;
+  }
+
+  .flexColChild--benefitCard :global(.vtex-store-components-3-x-imageElement) {
+    left: 40%;
+  }
+
+  .flexRowContent--mktplaceFaqSection::before {
+    content: "";
+    background-image: none;
+  }
+
+  .flexColChild--mktplaceQuestions {
+    flex-direction: column;
+    align-items: center;
+  }
 }

@@ -38,19 +38,24 @@
   color: #b5474f;
   font-weight: 900;
   margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.container--mktplaceBenefitsTitle {
+.wrapper--mktplaceBenefitsTitle {
+  width: 100%;
   position: relative;
 }
+
 .heading--mktplaceBenefitsTitle::before,
 .heading--mktplaceBenefitsTitle::after {
   content: "";
   background-color: #69141a;
-  position: absolute;
-  width: 40%;
+  display: block;
+  width: 30%;
   height: 17px;
-  top: 8px;
+  position: relative;
 }
 
 .heading--mktplaceBenefitsTitle::before {
@@ -58,4 +63,13 @@
 }
 .heading--mktplaceBenefitsTitle::after {
   right: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .container--mktplaceTitleFaq {
+    justify-content: center;
+  }
+  .wrapper--mktplaceBenefitsTitle {
+    margin: 20px 0;
+  }
 }

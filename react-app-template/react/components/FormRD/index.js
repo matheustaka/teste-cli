@@ -81,6 +81,7 @@ const SubmitField = styled.input`
   min-height: 2.5rem;
   border: none;
   border-radius: .25rem;
+  font-weight:bold
 
   &:hover{
     cursor: pointer;
@@ -137,9 +138,9 @@ const Arrow = styled.div`
 }
 `
 const FormRD = () => {
+  const [enviado, setEnviado] = useState(false)
 
   // Status de enviado para quando enviar o form
-  const [enviado, setEnviado] = useState(false)
   const enviarContato = () => {
 
     setEnviado(true)
@@ -184,10 +185,6 @@ const FormRD = () => {
       console.log('Resposta API', response)
     })
   }
-
-
-
-
   // Parameter is the boolean, with default "false" value
   const useToggle = (initialState = false) => {
     // Initialize the state
@@ -211,54 +208,47 @@ const FormRD = () => {
       <Div>
         <form id="form-rd" className="mainForm" onSubmit={handleSubmit(enviarContato)}>
 
-          {enviado ?
-            // Quando enviado, mostre
-            <>
-              <div>
-                <h3 className="newsletter-title">Cadastro efetuado com sucesso! Muito Obrigado! </h3>
-              </div>
-            </>
-            :
-            <>
-              <div className={`newsletter-ct ${toggle ? 'normal' : 'reduzido'}`}>
-                <div className="newsletter-ct-main">
-                  <h3 className="newsletter-title"> Cadastre-se em nossa newsletter! </h3>
-                  <Arrow className="arrow" onClick={setToggle}></Arrow>
+          {
 
-                </div>
+            enviado ?
 
-                <div className={`form-content ${toggle ? 'ativo' : 'hidden'}`}>
+              <h3 className='successForm'>Cadastro efetuado com sucesso!</h3>
 
-                  <div className={`form-left`}>
-                    <h3 className={`newsletter-title`}>Receba as melhores ofertas Cassol!</h3>
-                    <Input onChange={handleChange} type="checkbox" data-privacy="true" id="agreeWithTerms" name="agreeWithTerms" value="1" required />
-                    <Label htmlFor="agreeWithTerms">
-                      Li e aceito os termos de uso e <Link href='https://www.cassol.com.br/privacidade'> política de privacidade</Link> da Cassol.
-                    </Label>
-                    <Input type="hidden" data-privacy="true" id="privacy_policy" name="privacy_policy" value="1" />
+              :
 
-                  </div>
+              <>
+                <div className={`newsletter-ct`}>
 
-                  <div className={`mainForm`}>
-                    <EmailField type="email" placeholder="Digite seu melhor e-mail" id="email" name="email" onChange={handleChange} />
+                  <div className={`form-content`}>
 
-                    <SubmitField type="submit" value="Inscrever-se" />
+                    <div className={`form-left`}>
+                      <h3 className={`newsletter-title`}>Receba as melhores ofertas Cassol!</h3>
+                      <Input onChange={handleChange} type="checkbox" data-privacy="true" id="agreeWithTerms" name="agreeWithTerms" value="1" required />
+                      <Label htmlFor="agreeWithTerms">
+                        Li e aceito os termos de uso e <Link href='https://www.cassol.com.br/privacidade'> política de privacidade</Link> da Cassol.
+                      </Label>
+                      <Input type="hidden" data-privacy="true" id="privacy_policy" name="privacy_policy" value="1" />
+
+                    </div>
+
+                    <div className={`mainForm`}>
+                      <EmailField type="email" placeholder="Digite seu melhor e-mail" id="email" name="email" onChange={handleChange} />
+
+                      <SubmitField type="submit" value="Inscrever-se" />
+                    </div>
+
                   </div>
 
                 </div>
 
-              </div>
-
-            </>
-
+              </>
           }
-
 
         </form>
 
 
 
-        {/* <CloseButton onClick={setToggle}> {toggle ? '' : ''}   </CloseButton> */}
+        { <CloseButton onClick={setToggle}> {toggle ? '' : ''}   </CloseButton> }
 
       </Div>
     </>

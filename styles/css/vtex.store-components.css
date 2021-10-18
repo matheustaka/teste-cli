@@ -84,7 +84,6 @@
   margin-bottom: 20px;
 }
 
-
 .imageElement.imageElement--sup {
   display: none;
 }
@@ -434,6 +433,11 @@
     .skuSelectorInternalBox {
     width: auto;
   }
+
+  .backToTopButtonActive {
+    bottom: 25%;
+    right: 6px;
+  }
 }
 
 .specificationsTitle,
@@ -638,12 +642,11 @@
   margin-top: -7px;
 }
 
-
 .infoCardHeadline--mktplaceInfoCard {
   font-size: 2.5rem;
   color: #fff;
 }
-.infoCardSubhead--mktplaceInfoCard{
+.infoCardSubhead--mktplaceInfoCard {
   color: #fff;
 }
 .infoCardCallActionContainer--mktplaceInfoCard :global(.vtex-button) {
@@ -657,7 +660,7 @@
   z-index: 10;
 }
 
-.infoCardContainer--mktplaceInfoCard{
+.infoCardContainer--mktplaceInfoCard {
   min-height: 600px;
 }
 
@@ -667,7 +670,6 @@
   min-height: 600px;
   position: absolute;
   background-color: #1c1c1c75;
-
 }
 
 @media (max-width: 575.98px) {
@@ -731,5 +733,10 @@
 @media (min-width: 800px) {
   .infoCardHeadline--info-card-share {
     font-size: 16px;
+  }
+}
+@media (max-width: 768px) {
+  .imageElement--mktplaceFaqImage {
+    display: none;
   }
 }

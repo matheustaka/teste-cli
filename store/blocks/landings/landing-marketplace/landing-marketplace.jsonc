@@ -9,14 +9,51 @@
       "flex-layout.row#mktplaceLead"
     ],
     "parent": {
-      "header": "header-layout.desktop#marketplace",
+      "header": "header#marketplace",
       "footer": "flex-layout.row#marketplace-copyright"
     }
+  },
+  "header#marketplace": {
+    "blocks": [
+      "header-layout.desktop#marketplace",
+      "header-layout.mobile#marketplace"
+    ]
   },
   "header-layout.desktop#marketplace": {
     "children": [
       "flex-layout.row#mktplace-header"
     ]
+  },
+  "header-layout.mobile#marketplace": {
+    "children": [
+      "flex-layout.row#mktplace-header-mobile"
+    ]
+  },
+  "flex-layout.row#mktplace-header-mobile": {
+    "props": {
+      "paddingTop": 5,
+      "paddingBottom": 5
+    },
+    "children": [
+      "drawer#mktplace"
+    ]
+  },
+  "drawer#mktplace": {
+    "children": [
+      "menu#mktplaceDrawer"
+    ]
+  },
+  "menu#mktplaceDrawer": {
+    "children": [
+      "link#diferencial",
+      "link#como-funciona",
+      "link#beneficios",
+      "link#perguntas-frequentes"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "lpDrawer"
+    }
   },
   "flex-layout.row#mktplace-header": {
     "props": {
@@ -447,6 +484,7 @@
   },
   "flex-layout.row#mktplaceLead": {
     "props": {
+      "fullWidth": true,
       "blockClass": [
         "mktplaceLeadSection"
       ]
