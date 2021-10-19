@@ -22,12 +22,61 @@
   max-width: 90%;
 }
 
-.paragraph--diffDesc {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  margin-right: 5px;
-  margin-left: 5px;
+.wrapper--diffDesc .heading,
+.wrapper--diffDesc .paragraph {
+  margin: 0;
+}
+
+.wrapper--diffDesc .headingLevel2--diffDesc,
+.wrapper--diffDesc .headingLevel3--diffDesc,
+.wrapper--diffDesc .paragraph {
+  color: #fff;
+  text-align: center;
+}
+.wrapper--diffDesc .headingLevel2--diffDesc {
+  font-size: 4.4rem;
+}
+.wrapper--diffDesc .headingLevel3--diffDesc {
+  font-size: 2rem;
+}
+.wrapper--diffDesc .paragraph {
+  font-weight: 500;
+}
+.container--diffDesc {
+  position: relative;
+  z-index: 2;
+}
+.container--diffDesc::after {
+  content: "";
+  width: 130px;
+  height: 130px;
+  background-color: #c54952;
+  border-radius: 100%;
+
+  position: absolute;
+  z-index: -1;
+  right: 0;
+  bottom: 0;
+}
+.container--diffDesc::before {
+  content: "";
+  width: 65px;
+  height: 65px;
+  background-color: #043868;
+  border-radius: 100%;
+
+  position: absolute;
+  z-index: -1;
+  right: 0px;
+  bottom: 85px;
+}
+
+.container--diffDesc {
+  height: inherit;
+}
+.wrapper--diffDesc {
+  height: inherit;
+  flex-grow: 1;
 }
 
 .heading--mktplaceSteps {
@@ -65,11 +114,42 @@
   right: 0;
 }
 
+.headingLevel2--diffDesc::before {
+  content: "";
+  width: 20px;
+  height: 50px;
+  max-height: 50px;
+  background-color: #c54952;
+  display: inline-block;
+  margin-right: 20px;
+}
+.headingLevel2--diffDesc::after {
+  content: "";
+  width: 50px;
+  height: 20px;
+  max-height: 50px;
+  background-color: #c54952;
+  display: inline-block;
+  position: relative;
+  left: -95px;
+  top: -13px;
+}
+
+@media screen and (max-width: 1025px) {
+  .wrapper--diffDesc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
 @media screen and (max-width: 768px) {
   .container--mktplaceTitleFaq {
     justify-content: center;
   }
   .wrapper--mktplaceBenefitsTitle {
     margin: 20px 0;
+  }
+  .container--diffDesc::before {
+    right: 0;
   }
 }

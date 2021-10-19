@@ -4,20 +4,19 @@
       "fullWidth": true,
       "colSizing": "auto",
       "horizontalAlign": "center",
-      "blockClass":[
+      "blockClass": [
         "benefitsItemsContainer"
       ]
     },
     "children": [
       "flex-layout.col#benefitsLeft",
-      "flex-layout.row#benefitsRight"
+      "flex-layout.col#benefitsRight"
     ]
   },
   "flex-layout.col#benefitsLeft": {
     "props": {
       "preventVerticalStretch": true
     },
-
     "children": [
       "flex-layout.row#benefitsLeft-1",
       "flex-layout.row#benefitsLeft-2"
@@ -26,7 +25,10 @@
   "flex-layout.row#benefitsLeft-1": {
     "props": {
       "preventHorizontalStretch": true,
-      "preventVerticalStretch": true
+      "preventVerticalStretch": true,
+      "blockClass": [
+        "benefitsCardContainer"
+      ]
     },
     "children": [
       "flex-layout.col#benefitSac",
@@ -103,7 +105,10 @@
   "flex-layout.row#benefitsLeft-2": {
     "props": {
       "preventHorizontalStretch": true,
-      "preventVerticalStretch": true
+      "preventVerticalStretch": true,
+      "blockClass": [
+        "benefitsCardContainer"
+      ]
     },
     "children": [
       "flex-layout.col#userSpider",
@@ -177,7 +182,7 @@
       "src": "assets/cassol-marketplace/bag.png"
     }
   },
-  "flex-layout.row#benefitsRight": {
+  "flex-layout.col#benefitsRight": {
     "props": {
       "preventHorizontalStretch": true,
       "preventVerticalStretch": true,

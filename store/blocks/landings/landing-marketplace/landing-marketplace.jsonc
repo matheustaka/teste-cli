@@ -35,7 +35,9 @@
       "paddingBottom": 5
     },
     "children": [
-      "drawer#mktplace"
+      "drawer#mktplace",
+      "flex-layout.col#logo"
+
     ]
   },
   "drawer#mktplace": {
@@ -182,7 +184,7 @@
       "headline": "Marketplace Cassol",
       "subhead": "Venha vender na plataperguntas-frequentesa do maior home center do Sul do Brasil.",
       "callToActionText": "QUERO VENDER",
-      "imageUrl": "assets/cassol-marketplace/background-girl.jpg",
+      "imageUrl": "assets/cassol-marketplace/bgMktplace.jpg",
       "blockClass": "mktplaceInfoCard"
     }
   },
@@ -232,7 +234,11 @@
     }
   },
   "flex-layout.row#diferencial-2": {
-    "props": {},
+    "props": {
+      "blockClass": [
+        "differ"
+      ]
+    },
     "children": [
       "rich-text#diferencialLeft",
       "flex-layout.col#diferencialRight"
@@ -258,19 +264,19 @@
   },
   "rich-text#diferencialRight-1": {
     "props": {
-      "text": "<span class='diffDescContainer'><span class='diffIcon'>+</span>2 MILHÕES </span> acessos por mês",
+      "text": "### 2 MILHÕES acessos por mês",
       "blockClass": "diffDesc"
     }
   },
   "rich-text#diferencialRight-2": {
     "props": {
-      "text": " <span data-t class='diffDescContainer'><span class='diffIcon diffTrophy'>+</span>MAIOR CENTERLAR </span> Região Sul do país",
+      "text": "### MAIOR CENTERLAR Região Sul do país",
       "blockClass": "diffDesc"
     }
   },
   "rich-text#diferencialRight-3": {
     "props": {
-      "text": "<span class='diffDescContainer'><span class='diffIcon'>+</span>5 MILHÕES </span> de clientes",
+      "text": "### 5 MILHÕES de clientes",
       "blockClass": "diffDesc"
     }
   },

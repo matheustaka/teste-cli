@@ -25,7 +25,7 @@
   width: 100%;
   height: 30%;
   z-index: -1;
-  top: 30%;
+  top: 40%;
 }
 
 .flexCol--stepsDescContainer {
@@ -126,13 +126,61 @@
   background-repeat: no-repeat;
 }
 
-@media screen and (max-width: 768px) {
-  .customBg::before {
-    content: "";
-    height: 55%;
-    top: 45%;
+.flexCol--diffRight .flexColChild--diffRight {
+  flex-grow: 3;
+}
+
+@media screen and (max-width: 1025px) {
+  .flexRowContent--differ {
+    flex-wrap: wrap;
+  }
+  .flexRowContent--differ .stretchChildrenWidth {
+    width: 100% !important;
   }
 
+  .flexColChild--diffRight {
+    margin: 1.5rem 0;
+  }
+
+  .flexCol--benefitsRight {
+    display: none;
+  }
+  .flexColChild--mktplaceQuestions {
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+  }
+
+  .flexRowContent--benefitsCardContainer,
+  .flexRowContent--benefitsItemsContainer {
+    flex-direction: column;
+  }
+
+  .flexRowContent--benefitsItemsContainer .stretchChildrenWidth {
+    width: 100% !important;
+  }
+  .flexCol--benefitCard {
+    margin: 10px auto;
+  }
+}
+@media screen and (max-width: 625px){
+  .flexRowContent--customBg::before{
+    height: 38%;
+    top: 63%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .flexRowContent--customBg::before{
+    height: 38%;
+    top: 63%;
+  }
+
+  .flexCol--diffRight {
+    flex-direction: column;
+  }
+  .flexColChild--diffRight {
+    width: 100%;
+  }
   .flexRowContent--benefitsRight {
     display: none;
   }
