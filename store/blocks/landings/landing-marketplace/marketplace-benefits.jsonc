@@ -184,8 +184,8 @@
   },
   "flex-layout.col#benefitsRight": {
     "props": {
-      "preventHorizontalStretch": true,
-      "preventVerticalStretch": true,
+      "preventHorizontalStretch":true,
+      "preventVerticalStretch":true,
       "blockClass": [
         "benefitsRight"
       ]
@@ -196,7 +196,9 @@
   },
   "image#starMan": {
     "props": {
-      "src": "assets/cassol-marketplace/starMan.png"
+      "src": "assets/cassol-marketplace/starMan.png",
+      "maxWidth": 600,
+      "maxHeight": 450
     }
   }
 }

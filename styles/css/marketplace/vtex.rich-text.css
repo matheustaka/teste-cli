@@ -134,12 +134,34 @@
   left: -95px;
   top: -13px;
 }
+.wrapper--trophy::before {
+  content: url(assets/cassol-marketplace/trofeu.png);
+  display: block;
+  max-width: 100px;
+  position: relative;
+  left: 70%;
+}
 
+.wrapper--mktplaceBenefitsTitle {
+  padding: 2rem 0;
+}
 @media screen and (max-width: 1025px) {
   .wrapper--diffDesc {
     display: flex;
     flex-direction: column;
     justify-content: center;
+  }
+
+  .wrapper--trophy::before {
+    position: relative;
+    left: 65%;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .heading--mktplaceBenefitsTitle::before,
+  .heading--mktplaceBenefitsTitle::after {
+    width: 20%;
   }
 }
 @media screen and (max-width: 768px) {
@@ -151,5 +173,16 @@
   }
   .container--diffDesc::before {
     right: 0;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .paragraph--mktplaceFaqAnswer {
+    font-size: 13px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .paragraph--mktplaceFaqAnswer {
+    font-size: 14px;
   }
 }

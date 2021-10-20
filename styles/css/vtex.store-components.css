@@ -719,6 +719,10 @@
 .imageElement--mktplaceFaqImage {
   min-width: 200px;
 }
+
+.infoCardCallActionContainer--mktplaceInfoCard :global(.vtex-button__label) {
+  font-weight: 900;
+}
 @media (max-width: 359px) {
   .infoCardHeadline--info-card-share {
     font-size: 13px;
@@ -738,5 +742,9 @@
 @media (max-width: 768px) {
   .imageElement--mktplaceFaqImage {
     display: none;
+  }
+
+  .infoCardTextContainer--mktplaceInfoCard {
+    padding: 0 1rem;
   }
 }

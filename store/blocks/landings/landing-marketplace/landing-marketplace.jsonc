@@ -26,21 +26,56 @@
   },
   "header-layout.mobile#marketplace": {
     "children": [
+      "sticky-layout#mktplaceHeader"
+    ]
+  },
+  "sticky-layout#mktplaceHeader": {
+    "children": [
       "flex-layout.row#mktplace-header-mobile"
     ]
   },
   "flex-layout.row#mktplace-header-mobile": {
     "props": {
       "paddingTop": 5,
-      "paddingBottom": 5
+      "paddingBottom": 5,
+      "preventHorizontalStretch": true,
+      "blockClass": [
+        "headerMobile"
+      ]
     },
     "children": [
-      "drawer#mktplace",
-      "flex-layout.col#logo"
-
+      "flex-layout.col#mktplaceLogoMobile",
+      "flex-layout.col#mktplaceMenuMobile"
+    ]
+  },
+  "flex-layout.col#mktplaceMenuMobile": {
+    "children": [
+      "drawer#mktplace"
+    ]
+  },
+  "flex-layout.col#mktplaceLogoMobile": {
+    "props": {
+      "blockClass": [
+        "mktplaceLogo"
+      ]
+    },
+    "children": [
+      "logo#marketplace"
     ]
   },
   "drawer#mktplace": {
+    "props": {
+      "blockClass": ["menuMktplace"]
+    },
+    "children": [
+      "flex-layout.row#mktplaceMenuMobile"
+    ]
+  },
+
+  "flex-layout.row#mktplaceMenuMobile": {
+    "props": {
+      "blockClass": ["menuMktplaceContainer"]
+    },
     "children": [
       "menu#mktplaceDrawer"
     ]
@@ -50,7 +85,8 @@
       "link#diferencial",
       "link#como-funciona",
       "link#beneficios",
-      "link#perguntas-frequentes"
+      "link#perguntas-frequentes",
+      "link#formulario"
     ],
     "props": {
       "orientation": "vertical",
@@ -60,7 +96,10 @@
   "flex-layout.row#mktplace-header": {
     "props": {
       "paddingTop": 5,
-      "paddingBottom": 5
+      "paddingBottom": 5,
+      "blockClass": [
+        "mktplaceHeaderDesk"
+      ]
     },
     "children": [
       "flex-layout.col#mktplace-logo",
@@ -69,14 +108,23 @@
   },
   "flex-layout.col#mktplace-logo": {
     "props": {
-      "verticalAlignment": "middle"
+      "width": "25%",
+      "marginRight": 5,
+      "marginLeft": 5,
+      "verticalAlign": "middle"
     },
     "children": [
-      "logo#desktop"
+      "logo#marketplace"
     ]
+  },
+  "logo#marketplace": {
+    "props": {
+      "url": "assets/cassol-marketplace/cassolMktplaceLogo.png"
+    }
   },
   "flex-layout.col#menu-marketplace": {
     "props": {
+      "width": "grow",
       "blockClass": [
         "marketplace-menu"
       ]
@@ -96,7 +144,8 @@
       "link#diferencial",
       "link#como-funciona",
       "link#beneficios",
-      "link#perguntas-frequentes"
+      "link#perguntas-frequentes",
+      "link#formulario"
     ]
   },
   "link#diferencial": {
@@ -110,7 +159,7 @@
   },
   "link#como-funciona": {
     "props": {
-      "label": "Processo",
+      "label": "COMO FUNCIONA",
       "href": "#comoFunciona",
       "blockClass": [
         "mktplace-menu-link"
@@ -128,8 +177,17 @@
   },
   "link#perguntas-frequentes": {
     "props": {
-      "label": "Formulário",
+      "label": "PERGUNTAS FREQUENTES",
       "href": "#perguntas-frequentes",
+      "blockClass": [
+        "mktplace-menu-link"
+      ]
+    }
+  },
+  "link#formulario": {
+    "props": {
+      "label": "CADASTRO",
+      "href": "#formulario",
       "blockClass": [
         "mktplace-menu-link"
       ]
@@ -138,7 +196,6 @@
   "flex-layout.row#marketplace-socialNetworks": {
     "props": {
       "colSizing": "auto",
-      "horizontalAlign": "right",
       "blockClass": [
         "marketplace-social"
       ]
@@ -146,24 +203,24 @@
     "children": [
       "rich-text#social-networks-facebook-marketplace",
       "rich-text#social-networks-instagram-marketplace",
-      "rich-text#social-networks-youtube-marketplace"
+      "rich-text#social-networks-linkedin-marketplace"
     ]
   },
   "rich-text#social-networks-facebook-marketplace": {
     "props": {
-      "text": "<a href='https://pt-br.facebook.com/CassolCenterlar' target='_blank'><img class='vtex-rich-text-0-x-image--social-networks--youtube' src='https://cassol.vtexassets.com/arquivos/social-networks--facebook.png'></a>",
+      "text": "<a href='https://pt-br.facebook.com/CassolCenterlar'   target='_blank'><img class='mktplaceSocial' src='https://cassol.vtexassets.com/arquivos/ig.png'></a>",
       "blockClass": "social-networks--facebook"
     }
   },
   "rich-text#social-networks-instagram-marketplace": {
     "props": {
-      "text": "<a href='https://www.instagram.com/cassolcenterlar/' target='_blank'><img class='vtex-rich-text-0-x-image--social-networks--youtube' src='https://cassol.vtexassets.com/arquivos/social-networks--instagram.png'></a>",
+      "text": "<a href='https://www.instagram.com/cassolcenterlar/'  target='_blank'><img class='mktplaceSocial' src='https://cassol.vtexassets.com/arquivos/fb.png'></a>",
       "blockClass": "social-networks--instagram"
     }
   },
-  "rich-text#social-networks-youtube-marketplace": {
+  "rich-text#social-networks-linkedin-marketplace": {
     "props": {
-      "text": "<a href='https://www.youtube.com/user/CassolCenterlar' target='_blank'><img class='vtex-rich-text-0-x-image--social-networks--youtube' src='https://cassol.vtexassets.com/arquivos/social-networks--youtube.png'></a>",
+      "text": "<a href='https://www.linkedin.com/company/cassol-centerlar/'  target='_blank'><img class='mktplaceSocial' src='https://cassol.vtexassets.com/arquivos/linkedin.png'></a>",
       "blockClass": "social-networks--youtube"
     }
   },
@@ -182,7 +239,7 @@
     "props": {
       "isFullModeStyle": true,
       "headline": "Marketplace Cassol",
-      "subhead": "Venha vender na plataperguntas-frequentesa do maior home center do Sul do Brasil.",
+      "subhead": "Venha vender na plataforma do maior home center do Sul do Brasil.",
       "callToActionText": "QUERO VENDER",
       "imageUrl": "assets/cassol-marketplace/bgMktplace.jpg",
       "blockClass": "mktplaceInfoCard"
@@ -271,7 +328,10 @@
   "rich-text#diferencialRight-2": {
     "props": {
       "text": "### MAIOR CENTERLAR Região Sul do país",
-      "blockClass": "diffDesc"
+      "blockClass": [
+        "diffDesc",
+        "trophy"
+      ]
     }
   },
   "rich-text#diferencialRight-3": {
@@ -449,7 +509,7 @@
     "children": [
       "rich-text#social-networks-facebook-marketplace",
       "rich-text#social-networks-instagram-marketplace",
-      "rich-text#social-networks-youtube-marketplace"
+      "rich-text#social-networks-linkedin-marketplace"
     ]
   },
   "rich-text#footer-facebook-marketplace": {
@@ -471,22 +531,7 @@
     }
   },
   "flex-layout.row#marketplace-copyright": {
-    "props": {
-      "paddingBottom": 7,
-      "paddingTop": 7,
-      "preventHorizontalStretch": true,
-      "horizontalAlign": "center",
-      "blockClass": "marketplace-copyright"
-    },
-    "children": [
-      "rich-text#marketplace-copyright"
-    ]
-  },
-  "rich-text#marketplace-copyright": {
-    "props": {
-      "text": "@ Todos os direitos reservados à Cassol 2021",
-      "blockClass": "marketplace-copyright"
-    }
+    "props": {}
   },
   "flex-layout.row#mktplaceLead": {
     "props": {
@@ -508,6 +553,7 @@
   },
   "rich-text#mktplaceLeadTitle": {
     "props": {
+      "htmlId": "formulario",
       "text": "## FAÇA SEU CADASTRO!",
       "textPosition": "CENTER",
       "textAlignment": "CENTER",

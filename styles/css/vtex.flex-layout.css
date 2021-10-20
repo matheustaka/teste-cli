@@ -1200,14 +1200,6 @@
 .flexRow--menuWrapper {
   width: 100%;
 }
-.flexRow--marketplace-social {
-  display: flex;
-  width: 100%;
-  justify-content: flex-end;
-}
-.flexRowContent--marketplace-social {
-  width: 125px;
-}
 .flexColChild--marketplace-menu {
   display: flex;
   align-items: center;

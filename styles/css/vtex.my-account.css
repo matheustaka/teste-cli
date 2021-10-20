@@ -48,6 +48,9 @@
   height: 50%;
 }
 
+:global(img.mktplaceSocial){
+  max-height: 45px;
+}
 @media screen and (max-width: 720) {
   .userInfo {
     justify-content: center;

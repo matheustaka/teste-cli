@@ -77,7 +77,7 @@
   "link#form": {
     "props": {
       "label": "Formulário",
-      "href": "#form",
+      "href": "#formulario",
       "blockClass": [
         "mktplace-menu-link"
       ]

@@ -30,43 +30,43 @@ const LeadFormMarketplace = _ => {
     <div className="marketplace-form-center">
       <form className="form-content" className={`form-content ${disabled == "disabled" && "disabled"}`} onSubmit={handleSubmit(enviarContato)}>
         <div className="form-content-input">
-          <label>Nome</label>
+          <label htmlFor='name'>Nome</label>
           <input type="text" onChange={handleChange} id="name" name="name" required="required" placeholder="Nome" />
         </div>
         <div className="form-content-input">
-          <label>Nome Fantasia</label>
-          <input type="text" onChange={handleChange} id="fantasy-name" name="fantasy-name" required="required" placeholder="Nome Fantasia" />
-          <label>Razão:</label>
-          <input type="text" onChange={handleChange} id="fantasy-name" name="fantasy-name" required="required" placeholder="Razão Social" />
+          <label htmlFor='fantasy-name'>Nome Fantasia</label>
+          <input type="text" onChange={handleChange} id="fantasy-name" name="fantasy-name" placeholder="Nome Fantasia" />
+          <label htmlFor='company-name'>Razão Social</label>
+          <input  type="text" onChange={handleChange} id="company-name" name="company-name" placeholder="Razão Social" />
         </div>
 
         <div className="form-content-input">
-          <label>CNPJ</label>
+          <label htmlFor='cnpj'>CNPJ</label>
           <input type="text" onChange={handleChange} id="cnpj" name="cnpj" required="required" placeholder="CNPJ" />
 
-          <label>Telefone</label>
-          <input type="text" onChange={handleChange} id="telefone" name="telefone" required="required" placeholder="Telefone" />
+          <label htmlFor='phone'>Telefone</label>
+          <input type="text" onChange={handleChange} id="phone" name="phone" required="required" placeholder="Telefone" />
         </div>
 
 
         <div className="form-content-input">
-          <label>CEP</label>
+          <label htmlFor='cep'>CEP</label>
           <input type="text" onChange={handleChange} id="cep" name="cep" required="required" placeholder="cep" />
 
-          <label>Endereço</label>
+          <label htmlFor='address'>Endereço</label>
           <input type="text" onChange={handleChange} id="address" name="address" required="required" placeholder="Endereço" />
         </div>
 
         <div className="form-content-input">
-          <label>Complemento</label>
+          <label htmlFor='complement'>Complemento</label>
           <input type="text" onChange={handleChange} id="complement" name="complement" required="required" placeholder="Complemento" />
-          <label>Cidade</label>
-          <input type="text" onChange={handleChange} id="cidade" name="cidade" required="required" placeholder="Cidade" />
+          <label htmlFor='city'>Cidade</label>
+          <input type="text" onChange={handleChange} id="city" name="city" required="required" placeholder="Cidade" />
         </div>
 
 
         <div className="form-content-input">
-          <label>E-mail</label>
+          <label htmlFor='email'>E-mail</label>
           <input type="email" onChange={handleChange} id="email" name="email" required="required" placeholder="E-mail" />
         </div>
 

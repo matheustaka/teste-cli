@@ -6,7 +6,7 @@
   padding: 13px;
 }
 
-.trigger--faqQuestion{
+.trigger--faqQuestion {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -16,4 +16,10 @@
   margin: 0;
   line-height: 18px;
   color: #595959;
+}
+
+@media screen and (max-width: 768px) {
+  .trigger--faqQuestion :global(.vtex-rich-text-0-x-paragraph) {
+    font-size: 14px;
+  }
 }
