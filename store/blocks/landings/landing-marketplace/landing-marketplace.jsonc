@@ -227,10 +227,10 @@
   //   ! HEADER !
   "flex-layout.row#marketplace-hero": {
     "children": [
-      "image#markteplace-banner"
+      "image#marketplace-banner"
     ]
   },
-  "image#markteplace-banner": {
+  "image#marketplace-banner": {
     "props": {
       "src": "assets/cassol-marketplace/banner-home.jpg"
     }

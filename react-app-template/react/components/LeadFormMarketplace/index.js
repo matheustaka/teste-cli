@@ -7,8 +7,8 @@ import ModalSubmitted from './ModalSubmitted';
 const LeadFormMarketplace = _ => {
   const [{ values, loading }, handleChange, handleSubmit] = useForm(),
     [disabled, setDisabled] = useState(""),
-    [dialog, setDialog] = useState(false);
-
+    [dialog, setDialog] = useState(false),
+    [submitted, setSubmitted] = useState(false);
   const enviarContato = () => {
     fetch("/api/dataentities/MP/documents", {
       "method": "POST",
@@ -26,7 +26,6 @@ const LeadFormMarketplace = _ => {
         console.error(err);
       });
 
-    console.log(values);
   };
 
   return (
