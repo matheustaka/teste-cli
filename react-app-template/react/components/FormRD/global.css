@@ -21,7 +21,7 @@ h3.successForm {
   margin: 0;
   font-size: 16px;
 }
-h3.sucessForm {
+.sucessForm {
   text-align: center;
   margin: 1em 0;
   width: 100%;
@@ -39,6 +39,24 @@ h3.sucessForm {
 input#email {
   flex-grow: 1;
   margin: 0 10px;
+}
+
+input[type='submit']:hover {
+  cursor: pointer;
+}
+
+
+@media screen and (max-width:768px) {
+  .mainForm{
+    flex-direction: column
+  }
+
+  input#email {
+    width: 100%;
+  }
+  input[type='submit'] {
+    width: 100%;
+  }
 }
 @media screen and (max-width: 1025px) {
   .form-content.hidden {
@@ -100,10 +118,20 @@ input#email {
   .mainForm {
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
   }
 
   .mainForm input {
     margin: 8px 0px;
+  }
+
+  .successForm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 100%;
+    text-align: center;
   }
 }
 @media screen and (min-width: 1025px) {
@@ -120,5 +148,18 @@ input#email {
     display: flex;
     max-width: 1250px;
     margin: 0 auto;
+  }
+
+  .successForm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .mainForm {
+    margin: 0 3%;
   }
 }

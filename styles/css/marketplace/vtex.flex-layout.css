@@ -258,6 +258,13 @@
     align-items: center;
   }
 }
+
+@media (min-width: 754px) and (max-width: 960px) {
+  .flexRowContent--customBg::before {
+    height: 100%;
+    top: 0%;
+  }
+}
 @media screen and (max-width: 640px) {
   .flexRowContent--customBg::before {
     height: 54%;

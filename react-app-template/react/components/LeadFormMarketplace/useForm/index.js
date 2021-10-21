@@ -10,10 +10,10 @@ const useForm = callback => {
     },
     handleSubmit = callback => event => {
       event.preventDefault();
-      setLoading(true); 
+      setLoading(true);
       callback();
       setLoading(false);
-      
+
     };
 
   return [{ values, loading }, handleChange, handleSubmit];

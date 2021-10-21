@@ -248,7 +248,7 @@ const FormRD = () => {
 
 
 
-        { <CloseButton onClick={setToggle}> {toggle ? '' : ''}   </CloseButton> }
+        <CloseButton onClick={() => { document.querySelector('.vtex-flex-layout-0-x-flexRow--newsletterRow').style.display = 'none' }}> </CloseButton>
 
       </Div>
     </>

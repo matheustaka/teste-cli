@@ -122,6 +122,85 @@ form.form-content.false {
   max-width: 80rem;
 }
 
+.modalSubmittedContainer {
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+
+  height: 100vh;
+  width: 100vh;
+
+  background-color: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(5px);
+}
+
+.cardTitle {
+  display: flex;
+  align-items: center;
+}
+.cardTitle h1 {
+  color: #003e5e;
+  font-size: 2rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+.cardTitle img {
+  max-width: 250px;
+}
+.modalSubmittedContent {
+  position: absolute;
+  top: 20%;
+  padding: 1.5rem;
+
+  width: inherit;
+  height: inherit;
+}
+
+.modalSubmittedCard {
+  background-color: #f8faff;
+  position: relative;
+  border-radius: 13px;
+  padding: 1rem;
+  max-width: 700px;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.modalSubmittedClose:hover {
+  cursor: pointer;
+}
+.modalSubmittedClose {
+  position: absolute;
+  padding: 0.5rem;
+  top: 35px;
+  right: 35px;
+  font-size: 2rem;
+  font-weight: 500;
+  color: #595959;
+}
+
+.modalSubmittedContainer.hidden {
+  display: none;
+  visibility: hidden;
+}
+
+.cardMessage {
+  text-align: center;
+  color: #595959;
+}
+
+
+@media screen and (max-width: 640px) {
+  .cardTitle {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+
+}
 @media screen and (max-width: 768px) {
   .marketplace-form-title {
     margin-top: 20px;

@@ -132,6 +132,10 @@
 }
 
 .backToTopButtonActive {
+  z-index: 998;
+}
+
+.backToTopButtonActive {
   bottom: 10%;
 }
 .backToTopButtonContainer :global(.vtex-button) :global(.vtex-button__label) {
