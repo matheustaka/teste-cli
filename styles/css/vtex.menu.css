@@ -634,6 +634,11 @@
     top: 3px;
   }
 }
+@media (min-width: 1025px) and (max-width: 1200px) {
+  .styledLinkContainer--department {
+    margin: 0 5px;
+  }
+}
 
 /* Trainee */
 .styledLinkContent--traineeHeaderLink {
