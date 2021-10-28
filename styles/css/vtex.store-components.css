@@ -727,6 +727,12 @@
 .infoCardCallActionContainer--mktplaceInfoCard :global(.vtex-button__label) {
   font-weight: 900;
 }
+
+@media (min-width: 1025px) and (max-width:1260px) {
+  .logoImage {
+    margin-left: 10px;
+  }
+}
 @media (max-width: 359px) {
   .infoCardHeadline--info-card-share {
     font-size: 13px;

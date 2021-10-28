@@ -638,6 +638,10 @@
   .styledLinkContainer--department {
     margin: 0 5px;
   }
+
+  .styledLinkContainer--first-department.styledLinkContainer--department {
+    margin-left: 5px !important;
+  }
 }
 
 /* Trainee */
