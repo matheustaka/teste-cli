@@ -384,7 +384,7 @@
       "product-summary.shelf#CrossSelling"
     ],
     "props": {
-      "recommendation": "suggestions",
+      "recommendation": "similars",
       "blockClass": "ShelfQuemViuViuTambem",
       "productList": {
         "titleText": "Você pode gostar de",
