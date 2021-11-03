@@ -643,7 +643,15 @@
   max-width: 1250px;
   margin: 0 auto;
 }
+.flexRow--atendimentoSection{
+  position: fixed;
+  z-index: 9;
+  bottom: 0;
+}
 
+.flexRowContent--whatsNumbersContent {
+  flex-direction: row;
+}
 @media (max-width: 767.98px) {
   .flexRow--productContainer,
   .flexRow--productBreadcrumb,

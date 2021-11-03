@@ -2,7 +2,7 @@
   "flex-layout.row#mktplaceFaq": {
     "props": {
       "fullWidth": true,
-      "blockClass":["mktplaceFaqSection"]
+      "blockClass":["mktplaceFaqSection", "mktplaceSection"]
     },
     "children": [
       "flex-layout.col#faqContainer"
