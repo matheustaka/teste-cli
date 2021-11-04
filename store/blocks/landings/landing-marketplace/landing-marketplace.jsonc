@@ -65,16 +65,19 @@
   },
   "drawer#mktplace": {
     "props": {
-      "blockClass": ["menuMktplace"]
+      "blockClass": [
+        "menuMktplace"
+      ]
     },
     "children": [
       "flex-layout.row#mktplaceMenuMobile"
     ]
   },
-
   "flex-layout.row#mktplaceMenuMobile": {
     "props": {
-      "blockClass": ["menuMktplaceContainer"]
+      "blockClass": [
+        "menuMktplaceContainer"
+      ]
     },
     "children": [
       "menu#mktplaceDrawer"
@@ -321,13 +324,13 @@
   },
   "rich-text#diferencialRight-1": {
     "props": {
-      "text": "### 2 MILHÕES acessos por mês",
+      "text": "## 2\n ### MILHÕES\nacessos por mês",
       "blockClass": "diffDesc"
     }
   },
   "rich-text#diferencialRight-2": {
     "props": {
-      "text": "### MAIOR CENTERLAR Região Sul do país",
+      "text": "### MAIOR <a href='#' target='_blank'><img class='vtex-rich-text-0-x-image--trophy' src='https://cassol.vteximg.com.br/arquivos/trofeu.png'></a> \n ### CENTERLAR \n Região Sul do país",
       "blockClass": [
         "diffDesc",
         "trophy"
@@ -336,7 +339,7 @@
   },
   "rich-text#diferencialRight-3": {
     "props": {
-      "text": "### 5 MILHÕES de clientes",
+      "text": "## 5\n ### MILHÕES\n de clientes",
       "blockClass": "diffDesc"
     }
   },

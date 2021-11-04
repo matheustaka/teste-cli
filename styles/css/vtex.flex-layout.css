@@ -650,7 +650,7 @@
 }
 
 .flexRowContent--whatsNumbersContent {
-  flex-direction: row;
+  flex-direction: column;
 }
 @media (max-width: 767.98px) {
   .flexRow--productContainer,

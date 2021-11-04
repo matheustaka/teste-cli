@@ -12,6 +12,7 @@
       "rich-text#shelf-01",
       "flex-layout.row#shelf-01",
       "__fold__.mobile",
+      "flex-layout.row#whatsContainer",
       "__fold__.desktop",
       "sticky-layout#sticky-newsletter",
       // Banners

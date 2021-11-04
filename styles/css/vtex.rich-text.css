@@ -924,6 +924,17 @@
   border-radius: 5px;
   padding: 5px;
 }
+
+.paragraph--linkW {
+  display: flex;
+  align-items: center;
+  color: #212121;
+  text-decoration: none;
+}
+
+.container--linkContainer {
+  justify-content: center;
+}
 @media (max-width: 400px) {
   .wrapper--shelfTitle .heading--shelfTitle,
   .heading--richTextContainer {
