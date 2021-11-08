@@ -191,15 +191,19 @@ form.form-content.false {
   text-align: center;
   color: #595959;
 }
+.form-content-input {
+  margin: 0.8rem;
+}
 
+div#form {
+  max-width: 1240px;
+}
 
 @media screen and (max-width: 640px) {
   .cardTitle {
     flex-wrap: wrap;
     justify-content: center;
   }
-
-
 }
 @media screen and (max-width: 768px) {
   .marketplace-form-title {
