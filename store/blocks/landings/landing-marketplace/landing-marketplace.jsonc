@@ -272,6 +272,11 @@
     ]
   },
   "flex-layout.col#diferencialContainer": {
+    "props": {
+      "blockClass": [
+        "diferencialContainer"
+      ]
+    },
     "children": [
       "flex-layout.row#diferencial-1",
       "flex-layout.row#diferencial-2"
@@ -324,7 +329,7 @@
   },
   "rich-text#diferencialRight-1": {
     "props": {
-      "text": "## 2\n ### MILHÕES\nacessos por mês",
+      "text": "## <span class='vtex-rich-text-0-x-image--icon'>+</span> 2\n ### MILHÕES\nacessos por mês",
       "blockClass": "diffDesc"
     }
   },
@@ -339,7 +344,7 @@
   },
   "rich-text#diferencialRight-3": {
     "props": {
-      "text": "## 5\n ### MILHÕES\n de clientes",
+      "text": "## <span class='vtex-rich-text-0-x-image--icon'>+</span> 5\n ### MILHÕES\n de clientes",
       "blockClass": "diffDesc"
     }
   },
@@ -551,6 +556,7 @@
   "flex-layout.col#mktplaceLead": {
     "children": [
       "rich-text#mktplaceLeadTitle",
+      "rich-text#mktplaceLeadDesc",
       // FORM SECTION
       "flex-layout.row#leadForm"
     ]
@@ -563,6 +569,17 @@
       "textAlignment": "CENTER",
       "blockClass": [
         "leadTitle"
+      ]
+    }
+  },
+  "rich-text#mktplaceLeadDesc": {
+    "props": {
+      "htmlId": "formulario",
+      "text": "Preencha todos os dados e enviaremos todos os detalhes para fazer parte do **Marketplace Cassol**",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "blockClass": [
+        "leadDesc"
       ]
     }
   },

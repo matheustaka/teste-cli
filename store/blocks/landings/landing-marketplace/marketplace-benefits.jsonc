@@ -2,8 +2,8 @@
   "flex-layout.row#mktplaceBenefits-3": {
     "props": {
       "fullWidth": true,
-      "colSizing": "auto",
       "horizontalAlign": "center",
+      "colSizing": "auto",
       "blockClass": [
         "benefitsItemsContainer"
       ]
@@ -15,7 +15,8 @@
   },
   "flex-layout.col#benefitsLeft": {
     "props": {
-      "preventVerticalStretch": true
+      "preventVerticalStretch": true,
+      "blockClass":["benefitsContent"]
     },
     "children": [
       "flex-layout.row#benefitsLeft-1",
@@ -184,8 +185,8 @@
   },
   "flex-layout.col#benefitsRight": {
     "props": {
-      "preventHorizontalStretch":true,
-      "preventVerticalStretch":true,
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
       "blockClass": [
         "benefitsRight"
       ]
@@ -196,9 +197,9 @@
   },
   "image#starMan": {
     "props": {
-      "src": "assets/cassol-marketplace/starMan.png",
-      "maxWidth": 600,
-      "maxHeight": 450
+      "src": "assets/cassol-marketplace/benefitsImage.png",
+      "maxWidth": 296,
+      "maxHeight": 430
     }
   }
 }
