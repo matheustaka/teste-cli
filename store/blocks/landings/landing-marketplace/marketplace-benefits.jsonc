@@ -3,7 +3,6 @@
     "props": {
       "fullWidth": true,
       "horizontalAlign": "center",
-      "colSizing": "auto",
       "blockClass": [
         "benefitsItemsContainer"
       ]
@@ -15,6 +14,7 @@
   },
   "flex-layout.col#benefitsLeft": {
     "props": {
+      "width":"75%",
       "preventVerticalStretch": true,
       "blockClass":["benefitsContent"]
     },
@@ -25,8 +25,6 @@
   },
   "flex-layout.row#benefitsLeft-1": {
     "props": {
-      "preventHorizontalStretch": true,
-      "preventVerticalStretch": true,
       "blockClass": [
         "benefitsCardContainer"
       ]
@@ -105,8 +103,6 @@
   },
   "flex-layout.row#benefitsLeft-2": {
     "props": {
-      "preventHorizontalStretch": true,
-      "preventVerticalStretch": true,
       "blockClass": [
         "benefitsCardContainer"
       ]

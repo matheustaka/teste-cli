@@ -21,12 +21,14 @@
   },
   "rich-text#example": {
     "props": {
-      "text": "<a class='vtex-rich-text-0-x-link--atendimento' href='#' target='_blank'><img class='vtex-rich-text-0-x-image--atendimento' src='https://cassol.vtexassets.com/arquivos/whatsapp.png'>Seja atendido</a>",
+      "text": "<a class='vtex-rich-text-0-x-link--atendimento' href='#' target='_blank'><img class='vtex-rich-text-0-x-image--atendimento' src='https://cassol.vtexassets.com/arquivos/icon-whatsapp.png'></a>",
       "blockClass": "atendimento"
     }
   },
   "modal-layout#whats-links": {
     "props": {
+      "scroll": "content",
+      "fullScreen": false,
       "blockClass": ["modalTriggerWhats"]
     },
     "children": [

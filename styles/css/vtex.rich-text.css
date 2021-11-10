@@ -928,7 +928,8 @@
 .paragraph--linkW {
   display: flex;
   align-items: center;
-  color: #212121;
+  color: #184077;
+  font-weight: bold;
   text-decoration: none;
 }
 

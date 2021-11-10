@@ -643,10 +643,10 @@
   max-width: 1250px;
   margin: 0 auto;
 }
-.flexRow--atendimentoSection{
+.flexRow--atendimentoSection {
   position: fixed;
   z-index: 9;
-  bottom: 0;
+  top: 50%;
 }
 
 .flexRowContent--whatsNumbersContent {

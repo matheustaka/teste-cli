@@ -175,6 +175,10 @@
   .container--diffDesc::before {
     right: 0;
   }
+
+  .wrapper--diffDesc .heading--diffDesc {
+    font-size: 1.2rem !important;
+  }
 }
 
 @media screen and (max-width: 1280px) {

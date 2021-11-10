@@ -262,6 +262,7 @@
   "flex-layout.row#diferencial": {
     "props": {
       "fullWidth": true,
+      "verticalAlign": "middle",
       "blockClass": [
         "diffSection",
         "mktplaceSection"
@@ -283,6 +284,9 @@
     ]
   },
   "flex-layout.row#diferencial-1": {
+    "props": {
+      "blockClass": ["diffCta"]
+    },
     "children": [
       "rich-text#diferencialTitle"
     ]
@@ -545,8 +549,7 @@
     "props": {
       "fullWidth": true,
       "blockClass": [
-        "mktplaceLeadSection",
-        "mktplaceSection"
+        "mktplaceLeadSection"
       ]
     },
     "children": [

@@ -30,15 +30,12 @@
   max-width: 300px;
 }
 .flexRow--mktplaceSection {
-  padding: 2.5rem 0;
+  padding: 2rem 0;
 }
 .flexRow--diffSection {
   background-color: #91272f;
 }
 
-.flexCol--diferencialContainer {
-  height: 415px;
-}
 .flexCol--diffRight {
   flex-direction: row;
 }
@@ -136,6 +133,7 @@
 .flexColChild--benefitsRight :global(.vtex-store-components-3-x-imageElement) {
   position: relative;
   bottom: -50px;
+  height: 400px;
 }
 .flexCol--benefitCard {
   box-shadow: 0px 3.31646px 3.31646px rgba(0, 0, 0, 0.15);
@@ -253,6 +251,9 @@
 .flexRowContent--benefitsCardContainer {
   padding: 0 1rem;
 }
+.flexRowContent--benefitsCardContainer{
+  justify-content: space-between;
+}
 @media screen and (min-width: 1025px) {
   .flexRowContent--customBg::before {
     height: 50%;
@@ -262,10 +263,28 @@
   .flexRowContent--benefitsCardContainer {
     margin: 0 1rem;
   }
+  .flexRow--mktplaceSection {
+    height: 600px;
+  }
+
+  .flexRowContent--mktplaceSection {
+    height: 100%;
+  }
+
+  .flexRow--diffCta {
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
 }
 @media screen and (max-width: 1025px) {
   .flexRow--questionContainer {
     width: 100%;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .flexColChild--diffRight {
+    margin: 0 ;
   }
 }
 @media screen and (min-width: 625px) {
@@ -282,10 +301,17 @@
   .flexRowContent--customBg::before {
     height: 100%;
     top: 0%;
+
+  }
+  .flexCol--diffRight {
+    margin: 2rem 0;
   }
 
+  .flexCol--diferencialContainer {
+    max-height: 650px;
+  }
   .flexCol--diffRight {
-    flex-direction: column;
+    flex-direction: row;
   }
   .flexColChild--diffRight {
     width: 100%;
