@@ -919,8 +919,6 @@
   color: #2a2a2a;
   display: flex;
   align-items: center;
-  border: solid 1px #f4f4f4f4;
-  background-color: #fff;
   border-radius: 5px;
   padding: 5px;
 }

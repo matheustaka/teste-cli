@@ -646,7 +646,14 @@
 .flexRow--atendimentoSection {
   position: fixed;
   z-index: 9;
-  top: 50%;
+  top: 48%;
+  animation: upAndDown 3s ease-in-out 1s infinite alternate;
+}
+
+@keyframes upAndDown {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
 }
 
 .flexRowContent--whatsNumbersContent {
