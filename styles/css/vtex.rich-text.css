@@ -195,6 +195,11 @@
   .paragraph--btn-see-all {
     margin-right: 0;
   }
+
+  .wrapper--aboutContent .paragraph--endereco {
+    max-width: 60%;
+    margin: 5px auto;
+  }
 }
 
 .strong--contactInfoContent {
@@ -426,7 +431,6 @@
   line-height: 25px;
 }
 
-
 .heading--newsTitle {
   color: #fff;
   margin: 0;
@@ -440,7 +444,8 @@
   font-weight: 600;
   font-size: 1rem;
 }
-.headingLevel2--seo-subtitulo, .heading--seo-subtitulo {
+.headingLevel2--seo-subtitulo,
+.heading--seo-subtitulo {
   font-weight: 600;
   font-size: 14px;
   line-height: 20px;
@@ -626,7 +631,8 @@
   .wrapper--shelfTitle::after {
     width: 85%;
   }
-  .container--shelfTitle, .heading--richTextContainer {
+  .container--shelfTitle,
+  .heading--richTextContainer {
     padding: 0 20px;
   }
 
@@ -830,12 +836,20 @@
   font-size: 24px;
 }
 
-.heading--marketplace-advantages-title, .paragraph--marketplace-advantages-desc, .heading--marketplace-process-title, .paragraph--numbers-desc, .paragraph--marketplace-advantage-desc, .paragraph--footer-marketplace{
+.heading--marketplace-advantages-title,
+.paragraph--marketplace-advantages-desc,
+.heading--marketplace-process-title,
+.paragraph--numbers-desc,
+.paragraph--marketplace-advantage-desc,
+.paragraph--footer-marketplace {
   color: #fff;
 }
 
-
-.paragraph--marketplace-advantages-desc, .heading--marketplace-advantages-title, .paragraph--marketplace-advantage-desc, .heading--marketplace-process-desc, .paragraph--footer-marketplace{
+.paragraph--marketplace-advantages-desc,
+.heading--marketplace-advantages-title,
+.paragraph--marketplace-advantage-desc,
+.heading--marketplace-process-desc,
+.paragraph--footer-marketplace {
   text-align: center;
 }
 
@@ -843,14 +857,18 @@
   font-size: 1.25rem;
 }
 
-.container--marketplace-process-desc, .container--marketplace-process-icon, .container--marketplace-process-title {
+.container--marketplace-process-desc,
+.container--marketplace-process-icon,
+.container--marketplace-process-title {
   justify-content: center;
 }
 .paragraph--marketplace-process-icon {
   max-width: 100px;
 }
 
-.paragraph--marketplace-advantages-desc, .paragraph--marketplace-advantage-desc, .heading--marketplace-process-desc{
+.paragraph--marketplace-advantages-desc,
+.paragraph--marketplace-advantage-desc,
+.heading--marketplace-process-desc {
   letter-spacing: 1px;
   font-size: 1.3rem;
   color: #fff;
@@ -876,9 +894,10 @@
   font-size: 14px;
 }
 
-.heading--form-title, .paragraph--form-desc {
+.heading--form-title,
+.paragraph--form-desc {
   text-align: center;
-  color:  #396f9b;
+  color: #396f9b;
 }
 
 .paragraph--form-desc {
@@ -890,11 +909,38 @@
   text-align: center;
 }
 
+.image--atendimento {
+  max-height: 25px;
+  margin: 0 10px;
+}
+
+.link--atendimento {
+  text-decoration: none;
+  color: #2a2a2a;
+  display: flex;
+  align-items: center;
+  border: solid 1px #f4f4f4f4;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.paragraph--linkW {
+  display: flex;
+  align-items: center;
+  color: #184077;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.container--linkContainer {
+  justify-content: center;
+}
 @media (max-width: 400px) {
-  .wrapper--shelfTitle .heading--shelfTitle, .heading--richTextContainer {
+  .wrapper--shelfTitle .heading--shelfTitle,
+  .heading--richTextContainer {
     font-size: 19px;
   }
-
 }
 @media (min-width: 1025px) {
   .container--shelfTitle,
@@ -918,11 +964,10 @@
   }
 }
 @media screen and (max-width: 767px) {
-  .paragraph--notification-bar{
+  .paragraph--notification-bar {
     flex-wrap: unset;
     font-size: 10px;
   }
-
 
   .heading--believes-title {
     max-width: none;
@@ -976,9 +1021,8 @@
   .container--newsTitle {
     width: 100%;
   }
-
 }
-@media screen and (max-width:570px) {
+@media screen and (max-width: 570px) {
   .link--notification-bar {
     flex-direction: column;
   }
@@ -987,13 +1031,11 @@
   }
 }
 @media screen and (min-width: 768px) {
-
 }
 @media screen and (min-width: 640px) {
 }
 
 @media screen and (max-width: 640px) {
-
   .heading--seoTrigger {
     margin-left: 5px;
     margin-right: 5px;

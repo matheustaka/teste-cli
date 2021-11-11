@@ -77,9 +77,6 @@
   .openIconContainer {
     padding: 0;
   }
-  .minicartContainer {
-    margin-right: -4px;
-  }
 
   .minicartWrapperContainer :global(.vtex-button) {
     border: none;
@@ -91,7 +88,6 @@
     width: 42px !important;
     height: 28px !important;
     margin-top: 0;
-    margin-right: -1px;
   }
 }
 

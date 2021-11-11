@@ -84,7 +84,6 @@
   margin-bottom: 20px;
 }
 
-
 .imageElement.imageElement--sup {
   display: none;
 }
@@ -130,6 +129,10 @@
   border: none;
   color: white;
   width: 45px;
+}
+
+.backToTopButtonActive {
+  z-index: 998;
 }
 
 .backToTopButtonActive {
@@ -434,6 +437,11 @@
     .skuSelectorInternalBox {
     width: auto;
   }
+
+  .backToTopButtonActive {
+    bottom: 25%;
+    right: 6px;
+  }
 }
 
 .specificationsTitle,
@@ -638,6 +646,36 @@
   margin-top: -7px;
 }
 
+.infoCardHeadline--mktplaceInfoCard {
+  font-size: 2.5rem;
+  color: #fff;
+}
+.infoCardSubhead--mktplaceInfoCard {
+  color: #fff;
+}
+.infoCardCallActionContainer--mktplaceInfoCard :global(.vtex-button) {
+  background-color: #91272f;
+  border-color: #91272f;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+
+.infoCardTextContainer--mktplaceInfoCard {
+  z-index: 10;
+}
+
+.infoCardContainer--mktplaceInfoCard {
+  min-height: 600px;
+}
+
+.infoCardContainer--mktplaceInfoCard::before {
+  content: "";
+  width: 100%;
+  min-height: 600px;
+  position: absolute;
+  background-color: #1c1c1c75;
+}
+
 @media (max-width: 575.98px) {
   :global(.vtex-store__template) {
     overflow-wrap: anywhere;
@@ -680,6 +718,21 @@
 .infoCardImage--info-card-share {
   width: 30px;
 }
+
+/* LP MARKETPLACE */
+.imageElement--mktplaceFaqImage {
+  min-width: 200px;
+}
+
+.infoCardCallActionContainer--mktplaceInfoCard :global(.vtex-button__label) {
+  font-weight: 900;
+}
+
+@media (min-width: 1025px) and (max-width:1260px) {
+  .logoImage {
+    margin-left: 10px;
+  }
+}
 @media (max-width: 359px) {
   .infoCardHeadline--info-card-share {
     font-size: 13px;
@@ -694,5 +747,14 @@
 @media (min-width: 800px) {
   .infoCardHeadline--info-card-share {
     font-size: 16px;
+  }
+}
+@media (max-width: 768px) {
+  .imageElement--mktplaceFaqImage {
+    display: none;
+  }
+
+  .infoCardTextContainer--mktplaceInfoCard {
+    padding: 0 1rem;
   }
 }

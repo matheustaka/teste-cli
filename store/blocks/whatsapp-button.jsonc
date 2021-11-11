@@ -1,0 +1,79 @@
+{
+  "flex-layout.row#whatsContainer": {
+    "props": {
+      "preventHorizonalStretch": true,
+      "blockClass": [
+        "atendimentoSection"
+      ]
+    },
+    "children": [
+      "modal-trigger#example"
+    ]
+  },
+  "modal-trigger#example": {
+    "props": {
+      "blockClass": "modalTriggerWhats"
+    },
+    "children": [
+      "rich-text#example",
+      "modal-layout#whats-links"
+    ]
+  },
+  "rich-text#example": {
+    "props": {
+      "text": "<a class='vtex-rich-text-0-x-link--atendimento' href='#' target='_blank'><img class='vtex-rich-text-0-x-image--atendimento' src='https://cassol.vtexassets.com/arquivos/icon-whatsapp.png'></a>",
+      "blockClass": "atendimento"
+    }
+  },
+  "modal-layout#whats-links": {
+    "props": {
+      "scroll": "content",
+      "fullScreen": false,
+      "blockClass": ["modalTriggerWhats"]
+    },
+    "children": [
+      "flex-layout.row#whats-atendimento",
+      "flex-layout.row#whats-links"
+    ]
+  },
+  "flex-layout.row#whats-atendimento": {
+    "props": {
+      "colSizing": "auto"
+    },
+    "children": [
+      "rich-text#whatsTitle"
+    ]
+  },
+
+  "rich-text#whatsTitle": {
+    "props": {
+      "text": " **Fale com nossa equipe de atendimento** ",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER"
+    }
+  },
+  "flex-layout.row#whats-links": {
+    "props": {
+      "colSizing": "auto",
+      "blockClass": [
+        "whatsNumbersContent"
+      ]
+    },
+    "children": [
+      "rich-text#whats-cartao",
+      "rich-text#whats-televendas"
+    ]
+  },
+  "rich-text#whats-cartao": {
+    "props": {
+      "text": "<a class='vtex-rich-text-0-x-paragraph--linkW' href='https://wa.me/554840072018' target='_blank'><img class='vtex-rich-text-0-x-image--atendimento' src='https://cassol.vtexassets.com/arquivos/whatsapp.png'>Cartão Cassol</a>",
+      "blockClass": ["linkContainer"]
+    }
+  },
+  "rich-text#whats-televendas": {
+    "props": {
+      "text": "<a class='vtex-rich-text-0-x-paragraph--linkW' href='https://wa.me/554840011515' target='_blank'><img class='vtex-rich-text-0-x-image--atendimento' src='https://cassol.vtexassets.com/arquivos/whatsapp.png'>Televendas</a>",
+      "blockClass": ["linkContainer"]
+    }
+  }
+}

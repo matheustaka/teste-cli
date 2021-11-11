@@ -68,6 +68,10 @@
   justify-self: flex-end;
 }
 
+.paper--modalTriggerWhats {
+  width: 250px;
+}
+
 @media screen and (min-width: 40em) {
   .paper--quickview {
     height: 260px;

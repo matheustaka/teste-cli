@@ -2,6 +2,18 @@
   padding: 0;
 }
 
-.drawerHeader{
+.drawerHeader {
+  background-color: #eee;
+}
+
+.drawerContent--menuMktplace {
+  flex-grow: 1;
+}
+
+.childrenContainer--menuMktplace {
+  height: 45%;
+}
+
+.drawerContent--menuMktplace {
   background-color: #eee;
 }

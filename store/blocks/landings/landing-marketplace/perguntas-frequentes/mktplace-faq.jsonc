@@ -1,0 +1,66 @@
+{
+  "flex-layout.row#mktplaceFaq": {
+    "props": {
+      "fullWidth": true,
+      "paddingLeft": 5,
+      "blockClass":["mktplaceFaqSection", "mktplaceSection"]
+    },
+    "children": [
+      "flex-layout.col#faqContainer"
+    ]
+  },
+  "flex-layout.col#faqContainer": {
+    "props": {
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "rich-text#mktplaceFaqTitle",
+      "flex-layout.row#faqMain"
+    ]
+  },
+  "rich-text#mktplaceFaqTitle": {
+    "props": {
+      "htmlId": "perguntas-frequentes",
+      "text": "## PERGUNTAS FREQUENTES",
+      "blockClass": "mktplaceTitleFaq"
+    }
+  },
+  "flex-layout.row#faqMain": {
+    "props": {
+      "preventVerticalStretch": true,
+      "preventHorizontalStretch": true,
+      "blockClass": ["mktplaceQuestionsContainer"]
+    },
+    "children": [
+      "flex-layout.col#faqLeft",
+      "flex-layout.col#faqRight"
+    ]
+  },
+  "flex-layout.col#faqLeft": {
+    "props": {
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "image#faqImage"
+    ]
+  },
+  "image#faqImage": {
+    "props": {
+      "src": "assets/cassol-marketplace/woman.png",
+      "maxHeight": 600,
+      "blockClass": ["mktplaceFaqImage"]
+    }
+  },
+  "flex-layout.col#faqRight": {
+    "props": {
+      "preventVerticalStretch":true,
+      "blockClass": [
+        "mktplaceQuestions"
+      ]
+    },
+    "children": [
+      "disclosure-layout-group#mktplaceFaq"
+    ]
+  }
+}

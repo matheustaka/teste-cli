@@ -1,43 +1,133 @@
 {
   "store.custom#landing-marketplace": {
     "blocks": [
-      "flex-layout.row#marketplace-hero",
-      "flex-layout.row#marketplace-advantages",
-      "flex-layout.row#process",
-      "flex-layout.row#marketplace-numbers",
-      "flex-layout.row#marketplace-form",
-      "flex-layout.row#footer-marketplace"
+      "info-card#mktplace-diferencial",
+      "flex-layout.row#diferencial",
+      "flex-layout.row#como-funciona",
+      "flex-layout.row#mktplaceBenefits",
+      "flex-layout.row#mktplaceFaq",
+      "flex-layout.row#mktplaceLead"
     ],
     "parent": {
-      "header": "header-layout.desktop#marketplace",
+      "header": "header#marketplace",
       "footer": "flex-layout.row#marketplace-copyright"
     }
   },
-  "header-layout.desktop#marketplace": {
-    "children": [
-      "flex-layout.row#header"
+  "header#marketplace": {
+    "blocks": [
+      "header-layout.desktop#marketplace",
+      "header-layout.mobile#marketplace"
     ]
   },
-  "flex-layout.row#header": {
+  "header-layout.desktop#marketplace": {
+    "children": [
+      "flex-layout.row#mktplace-header"
+    ]
+  },
+  "header-layout.mobile#marketplace": {
+    "children": [
+      "sticky-layout#mktplaceHeader"
+    ]
+  },
+  "sticky-layout#mktplaceHeader": {
+    "children": [
+      "flex-layout.row#mktplace-header-mobile"
+    ]
+  },
+  "flex-layout.row#mktplace-header-mobile": {
     "props": {
       "paddingTop": 5,
-      "paddingBottom": 5
+      "paddingBottom": 5,
+      "preventHorizontalStretch": true,
+      "blockClass": [
+        "headerMobile"
+      ]
     },
     "children": [
-      "flex-layout.col#logo-cassol",
+      "flex-layout.col#mktplaceLogoMobile",
+      "flex-layout.col#mktplaceMenuMobile"
+    ]
+  },
+  "flex-layout.col#mktplaceMenuMobile": {
+    "children": [
+      "drawer#mktplace"
+    ]
+  },
+  "flex-layout.col#mktplaceLogoMobile": {
+    "props": {
+      "blockClass": [
+        "mktplaceLogo"
+      ]
+    },
+    "children": [
+      "logo#marketplace"
+    ]
+  },
+  "drawer#mktplace": {
+    "props": {
+      "blockClass": [
+        "menuMktplace"
+      ]
+    },
+    "children": [
+      "flex-layout.row#mktplaceMenuMobile"
+    ]
+  },
+  "flex-layout.row#mktplaceMenuMobile": {
+    "props": {
+      "blockClass": [
+        "menuMktplaceContainer"
+      ]
+    },
+    "children": [
+      "menu#mktplaceDrawer"
+    ]
+  },
+  "menu#mktplaceDrawer": {
+    "children": [
+      "link#diferencial",
+      "link#como-funciona",
+      "link#beneficios",
+      "link#perguntas-frequentes",
+      "link#formulario"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "lpDrawer"
+    }
+  },
+  "flex-layout.row#mktplace-header": {
+    "props": {
+      "paddingTop": 5,
+      "paddingBottom": 5,
+      "blockClass": [
+        "mktplaceHeaderDesk"
+      ]
+    },
+    "children": [
+      "flex-layout.col#mktplace-logo",
       "flex-layout.col#menu-marketplace"
     ]
   },
-  "flex-layout.col#logo-cassol": {
+  "flex-layout.col#mktplace-logo": {
     "props": {
-      "verticalAlignment": "middle"
+      "width": "25%",
+      "marginRight": 5,
+      "marginLeft": 5,
+      "verticalAlign": "middle"
     },
     "children": [
-      "logo#desktop"
+      "logo#marketplace"
     ]
+  },
+  "logo#marketplace": {
+    "props": {
+      "url": "assets/cassol-marketplace/cassolMktplaceLogo.png"
+    }
   },
   "flex-layout.col#menu-marketplace": {
     "props": {
+      "width": "grow",
       "blockClass": [
         "marketplace-menu"
       ]
@@ -54,43 +144,53 @@
       ]
     },
     "children": [
-      "link#advantages",
-      "link#process",
-      "link#numbers",
-      "link#form"
+      "link#diferencial",
+      "link#como-funciona",
+      "link#beneficios",
+      "link#perguntas-frequentes",
+      "link#formulario"
     ]
   },
-  "link#advantages": {
+  "link#diferencial": {
     "props": {
-      "label": "Vantagens",
-      "href": "#advantages",
+      "label": "Diferencial",
+      "href": "#diferencial",
       "blockClass": [
         "mktplace-menu-link"
       ]
     }
   },
-  "link#process": {
+  "link#como-funciona": {
     "props": {
-      "label": "Processo",
-      "href": "#process",
+      "label": "COMO FUNCIONA",
+      "href": "#comoFunciona",
       "blockClass": [
         "mktplace-menu-link"
       ]
     }
   },
-  "link#numbers": {
+  "link#beneficios": {
     "props": {
-      "label": "Números",
-      "href": "#numbers",
+      "label": "Benefícios",
+      "href": "#beneficios",
       "blockClass": [
         "mktplace-menu-link"
       ]
     }
   },
-  "link#form": {
+  "link#perguntas-frequentes": {
     "props": {
-      "label": "Formulário",
-      "href": "#form",
+      "label": "PERGUNTAS FREQUENTES",
+      "href": "#perguntas-frequentes",
+      "blockClass": [
+        "mktplace-menu-link"
+      ]
+    }
+  },
+  "link#formulario": {
+    "props": {
+      "label": "CADASTRO",
+      "href": "#formulario",
       "blockClass": [
         "mktplace-menu-link"
       ]
@@ -99,7 +199,6 @@
   "flex-layout.row#marketplace-socialNetworks": {
     "props": {
       "colSizing": "auto",
-      "horizontalAlign": "right",
       "blockClass": [
         "marketplace-social"
       ]
@@ -107,486 +206,286 @@
     "children": [
       "rich-text#social-networks-facebook-marketplace",
       "rich-text#social-networks-instagram-marketplace",
-      "rich-text#social-networks-youtube-marketplace"
+      "rich-text#social-networks-linkedin-marketplace"
     ]
   },
   "rich-text#social-networks-facebook-marketplace": {
     "props": {
-      "text": "<a href='https://pt-br.facebook.com/CassolCenterlar' target='_blank'><img class='vtex-rich-text-0-x-image--social-networks--youtube' src='https://cassol.vtexassets.com/arquivos/social-networks--facebook.png'></a>",
+      "text": "<a href='https://pt-br.facebook.com/CassolCenterlar'   target='_blank'><img class='mktplaceSocial' src='https://cassol.vtexassets.com/arquivos/ig.png'></a>",
       "blockClass": "social-networks--facebook"
     }
   },
   "rich-text#social-networks-instagram-marketplace": {
     "props": {
-      "text": "<a href='https://www.instagram.com/cassolcenterlar/' target='_blank'><img class='vtex-rich-text-0-x-image--social-networks--youtube' src='https://cassol.vtexassets.com/arquivos/social-networks--instagram.png'></a>",
+      "text": "<a href='https://www.instagram.com/cassolcenterlar/'  target='_blank'><img class='mktplaceSocial' src='https://cassol.vtexassets.com/arquivos/fb.png'></a>",
       "blockClass": "social-networks--instagram"
     }
   },
-  "rich-text#social-networks-youtube-marketplace": {
+  "rich-text#social-networks-linkedin-marketplace": {
     "props": {
-      "text": "<a href='https://www.youtube.com/user/CassolCenterlar' target='_blank'><img class='vtex-rich-text-0-x-image--social-networks--youtube' src='https://cassol.vtexassets.com/arquivos/social-networks--youtube.png'></a>",
+      "text": "<a href='https://www.linkedin.com/company/cassol-centerlar/'  target='_blank'><img class='mktplaceSocial' src='https://cassol.vtexassets.com/arquivos/linkedin.png'></a>",
       "blockClass": "social-networks--youtube"
     }
   },
   //   ! HEADER !
   "flex-layout.row#marketplace-hero": {
     "children": [
-      "image#markteplace-banner"
+      "image#marketplace-banner"
     ]
   },
-  "image#markteplace-banner": {
+  "image#marketplace-banner": {
     "props": {
       "src": "assets/cassol-marketplace/banner-home.jpg"
     }
   },
-  "flex-layout.row#marketplace-advantages": {
+  "info-card#mktplace-diferencial": {
     "props": {
+      "isFullModeStyle": true,
+      "headline": "Marketplace Cassol",
+      "subhead": "Venha vender na plataforma do maior home center do Sul do Brasil.",
+      "callToActionText": "QUERO VENDER",
+      "imageUrl": "assets/cassol-marketplace/bgMktplace.jpg",
+      "blockClass": "mktplaceInfoCard"
+    }
+  },
+  /*
+
+  ********************
+  ********************
+  ********************
+  // SEÇÃO DIFERENCIAL
+
+  ********************
+  ********************
+  ********************
+  */
+  "flex-layout.row#diferencial": {
+    "props": {
+      "fullWidth": true,
+      "verticalAlign": "middle",
       "blockClass": [
-        "marketplace-section",
-        "marketplace-advantages"
+        "diffSection",
+        "mktplaceSection"
       ]
     },
     "children": [
-      "flex-layout.col#marketplace-advantages"
+      "flex-layout.col#diferencialContainer"
     ]
   },
-  "flex-layout.col#marketplace-advantages": {
+  "flex-layout.col#diferencialContainer": {
     "props": {
-      "horizontalAlign": "center",
-      "preventHorizontalStretch": true,
-      "preventVerticalStretch": true,
       "blockClass": [
-        "marketplace-advantages"
+        "diferencialContainer"
       ]
     },
     "children": [
-      "rich-text#advantages-title",
-      "rich-text#advantages-desc",
-      "flex-layout.row#advantages-infos"
+      "flex-layout.row#diferencial-1",
+      "flex-layout.row#diferencial-2"
     ]
   },
-  "rich-text#advantages-title": {
+  "flex-layout.row#diferencial-1": {
     "props": {
-      "text": "## O Marketplace da Cassol é a oportunidade <br> de alavancar suas vendas",
-      "htmlId": "advantages",
-      "blockClass": [
-        "marketplace-advantages-title"
-      ]
-    }
-  },
-  "rich-text#advantages-desc": {
-    "props": {
-      "text": "A cassol é líder no segmento de materiais de construção no Sul do Brasil <br> e a 5a maior rede de lojas de materiais do segmento no país, o que faz da nossa <br> plataforma de e-commerce uma verdadeira vitrine para os seus produtos,<br> garantindo a visibilidade que você precisa para atingir grandes resultados.",
-      "blockClass": [
-        "marketplace-advantages-desc"
-      ]
-    }
-  },
-  "flex-layout.row#advantages-infos": {
-    "children": [
-      "flex-layout.col#advantage-info1",
-      "flex-layout.col#advantage-info2",
-      "flex-layout.col#advantage-info3"
-    ]
-  },
-  "flex-layout.col#advantage-info1": {
-    "props": {
-      "horizontalAlign": "center"
+      "blockClass": ["diffCta"]
     },
     "children": [
-      "image#advantage-1",
-      "rich-text#info-1"
+      "rich-text#diferencialTitle"
     ]
   },
-  "image#advantage-1": {
+  "rich-text#diferencialTitle": {
     "props": {
-      "src": "assets/cassol-marketplace/check.jpg",
+      "htmlId": "diferencial",
+      "text": "## O MARKETPLACE CASSOL POSSUI UM IMPORTANTE DIFERENCIAL",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
       "blockClass": [
-        "advantages-icon"
+        "mktplaceTitleDiferencial"
       ]
     }
   },
-  "rich-text#info-1": {
+  "flex-layout.row#diferencial-2": {
     "props": {
-      "text": "Empresa reconhecida no setor varejo",
       "blockClass": [
-        "marketplace-advantage-desc"
-      ]
-    }
-  },
-  "flex-layout.col#advantage-info2": {
-    "props": {
-      "horizontalAlign": "center"
-    },
-    "children": [
-      "image#advantage-2",
-      "rich-text#info-2"
-    ]
-  },
-  "image#advantage-2": {
-    "props": {
-      "src": "assets/cassol-marketplace/eye.jpg",
-      "blockClass": [
-        "advantages-icon"
-      ]
-    }
-  },
-  "rich-text#info-2": {
-    "props": {
-      "text": "Seus produtos com visibilidade nas lojas físicas",
-      "blockClass": [
-        "marketplace-advantage-desc"
-      ]
-    }
-  },
-  "flex-layout.col#advantage-info3": {
-    "props": {
-      "horizontalAlign": "center"
-    },
-    "children": [
-      "image#advantage-3",
-      "rich-text#info-3"
-    ]
-  },
-  "image#advantage-3": {
-    "props": {
-      "src": "assets/cassol-marketplace/dashboard.jpg",
-      "blockClass": [
-        "advantages-icon"
-      ]
-    }
-  },
-  "rich-text#info-3": {
-    "props": {
-      "text": "Otimização do processo de vendas",
-      "blockClass": [
-        "marketplace-advantage-desc"
-      ]
-    }
-  },
-  "flex-layout.row#process": {
-    "children": [
-      "flex-layout.col#process"
-    ]
-  },
-  "flex-layout.col#process": {
-    "props": {
-      "horizontalAlign": "center",
-      "preventVerticalStretch": true,
-      "blockClass": [
-        "marketplace-process"
+        "differ"
       ]
     },
     "children": [
-      "rich-text#process-title",
-      "flex-layout.row#process-steps",
-      "flex-layout.row#cta-start-now"
+      "rich-text#diferencialLeft",
+      "flex-layout.col#diferencialRight"
     ]
   },
-  "rich-text#process-title": {
+  "rich-text#diferencialLeft": {
     "props": {
-      "htmlId": "process",
-      "text": "## Como funciona",
-      "blockClass": [
-        "marketplace-process-title"
-      ]
+      "text": "Ser uma **plataforma** exclusivamente voltada para **casa e construção**, aumentando a visibilidade do seu produto entre o público-alvo do maior home center do Sul do Brasil, que **há mais de 63 anos** transforma sua casa em um verdadeiro lar.",
+      "blockClass": "diferencialDescLeft"
     }
   },
-  "flex-layout.row#process-steps": {
+  "flex-layout.col#diferencialRight": {
     "props": {
       "blockClass": [
-        "process-row"
+        "diffRight"
       ]
     },
     "children": [
-      "flex-layout.col#process-step-1",
-      "flex-layout.col#process-step-2",
-      "flex-layout.col#process-step-3",
-      "flex-layout.col#process-step-4",
-      "flex-layout.col#process-step-5"
+      "rich-text#diferencialRight-1",
+      "rich-text#diferencialRight-2",
+      "rich-text#diferencialRight-3"
     ]
   },
-  "flex-layout.col#process-step-1": {
-    "children": [
-      "rich-text#process-step-1-icon",
-      "rich-text#process-step-1-desc"
-    ]
-  },
-  "rich-text#process-step-1-icon": {
+  "rich-text#diferencialRight-1": {
     "props": {
-      "text": "<a href='#' target='_blank'><img class='vtex-rich-text-0-x-image--marketplace-icon' src='https://cassol.vtexassets.com/arquivos/prancheta.png'></a>",
+      "text": "## <span class='vtex-rich-text-0-x-image--icon'>+</span> 2\n ### MILHÕES\nacessos por mês",
+      "blockClass": "diffDesc"
+    }
+  },
+  "rich-text#diferencialRight-2": {
+    "props": {
+      "text": "### MAIOR <a href='#' target='_blank'><img class='vtex-rich-text-0-x-image--trophy' src='https://cassol.vteximg.com.br/arquivos/trofeu.png'></a> \n ### CENTERLAR \n Região Sul do país",
       "blockClass": [
-        "marketplace-process-icon"
+        "diffDesc",
+        "trophy"
       ]
     }
   },
-  "rich-text#process-step-1-desc": {
+  "rich-text#diferencialRight-3": {
     "props": {
-      "text": "## Cadastre-se",
-      "blockClass": [
-        "marketplace-process-desc"
-      ]
+      "text": "## <span class='vtex-rich-text-0-x-image--icon'>+</span> 5\n ### MILHÕES\n de clientes",
+      "blockClass": "diffDesc"
     }
   },
-  "flex-layout.col#process-step-2": {
-    "children": [
-      "rich-text#process-step-2-icon",
-      "rich-text#process-step-2-desc"
-    ]
-  },
-  "rich-text#process-step-2-icon": {
+  /*
+  ***********************************
+  ***********************************
+  ***********************************
+    HOW IT WORKS
+  ***********************************
+  ***********************************
+  ***********************************
+  */
+  "flex-layout.row#como-funciona": {
     "props": {
-      "text": "<a href='#' target='_blank'><img class='vtex-rich-text-0-x-image--marketplace-icon' src='https://cassol.vtexassets.com/arquivos/telefone.png'></a>",
-      "blockClass": [
-        "marketplace-process-icon"
-      ]
-    }
-  },
-  "rich-text#process-step-2-desc": {
-    "props": {
-      "text": "## Contato",
-      "blockClass": [
-        "marketplace-process-desc"
-      ]
-    }
-  },
-  "flex-layout.col#process-step-3": {
-    "children": [
-      "rich-text#process-step-3-icon",
-      "rich-text#process-step-3-desc"
-    ]
-  },
-  "rich-text#process-step-3-icon": {
-    "props": {
-      "text": "<a href='#' target='_blank'><img class='vtex-rich-text-0-x-image--marketplace-icon' src='https://cassol.vtexassets.com/arquivos/prancheta-caixa.png'></a>",
-      "blockClass": [
-        "marketplace-process-icon"
-      ]
-    }
-  },
-  "rich-text#process-step-3-desc": {
-    "props": {
-      "text": "## Cadastre os produtos",
-      "blockClass": [
-        "marketplace-process-desc"
-      ]
-    }
-  },
-  "flex-layout.col#process-step-4": {
-    "children": [
-      "rich-text#process-step-4-icon",
-      "rich-text#process-step-4-desc"
-    ]
-  },
-  "rich-text#process-step-4-icon": {
-    "props": {
-      "text": "<a href='#' target='_blank'><img class='vtex-rich-text-0-x-image--marketplace-icon' src='https://cassol.vtexassets.com/arquivos/caminhao.png'></a>",
-      "blockClass": [
-        "marketplace-process-icon"
-      ]
-    }
-  },
-  "rich-text#process-step-4-desc": {
-    "props": {
-      "text": "## Logística",
-      "blockClass": [
-        "marketplace-process-desc"
-      ]
-    }
-  },
-  "flex-layout.col#process-step-5": {
-    "children": [
-      "rich-text#process-step-5-icon",
-      "rich-text#process-step-5-desc"
-    ]
-  },
-  "rich-text#process-step-5-icon": {
-    "props": {
-      "text": "<a href='#' target='_blank'><img class='vtex-rich-text-0-x-image--marketplace-icon' src='https://cassol.vtexassets.com/arquivos/dolar.png'></a>",
-      "blockClass": [
-        "marketplace-process-icon"
-      ]
-    }
-  },
-  "rich-text#process-step-5-desc": {
-    "props": {
-      "text": "## Receba na sua conta",
-      "blockClass": [
-        "marketplace-process-desc"
-      ]
-    }
-  },
-  "flex-layout.row#cta-start-now": {
-    "props": {
-      "horizontalAlign": "center",
-      "preventHorizontalStretch": true,
-      "marginTop" :7
+      "fullWidth": true,
+      "blockClass": "mktplaceSection"
     },
     "children": [
-      "link#cta-start-now"
+      "flex-layout.col#comoFuncionaContainer"
     ]
   },
-  "link#cta-start-now": {
+  "flex-layout.col#comoFuncionaContainer": {
+    "children": [
+      "rich-text#funcionamentoTitle",
+      "flex-layout.row#comoFunciona-2"
+    ]
+  },
+  "rich-text#funcionamentoTitle": {
     "props": {
-      "label": "Comece agora mesmo",
-      "href": "#form",
-      "blockClass": [
-        "cta-marketplace"
-      ]
+      "htmlId": "comoFunciona",
+      "text": "## COMO FUNCIONA?",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "mktplaceTitleComoFunciona"
     }
   },
-  "flex-layout.row#marketplace-numbers": {
-    "children": [
-      "flex-layout.col#marketplace-numbers"
-    ]
-  },
-  "flex-layout.col#marketplace-numbers": {
+  "flex-layout.row#comoFunciona-2": {
     "props": {
-      "preventHorizontalStretch": true,
-      "preventVerticalStretch": true,
-      "blockClass": [
-        "marketplace-section",
-        "marketplace-numbers"
-      ]
+      "blockClass": "customBg"
     },
     "children": [
-      "flex-layout.row#numbers-title",
-      "flex-layout.row#numbers-desc"
+      "flex-layout.col#2-left",
+      "flex-layout.col#2-right"
     ]
   },
-  "flex-layout.row#numbers-title": {
-    "props": {
-      "preventVerticalStretch": true,
-      "preventHorizontalStretch": true,
-      "horizontalAlign": "center",
-      "blockClass": [
-        "numbers-title"
-      ]
-    },
-    "children": [
-      "rich-text#numbers-title"
-    ]
-  },
-  "rich-text#numbers-title": {
-    "props": {
-      "textPosition": "center",
-      "textAlignment": "center",
-      "htmlId": "numbers",
-      "text": "## Ecommerce Cassol em números",
-      "blockClass": [
-        "numbers-title"
-      ]
-    }
-  },
-  "flex-layout.row#numbers-desc": {
-    "props": {
-      "preventHorizontalStretch": true,
-      "blockClass": [
-        "numbers-desc"
-      ]
-    },
-    "children": [
-      "flex-layout.col#numbers-1",
-      "flex-layout.col#numbers-2",
-      "flex-layout.col#numbers-3",
-      "flex-layout.col#numbers-4"
-    ]
-  },
-  "flex-layout.col#numbers-1": {
+  "flex-layout.col#2-left": {
     "props": {},
     "children": [
-      "rich-text#numbers-1"
+      "image#como-funciona"
     ]
   },
-  "rich-text#numbers-1": {
+  "image#como-funciona": {
     "props": {
-      "text": "Mais de <br> <span class='vtex-rich-text-0-x-paragraph--numbers-title'>2</span> <br> anos de atuação no ecommerce",
-      "blockClass": [
-        "numbers-desc"
-      ]
+      "src": "assets/cassol-marketplace/pessoinha.png",
+      "maxWidth": 600
     }
   },
-  "flex-layout.col#numbers-2": {
-    "props": {},
+  "flex-layout.col#2-right": {
+    "props": {
+      "verticalAlign": "middle",
+      "preventVerticalStretch": true,
+      "blockClass": "stepsDescContainer"
+    },
     "children": [
-      "rich-text#numbers-2"
+      "rich-text#mktplaceCadastro",
+      "rich-text#mktplaceAnalise",
+      "rich-text#mktplaceVenda"
     ]
   },
-  "rich-text#numbers-2": {
+  "rich-text#mktplaceCadastro": {
     "props": {
-      "text": "Mais de <br> <span class='vtex-rich-text-0-x-paragraph--numbers-title'>MIL</span> <br> vendas diárias",
-      "blockClass": [
-        "numbers-desc"
-      ]
+      "text": "### 1º CADASTRO:  <span class='mktplaceStepDesc'>Informe os dados da sua loja</span>",
+      "blockClass": "mktplaceSteps"
     }
   },
-  "flex-layout.col#numbers-3": {
-    "props": {},
-    "children": [
-      "rich-text#numbers-3"
-    ]
-  },
-  "rich-text#numbers-3": {
+  "rich-text#mktplaceAnalise": {
     "props": {
-      "text": "Mais de <br> <span class='vtex-rich-text-0-x-paragraph--numbers-title'>300</span> <br> empresas cadastradas",
-      "blockClass": [
-        "numbers-desc"
-      ]
+      "text": "### 2º ANÁLISE:  <span class='mktplaceStepDesc'>Vamos analisar o cadastro e enviar o contrato para o aceite</span>",
+      "blockClass": "mktplaceSteps"
     }
   },
-  "flex-layout.col#numbers-4": {
-    "props": {},
-    "children": [
-      "rich-text#numbers-4"
-    ]
-  },
-  "rich-text#numbers-4": {
+  "rich-text#mktplaceVenda": {
     "props": {
-      "text": "Mais de <br> <span class='vtex-rich-text-0-x-paragraph--numbers-title'>4 MIL</span> <br> produtos a venda",
-      "blockClass": [
-        "numbers-desc"
-      ]
+      "text": "### 3º VENDA:  <span class='mktplaceStepDesc'>Comece a vender e a receber! </span>",
+      "blockClass": "mktplaceSteps"
     }
   },
-  "flex-layout.row#marketplace-form": {
+  /*
+  **************************
+  **************************
+  **************************
+
+    BENEFÍCIOS
+
+
+  **************************
+  **************************
+  **************************
+
+  */
+  "flex-layout.row#mktplaceBenefits": {
     "props": {
-      "preventHorizontalStretch": true,
-      "horizontalAlign": "center",
+      "fullWidth": true,
       "blockClass": [
-        "marketplace-form"
+        "mktplaceSection",
+        "mktplaceBenefits"
       ]
     },
     "children": [
-      "flex-layout.col#marketplace-form"
+      "flex-layout.col#mktplaceBenefits"
     ]
   },
-  "flex-layout.col#marketplace-form": {
-    "props": {
-      "preventHorizontalStretch": true,
-      "horizontalAlign": "center"
-    },
+  "flex-layout.col#mktplaceBenefits": {
     "children": [
-      "rich-text#form-title",
-      "rich-text#form-desc"
+      "flex-layout.row#mktplaceBenefits-1",
+      "flex-layout.row#mktplaceBenefits-2",
+      // this row is in another file : ./benefits.jsonc
+      "flex-layout.row#mktplaceBenefits-3"
     ]
   },
-  "rich-text#form-title": {
+  "flex-layout.row#mktplaceBenefits-1": {
     "props": {
-      "text": "## Quer saber mais?",
-      "textPosition": "center",
-      "textAlignment": "center",
-      "htmlId": "form",
-      "blockClass": [
-        "form-title"
-      ]
+      "blockClass": "benefitBar"
     }
   },
-  "rich-text#form-desc": {
+  "flex-layout.row#mktplaceBenefits-2": {
+    "children": [
+      "rich-text#mktplaceBenefitsTitle"
+    ]
+  },
+  "rich-text#mktplaceBenefitsTitle": {
     "props": {
-      "text": "Faça o seu pré-cadastro que enviaremos todos os detalhes <br> e vantagens de fazer parte do **marketplace Cassol** ",
-      "blockClass": [
-        "form-desc"
-      ]
+      "htmlId": "beneficios",
+      "text": "### BENEFÍCIOS",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "mktplaceBenefitsTitle"
     }
   },
   // FOOTER
@@ -622,7 +521,7 @@
     "children": [
       "rich-text#social-networks-facebook-marketplace",
       "rich-text#social-networks-instagram-marketplace",
-      "rich-text#social-networks-youtube-marketplace"
+      "rich-text#social-networks-linkedin-marketplace"
     ]
   },
   "rich-text#footer-facebook-marketplace": {
@@ -644,21 +543,52 @@
     }
   },
   "flex-layout.row#marketplace-copyright": {
+    "props": {}
+  },
+  "flex-layout.row#mktplaceLead": {
     "props": {
-      "paddingBottom": 7,
-      "paddingTop": 7,
-      "preventHorizontalStretch": true,
-      "horizontalAlign": "center",
-      "blockClass": "marketplace-copyright"
+      "fullWidth": true,
+      "blockClass": [
+        "mktplaceLeadSection"
+      ]
     },
     "children": [
-      "rich-text#marketplace-copyright"
+      "flex-layout.col#mktplaceLead"
     ]
   },
-  "rich-text#marketplace-copyright": {
+  "flex-layout.col#mktplaceLead": {
+    "children": [
+      "rich-text#mktplaceLeadTitle",
+      "rich-text#mktplaceLeadDesc",
+      // FORM SECTION
+      "flex-layout.row#leadForm"
+    ]
+  },
+  "rich-text#mktplaceLeadTitle": {
     "props": {
-      "text": "@ Todos os direitos reservados à Cassol 2021",
-      "blockClass": "marketplace-copyright"
+      "htmlId": "formulario",
+      "text": "## FAÇA SEU CADASTRO!",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "blockClass": [
+        "leadTitle"
+      ]
     }
+  },
+  "rich-text#mktplaceLeadDesc": {
+    "props": {
+      "htmlId": "formulario",
+      "text": "Preencha todos os dados e enviaremos todos os detalhes para fazer parte do **Marketplace Cassol**",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "blockClass": [
+        "leadDesc"
+      ]
+    }
+  },
+  "flex-layout.row#leadForm": {
+    "children": [
+      "LeadFormMarketplace"
+    ]
   }
 }

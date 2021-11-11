@@ -231,6 +231,7 @@
     },
     "children": [
       "flex-layout.row#product-name",
+      "vtex.product-highlights@2.x:product-highlights#black",
       "product-identifier.product",
       "product-seller-name",
       "product-rating-summary",
@@ -254,6 +255,30 @@
     ======= HIGHLIGHT CUSTOMIZADO ==============
     ==========================================
   */
+  "vtex.product-highlights@2.x:product-highlights#black": {
+    "props": {
+      "type": "collection",
+      "filter": {
+        "highlightNames": [
+          "Teste coleções"
+        ],
+        "type": "show"
+      }
+    },
+    "children": [
+      "product-highlight-wrapper#black"
+    ]
+  },
+  "product-highlight-wrapper#black": {
+    "children": [
+      "image#black"
+    ]
+  },
+  "image#black": {
+    "props": {
+      "src": "assets/blackBadge.png"
+    }
+  },
   "condition-layout.product#a-vista": {
     "props": {
       "conditions": [
@@ -311,7 +336,6 @@
       ]
     }
   },
-
   /*
     ======= ============================
     ======= HIGHLIGHT CUSTOMIZADO ==============
@@ -384,7 +408,7 @@
       "product-summary.shelf#CrossSelling"
     ],
     "props": {
-      "recommendation": "suggestions",
+      "recommendation": "similars",
       "blockClass": "ShelfQuemViuViuTambem",
       "productList": {
         "titleText": "Você pode gostar de",

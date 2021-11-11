@@ -1,0 +1,521 @@
+{
+  "disclosure-layout-group#mktplaceFaq": {
+    "props": {
+      "blockClass": [
+        "mktplaceQuestions"
+      ]
+    },
+    "children": [
+      "disclosure-layout#first",
+      "disclosure-layout#second",
+      "disclosure-layout#third",
+      "disclosure-layout#fourth",
+      "disclosure-layout#fifth",
+      "disclosure-layout#sexth",
+      "disclosure-layout#seventh"
+    ]
+  },
+  "disclosure-layout#first": {
+    "props": {
+      "blockClass": [
+        "faqQuestion"
+      ]
+    },
+    "children": [
+      "flex-layout.row#1"
+    ]
+  },
+  "flex-layout.row#1": {
+    "props": {
+      "colSizing": "auto",
+      "blockClass": [
+        "questionContainer"
+      ]
+    },
+    "children": [
+      "disclosure-trigger#first",
+      "disclosure-content#first"
+    ]
+  },
+  "disclosure-trigger#first": {
+    "props": {
+      "blockClass": [
+        "faqQuestion"
+      ]
+    },
+    "children": [
+      "rich-text#question1",
+      "disclosure-state-indicator#faqToggle"
+    ]
+  },
+  "disclosure-content#first": {
+    "props": {
+      "blockClass": [
+        "mktplaceFaqAnswer"
+      ]
+    },
+    "children": [
+      "rich-text#answer1"
+    ]
+  },
+  "rich-text#question1": {
+    "props": {
+      "text": "**O que é o marketplace da Cassol?**"
+    }
+  },
+  "rich-text#answer1": {
+    "props": {
+      "textAlignment": "CENTER",
+      "text": "O Marketplace da Cassol é uma plataforma que possibilita que você anuncie e venda seus produtos no maior centerlar da Região Sul e um dos maiores do Brasil.",
+      "blockClass": [
+        "mktplaceFaqAnswer"
+      ]
+    }
+  },
+  /*
+  *********************
+  *********************
+  *********************
+    SEGUNDO ITEM
+  *********************
+  *********************
+  *********************
+  */
+  "disclosure-layout#second": {
+    "props": {
+      "blockClass": [
+        "faqQuestion"
+      ]
+    },
+    "children": [
+      "flex-layout.row#2"
+    ]
+  },
+  "flex-layout.row#2": {
+    "props": {
+      "colSizing": "auto",
+      "blockClass": [
+        "questionContainer"
+      ]
+    },
+    "children": [
+      "disclosure-trigger#second",
+      "disclosure-content#second"
+    ]
+  },
+  "disclosure-trigger#second": {
+    "props": {
+      "blockClass": [
+        "faqQuestion"
+      ]
+    },
+    "children": [
+      "rich-text#question2",
+      "disclosure-state-indicator#faqToggle"
+    ]
+  },
+  "disclosure-content#second": {
+    "props": {
+      "blockClass": [
+        "mktplaceFaqAnswer"
+      ]
+    },
+    "children": [
+      "rich-text#answer2"
+    ]
+  },
+  "rich-text#question2": {
+    "props": {
+      "text": "**É obrigatória a emissão da nota fiscal?**"
+    }
+  },
+  "rich-text#answer2": {
+    "props": {
+      "text": "Sim, você precisa emitir nota fiscal a cada venda realizada.",
+      "textAlignment": "CENTER",
+      "blockClass": [
+        "mktplaceFaqAnswer"
+      ]
+    }
+  },
+  /*
+  *********************
+  *********************
+  *********************
+    TERCEIRO ITEM
+  *********************
+  *********************
+  *********************
+  */
+  "disclosure-layout#third": {
+    "props": {
+      "blockClass": [
+        "faqQuestion"
+      ]
+    },
+    "children": [
+      "flex-layout.row#3"
+    ]
+  },
+  "flex-layout.row#3": {
+    "props": {
+      "colSizing": "auto",
+      "blockClass": [
+        "questionContainer"
+      ]
+    },
+    "children": [
+      "disclosure-trigger#third",
+      "disclosure-content#third"
+    ]
+  },
+  "disclosure-trigger#third": {
+    "props": {
+      "blockClass": [
+        "faqQuestion"
+      ]
+    },
+    "children": [
+      "rich-text#question3",
+      "disclosure-state-indicator#faqToggle"
+    ]
+  },
+  "disclosure-content#third": {
+    "props": {
+      "blockClass": [
+        "mktplaceFaqAnswer"
+      ]
+    },
+    "children": [
+      "rich-text#answer3"
+    ]
+  },
+  "rich-text#question3": {
+    "props": {
+      "text": "**Posso vender qualquer tipo de produto?**"
+    }
+  },
+  "rich-text#answer3": {
+    "props": {
+      "text": "Nossa plataforma é especializada em itens para casa e construção(Eletro, Móveis, Tecnologia, Materiais de Construção e Ferramentas).",
+      "textAlignment": "CENTER",
+      "blockClass": [
+        "mktplaceFaqAnswer"
+      ]
+    }
+  },
+  /*
+  *********************
+  *********************
+  *********************
+    QUARTO ITEM
+  *********************
+  *********************
+  *********************
+  */
+  "disclosure-layout#fourth": {
+    "props": {
+      "blockClass": [
+        "faqQuestion"
+      ]
+    },
+    "children": [
+      "flex-layout.row#4"
+    ]
+  },
+  "flex-layout.row#4": {
+    "props": {
+      "colSizing": "auto",
+      "blockClass": [
+        "questionContainer"
+      ]
+    },
+    "children": [
+      "disclosure-trigger#fourth",
+      "disclosure-content#fourth"
+    ]
+  },
+  "disclosure-trigger#fourth": {
+    "props": {
+      "blockClass": [
+        "faqQuestion"
+      ]
+    },
+    "children": [
+      "rich-text#question4",
+      "disclosure-state-indicator#faqToggle"
+    ]
+  },
+  "disclosure-content#fourth": {
+    "props": {
+      "blockClass": [
+        "mktplaceFaqAnswer"
+      ]
+    },
+    "children": [
+      "rich-text#answer4"
+    ]
+  },
+  "rich-text#question4": {
+    "props": {
+      "text": "**É obrigatório os itens possuírem código de barra (EAN/GTIN)?**"
+    }
+  },
+  "rich-text#answer4": {
+    "props": {
+      "text": "Sim, os itens devem obrigatoriamente possuir código de barras",
+      "textAlignment": "CENTER",
+      "blockClass": [
+        "mktplaceFaqAnswer"
+      ]
+    }
+  },
+  /*
+  *********************
+  *********************
+  *********************
+    QUINTO ITEM
+  *********************
+  *********************
+  *********************
+  */
+  "disclosure-layout#fifth": {
+    "props": {
+      "blockClass": [
+        "faqQuestion"
+      ]
+    },
+    "children": [
+      "flex-layout.row#5"
+    ]
+  },
+  "flex-layout.row#5": {
+    "props": {
+      "colSizing": "auto",
+      "blockClass": [
+        "questionContainer"
+      ]
+    },
+    "children": [
+      "disclosure-trigger#fifth",
+      "disclosure-content#fifth"
+    ]
+  },
+  "disclosure-trigger#fifth": {
+    "props": {
+      "blockClass": [
+        "faqQuestion"
+      ]
+    },
+    "children": [
+      "rich-text#question5",
+      "disclosure-state-indicator#faqToggle"
+    ]
+  },
+  "disclosure-content#fifth": {
+    "props": {
+      "blockClass": [
+        "mktplaceFaqAnswer"
+      ]
+    },
+    "children": [
+      "rich-text#answer5"
+    ]
+  },
+  "rich-text#question5": {
+    "props": {
+      "text": "**Quanto custa para vender no Marketplace da Cassol?**"
+    }
+  },
+  "rich-text#answer5": {
+    "props": {
+      "text": "Não investimento inicial. Ao se tornar um parceiro, é cobrada apenas uma comissão sobre as vendas realizadas",
+      "textAlignment": "CENTER",
+      "blockClass": [
+        "mktplaceFaqAnswer"
+      ]
+    }
+  },
+  /*
+  *********************
+  *********************
+  *********************
+    SEXTO ITEM
+  *********************
+  *********************
+  *********************
+  */
+  "disclosure-layout#sexth": {
+    "props": {
+      "blockClass": [
+        "faqQuestion"
+      ]
+    },
+    "children": [
+      "flex-layout.row#6"
+    ]
+  },
+  "flex-layout.row#6": {
+    "props": {
+      "colSizing": "auto",
+      "blockClass": [
+        "questionContainer"
+      ]
+    },
+    "children": [
+      "disclosure-trigger#sexth",
+      "disclosure-content#sexth"
+    ]
+  },
+  "disclosure-trigger#sexth": {
+    "props": {
+      "blockClass": [
+        "faqQuestion"
+      ]
+    },
+    "children": [
+      "rich-text#question6",
+      "disclosure-state-indicator#faqToggle"
+    ]
+  },
+  "disclosure-content#sexth": {
+    "props": {
+      "blockClass": [
+        "mktplaceFaqAnswer"
+      ]
+    },
+    "children": [
+      "rich-text#answer6"
+    ]
+  },
+  "rich-text#question6": {
+    "props": {
+      "text": "**De quem é a responsabilidade sobre a entrega?**"
+    }
+  },
+  "rich-text#answer6": {
+    "props": {
+      "text": "A responsabilidade por todas as etapas de entrega, desde a embalagem até o recebimento do produto, é totalmente do parceiro. Porém, temos uma equipe de apoio que lhe ajudará caso necessite.",
+      "textAlignment": "CENTER",
+      "blockClass": [
+        "mktplaceFaqAnswer"
+      ]
+    }
+  },
+  /*
+  *********************
+  *********************
+  *********************
+    SÉTIMO ITEM
+  *********************
+  *********************
+  *********************
+  */
+  "disclosure-layout#seventh": {
+    "props": {
+      "blockClass": [
+        "faqQuestion"
+      ]
+    },
+    "children": [
+      "flex-layout.row#7"
+    ]
+  },
+  "flex-layout.row#7": {
+    "props": {
+      "colSizing": "auto",
+      "blockClass": [
+        "questionContainer"
+      ]
+    },
+    "children": [
+      "disclosure-trigger#seventh",
+      "disclosure-content#seventh"
+    ]
+  },
+  "disclosure-trigger#seventh": {
+    "props": {
+      "blockClass": [
+        "faqQuestion"
+      ]
+    },
+    "children": [
+      "rich-text#question7",
+      "disclosure-state-indicator#faqToggle"
+    ]
+  },
+  "disclosure-content#seventh": {
+    "props": {
+      "blockClass": [
+        "mktplaceFaqAnswer"
+      ]
+    },
+    "children": [
+      "rich-text#answer7"
+    ]
+  },
+  "rich-text#question7": {
+    "props": {
+      "text": "**Preciso entregar em todo país?**"
+    }
+  },
+  "rich-text#answer7": {
+    "props": {
+      "text": "Entendemos o tamanho do país e a regionalização do seu negócio. Não importa o tamanho da sua empresa, ela é bem-vinda em nossa plataforma.",
+      "textAlignment": "CENTER",
+      "blockClass": [
+        "mktplaceFaqAnswer"
+      ]
+    }
+  },
+  "disclosure-state-indicator#faqToggle": {
+    "props": {
+      "Show": "flex-layout.row#faqShow",
+      "Hide": "flex-layout.row#faqHide"
+    }
+  },
+  "flex-layout.row#faqShow": {
+    "props": {
+      "colSizing": "auto",
+      "preventHorizontalStretch": true,
+      "verticalAlign": "middle",
+      "horizontalAlign": "left",
+      "colGap": 3,
+      "blockClass": [
+        "faqIcon"
+      ]
+    },
+    "children": [
+      "icon#plus"
+    ]
+  },
+  "icon#plus": {
+    "props": {
+      "id": "nav-plus",
+      "size": 24,
+      "orientation": "down"
+    }
+  },
+  "flex-layout.row#faqHide": {
+    "props": {
+      "colSizing": "auto",
+      "preventHorizontalStretch": true,
+      "verticalAlign": "middle",
+      "horizontalAlign": "left",
+      "colGap": 3,
+      "blockClass": [
+        "faqIcon"
+      ]
+    },
+    "children": [
+      "icon#minus"
+    ]
+  },
+  "icon#minus": {
+    "props": {
+      "id": "nav-minus",
+      "size": 24,
+      "orientation": "down"
+    }
+  }
+}

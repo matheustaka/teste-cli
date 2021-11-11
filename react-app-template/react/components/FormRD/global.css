@@ -1,3 +1,63 @@
+.newsletter-ct {
+  overflow: hidden;
+  width: 100%;
+}
+.newsletter-ct.reduzido {
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.newsletter-ct.normal {
+  display: flex;
+}
+.newsletter-ct.normal .arrow {
+  right: 0;
+}
+
+h3.newsletter-title,
+h3.successForm {
+  color: #fff;
+  margin: 0;
+  font-size: 16px;
+}
+.sucessForm {
+  text-align: center;
+  margin: 1em 0;
+  width: 100%;
+}
+
+.form-content {
+  padding: 10px 0;
+}
+.mainForm {
+  flex-grow: 1;
+  display: flex;
+  margin: 0 10px;
+}
+
+input#email {
+  flex-grow: 1;
+  margin: 0 10px;
+}
+
+input[type='submit']:hover {
+  cursor: pointer;
+}
+
+
+@media screen and (max-width:768px) {
+  .mainForm{
+    flex-direction: column
+  }
+
+  input#email {
+    width: 100%;
+  }
+  input[type='submit'] {
+    width: 100%;
+  }
+}
 @media screen and (max-width: 1025px) {
   .form-content.hidden {
     transition: all 0.3s ease-in;
@@ -10,7 +70,6 @@
   .form-content {
     width: 100%;
     flex-direction: column;
-    position: static;
   }
 
   .newsletter-ct.normal {
@@ -55,6 +114,25 @@
     left: -8px !important;
     top: -8px !important;
   }
+
+  .mainForm {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .mainForm input {
+    margin: 8px 0px;
+  }
+
+  .successForm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+  }
 }
 @media screen and (min-width: 1025px) {
   .form-content.hidden {
@@ -66,40 +144,22 @@
     transform: translate3d(0%, 0rem, 0rem);
     transition: all 0.3s ease-in;
   }
-  .form-content.hidden {
-    position: absolute;
-  }
   .form-content {
-    position: absolute;
-  }
-  .form-content {
-    background: red;
     display: flex;
-    width: 95%;
-    left: 0;
-    align-items: baseline;
-    justify-content: center;
+    max-width: 1250px;
+    margin: 0 auto;
   }
-}
 
-.newsletter-ct {
-  overflow: hidden;
-  width: 100%;
-}
-.newsletter-ct.reduzido {
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-}
+  .successForm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+  }
 
-.newsletter-ct.normal {
-  display: flex;
-}
-.newsletter-ct.normal .arrow {
-  right: 0;
-}
-
-h3.newsletter-title {
-  color: #fff;
-  padding: 0 10px;
+  .mainForm {
+    margin: 0 3%;
+  }
 }

@@ -1,0 +1,32 @@
+{
+  "login#loginForm": {
+    "props": {
+      "accountOptionLinks": [
+        {
+          "label": "Meus dados",
+          "path": "/account#/profile"
+        },
+        {
+          "label": "Lista de Desejos",
+          "path": "/account#/wishlist"
+        },
+        {
+          "label": "Endereço",
+          "path": "/account#/addresses"
+        },
+        {
+          "label": "Pedidos",
+          "path": "/account#/orders"
+        },
+        {
+          "label": "Pedidos Antigos",
+          "path": "/old-orders"
+        },
+        {
+          "label": "Meus Cartões",
+          "path": "/account#/cards"
+        }
+      ]
+    }
+  }
+}

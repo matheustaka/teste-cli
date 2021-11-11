@@ -58,7 +58,7 @@
       "search-bar",
       "flex-layout.col#spacer",
       "rich-text#nossas-lojas",
-      "login",
+      "login#loginForm",
       "minicart.v2"
     ]
   },

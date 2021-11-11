@@ -1,0 +1,25 @@
+.trigger--faqQuestion,
+.content--mktplaceFaqAnswer {
+  border: solid 2px #1a79ab;
+  background-color: #f8faff;
+
+  padding: 13px;
+}
+
+.trigger--faqQuestion {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.trigger--faqQuestion :global(.vtex-rich-text-0-x-paragraph) {
+  margin: 0;
+  line-height: 18px;
+  color: #595959;
+}
+
+@media screen and (max-width: 768px) {
+  .trigger--faqQuestion :global(.vtex-rich-text-0-x-paragraph) {
+    font-size: 14px;
+  }
+}

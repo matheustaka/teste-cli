@@ -643,7 +643,15 @@
   max-width: 1250px;
   margin: 0 auto;
 }
+.flexRow--atendimentoSection {
+  position: fixed;
+  z-index: 9;
+  top: 50%;
+}
 
+.flexRowContent--whatsNumbersContent {
+  flex-direction: column;
+}
 @media (max-width: 767.98px) {
   .flexRow--productContainer,
   .flexRow--productBreadcrumb,
@@ -1199,14 +1207,6 @@
 }
 .flexRow--menuWrapper {
   width: 100%;
-}
-.flexRow--marketplace-social {
-  display: flex;
-  width: 100%;
-  justify-content: flex-end;
-}
-.flexRowContent--marketplace-social {
-  width: 125px;
 }
 .flexColChild--marketplace-menu {
   display: flex;

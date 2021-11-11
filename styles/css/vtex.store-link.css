@@ -25,9 +25,12 @@
 }
 
 .link--mktplace-menu-link{
-  color: #0072a0;
-  font-weight: 600;
+  color: #005785;
+  font-weight: 800;
 
+  padding: 0;
+  width: 100%;
+  text-align: center;
   text-decoration: none;
   text-transform: uppercase;
 }
