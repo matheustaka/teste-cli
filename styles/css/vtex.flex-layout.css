@@ -533,6 +533,13 @@
     max-width: 1250px;
     margin: 0 auto;
   }
+  .flexRowContent--mainContent {
+    max-width: 1250px;
+    margin: 3.5rem auto;
+  }
+  .flexColChild--mainContent {
+    margin: 3.5rem 0;
+  }
 }
 
 .flexRow--newsletter-home :global(.vtex-store-components-3-x-container) {
@@ -651,9 +658,15 @@
 }
 
 @keyframes upAndDown {
-  0% { transform: translate(1px, 1px) rotate(0deg); }
-  50% { transform: translate(-1px, 2px) rotate(-1deg); }
-  100% { transform: translate(1px, -2px) rotate(-1deg); }
+  0% {
+    transform: translate(1px, 1px) rotate(0deg);
+  }
+  50% {
+    transform: translate(-1px, 2px) rotate(-1deg);
+  }
+  100% {
+    transform: translate(1px, -2px) rotate(-1deg);
+  }
 }
 
 .flexRowContent--whatsNumbersContent {
@@ -1298,5 +1311,9 @@
     align-items: flex-start;
     margin-bottom: 0;
     flex-direction: column;
+  }
+
+  .flexRowContent--especialMiniBanners .flexCol {
+    margin: 2rem 0;
   }
 }

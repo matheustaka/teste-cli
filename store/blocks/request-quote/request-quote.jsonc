@@ -1,0 +1,93 @@
+{
+  "store.custom#request-quote": {
+    "blocks": [
+      "responsive-layout.desktop#quote-desktop"
+    ]
+  },
+  "responsive-layout.desktop#quote-desktop": {
+    "children": [
+      "flex-layout.row#mainFormContent"
+    ]
+  },
+  "flex-layout.row#mainFormContent": {
+    "props": {
+      "blockClass": [
+        "mainContent"
+      ]
+    },
+    "children": [
+      "rich-text#requestTitle",
+      "form#requestQuote"
+    ]
+  },
+  "rich-text#requestTitle": {
+    "props": {
+      "text": "## Solicite Orçamento"
+    }
+  },
+
+
+  "form#requestQuote": {
+    "props": {
+      "entity": "RQ",
+      "schema": "request-a-quote"
+    },
+    "children": [
+      "form-input.text#nomeRQ",
+      "form-input.text#emailRQ",
+      "form-input.text#telefoneRQ",
+      "form-input.checkbox#agreementRQ",
+      "form-input.upload",
+      "form-submit"
+    ],
+    "blocks": ["form-success"]
+  },
+  "form-success": {
+    "children": [
+      "rich-text#successSubmit"
+    ]
+  },
+  "rich-text#successSubmit": {
+    "props": {
+      "text": "Succesfully submitted the data!",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "form-input.text#nomeRQ": {
+    "props": {
+      "pointer": "#/properties/nome"
+    }
+  },
+  "form-input.text#emailRQ": {
+    "props": {
+      "label": "E-mail",
+      "pointer": "#/properties/email",
+      "placeholder": "E-mail"
+    }
+  },
+  "form-input.text#telefoneRQ": {
+    "props": {
+      "label": "Telefone",
+      "pointer": "#/properties/telefone",
+      "placeholder": "Telefone"
+    }
+  },
+
+  "form-input.upload": {
+    "props": {
+      "pointer": "#/properties/orcamento"
+    }
+  },
+  "form-input.checkbox#agreementRQ": {
+    "props": {
+      "pointer": "#/properties/aceitoTermos",
+      "label": "Aceita com os termos de condições?"
+    }
+  },
+  "form-submit": {
+    "props": {
+      "label": "Submit"
+    }
+  }
+}

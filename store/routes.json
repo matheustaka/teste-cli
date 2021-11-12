@@ -1,153 +1,158 @@
 {
-    "store.custom#calculadora": {
-        "path": "/calculadora",
-        "isSitemapEntry": true
-    },
-    "store.custom#old-orders": {
-        "path": "/old-orders",
-        "isSitemapEntry": true
-    },
-    "store.custom#brand-manifest": {
-        "path": "/manifesto-da-marca",
-        "isSitemapEntry": true
-    },
-    "store.custom#sales-channels": {
-        "path": "/canais-de-vendas",
-        "isSitemapEntry": true
-    },
-    "store.custom#our-stores": {
-        "path": "/nossas-lojas",
-        "isSitemapEntry": true
-    },
-    "store.custom#work-with-us": {
-        "path": "/work-with-us",
-        "isSitemapEntry": true
-    },
-    "store.custom#be-a-supplier": {
-        "path": "/seja-um-fornecedor",
-        "isSitemapEntry": true
-    },
-    "store.custom#lowest-price": {
-        "path": "/menor-preco",
-        "isSitemapEntry": true
-    },
-    "store.custom#return-or-exchange": {
-        "path": "/devolucao-ou-troca",
-        "isSitemapEntry": true
-    },
-    "store.custom#delivery": {
-        "path": "/entrega",
-        "isSitemapEntry": true
-    },
-    "store.custom#payment": {
-        "path": "/pagamento",
-        "isSitemapEntry": true
-    },
-    "store.custom#withdraw-in-store": {
-        "path": "/retire-em-loja",
-        "isSitemapEntry": true
-    },
-    "store.custom#privacy": {
-        "path": "/privacidade",
-        "isSitemapEntry": true
-    },
-    "store.custom#express-freight": {
-        "path": "/frete-expresso",
-        "isSitemapEntry": true
-    },
-    "store.custom#cassol-card": {
-        "path": "/cartao-cassol",
-        "isSitemapEntry": true
-    },
-    "store.custom#extended-warranty": {
-        "path": "/garantia-estendida",
-        "isSitemapEntry": true
-    },
-    "store.custom#residential-assistance": {
-        "path": "/assistencia-residencial",
-        "isSitemapEntry": true
-    },
-    "store.custom#paint-factory": {
-        "path": "/fabrica-de-tintas",
-        "isSitemapEntry": true
-    },
-    "store.custom#budgets": {
-        "path": "/orcamentos",
-        "isSitemapEntry": true
-    },
-    "store.custom#payment-portal": {
-        "path": "/portal-de-pagamentos",
-        "isSitemapEntry": true
-    },
-    "store.custom#faq-cassol-card": {
-        "path": "/faq-cartao-cassol",
-        "isSitemapEntry": true
-    },
-    "store.custom#about-us": {
-        "path": "/quem-somos",
-        "isSitemapEntry": true
-    },
-    "store.custom#contact-us": {
-        "path": "/fale-conosco",
-        "isSitemapEntry": true
-    },
-    "store.custom#faq": {
-        "path": "/faq",
-        "isSitemapEntry": true
-    },
-    "store.custom#communication": {
-        "path": "/comunicado",
-        "isSitemapEntry": true
-    },
-    "store.custom#marketplace-policies": {
-        "path": "/politicamarketplace",
-        "isSitemapEntry": true
-    },
-    "store.custom#tabloide": {
-        "path": "/revista-cassol"
-    },
-    "store.custom#tabloide-rs": {
-        "path": "/tabloide_rs",
-        "isSitemapEntry": true
-    },
-    "store.custom#tabloide-pr": {
-        "path": "/tabloide_pr",
-        "isSitemapEntry": true
-    },
-    "store.custom#tabloide-sc": {
-        "path": "/tabloide_sc",
-        "isSitemapEntry": true
-    },
-    "store.custom#traineeCassol": {
-        "path": "/trainee-cassol"
-    },
-    "store.custom#especial-moveis": {
-        "path": "/especial-primavera"
-    },
-    "store.custom#cassol-conecta": {
-        "path": "/trabalhe-conosco"
-    },
-
-    "store.custom#tabloide2021": {
-        "path": "/tabloide",
-        "isSitemapEntry": true
-    },
-    "store.custom#world": {
-        "path": "/tabloide/pisos-e-revestimentos"
-    },
-    "store.custom#especial-inverno": {
-        "path": "/especial-cassol"
-    },
-    "store.custom#outlet-casa-e-decor": {
-        "path": "/festival-das-tintas"
-    },
-    "store.custom#aniver-cassol": {
-        "path": "/natal-cassol"
-    },
-    "store.custom#landing-marketplace": {
-        "path": "/marketplace"
-    },
-    "store.custom#politicas-frete-gratis": {
-        "path": "/politicas-frete-gratis"
-    }
+  "store.custom#calculadora": {
+    "path": "/calculadora",
+    "isSitemapEntry": true
+  },
+  "store.custom#old-orders": {
+    "path": "/old-orders",
+    "isSitemapEntry": true
+  },
+  "store.custom#brand-manifest": {
+    "path": "/manifesto-da-marca",
+    "isSitemapEntry": true
+  },
+  "store.custom#sales-channels": {
+    "path": "/canais-de-vendas",
+    "isSitemapEntry": true
+  },
+  "store.custom#our-stores": {
+    "path": "/nossas-lojas",
+    "isSitemapEntry": true
+  },
+  "store.custom#work-with-us": {
+    "path": "/work-with-us",
+    "isSitemapEntry": true
+  },
+  "store.custom#be-a-supplier": {
+    "path": "/seja-um-fornecedor",
+    "isSitemapEntry": true
+  },
+  "store.custom#lowest-price": {
+    "path": "/menor-preco",
+    "isSitemapEntry": true
+  },
+  "store.custom#return-or-exchange": {
+    "path": "/devolucao-ou-troca",
+    "isSitemapEntry": true
+  },
+  "store.custom#delivery": {
+    "path": "/entrega",
+    "isSitemapEntry": true
+  },
+  "store.custom#payment": {
+    "path": "/pagamento",
+    "isSitemapEntry": true
+  },
+  "store.custom#withdraw-in-store": {
+    "path": "/retire-em-loja",
+    "isSitemapEntry": true
+  },
+  "store.custom#privacy": {
+    "path": "/privacidade",
+    "isSitemapEntry": true
+  },
+  "store.custom#express-freight": {
+    "path": "/frete-expresso",
+    "isSitemapEntry": true
+  },
+  "store.custom#cassol-card": {
+    "path": "/cartao-cassol",
+    "isSitemapEntry": true
+  },
+  "store.custom#extended-warranty": {
+    "path": "/garantia-estendida",
+    "isSitemapEntry": true
+  },
+  "store.custom#residential-assistance": {
+    "path": "/assistencia-residencial",
+    "isSitemapEntry": true
+  },
+  "store.custom#paint-factory": {
+    "path": "/fabrica-de-tintas",
+    "isSitemapEntry": true
+  },
+  "store.custom#budgets": {
+    "path": "/orcamentos",
+    "isSitemapEntry": true
+  },
+  "store.custom#payment-portal": {
+    "path": "/portal-de-pagamentos",
+    "isSitemapEntry": true
+  },
+  "store.custom#faq-cassol-card": {
+    "path": "/faq-cartao-cassol",
+    "isSitemapEntry": true
+  },
+  "store.custom#about-us": {
+    "path": "/quem-somos",
+    "isSitemapEntry": true
+  },
+  "store.custom#contact-us": {
+    "path": "/fale-conosco",
+    "isSitemapEntry": true
+  },
+  "store.custom#faq": {
+    "path": "/faq",
+    "isSitemapEntry": true
+  },
+  "store.custom#communication": {
+    "path": "/comunicado",
+    "isSitemapEntry": true
+  },
+  "store.custom#marketplace-policies": {
+    "path": "/politicamarketplace",
+    "isSitemapEntry": true
+  },
+  "store.custom#tabloide": {
+    "path": "/revista-cassol"
+  },
+  "store.custom#tabloide-rs": {
+    "path": "/tabloide_rs",
+    "isSitemapEntry": true
+  },
+  "store.custom#tabloide-pr": {
+    "path": "/tabloide_pr",
+    "isSitemapEntry": true
+  },
+  "store.custom#tabloide-sc": {
+    "path": "/tabloide_sc",
+    "isSitemapEntry": true
+  },
+  "store.custom#traineeCassol": {
+    "path": "/trainee-cassol"
+  },
+  "store.custom#especial-moveis": {
+    "path": "/especial-primavera"
+  },
+  "store.custom#cassol-conecta": {
+    "path": "/trabalhe-conosco"
+  },
+  "store.custom#tabloide2021": {
+    "path": "/tabloide",
+    "isSitemapEntry": true
+  },
+  "store.custom#world": {
+    "path": "/tabloide/pisos-e-revestimentos"
+  },
+  "store.custom#especial-inverno": {
+    "path": "/especial-cassol"
+  },
+  "store.custom#outlet-casa-e-decor": {
+    "path": "/festival-das-tintas"
+  },
+  "store.custom#aniver-cassol": {
+    "path": "/natal-cassol"
+  },
+  "store.custom#landing-marketplace": {
+    "path": "/marketplace"
+  },
+  "store.custom#politicas-frete-gratis": {
+    "path": "/politicas-frete-gratis"
+  },
+  "store.custom#especial-climatizacao": {
+    "path": "/"
+  },
+  "store.custom#request-quote": {
+    "path": "/"
+  }
 }
