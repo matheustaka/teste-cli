@@ -56,7 +56,8 @@
     "props": {
       "marginRight": 5,
       "marginLeft": 5,
-      "preventVerticalStretch": true
+      "preventVerticalStretch": true,
+      "blockClass":[""]
     },
     "children": [
       "image#mainMini-1"

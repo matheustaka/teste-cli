@@ -21,7 +21,7 @@
   },
   "rich-text#example": {
     "props": {
-      "text": "<a class='vtex-rich-text-0-x-link--atendimento' href='#' target='_blank'><img class='vtex-rich-text-0-x-image--atendimento' src='https://cassol.vtexassets.com/arquivos/whatsappIco.png'></a>",
+      "text": "<a class='vtex-rich-text-0-x-link--atendimento' href='#' target='_blank'><img class='vtex-rich-text-0-x-image--atendimento ' src='https://homolog--cassol.vteximg.com.br/arquivos/zap.png'></a>",
       "blockClass": "atendimento"
     }
   },
@@ -29,22 +29,33 @@
     "props": {
       "scroll": "content",
       "fullScreen": false,
-      "blockClass": ["modalTriggerWhats"]
+      "blockClass": [
+        "modalTriggerWhats"
+      ]
     },
     "children": [
       "flex-layout.row#whats-atendimento",
       "flex-layout.row#whats-links"
     ]
   },
+  "modal-actions.close#whatsButton": {
+    "props": {
+      "label": "X",
+      "blockClass": [
+        "closeWhats"
+      ]
+    }
+  },
   "flex-layout.row#whats-atendimento": {
     "props": {
-      "colSizing": "auto"
+      "colSizing": "auto",
+      "blockClass":["whatsHeader"]
     },
     "children": [
+      "modal-actions.close#whatsButton",
       "rich-text#whatsTitle"
     ]
   },
-
   "rich-text#whatsTitle": {
     "props": {
       "text": " **Fale com nossa equipe de atendimento** ",
@@ -66,14 +77,18 @@
   },
   "rich-text#whats-cartao": {
     "props": {
-      "text": "<a class='vtex-rich-text-0-x-paragraph--linkW' href='https://wa.me/554840072018' target='_blank'><img class='vtex-rich-text-0-x-image--atendimento' src='https://cassol.vtexassets.com/arquivos/whatsapp.png'>Cartão Cassol</a>",
-      "blockClass": ["linkContainer"]
+      "text": "<a class='vtex-rich-text-0-x-paragraph--linkW' href='https://wa.me/554840072018' target='_blank'><img class='vtex-rich-text-0-x-image--whatsIcon' src='https://cassol.vtexassets.com/arquivos/whatsapp.png'>Cartão Cassol</a>",
+      "blockClass": [
+        "linkContainer"
+      ]
     }
   },
   "rich-text#whats-televendas": {
     "props": {
-      "text": "<a class='vtex-rich-text-0-x-paragraph--linkW' href='https://wa.me/554840011515' target='_blank'><img class='vtex-rich-text-0-x-image--atendimento' src='https://cassol.vtexassets.com/arquivos/whatsapp.png'>Televendas</a>",
-      "blockClass": ["linkContainer"]
+      "text": "<a class='vtex-rich-text-0-x-paragraph--linkW' href='https://wa.me/554840011515' target='_blank'><img class='vtex-rich-text-0-x-image--whatsIcon' src='https://cassol.vtexassets.com/arquivos/whatsapp.png'>Televendas</a>",
+      "blockClass": [
+        "linkContainer"
+      ]
     }
   }
 }

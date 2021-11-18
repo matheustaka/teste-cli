@@ -27,7 +27,6 @@
 @media (max-width: 575.98px)  {
   .containerNormal {
     max-width: 300px;
-    margin: 0;
   }
 }
 
@@ -137,7 +136,7 @@
   max-height: inherit;
 }
 
-.element :global(.vtex-flex-layout-0-x-flexRowContent--group-price) :first-child:global(.vtex-flex-layout-0-x-stretchChildrenWidth){  
+.element :global(.vtex-flex-layout-0-x-flexRowContent--group-price) :first-child:global(.vtex-flex-layout-0-x-stretchChildrenWidth){
   height: inherit;
 }
 
@@ -153,7 +152,6 @@
   }
 
   .containerNormal{
-    max-width: none !important;
     box-shadow: none;
   }
 }
