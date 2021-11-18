@@ -21,7 +21,7 @@
   },
   "rich-text#example": {
     "props": {
-      "text": "<a class='vtex-rich-text-0-x-link--atendimento' href='#' target='_blank'><img class='vtex-rich-text-0-x-image--atendimento ' src='https://homolog--cassol.vteximg.com.br/arquivos/zap.png'></a>",
+      "text": "<a class='vtex-rich-text-0-x-link--atendimento' href='#' target='_blank'><img class='vtex-rich-text-0-x-image--atendimento ' src='https://cassol.vteximg.com.br/arquivos/zap.png'></a>",
       "blockClass": "atendimento"
     }
   },
@@ -77,7 +77,7 @@
   },
   "rich-text#whats-cartao": {
     "props": {
-      "text": "<a class='vtex-rich-text-0-x-paragraph--linkW' href='https://wa.me/554840072018' target='_blank'><img class='vtex-rich-text-0-x-image--whatsIcon' src='https://cassol.vtexassets.com/arquivos/whatsapp.png'>Cartão Cassol</a>",
+      "text": "<a class='vtex-rich-text-0-x-paragraph--linkW' href='https://wa.me/554840072018' target='_blank'><img class='vtex-rich-text-0-x-image--whatsIcon' src='https://cassol.vteximg.com.br/arquivos/zap.png'>Cartão Cassol</a>",
       "blockClass": [
         "linkContainer"
       ]
@@ -85,7 +85,7 @@
   },
   "rich-text#whats-televendas": {
     "props": {
-      "text": "<a class='vtex-rich-text-0-x-paragraph--linkW' href='https://wa.me/554840011515' target='_blank'><img class='vtex-rich-text-0-x-image--whatsIcon' src='https://cassol.vtexassets.com/arquivos/whatsapp.png'>Televendas</a>",
+      "text": "<a class='vtex-rich-text-0-x-paragraph--linkW' href='https://wa.me/554840011515' target='_blank'><img class='vtex-rich-text-0-x-image--whatsIcon' src='https://cassol.vteximg.com.br/arquivos/zap.png'>Televendas</a>",
       "blockClass": [
         "linkContainer"
       ]

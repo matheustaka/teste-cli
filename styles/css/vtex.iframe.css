@@ -1,6 +1,1 @@
-.container--tabloideContainer {
-  height: calc(90vh - 30px);
-  margin: 30px 0;
-  padding: 0 15px;
-  width: 100%;
-}
+.container--tabloideContainer{height:calc(90vh - 30px);margin:30px 0;padding:0 15px;width:100%}

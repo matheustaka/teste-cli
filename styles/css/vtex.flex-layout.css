@@ -1321,4 +1321,8 @@
   .flexRowContent--whatsHeader {
     display: flex;
   }
+
+  .flexRow--atendimentoSection {
+    top: 85%;
+  }
 }
