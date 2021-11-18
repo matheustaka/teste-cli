@@ -910,7 +910,11 @@
 }
 
 .image--atendimento {
-  max-height: 25px;
+  max-width: 50px;
+  margin: 0 10px;
+}
+.image--whatsIcon {
+  max-width: 30px;
   margin: 0 10px;
 }
 
@@ -919,8 +923,6 @@
   color: #2a2a2a;
   display: flex;
   align-items: center;
-  border: solid 1px #f4f4f4f4;
-  background-color: #fff;
   border-radius: 5px;
   padding: 5px;
 }
@@ -931,7 +933,17 @@
   color: #184077;
   font-weight: bold;
   text-decoration: none;
+  width: 200px;
+  max-width: 100%;
+  margin: 0 auto;
 }
+
+.wrapper--linkContainer {
+  width: 100%;
+  max-width: 95%;
+  margin: 0 auto;
+}
+
 
 .container--linkContainer {
   justify-content: center;

@@ -255,6 +255,7 @@
       "flex-layout.row#searchinfomobile",
       "flex-layout.row#productCountMobile",
       "flex-layout.row#contentmobile",
+      "search-fetch-previous",
       "flex-layout.row#fetchmore"
     ],
     "props": {

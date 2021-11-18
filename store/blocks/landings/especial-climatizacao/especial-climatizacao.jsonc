@@ -1,0 +1,303 @@
+{
+  "store.custom#especial-climatizacao": {
+    "blocks": [
+      "responsive-layout.desktop#desktop",
+      "responsive-layout.mobile#mobile"
+    ]
+  },
+  "responsive-layout.desktop#desktop": {
+    "children": [
+      "list-context.image-list#main",
+      "flex-layout.row#mainMiniBanners",
+      "flex-layout.row#productShelf",
+      "flex-layout.row#mainMiniBanners-2",
+      "flex-layout.row#productShelf-2",
+      "flex-layout.row#productShelf-3",
+      "flex-layout.row#bannersLp"
+    ]
+  },
+  "responsive-layout.mobile#mobile": {
+    "children": [
+      "list-context.image-list#main",
+      "flex-layout.row#mainMiniBanners",
+      "flex-layout.row#productShelf",
+      "flex-layout.row#mainMiniBanners-2",
+      "flex-layout.row#productShelf-2",
+      "flex-layout.row#productShelf-3",
+      "flex-layout.row#bannersLp"
+    ]
+  },
+  "list-context.image-list#main": {
+    "children": [
+      "slider-layout#banner-principal"
+    ],
+    "props": {
+      "images": [
+        {
+          "image": "assets/especial/climatizacao/mainDesktop.jpg",
+          "mobileImage": "assets/especial/climatizacao/mainMobile.jpg"
+        }
+      ]
+    }
+  },
+  "flex-layout.row#mainMiniBanners": {
+    "props": {
+      "blockClass": [
+        "mainContent",
+        "especialMiniBanners"
+      ]
+    },
+    "children": [
+      "flex-layout.col#image1",
+      "flex-layout.col#image2"
+    ]
+  },
+  "flex-layout.col#image1": {
+    "props": {
+      "marginRight": 5,
+      "marginLeft": 5,
+      "preventVerticalStretch": true,
+      "blockClass":[""]
+    },
+    "children": [
+      "image#mainMini-1"
+    ]
+  },
+  "flex-layout.col#image2": {
+    "props": {
+      "marginRight": 5,
+      "marginLeft": 5,
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "image#mainMini-2"
+    ]
+  },
+  "image#mainMini-1": {
+    "props": {
+      "src": "assets/especial/climatizacao/miniBanner1.jpg"
+    }
+  },
+  "image#mainMini-2": {
+    "props": {
+      "src": "assets/especial/climatizacao/miniBanner1.jpg"
+    }
+  },
+  "flex-layout.row#productShelf": {
+    "props": {
+      "blockClass": [
+        "mainContent"
+      ]
+    },
+    "children": [
+      "flex-layout.col#productShelf"
+    ]
+  },
+  "flex-layout.col#productShelf": {
+    "props": {
+      "fullWidth": true
+    },
+    "children": [
+      "rich-text#productShelfTitle",
+      "list-context.product-list#productShelf"
+    ]
+  },
+  "rich-text#productShelfTitle": {
+    "props": {
+      "text": "## Acabaram de Chegar",
+      "blockClass": "shelfTitle"
+    }
+  },
+  "list-context.product-list#productShelf": {
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "children": [
+      "slider-layout#productShelf"
+    ],
+    "props": {
+      "orderBy": "OrderByBestDiscountDESC",
+      "hideUnavailableItems": true,
+      "collection": "806"
+    }
+  },
+  "slider-layout#productShelf": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 2
+      },
+      "showNavigationArrows": "always",
+      "showPaginationDots": "always",
+      "infinite": true,
+      "fullWidth": true,
+      "usePagination": true,
+      "blockClass": [
+        "especial"
+      ]
+    }
+  },
+  "flex-layout.row#mainMiniBanners-2": {
+    "props": {
+      "blockClass": [
+        "mainContent",
+        "especialMiniBanners"
+      ]
+    },
+    "children": [
+      "flex-layout.col#image3",
+      "flex-layout.col#image4"
+    ]
+  },
+
+  "flex-layout.col#image3": {
+    "props": {
+      "marginRight": 5,
+      "marginLeft": 5,
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "image#mainMini-3"
+    ]
+  },
+  "image#mainMini-3": {
+    "props": {
+      "src": "assets/especial/climatizacao/miniBanner1.jpg"
+    }
+  },
+
+  "flex-layout.col#image4": {
+    "props": {
+      "marginRight": 5,
+      "marginLeft": 5,
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "image#mainMini-4"
+    ]
+  },
+  "image#mainMini-4": {
+    "props": {
+      "src": "assets/especial/climatizacao/miniBanner1.jpg"
+    }
+  },
+  //  VITRINE DE PRODUTO
+  "flex-layout.row#productShelf-2": {
+    "props": {
+      "blockClass": [
+        "mainContent"
+      ]
+    },
+    "children": [
+      "flex-layout.col#productShelf-2"
+    ]
+  },
+  "flex-layout.col#productShelf-2": {
+    "props": {
+      "fullWidth": true
+    },
+    "children": [
+      "rich-text#productShelfTitle-2",
+      "list-context.product-list#productShelf-2"
+    ]
+  },
+  "rich-text#productShelfTitle-2": {
+    "props": {
+      "text": "## Vitrine de produtos",
+      "blockClass": "shelfTitle"
+    }
+  },
+  "list-context.product-list#productShelf-2": {
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "children": [
+      "slider-layout#productShelf"
+    ],
+    "props": {
+      "orderBy": "OrderByBestDiscountDESC",
+      "hideUnavailableItems": true,
+      "collection": "806",
+      "blockClass": [
+        "especial"
+      ]
+    }
+  },
+  //  VITRINE DE PRODUTO
+  "flex-layout.row#productShelf-3": {
+    "props": {
+      "blockClass": [
+        "mainContent"
+      ]
+    },
+    "children": [
+      "flex-layout.col#productShelf-3"
+    ]
+  },
+  "flex-layout.col#productShelf-3": {
+    "props": {
+      "fullWidth": true
+    },
+    "children": [
+      "rich-text#productShelfTitle-3",
+      "list-context.product-list#productShelf-3"
+    ]
+  },
+  "rich-text#productShelfTitle-3": {
+    "props": {
+      "text": "## Vitrine de produtos",
+      "blockClass": "shelfTitle"
+    }
+  },
+  "list-context.product-list#productShelf-3": {
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "children": [
+      "slider-layout#productShelf"
+    ],
+    "props": {
+      "orderBy": "OrderByBestDiscountDESC",
+      "hideUnavailableItems": true,
+      "collection": "806"
+    }
+  },
+  "flex-layout.row#bannersLp": {
+    "props": {
+      "blockClass": [
+        "mainContent"
+      ]
+    },
+    "children": [
+      "flex-layout.col#bannersLp"
+    ]
+  },
+  "flex-layout.col#bannersLp": {
+    "props": {
+      "blockClass": [
+        "mainContent"
+      ]
+    },
+    "children": [
+      "image#bannerLp",
+      "image#bannerLp-2",
+      "image#bannerLp-3"
+    ]
+  },
+  "image#bannerLp": {
+    "props": {
+      "src": "assets/especial/climatizacao/bannerFinal.jpg"
+    }
+  },
+  "image#bannerLp-2": {
+    "props": {
+      "src": "assets/especial/climatizacao/bannerFinal.jpg"
+    }
+  },
+  "image#bannerLp-3": {
+    "props": {
+      "src": "assets/especial/climatizacao/bannerFinal.jpg"
+    }
+  }
+}

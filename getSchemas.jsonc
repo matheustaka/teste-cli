@@ -1,0 +1,96 @@
+[
+  {
+    "name": "mdv1",
+    "schema": {
+      "properties": {
+        "email": {
+          "type": "string",
+          "format": "email",
+          "title": "Email"
+        },
+        "nome": {
+          "type": "string",
+          "maxLength": 50,
+          "title": "Nome"
+        },
+        "telefone": {
+          "type": "string",
+          "format": "telefone",
+          "title": "phone"
+        },
+        "orcamento": {
+          "type": "file",
+          "title": "Orçamento"
+        },
+        "aceitoTermos": {
+          "type": "boolean",
+          "title": "Aceita os termos e condições?"
+        },
+        "documentType": {
+          "type": "string",
+          "maxLength": 50,
+          "title": "Tipo documento"
+        },
+        "id": {
+          "type": "string",
+          "maxLength": 100,
+          "title": "Id do documento"
+        }
+      },
+      "required": [
+        "email"
+      ],
+      "v-indexed": [
+        "email",
+        "nome",
+        "telefone",
+        "aceitoTermos",
+        "orcamento"
+      ],
+      "v-security": {
+        "publicJsonSchema": true,
+        "allowGetAll": false
+      }
+    }
+  },
+  // MDV2
+  {
+    "title": "request-a-quotev2",
+    "type": "object",
+    "properties": {
+      "name": {
+        "type": "string",
+        "title": "request-a-quotev2"
+      },
+      "nome": {
+        "type": "string",
+        "title": "Nome"
+      },
+      "telefone": {
+        "type": "string",
+        "title": "Telefone",
+        "format": "phone"
+      },
+      "email": {
+        "type": "string",
+        "format": "email",
+        "title": "E-mail"
+      },
+      "agreement": {
+        "type": "boolean",
+        "title": "Aceita os termos e condições?"
+      },
+      "orcamento": {
+        "type": "file",
+        "maximum": "15MB"
+      }
+    },
+    "required": [
+      "email"
+    ],
+    "v-security": {
+      "publicJsonSchema": true,
+      "allowGetAll": true
+    }
+  }
+]
