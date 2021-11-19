@@ -1,0 +1,78 @@
+{
+    "store.custom#especial-blackfriday": {
+        "blocks": [
+            "responsive-layout.desktop#desktop",
+            "responsive-layout.mobile#mobile"
+        ]
+    },
+    "responsive-layout.desktop#desktop": {
+        "children": [
+            "list-context.image-list#main",
+            "flex-layout.row#mainMiniBanners",
+            "flex-layout.row#productShelf",
+            "flex-layout.row#mainMiniBanners-2",
+            "flex-layout.row#productShelf-2",
+            "flex-layout.row#productShelf-3",
+            "flex-layout.row#bannersLp"
+        ]
+    },
+    "responsive-layout.mobile#mobile": {
+        "children": [
+            "list-context.image-list#main",
+            "flex-layout.row#mainMiniBanners",
+            "flex-layout.row#productShelf",
+            "flex-layout.row#mainMiniBanners-2",
+            "flex-layout.row#productShelf-2",
+            "flex-layout.row#productShelf-3",
+            "flex-layout.row#bannersLp"
+        ]
+    },
+    "list-context.image-list#main": {
+        "children": [
+            "slider-layout#banner-principal"
+        ],
+        "props": {
+            "images": [
+                {
+                    "image": "assets/especial/climatizacao/mainDesktop.jpg",
+                    "mobileImage": "assets/especial/climatizacao/mainMobile.jpg"
+                }
+            ]
+        }
+    },
+    "flex-layout.row#mainMiniBanners": {
+        "props": {
+            "blockClass": [
+                "mainContent",
+                "especialMiniBanners"
+            ]
+        },
+        "children": [
+            "flex-layout.col#image1",
+            "flex-layout.col#image2"
+        ]
+    },
+    "flex-layout.col#image1": {
+        "props": {
+            "marginRight": 5,
+            "marginLeft": 5,
+            "preventVerticalStretch": true,
+            "blockClass": [
+                ""
+            ]
+        },
+        "children": [
+            "image#mainMini-1"
+        ]
+    },
+    "flex-layout.col#image2": {
+        "props": {
+            "marginRight": 5,
+            "marginLeft": 5,
+            "preventVerticalStretch": true
+        },
+        "children": [
+            "image#mainMini-2"
+        ]
+    }
+}

@@ -154,5 +154,9 @@
   },
   "store.custom#request-quote": {
     "path": "/"
+  },
+
+  "store.custom#especial-blackfriday": {
+    "path": "/"
   }
 }
