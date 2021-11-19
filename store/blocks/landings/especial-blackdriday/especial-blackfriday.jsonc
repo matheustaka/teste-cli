@@ -1,78 +1,188 @@
 {
-    "store.custom#especial-blackfriday": {
-        "blocks": [
-            "responsive-layout.desktop#desktop",
-            "responsive-layout.mobile#mobile"
-        ]
-    },
-    "responsive-layout.desktop#desktop": {
-        "children": [
-            "list-context.image-list#main",
-            "flex-layout.row#mainMiniBanners",
-            "flex-layout.row#productShelf",
-            "flex-layout.row#mainMiniBanners-2",
-            "flex-layout.row#productShelf-2",
-            "flex-layout.row#productShelf-3",
-            "flex-layout.row#bannersLp"
-        ]
-    },
-    "responsive-layout.mobile#mobile": {
-        "children": [
-            "list-context.image-list#main",
-            "flex-layout.row#mainMiniBanners",
-            "flex-layout.row#productShelf",
-            "flex-layout.row#mainMiniBanners-2",
-            "flex-layout.row#productShelf-2",
-            "flex-layout.row#productShelf-3",
-            "flex-layout.row#bannersLp"
-        ]
-    },
-    "list-context.image-list#main": {
-        "children": [
-            "slider-layout#banner-principal"
-        ],
-        "props": {
-            "images": [
-                {
-                    "image": "assets/especial/climatizacao/mainDesktop.jpg",
-                    "mobileImage": "assets/especial/climatizacao/mainMobile.jpg"
-                }
-            ]
+  "store.custom#especial-blackfriday": {
+    "blocks": [
+      "responsive-layout.desktop#especialBlack",
+      "responsive-layout.mobile#especialBlack"
+    ]
+  },
+  "responsive-layout.desktop#especialBlack": {
+    "children": [
+      "list-context.image-list#mainBlack",
+      "flex-layout.row#miniBannersBlack",
+      "flex-layout.row#productShelfBlack",
+      "flex-layout.row#departmentBanners"
+    ]
+  },
+  "responsive-layout.mobile#especialBlack": {
+    "children": [
+      "list-context.image-list#mainBlack",
+      "flex-layout.row#miniBannersBlack",
+      "flex-layout.row#productShelfBlack",
+      "flex-layout.row#departmentBanners"
+    ]
+  },
+  "list-context.image-list#mainBlack": {
+    "children": [
+      "slider-layout#banner-principal"
+    ],
+    "props": {
+      "images": [
+        {
+          "image": "assets/especial/blackfriday/main.png",
+          "mobileImage": "assets/especial/blackfriday/mainMobile.png"
         }
-    },
-    "flex-layout.row#mainMiniBanners": {
-        "props": {
-            "blockClass": [
-                "mainContent",
-                "especialMiniBanners"
-            ]
-        },
-        "children": [
-            "flex-layout.col#image1",
-            "flex-layout.col#image2"
-        ]
-    },
-    "flex-layout.col#image1": {
-        "props": {
-            "marginRight": 5,
-            "marginLeft": 5,
-            "preventVerticalStretch": true,
-            "blockClass": [
-                ""
-            ]
-        },
-        "children": [
-            "image#mainMini-1"
-        ]
-    },
-    "flex-layout.col#image2": {
-        "props": {
-            "marginRight": 5,
-            "marginLeft": 5,
-            "preventVerticalStretch": true
-        },
-        "children": [
-            "image#mainMini-2"
-        ]
+      ]
     }
+  },
+
+
+  "flex-layout.row#miniBannersBlack": {
+    "props": {
+      "props": {
+        "colsizing": "auto"
+      },
+      "blockClass": [
+        "especialContent"
+      ]
+    },
+    "children": [
+      "flex-layout.col#miniBannersBlack"
+    ]
+  },
+  "flex-layout.col#miniBannersBlack": {
+    "props": {
+      "blockClass": [
+        "especialContent"
+      ]
+    },
+    "children": [
+      "rich-text#blackTitle",
+      "flex-layout.row#miniBannersBlack-1"
+    ]
+  },
+  "flex-layout.row#miniBannersBlack-1": {
+    "props": {
+      "preventHorizontalStertch": true,
+      "blockClass": [
+        "miniBannerBlack"
+      ]
+    },
+    "children": [
+      "flex-layout.col#miniBannersBlack-33"
+    ]
+  },
+
+  "flex-layout.col#miniBannersBlack-33": {
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass": [
+        "miniBannerColumn"
+      ]
+    },
+    "children": [
+      "image#miniBannerBlack",
+      "image#miniBannerBlack",
+      "image#miniBannerBlack",
+      "image#miniBannerBlack",
+      "image#miniBannerBlack",
+      "image#miniBannerBlack"
+    ]
+  },
+  "rich-text#blackTitle": {
+    "props": {
+      "text": "## Blackfriday"
+    }
+  },
+  "image#miniBannerBlack": {
+    "props": {
+      "src": "assets/especial/blackfriday/mini.png",
+      "blockClass": ["miniBannerBlack"]
+    }
+  },
+
+
+  "flex-layout.row#productShelfBlack": {
+    "props": {
+      "blockClass": [
+        "especialContent"
+      ]
+    },
+    "children": [
+      "flex-layout.col#productShelfBlack"
+    ]
+  },
+  "flex-layout.col#productShelfBlack": {
+    "props": {
+      "fullWidth": true
+    },
+    "children": [
+      "rich-text#productShelfTitleBlack",
+      "list-context.product-list#productShelfBlack"
+    ]
+  },
+  "rich-text#productShelfTitleBlack": {
+    "props": {
+      "text": "## Acabaram de Chegar",
+      "blockClass": "shelfTitle"
+    }
+  },
+  "list-context.product-list#productShelfBlack": {
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "children": [
+      "slider-layout#productShelf"
+    ],
+    "props": {
+      "orderBy": "OrderByBestDiscountDESC",
+      "hideUnavailableItems": true,
+      "collection": "806"
+    }
+  },
+  "slider-layout#productShelfBlack": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 2
+      },
+      "showNavigationArrows": "always",
+      "showPaginationDots": "always",
+      "infinite": true,
+      "fullWidth": true,
+      "usePagination": true,
+      "blockClass": [
+        "especial"
+      ]
+    }
+  },
+
+  "flex-layout.row#departmentBanners": {
+    "props": {
+      "blockClass": [
+        "especialContent"
+      ]
+    },
+    "children": [
+      "flex-layout.col#departmentBanners"
+    ]
+  },
+  "flex-layout.col#departmentBanners": {
+    "props": {
+      "fullWidth": true,
+      "blockClass": ["departmentBanners"]
+    },
+    "children": [
+      "image#departmentBanner",
+      "image#departmentBanner",
+      "image#departmentBanner",
+      "image#departmentBanner"
+    ]
+  },
+
+  "image#departmentBanner": {
+    "props": {
+      "src": "assets/especial/blackfriday/departmentBanner.png"
+    }
+  }
 }
