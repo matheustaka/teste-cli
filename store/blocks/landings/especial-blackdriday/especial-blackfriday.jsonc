@@ -34,15 +34,11 @@
       ]
     }
   },
-
-
   "flex-layout.row#miniBannersBlack": {
     "props": {
-      "props": {
-        "colsizing": "auto"
-      },
       "blockClass": [
-        "especialContent"
+        "especialContent",
+        "blackContent"
       ]
     },
     "children": [
@@ -71,7 +67,6 @@
       "flex-layout.col#miniBannersBlack-33"
     ]
   },
-
   "flex-layout.col#miniBannersBlack-33": {
     "props": {
       "preventVerticalStretch": true,
@@ -90,21 +85,25 @@
   },
   "rich-text#blackTitle": {
     "props": {
-      "text": "## Blackfriday"
+      "text": "## Blackfriday",
+      "blockClass": [
+        "blackTitle"
+      ]
     }
   },
   "image#miniBannerBlack": {
     "props": {
       "src": "assets/especial/blackfriday/mini.png",
-      "blockClass": ["miniBannerBlack"]
+      "blockClass": [
+        "miniBannerBlack"
+      ]
     }
   },
-
-
   "flex-layout.row#productShelfBlack": {
     "props": {
       "blockClass": [
-        "especialContent"
+        "especialContent",
+        "blackContent"
       ]
     },
     "children": [
@@ -123,7 +122,10 @@
   "rich-text#productShelfTitleBlack": {
     "props": {
       "text": "## Acabaram de Chegar",
-      "blockClass": "shelfTitle"
+      "blockClass": [
+        "shelfTitle",
+        "blackTitle"
+      ]
     }
   },
   "list-context.product-list#productShelfBlack": {
@@ -156,11 +158,11 @@
       ]
     }
   },
-
   "flex-layout.row#departmentBanners": {
     "props": {
       "blockClass": [
-        "especialContent"
+        "especialContent",
+        "blackContent"
       ]
     },
     "children": [
@@ -170,7 +172,9 @@
   "flex-layout.col#departmentBanners": {
     "props": {
       "fullWidth": true,
-      "blockClass": ["departmentBanners"]
+      "blockClass": [
+        "departmentBanners"
+      ]
     },
     "children": [
       "image#departmentBanner",
@@ -179,7 +183,6 @@
       "image#departmentBanner"
     ]
   },
-
   "image#departmentBanner": {
     "props": {
       "src": "assets/especial/blackfriday/departmentBanner.png"

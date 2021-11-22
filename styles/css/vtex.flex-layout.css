@@ -520,8 +520,14 @@
   max-width: 1250px;
   margin: auto;
 }
-.flexRow--whatsHeader {
+
+.flexRow--whatsHeader,
+.flexRowContent--whatsHeader {
   position: relative;
+}
+
+.flexRow--blackContent {
+  background-color: #1a1a1a;
 }
 @media (min-width: 992px) {
   .flexRowContent--newsletter-input-name :global(.vtex-input-prefix__group) {
@@ -1294,8 +1300,8 @@
   max-width: 404px;
 }
 
-
-.flexRowContent--especialContent, .flexColChild--departmentBanners {
+.flexRowContent--especialContent,
+.flexColChild--departmentBanners {
   padding: 1rem 0;
 }
 

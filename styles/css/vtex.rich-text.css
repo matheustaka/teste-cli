@@ -948,6 +948,11 @@
 .container--linkContainer {
   justify-content: center;
 }
+
+/* Black Theme */
+.heading--blackTitle {
+  color: #d61016;
+}
 @media (max-width: 400px) {
   .wrapper--shelfTitle .heading--shelfTitle,
   .heading--richTextContainer {
