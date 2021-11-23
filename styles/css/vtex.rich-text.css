@@ -944,9 +944,16 @@
   margin: 0 auto;
 }
 
-
+.paragraph--atendimentoText {
+  margin-top: 22px;
+}
 .container--linkContainer {
   justify-content: center;
+}
+
+/* Black Theme */
+.wrapper--blackTitle .heading--blackTitle {
+  color: #e3ae0a;
 }
 @media (max-width: 400px) {
   .wrapper--shelfTitle .heading--shelfTitle,

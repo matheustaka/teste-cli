@@ -34,6 +34,10 @@
   display: none;
 }
 
+:global(.vtex-flex-layout-0-x-flexRowContent--miniBannerBlack) .flex {
+  flex-basis: 33%;
+}
+
 /* LANDING PAGE MARKETPLACE */
 :global(.mktplaceStepDesc) {
   font-size: 16px;

@@ -60,7 +60,8 @@
     "props": {
       "text": " **Fale com nossa equipe de atendimento** ",
       "textPosition": "CENTER",
-      "textAlignment": "CENTER"
+      "textAlignment": "CENTER",
+      "blockClass": ["atendimentoText"]
     }
   },
   "flex-layout.row#whats-links": {

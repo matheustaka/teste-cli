@@ -71,7 +71,8 @@
         "highlightNames": [
           "Coleção 10 produtos",
           "10%",
-          "5%"
+          "5%",
+          "Teste coleções"
         ],
         "type": "hide"
       }
@@ -87,6 +88,12 @@
     "children": [
       "product-highlight-text"
     ]
+  },
+
+  "image#selo": {
+    "props": {
+      "src": "assets/seloBlack.png"
+    }
   },
   "product-highlight-text": {
     "props": {
