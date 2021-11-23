@@ -673,7 +673,7 @@
 .flexRow--atendimentoSection {
   position: fixed;
   z-index: 9;
-  top: 48%;
+  top: 60%;
   animation: upAndDown 3s ease-in-out 1s infinite alternate;
 }
 
