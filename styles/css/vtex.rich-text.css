@@ -944,7 +944,9 @@
   margin: 0 auto;
 }
 
-
+.paragraph--atendimentoText {
+  margin-top: 22px;
+}
 .container--linkContainer {
   justify-content: center;
 }
