@@ -86,7 +86,6 @@
       "blockClass": "collection"
     },
     "children": [
-      "image#selo",
       "product-highlight-text"
     ]
   },

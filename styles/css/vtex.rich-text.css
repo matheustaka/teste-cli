@@ -950,8 +950,8 @@
 }
 
 /* Black Theme */
-.heading--blackTitle {
-  color: #d61016;
+.wrapper--blackTitle .heading--blackTitle {
+  color: #e3ae0a;
 }
 @media (max-width: 400px) {
   .wrapper--shelfTitle .heading--shelfTitle,
