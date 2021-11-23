@@ -34,8 +34,8 @@
     "props": {
       "images": [
         {
-          "image": "assets/especial/climatizacao/mainDesktop.jpg",
-          "mobileImage": "assets/especial/climatizacao/mainMobile.jpg"
+          "image": "assets/images/especial/climatizacao/mainDesktop.jpg",
+          "mobileImage": "assets/images/especial/climatizacao/mainMobile.jpg"
         }
       ]
     }
@@ -75,12 +75,12 @@
   },
   "image#mainMini-1": {
     "props": {
-      "src": "assets/especial/climatizacao/miniBanner1.jpg"
+      "src": "assets/images/especial/climatizacao/miniBanner1.jpg"
     }
   },
   "image#mainMini-2": {
     "props": {
-      "src": "assets/especial/climatizacao/miniBanner1.jpg"
+      "src": "assets/images/especial/climatizacao/miniBanner1.jpg"
     }
   },
   "flex-layout.row#productShelf": {
@@ -163,7 +163,7 @@
   },
   "image#mainMini-3": {
     "props": {
-      "src": "assets/especial/climatizacao/miniBanner1.jpg"
+      "src": "assets/images/especial/climatizacao/miniBanner1.jpg"
     }
   },
 
@@ -179,7 +179,7 @@
   },
   "image#mainMini-4": {
     "props": {
-      "src": "assets/especial/climatizacao/miniBanner1.jpg"
+      "src": "assets/images/especial/climatizacao/miniBanner1.jpg"
     }
   },
   //  VITRINE DE PRODUTO
@@ -287,17 +287,17 @@
   },
   "image#bannerLp": {
     "props": {
-      "src": "assets/especial/climatizacao/bannerFinal.jpg"
+      "src": "assets/images/especial/climatizacao/bannerFinal.jpg"
     }
   },
   "image#bannerLp-2": {
     "props": {
-      "src": "assets/especial/climatizacao/bannerFinal.jpg"
+      "src": "assets/images/especial/climatizacao/bannerFinal.jpg"
     }
   },
   "image#bannerLp-3": {
     "props": {
-      "src": "assets/especial/climatizacao/bannerFinal.jpg"
+      "src": "assets/images/especial/climatizacao/bannerFinal.jpg"
     }
   }
 }

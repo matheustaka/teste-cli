@@ -1,0 +1,9 @@
+.sliderLayoutContainer--deals {
+  background-color: #fff;
+  padding: 10px 0;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--shelf-container)
+  .sliderLayoutContainer.sliderLayoutContainer--shelf {
+  padding: 0 !important;
+}
