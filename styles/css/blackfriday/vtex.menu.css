@@ -15,3 +15,7 @@
 .styledLinkContainer--have-children .styledLink--department {
   color: #000;
 }
+
+.menuItem--department .submenuContainer .styledLinkContent {
+  color: #000;
+}

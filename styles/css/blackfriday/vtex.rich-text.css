@@ -24,3 +24,6 @@
 .wrapper--shelfTitle::after{
   content: none;
 }
+.paragraph--titulo-menu-department {
+  color: #000;
+}

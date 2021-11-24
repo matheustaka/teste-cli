@@ -1,0 +1,85 @@
+{
+  "vtex.product-highlights@2.x:product-highlights#seloBlack": {
+    "props": {
+      "type": "collection",
+      "filter": {
+        "highlightNames": [
+          "Selo Cupom BLACK10"
+        ],
+        "type": "show"
+      }
+    },
+    "children": [
+      "product-highlight-wrapper#selo-black"
+    ]
+  },
+  "product-highlight-wrapper#selo-black": {
+    "props": {
+      "blockClass": "blackCollection"
+    },
+    "children": [
+      "image#seloBlack"
+    ]
+  },
+  "image#seloBlack": {
+    "props": {
+      "src": "assets/images/black10.png"
+    }
+  },
+
+
+  "vtex.product-highlights@2.x:product-highlights#seloBlack-2": {
+    "props": {
+      "type": "collection",
+      "filter": {
+        "highlightNames": [
+          "Selo Cupom BLACK15"
+        ],
+        "type": "show"
+      }
+    },
+    "children": [
+      "product-highlight-wrapper#selo-black-2"
+    ]
+  },
+  "product-highlight-wrapper#selo-black-2": {
+    "props": {
+      "blockClass": "blackCollection"
+    },
+    "children": [
+      "image#seloBlack-2"
+    ]
+  },
+  "image#seloBlack-2": {
+    "props": {
+      "src": "assets/images/black15.png"
+    }
+  },
+  "vtex.product-highlights@2.x:product-highlights#seloBlack-3": {
+    "props": {
+      "type": "collection",
+      "filter": {
+        "highlightNames": [
+          "Selo Cupom BLACK15"
+        ],
+        "type": "show"
+      }
+    },
+    "children": [
+      "product-highlight-wrapper#selo-black-3"
+    ]
+  },
+  "product-highlight-wrapper#selo-black-3": {
+    "props": {
+      "blockClass": "blackCollection"
+    },
+    "children": [
+      "image#seloBlack-3"
+    ]
+  },
+  "image#seloBlack-3": {
+    "props": {
+      "src": "assets/images/black20.png"
+    }
+  }
+}
