@@ -8,6 +8,7 @@ function ProductPrice() {
   const productContext = React.useContext(ProductContext)
   const [unitMultiplier, setUnitMultiplier] = useState({})
   const [measurementUnit, setMeasurementUnit] = useState("")
+  const [categoryId, setCategoryId] = useState("")
 
   // 10% à vista
   const [discountSpot, setDiscountSpot] = useState([{}])
@@ -20,6 +21,7 @@ function ProductPrice() {
     setUnitMultiplier(productContext?.selectedItem?.unitMultiplier)
     setMeasurementUnit(productContext?.selectedItem?.measurementUnit)
     setDiscountSpot(productContext?.product?.productClusters)
+    setCategoryId(productContext?.product?.categoryId)
 
     setProductPrice(productContext?.product?.priceRange?.sellingPrice?.lowPrice)
 
@@ -47,7 +49,6 @@ function ProductPrice() {
     }
 
     let discountClusterId = found(clusterListIds)
-
     if (measurementUnit === "m²" || measurementUnit === "M2") {
       return (
 
@@ -55,15 +56,23 @@ function ProductPrice() {
           <div className="product-price-calc">
             <p>
 
-              <FormattedPrice value={priceCaixa} />
-              <span className="product-price__measurementUnit">/caixa</span>
+              {categoryId == "4726" ?
+                <FormattedPrice value={productContext?.product?.priceRange?.sellingPrice?.lowPrice} />
+                :
+                <span className="product-price__container">
+                  <FormattedPrice value={priceCaixa} />
+                  <span className="product-price__measurementUnit">/caixa</span>
+                </span>
+
+              }
             </p>
 
           </div>
         </div>
 
       )
-    } else if (discountClusterId == '1049') {
+    }
+    else if (discountClusterId == '1049') {
       return (
         // Preço com 5%
         <div className="product-price">

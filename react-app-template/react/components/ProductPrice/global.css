@@ -17,6 +17,10 @@
     align-items: center;
 }
 
+.product-price__container{
+  display: flex;
+}
+
 span.product-price__measurementUnit {
   color: #385a83;
   font-size: 14px;
