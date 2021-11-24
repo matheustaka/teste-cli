@@ -51,7 +51,6 @@
     "props": {},
     "children": [
       "flex-layout.row#selling-price-1",
-      // "condition-layout.product#custom-installment",
       "flex-layout.row#selling-price-2"
     ]
   },
