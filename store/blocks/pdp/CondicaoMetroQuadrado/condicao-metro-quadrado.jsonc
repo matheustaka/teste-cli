@@ -43,9 +43,16 @@
             "value": "M2"
           },
           "toBe": true
+        },
+        {
+          "subject": "categoryId",
+          "arguments": {
+            "id": 4726
+          },
+          "toBe": false
         }
       ],
-      "matchType": "any",
+      "matchType": "all",
       "Then": "ProductPrice",
       "Else": "condition-layout.product#preco-produto-a-vista"
     }
@@ -54,7 +61,6 @@
   "condition-layout.product#preco-produto-a-vista": {
     "props": {
       "conditions": [
-
         {
           "subject": "productId",
           "arguments": {
@@ -112,9 +118,16 @@
             "value": "M2"
           },
           "toBe": true
+        },
+        {
+          "subject": "categoryId",
+          "arguments": {
+            "id": 4726
+          },
+          "toBe": false
         }
       ],
-      "matchType": "any",
+      "matchType": "all",
       "Then": "rich-text#box-product",
       "Else": "rich-text#nohing"
     }
