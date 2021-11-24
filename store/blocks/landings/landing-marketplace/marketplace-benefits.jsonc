@@ -54,7 +54,7 @@
   },
   "image#mktplaceSac": {
     "props": {
-      "src": "assets/cassol-marketplace/headphone.png"
+      "src": "assets/images/cassol-marketplace/headphone.png"
     }
   },
   // DOLLAR
@@ -76,7 +76,7 @@
   },
   "image#mktplaceDollar": {
     "props": {
-      "src": "assets/cassol-marketplace/dollar.png"
+      "src": "assets/images/cassol-marketplace/dollar.png"
     }
   },
   // TORNADO
@@ -98,7 +98,7 @@
   },
   "image#mktplaceTornado": {
     "props": {
-      "src": "assets/cassol-marketplace/tornado.png"
+      "src": "assets/images/cassol-marketplace/tornado.png"
     }
   },
   "flex-layout.row#benefitsLeft-2": {
@@ -132,7 +132,7 @@
   },
   "image#mktplaceUserSpider": {
     "props": {
-      "src": "assets/cassol-marketplace/userSpider.png"
+      "src": "assets/images/cassol-marketplace/userSpider.png"
     }
   },
   // SHIELD
@@ -154,7 +154,7 @@
   },
   "image#mktplaceShield": {
     "props": {
-      "src": "assets/cassol-marketplace/shield.png"
+      "src": "assets/images/cassol-marketplace/shield.png"
     }
   },
   // BAG
@@ -176,7 +176,7 @@
   },
   "image#mktplaceBag": {
     "props": {
-      "src": "assets/cassol-marketplace/bag.png"
+      "src": "assets/images/cassol-marketplace/bag.png"
     }
   },
   "flex-layout.col#benefitsRight": {
@@ -193,7 +193,7 @@
   },
   "image#starMan": {
     "props": {
-      "src": "assets/cassol-marketplace/benefitsImage.png",
+      "src": "assets/images/cassol-marketplace/benefitsImage.png",
       "maxWidth": 296,
       "maxHeight": 430
     }

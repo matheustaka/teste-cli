@@ -123,7 +123,7 @@
   },
   "image#markteplace-banner": {
     "props": {
-      "src": "assets/cassol-marketplace/banner-home.jpg"
+      "src": "assets/images/cassol-marketplace/banner-home.jpg"
     }
   },
   "flex-layout.row# -advantages": {
@@ -187,7 +187,7 @@
   },
   "image#advantage-1": {
     "props": {
-      "src": "assets/cassol-marketplace/check.jpg",
+      "src": "assets/images/cassol-marketplace/check.jpg",
       "blockClass": [
         "advantages-icon"
       ]
@@ -212,7 +212,7 @@
   },
   "image#advantage-2": {
     "props": {
-      "src": "assets/cassol-marketplace/eye.jpg",
+      "src": "assets/images/cassol-marketplace/eye.jpg",
       "blockClass": [
         "advantages-icon"
       ]
@@ -237,7 +237,7 @@
   },
   "image#advantage-3": {
     "props": {
-      "src": "assets/cassol-marketplace/dashboard.jpg",
+      "src": "assets/images/cassol-marketplace/dashboard.jpg",
       "blockClass": [
         "advantages-icon"
       ]

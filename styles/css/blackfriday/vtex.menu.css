@@ -1,0 +1,21 @@
+:global(.vtex-flex-layout-0-x-flexRowContent--main-header-menu-desktop) .menuContainerNav {
+  background-color: #2a2a2a;
+}
+
+.submenuWrapper .menuContainerNav {
+  background-color: #fff;
+}
+.menuContainerNav .menuContainerNav--drop-category, :global(.vtex-flex-layout-0-x-flexRowContent--menu-row-footer) .menuContainerNav {
+  background-color: #fff;
+}
+.menuContainer .menuItem--last-department {
+  background-color: #ffb300;
+}
+
+.styledLinkContainer--have-children .styledLink--department {
+  color: #000;
+}
+
+.menuItem--department .submenuContainer .styledLinkContent {
+  color: #000;
+}

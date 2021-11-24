@@ -9,6 +9,21 @@
       "responsive-layout.phone#deals",
       "responsive-layout.tablet#deals-tablet",
       // Vitrine
+      "flex-layout.row#blackContainer"
+    ]
+  },
+
+
+  "flex-layout.row#blackContainer": {
+    "props": {
+      "blockClass": ["blackContent"]
+    },
+    "children": [
+      "flex-layout.col#blackContainer"
+    ]
+  },
+  "flex-layout.col#blackContainer": {
+    "children": [
       "rich-text#shelf-01",
       "flex-layout.row#shelf-01",
       "__fold__.mobile",
@@ -31,7 +46,7 @@
       "flex-layout.row#seo-container",
       "back-to-top-button"
     ]
-  },
+  } ,
   "list-context.image-list#banner-top": {
     "children": [
       "slider-layout#banner-topo"
@@ -205,7 +220,7 @@
   "rich-text#shelf-01": {
     "props": {
       "text": "## Produtos em Destaque",
-      "blockClass": "shelfTitle"
+      "blockClass": ["shelfTitle","blackTitle"]
     }
   },
   "flex-layout.row#shelf-01": {
@@ -454,7 +469,7 @@
   "rich-text#shelf-02": {
     "props": {
       "text": "## Acabaram de Chegar",
-      "blockClass": "shelfTitle"
+      "blockClass": ["shelfTitle","blackTitle"]
     }
   },
   "flex-layout.row#shelf-02": {
@@ -514,7 +529,7 @@
       "textAlignment": "center",
       "textPosition": "center",
       "blockClass": [
-        "richTextContainer"
+        "richTextContainer", "blackTitle"
       ]
     }
   },
@@ -598,7 +613,7 @@
   "rich-text#shelf-03": {
     "props": {
       "text": "## Última Oportunidade",
-      "blockClass": "shelfTitle"
+      "blockClass": ["shelfTitle","blackTitle"]
     }
   },
   "responsive-layout.desktop#shelf-03": {

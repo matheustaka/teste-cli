@@ -28,8 +28,8 @@
     "props": {
       "images": [
         {
-          "image": "assets/especial/blackfriday/main.png",
-          "mobileImage": "assets/especial/blackfriday/mainMobile.png"
+          "image": "assets/images/especial/blackfriday/main.png",
+          "mobileImage": "assets/images/especial/blackfriday/mainMobile.png"
         }
       ]
     }
@@ -93,7 +93,7 @@
   },
   "image#miniBannerBlack": {
     "props": {
-      "src": "assets/especial/blackfriday/mini.png",
+      "src": "assets/images/especial/blackfriday/mini.png",
       "blockClass": [
         "miniBannerBlack"
       ]
@@ -101,7 +101,7 @@
   },
   "image#miniBannerBlack-2": {
     "props": {
-      "src": "assets/especial/blackfriday/mini.png",
+      "src": "assets/images/especial/blackfriday/mini.png",
       "blockClass": [
         "miniBannerBlack"
       ]
@@ -109,7 +109,7 @@
   },
   "image#miniBannerBlack-3": {
     "props": {
-      "src": "assets/especial/blackfriday/mini.png",
+      "src": "assets/images/especial/blackfriday/mini.png",
       "blockClass": [
         "miniBannerBlack"
       ]
@@ -117,7 +117,7 @@
   },
   "image#miniBannerBlack-4": {
     "props": {
-      "src": "assets/especial/blackfriday/mini.png",
+      "src": "assets/images/especial/blackfriday/mini.png",
       "blockClass": [
         "miniBannerBlack"
       ]
@@ -125,7 +125,7 @@
   },
   "image#miniBannerBlack-5": {
     "props": {
-      "src": "assets/especial/blackfriday/mini.png",
+      "src": "assets/images/especial/blackfriday/mini.png",
       "blockClass": [
         "miniBannerBlack"
       ]
@@ -133,7 +133,7 @@
   },
   "image#miniBannerBlack-6": {
     "props": {
-      "src": "assets/especial/blackfriday/mini.png",
+      "src": "assets/images/especial/blackfriday/mini.png",
       "blockClass": [
         "miniBannerBlack"
       ]
@@ -225,22 +225,22 @@
   },
   "image#departmentBanner": {
     "props": {
-      "src": "assets/especial/blackfriday/departmentBanner.png"
+      "src": "assets/images/especial/blackfriday/departmentBanner.png"
     }
   },
   "image#departmentBanner-2": {
     "props": {
-      "src": "assets/especial/blackfriday/departmentBanner.png"
+      "src": "assets/images/especial/blackfriday/departmentBanner.png"
     }
   },
   "image#departmentBanner-3": {
     "props": {
-      "src": "assets/especial/blackfriday/departmentBanner.png"
+      "src": "assets/images/especial/blackfriday/departmentBanner.png"
     }
   },
   "image#departmentBanner-4": {
     "props": {
-      "src": "assets/especial/blackfriday/departmentBanner.png"
+      "src": "assets/images/especial/blackfriday/departmentBanner.png"
     }
   }
 }

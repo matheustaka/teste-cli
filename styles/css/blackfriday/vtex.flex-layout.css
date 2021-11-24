@@ -1,0 +1,39 @@
+.flexRow--main-header-menu-desktop {
+  background-color: #2a2a2a;
+}
+
+.flexRow--payment-security-desktop,
+.flexRow--menu-row-footer,
+.flexRow--text-footer,
+.flexRow--credits {
+  background-color: #fff;
+}
+
+.flexRowContent--seo-container {
+  padding-left: 0 10px;
+  padding-right: 1rem;
+  border-radius: 10px 10px 0 0;
+  border-bottom: none;
+}
+
+.flexRowContent--shelf-container {
+  border: solid 3px #d61016;
+  border-radius: 10px;
+  padding: 1rem;
+  background-color: #fff;
+}
+
+@media screen and (max-width: 1025px) {
+  .flexRowContent--shelf-container {
+    padding: 0;
+  }
+  .flexRowContent--seo-container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .flexRow--main-header-mobile-search-bar {
+    background-color: #1a1a1a;
+    padding: 10px 0;
+  }
+}

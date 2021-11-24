@@ -1,0 +1,29 @@
+.container--notification-bar {
+  background-color: #1a1a1a;
+}
+
+.paragraph--seo-texto {
+  color: #fff;
+}
+
+.link--seo-texto {
+  color: #ffb300;
+}
+
+.heading--seo-titulo {
+  color: #ffb300;
+}
+
+.heading--seo-subtitulo {
+  color: #fff;
+}
+
+.heading--shelfTitle::after {
+  content: none;
+}
+.wrapper--shelfTitle::after{
+  content: none;
+}
+.paragraph--titulo-menu-department {
+  color: #000;
+}

@@ -47,7 +47,7 @@
   },
   "image#faqImage": {
     "props": {
-      "src": "assets/cassol-marketplace/woman.png",
+      "src": "assets/images/cassol-marketplace/woman.png",
       "maxHeight": 600,
       "blockClass": ["mktplaceFaqImage"]
     }
