@@ -1,0 +1,32 @@
+{
+  "store.custom#especial-bannerConteudo": {
+    "blocks": [
+      "flex-layout.row#first"
+    ]
+  },
+  "flex-layout.row#bannerConteudo": {
+    "props": {
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "flex-layout.col#bannerConteudo-left"
+    ]
+  },
+  "flex-layout.col#bannerConteudo-left": {
+    "props": {
+      "blockClass": "aniverCol"
+    },
+    "children": [
+      "image#1"
+    ]
+  },
+  "image#bannerConteudoMain": {
+    "props": {
+      "src": "assets/images/exemplo-aniver-cassol.jpg",
+      "maxWidth": "610px",
+      "maxHeight": "360px"
+    }
+  }
+}

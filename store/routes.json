@@ -158,5 +158,8 @@
 
   "store.custom#especial-blackfriday": {
     "path": "/"
+  },
+  "store.custom#especial-bannerConteudo": {
+    "path": "/"
   }
 }

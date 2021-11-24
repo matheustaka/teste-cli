@@ -29,13 +29,6 @@
     "props": {
       "conditions": [
         {
-          "subject": "categoryId",
-          "arguments": {
-            "id": 4726
-          },
-          "toBe": false
-        },
-        {
           "subject": "specificationProperties",
           "arguments": {
             "name": "Unidade de Venda",
@@ -52,9 +45,9 @@
           "toBe": false
         }
       ],
-      "matchType": "all",
-      "Then": "condition-layout.product#preco-produto-a-vista",
-      "Else": "ProductPrice"
+      "matchType": "any",
+      "Then": "ProductPrice",
+      "Else": "condition-layout.product#preco-produto-a-vista"
     }
   },
   // Condição de exibição do preço à vista para determinada coleção
@@ -104,13 +97,6 @@
     "props": {
       "conditions": [
         {
-          "subject": "categoryId",
-          "arguments": {
-            "id": 4726
-          },
-          "toBe": false
-        },
-        {
           "subject": "specificationProperties",
           "arguments": {
             "name": "Unidade de Venda",
@@ -127,7 +113,7 @@
           "toBe": true
         }
       ],
-      "matchType": "all",
+      "matchType": "any",
       "Then": "rich-text#box-product",
       "Else": "rich-text#nohing"
     }
