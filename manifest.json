@@ -1,7 +1,7 @@
 {
   "vendor": "cassol",
   "name": "store-theme",
-  "version": "2.0.27",
+  "version": "2.0.28",
   "builders": {
     "assets": "0.x",
     "styles": "2.x",
