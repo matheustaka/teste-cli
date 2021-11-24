@@ -34,7 +34,7 @@
             "name": "Unidade de Venda",
             "value": "m²"
           },
-          "toBe": false
+          "toBe": true
         },
         {
           "subject": "specificationProperties",
@@ -42,7 +42,7 @@
             "name": "Unidade de Venda",
             "value": "M2"
           },
-          "toBe": false
+          "toBe": true
         }
       ],
       "matchType": "any",
