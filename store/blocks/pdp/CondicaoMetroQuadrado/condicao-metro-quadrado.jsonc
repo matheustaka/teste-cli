@@ -29,12 +29,19 @@
     "props": {
       "conditions": [
         {
+          "subject": "categoryId",
+          "arguments": {
+            "id": 4726
+          },
+          "toBe": false
+        },
+        {
           "subject": "specificationProperties",
           "arguments": {
             "name": "Unidade de Venda",
             "value": "m²"
           },
-          "toBe": true
+          "toBe": false
         },
         {
           "subject": "specificationProperties",
@@ -42,19 +49,12 @@
             "name": "Unidade de Venda",
             "value": "M2"
           },
-          "toBe": true
-        },
-        {
-          "subject": "categoryId",
-          "arguments": {
-            "id": 4726
-          },
           "toBe": false
         }
       ],
       "matchType": "all",
-      "Then": "ProductPrice",
-      "Else": "condition-layout.product#preco-produto-a-vista"
+      "Then": "condition-layout.product#preco-produto-a-vista",
+      "Else": "ProductPrice"
     }
   },
   // Condição de exibição do preço à vista para determinada coleção
@@ -104,6 +104,13 @@
     "props": {
       "conditions": [
         {
+          "subject": "categoryId",
+          "arguments": {
+            "id": 4726
+          },
+          "toBe": false
+        },
+        {
           "subject": "specificationProperties",
           "arguments": {
             "name": "Unidade de Venda",
@@ -118,13 +125,6 @@
             "value": "M2"
           },
           "toBe": true
-        },
-        {
-          "subject": "categoryId",
-          "arguments": {
-            "id": 4726
-          },
-          "toBe": false
         }
       ],
       "matchType": "all",
