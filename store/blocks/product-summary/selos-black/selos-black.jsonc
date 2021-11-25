@@ -23,11 +23,12 @@
   },
   "image#seloBlack": {
     "props": {
-      "src": "assets/images/black10.png"
+      "src": "assets/images/selosBlack/black10.png",
+      "blockClass": [
+        "customBadge"
+      ]
     }
   },
-
-
   "vtex.product-highlights@2.x:product-highlights#seloBlack-2": {
     "props": {
       "type": "collection",
@@ -52,7 +53,10 @@
   },
   "image#seloBlack-2": {
     "props": {
-      "src": "assets/images/black15.png"
+      "src": "assets/images/selosBlack/black15.png",
+      "blockClass": [
+        "customBadge"
+      ]
     }
   },
   "vtex.product-highlights@2.x:product-highlights#seloBlack-3": {
@@ -60,7 +64,7 @@
       "type": "collection",
       "filter": {
         "highlightNames": [
-          "Selo Cupom BLACK15"
+          "Selo Cupom BLACK20"
         ],
         "type": "show"
       }
@@ -79,7 +83,351 @@
   },
   "image#seloBlack-3": {
     "props": {
-      "src": "assets/images/black20.png"
+      "src": "assets/images/selosBlack/black20.png",
+      "blockClass": [
+        "customBadge"
+      ]
+    }
+  },
+  // Instalação Grátis
+  "vtex.product-highlights@2.x:product-highlights#seloBlack-4": {
+    "props": {
+      "type": "collection",
+      "filter": {
+        "highlightNames": [
+          "Selo Instalação Grátis"
+        ],
+        "type": "show"
+      }
+    },
+    "children": [
+      "product-highlight-wrapper#selo-black-4"
+    ]
+  },
+  "product-highlight-wrapper#selo-black-4": {
+    "props": {
+      "blockClass": "blackCollection"
+    },
+    "children": [
+      "image#seloBlack-4"
+    ]
+  },
+  "image#seloBlack-4": {
+    "props": {
+      "src": "assets/images/selosBlack/instalacaoGratis.png",
+      "blockClass": [
+        "customBadge"
+      ]
+    }
+  },
+  // Frete Grátis
+  "vtex.product-highlights@2.x:product-highlights#seloBlack-5": {
+    "props": {
+      "type": "collection",
+      "filter": {
+        "highlightNames": [
+          "Selo Frete Grátis"
+        ],
+        "type": "show"
+      }
+    },
+    "children": [
+      "product-highlight-wrapper#selo-black-5"
+    ]
+  },
+  "product-highlight-wrapper#selo-black-5": {
+    "props": {
+      "blockClass": "blackCollection"
+    },
+    "children": [
+      "image#seloBlack-5"
+    ]
+  },
+  "image#seloBlack-5": {
+    "props": {
+      "src": "assets/images/selosBlack/freteGratis.png",
+      "blockClass": [
+        "customBadge"
+      ]
+    }
+  },
+  // Selos 5mm
+  "vtex.product-highlights@2.x:product-highlights#seloBlack-6": {
+    "props": {
+      "type": "collection",
+      "filter": {
+        "highlightNames": [
+          "Selo 5mm"
+        ],
+        "type": "show"
+      }
+    },
+    "children": [
+      "product-highlight-wrapper#selo-black-6"
+    ]
+  },
+  "product-highlight-wrapper#selo-black-6": {
+    "props": {
+      "blockClass": "blackCollection"
+    },
+    "children": [
+      "image#seloBlack-6"
+    ]
+  },
+  "image#seloBlack-6": {
+    "props": {
+      "src": "assets/images/selosBlack/5mm.png",
+      "blockClass": [
+        "customBadge"
+      ]
+    }
+  },
+  // Selos 6mm
+  "vtex.product-highlights@2.x:product-highlights#seloBlack-7": {
+    "props": {
+      "type": "collection",
+      "filter": {
+        "highlightNames": [
+          "Selo 6mm"
+        ],
+        "type": "show"
+      }
+    },
+    "children": [
+      "product-highlight-wrapper#selo-black-7"
+    ]
+  },
+  "product-highlight-wrapper#selo-black-7": {
+    "props": {
+      "blockClass": "blackCollection"
+    },
+    "children": [
+      "image#seloBlack-7"
+    ]
+  },
+  "image#seloBlack-7": {
+    "props": {
+      "src": "assets/images/selosBlack/6mm.png",
+      "blockClass": [
+        "customBadge"
+      ]
+    }
+  },
+  // Selo Black Friday
+  "vtex.product-highlights@2.x:product-highlights#seloBlack-8": {
+    "props": {
+      "type": "collection",
+      "filter": {
+        "highlightNames": [
+          "Selo Black Friday"
+        ],
+        "type": "show"
+      }
+    },
+    "children": [
+      "product-highlight-wrapper#selo-black-8"
+    ]
+  },
+  "product-highlight-wrapper#selo-black-8": {
+    "props": {
+      "blockClass": "blackCollection"
+    },
+    "children": [
+      "image#seloBlack-8"
+    ]
+  },
+  "image#seloBlack-8": {
+    "props": {
+      "src": "assets/images/selosBlack/black.png",
+      "blockClass": [
+        "customBadge"
+      ]
+    }
+  },
+  // Selo Black Friday Prorrogado
+  "vtex.product-highlights@2.x:product-highlights#seloBlack-9": {
+    "props": {
+      "type": "collection",
+      "filter": {
+        "highlightNames": [
+          "Selo Black Friday"
+        ],
+        "type": "show"
+      }
+    },
+    "children": [
+      "product-highlight-wrapper#selo-black-9"
+    ]
+  },
+  "product-highlight-wrapper#selo-black-9": {
+    "props": {
+      "blockClass": "blackCollection"
+    },
+    "children": [
+      "image#seloBlack-9"
+    ]
+  },
+  "image#seloBlack-9": {
+    "props": {
+      "src": "assets/images/selosBlack/black.png",
+      "blockClass": [
+        "customBadge"
+      ]
+    }
+  },
+  // Selo Black Friday Prorrogado
+  "vtex.product-highlights@2.x:product-highlights#seloBlack-10": {
+    "props": {
+      "type": "collection",
+      "filter": {
+        "highlightNames": [
+          "Selo Prorrogado Black Friday"
+        ],
+        "type": "show"
+      }
+    },
+    "children": [
+      "product-highlight-wrapper#selo-black-10"
+    ]
+  },
+  "product-highlight-wrapper#selo-black-10": {
+    "props": {
+      "blockClass": "blackCollection"
+    },
+    "children": [
+      "image#seloBlack-10"
+    ]
+  },
+  "image#seloBlack-10": {
+    "props": {
+      "src": "assets/images/selosBlack/blackProrrogado.png",
+      "blockClass": [
+        "customBadge"
+      ]
+    }
+  },
+  // Selo Compre e Ganhe
+  "vtex.product-highlights@2.x:product-highlights#seloBlack-11": {
+    "props": {
+      "type": "collection",
+      "filter": {
+        "highlightNames": [
+          "Selo Compre e Ganhe"
+        ],
+        "type": "show"
+      }
+    },
+    "children": [
+      "product-highlight-wrapper#selo-black-11"
+    ]
+  },
+  "product-highlight-wrapper#selo-black-11": {
+    "props": {
+      "blockClass": "blackCollection"
+    },
+    "children": [
+      "image#seloBlack-11"
+    ]
+  },
+  "image#seloBlack-11": {
+    "props": {
+      "src": "assets/images/selosBlack/compreGanhe.png",
+      "blockClass": [
+        "customBadge"
+      ]
+    }
+  },
+  // Selo Leve 6
+  "vtex.product-highlights@2.x:product-highlights#seloBlack-12": {
+    "props": {
+      "type": "collection",
+      "filter": {
+        "highlightNames": [
+          "Selo Leve 6 Pague 5"
+        ],
+        "type": "show"
+      }
+    },
+    "children": [
+      "product-highlight-wrapper#selo-black-12"
+    ]
+  },
+  "product-highlight-wrapper#selo-black-12": {
+    "props": {
+      "blockClass": "blackCollection"
+    },
+    "children": [
+      "image#seloBlack-12"
+    ]
+  },
+  "image#seloBlack-12": {
+    "props": {
+      "src": "assets/images/selosBlack/leve6.png",
+      "blockClass": [
+        "customBadge"
+      ]
+    }
+  },
+  // Selo Leve 10
+  "vtex.product-highlights@2.x:product-highlights#seloBlack-13": {
+    "props": {
+      "type": "collection",
+      "filter": {
+        "highlightNames": [
+          "Selo Leve 10 Pague 9"
+        ],
+        "type": "show"
+      }
+    },
+    "children": [
+      "product-highlight-wrapper#selo-black-13"
+    ]
+  },
+  "product-highlight-wrapper#selo-black-13": {
+    "props": {
+      "blockClass": "blackCollection"
+    },
+    "children": [
+      "image#seloBlack-13"
+    ]
+  },
+  "image#seloBlack-13": {
+    "props": {
+      "src": "assets/images/selosBlack/leve10.png",
+      "blockClass": [
+        "customBadge"
+      ]
+    }
+  },
+  // Selo Leve 11
+  "vtex.product-highlights@2.x:product-highlights#seloBlack-14": {
+    "props": {
+      "type": "collection",
+      "filter": {
+        "highlightNames": [
+          "Selo Leve 11 Pague 10"
+        ],
+        "type": "show"
+      }
+    },
+    "children": [
+      "product-highlight-wrapper#selo-black-14"
+    ]
+  },
+  "product-highlight-wrapper#selo-black-14": {
+    "props": {
+      "blockClass": "blackCollection"
+    },
+    "children": [
+      "image#seloBlack-14"
+    ]
+  },
+  "image#seloBlack-14": {
+    "props": {
+      "src": "assets/images/selosBlack/leve11.png",
+      "blockClass": [
+        "customBadge"
+      ]
     }
   }
 }

@@ -1,6 +1,49 @@
-.productHighlightWrapper--collection{display:flex;justify-content:flex-end;margin-right:0}.productHighlightText--summary{align-items:center;background:#184077;border-radius:5px;color:#fff;display:flex;font-size:.7rem;font-weight:700;height:40px;justify-content:center;line-height:15px;margin-right:5px;margin-left:0;margin-bottom:2px;padding:0 5px;min-width:45px;text-align:center;width:auto!important;z-index:10}@media (max-width:600px){.productHighlightText--summary{display:flex;height:25px;padding:0 2px;margin-right:5px}}
+.productHighlightWrapper--collection {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 0;
+}
+.productHighlightText--summary {
+  align-items: center;
+  background: #184077;
+  border-radius: 5px;
+  color: #fff;
+  display: flex;
+  font-size: 0.7rem;
+  font-weight: 700;
+  height: 40px;
+  justify-content: center;
+  line-height: 15px;
+  margin-right: 5px;
+  margin-left: 0;
+  margin-bottom: 2px;
+  padding: 0 5px;
+  min-width: 45px;
+  text-align: center;
+  width: auto !important;
+  z-index: 10;
+}
+@media (max-width: 600px) {
+  .productHighlightText--summary {
+    display: flex;
+    height: 25px;
+    padding: 0 2px;
+    margin-right: 5px;
+  }
+}
 
-
-[data-highlight-id="1330"].productHighlightText, [data-highlight-id="1331"].productHighlightText, [data-highlight-id="1332"].productHighlightText{
+[data-highlight-id="1330"].productHighlightText,
+[data-highlight-id="1331"].productHighlightText,
+[data-highlight-id="1332"].productHighlightText,
+[data-highlight-id="1317"].productHighlightText,
+[data-highlight-id="1318"].productHighlightText,
+[data-highlight-id="1319"].productHighlightText,
+[data-highlight-id="1320"].productHighlightText,
+[data-highlight-id="1321"].productHighlightText,
+[data-highlight-id="1322"].productHighlightText,
+[data-highlight-id="1323"].productHighlightText,
+[data-highlight-id="1324"].productHighlightText,
+[data-highlight-id="1325"].productHighlightText,
+[data-highlight-id="1326"].productHighlightText {
   display: none;
 }
