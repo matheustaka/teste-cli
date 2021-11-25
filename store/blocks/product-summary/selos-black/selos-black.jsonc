@@ -245,37 +245,6 @@
     }
   },
   // Selo Black Friday Prorrogado
-  "vtex.product-highlights@2.x:product-highlights#seloBlack-9": {
-    "props": {
-      "type": "collection",
-      "filter": {
-        "highlightNames": [
-          "Selo Black Friday"
-        ],
-        "type": "show"
-      }
-    },
-    "children": [
-      "product-highlight-wrapper#selo-black-9"
-    ]
-  },
-  "product-highlight-wrapper#selo-black-9": {
-    "props": {
-      "blockClass": "blackCollection"
-    },
-    "children": [
-      "image#seloBlack-9"
-    ]
-  },
-  "image#seloBlack-9": {
-    "props": {
-      "src": "assets/images/selosBlack/black.png",
-      "blockClass": [
-        "customBadge"
-      ]
-    }
-  },
-  // Selo Black Friday Prorrogado
   "vtex.product-highlights@2.x:product-highlights#seloBlack-10": {
     "props": {
       "type": "collection",
