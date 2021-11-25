@@ -23,6 +23,9 @@
   background-color: #fff;
 }
 
+.flexRowContent--searchtitle :global(.vtex-search-result-3-x-galleryTitle--layout) {
+  color: #000;
+}
 @media screen and (max-width: 1025px) {
   .flexRowContent--shelf-container {
     padding: 0;
