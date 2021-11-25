@@ -24,6 +24,6 @@
 .wrapper--shelfTitle::after{
   content: none;
 }
-.paragraph--titulo-menu-department {
+.paragraph--titulo-menu-department, .heading--seoTrigger {
   color: #000;
 }

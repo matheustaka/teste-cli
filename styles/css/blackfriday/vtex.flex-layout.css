@@ -23,7 +23,7 @@
   background-color: #fff;
 }
 
-.flexRowContent--searchtitle :global(.vtex-search-result-3-x-galleryTitle--layout) {
+.flexRowContent--searchtitle :global(.vtex-search-result-3-x-galleryTitle--layout), .flexRowContent--searchTriggerRow {
   color: #000;
 }
 @media screen and (max-width: 1025px) {
