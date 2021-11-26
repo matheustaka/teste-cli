@@ -1,5 +1,5 @@
 @media screen and (max-width: 768px) {
-  .savings--summary {
+  :global(.vtex-stack-layout-0-x-stackItem--product-badges) .savings--summary {
     position: static !important;
   }
 }

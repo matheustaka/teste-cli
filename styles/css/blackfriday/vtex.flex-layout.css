@@ -65,6 +65,11 @@
   }
 
   .flexRowContent--highlightsAll {
-    height: 125px;
+    height: 60%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .flexRowContent--highlightsAll {
+    height: 50%;
   }
 }
