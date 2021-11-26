@@ -5,7 +5,9 @@
 
 @media screen and (max-width: 768px) {
   .imageElement--customBadge {
-    max-width: 40px;
+    max-width: 45px;
+    max-height: 45px;
+    margin-right: 5px;
     bottom: -60px;
   }
 }
