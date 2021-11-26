@@ -1,1 +1,8 @@
 .stackItem--product{width:100%}.stackItem--quickview{right:0;top:0;left:auto}.stackItem--highlightsAll{left:auto;right:0}.stackContainer--product::after{color:#707070;content:"Imagem meramente ilustrativa";display:block;font-size:10px;margin-top:20px;text-align:center}.stackItem--product-badges :global(.vtex-flex-layout-0-x-flexRowContent--highlightsAll){flex-wrap:nowrap}.stackItem--product-badges :global(.vtex-flex-layout-0-x-flexRowContent--highlightsAll) :global(.vtex-flex-layout-0-x-stretchChildrenWidth){padding:0}.stackItem--product-badges :global(.vtex-flex-layout-0-x-flexRow--highlightsAll) :global(.vtex-flex-layout-0-x-flexRowContent--badges) :global(.vtex-product-highlights-2-x-productHighlightWrapper){width:max-content!important}@media(max-width:1025px){.stackItem--product.stackItem--first.stackItem--product--first{margin-bottom:12px}}@media(min-width:992.98px){.stackContainer--product::after{margin-left:20%}}
+
+/* black */
+
+.stackContainer--product :global(.vtex-wish-list-1-x-wishlistIconContainer) {
+  position: static;
+}
+

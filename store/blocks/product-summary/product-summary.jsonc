@@ -52,9 +52,37 @@
   },
   "flex-layout.row#highlights": {
     "children": [
+      "flex-layout.col#add-to-list",
+      "flex-layout.col#savings",
+      "flex-layout.col#selos"
+    ],
+    "props": {
+      "colSizing": "auto",
+      "blockClass": [
+        "highlightsAll",
+        "badges"
+      ]
+    }
+  },
+  "flex-layout.col#add-to-list": {
+    "children": [
+      "add-to-list-btn"
+    ],
+    "props": {
+      "colSizing": "auto"
+    }
+  },
+  "flex-layout.col#savings": {
+    "children": [
+      "product-price-savings#summary"
+    ],
+    "props": {
+      "colSizing": "auto"
+    }
+  },
+  "flex-layout.col#selos": {
+    "children": [
       "vtex.product-highlights@2.x:product-highlights#collection",
-      "product-price-savings#summary",
-      "add-to-list-btn",
       "vtex.product-highlights@2.x:product-highlights#seloBlack",
       "vtex.product-highlights@2.x:product-highlights#seloBlack-2",
       "vtex.product-highlights@2.x:product-highlights#seloBlack-3",
@@ -70,11 +98,8 @@
       "vtex.product-highlights@2.x:product-highlights#seloBlack-14"
     ],
     "props": {
-      "colSizing": "auto",
-      "blockClass": [
-        "highlightsAll",
-        "badges"
-      ]
+      "width":"100%",
+      "blockClass": ["selosContainer"]
     }
   },
   "vtex.product-highlights@2.x:product-highlights#collection": {
