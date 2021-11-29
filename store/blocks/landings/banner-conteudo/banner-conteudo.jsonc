@@ -1,7 +1,7 @@
 {
   "store.custom#especial-bannerConteudo": {
     "blocks": [
-      "flex-layout.row#first"
+      "flex-layout.row#bannerConteudo"
     ]
   },
   "flex-layout.row#bannerConteudo": {
@@ -19,14 +19,12 @@
       "blockClass": "aniverCol"
     },
     "children": [
-      "image#1"
+      "image#bannerConteudoMain"
     ]
   },
   "image#bannerConteudoMain": {
     "props": {
-      "src": "assets/images/exemplo-aniver-cassol.jpg",
-      "maxWidth": "610px",
-      "maxHeight": "360px"
+      "src": "assets/images/exemplo-aniver-cassol.jpg"
     }
   }
 }
