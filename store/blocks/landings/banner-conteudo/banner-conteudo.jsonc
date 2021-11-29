@@ -19,12 +19,38 @@
       "blockClass": "aniverCol"
     },
     "children": [
-      "image#bannerConteudoMain"
+      "list-context.image-list#bannerConteudo"
     ]
   },
   "image#bannerConteudoMain": {
     "props": {
       "src": "assets/images/exemplo-aniver-cassol.jpg"
+    }
+  },
+  "list-context.image-list#bannerConteudo": {
+    "children": [
+      "slider-layout#bannerConteudo"
+    ],
+    "props": {
+      "preload": true,
+      "images": [
+        {
+          "image": "assets/images/exemplo-aniver-cassol.jpg",
+          "mobileImage": "assets/images/exemplo-aniver-cassol.jpg",
+          "description": "something something"
+        }
+      ]
+    }
+  },
+  "slider-layout#bannerConteudo": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "showNavigationArrows": "never",
+      "showPaginationDots": "never"
     }
   }
 }
