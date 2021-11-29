@@ -29,7 +29,7 @@
   },
   "list-context.image-list#main": {
     "children": [
-      "slider-layout#banner-principal"
+      "slider-layout#bannerPrincipalClimatizacao"
     ],
     "props": {
       "images": [
@@ -38,6 +38,20 @@
           "mobileImage": "assets/images/especial/climatizacao/mainMobile.jpg"
         }
       ]
+    }
+  },
+
+  "slider-layout#bannerPrincipalClimatizacao": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "stopOnHover": true,
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "banner-principal"
     }
   },
   "flex-layout.row#mainMiniBanners": {
