@@ -9,7 +9,27 @@
       "responsive-layout.phone#deals",
       "responsive-layout.tablet#deals-tablet",
       // Vitrine
-      "flex-layout.row#blackContainer"
+      "rich-text#shelf-01",
+      "flex-layout.row#shelf-01",
+      "__fold__.mobile",
+      "__fold__.desktop",
+      "sticky-layout#sticky-newsletter",
+      "flex-layout.row#whatsContainer",
+      // Banners
+      "list-context.image-list#slide",
+      // Vitrine
+      "rich-text#shelf-02",
+      "flex-layout.row#shelf-02",
+      // Mini banners
+      "responsive-layout.desktop#mini-banners-desk",
+      "responsive-layout.phone#mini-banners-mobile",
+      "responsive-layout.tablet#mini-banners-tablet",
+      // Vitrine
+      "rich-text#shelf-03",
+      "flex-layout.row#vitrine-03",
+      // Texto Seo
+      "flex-layout.row#seo-container",
+      "back-to-top-button"
     ]
   },
 
@@ -220,7 +240,7 @@
   "rich-text#shelf-01": {
     "props": {
       "text": "## Produtos em Destaque",
-      "blockClass": ["shelfTitle","blackTitle"]
+      "blockClass": ["shelfTitle"]
     }
   },
   "flex-layout.row#shelf-01": {
@@ -469,7 +489,7 @@
   "rich-text#shelf-02": {
     "props": {
       "text": "## Acabaram de Chegar",
-      "blockClass": ["shelfTitle","blackTitle"]
+      "blockClass": ["shelfTitle"]
     }
   },
   "flex-layout.row#shelf-02": {
@@ -529,7 +549,7 @@
       "textAlignment": "center",
       "textPosition": "center",
       "blockClass": [
-        "richTextContainer", "blackTitle"
+        "richTextContainer"
       ]
     }
   },
@@ -613,7 +633,7 @@
   "rich-text#shelf-03": {
     "props": {
       "text": "## Última Oportunidade",
-      "blockClass": ["shelfTitle","blackTitle"]
+      "blockClass": ["shelfTitle"]
     }
   },
   "responsive-layout.desktop#shelf-03": {
