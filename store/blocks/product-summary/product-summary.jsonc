@@ -54,20 +54,7 @@
     "children": [
       "vtex.product-highlights@2.x:product-highlights#collection",
       "product-price-savings#summary",
-      "add-to-list-btn",
-      "vtex.product-highlights@2.x:product-highlights#seloBlack",
-      "vtex.product-highlights@2.x:product-highlights#seloBlack-2",
-      "vtex.product-highlights@2.x:product-highlights#seloBlack-3",
-      "vtex.product-highlights@2.x:product-highlights#seloBlack-4",
-      "vtex.product-highlights@2.x:product-highlights#seloBlack-5",
-      "vtex.product-highlights@2.x:product-highlights#seloBlack-6",
-      "vtex.product-highlights@2.x:product-highlights#seloBlack-7",
-      "vtex.product-highlights@2.x:product-highlights#seloBlack-8",
-      "vtex.product-highlights@2.x:product-highlights#seloBlack-10",
-      "vtex.product-highlights@2.x:product-highlights#seloBlack-11",
-      "vtex.product-highlights@2.x:product-highlights#seloBlack-12",
-      "vtex.product-highlights@2.x:product-highlights#seloBlack-13",
-      "vtex.product-highlights@2.x:product-highlights#seloBlack-14"
+      "add-to-list-btn"
     ],
     "props": {
       "colSizing": "auto",
@@ -85,7 +72,11 @@
           "Coleção 10 produtos",
           "10%",
           "5%",
-          "Teste coleções"
+          "Teste coleções",
+          "USE BLACK20",
+          "USE BLACK15",
+          "Use BLACK10",
+          "Use BLACK5"
         ],
         "type": "hide"
       }
