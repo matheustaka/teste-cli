@@ -106,6 +106,7 @@
       "flex-layout.row#our-stores--sc-store-13",
       "flex-layout.row#our-stores--sc-store-14",
       "flex-layout.row#our-stores--sc-store-15",
+      "flex-layout.row#our-stores--sc-store-16",
       "rich-text#our-stores--rs",
       "flex-layout.row#our-stores--rs-store-1",
       "flex-layout.row#our-stores--rs-store-2",
@@ -842,6 +843,19 @@
       "preventVerticalStretch": true
     }
   },
+  // flex nova loja 16
+  "flex-layout.row#our-stores--sc-store-16": {
+    "children": [
+      "image#our-stores--sc-logo-16",
+      "rich-text#our-stores--sc-funcionamento-16",
+      "rich-text#our-stores--sc-endereco-16",
+      "rich-text#our-stores--sc-google-16"
+    ],
+    "props": {
+      "blockClass": "lojas",
+      "preventVerticalStretch": true
+    }
+  },
 
   "flex-layout.col#our-stores--sc-store-14": {
     "children": [
@@ -882,6 +896,15 @@
       "maxHeight": 27
     }
   },
+  // location icon nova loja
+  "image#our-stores--sc-logo-16": {
+    "props": {
+      "src": "https://cassol.vtexassets.com/arquivos/nossas-lojas.png",
+      "blockClass": ["icon-nossas-lojas"],
+      "maxWidth": 22,
+      "maxHeight": 27
+    }
+  },
 
   "rich-text#our-stores--sc-funcionamento-14": {
     "props": {
@@ -892,6 +915,13 @@
   "rich-text#our-stores--sc-funcionamento-15": {
     "props": {
       "text": "**Lages** \n Segunda a Sábado: 8h às 19h  \n Domingos e Feriados : 10h às 19h",
+      "blockClass": ["aboutContent", "funcionamento"]
+    }
+  },
+  // horario funcionamento
+  "rich-text#our-stores--sc-funcionamento-16": {
+    "props": {
+      "text": "**Jaraguá do Sul** \n Segunda a Sábado: 8h às 21h  \n Domingos e Feriados : 10h às 19h",
       "blockClass": ["aboutContent", "funcionamento"]
     }
   },
@@ -909,6 +939,14 @@
     }
   },
 
+  // endereço nova loja
+  "rich-text#our-stores--sc-endereco-16": {
+    "props": {
+      "text": "**(48) 4001-1515** \n  Rua Walter Marquardt, 1400 - Barra do Rio Molha, Jaraguá do Sul - SC, \n CEP: 89259-565",
+      "blockClass": ["aboutContent", "endereco"]
+    }
+  },
+
   "rich-text#our-stores--sc-google-14": {
     "props": {
       "text": "<a href='https://goo.gl/maps/oe78ZVAXQMQA6osw7' target='_blank'>abrir no google</a>",
@@ -918,6 +956,14 @@
   "rich-text#our-stores--sc-google-15": {
     "props": {
       "text": "<a href='https://goo.gl/maps/xJZwCD92R22EyWqZ8' target='_blank'>abrir no google</a>",
+      "blockClass": "google-button"
+    }
+  },
+
+  // BTN GOOGLE NOVA LOJA
+  "rich-text#our-stores--sc-google-16": {
+    "props": {
+      "text": "<a href='https://goo.gl/maps/qNhHkKbVNujh2SjQ8' target='_blank'>abrir no google</a>",
       "blockClass": "google-button"
     }
   },
