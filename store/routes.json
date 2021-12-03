@@ -161,5 +161,8 @@
   },
   "store.custom#especial-bannerConteudo": {
     "path": "/"
+  },
+  "store.custom#lp-natal": {
+    "path":"/"
   }
 }
